@@ -1,4 +1,4 @@
-﻿// ESG 快讯 — 内容数据与类型定义
+﻿// ESG Compass — 内容数据与类型定义
 // 优先从 data/contents.json 读取，无文件时降级到硬编码 mock 数据
 
 import { readFileSync, existsSync } from "node:fs";

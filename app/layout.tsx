@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: { default: "ESG 快讯", template: "%s ｜ ESG 快讯" },
+  title: { default: "ESG Compass", template: "%s ｜ ESG Compass" },
   description: "3 分钟扫完当下全球 ESG 变化趋势，找到重点领域的原文与解读",
 };
 
@@ -17,7 +17,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               <span className="flex h-7 w-7 items-center justify-center rounded-md border-2 border-dashed border-line-strong text-[10px] text-ink-faint bg-surface" title="Logo 待 AI design 生成">
                 ?
               </span>
-              <span className="text-[15px] font-semibold tracking-wide text-ink">ESG 快讯</span>
+              <span className="text-[15px] font-semibold tracking-wide text-ink">ESG Compass</span>
             </Link>
             <span className="ml-auto hidden text-[12px] text-ink-faint sm:block">全球 ESG 趋势与解读</span>
           </div>
