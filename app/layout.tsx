@@ -13,7 +13,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body className="font-sans antialiased">
         <header className="sticky top-0 z-10 border-b border-line bg-surface">
           <div className="mx-auto flex h-14 w-full max-w-6xl items-center gap-3 px-6 lg:px-10">
-            <nav className="flex items-center gap-6">
+            <nav className="flex items-center gap-2">
             <Link href="/" className="flex items-center gap-2.5">
               <span className="flex h-7 w-7 items-center justify-center rounded-md border-2 border-dashed border-line-strong text-[10px] text-ink-faint bg-surface" title="Logo 待 AI design 生成">
                 ?
