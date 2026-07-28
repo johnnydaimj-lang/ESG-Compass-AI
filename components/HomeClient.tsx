@@ -25,17 +25,17 @@ export default function HomeClient({ contents }: Props) {
         </p>
       </section>
       <section>
-        <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+        <div className="mb-4 flex items-center justify-between gap-3">
           <h2 className="text-lg font-semibold text-ink">重点分析/解读</h2>
-          <div className="flex gap-1 rounded-lg border border-line bg-surface p-1">
+          <div className="flex gap-1 overflow-x-auto rounded-lg border border-line bg-surface p-1 scrollbar-thin">
             {TABS.map((t) => (
               <button key={t} onClick={() => setTab(t)}
-                className={`rounded-md px-3 py-1.5 text-[12.5px] transition-colors ${tab === t ? "bg-brand font-medium text-surface" : "text-ink-soft hover:text-ink"}`}>{t}</button>
+                className={`shrink-0 rounded-md px-3 py-1.5 text-[12.5px] transition-colors ${tab === t ? "bg-brand font-medium text-surface" : "text-ink-soft hover:text-ink"}`}>{t}</button>
             ))}
           </div>
         </div>
         {visible.length > 0 ? (
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
             {visible.map((item, i) => <ContentCard key={item.id} item={item} headline={i === 0} />)}
           </div>
         ) : (
