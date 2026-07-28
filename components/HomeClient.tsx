@@ -56,17 +56,13 @@ export default function HomeClient({ contents }: Props) {
       {/* Timeline */}
       {grouped.length > 0 ? (
         <div className="relative">
-          {/* Vertical line */}
-          <div className="absolute left-[14px] top-2 h-[calc(100%-16px)] w-px bg-line-strong" aria-hidden />
-
           {grouped.map(([date, items]) => (
             <div key={date} className="mb-10 last:mb-0">
-              {/* Date header with timeline dot */}
+              {/* Date divider */}
               <div className="relative mb-4 flex items-center gap-4">
-                <div className="relative z-10 flex h-7 w-7 items-center justify-center rounded-full bg-brand text-[11px] font-semibold text-surface">
-                  <time dateTime={date} className="sr-only">{date}</time>
-                </div>
-                <time dateTime={date} className="text-[12px] font-mono font-medium tracking-wide text-ink-faint">{date}</time>
+                <div className="h-px flex-1 bg-line-strong" />
+                <time dateTime={date} className="shrink-0 text-[11px] font-mono font-medium tracking-wide text-ink-faint">{date}</time>
+                <div className="h-px flex-1 bg-line-strong" />
               </div>
 
               {/* Events for this date */}
@@ -78,6 +74,7 @@ export default function HomeClient({ contents }: Props) {
                       className="group block rounded-lg border border-line bg-surface p-5 transition-all hover:-translate-y-0.5 hover:border-brand-line hover:shadow-md">
                       {/* Badges row */}
                       <div className="mb-2 flex flex-wrap items-center gap-1.5 text-[11px] font-medium">
+                        <span className="absolute left-0 top-0 h-full w-[3px] rounded-l-lg bg-brand" aria-hidden />
                         <span className={`rounded px-1.5 py-0.5 ${TYPE_STYLES[item.contentType]}`}>{item.contentType}</span>
                         <span className="inline-flex items-center gap-1 text-ink-faint"><MapPin size={11} />{item.region}</span>
                         <a href={item.sourceUrl} target="_blank" rel="noreferrer"
