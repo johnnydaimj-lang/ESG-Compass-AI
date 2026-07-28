@@ -20,8 +20,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               </span>
               <span className="text-[15px] font-semibold tracking-wide text-ink">ESG Compass</span>
             </Link>
-            <span className="ml-auto hidden text-[12px] text-ink-faint sm:block">全球 ESG 趋势与解读</span>
-            <Link href="/zones" className="hidden rounded-md px-3 py-1.5 text-[13px] font-medium text-ink-soft transition-colors hover:bg-brand-soft hover:text-brand-deep sm:block">知识专区</Link>
+            <div className="flex-1" />
+            <Link href="/" className="rounded-md px-3 py-1.5 text-[13px] font-medium text-ink-soft transition-colors hover:bg-brand-soft hover:text-brand-deep">ESG快讯</Link>
+            <Link href="/zones" className="rounded-md px-3 py-1.5 text-[13px] font-medium text-ink-soft transition-colors hover:bg-brand-soft hover:text-brand-deep">知识专区</Link>
           </nav>
           </div>
         </header>
