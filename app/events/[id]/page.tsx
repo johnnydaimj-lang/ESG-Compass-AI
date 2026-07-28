@@ -15,7 +15,7 @@ export default async function EventDetailPage({ params }: Props) {
   const { id } = await params; const item = getContentById(id);
   if (!item) notFound();
   return (
-    <article className="mx-auto max-w-3xl">
+    <article className="mx-auto max-w-3xl pb-16">
       <Link href="/" className="mb-6 inline-flex items-center gap-1.5 text-[13px] text-ink-soft transition-colors hover:text-brand-deep">
         <ArrowLeft size={14} />返回今日重点
       </Link>
@@ -28,8 +28,7 @@ export default async function EventDetailPage({ params }: Props) {
       <h1 className="mb-6 text-2xl leading-snug font-semibold tracking-tight text-ink">{item.title}</h1>
       <div className="mb-8 flex flex-wrap items-center gap-3 rounded-lg border border-line bg-surface px-5 py-4">
         <div className="text-[13px] text-ink-soft">来源：<span className="font-medium text-ink">{item.sourceName}</span></div>
-        <a href={item.sourceUrl} target="_blank" rel="noreferrer"
-          className="ml-auto inline-flex items-center gap-1.5 rounded-md border border-brand-line bg-brand-soft px-3 py-1.5 text-[12.5px] font-medium text-brand-deep transition-colors hover:bg-brand-line/50">
+        <a href={item.sourceUrl} target="_blank" rel="noreferrer" className="ml-auto inline-flex items-center gap-1.5 rounded-md border border-brand-line bg-brand-soft px-3 py-1.5 text-[12.5px] font-medium text-brand-deep transition-colors hover:bg-brand-line/50">
           阅读原文<ArrowUpRight size={13} />
         </a>
       </div>
@@ -38,10 +37,10 @@ export default async function EventDetailPage({ params }: Props) {
         <p className="text-[14.5px] leading-relaxed text-ink">{item.summary}</p>
       </section>
       <section className="mb-8 rounded-lg bg-paper px-5 py-4">
-        <div className="text-[13px] text-ink-soft">所属 ESG 议题</div>
-        <div className="mt-1 flex flex-wrap gap-2">
-          <span className="rounded-md border border-brand-line bg-brand-soft px-3 py-1 text-[13px] font-medium text-brand-deep">{item.esgTopic}</span>
-        </div>
+        <div className="mb-2 text-[11px] font-semibold tracking-wide text-ink-faint uppercase">ESG 议题（SASB）</div>
+        <span className="inline-block rounded-md border border-brand-line bg-brand-soft px-3 py-1 text-[13px] font-medium text-brand-deep">
+          {item.esgTopic}
+        </span>
       </section>
     </article>
   );

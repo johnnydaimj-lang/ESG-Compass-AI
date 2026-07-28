@@ -1,4 +1,4 @@
-﻿import { createHash } from "node:crypto";
+import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -23,7 +23,11 @@ function hash(url, sourceId) {
 }
 
 function readJSON(path) {
-  try { return JSON.parse(readFileSync(path, "utf-8")); } catch { return null; }
+  try {
+    let text = readFileSync(path, "utf-8");
+    if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
+    return JSON.parse(text);
+  } catch { return null; }
 }
 
 function writeJSON(path, data) {
