@@ -20,7 +20,6 @@ export default async function EventDetailPage({ params }: Props) {
         <ArrowLeft size={14} />返回今日重点
       </Link>
       <div className="mb-4 flex flex-wrap items-center gap-1.5 text-[11px] font-medium">
-        <span className="rounded bg-paper px-1.5 py-0.5 text-ink-soft">{item.importanceLevel}</span>
         <span className="rounded bg-brand-soft px-1.5 py-0.5 text-brand-deep">{item.contentType}</span>
         <span className="inline-flex items-center gap-1 text-ink-faint"><MapPin size={11} />{item.region}</span>
         <time className="font-mono text-ink-faint">{item.publishedAt}</time>
