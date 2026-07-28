@@ -76,6 +76,7 @@ export default function HomeClient({ contents }: Props) {
                       <div className="mb-2 flex flex-wrap items-center gap-1.5 text-[11px] font-medium">
                         <span className="absolute left-0 top-0 h-full w-[3px] rounded-l-lg bg-brand" aria-hidden />
                         <span className={`rounded px-1.5 py-0.5 ${TYPE_STYLES[item.contentType]}`}>{item.contentType}</span>
+                        {item.recommended && <span className="rounded bg-brand px-1.5 py-0.5 text-surface">精选</span>}
                         <span className="inline-flex items-center gap-1 text-ink-faint"><MapPin size={11} />{item.region}</span>
                         <a href={item.sourceUrl} target="_blank" rel="noreferrer"
                           onClick={(e) => e.stopPropagation()}
@@ -90,6 +91,15 @@ export default function HomeClient({ contents }: Props) {
 
                       {/* Summary */}
                       <p className="mb-3 line-clamp-2 text-[13px] leading-relaxed text-ink-soft">{item.summary}</p>
+                      {item.recommended && item.whyMatters && (
+                        <div className="rounded border border-dashed border-brand-line bg-brand-soft/50 px-3 py-2">
+                          <div className="mb-0.5 flex items-center gap-1 text-[11px] font-medium text-brand-deep">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            推荐理由
+                          </div>
+                          <p className="text-[12px] leading-relaxed text-ink-soft">{item.whyMatters}</p>
+                        </div>
+                      )}
 
                       {/* Footer: ESG topic + zone badges */}
                       <div className="flex flex-wrap items-center gap-1.5">

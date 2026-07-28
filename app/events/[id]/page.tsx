@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowUpRight, MapPin, BookOpen } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, MapPin, BookOpen, Star } from "lucide-react";
 import { getAllContents, getContentById } from "@/lib/esg-data";
 import { getZonesByEventId } from "@/lib/zones-data";
 
@@ -42,6 +42,15 @@ export default async function EventDetailPage({ params }: Props) {
           {item.esgTopic}
         </span>
       </section>
+      {item.recommended && item.whyMatters && (
+        <section className="rounded-lg border border-dashed border-brand-line bg-brand-soft/50 px-5 py-4">
+          <div className="mb-2 flex items-center gap-1.5 text-[13px] font-medium text-brand-deep">
+            <Star size={14} className="fill-brand text-brand" />推荐理由
+          </div>
+          <p className="text-[13px] leading-relaxed text-ink-soft">{item.whyMatters}</p>
+        </section>
+      )}
+
       {/* Zone affiliation */}
       {(() => { const zones = getZonesByEventId(item.id); return zones.length > 0 ? (
         <section className="rounded-lg border border-dashed border-brand-line bg-brand-soft px-5 py-4">
