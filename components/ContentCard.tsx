@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ArrowUpRight, MapPin } from "lucide-react";
 import type { ContentItem, ContentType, ImportanceLevel } from "@/lib/esg-data";
 
@@ -21,10 +22,7 @@ interface ContentCardProps {
 
 export default function ContentCard({ item, headline = false }: ContentCardProps) {
   return (
-    <a
-      href={item.sourceUrl}
-      target="_blank"
-      rel="noreferrer"
+    <div
       className={`group flex h-full flex-col rounded-lg border bg-surface p-5 transition-all hover:-translate-y-0.5 hover:border-brand-line hover:shadow-md ${
         headline ? "border-brand-line shadow-sm" : "border-line"
       }`}
@@ -42,22 +40,29 @@ export default function ContentCard({ item, headline = false }: ContentCardProps
           {item.region}
         </span>
         <time className="font-mono text-ink-faint">{item.publishedAt}</time>
+        <a
+          href={item.sourceUrl}
+          target="_blank"
+          rel="noreferrer"
+          title={`查看原文：${item.sourceName}`}
+          className="rounded p-1 text-ink-faint transition-colors hover:bg-brand-soft hover:text-brand-deep"
+        >
+          <ArrowUpRight size={13} />
+        </a>
       </div>
 
-      <h3 className="mb-2 flex items-start gap-1 text-[15px] leading-snug font-semibold text-ink group-hover:text-brand-deep">
-        <span className="min-w-0">{item.title}</span>
-        <ArrowUpRight
-          size={14}
-          className="mt-1 shrink-0 text-ink-faint opacity-0 transition-opacity group-hover:opacity-100"
-        />
-      </h3>
+      <Link href={`/events/${item.id}`} className="flex flex-1 flex-col">
+        <h3 className="mb-2 text-[15px] leading-snug font-semibold text-ink group-hover:text-brand-deep">
+          {item.title}
+        </h3>
 
-      <p className="mb-3 line-clamp-3 text-[13px] leading-relaxed text-ink-soft">{item.summary}</p>
+        <p className="mb-3 line-clamp-3 text-[13px] leading-relaxed text-ink-soft">{item.summary}</p>
 
-      <div className="mt-auto border-t border-line pt-3">
-        <div className="mb-1 text-[11px] font-medium text-ink-faint">判定依据</div>
-        <p className="line-clamp-2 text-[12px] leading-relaxed text-ink-soft">{item.whyImportant}</p>
-      </div>
-    </a>
+        <div className="mt-auto border-t border-line pt-3">
+          <div className="mb-1 text-[11px] font-medium text-ink-faint">判定依据</div>
+          <p className="line-clamp-2 text-[12px] leading-relaxed text-ink-soft">{item.whyImportant}</p>
+        </div>
+      </Link>
+    </div>
   );
 }
