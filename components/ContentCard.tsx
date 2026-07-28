@@ -1,6 +1,7 @@
 ﻿import Link from "next/link";
-import { ArrowUpRight, MapPin } from "lucide-react";
+import { ArrowUpRight, MapPin, BookOpen } from "lucide-react";
 import type { ContentItem, ContentType } from "@/lib/esg-data";
+import { getZonesByEventId } from "@/lib/zones-data";
 
 const TYPE_STYLES: Record<ContentType, string> = {
   "ESG 政策": "bg-info-soft text-info", 专家观点: "bg-violet-soft text-violet-note",
@@ -29,6 +30,13 @@ export default function ContentCard({ item, headline = false }: ContentCardProps
           <span className="inline-flex items-center gap-1 rounded border border-line bg-paper px-2 py-0.5 text-[11px] text-ink-soft">
             {item.esgTopic}
           </span>
+        </div>        <div className="mt-2 flex flex-wrap gap-1.5">
+          {getZonesByEventId(item.id).map((z) => (
+            <Link key={z.id} href={`/zones/${z.id}`}
+              className="inline-flex items-center gap-0.5 rounded bg-brand-soft px-1.5 py-0.5 text-[10px] text-brand-deep transition-colors hover:bg-brand-line/50" onClick={(e) => e.stopPropagation()}>
+              <BookOpen size={9} />{z.name}
+            </Link>
+          ))}
         </div>
       </Link>
     </div>

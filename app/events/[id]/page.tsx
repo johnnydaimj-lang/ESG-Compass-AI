@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowUpRight, MapPin } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, MapPin, BookOpen } from "lucide-react";
 import { getAllContents, getContentById } from "@/lib/esg-data";
+import { getZonesByEventId } from "@/lib/zones-data";
 
 interface Props { params: Promise<{ id: string }> }
 export function generateStaticParams() { return getAllContents().map((c) => ({ id: c.id })) }
@@ -41,6 +42,23 @@ export default async function EventDetailPage({ params }: Props) {
           {item.esgTopic}
         </span>
       </section>
+      {/* Zone affiliation */}
+      {(() => { const zones = getZonesByEventId(item.id); return zones.length > 0 ? (
+        <section className="rounded-lg border border-dashed border-brand-line bg-brand-soft px-5 py-4">
+          <div className="mb-2 flex items-center gap-1.5 text-[13px] font-medium text-brand-deep">
+            <BookOpen size={14} />所属专区
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {zones.map((z) => (
+              <Link key={z.id} href={`/zones/${z.id}`}
+                className="inline-flex items-center gap-1 rounded-md bg-surface px-3 py-1.5 text-[12.5px] font-medium text-brand-deep transition-colors hover:bg-brand-line/50">
+                {z.name}
+              </Link>
+            ))}
+          </div>
+        </section>
+      ) : null; })()}
+
     </article>
   );
 }
