@@ -1,0 +1,93 @@
+﻿{
+  "sources": [
+    {
+      "id": "eu-commission",
+      "name": "欧盟委员会",
+      "url": "https://commission.europa.eu/",
+      "type": "rss",
+      "rssUrl": "https://eur-lex.europa.eu/oj/daily-pdf/global/pdf/en/newsletter_EN.xml",
+      "contentType": "ESG 政策",
+      "region": "欧盟",
+      "language": "en",
+      "enabled": true,
+      "notes": "RSS 地址待确认，备选：EUR-Lex 每日公告"
+    },
+    {
+      "id": "sec-esg",
+      "name": "SEC 新闻稿（ESG 相关）",
+      "url": "https://www.sec.gov/news/pressreleases.rss",
+      "type": "rss",
+      "contentType": "ESG 政策",
+      "region": "美国",
+      "language": "en",
+      "enabled": true,
+      "notes": "SEC 官方 RSS，需要客户端侧过滤 ESG 关键字"
+    },
+    {
+      "id": "ifrs-issb",
+      "name": "IFRS / ISSB 新闻",
+      "url": "https://www.ifrs.org/news-and-events/news/rss/",
+      "type": "rss",
+      "contentType": "ESG 政策",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "RSS 地址待确认"
+    },
+    {
+      "id": "mas-sustainable-finance",
+      "name": "新加坡金管局（MAS）可持续金融",
+      "url": "https://www.mas.gov.sg/development/sustainable-finance",
+      "type": "webpage",
+      "contentType": "ESG 政策",
+      "region": "新加坡",
+      "language": "en",
+      "enabled": true,
+      "notes": "政府新闻页，无 RSS，需 scrape"
+    },
+    {
+      "id": "eco-business",
+      "name": "Eco-Business（亚洲 ESG 新闻）",
+      "url": "https://www.eco-business.com/feed/",
+      "type": "rss",
+      "contentType": "专家观点",
+      "region": "亚洲",
+      "language": "en",
+      "enabled": true,
+      "notes": "WordPress RSS Feed，较稳定"
+    },
+    {
+      "id": "wri-insights",
+      "name": "世界资源研究所（WRI）Insights",
+      "url": "https://www.wri.org/rss.xml",
+      "type": "rss",
+      "contentType": "专家观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "RSS 地址待确认"
+    },
+    {
+      "id": "ssrn-esg",
+      "name": "SSRN ESG 论文（GREEN/SUST）",
+      "url": "https://papers.ssrn.com/sol3/JELJOUR_Results.cfm?jrnl_id=2774117",
+      "type": "webpage",
+      "contentType": "学术文章",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "SSRN 无 RSS，需 scrape 搜索结果页"
+    },
+    {
+      "id": "cdp-articles",
+      "name": "CDP 新闻与文章",
+      "url": "https://www.cdp.net/en/articles",
+      "type": "webpage",
+      "contentType": "评级动态",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "CDP 新闻页，无 RSS，需 scrape"
+    }
+  ]
+}

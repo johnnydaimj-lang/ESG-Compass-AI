@@ -1,0 +1,23 @@
+name: ESG 快讯管道
+on:
+  schedule:
+    - cron: '0 0 * * 1,5'
+  workflow_dispatch:
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - run: npm ci
+      - run: node scripts/pipeline.mjs
+        env:
+          LLM_MODEL: gpt-4o-mini
+      - name: Commit data changes
+        run: |
+          git config user.name "esg-pipeline"
+          git config user.email "pipeline@esg-kuaixun.local"
+          git add data/contents.json data/seen_hashes.json
+          git diff --staged --quiet || (git commit -m "auto update [skip ci]" && git push)
