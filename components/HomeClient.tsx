@@ -59,7 +59,7 @@ export default function HomeClient({ contents }: Props) {
   var empty = allGroups.length === 0;
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-8" suppressHydrationWarning>
       {/* Tabs + Curated toggle */}
       <div className="flex flex-wrap items-center gap-2">
         <div className="flex gap-1 overflow-x-auto rounded-lg border border-line bg-surface p-1 scrollbar-thin">
