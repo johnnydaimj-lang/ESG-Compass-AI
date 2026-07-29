@@ -13,6 +13,11 @@ export interface RoadmapItem {
 
 export var ROADMAP: RoadmapItem[] = [
   // ── 已完成 ──────────────────────────────────
+  // ── 进行中 ──────────────────────────────────
+  { id: "rm-chat-kb", label: "AI 助手 + 知识库（Step 1）", category: "进行中", priority: "P0",
+    description: "/chat 页面 + /api/chat 接口 + 事件详情页入口 + 知识库 11 条数据（CSDDD/CBAM/ISSB/SASB/GRI/TCFD 等）", updatedAt: "2026-07-29" },
+
+  // ── 待开始 ──────────────────────────────────
   { id: "rm-curated", label: "精选推荐理由", category: "已完成", priority: "P0",
     description: "LLM-as-Judge + 三维度权重（紧迫性/广度/可转化性），10 条中 4 条精选", updatedAt: "2026-07-28" },
   { id: "rm-ops-dash", label: "运营看板 /ops", category: "已完成", priority: "P1",
