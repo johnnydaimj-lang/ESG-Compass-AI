@@ -19,7 +19,7 @@ export default async function EventDetailPage({ params }: Props) {
   return (
     <article className="mx-auto max-w-3xl pb-16">
       <Link href="/" className="mb-6 inline-flex items-center gap-1.5 text-[13px] text-ink-soft transition-colors hover:text-brand-deep">
-        <ArrowLeft size={14} />返回今日重点
+        <ArrowLeft size={14} />返回ESG快讯
       </Link>
       <div className="mb-4 flex flex-wrap items-center gap-1.5 text-[11px] font-medium">
         <span className="rounded bg-brand-soft px-1.5 py-0.5 text-brand-deep">{item.contentType}</span>

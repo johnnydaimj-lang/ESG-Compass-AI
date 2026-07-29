@@ -4,7 +4,6 @@ import Link from "next/link";
 import { ArrowUpRight, MapPin, Star, ChevronDown } from "lucide-react";
 import type { ContentItem, ContentType } from "@/lib/esg-data";
 import { getZonesByEventId } from "@/lib/zones-data";
-import { getRelatedKnowledge } from "@/lib/knowledge-base";
 
 type Tab = "全部" | "政策" | "专家观点" | "学术" | "评级";
 var TABS: Tab[] = ["全部", "政策", "专家观点", "学术", "评级"];

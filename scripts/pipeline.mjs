@@ -191,10 +191,15 @@ async function structureItem(item, index, total) {
 
   console.log(`  ✅  [${index}/${total}] ${structured.importanceLevel} | ${item.title.slice(0, 30)}… → ${structured.esgTopic}`);
 
+  if (structured.relevant === false) {
+    console.log(`  \u{1f4cd} [${index}/${total}] 跳过（非 ESG 相关）: ${item.title.slice(0, 40)}`);
+    return null;
+  }
+
   return {
     id: makeId(item.title),
     title: item.title,
-    contentType: source.contentType,
+    contentType: structured.contentType || source.contentType,
     region: source.region,
     publishedAt: item.date,
     importanceLevel: importance,

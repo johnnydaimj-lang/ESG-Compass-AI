@@ -5,12 +5,12 @@
       "name": "欧盟委员会",
       "url": "https://commission.europa.eu/",
       "type": "rss",
-      "rssUrl": "https://eur-lex.europa.eu/oj/daily-pdf/global/pdf/en/newsletter_EN.xml",
+      "rssUrl": "https://ec.europa.eu/commission/presscorner/api/rss",
       "contentType": "ESG 政策",
       "region": "欧盟",
       "language": "en",
       "enabled": true,
-      "notes": "RSS 地址待确认，备选：EUR-Lex 每日公告"
+      "notes": "改用欧盟新闻发布室RSS"
     },
     {
       "id": "sec-esg",
@@ -26,13 +26,13 @@
     {
       "id": "ifrs-issb",
       "name": "IFRS / ISSB 新闻",
-      "url": "https://www.ifrs.org/news-and-events/news/rss/",
+      "url": "https://www.ifrs.org/news-and-events/news/feed/",
       "type": "rss",
       "contentType": "ESG 政策",
       "region": "全球",
       "language": "en",
       "enabled": true,
-      "notes": "RSS 地址待确认"
+      "notes": "改试用WordPress RSS路径"
     },
     {
       "id": "mas-sustainable-finance",
@@ -48,46 +48,46 @@
     {
       "id": "eco-business",
       "name": "Eco-Business（亚洲 ESG 新闻）",
-      "url": "https://www.eco-business.com/feed/",
-      "type": "rss",
+      "url": "https://www.eco-business.com/news/",
+      "type": "webpage",
       "contentType": "专家观点",
       "region": "亚洲",
       "language": "en",
       "enabled": true,
-      "notes": "WordPress RSS Feed，较稳定"
+      "notes": "旧RSS 404，改用新闻列表抓取"
     },
     {
       "id": "wri-insights",
       "name": "世界资源研究所（WRI）Insights",
-      "url": "https://www.wri.org/rss.xml",
-      "type": "rss",
+      "url": "https://www.wri.org/insights",
+      "type": "webpage",
       "contentType": "专家观点",
       "region": "全球",
       "language": "en",
       "enabled": true,
-      "notes": "RSS 地址待确认"
+      "notes": "RSS被屏蔽，改用网页抓取"
     },
     {
       "id": "ssrn-esg",
       "name": "SSRN ESG 论文（GREEN/SUST）",
-      "url": "https://papers.ssrn.com/sol3/JELJOUR_Results.cfm?jrnl_id=2774117",
+      "url": "https://papers.ssrn.com/sol3/JELJOUR_Results.cfm?form_name=journalBrowse&journal_id=2774117",
       "type": "webpage",
       "contentType": "学术文章",
       "region": "全球",
       "language": "en",
       "enabled": true,
-      "notes": "SSRN 无 RSS，需 scrape 搜索结果页"
+      "notes": "更新搜索页URL格式"
     },
     {
       "id": "cdp-articles",
       "name": "CDP 新闻与文章",
-      "url": "https://www.cdp.net/en/articles",
+      "url": "https://www.cdp.net/en/articles/climate",
       "type": "webpage",
       "contentType": "评级动态",
       "region": "全球",
       "language": "en",
       "enabled": true,
-      "notes": "CDP 新闻页，无 RSS，需 scrape"
+      "notes": "改用CDP文章专区URL"
     }
   ]
 }
