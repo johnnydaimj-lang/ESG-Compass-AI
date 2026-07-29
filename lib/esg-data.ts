@@ -61,6 +61,22 @@ const mockContents: ContentItem[] = [
   { id: "m-rat-ecovadis", title: "EcoVadis 供应商评级方法说明更新", contentType: "评级动态", region: "全球", publishedAt: "2026-07-10", importanceLevel: "低", summary: "EcoVadis 更新评级方法说明文件，细化环境维度中范围三排放证据的计分口径，调整中小企业问卷的行业权重表。", sourceName: "EcoVadis", sourceUrl: "https://ecovadis.com/", esgTopic: "供应链管理" },
   { id: "m-aca-supply", title: "学术研究：尽职调查立法对一级供应商治理的溢出效应", contentType: "学术文章", region: "全球", publishedAt: "2026-07-08", importanceLevel: "低", summary: "对欧盟成员国早期尽职调查立法的追踪研究显示，合规压力主要通过采购合同条款传导至一级供应商，二级及以下供应商的治理改善有限。", sourceName: "Journal of Business Ethics", sourceUrl: "https://link.springer.com/", esgTopic: "人权与劳工" },
   { id: "m-exp-issb", title: "专家观点：ISSB 在亚洲进入密集落地期", contentType: "专家观点", region: "亚洲", publishedAt: "2026-07-12", importanceLevel: "低", summary: "随着新加坡、日本、香港等市场相继明确 ISSB 对标时间表，亚洲企业准备度呈两极分化：大型企业已进入鉴证准备阶段，多数中小企业尚未建立温室气体盘查基础。", sourceName: "PRI 评论", sourceUrl: "https://www.unpri.org/", esgTopic: "气候风险" },
+  // 新增——劳工与人权
+  { id: "m-eu-forced-labor", title: "欧盟《禁止强迫劳动产品条例》进入执法准备阶段", contentType: "ESG 政策", region: "欧盟", publishedAt: "2026-07-28", importanceLevel: "高", summary: "欧盟《禁止强迫劳动产品条例》预计2027年底全面生效，成员国海关与市场监管机构开始搭建执法框架。企业须对供应链中强迫劳动风险开展尽职调查并建立追溯体系。", sourceName: "欧盟委员会", sourceUrl: "https://commission.europa.eu/", esgTopic: "人权与劳工", recommended: true,
+    whyMatters: "信号：高 | 影响：合规、供应链. 欧盟强迫劳动禁令将要求企业建立全供应链追溯体系，对纺织、光伏、电子等行业影响显著。" },
+  // 新增——绿色金融
+  { id: "m-eu-gbs", title: "欧盟绿色债券标准（EUGBS）进入强制认证阶段", contentType: "ESG 政策", region: "欧盟", publishedAt: "2026-07-26", importanceLevel: "高", summary: "EUGBS 正式生效，在欧盟发行绿色债券须通过强制认证并与欧盟分类目录对齐，外部审查机构须在 ESMA 注册。预计将重塑全球绿色债券市场标准。", sourceName: "欧盟委员会", sourceUrl: "https://finance.ec.europa.eu/", esgTopic: "合规与监管", recommended: true,
+    whyMatters: "信号：高 | 影响：融资、披露. EUGBS强制认证将提高绿色债券的合规门槛，准备不足的企业可能面临发行延误和额外认证成本。" },
+  // 新增——生物多样性
+  { id: "m-gbf-tnfd", title: "TNFD 自然相关披露框架获多国监管采纳", contentType: "ESG 政策", region: "全球", publishedAt: "2026-07-25", importanceLevel: "高", summary: "TNFD 框架发布后，英国、日本、瑞士等国家监管机构相继表态将在国内可持续披露标准中引入或参照 TNFD 的 LEAP 方法，要求企业评估和披露自然相关依赖、影响、风险与机遇。", sourceName: "TNFD", sourceUrl: "https://tnfd.global/", esgTopic: "气候风险", recommended: true,
+    whyMatters: "信号：高 | 影响：披露、风险. TNFD被多个国家采纳将推动自然资本评估从自愿走向半强制，企业需尽早开展生物多样性基线调查。" },
+  // 新增——气候风险
+  { id: "m-exp-climate-scenario", title: "专家分析：气候情景分析从定性到定量的过渡路径", contentType: "专家观点", region: "全球", publishedAt: "2026-07-22", importanceLevel: "中", summary: "NGFS 最新情景数据库发布后，多位气候风险专家撰写实践指引，建议企业分三阶段过渡：先识别气候相关物理风险的资产敞口，再做行业层面的定性评估，逐步嵌入财务建模中的定量分析。", sourceName: "NGFS / 碳信息披露项目 (CDP)", sourceUrl: "https://www.ngfs.net/", esgTopic: "气候风险", recommended: true,
+    whyMatters: "信号：中 | 影响：风险、资本规划. 气候情景分析正从认知准备走向嵌入经营决策。" },
+  // 新增——劳工与人权
+  { id: "m-exp-labor-supply", title: "专家观点：国际劳工标准在供应链合规中的新兴趋势", contentType: "专家观点", region: "全球", publishedAt: "2026-07-14", importanceLevel: "中", summary: "ILO 和国际工会组织联合报告指出，跨国企业供应链中的集体谈判权、合理工时与职业健康正成为新的审查重点。部分国家将工人代表权纳入可持续披露强制范围。", sourceName: "ILO 评论", sourceUrl: "https://www.ilo.org/", esgTopic: "人权与劳工" },
+  // 新增——ESG活动
+  { id: "m-event-nycw", title: "2026 纽约气候周：碳市场互联与自然融资成焦点议题", contentType: "专家观点", region: "全球", publishedAt: "2026-07-20", importanceLevel: "中", summary: "2026年纽约气候周核心讨论集中在国际碳市场第六条的实施细则、碳信用质量标准的统一，以及自然融资（自然资本核算、生物多样性信用）的试点进展。", sourceName: "Climate Week NYC", sourceUrl: "https://www.climateweeknyc.org/", esgTopic: "气候风险" },
 ];
 
 

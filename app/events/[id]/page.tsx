@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight, MapPin, BookOpen, Star } from "lucide-react";
 import { getAllContents, getContentById } from "@/lib/esg-data";
 import { getZonesByEventId } from "@/lib/zones-data";
+import { getRelatedKnowledge } from "@/lib/knowledge-base";
 
 interface Props { params: Promise<{ id: string }> }
 export function generateStaticParams() { return getAllContents().map((c) => ({ id: c.id })) }
@@ -44,21 +45,8 @@ export default async function EventDetailPage({ params }: Props) {
       </section>
       {item.recommended && item.whyMatters && (
         <section className="rounded-lg border border-dashed border-brand-line bg-brand-soft/50 px-5 py-4">
-      {/* AI 问答入口 */}
-      <section className="mt-8 rounded-lg border border-brand-line bg-brand-soft/50 px-5 py-5">
-        <h2 className="mb-1 flex items-center gap-1.5 text-[13px] font-medium text-brand-deep">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="text-brand"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          对此事件有疑问？
-        </h2>
-        <p className="mb-3 text-[12.5px] leading-relaxed text-ink-soft">
-          基于内置知识库（政策原文 / 标准框架 / 专家解读），回答你关于这条 ESG 动态的具体问题。
-        </p>
-        <a href={"/chat?event=" + item.id}
-          className="inline-flex items-center gap-1.5 rounded-md bg-brand px-4 py-2 text-[13px] font-medium text-surface transition-colors hover:bg-brand-deep">
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-          问 AI 助手
-        </a>
-      </section>
+
+
 
           <div className="mb-2 flex items-center gap-1.5 text-[13px] font-medium text-brand-deep">
             <Star size={14} className="fill-brand text-brand" />推荐理由
@@ -83,6 +71,45 @@ export default async function EventDetailPage({ params }: Props) {
           </div>
         </section>
       ) : null; })()}
+      {/* Related KB content */}
+      {(() => {
+        var relatedKb = getRelatedKnowledge(item.id);
+        if (relatedKb.length === 0) return null;
+        return (
+          <section className="rounded-lg border border-line bg-surface px-5 py-4">
+            <h2 className="mb-3 flex items-center gap-1.5 text-[13px] font-medium text-ink">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-brand-deep"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+              相关法规与标准
+            </h2>
+            <div className="space-y-3">
+              {relatedKb.map(function (kb) {
+                var catColor = "";
+                if (kb.category === "法规") catColor = "bg-info-soft text-info";
+                else if (kb.category === "标准") catColor = "bg-violet-soft text-violet-note";
+                else if (kb.category === "解读") catColor = "bg-calm-soft text-calm";
+                else catColor = "bg-paper text-ink-soft";
+                return (
+                  <div key={kb.id} className="rounded-lg border border-line bg-paper p-4 transition-colors hover:border-line-strong">
+                    <div className="mb-1 flex items-center gap-2">
+                      <span className={"rounded px-1.5 py-0.5 text-[10px] font-medium " + catColor}>{kb.category}</span>
+                      <span className="text-[11px] text-ink-faint">{kb.sourceName}</span>
+                    </div>
+                    <h3 className="mb-1 text-[13px] font-semibold text-ink">{kb.title}</h3>
+                    <p className="mb-2 text-[12px] leading-relaxed text-ink-soft">{kb.summary}</p>
+                    <a href={kb.sourceUrl} target="_blank" rel="noreferrer"
+                      className="inline-flex items-center gap-1 text-[11px] font-medium text-brand-deep hover:underline">
+                      阅读原文
+                      <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                    </a>
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        );
+      })()}
+
+
 
     </article>
   );

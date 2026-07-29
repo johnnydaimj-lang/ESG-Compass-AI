@@ -1,11 +1,9 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { getAllContents } from "@/lib/esg-data";
 import { getAllZones } from "@/lib/zones-data";
 
 export default function ZonesPage() {
   const zones = getAllZones();
-  const contents = getAllContents();
 
   return (
     <div className="space-y-10">

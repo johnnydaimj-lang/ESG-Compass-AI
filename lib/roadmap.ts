@@ -14,9 +14,11 @@ export interface RoadmapItem {
 export var ROADMAP: RoadmapItem[] = [
   // ── 已完成 ──────────────────────────────────
   // ── 进行中 ──────────────────────────────────
-  { id: "rm-chat-kb", label: "AI 助手 + 知识库（Step 1）", category: "进行中", priority: "P0",
+  { id: "rm-chat-kb", label: "AI 助手 + 知识库（Step 1）", category: "已完成", priority: "P0",
     description: "/chat 页面 + /api/chat 接口 + 事件详情页入口 + 知识库 11 条数据（CSDDD/CBAM/ISSB/SASB/GRI/TCFD 等）", updatedAt: "2026-07-29" },
 
+  { id: "rm-workbench", label: "个人工作台 + 私密层", category: "已完成", priority: "P0",
+    description: "拆分公开/私密层：middleware 保护 / 登录页 / 工作台页面 / 移除公开 AI 入口", updatedAt: "2026-07-30" },
   // ── 待开始 ──────────────────────────────────
   { id: "rm-curated", label: "精选推荐理由", category: "已完成", priority: "P0",
     description: "LLM-as-Judge + 三维度权重（紧迫性/广度/可转化性），10 条中 4 条精选", updatedAt: "2026-07-28" },
@@ -36,8 +38,8 @@ export var ROADMAP: RoadmapItem[] = [
   // ── 进行中 ──────────────────────────────────
 
   // ── 待开始 ──────────────────────────────────
-  { id: "rm-zone-crud", label: "ESG 专区建设", category: "待开始", priority: "P1",
-    description: "新增/编辑/删除专区，手动选择事件或自动聚合；专区图片上传", updatedAt: "2026-07-28" },
+  { id: "rm-zone-crud", label: "ESG 专区建设", category: "已完成", priority: "P1",
+    description: "新增 5 个专区（劳工与人权/绿色金融/气候风险/生物多样性/ESG活动），扩展至 8 个专区", updatedAt: "2026-07-30" },
   { id: "rm-ai-search", label: "增强检索（AI 检索）", category: "待开始", priority: "P1",
     description: "基于知识库的语义检索，支持自然语言提问，结果附带来源引用", updatedAt: "2026-07-28" },
   { id: "rm-knowledge-base", label: "知识库建设", category: "待开始", priority: "P1",

@@ -79,6 +79,24 @@ export var KNOWLEDGE_BASE: KnowledgeEntry[] = [
 ];
 
 // 搜索知识库（简单关键词匹配 + 标签匹配）
+
+// 根据专区 ID 获取关联知识条目
+export function getKBForZone(zoneId: string): KnowledgeEntry[] {
+  var matchMap: Record<string, string[]> = {
+    "esg-disclosure": ["kb-issb", "kb-csrd", "kb-sasb", "kb-gri", "kb-tcfd", "kb-sg-issb"],
+    "esg-rating": ["kb-msci-rating", "kb-sasb"],
+    "sustainable-supply-chain": ["kb-csddd", "kb-cbam", "kb-cbam-sme"],
+    "labor-human-rights": [],
+    "green-finance": ["kb-sg-issb"],
+    "climate-risk": ["kb-issb", "kb-tcfd"],
+    "biodiversity": [],
+    "esg-events": [],
+  };
+  var ids = matchMap[zoneId] || [];
+  return ids.map(function (id) { return KNOWLEDGE_BASE.find(function (k) { return k.id === id; }); }).filter(Boolean) as KnowledgeEntry[];
+}
+
+
 export function searchKnowledgeBase(query: string, limit: number = 3): KnowledgeEntry[] {
   var q = query.toLowerCase();
   var scored = KNOWLEDGE_BASE.map(function (entry) {
@@ -113,6 +131,12 @@ export function getRelatedKnowledge(eventId: string): KnowledgeEntry[] {
     "m-aca-rating": ["kb-sasb"],
     "m-aca-supply": ["kb-csddd"],
     "m-exp-issb": ["kb-issb", "kb-sg-issb"],
+    "m-eu-forced-labor": ["kb-csddd"],
+    "m-eu-gbs": [],
+    "m-gbf-tnfd": [],
+    "m-exp-climate-scenario": ["kb-tcfd"],
+    "m-exp-labor-supply": ["kb-csddd"],
+    "m-event-nycw": [],
   };
   var ids = map[eventId] || [];
   return ids.map(function (id) { return KNOWLEDGE_BASE.find(function (k) { return k.id === id; }); }).filter(Boolean) as KnowledgeEntry[];
