@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, RefreshCw } from "lucide-react";
-import type { ContentItem } from "@/lib/esg-data";
+import { getContentLink, type ContentItem } from "@/lib/esg-data-client";
 
 const SASB_TOPICS = [
   "温室气体排放","气候风险","供应链管理","水资源管理",
@@ -87,7 +87,7 @@ function DraftEditor({ item, onSave }: { item: ContentItem; onSave: (id: string,
         </div>
       </div>
 
-      <a href={item.sourceUrl} target="_blank" rel="noreferrer" className="mb-3 inline-flex items-center gap-1 text-[12px] text-brand-deep hover:underline">
+      <a href={getContentLink(item)} target="_blank" rel="noreferrer" className="mb-3 inline-flex items-center gap-1 text-[12px] text-brand-deep hover:underline">
         查看原文 &rarr;
       </a>
 

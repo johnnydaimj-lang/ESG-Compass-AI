@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowUpRight, MapPin } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, MapPin, BookOpen } from "lucide-react";
 import { getAllZones, getZoneById } from "@/lib/zones-data";
 import { getKBForZone } from "@/lib/knowledge-base";
 import { getContentById } from "@/lib/esg-data";
@@ -20,6 +20,7 @@ export default async function ZoneDetailPage({ params }: Props) {
   const relatedEvents = zone.eventIds
     .map((eid) => getContentById(eid))
     .filter(Boolean);
+  const kbEntries = getKBForZone(zone.id);
 
   return (
     <div className="mx-auto max-w-3xl space-y-10">
@@ -69,40 +70,37 @@ export default async function ZoneDetailPage({ params }: Props) {
           </div>
         </section>
       )}
-      {/* Related KB */}
-      {(() => {
-        var entries = getKBForZone(zone.id);
-        if (entries.length === 0) return null;
-        return (
-          <section className="mt-8">
-            <h2 className="mb-4 flex items-center gap-1.5 text-[13px] font-semibold text-ink tracking-wide">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-brand-deep"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
-              相关法规与标准
-            </h2>
-            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-              {entries.map(function (entry) {
-                var catColor = "";
-                if (entry.category === "法规") catColor = "bg-info-soft text-info";
-                else if (entry.category === "标准") catColor = "bg-violet-soft text-violet-note";
-                else if (entry.category === "解读") catColor = "bg-calm-soft text-calm";
-                else catColor = "bg-paper text-ink-soft";
-                return (
-                  <div key={entry.id} className="rounded-lg border border-line bg-surface p-4 transition-all hover:border-line-strong">
-                    <span className={"inline-block rounded px-1.5 py-0.5 text-[10px] font-medium mb-1.5 " + catColor}>{entry.category}</span>
-                    <h3 className="text-[14px] font-semibold text-ink mb-1">{entry.title}</h3>
-                    <p className="text-[12px] leading-relaxed text-ink-soft mb-2">{entry.summary}</p>
-                    <a href={entry.sourceUrl} target="_blank" rel="noreferrer"
-                      className="inline-flex items-center gap-1 text-[11px] font-medium text-brand-deep hover:underline">
-                      阅读原文 <ArrowUpRight size={11} />
-                    </a>
-                  </div>
-                );
-              })}
-            </div>
-          </section>
-        );
-      })()}
 
+      {/* Related KB */}
+      {kbEntries.length > 0 && (
+        <section>
+          <h2 className="mb-4 flex items-center gap-1.5 text-[13px] font-semibold text-ink tracking-wide">
+            <BookOpen size={14} className="text-brand-deep" />
+            相关法规与标准
+            <span className="ml-1.5 rounded bg-brand-soft px-1.5 py-0.5 text-[10px] font-medium text-brand-deep">{kbEntries.length}</span>
+          </h2>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {kbEntries.map(function (entry) {
+              var catColor = "";
+              if (entry.category === "法规") catColor = "bg-info-soft text-info";
+              else if (entry.category === "标准") catColor = "bg-violet-soft text-violet-note";
+              else if (entry.category === "解读") catColor = "bg-calm-soft text-calm";
+              else catColor = "bg-paper text-ink-soft";
+              return (
+                <div key={entry.id} className="rounded-lg border border-line bg-surface p-4 transition-all hover:border-line-strong">
+                  <span className={"inline-block rounded px-1.5 py-0.5 text-[10px] font-medium mb-1.5 " + catColor}>{entry.category}</span>
+                  <h3 className="text-[14px] font-semibold text-ink mb-1">{entry.title}</h3>
+                  <p className="text-[12px] leading-relaxed text-ink-soft mb-2">{entry.summary}</p>
+                  <a href={entry.sourceUrl} target="_blank" rel="noreferrer"
+                    className="inline-flex items-center gap-1 text-[11px] font-medium text-brand-deep hover:underline">
+                    阅读原文 <ArrowUpRight size={11} />
+                  </a>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

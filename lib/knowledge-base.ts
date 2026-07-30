@@ -1,6 +1,5 @@
-// ESG Compass — 知识库（基础版）
-// 由事件数据 + 标准法规条目构成，供 AI 问答检索
-
+﻿// ESG Compass — 知识库（基础版）
+// 由事件数据 + 标准法规条目构成，供专区/事件详情引用
 export interface KnowledgeEntry {
   id: string;
   title: string;
@@ -12,7 +11,6 @@ export interface KnowledgeEntry {
   category: "法规" | "标准" | "解读" | "实践";
 }
 
-// 从事件数据构建基础知识条目
 export var KNOWLEDGE_BASE: KnowledgeEntry[] = [
   // ── 法规类 ──
   {
@@ -29,21 +27,21 @@ export var KNOWLEDGE_BASE: KnowledgeEntry[] = [
   },
   {
     id: "kb-issb", title: "ISSB 可持续披露准则（IFRS S1/S2）",
-    summary: "全球统一的可持续相关财务信息披露基准",
-    content: "ISSB 于 2023 年 6 月发布 IFRS S1（一般要求）和 S2（气候相关披露）。S1 要求企业披露其面临的重要可持续相关风险和机遇。S2 专门针对气候相关风险和机遇，要求披露范围一、二、三排放。多个管辖区（新加坡、日本、香港等）已明确对标时间表。",
+    summary: "全球统一的可持续发展相关信息披露基准",
+    content: "ISSB 于 2023 年 6 月发布 IFRS S1（一般要求）和 S2（气候相关披露）。S1 要求企业披露其面临的重要可持续发展相关风险和机遇。S2 专门针对气候相关风险和机遇，要求披露范围一、二、三排放。多个管辖区（新加坡、日本、香港等）已明确对标时间表。",
     sourceName: "ISSB", sourceUrl: "https://www.ifrs.org/groups/international-sustainability-standards-board/", tags: ["披露", "气候", "全球"], category: "标准"
   },
   {
     id: "kb-csrd", title: "欧盟企业可持续发展报告指令（CSRD）",
     summary: "CSRD 取代 NFRD，大幅扩大适用企业范围并按 ESRS 披露",
-    content: "CSRD 自 2024 年 1 月起分阶段生效。适用企业须按欧洲可持续报告标准（ESRS）进行双重重要性评估，披露环境、社会、治理维度的可持续信息。首批大型企业于 2025 年报告 2024 财年数据。",
+    content: "CSRD 自 2024 年 1 月起分阶段生效。适用企业须按欧洲可持续发展报告标准（ESRS）进行双重重要性评估，披露环境、社会、治理维度的可持续发展信息。首批大型企业于 2025 年报告 2024 财年数据。",
     sourceName: "欧盟委员会", sourceUrl: "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en", tags: ["披露", "ESG", "欧盟"], category: "法规"
   },
   {
     id: "kb-cbam-sme", title: "CBAM 对中小出口企业的三重冲击",
     summary: "智库专家分析 CBAM 正式收费对中小企业的影响",
-    content: "中小出口企业面临三重冲击：1）碳数据核算能力不足而被迫接受惩罚性默认值；2）与进口商的数据协作缺乏议价能力；3）证书成本难以向下游转嫁。建议中小企业尽早建立碳排放核算能力，优先完成盘查基础建设。",
-    sourceName: "WRI 评论", sourceUrl: "https://www.wri.org/insights", tags: ["碳", "贸易", "中小企业"], category: "解读"
+    content: "中小出口企业面临三重冲击：1）碳排放核算能力不足而被迫接受惩罚性默认值；2）与进口商的数据协作缺乏议价能力；3）证书成本难以向下游转嫁。建议中小企业尽早建立碳排放核算能力，加强与进口商的数据协作。",
+    sourceName: "世界资源研究所（WRI）Insights", sourceUrl: "https://www.wri.org/insights", tags: ["碳", "贸易", "中小企业"], category: "解读"
   },
   {
     id: "kb-msci-rating", title: "MSCI ESG 评级模型调整",
@@ -59,9 +57,9 @@ export var KNOWLEDGE_BASE: KnowledgeEntry[] = [
   },
   // ── 标准类 ──
   {
-    id: "kb-sasb", title: "SASB（可持续会计标准委员会）标准",
-    summary: "行业特定的可持续相关财务信息披露标准",
-    content: "SASB 标准覆盖 77 个行业，每个行业有 6 个左右的关键可持续议题。标准按通用议题分类呈现（环境、社会资本、人力资本、商业模式与创新、领导力与治理）。已被 ISSB 整合，但行业分类框架仍广泛使用。",
+    id: "kb-sasb", title: "SASB（可持续会计准则委员会）标准",
+    summary: "行业特定的可持续发展相关财务信息披露标准",
+    content: "SASB 标准覆盖 77 个行业，每个行业有 6 个左右的关键可持续发展议题。标准按通用议题分类呈现（环境、社会资本、人力资本、商业模式与创新、领导力与治理）。已被 ISSB 整合，但行业分类框架仍广泛使用。",
     sourceName: "SASB / IFRS Foundation", sourceUrl: "https://sasb.ifrs.org/standards/", tags: ["披露", "标准", "行业"], category: "标准"
   },
   {
@@ -77,8 +75,6 @@ export var KNOWLEDGE_BASE: KnowledgeEntry[] = [
     sourceName: "FSB TCFD", sourceUrl: "https://www.fsb-tcfd.org/recommendations/", tags: ["气候", "披露", "风险"], category: "标准"
   },
 ];
-
-// 搜索知识库（简单关键词匹配 + 标签匹配）
 
 // 根据专区 ID 获取关联知识条目
 export function getKBForZone(zoneId: string): KnowledgeEntry[] {
@@ -96,30 +92,8 @@ export function getKBForZone(zoneId: string): KnowledgeEntry[] {
   return ids.map(function (id) { return KNOWLEDGE_BASE.find(function (k) { return k.id === id; }); }).filter(Boolean) as KnowledgeEntry[];
 }
 
-
-export function searchKnowledgeBase(query: string, limit: number = 3): KnowledgeEntry[] {
-  var q = query.toLowerCase();
-  var scored = KNOWLEDGE_BASE.map(function (entry) {
-    var score = 0;
-    // 标签匹配
-    entry.tags.forEach(function (tag) {
-      if (q.includes(tag.toLowerCase())) score += 3;
-    });
-    // 标题匹配
-    if (entry.title.toLowerCase().includes(q)) score += 5;
-    // 摘要匹配
-    if (entry.summary.toLowerCase().includes(q)) score += 2;
-    // 内容匹配
-    if (entry.content.toLowerCase().includes(q)) score += 1;
-    return { entry: entry, score: score };
-  });
-  scored.sort(function (a, b) { return b.score - a.score; });
-  return scored.filter(function (s) { return s.score > 0; }).slice(0, limit).map(function (s) { return s.entry; });
-}
-
 // 根据事件 ID 获取关联知识条目
 export function getRelatedKnowledge(eventId: string): KnowledgeEntry[] {
-  // 从事件 ID 推断关联的知识条目
   var map: Record<string, string[]> = {
     "m-eu-csddd": ["kb-csddd", "kb-csrd"],
     "m-eu-cbam": ["kb-cbam", "kb-cbam-sme"],
@@ -141,3 +115,6 @@ export function getRelatedKnowledge(eventId: string): KnowledgeEntry[] {
   var ids = map[eventId] || [];
   return ids.map(function (id) { return KNOWLEDGE_BASE.find(function (k) { return k.id === id; }); }).filter(Boolean) as KnowledgeEntry[];
 }
+
+// 获取知识库条目总数（供专区列表页使用）
+export function getKBTotalCount(): number { return KNOWLEDGE_BASE.length; }

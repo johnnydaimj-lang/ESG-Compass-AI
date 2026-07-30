@@ -1,6 +1,6 @@
 ﻿import Link from "next/link";
 import { ArrowUpRight, MapPin, BookOpen } from "lucide-react";
-import type { ContentItem, ContentType } from "@/lib/esg-data";
+import { getContentLink, type ContentItem, type ContentType } from "@/lib/esg-data";
 import { getZonesByEventId } from "@/lib/zones-data";
 
 const TYPE_STYLES: Record<ContentType, string> = {
@@ -18,7 +18,7 @@ export default function ContentCard({ item, headline = false }: ContentCardProps
         {headline && <span className="rounded bg-brand px-1.5 py-0.5 text-surface">头条</span>}
         <span className="ml-auto inline-flex items-center gap-1 text-ink-faint"><MapPin size={11} />{item.region}</span>
         <time className="font-mono text-ink-faint">{item.publishedAt}</time>
-        <a href={item.sourceUrl} target="_blank" rel="noreferrer" title={`查看原文：${item.sourceName}`}
+        <a href={getContentLink(item)} target="_blank" rel="noreferrer" title={`查看原文：${item.sourceName}`}
           className="rounded p-1 text-ink-faint transition-colors hover:bg-brand-soft hover:text-brand-deep">
           <ArrowUpRight size={13} />
         </a>

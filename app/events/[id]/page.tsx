@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight, MapPin, BookOpen, Star } from "lucide-react";
-import { getAllContents, getContentById } from "@/lib/esg-data";
+import { getAllContents, getContentById, getContentLink } from "@/lib/esg-data";
 import { getZonesByEventId } from "@/lib/zones-data";
 import { getRelatedKnowledge } from "@/lib/knowledge-base";
+import ImpactCard from "@/components/ImpactCard";
 
 interface Props { params: Promise<{ id: string }> }
 export function generateStaticParams() { return getAllContents().map((c) => ({ id: c.id })) }
@@ -29,7 +30,7 @@ export default async function EventDetailPage({ params }: Props) {
       <h1 className="mb-6 text-2xl leading-snug font-semibold tracking-tight text-ink">{item.title}</h1>
       <div className="mb-8 flex flex-wrap items-center gap-3 rounded-lg border border-line bg-surface px-5 py-4">
         <div className="text-[13px] text-ink-soft">来源：<span className="font-medium text-ink">{item.sourceName}</span></div>
-        <a href={item.sourceUrl} target="_blank" rel="noreferrer" className="ml-auto inline-flex items-center gap-1.5 rounded-md border border-brand-line bg-brand-soft px-3 py-1.5 text-[12.5px] font-medium text-brand-deep transition-colors hover:bg-brand-line/50">
+        <a href={getContentLink(item)} target="_blank" rel="noreferrer" className="ml-auto inline-flex items-center gap-1.5 rounded-md border border-brand-line bg-brand-soft px-3 py-1.5 text-[12.5px] font-medium text-brand-deep transition-colors hover:bg-brand-line/50">
           阅读原文<ArrowUpRight size={13} />
         </a>
       </div>
@@ -54,6 +55,8 @@ export default async function EventDetailPage({ params }: Props) {
           <p className="text-[13px] leading-relaxed text-ink-soft">{item.whyMatters}</p>
         </section>
       )}
+
+      {(() => { return item.impactAnalysis ? <ImpactCard analysis={item.impactAnalysis} /> : null; })()}
 
       {/* Zone affiliation */}
       {(() => { const zones = getZonesByEventId(item.id); return zones.length > 0 ? (

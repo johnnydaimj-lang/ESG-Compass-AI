@@ -1,8 +1,6 @@
 ﻿// ESG Compass — 内容数据与类型定义
 // 优先从 data/contents.json 读取，无文件时降级到硬编码 mock 数据
 
-import { readFileSync, existsSync } from "node:fs";
-import { resolve } from "node:path";
 
 export const CONTENT_TYPES = ["ESG 政策", "专家观点", "学术文章", "评级动态"] as const;
 export type ContentType = (typeof CONTENT_TYPES)[number];
@@ -15,57 +13,7 @@ export const SASB_TOPICS = [
 ] as const;
 export type SasbTopic = (typeof SASB_TOPICS)[number];
 
-
-// === Impact Analysis (Policy Impact Card) ===
-
-// Base fields shared across all lens types
-interface ImpactBase {
-  relevance: "高" | "中" | "低";
-  whyThisMatters: string;
-}
-
-// ESG 政策镜片
-export interface PolicyImpact extends ImpactBase {
-  contentType: "ESG 政策";
-  impactLevel: "高" | "中" | "低";
-  impactScore: number;
-  scoreBreakdown: { scope: number; magnitude: number; enforceability: number };
-  affectedIndustries: string[];
-  timeline: "已生效" | "即将生效" | "待观察";
-  effectiveDate?: string;
-  actionsRequired: string[];
-  keyClauses: string[];
-}
-
-// 学术文章镜片
-export interface AcademicImpact extends ImpactBase {
-  contentType: "学术文章";
-  researchFinding: string;
-  methodologyQuality: "高" | "中" | "低";
-  practicalImplication: string;
-  sourceCredibility: "高" | "中" | "低";
-}
-
-// 专家观点镜片
-export interface ExpertImpact extends ImpactBase {
-  contentType: "专家观点";
-  sourceCredibility: "高" | "中" | "低";
-  keyArgument: string;
-  position: "主流共识" | "争议观点" | "前瞻判断";
-}
-
-// 评级动态镜片（简化）
-export interface RatingImpact extends ImpactBase {
-  contentType: "评级动态";
-  impactLevel: "高" | "中" | "低";
-  affectedSectors: string[];
-  actionsRequired: string[];
-}
-
-export type ImpactAnalysis = PolicyImpact | AcademicImpact | ExpertImpact | RatingImpact;
-
 export interface ContentItem {
-  impactAnalysis?: ImpactAnalysis;
   id: string;
   title: string;
   contentType: ContentType;
@@ -82,20 +30,6 @@ export interface ContentItem {
   articleUrl?: string;
 }
 
-const DATA_FILE = resolve(process.cwd(), "data", "contents.json");
-
-function loadFromFile(): ContentItem[] | null {
-  try {
-    if (!existsSync(DATA_FILE)) return null;
-    const raw = readFileSync(DATA_FILE, "utf-8");
-    const items = JSON.parse(raw);
-    if (Array.isArray(items) && items.length > 0) return items;
-    return null;
-  } catch {
-    console.warn("[esg-data] 读取 data/contents.json 失败，降级到 mock");
-    return null;
-  }
-}
 
 const mockContents: ContentItem[] = [
   { id: "m-eu-csddd", title: "欧盟供应链尽职调查要求进入更强执行阶段", contentType: "ESG 政策", region: "欧盟", publishedAt: "2026-07-24", importanceLevel: "高", summary: "欧盟成员国监管机构开始依据 CSDDD 的转化立法开展首轮合规检查，重点覆盖在欧营业额达标的大型企业及其一级供应商，要求提供成文的尽职调查政策、风险图谱与整改计划。", sourceName: "欧盟委员会", sourceUrl: "https://commission.europa.eu/", esgTopic: "合规与监管", recommended: true,
@@ -105,21 +39,7 @@ const mockContents: ContentItem[] = [
     articleUrl: "https://www.google.com/search?q=site%3Aclimateweeknyc.org%20%E7%BA%BD%E7%BA%A6%E6%B0%94%E5%80%99%E5%91%A8%20%E7%A2%B3%E5%B8%82%E5%9C%BA%20%E8%87%AA%E7%84%B6%E8%9E%8D%E8%B5%84%20%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A0%B7%E6%80%A7%20%E4%BF%A1%E7%94%A8" },
   { id: "m-eu-cbam", title: "欧盟碳边境调节机制（CBAM）进入正式收费期", contentType: "ESG 政策", region: "欧盟", publishedAt: "2026-07-21", importanceLevel: "高", summary: "CBAM 结束过渡期进入正式机制：进口商须按季度申报进口商品隐含碳排放并购买 CBAM 证书，首批覆盖钢铁、铝、水泥、化肥、电力与氢。", sourceName: "欧盟委员会税务与海关同盟总司", sourceUrl: "https://taxation-customs.ec.europa.eu/", esgTopic: "温室气体排放", recommended: true,
     whyMatters: "信号：高 | 影响：成本、供应链. CBAM正式收费后出口欧盟的钢铁、铝、水泥等产品将直接产生碳成本。建议财务和供应链部门提前核算碳排放数据。",
-    articleUrl: "https://www.google.com/search?q=site%3Acommission.europa.eu%20CBAM%20%E7%A2%B3%E8%BE%B9%E5%A2%83%E8%B0%83%E8%8A%82%20%E6%AD%A3%E5%BC%8F%E6%94%B6%E8%B4%B9%20%E9%92%A2%E9%93%81%20%E9%93%9D",
-    impactAnalysis: {
-      contentType: "ESG 政策",
-      relevance: "高",
-      whyThisMatters: "CBAM 正式收费意味着碳成本从即将发生变为正在发生，财务影响可量化。",
-      impactLevel: "高",
-      impactScore: 9,
-      scoreBreakdown: { scope: 3, magnitude: 3, enforceability: 3 },
-      affectedIndustries: ["钢铁","铝","水泥","化肥","电力","氢"],
-      timeline: "已生效",
-      effectiveDate: "2026-07-21",
-      actionsRequired: ["建立碳排放核算能力","按季度申报隐含碳排放","购买CBAM证书","审查供应链碳排放数据"],
-      keyClauses: ["进口商品须按季度申报隐含碳排放","证书价格与EU ETS配额价格挂钩","未申报将面临惩罚性默认值"]
-    }
-  },
+    articleUrl: "https://www.google.com/search?q=site%3Acommission.europa.eu%20CBAM%20%E7%A2%B3%E8%BE%B9%E5%A2%83%E8%B0%83%E8%8A%82%20%E6%AD%A3%E5%BC%8F%E6%94%B6%E8%B4%B9%20%E9%92%A2%E9%93%81%20%E9%93%9D" },
   { id: "m-exp-omnibus", title: "专家点评欧盟综合简化法案：减负不等于免责", contentType: "专家观点", region: "欧盟", publishedAt: "2026-07-23", importanceLevel: "中", summary: "多位欧洲可持续法务专家就欧盟综合简化法案（Omnibus）发表评论：CSRD 与 CSDDD 的适用门槛和披露颗粒度虽被放宽，但企业不宜把简化解读为松绑。", sourceName: "CSR Europe", sourceUrl: "https://www.csreurope.org/", esgTopic: "合规与监管", recommended: true,
     whyMatters: "信号：中 | 影响：合规. 多位欧洲专家解读表明Omnibus减负不等于免责，企业不应因议题热度下降而放缓ESG合规准备。",
     articleUrl: "https://www.google.com/search?q=site%3Acsreurope.org%20Omnibus%20%E7%AE%80%E5%8C%96%E6%B3%95%E6%A1%88%20CSDDD%20CSRD%20%E8%A7%A3%E8%AF%BB" },
@@ -129,17 +49,7 @@ const mockContents: ContentItem[] = [
     articleUrl: "https://www.google.com/search?q=site%3Amas.gov.sg%20ISSB%20%E5%8F%AF%E6%8C%81%E7%BB%AD%E6%8A%AB%E9%9C%B2%20%E8%B7%AF%E7%BA%BF%E5%9B%BE%20%E6%96%B0%E5%8A%A0%E5%9D%A1" },
   { id: "m-rat-msci", title: "MSCI ESG 评级模型调整：气候脆弱性权重上调", contentType: "评级动态", region: "全球", publishedAt: "2026-07-17", importanceLevel: "中", summary: "MSCI 公布 ESG Ratings 年度模型调整：气候脆弱性议题在多数行业的关键议题权重上调，转型计划的披露质量开始影响治理维度得分。", sourceName: "MSCI ESG Research", sourceUrl: "https://www.msci.com/", esgTopic: "气候风险", recommended: true,
     whyMatters: "信号：中 | 影响：评级、披露. MSCI上调气候脆弱性权重可能影响多家企业的ESG评级得分变化。建议关注评级调整对投资者关系和融资成本的潜在影响。",
-    articleUrl: "https://www.google.com/search?q=site%3Amsci.com%20ESG%20%E8%AF%84%E7%BA%A7%20%E6%A8%A1%E5%9E%8B%E8%B0%83%E6%95%B4%20%E6%B0%94%E5%80%99%E8%84%86%E5%BC%B1%E6%80%A7%202026",
-    impactAnalysis: {
-      contentType: "学术文章",
-      relevance: "低",
-      whyThisMatters: "该研究揭示了供应链合规传导的局限性——一级供应商受约束，二级以下影响甚微。",
-      researchFinding: "合规压力主要通过采购合同条款从买方传导至一级供应商，对二级及以下供应商的治理改善效果有限，形成合规断层。",
-      methodologyQuality: "中",
-      practicalImplication: "企业若仅关注一级供应商合规，可能低估深层次供应链风险；建议将尽职调查延伸至次级供应商。",
-      sourceCredibility: "中"
-    }
-  },
+    articleUrl: "https://www.google.com/search?q=site%3Amsci.com%20ESG%20%E8%AF%84%E7%BA%A7%20%E6%A8%A1%E5%9E%8B%E8%B0%83%E6%95%B4%20%E6%B0%94%E5%80%99%E8%84%86%E5%BC%B1%E6%80%A7%202026" },
   { id: "m-aca-rating", title: "学术研究：ESG 评级分歧如何改变企业的披露策略", contentType: "学术文章", region: "全球", publishedAt: "2026-07-15", importanceLevel: "中", summary: "基于多国上市公司样本的研究发现，评级机构间分歧越大，企业越倾向于按最易得分的口径组织披露，而非按业务实质排序优先事项。", sourceName: "SSRN 工作论文", sourceUrl: "https://papers.ssrn.com/", esgTopic: "合规与监管",
     articleUrl: "https://www.google.com/search?q=site%3Assrn.com%20ESG%20%E8%AF%84%E7%BA%A7%E5%88%86%E6%AD%A7%20%E6%8A%AB%E9%9C%B2%E7%AD%96%E7%95%A5%20%E4%BC%81%E4%B8%9A" },
   { id: "m-rat-ecovadis", title: "EcoVadis 供应商评级方法说明更新", contentType: "评级动态", region: "全球", publishedAt: "2026-07-10", importanceLevel: "低", summary: "EcoVadis 更新评级方法说明文件，细化环境维度中范围三排放证据的计分口径，调整中小企业问卷的行业权重表。", sourceName: "EcoVadis", sourceUrl: "https://ecovadis.com/", esgTopic: "供应链管理",
@@ -172,10 +82,9 @@ export function getContentLink(item: ContentItem): string {
 }
 
 export function getAllContents(): ContentItem[] {
-  return loadFromFile() ?? mockContents;
+  return mockContents;
 }
 
 export function getContentById(id: string): ContentItem | undefined {
-  const items = loadFromFile() ?? mockContents;
-  return items.find((c) => c.id === id);
+  return mockContents.find((c) => c.id === id);
 }

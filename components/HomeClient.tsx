@@ -2,7 +2,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { ArrowUpRight, MapPin, Star, ChevronDown } from "lucide-react";
-import type { ContentItem, ContentType } from "@/lib/esg-data";
+import { getContentLink, type ContentItem, type ContentType } from "@/lib/esg-data-client";
 import { getZonesByEventId } from "@/lib/zones-data";
 
 type Tab = "全部" | "政策" | "专家观点" | "学术" | "评级";
@@ -114,7 +114,7 @@ export default function HomeClient({ contents }: Props) {
                                 <span className={"rounded px-1.5 py-0.5 " + (TYPE_COLORS[item.contentType] || "bg-paper text-ink-soft")}>{item.contentType}</span>
                                 {item.recommended && <span className="inline-flex items-center gap-0.5 rounded bg-brand px-1.5 py-0.5 text-surface"><Star size={9} className="fill-surface" />精选</span>}
                                 {item.region && <span className="inline-flex items-center gap-1 text-ink-faint"><MapPin size={10} />{item.region}</span>}
-                                <a href={item.sourceUrl} target="_blank" rel="noreferrer"
+                                <a href={getContentLink(item)} target="_blank" rel="noreferrer"
                                   onClick={function (e) { e.stopPropagation(); }}
                                   className="ml-auto rounded p-1 text-ink-faint transition-colors hover:bg-brand-soft hover:text-brand-deep"
                                   title={"查看原文：" + item.sourceName}><ArrowUpRight size={13} /></a>
