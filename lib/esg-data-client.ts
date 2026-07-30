@@ -35,7 +35,7 @@ const mockContents: ContentItem[] = [
   { id: "m-eu-csddd", title: "欧盟供应链尽职调查要求进入更强执行阶段", contentType: "ESG 政策", region: "欧盟", publishedAt: "2026-07-24", importanceLevel: "高", summary: "欧盟成员国监管机构开始依据 CSDDD 的转化立法开展首轮合规检查，重点覆盖在欧营业额达标的大型企业及其一级供应商，要求提供成文的尽职调查政策、风险图谱与整改计划。", sourceName: "欧盟委员会", sourceUrl: "https://commission.europa.eu/", esgTopic: "合规与监管", recommended: true,
     whyMatters: "信号：高 | 影响：合规、供应链. CSDDD首轮检查已启动，覆盖达标企业及其一级供应商。建议尽早核查供应商尽职调查政策的完备性。",
     articleUrl: "https://www.google.com/search?q=site%3Acommission.europa.eu%20CSDDD%20%E4%BE%9B%E5%BA%94%E9%93%BE%E5%B0%BD%E8%81%8C%E8%B0%83%E6%9F%A5%20%E9%A6%96%E8%BD%AE%E6%A3%80%E6%9F%A5" },
-  { id: "m-event-nycw", title: "2026 纽约气候周：碳市场互联与自然融资成焦点议题", contentType: "专家观点", region: "全球", publishedAt: "2026-07-20", importanceLevel: "中", summary: "2026年纽约气候周核心讨论集中在国际碳市场第六条的实施细则、碳信用质量标准的统一，以及自然融资（自然资本核算、生物多样性信用）的试点进展。", sourceName: "Climate Week NYC", sourceUrl: "https://www.climateweeknyc.org/", esgTopic: "气候风险",
+  { id: "m-event-nyc-climate-week", title: "2026 纽约气候周：碳市场互联与自然融资成焦点议题", contentType: "专家观点", region: "全球", publishedAt: "2026-07-20", importanceLevel: "中", summary: "2026年纽约气候周核心讨论集中在国际碳市场第六条的实施细则、碳信用质量标准的统一，以及自然融资（自然资本核算、生物多样性信用）的试点进展。", sourceName: "Climate Week NYC", sourceUrl: "https://www.climateweeknyc.org/", esgTopic: "气候风险",
     articleUrl: "https://www.google.com/search?q=site%3Aclimateweeknyc.org%20%E7%BA%BD%E7%BA%A6%E6%B0%94%E5%80%99%E5%91%A8%20%E7%A2%B3%E5%B8%82%E5%9C%BA%20%E8%87%AA%E7%84%B6%E8%9E%8D%E8%B5%84%20%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A0%B7%E6%80%A7%20%E4%BF%A1%E7%94%A8" },
   { id: "m-eu-cbam", title: "欧盟碳边境调节机制（CBAM）进入正式收费期", contentType: "ESG 政策", region: "欧盟", publishedAt: "2026-07-21", importanceLevel: "高", summary: "CBAM 结束过渡期进入正式机制：进口商须按季度申报进口商品隐含碳排放并购买 CBAM 证书，首批覆盖钢铁、铝、水泥、化肥、电力与氢。", sourceName: "欧盟委员会税务与海关同盟总司", sourceUrl: "https://taxation-customs.ec.europa.eu/", esgTopic: "温室气体排放", recommended: true,
     whyMatters: "信号：高 | 影响：成本、供应链. CBAM正式收费后出口欧盟的钢铁、铝、水泥等产品将直接产生碳成本。建议财务和供应链部门提前核算碳排放数据。",
@@ -71,8 +71,6 @@ const mockContents: ContentItem[] = [
     whyMatters: "信号：中 | 影响：风险、资本规划. 气候情景分析正从认知准备走向嵌入经营决策。",
     articleUrl: "https://www.google.com/search?q=site%3Angfs.net%20%E6%B0%94%E5%80%99%20%E6%83%85%E6%99%AF%20%E5%88%86%E6%9E%90%20%E5%AE%9A%E9%87%8F%20%E5%AE%9A%E6%80%A7%20%E8%BF%87%E6%B8%A1%20%E8%B7%AF%E5%BE%84" },
   { id: "m-exp-labor-supply", title: "专家观点：国际劳工标准在供应链合规中的新兴趋势", contentType: "专家观点", region: "全球", publishedAt: "2026-07-14", importanceLevel: "中", summary: "ILO 和国际工会组织联合报告指出，跨国企业供应链中的集体谈判权、合理工时与职业健康正成为新的审查重点。部分国家将工人代表权纳入可持续披露强制范围。", sourceName: "ILO 评论", sourceUrl: "https://www.ilo.org/", esgTopic: "人权与劳工",
-    articleUrl: "https://www.google.com/search?q=site%3Ailo.org%20%E5%9B%BD%E9%99%85%E5%8A%B3%E5%B7%A5%E6%A0%87%E5%87%86%20%E4%BE%9B%E5%BA%94%E9%93%BE%20%E9%9B%86%E4%BD%93%E8%B0%88%E5%88%A4%20%E5%B0%BD%E8%81%8C%E8%B0%83%E6%9F%A5" },
-  { id: "m-event-nycw", title: "2026 纽约气候周：碳市场互联与自然融资成焦点议题", contentType: "专家观点", region: "全球", publishedAt: "2026-07-20", importanceLevel: "中", summary: "2026年纽约气候周核心讨论集中在国际碳市场第六条的实施细则、碳信用质量标准的统一，以及自然融资（自然资本核算、生物多样性信用）的试点进展。", sourceName: "Climate Week NYC", sourceUrl: "https://www.climateweeknyc.org/", esgTopic: "气候风险",
     articleUrl: "https://www.google.com/search?q=site%3Aclimateweeknyc.org%20%E7%BA%BD%E7%BA%A6%E6%B0%94%E5%80%99%E5%91%A8%20%E7%A2%B3%E5%B8%82%E5%9C%BA%20%E8%87%AA%E7%84%B6%E8%9E%8D%E8%B5%84%20%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A0%B7%E6%80%A7%20%E4%BF%A1%E7%94%A8" },
 
 ];

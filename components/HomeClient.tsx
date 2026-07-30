@@ -114,10 +114,9 @@ export default function HomeClient({ contents }: Props) {
                                 <span className={"rounded px-1.5 py-0.5 " + (TYPE_COLORS[item.contentType] || "bg-paper text-ink-soft")}>{item.contentType}</span>
                                 {item.recommended && <span className="inline-flex items-center gap-0.5 rounded bg-brand px-1.5 py-0.5 text-surface"><Star size={9} className="fill-surface" />精选</span>}
                                 {item.region && <span className="inline-flex items-center gap-1 text-ink-faint"><MapPin size={10} />{item.region}</span>}
-                                <a href={getContentLink(item)} target="_blank" rel="noreferrer"
-                                  onClick={function (e) { e.stopPropagation(); }}
-                                  className="ml-auto rounded p-1 text-ink-faint transition-colors hover:bg-brand-soft hover:text-brand-deep"
-                                  title={"查看原文：" + item.sourceName}><ArrowUpRight size={13} /></a>
+                                <span onClick={function(e) { e.stopPropagation(); window.open(getContentLink(item), '_blank', 'noopener,noreferrer'); }}
+                                  className="ml-auto cursor-pointer rounded p-1 text-ink-faint transition-colors hover:bg-brand-soft hover:text-brand-deep"
+                                  title={"查看原文：" + item.sourceName}><ArrowUpRight size={13} /></span>
                               </div>
                               <h2 className="mb-1.5 text-[15px] leading-snug font-semibold text-ink group-hover:text-brand-deep">{item.title}</h2>
                               <p className="mb-3 line-clamp-2 text-[13px] leading-relaxed text-ink-soft">{item.summary}</p>

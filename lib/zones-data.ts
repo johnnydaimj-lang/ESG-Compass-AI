@@ -104,7 +104,7 @@ const zoneData: Zone[] = [
     id: "esg-events",
     name: "ESG 活动",
     description: "全球范围内重要的 ESG 相关会议、论坛、峰会与学术交流活动动态与成果回顾。",
-    eventIds: ["m-event-nycw"],
+    eventIds: ["m-event-nyc-climate-week"],
     milestones: [
       { date: "2025-09-22", title: "2025 纽约气候周召开", summary: "主题聚焦碳市场第六条的规则制定与自然融资机制设计，加速公私资本配置。" },
       { date: "2025-11-10", title: "COP30 筹备工作启动", summary: "巴西亚马逊城市贝伦为 COP30 主办地，聚焦全球适应目标盘点与资金落实。" },

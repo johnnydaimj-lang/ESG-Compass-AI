@@ -110,7 +110,7 @@ export function getRelatedKnowledge(eventId: string): KnowledgeEntry[] {
     "m-gbf-tnfd": [],
     "m-exp-climate-scenario": ["kb-tcfd"],
     "m-exp-labor-supply": ["kb-csddd"],
-    "m-event-nycw": [],
+    "m-event-nyc-climate-week": [],
   };
   var ids = map[eventId] || [];
   return ids.map(function (id) { return KNOWLEDGE_BASE.find(function (k) { return k.id === id; }); }).filter(Boolean) as KnowledgeEntry[];
