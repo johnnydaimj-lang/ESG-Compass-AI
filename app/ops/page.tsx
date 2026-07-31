@@ -148,6 +148,7 @@ export default function OpsDashboard() {
             前往审校
           </Link>
           <Link href="/workbench" className="inline-flex items-center gap-1.5 rounded-md border border-brand-line bg-brand-soft px-3 py-1.5 text-[12px] font-medium text-brand-deep transition-colors hover:bg-brand-line"><Sparkles size={13} />工作台</Link>
+          <Link href="/ops/product-map" className="inline-flex items-center gap-1.5 rounded-md border border-brand-line bg-brand-soft px-3 py-1.5 text-[12px] font-medium text-brand-deep transition-colors hover:bg-brand-line"><FileText size={13} />产品思维导图</Link>
         </div>
       </div>
 

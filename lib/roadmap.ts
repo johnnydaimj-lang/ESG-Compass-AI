@@ -42,4 +42,6 @@ export var ROADMAP: RoadmapItem[] = [
     description: "RSS 信源稳定性和覆盖度提升；LLM 结构化质量改进；自动精选评分策略完善", updatedAt: "2026-07-31" },
   { id: "rm-kb-to-zone", label: "知识库内容增强（并入专区后）", category: "待开始", priority: "P2",
     description: "扩展专区关联的 KB 条目覆盖面；增加法规/标准条目的全文展开功能", updatedAt: "2026-07-31" },
+  { id: "rm-market-research", label: "市场调研：AI Agent + ESG SaaS", category: "待开始", priority: "P1",
+    description: "跟踪 AI Agent 前沿动态；分析双碳/ESG 数字化工具（SaaS）产品形态；产出调研笔记反哺产品迭代", updatedAt: "2026-07-31" },
 ];
