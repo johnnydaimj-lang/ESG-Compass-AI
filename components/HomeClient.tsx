@@ -3,7 +3,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { ArrowUpRight, MapPin, Star, ChevronDown } from "lucide-react";
 import { getContentLink, type ContentItem, type ContentType } from "@/lib/esg-data-client";
-import { getZonesByEventId } from "@/lib/zones-data";
+import type { Zone } from "@/lib/zones-data";
 
 type Tab = "全部" | "政策" | "专家观点" | "学术" | "评级";
 var TABS: Tab[] = ["全部", "政策", "专家观点", "学术", "评级"];
@@ -14,9 +14,9 @@ var TYPE_COLORS: Record<string, string> = {
   学术文章: "bg-calm-soft text-calm", 评级动态: "bg-paper text-ink-soft",
 };
 
-interface Props { contents: ContentItem[] }
+interface Props { contents: ContentItem[]; zones: Zone[] }
 
-export default function HomeClient({ contents }: Props) {
+export default function HomeClient({ contents, zones }: Props) {
   var [tab, setTab] = useState<Tab>("全部");
   var [showAll, setShowAll] = useState(false);
   var [pickedOnly, setPickedOnly] = useState(false);
@@ -106,7 +106,7 @@ export default function HomeClient({ contents }: Props) {
                       </div>
                       <div className="rounded-lg border border-line bg-surface overflow-hidden">
                         {items.map(function (item, idx2) {
-                          var zones = getZonesByEventId(item.id), isLast = idx2 === items.length - 1;
+                          var itemZones = zones.filter(function (z) { return z.eventIds.includes(item.id); }), isLast = idx2 === items.length - 1;
                           return (
                             <Link key={item.id} href={"/events/" + item.id}
                               className={"group relative block p-5 transition-all hover:bg-brand-soft/30 " + (isLast ? "" : "border-b border-line/50")}>
@@ -128,7 +128,7 @@ export default function HomeClient({ contents }: Props) {
                               )}
                               <div className="flex flex-wrap items-center gap-1.5">
                                 <span className="rounded border border-line bg-paper px-2 py-0.5 text-[11px] text-ink-soft">{item.esgTopic}</span>
-                                {zones.map(function (z) {
+                                {itemZones.map(function (z) {
                                   return <span key={z.id} className="inline-flex items-center gap-0.5 rounded bg-brand-soft px-1.5 py-0.5 text-[10px] text-brand-deep">{z.name}</span>;
                                 })}
                               </div>

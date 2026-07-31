@@ -1,6 +1,6 @@
 ﻿import Link from "next/link";
 import { ArrowRight, BookOpen } from "lucide-react";
-import { getAllZones, getZoneKeywords } from "@/lib/zones-data";
+import { getAllZones, getZoneKeywords } from "@/lib/zones-store";
 import { getKBForZone } from "@/lib/knowledge-base";
 import { getAllContents } from "@/lib/esg-data";
 

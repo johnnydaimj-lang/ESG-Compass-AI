@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight, MapPin, BookOpen, Star } from "lucide-react";
 import { getAllContents, getContentById, getContentLink } from "@/lib/esg-data";
-import { getZonesByEventId, getZonesForContent } from "@/lib/zones-data";
+import { getZonesByEventId, getZonesForContent } from "@/lib/zones-store";
 import { getRelatedKnowledge } from "@/lib/knowledge-base";
 import ImpactCard from "@/components/ImpactCard";
 

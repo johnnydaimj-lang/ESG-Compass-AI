@@ -39,8 +39,8 @@ export var ROADMAP: RoadmapItem[] = [
     description: "统一垃圾/相关性规则清洗历史内容：99 → 33 条，回填启发式精选", updatedAt: "2026-07-31" },
 
   // ── 待开始 ──
-  { id: "rm-zone-expand", label: "专区内容增强", category: "待开始", priority: "P1",
-    description: "专区支持后台配置新增/编辑/删除；丰富专区内容展示", updatedAt: "2026-07-31" },
+  { id: "rm-zone-expand", label: "专区内容增强", category: "进行中", priority: "P1",
+    description: "专区后台配置已完成（新增/编辑/删除、自动聚合关键词、关键里程碑管理）；继续丰富专区内容展示", updatedAt: "2026-07-31" },
   { id: "rm-pipeline-optimize", label: "数据管道优化", category: "进行中", priority: "P1",
     description: "质量门禁+启发式精选已上线（垃圾过滤/ESG相关性/三维度+选题价值），存量内容清洗 99→33 条；继续提升信源覆盖与 LLM 结构化质量", updatedAt: "2026-07-31" },
   { id: "rm-kb-to-zone", label: "知识库内容增强（并入专区后）", category: "待开始", priority: "P2",

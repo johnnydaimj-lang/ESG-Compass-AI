@@ -7,9 +7,10 @@ export interface Zone {
   description: string;
   eventIds: string[];
   milestones: { date: string; title: string; summary: string }[];
+  keywords?: string[];
 }
 
-const zoneData: Zone[] = [
+export const DEFAULT_ZONES: Zone[] = [
   {
     id: "esg-disclosure",
     name: "ESG 信息披露",
@@ -114,7 +115,7 @@ const zoneData: Zone[] = [
   },
 ];
 
-const ZONE_KEYWORDS: Record<string, string[]> = {
+export const DEFAULT_ZONE_KEYWORDS: Record<string, string[]> = {
   "esg-disclosure": ["issb", "sasb", "csrd", "esrs", "披露", "disclosure", "taxonomy", "ifrs", "sustainability reporting"],
   "esg-rating": ["rating", "esg rating", "评级", "msci", "ecovadis", "sustainalytics"],
   "sustainable-supply-chain": ["supply chain", "供应链", "csddd", "cbam", "due diligence", "尽职调查", "forced labour", "forced labor", "强迫劳动"],
@@ -126,14 +127,15 @@ const ZONE_KEYWORDS: Record<string, string[]> = {
 };
 
 export function getZoneKeywords(zoneId: string): string[] {
-  return ZONE_KEYWORDS[zoneId] || [];
+  const zone = DEFAULT_ZONES.find((z) => z.id === zoneId);
+  return zone?.keywords || DEFAULT_ZONE_KEYWORDS[zoneId] || [];
 }
 
 export function getZonesForContent(content: { title?: string; summary?: string; esgTopic?: string }): Zone[] {
   const text = `${content.title || ""} ${content.summary || ""} ${content.esgTopic || ""}`.toLowerCase();
-  return zoneData.filter((z) => ZONE_KEYWORDS[z.id]?.some((k) => text.includes(k.toLowerCase())));
+  return DEFAULT_ZONES.filter((z) => (z.keywords || DEFAULT_ZONE_KEYWORDS[z.id] || []).some((k) => text.includes(k.toLowerCase())));
 }
 
-export function getAllZones(): Zone[] { return zoneData; }
-export function getZoneById(id: string): Zone | undefined { return zoneData.find((z) => z.id === id); }
-export function getZonesByEventId(eventId: string): Zone[] { return zoneData.filter((z) => z.eventIds.includes(eventId)); }
+export function getAllZones(): Zone[] { return DEFAULT_ZONES; }
+export function getZoneById(id: string): Zone | undefined { return DEFAULT_ZONES.find((z) => z.id === id); }
+export function getZonesByEventId(eventId: string): Zone[] { return DEFAULT_ZONES.filter((z) => z.eventIds.includes(eventId)); }

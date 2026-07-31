@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight, MapPin, BookOpen } from "lucide-react";
-import { getAllZones, getZoneById, getZoneKeywords } from "@/lib/zones-data";
+import { getAllZones, getZoneById, getZoneKeywords } from "@/lib/zones-store";
 import { getKBForZone } from "@/lib/knowledge-base";
 import { getAllContents, getContentById } from "@/lib/esg-data";
 
