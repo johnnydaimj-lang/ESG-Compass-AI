@@ -5,10 +5,25 @@ import { Sparkles, X, Loader2, Lock } from "lucide-react";
 
 export default function NavWorkbenchButton() {
   var [showModal, setShowModal] = useState(false);
+  var [checking, setChecking] = useState(false);
   var [password, setPassword] = useState("");
   var [loading, setLoading] = useState(false);
   var [error, setError] = useState("");
   var router = useRouter();
+
+  async function handleOpen() {
+    setChecking(true);
+    try {
+      var res = await fetch("/api/auth/check", { cache: "no-store" });
+      var data = await res.json();
+      if (data.authenticated) {
+        router.push("/workbench");
+        return;
+      }
+    } catch { /* fall through to password modal */ }
+    setChecking(false);
+    setShowModal(true);
+  }
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -36,9 +51,9 @@ export default function NavWorkbenchButton() {
 
   return (
     <>
-      <button onClick={function () { setShowModal(true); }}
+      <button onClick={handleOpen} disabled={checking}
         className="inline-flex items-center gap-1 rounded-md border border-brand-line bg-brand-soft px-3 py-1.5 text-[13px] font-medium text-brand-deep transition-colors hover:bg-brand-line">
-        <Sparkles size={13} />工作台
+        {checking ? <Loader2 size={13} className="animate-spin" /> : <Sparkles size={13} />}工作台
       </button>
 
       {showModal && (

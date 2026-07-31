@@ -24,9 +24,11 @@ function WorkbenchContent() {
   var kbCategories = Array.from(new Set(KNOWLEDGE_BASE.map(function (k) { return k.category; }))).join(" / ");
 
   useEffect(function () {
-    var authed = typeof document !== "undefined" && document.cookie.includes("admin_session=true");
-    setAuthenticated(authed);
-    setChecking(false);
+    fetch("/api/auth/check", { cache: "no-store" })
+      .then(function (res) { return res.json(); })
+      .then(function (data) { setAuthenticated(Boolean(data.authenticated)); })
+      .catch(function () { setAuthenticated(false); })
+      .finally(function () { setChecking(false); });
   }, []);
 
   useEffect(function () {
