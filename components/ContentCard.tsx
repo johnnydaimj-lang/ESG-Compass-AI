@@ -30,9 +30,6 @@ export default function ContentCard({ item, headline = false }: ContentCardProps
           <span className="inline-flex items-center gap-1 rounded border border-line bg-paper px-2 py-0.5 text-[11px] text-ink-soft">
             {item.esgTopic}
           </span>
-          {item.riskPrompts && item.riskPrompts.length > 0 && (
-            <span className="inline-flex items-center gap-0.5 rounded border border-warn/30 bg-warn-soft px-1.5 py-0.5 text-[10px] text-warn">风险提示</span>
-          )}
         </div>                <div className="mt-2 flex flex-wrap gap-1.5">
           {getZonesByEventId(item.id).map((z) => (
             <span key={z.id} className="inline-flex items-center gap-0.5 rounded bg-brand-soft px-1.5 py-0.5 text-[10px] text-brand-deep">

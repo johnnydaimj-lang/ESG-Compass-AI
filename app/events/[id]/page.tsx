@@ -56,22 +56,6 @@ export default async function EventDetailPage({ params }: Props) {
         </section>
       )}
 
-      {item.riskPrompts && item.riskPrompts.length > 0 && (
-        <section className="my-4 rounded-lg border border-warn/30 bg-warn-soft/50 px-5 py-4">
-          <div className="mb-2 flex items-center gap-1.5 text-[13px] font-medium text-warn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
-            风险提示
-          </div>
-          <ul className="space-y-2">
-            {item.riskPrompts.map((p, i) => (
-              <li key={i} className="flex items-start gap-2 text-[13px] leading-relaxed text-ink-soft">
-                <span className="mt-[7px] h-1 w-1 shrink-0 rounded-full bg-warn" />
-                {p}
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
       {(() => { return item.impactAnalysis ? <ImpactCard analysis={item.impactAnalysis} /> : null; })()}
 
       {/* Zone affiliation */}

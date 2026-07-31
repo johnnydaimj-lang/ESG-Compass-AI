@@ -80,7 +80,6 @@ export interface ContentItem {
   recommended?: boolean;
   whyMatters?: string;
   articleUrl?: string;
-  riskPrompts?: string[];
 }
 
 const DATA_FILE = resolve(process.cwd(), "data", "contents.json");
