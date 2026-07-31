@@ -12,6 +12,7 @@ const CONFIG = {
   sourcesPath: resolve(DATA, "sources.json"),
   contentsPath: resolve(DATA, "contents.json"),
   hashesPath: resolve(DATA, "seen_hashes.json"),
+  statusPath: resolve(DATA, "pipeline-status.json"),
   llmApiKey: process.env.LLM_API_KEY || process.env.OPENAI_API_KEY || "",
   llmBaseUrl: process.env.LLM_BASE_URL || "https://api.openai.com/v1",
   llmModel: process.env.LLM_MODEL || "gpt-4o-mini",
@@ -47,6 +48,36 @@ function today() {
   return new Date().toISOString().slice(0, 10);
 }
 
+// ── 统一抓取层 ─────────────────────────────────────────
+const BROWSER_HEADERS = {
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+  "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+  "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
+  "Cache-Control": "no-cache",
+};
+
+async function fetchWithRetry(url, options = {}, retries = 2) {
+  let lastErr;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url, {
+        redirect: "follow",
+        headers: { ...BROWSER_HEADERS, ...(options.headers || {}) },
+        signal: AbortSignal.timeout(options.timeoutMs || 20000),
+        ...options,
+      });
+      if ((res.status === 429 || res.status >= 500 || res.status === 403) && attempt < retries) {
+        await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
+        continue;
+      }
+      return res;
+    } catch (err) {
+      lastErr = err;
+      if (attempt < retries) await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
+    }
+  }
+  throw lastErr || new Error(`请求失败: ${url}`);
+}
 // ── 步骤 1：加载信源 ─────────────────────────────────
 function loadSources() {
   const data = readJSON(CONFIG.sourcesPath);
@@ -71,7 +102,10 @@ function saveSeenHashes(hashes) {
 async function fetchRSS(source) {
   const { default: Parser } = await import("rss-parser");
   const parser = new Parser();
-  const feed = await parser.parseURL(source.rssUrl || source.url);
+  const url = source.rssUrl || source.url;
+  const res = await fetchWithRetry(url, { timeoutMs: 20000 });
+  const xml = await res.text();
+  const feed = await parser.parseString(xml);
   return (feed.items || []).map((item) => ({
     title: item.title || "(无标题)",
     summary: item.contentSnippet || item.content?.replace(/<[^>]+>/g, "") || item.summary || "",
@@ -83,9 +117,7 @@ async function fetchRSS(source) {
 
 async function scrapeWebpage(source) {
   const { load } = await import("cheerio");
-  const res = await fetch(source.url, {
-    headers: { "User-Agent": "Mozilla/5.0 (compatible; ESG-Flux-Pipeline/1.0)" },
-  });
+  const res = await fetchWithRetry(source.url, { timeoutMs: 20000 });
   if (!res.ok) {
     console.warn(`  ⚠️  ${source.name} 返回 ${res.status}，跳过`);
     return [];
@@ -118,10 +150,103 @@ async function scrapeWebpage(source) {
       if (items.length > 2) break; // 找到容器，不再尝试更多选择器
     }
   }
+  const limited = items.slice(0, source.limit || 30);
+  console.log(`  📄  ${source.name}：解析到 ${limited.length} 条（共 ${items.length} 条候选）`);
+  return limited;
+}
+
+async function fetchMarkdown(source) {
+  const res = await fetchWithRetry(source.url, { timeoutMs: 20000 });
+  if (!res.ok) {
+    console.warn(`  ⚠️  ${source.name} 返回 ${res.status}，跳过`);
+    return [];
+  }
+  const md = await res.text();
+  const items = [];
+  const re = /- \[([^\]]+)\]\(([^)]+)\)\s*(?:\((\d{4}-\d{2}-\d{2})\))?/g;
+  let m;
+  while ((m = re.exec(md))) {
+    const raw = m[2];
+    const absUrl = raw.startsWith("http") ? raw : new URL(raw, source.url).href;
+    items.push({
+      title: m[1].trim().slice(0, 200),
+      summary: "",
+      link: absUrl.replace(/\.md$/, ""),
+      date: m[3] || today(),
+      source,
+    });
+  }
   console.log(`  📄  ${source.name}：解析到 ${items.length} 条`);
   return items;
 }
 
+async function fetchSitemapArticle(url, source) {
+  const res = await fetchWithRetry(url, { timeoutMs: 15000 });
+  const html = await res.text();
+  const h1 = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1]?.replace(/<[^>]+>/g, "").trim();
+  const title = h1 || html.match(/<title>([^<]+)<\/title>/i)?.[1]?.trim() || "(无标题)";
+  const desc = html.match(/<meta[^>]+name="description"[^>]+content="([^"]*)"/i)?.[1] || "";
+  const p = html.match(/<p[^>]*>([\s\S]{40,500}?)<\/p>/i)?.[1]?.replace(/<[^>]+>/g, "").trim() || "";
+  const dm = url.match(/\/news\/(\d{4})\/(\d{2})\//);
+  return {
+    title: title.slice(0, 200),
+    summary: (desc || p).slice(0, 500),
+    link: url,
+    date: dm ? `${dm[1]}-${dm[2]}-01` : today(),
+    source,
+  };
+}
+
+async function fetchSitemap(source) {
+  const res = await fetchWithRetry(source.url, { timeoutMs: 25000 });
+  const xml = await res.text();
+  const prefix = source.urlPrefix || "/news-and-events/news/";
+  const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]).filter((u) => u.includes(prefix));
+  locs.sort((a, b) => b.localeCompare(a));
+  const recent = locs.slice(0, source.limit || 10);
+  const items = [];
+  for (const url of recent) {
+    try {
+      items.push(await fetchSitemapArticle(url, source));
+    } catch (err) {
+      console.warn(`  ⚠️  文章抓取失败 ${url.slice(-50)}：${err.message.slice(0, 50)}`);
+    }
+  }
+  console.log(`  📄  ${source.name}：解析到 ${items.length} 条`);
+  return items;
+}
+
+async function fetchCrossref(source) {
+  const q = encodeURIComponent(source.query || "ESG sustainability");
+  const rows = source.rows || 10;
+  const from = new Date(Date.now() - (source.fromDays || 30) * 86400000).toISOString().slice(0, 10);
+  const apiUrl = `${source.url}?query=${q}&filter=from-pub-date:${from},type:journal-article&rows=${rows}&select=title,URL,published,abstract,container-title`;
+  const res = await fetchWithRetry(apiUrl, { timeoutMs: 25000 });
+  if (!res.ok) {
+    console.warn(`  ⚠️  ${source.name} 返回 ${res.status}，跳过`);
+    return [];
+  }
+  const data = await res.json();
+  const items = (data.message?.items || [])
+    .filter((it) => it.title && it.URL)
+    .map((it) => ({
+      title: (Array.isArray(it.title) ? it.title.join(" ") : String(it.title || "")).slice(0, 200),
+      summary: (it.abstract || "").replace(/<[^>]+>/g, "").slice(0, 500),
+      link: it.URL,
+      date: it.published?.["date-parts"]?.[0]?.slice(0, 3).join("-") || today(),
+      source,
+    }));
+  console.log(`  📄  ${source.name}：解析到 ${items.length} 条`);
+  return items;
+}
+
+const FETCHERS = {
+  rss: fetchRSS,
+  webpage: scrapeWebpage,
+  markdown: fetchMarkdown,
+  sitemap: fetchSitemap,
+  api: fetchCrossref,
+};
 // ── 步骤 3：去重 ─────────────────────────────────────
 function deduplicate(rawItems, seenHashes) {
   const hashes = seenHashes;
@@ -231,16 +356,29 @@ async function main() {
 
   // 2. 抓取所有信源
   const allRaw = [];
+  const statuses = [];
   for (const source of sources) {
     process.stdout.write(`🔍  [${source.contentType}] ${source.name}...`);
+    const status = { id: source.id, name: source.name, type: source.type, ok: false, count: 0, error: "", lastFetchAt: new Date().toISOString() };
     try {
-      const items = source.type === "rss" ? await fetchRSS(source) : await scrapeWebpage(source);
+      const fetchFn = FETCHERS[source.type] || scrapeWebpage;
+      const items = await fetchFn(source);
       allRaw.push(...items);
+      status.ok = true;
+      status.count = items.length;
       process.stdout.write(` ${items.length} 条\n`);
     } catch (err) {
+      status.error = err.message.slice(0, 120);
       process.stdout.write(` 错误：${err.message.slice(0, 80)}\n`);
     }
+    statuses.push(status);
   }
+
+  writeJSON(CONFIG.statusPath, {
+    lastRunAt: new Date().toISOString(),
+    sources: statuses,
+    totalFetched: allRaw.length,
+  });
 
   console.log(`\n📦 共抓取 ${allRaw.length} 条原始内容`);
 

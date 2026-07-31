@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useState, useCallback } from "react";
 import Link from "next/link";
@@ -31,7 +31,7 @@ interface AnomalyEntry {
 }
 
 // ── 帮助 ──────────────────────────────────────────────
-const TYPE_LABELS: Record<string, string> = { rss: "RSS", webpage: "网页" };
+const TYPE_LABELS: Record<string, string> = { rss: "RSS", webpage: "网页", markdown: "Markdown", sitemap: "Sitemap", api: "API" };
 
 function contentTypeBadge(ct: string) {
   const colors: Record<string, string> = {

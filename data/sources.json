@@ -5,12 +5,12 @@
       "name": "欧盟委员会",
       "url": "https://commission.europa.eu/",
       "type": "rss",
-      "rssUrl": "https://ec.europa.eu/commission/presscorner/api/rss",
+      "rssUrl": "https://ec.europa.eu/commission/presscorner/api/rss?lang=en",
       "contentType": "ESG 政策",
       "region": "欧盟",
       "language": "en",
       "enabled": true,
-      "notes": "改用欧盟新闻发布室RSS"
+      "notes": "欧盟新闻发布室官方 RSS（需带 lang 参数）"
     },
     {
       "id": "sec-esg",
@@ -26,13 +26,15 @@
     {
       "id": "ifrs-issb",
       "name": "IFRS / ISSB 新闻",
-      "url": "https://www.ifrs.org/news-and-events/news/feed/",
-      "type": "rss",
+      "url": "https://www.ifrs.org/sitemap.xml",
+      "type": "sitemap",
+      "urlPrefix": "/news-and-events/news/",
+      "limit": 10,
       "contentType": "ESG 政策",
       "region": "全球",
       "language": "en",
       "enabled": true,
-      "notes": "改试用WordPress RSS路径"
+      "notes": "RSS 路径已失效，改用 sitemap 解析近期新闻文章"
     },
     {
       "id": "mas-sustainable-finance",
@@ -43,7 +45,8 @@
       "region": "新加坡",
       "language": "en",
       "enabled": true,
-      "notes": "政府新闻页，无 RSS，需 scrape"
+      "notes": "政府新闻页，无 RSS，需 scrape",
+      "limit": 20
     },
     {
       "id": "eco-business",
@@ -54,7 +57,8 @@
       "region": "亚洲",
       "language": "en",
       "enabled": true,
-      "notes": "旧RSS 404，改用新闻列表抓取"
+      "notes": "旧 RSS 404，改用新闻列表抓取",
+      "limit": 20
     },
     {
       "id": "wri-insights",
@@ -65,29 +69,33 @@
       "region": "全球",
       "language": "en",
       "enabled": true,
-      "notes": "RSS被屏蔽，改用网页抓取"
+      "notes": "RSS 被屏蔽，改用网页抓取（需浏览器 UA + 重试）",
+      "limit": 20
     },
     {
       "id": "ssrn-esg",
-      "name": "SSRN ESG 论文（GREEN/SUST）",
-      "url": "https://papers.ssrn.com/sol3/JELJOUR_Results.cfm?form_name=journalBrowse&journal_id=2774117",
-      "type": "webpage",
+      "name": "学术文章（Crossref ESG 检索）",
+      "url": "https://api.crossref.org/works",
+      "type": "api",
+      "query": "ESG sustainability climate disclosure",
+      "rows": 10,
+      "fromDays": 30,
       "contentType": "学术文章",
       "region": "全球",
       "language": "en",
       "enabled": true,
-      "notes": "更新搜索页URL格式"
+      "notes": "SSRN 直连被拦截，改用 Crossref 学术元数据 API"
     },
     {
       "id": "cdp-articles",
       "name": "CDP 新闻与文章",
-      "url": "https://www.cdp.net/en/articles/climate",
-      "type": "webpage",
+      "url": "https://www.cdp.net/en/insights.md",
+      "type": "markdown",
       "contentType": "评级动态",
       "region": "全球",
       "language": "en",
       "enabled": true,
-      "notes": "改用CDP文章专区URL"
+      "notes": "旧文章专区 404，改用 CDP Insights Markdown 列表"
     }
   ]
 }

@@ -1,0 +1,78 @@
+{
+  "lastRunAt": "2026-07-31T08:39:41.673Z",
+  "sources": [
+    {
+      "id": "eu-commission",
+      "name": "欧盟委员会",
+      "type": "rss",
+      "ok": true,
+      "count": 10,
+      "error": "",
+      "lastFetchAt": "2026-07-31T08:39:23.719Z"
+    },
+    {
+      "id": "sec-esg",
+      "name": "SEC 新闻稿（ESG 相关）",
+      "type": "rss",
+      "ok": true,
+      "count": 25,
+      "error": "",
+      "lastFetchAt": "2026-07-31T08:39:25.490Z"
+    },
+    {
+      "id": "ifrs-issb",
+      "name": "IFRS / ISSB 新闻",
+      "type": "sitemap",
+      "ok": true,
+      "count": 10,
+      "error": "",
+      "lastFetchAt": "2026-07-31T08:39:27.079Z"
+    },
+    {
+      "id": "mas-sustainable-finance",
+      "name": "新加坡金管局（MAS）可持续金融",
+      "type": "webpage",
+      "ok": true,
+      "count": 6,
+      "error": "",
+      "lastFetchAt": "2026-07-31T08:39:30.867Z"
+    },
+    {
+      "id": "eco-business",
+      "name": "Eco-Business（亚洲 ESG 新闻）",
+      "type": "webpage",
+      "ok": true,
+      "count": 20,
+      "error": "",
+      "lastFetchAt": "2026-07-31T08:39:33.602Z"
+    },
+    {
+      "id": "wri-insights",
+      "name": "世界资源研究所（WRI）Insights",
+      "type": "webpage",
+      "ok": true,
+      "count": 20,
+      "error": "",
+      "lastFetchAt": "2026-07-31T08:39:33.944Z"
+    },
+    {
+      "id": "ssrn-esg",
+      "name": "学术文章（Crossref ESG 检索）",
+      "type": "api",
+      "ok": true,
+      "count": 10,
+      "error": "",
+      "lastFetchAt": "2026-07-31T08:39:37.104Z"
+    },
+    {
+      "id": "cdp-articles",
+      "name": "CDP 新闻与文章",
+      "type": "markdown",
+      "ok": true,
+      "count": 6,
+      "error": "",
+      "lastFetchAt": "2026-07-31T08:39:40.030Z"
+    }
+  ],
+  "totalFetched": 107
+}

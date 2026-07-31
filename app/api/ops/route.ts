@@ -1,9 +1,10 @@
-﻿import { NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import { readFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 
 const SOURCES_FILE = resolve(process.cwd(), "data", "sources.json");
 const CONTENTS_FILE = resolve(process.cwd(), "data", "contents.json");
+const STATUS_FILE = resolve(process.cwd(), "data", "pipeline-status.json");
 
 // ── 类型 ──────────────────────────────────────────────
 interface SourceEntry {
@@ -26,6 +27,13 @@ interface AnomalyEntry {
   type: "source_failure" | "llm_error" | "network_error" | "warning";
   sourceName: string; message: string; resolved: boolean;
 }
+interface PipelineSourceStatus {
+  id: string; name: string; type: string; ok: boolean;
+  count: number; error: string; lastFetchAt: string;
+}
+interface PipelineStatus {
+  lastRunAt: string; totalFetched: number; sources: PipelineSourceStatus[];
+}
 interface OpsResponse {
   sources: SourceHealth[];
   pipeline: PipelineStats;
@@ -39,6 +47,17 @@ function readJSON(path: string): unknown {
     const raw = readFileSync(path, "utf-8");
     return JSON.parse(raw);
   } catch { return null; }
+}
+
+function formatTime(iso: string): string {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return iso;
+  const p = (n: number) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+}
+
+function todayStr(): string {
+  return new Date().toISOString().slice(0, 10);
 }
 
 // 模拟各信源的变更状态（基于信源 id 做确定性日期偏移）
@@ -95,68 +114,90 @@ export async function GET() {
   const raw = readJSON(SOURCES_FILE) as { sources: SourceEntry[] } | null;
   const allSources: SourceEntry[] = raw?.sources ?? [];
 
-  // 信源状态
-  const sources: SourceHealth[] = allSources.map(simulateSourceHealth);
+  const statusRaw = readJSON(STATUS_FILE) as PipelineStatus | null;
+  const statusMap = new Map((statusRaw?.sources ?? []).map((s) => [s.id, s]));
 
-  // 管道统计
+  // 信源状态：优先使用真实管道状态，缺失的信源回退到模拟
+  const sources: SourceHealth[] = allSources.map((src, idx) => {
+    const st = statusMap.get(src.id);
+    if (st) {
+      return {
+        id: src.id, name: src.name, type: src.type,
+        contentType: src.contentType, region: src.region,
+        enabled: src.enabled,
+        lastFetchAt: st.lastFetchAt ? formatTime(st.lastFetchAt) : null,
+        successCount: st.ok ? st.count : 0,
+        failCount: st.ok ? 0 : 1,
+        todayCount: st.ok ? st.count : 0,
+        health: st.ok ? "healthy" : "degraded",
+      };
+    }
+    return simulateSourceHealth(src, idx);
+  });
+
   const enabledSources = sources.filter((s) => s.enabled);
   const degradedSources = sources.filter((s) => s.health === "degraded");
   const staleSources = sources.filter((s) => s.health === "stale" && s.enabled);
 
-  // 检查 mock 内容数
   const contentsRaw = readJSON(CONTENTS_FILE);
-  const contentCount = Array.isArray(contentsRaw) ? contentsRaw.length : 10;
+  const contentCount = Array.isArray(contentsRaw) ? contentsRaw.length : 0;
+
+  const realRun = Boolean(statusRaw);
+  const fetchedTotal = statusRaw?.totalFetched ?? sources.reduce((s, src) => s + (src.enabled ? src.todayCount : 0), 0);
 
   const pipeline: PipelineStats = {
-    todayFetched: sources.reduce((s, src) => s + (src.enabled ? src.todayCount : 0), 0) + 18,
-    todayLlmProcessed: sources.reduce((s, src) => s + (src.enabled ? src.todayCount : 0), 0) + 12,
-    todayCurated: contentCount >= 10 ? 4 : 0,
-    todayPublished: contentCount >= 10 ? 10 : 0,
-    lastPipelineRun: "2026-07-28 08:15:23",
+    todayFetched: fetchedTotal,
+    todayLlmProcessed: realRun ? fetchedTotal : fetchedTotal + 12,
+    todayCurated: contentCount > 0 ? Math.min(4, Math.max(1, Math.floor(contentCount / 8))) : 0,
+    todayPublished: contentCount > 0 ? Math.min(10, contentCount) : 0,
+    lastPipelineRun: statusRaw?.lastRunAt ? formatTime(statusRaw.lastRunAt) : null,
     totalSources: allSources.length,
     enabledSources: enabledSources.length,
     degradedSources: degradedSources.length,
     staleSources: staleSources.length,
   };
 
-  // 异常日志
   const anomalies: AnomalyEntry[] = [];
 
+  // 真实失败优先展示
   for (const src of sources) {
-    if (src.health === "degraded") {
-      const h = parseInt(src.lastFetchAt?.slice(11, 13) || "8", 10);
-      const m = (parseInt(src.lastFetchAt?.slice(14, 16) || "0", 10) - 3 % 60);
+    const st = statusMap.get(src.id);
+    if (st && !st.ok) {
       anomalies.push({
         id: `anom-${src.id}`,
-        timestamp: `2026-07-29 ${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`,
+        timestamp: st.lastFetchAt ? formatTime(st.lastFetchAt) : todayStr(),
         type: "source_failure",
         sourceName: src.name,
-        message: `连续 ${src.failCount} 次抓取失败，最后一次返回 HTTP 503`,
+        message: st.error ? `抓取失败：${st.error}` : "抓取失败，请检查信源配置",
         resolved: false,
-      });
-    }
-    if (src.health === "stale" && src.enabled) {
-      anomalies.push({
-        id: `anom-stale-${src.id}`,
-        timestamp: "2026-07-28 23:45",
-        type: "warning",
-        sourceName: src.name,
-        message: "信源已超过 24 小时未成功抓取",
-        resolved: src.failCount < 3,
       });
     }
   }
 
-  // 增加一个随机的 LLM 错误
-  if (sources.length > 3) {
-    anomalies.unshift({
-      id: "anom-llm-01",
-      timestamp: "2026-07-29 07:48",
-      type: "llm_error",
-      sourceName: "SSRN ESG 论文",
-      message: "LLM 结构化返回格式异常：JSON 解析失败，已重试 1 次",
-      resolved: true,
-    });
+  // 未运行过管道时保留模拟状态提示
+  if (!realRun) {
+    for (const src of sources) {
+      if (src.health === "degraded") {
+        anomalies.push({
+          id: `anom-${src.id}`,
+          timestamp: src.lastFetchAt || todayStr(),
+          type: "source_failure",
+          sourceName: src.name,
+          message: `连续 ${src.failCount} 次抓取失败，最后一次返回 HTTP 503`,
+          resolved: false,
+        });
+      }
+      if (src.health === "stale" && src.enabled) {
+        anomalies.push({
+          id: `anom-stale-${src.id}`,
+          timestamp: todayStr(),
+          type: "warning",
+          sourceName: src.name,
+          message: "信源已超过 24 小时未成功抓取",
+          resolved: src.failCount < 3,
+        });
+      }
+    }
   }
 
   anomalies.sort((a, b) => b.timestamp.localeCompare(a.timestamp));
