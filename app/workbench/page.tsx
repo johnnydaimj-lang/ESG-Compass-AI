@@ -2,15 +2,26 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import { Send, Loader2, BookOpen, ExternalLink, Database, Sparkles, Map, ArrowLeft } from "lucide-react";
 import { Suspense } from "react";
-import { Send, Loader2, BookOpen, ExternalLink, Database, Sparkles } from "lucide-react";
+import { KNOWLEDGE_BASE } from "@/lib/knowledge-base";
 
 interface Source { id: string; title: string; sourceName: string; sourceUrl: string; category: string; }
 interface ChatMsg { role: "user" | "assistant"; content: string; sources?: Source[]; }
 
 function WorkbenchContent() {
+  // Hooks always at top level, before any conditional return
+  var searchParams = useSearchParams();
+  var eventId = searchParams.get("event") || "";
   var [authenticated, setAuthenticated] = useState(false);
   var [checking, setChecking] = useState(true);
+  var [messages, setMessages] = useState<ChatMsg[]>([]);
+  var [input, setInput] = useState("");
+  var [loading, setLoading] = useState(false);
+  var endRef = useRef<HTMLDivElement>(null);
+
+  var kbTotal = KNOWLEDGE_BASE.length;
+  var kbCategories = Array.from(new Set(KNOWLEDGE_BASE.map(function (k) { return k.category; }))).join(" / ");
 
   useEffect(function () {
     var authed = typeof document !== "undefined" && document.cookie.includes("admin_session=true");
@@ -18,28 +29,9 @@ function WorkbenchContent() {
     setChecking(false);
   }, []);
 
-  if (checking) {
-    return <div className="mx-auto max-w-5xl py-20 text-center text-[13px] text-ink-faint">验证中…</div>;
-  }
-
-  if (!authenticated) {
-    return <WorkbenchAuthForm onSuccess={function () { setAuthenticated(true); }} />;
-  }
-
-  var searchParams = useSearchParams();
-  var eventId = searchParams.get("event") || "";
-  var [messages, setMessages] = useState<ChatMsg[]>([]);
-  var [input, setInput] = useState("");
-  var [loading, setLoading] = useState(false);
-  var endRef = useRef<HTMLDivElement>(null);
-  var [kbStats, setKbStats] = useState({ totalEntries: 0, categories: [] as string[] });
-
   useEffect(function () {
-    fetch("/api/chat").then(function (r) { return r.json(); }).then(function (d) {
-      if (d.totalEntries) setKbStats(d);
-    }).catch(function () {});
     if (eventId) {
-      setMessages([{ role: "assistant", content: "你好，我是你的个人 ESG 工作台。我看到你在查看一条 ESG 事件。关于这个话题，有什么想深入了解的吗？" }]);
+      setMessages([{ role: "assistant", content: "你好，我是你的个人 ESG 工作台。我看到你在查看一条 ESG 事件。关于这个话题，有什么想深入了解的吗？比如法规的具体要求、对业务的影响，或者该怎么做？" }]);
     } else {
       setMessages([{ role: "assistant", content: "欢迎回到工作台。你可以问我关于 ESG 政策、标准、评级、合规等方面的问题。回答基于公开知识库 + 你的私人知识库。" }]);
     }
@@ -53,7 +45,7 @@ function WorkbenchContent() {
     setInput("");
     setMessages(function (prev) { return [...prev, { role: "user", content: msg }]; });
     setLoading(true);
-    fetch("/api/chat", {
+    fetch("/api/workbench/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: msg, eventId: eventId || undefined }),
@@ -61,11 +53,19 @@ function WorkbenchContent() {
       if (data) {
         setMessages(function (prev) { return [...prev, { role: "assistant", content: data.reply, sources: data.sources || [] }]; });
       } else {
-        setMessages(function (prev) { return [...prev, { role: "assistant", content: "抱歉，我暂时无法回答。" }]; });
+        setMessages(function (prev) { return [...prev, { role: "assistant", content: "抱歉，我暂时无法回答这个问题。请稍后再试。" }]; });
       }
     }).catch(function () {
-      setMessages(function (prev) { return [...prev, { role: "assistant", content: "网络异常，请重试。" }]; });
+      setMessages(function (prev) { return [...prev, { role: "assistant", content: "网络异常，请检查后重试。" }]; });
     }).finally(function () { setLoading(false); });
+  }
+
+  if (checking) {
+    return <div className="mx-auto max-w-5xl py-20 text-center text-[13px] text-ink-faint">验证中…</div>;
+  }
+
+  if (!authenticated) {
+    return <WorkbenchAuthForm onSuccess={function () { setAuthenticated(true); }} />;
   }
 
   return (
@@ -81,22 +81,22 @@ function WorkbenchContent() {
           </div>
         </div>
         <div className="flex items-center gap-2">
+          <Link href="/ops/product-map" className="inline-flex items-center gap-1 rounded-md border border-line px-3 py-1.5 text-[12px] text-ink-soft transition-colors hover:bg-surface"><Map size={12} />产品思维导图</Link>
           <Link href="/ops" className="rounded-md border border-line px-3 py-1.5 text-[12px] text-ink-soft transition-colors hover:bg-surface">运营后台</Link>
-          <Link href="/" className="rounded-md bg-brand-soft px-3 py-1.5 text-[12px] font-medium text-brand-deep transition-colors hover:bg-brand-line">返回首页</Link>
+          <Link href="/" className="rounded-md bg-brand-soft px-3 py-1.5 text-[12px] font-medium text-brand-deep transition-colors hover:bg-brand-line"><ArrowLeft size={12} className="inline" />返回首页</Link>
         </div>
       </div>
 
-      {/* Stats + Chat layout */}
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
         {/* Sidebar */}
         <div className="space-y-4 lg:col-span-1">
           <div className="rounded-lg border border-line bg-surface p-4">
             <h2 className="mb-3 flex items-center gap-1.5 text-[12px] font-semibold text-ink">
-              <Database size={14} className="text-brand-deep" />知识库概况
+              <Database size={14} className="text-brand-deep" />知识库概览
             </h2>
             <div className="space-y-2 text-[12px]">
-              <div className="flex justify-between"><span className="text-ink-soft">已入库条目</span><span className="font-medium text-ink">{kbStats.totalEntries || 11}</span></div>
-              <div className="flex justify-between"><span className="text-ink-soft">分类</span><span className="font-medium text-ink">{kbStats.categories?.join(" / ") || "法规 / 标准 / 解读"}</span></div>
+              <div className="flex justify-between"><span className="text-ink-soft">已入库条目</span><span className="font-medium text-ink">{kbTotal}</span></div>
+              <div className="flex justify-between"><span className="text-ink-soft">分类</span><span className="font-medium text-ink">{kbCategories}</span></div>
               <div className="flex justify-between"><span className="text-ink-soft">数据来源</span><span className="font-medium text-ink">公开 KB + 私人</span></div>
             </div>
           </div>
@@ -173,7 +173,6 @@ function WorkbenchContent() {
   );
 }
 
-
 function WorkbenchAuthForm({ onSuccess }: { onSuccess: () => void }) {
   var [password, setPassword] = useState("");
   var [loading, setLoading] = useState(false);
@@ -225,7 +224,6 @@ function WorkbenchAuthForm({ onSuccess }: { onSuccess: () => void }) {
     </div>
   );
 }
-
 
 export default function WorkbenchPage() {
   return (

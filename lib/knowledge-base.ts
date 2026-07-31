@@ -116,5 +116,23 @@ export function getRelatedKnowledge(eventId: string): KnowledgeEntry[] {
   return ids.map(function (id) { return KNOWLEDGE_BASE.find(function (k) { return k.id === id; }); }).filter(Boolean) as KnowledgeEntry[];
 }
 
+
+// 搜索知识库（简单关键词 + 标签匹配），供个人工作台 AI 使用
+export function searchKnowledgeBase(query: string, limit: number = 3): KnowledgeEntry[] {
+  var q = query.toLowerCase();
+  var scored = KNOWLEDGE_BASE.map(function (entry) {
+    var score = 0;
+    entry.tags.forEach(function (tag) {
+      if (q.includes(tag.toLowerCase())) score += 3;
+    });
+    if (entry.title.toLowerCase().includes(q)) score += 5;
+    if (entry.summary.toLowerCase().includes(q)) score += 2;
+    if (entry.content.toLowerCase().includes(q)) score += 1;
+    return { entry: entry, score: score };
+  });
+  scored.sort(function (a, b) { return b.score - a.score; });
+  return scored.filter(function (s) { return s.score > 0; }).slice(0, limit).map(function (s) { return s.entry; });
+}
+
 // 获取知识库条目总数（供专区列表页使用）
 export function getKBTotalCount(): number { return KNOWLEDGE_BASE.length; }
