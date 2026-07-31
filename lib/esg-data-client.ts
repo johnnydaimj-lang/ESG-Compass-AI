@@ -28,6 +28,7 @@ export interface ContentItem {
   recommended?: boolean;
   whyMatters?: string;
   articleUrl?: string;
+  riskPrompts?: string[];
 }
 
 

@@ -335,7 +335,35 @@ async function structureItem(item, index, total) {
     sourceUrl: item.link || source.url,
     esgTopic: structured.esgTopic || "合规与监管",
     aiDraft: true,
+    riskPrompts: buildRiskPrompts(item),
   };
+}
+
+// ── 风险提示规则库（决策知识单元 v0.1）────────────────
+const RISK_PROMPT_RULES = [
+  {
+    keywords: [
+      "零碳工厂", "零碳园区", "碳中和工厂", "净零工厂", "绿色工厂",
+      "屋顶光伏", "分布式光伏", "工厂光伏",
+      "rooftop solar", "rooftop pv", "solar rooftop", "factory solar",
+      "net-zero factory", "net zero factory", "green factory",
+    ],
+    prompts: [
+      "屋顶光伏落地性风险：需核查厂区周边是否邻近水泥厂、煤电厂等高粉尘源，组件积灰会降低发电效率并推高清洗与运维成本；同时确认光照资源、屋顶荷载与并网容量。",
+      "建议把“装光伏”拆解为发电测算、环境约束、运维成本、绿电替代四层验证，避免将设备安装直接等同于零碳。",
+    ],
+  },
+];
+
+function buildRiskPrompts(item) {
+  const text = `${item.title} ${item.summary || ""}`.toLowerCase();
+  const matched = [];
+  for (const rule of RISK_PROMPT_RULES) {
+    if (rule.keywords.some((k) => text.includes(k.toLowerCase()))) {
+      matched.push(...rule.prompts);
+    }
+  }
+  return matched.length > 0 ? matched : undefined;
 }
 
 // ── 步骤 4b：无 LLM key 时的本地规则兜底 ─────────────
@@ -353,6 +381,7 @@ function fallbackStructure(item) {
     sourceUrl: item.link || source.url,
     esgTopic: "合规与监管",
     aiDraft: false,
+    riskPrompts: buildRiskPrompts(item),
   };
 }
 
