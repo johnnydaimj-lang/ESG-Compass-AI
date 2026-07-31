@@ -22,6 +22,7 @@ interface PipelineStats {
   todayPublished: number; lastPipelineRun: string | null;
   totalSources: number; enabledSources: number;
   degradedSources: number; staleSources: number;
+  passedQuality: number | null; filteredQuality: number | null;
 }
 
 interface AnomalyEntry {
@@ -166,6 +167,7 @@ export default function OpsDashboard() {
             icon={<FileText size={13} />}
             label="LLM 处理"
             value={pipeline.todayLlmProcessed}
+            sub={pipeline.passedQuality != null ? `质量门禁通过 ${pipeline.passedQuality} · 过滤 ${pipeline.filteredQuality}` : undefined}
           />
           <MetricCard
             icon={<Star size={13} />}

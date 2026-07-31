@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { isJunkItem, isEsgRelevant, curateFromDims, heuristicCurate } from "./esg-quality.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
@@ -48,6 +49,13 @@ function makeId(title, sourceId = "", url = "") {
 
 function today() {
   return new Date().toISOString().slice(0, 10);
+}
+
+function formatDateParts(parts) {
+  if (!Array.isArray(parts) || parts.length === 0) return "";
+  const [year, month = 1, day = 1] = parts.map((p) => Number(p));
+  if (!year) return "";
+  return `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
 }
 
 // ── 统一抓取层 ─────────────────────────────────────────
@@ -235,7 +243,7 @@ async function fetchCrossref(source) {
       title: (Array.isArray(it.title) ? it.title.join(" ") : String(it.title || "")).slice(0, 200),
       summary: (it.abstract || "").replace(/<[^>]+>/g, "").slice(0, 500),
       link: it.URL,
-      date: it.published?.["date-parts"]?.[0]?.slice(0, 3).join("-") || today(),
+      date: formatDateParts(it.published?.["date-parts"]?.[0]) || today(),
       source,
     }));
   console.log(`  📄  ${source.name}：解析到 ${items.length} 条`);
@@ -271,7 +279,10 @@ async function structureItem(item, index, total) {
 {
   "summary": "140 字以内的中文摘要",
   "esgTopic": "从 SASB 分类中选择最匹配的一项：温室气体排放 / 气候风险 / 供应链管理 / 水资源管理 / 人权与劳工 / 合规与监管 / 数据安全 / 社区关系 / 废弃物管理 / 产品质量与安全",
-  "importanceLevel": "高 | 中 | 低"
+  "importanceLevel": "高 | 中 | 低",
+  "urgency": "0-3 整数，紧迫性：是否涉及生效、执法、时限、启动等信号",
+  "breadth": "0-3 整数，影响广度：覆盖区域、行业或主体范围越大分越高",
+  "convertibility": "0-3 整数，可转化性：是否指向披露、合规、融资、评级等可执行动作"
 }
 
 注意：不要添加原始内容中没有的事实。如果不足以判断则 importanceLevel 填"中"，esgTopic 填最接近的类别。`;
@@ -323,6 +334,12 @@ async function structureItem(item, index, total) {
     return null;
   }
 
+  const curated = curateFromDims(item, importance, {
+    urgency: structured.urgency,
+    breadth: structured.breadth,
+    convertibility: structured.convertibility,
+  });
+
   return {
     id: makeId(item.title, item.source.id, item.link || item.source.url),
     title: item.title,
@@ -334,6 +351,8 @@ async function structureItem(item, index, total) {
     sourceName: source.name,
     sourceUrl: item.link || source.url,
     esgTopic: structured.esgTopic || "合规与监管",
+    recommended: curated.recommended,
+    whyMatters: curated.whyMatters,
     aiDraft: true,
     riskPrompts: buildRiskPrompts(item),
   };
@@ -369,6 +388,7 @@ function buildRiskPrompts(item) {
 // ── 步骤 4b：无 LLM key 时的本地规则兜底 ─────────────
 function fallbackStructure(item) {
   const { source } = item;
+  const curated = heuristicCurate(item);
   return {
     id: makeId(item.title, source.id, item.link || source.url),
     title: item.title,
@@ -380,6 +400,8 @@ function fallbackStructure(item) {
     sourceName: source.name,
     sourceUrl: item.link || source.url,
     esgTopic: "合规与监管",
+    recommended: curated.recommended,
+    whyMatters: curated.whyMatters,
     aiDraft: false,
     riskPrompts: buildRiskPrompts(item),
   };
@@ -423,17 +445,24 @@ async function main() {
     statuses.push(status);
   }
 
+  console.log(`\n📦 共抓取 ${allRaw.length} 条原始内容`);
+
+  // 3. 质量门禁：过滤导航垃圾与非 ESG 内容
+  const qualityItems = allRaw.filter((item) => !isJunkItem(item) && isEsgRelevant(`${item.title} ${item.summary || ""}`));
+  const filteredCount = allRaw.length - qualityItems.length;
+  console.log(`🧹 质量门禁：过滤 ${filteredCount} 条（导航垃圾 / 非 ESG），保留 ${qualityItems.length} 条`);
+
   writeJSON(CONFIG.statusPath, {
     lastRunAt: new Date().toISOString(),
     sources: statuses,
     totalFetched: allRaw.length,
+    passedQuality: qualityItems.length,
+    filteredQuality: filteredCount,
   });
 
-  console.log(`\n📦 共抓取 ${allRaw.length} 条原始内容`);
-
-  // 3. 去重
+  // 4. 去重
   const seen = loadSeenHashes();
-  const { newItems, hashes } = deduplicate(allRaw, seen);
+  const { newItems, hashes } = deduplicate(qualityItems, seen);
   console.log(`🔄 去重后新增 ${newItems.length} 条`);
 
   if (newItems.length === 0) {

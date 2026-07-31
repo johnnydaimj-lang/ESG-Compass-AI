@@ -114,6 +114,26 @@ const zoneData: Zone[] = [
   },
 ];
 
+const ZONE_KEYWORDS: Record<string, string[]> = {
+  "esg-disclosure": ["issb", "sasb", "csrd", "esrs", "披露", "disclosure", "taxonomy", "ifrs", "sustainability reporting"],
+  "esg-rating": ["rating", "esg rating", "评级", "msci", "ecovadis", "sustainalytics"],
+  "sustainable-supply-chain": ["supply chain", "供应链", "csddd", "cbam", "due diligence", "尽职调查", "forced labour", "forced labor", "强迫劳动"],
+  "labor-human-rights": ["labor", "labour", "劳工", "human rights", "人权", "forced labour", "forced labor", "强迫劳动", "workers", "工人"],
+  "green-finance": ["green finance", "绿色金融", "bond", "债券", "blended finance", "transition finance", "转型金融", "sustainable finance", "green investments"],
+  "climate-risk": ["climate", "气候", "carbon", "碳", "cbam", "net zero", "净零", "scenario", "情景"],
+  "biodiversity": ["biodiversity", "生物多样", "tnfd", "deforestation", "nature", "natural capital", "森林"],
+  "esg-events": ["climate week", "论坛", "峰会", "seminar", "conference", "event", "活动", "cop30", "cop29", "gsif"],
+};
+
+export function getZoneKeywords(zoneId: string): string[] {
+  return ZONE_KEYWORDS[zoneId] || [];
+}
+
+export function getZonesForContent(content: { title?: string; summary?: string; esgTopic?: string }): Zone[] {
+  const text = `${content.title || ""} ${content.summary || ""} ${content.esgTopic || ""}`.toLowerCase();
+  return zoneData.filter((z) => ZONE_KEYWORDS[z.id]?.some((k) => text.includes(k.toLowerCase())));
+}
+
 export function getAllZones(): Zone[] { return zoneData; }
 export function getZoneById(id: string): Zone | undefined { return zoneData.find((z) => z.id === id); }
 export function getZonesByEventId(eventId: string): Zone[] { return zoneData.filter((z) => z.eventIds.includes(eventId)); }

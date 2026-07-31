@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight, MapPin, BookOpen } from "lucide-react";
-import { getAllZones, getZoneById } from "@/lib/zones-data";
+import { getAllZones, getZoneById, getZoneKeywords } from "@/lib/zones-data";
 import { getKBForZone } from "@/lib/knowledge-base";
-import { getContentById } from "@/lib/esg-data";
+import { getAllContents, getContentById } from "@/lib/esg-data";
 
 interface Props { params: Promise<{ id: string }> }
 export function generateStaticParams() { return getAllZones().map((z) => ({ id: z.id })) }
@@ -17,9 +17,15 @@ export default async function ZoneDetailPage({ params }: Props) {
   const { id } = await params; const zone = getZoneById(id);
   if (!zone) notFound();
 
-  const relatedEvents = zone.eventIds
+  const zoneKeywords = getZoneKeywords(zone.id);
+  const realEventIds = getAllContents()
+    .filter((c) => zoneKeywords.some((k) => `${c.title} ${c.summary} ${c.esgTopic}`.toLowerCase().includes(k)))
+    .map((c) => c.id);
+  const eventIds = Array.from(new Set([...zone.eventIds, ...realEventIds]));
+  const relatedEvents = eventIds
     .map((eid) => getContentById(eid))
-    .filter(Boolean);
+    .filter((c): c is NonNullable<typeof c> => Boolean(c))
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
   const kbEntries = getKBForZone(zone.id);
 
   return (

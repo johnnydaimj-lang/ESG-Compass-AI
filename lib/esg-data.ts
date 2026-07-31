@@ -175,6 +175,8 @@ export function getAllContents(): ContentItem[] {
 }
 
 export function getContentById(id: string): ContentItem | undefined {
-  const items = loadFromFile() ?? mockContents;
-  return items.find((c) => c.id === id);
+  const fileItems = loadFromFile();
+  const hit = fileItems?.find((c) => c.id === id);
+  if (hit) return hit;
+  return mockContents.find((c) => c.id === id);
 }

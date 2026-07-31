@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight, MapPin, BookOpen, Star } from "lucide-react";
 import { getAllContents, getContentById, getContentLink } from "@/lib/esg-data";
-import { getZonesByEventId } from "@/lib/zones-data";
+import { getZonesByEventId, getZonesForContent } from "@/lib/zones-data";
 import { getRelatedKnowledge } from "@/lib/knowledge-base";
 import ImpactCard from "@/components/ImpactCard";
 
@@ -75,7 +75,10 @@ export default async function EventDetailPage({ params }: Props) {
       {(() => { return item.impactAnalysis ? <ImpactCard analysis={item.impactAnalysis} /> : null; })()}
 
       {/* Zone affiliation */}
-      {(() => { const zones = getZonesByEventId(item.id); return zones.length > 0 ? (
+      {(() => {
+        const zoneMap = new Map([...getZonesByEventId(item.id), ...getZonesForContent(item)].map((z) => [z.id, z]));
+        const zones = Array.from(zoneMap.values());
+        return zones.length > 0 ? (
         <section className="rounded-lg border border-dashed border-brand-line bg-brand-soft px-5 py-4">
           <div className="mb-2 flex items-center gap-1.5 text-[13px] font-medium text-brand-deep">
             <BookOpen size={14} />所属专区

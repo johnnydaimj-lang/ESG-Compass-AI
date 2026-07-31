@@ -35,11 +35,14 @@ export var ROADMAP: RoadmapItem[] = [
   { id: "rm-workbench", label: "个人工作台 + 私密层", category: "已完成", priority: "P0",
     description: "拆分公开/私密层：middleware 保护 / 登录页 / 工作台页面 / 移除公开 AI 入口", updatedAt: "2026-07-30" },
 
+  { id: "rm-content-clean", label: "存量内容质量清洗", category: "已完成", priority: "P1",
+    description: "统一垃圾/相关性规则清洗历史内容：99 → 33 条，回填启发式精选", updatedAt: "2026-07-31" },
+
   // ── 待开始 ──
   { id: "rm-zone-expand", label: "专区内容增强", category: "待开始", priority: "P1",
     description: "专区支持后台配置新增/编辑/删除；丰富专区内容展示", updatedAt: "2026-07-31" },
-  { id: "rm-pipeline-optimize", label: "数据管道优化", category: "待开始", priority: "P1",
-    description: "RSS 信源稳定性和覆盖度提升；LLM 结构化质量改进；自动精选评分策略完善", updatedAt: "2026-07-31" },
+  { id: "rm-pipeline-optimize", label: "数据管道优化", category: "进行中", priority: "P1",
+    description: "质量门禁+启发式精选已上线（垃圾过滤/ESG相关性/三维度+选题价值），存量内容清洗 99→33 条；继续提升信源覆盖与 LLM 结构化质量", updatedAt: "2026-07-31" },
   { id: "rm-kb-to-zone", label: "知识库内容增强（并入专区后）", category: "待开始", priority: "P2",
     description: "扩展专区关联的 KB 条目覆盖面；增加法规/标准条目的全文展开功能", updatedAt: "2026-07-31" },
   { id: "rm-market-research", label: "市场调研：AI Agent + ESG SaaS", category: "待开始", priority: "P1",

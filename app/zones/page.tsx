@@ -1,10 +1,12 @@
 ﻿import Link from "next/link";
 import { ArrowRight, BookOpen } from "lucide-react";
-import { getAllZones } from "@/lib/zones-data";
+import { getAllZones, getZoneKeywords } from "@/lib/zones-data";
 import { getKBForZone } from "@/lib/knowledge-base";
+import { getAllContents } from "@/lib/esg-data";
 
 export default function ZonesPage() {
   const zones = getAllZones();
+  const allContents = getAllContents();
 
   return (
     <div className="space-y-10">
@@ -16,7 +18,9 @@ export default function ZonesPage() {
       </section>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {zones.map((zone) => {
-          const eventCount = zone.eventIds.length;
+          const eventCount = zone.eventIds.length + allContents.filter((c) =>
+            getZoneKeywords(zone.id).some((k) => `${c.title} ${c.summary} ${c.esgTopic}`.toLowerCase().includes(k))
+          ).length;
           const milestoneCount = zone.milestones.length;
           const kbCount = getKBForZone(zone.id).length;
           return (

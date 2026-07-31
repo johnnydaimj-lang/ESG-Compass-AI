@@ -20,7 +20,7 @@ interface PipelineStats {
   todayFetched: number; todayLlmProcessed: number; todayCurated: number;
   todayPublished: number; lastPipelineRun: string | null;
   totalSources: number; enabledSources: number; degradedSources: number;
-  staleSources: number;
+  staleSources: number; passedQuality: number | null; filteredQuality: number | null;
 }
 interface AnomalyEntry {
   id: string; timestamp: string;
@@ -33,6 +33,7 @@ interface PipelineSourceStatus {
 }
 interface PipelineStatus {
   lastRunAt: string; totalFetched: number; sources: PipelineSourceStatus[];
+  passedQuality?: number; filteredQuality?: number;
 }
 interface OpsResponse {
   sources: SourceHealth[];
@@ -141,20 +142,25 @@ export async function GET() {
 
   const contentsRaw = readJSON(CONTENTS_FILE);
   const contentCount = Array.isArray(contentsRaw) ? contentsRaw.length : 0;
+  const curatedCount = Array.isArray(contentsRaw) ? contentsRaw.filter((c: any) => Boolean(c?.recommended)).length : 0;
+  const passedQuality = statusRaw?.passedQuality ?? null;
+  const filteredQuality = statusRaw?.filteredQuality ?? null;
 
   const realRun = Boolean(statusRaw);
   const fetchedTotal = statusRaw?.totalFetched ?? sources.reduce((s, src) => s + (src.enabled ? src.todayCount : 0), 0);
 
   const pipeline: PipelineStats = {
     todayFetched: fetchedTotal,
-    todayLlmProcessed: realRun ? fetchedTotal : fetchedTotal + 12,
-    todayCurated: contentCount > 0 ? Math.min(4, Math.max(1, Math.floor(contentCount / 8))) : 0,
-    todayPublished: contentCount > 0 ? Math.min(10, contentCount) : 0,
+    todayLlmProcessed: realRun ? (passedQuality ?? fetchedTotal) : fetchedTotal + 12,
+    todayCurated: curatedCount,
+    todayPublished: contentCount > 0 ? contentCount : 0,
     lastPipelineRun: statusRaw?.lastRunAt ? formatTime(statusRaw.lastRunAt) : null,
     totalSources: allSources.length,
     enabledSources: enabledSources.length,
     degradedSources: degradedSources.length,
     staleSources: staleSources.length,
+    passedQuality,
+    filteredQuality,
   };
 
   const anomalies: AnomalyEntry[] = [];
