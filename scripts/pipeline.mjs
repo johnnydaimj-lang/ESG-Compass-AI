@@ -35,13 +35,15 @@ function writeJSON(path, data) {
   writeFileSync(path, JSON.stringify(data, null, 2), "utf-8");
 }
 
-function makeId(title) {
+function makeId(title, sourceId = "", url = "") {
   const slug = title
     .toLowerCase()
     .replace(/[^a-z0-9\u4e00-\u9fa5]+/g, "-")
     .replace(/^-|-$/g, "")
     .slice(0, 48);
-  return `src-${slug}`;
+  const prefix = sourceId ? `${sourceId.slice(0, 16).replace(/[^a-z0-9]+/g, "-")}-` : "";
+  const suffix = url ? `-${hash(url, sourceId).slice(0, 4)}` : "";
+  return `src-${prefix}${slug}${suffix}`;
 }
 
 function today() {
@@ -322,7 +324,7 @@ async function structureItem(item, index, total) {
   }
 
   return {
-    id: makeId(item.title),
+    id: makeId(item.title, item.source.id, item.link || item.source.url),
     title: item.title,
     contentType: structured.contentType || source.contentType,
     region: source.region,
@@ -333,6 +335,24 @@ async function structureItem(item, index, total) {
     sourceUrl: item.link || source.url,
     esgTopic: structured.esgTopic || "合规与监管",
     aiDraft: true,
+  };
+}
+
+// ── 步骤 4b：无 LLM key 时的本地规则兜底 ─────────────
+function fallbackStructure(item) {
+  const { source } = item;
+  return {
+    id: makeId(item.title, source.id, item.link || source.url),
+    title: item.title,
+    contentType: source.contentType,
+    region: source.region,
+    publishedAt: item.date,
+    importanceLevel: "中",
+    summary: item.summary || item.title,
+    sourceName: source.name,
+    sourceUrl: item.link || source.url,
+    esgTopic: "合规与监管",
+    aiDraft: false,
   };
 }
 
@@ -392,20 +412,21 @@ async function main() {
     return;
   }
 
-  // 4. LLM 结构化
+  // 4. 结构化：配置了 LLM key 时调用 LLM，否则使用本地规则兜底
+  let structured;
   if (!CONFIG.llmApiKey) {
-    console.error("❌ 未设置 LLM_API_KEY 或 OPENAI_API_KEY，跳过 LLM 结构化");
-    console.log("   请设置环境变量后再运行，或手动填写 data/contents.json");
-    process.exit(1);
+    console.log("\n⚙️ 未配置 LLM_API_KEY，使用本地规则结构化（aiDraft=false）");
+    structured = newItems.map((item) => fallbackStructure(item));
+    console.log(`\n📝 本地兜底完成：${structured.length}/${newItems.length} 条`);
+  } else {
+    console.log(`\n🤖 LLM 结构化（模型：${CONFIG.llmModel}）...`);
+    structured = [];
+    for (let i = 0; i < newItems.length; i++) {
+      const result = await structureItem(newItems[i], i + 1, newItems.length);
+      if (result) structured.push(result);
+    }
+    console.log(`\n📝 LLM 完成：${structured.length}/${newItems.length} 条成功`);
   }
-
-  console.log(`\n🤖 LLM 结构化（模型：${CONFIG.llmModel}）...`);
-  const structured = [];
-  for (let i = 0; i < newItems.length; i++) {
-    const result = await structureItem(newItems[i], i + 1, newItems.length);
-    if (result) structured.push(result);
-  }
-  console.log(`\n📝 LLM 完成：${structured.length}/${newItems.length} 条成功`);
 
   // 5. 写入
   if (structured.length > 0) {

@@ -1,5 +1,5 @@
 {
-  "lastRunAt": "2026-07-31T08:39:41.673Z",
+  "lastRunAt": "2026-07-31T08:55:31.133Z",
   "sources": [
     {
       "id": "eu-commission",
@@ -8,7 +8,7 @@
       "ok": true,
       "count": 10,
       "error": "",
-      "lastFetchAt": "2026-07-31T08:39:23.719Z"
+      "lastFetchAt": "2026-07-31T08:55:12.706Z"
     },
     {
       "id": "sec-esg",
@@ -17,7 +17,7 @@
       "ok": true,
       "count": 25,
       "error": "",
-      "lastFetchAt": "2026-07-31T08:39:25.490Z"
+      "lastFetchAt": "2026-07-31T08:55:16.251Z"
     },
     {
       "id": "ifrs-issb",
@@ -26,7 +26,7 @@
       "ok": true,
       "count": 10,
       "error": "",
-      "lastFetchAt": "2026-07-31T08:39:27.079Z"
+      "lastFetchAt": "2026-07-31T08:55:18.196Z"
     },
     {
       "id": "mas-sustainable-finance",
@@ -35,7 +35,7 @@
       "ok": true,
       "count": 6,
       "error": "",
-      "lastFetchAt": "2026-07-31T08:39:30.867Z"
+      "lastFetchAt": "2026-07-31T08:55:22.334Z"
     },
     {
       "id": "eco-business",
@@ -44,7 +44,7 @@
       "ok": true,
       "count": 20,
       "error": "",
-      "lastFetchAt": "2026-07-31T08:39:33.602Z"
+      "lastFetchAt": "2026-07-31T08:55:27.485Z"
     },
     {
       "id": "wri-insights",
@@ -53,7 +53,7 @@
       "ok": true,
       "count": 20,
       "error": "",
-      "lastFetchAt": "2026-07-31T08:39:33.944Z"
+      "lastFetchAt": "2026-07-31T08:55:27.822Z"
     },
     {
       "id": "ssrn-esg",
@@ -62,7 +62,7 @@
       "ok": true,
       "count": 10,
       "error": "",
-      "lastFetchAt": "2026-07-31T08:39:37.104Z"
+      "lastFetchAt": "2026-07-31T08:55:28.982Z"
     },
     {
       "id": "cdp-articles",
@@ -71,7 +71,7 @@
       "ok": true,
       "count": 6,
       "error": "",
-      "lastFetchAt": "2026-07-31T08:39:40.030Z"
+      "lastFetchAt": "2026-07-31T08:55:29.690Z"
     }
   ],
   "totalFetched": 107

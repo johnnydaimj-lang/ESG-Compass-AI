@@ -96,6 +96,7 @@ export default function OpsDashboard() {
   const [anomalies, setAnomalies] = useState<AnomalyEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [triggering, setTriggering] = useState(false);
+  const [runMessage, setRunMessage] = useState<string | null>(null);
   const [now] = useState(() => {
     const d = new Date();
     var y=d.getFullYear(),mo=String(d.getMonth()+1).padStart(2,'0'),da=String(d.getDate()).padStart(2,'0'),h=String(d.getHours()).padStart(2,'0'),mi=String(d.getMinutes()).padStart(2,'0'); return y+'-'+mo+'-'+da+' '+h+':'+mi;
@@ -192,10 +193,23 @@ export default function OpsDashboard() {
           </div>
           <div className="flex items-center gap-2">
             <button
-              onClick={() => {
+              onClick={async () => {
                 setTriggering(true);
-                // 模拟触发管道（占位）
-                setTimeout(() => setTriggering(false), 2000);
+                setRunMessage(null);
+                try {
+                  const res = await fetch("/api/pipeline/run", { method: "POST" });
+                  const data = await res.json().catch(() => ({}));
+                  if (res.ok && data.ok) {
+                    setRunMessage("管道运行完成，数据已刷新");
+                    load();
+                  } else {
+                    setRunMessage(data.error || data.output || `运行失败（HTTP ${res.status}）`);
+                  }
+                } catch {
+                  setRunMessage("触发失败，请确认服务运行中");
+                } finally {
+                  setTriggering(false);
+                }
               }}
               disabled={triggering}
               className="inline-flex items-center gap-1.5 rounded-md bg-brand px-4 py-1.5 text-[12px] font-medium text-surface transition-colors hover:bg-brand-deep disabled:opacity-50"
@@ -212,6 +226,11 @@ export default function OpsDashboard() {
             </Link>
           </div>
         </div>
+        {runMessage && (
+          <div className="mt-3 rounded-md border border-brand-line bg-brand-soft px-3 py-2 text-[12px] text-brand-deep">
+            {runMessage}
+          </div>
+        )}
       </div>
 
       {/* Source Health Table */}
