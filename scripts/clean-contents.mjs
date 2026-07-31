@@ -2,7 +2,7 @@
 // 与管道同一套规则：垃圾过滤、ESG 相关性、启发式精选回填。
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
-import { isJunkItem, isEsgRelevant, heuristicCurate } from "./esg-quality.mjs";
+import { isJunkItem, isEsgRelevant, isRatingRelevant, heuristicCurate } from "./esg-quality.mjs";
 
 const target = resolve(process.cwd(), "data", "contents.json");
 if (!existsSync(target)) {
@@ -17,6 +17,10 @@ const removed = [];
 for (const item of items) {
   const text = `${item.title || ""} ${item.summary || ""}`;
   if (isJunkItem(item) || !isEsgRelevant(text)) {
+    removed.push(item);
+    continue;
+  }
+  if (item.contentType === "评级动态" && !isRatingRelevant(item)) {
     removed.push(item);
     continue;
   }

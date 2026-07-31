@@ -2,7 +2,7 @@ import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { isJunkItem, isEsgRelevant, curateFromDims, heuristicCurate } from "./esg-quality.mjs";
+import { isJunkItem, isEsgRelevant, isRatingRelevant, curateFromDims, heuristicCurate } from "./esg-quality.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
@@ -419,7 +419,14 @@ async function main() {
   console.log(`\n📦 共抓取 ${allRaw.length} 条原始内容`);
 
   // 3. 质量门禁：过滤导航垃圾与非 ESG 内容
-  const qualityItems = allRaw.filter((item) => !isJunkItem(item) && isEsgRelevant(`${item.title} ${item.summary || ""}`));
+  const qualityItems = allRaw.filter((item) => {
+    if (isJunkItem(item)) return false;
+    const text = `${item.title} ${item.summary || ""}`;
+    if (!isEsgRelevant(text)) return false;
+    const itemType = item.contentType || item.source?.contentType || "";
+    if (itemType === "评级动态") return isRatingRelevant(item);
+    return true;
+  });
   const filteredCount = allRaw.length - qualityItems.length;
   console.log(`🧹 质量门禁：过滤 ${filteredCount} 条（导航垃圾 / 非 ESG），保留 ${qualityItems.length} 条`);
 

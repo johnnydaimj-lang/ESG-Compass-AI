@@ -1,6 +1,10 @@
 // ESG Compass — 管道质量门禁与启发式精选
 // 供 scripts/pipeline.mjs 使用：垃圾过滤、ESG 相关性、无 LLM 时的精选评分。
 
+import { readFileSync } from "node:fs";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
+
 const JUNK_TITLES = new Set([
   "english", "news & opinion", "news", "opinion", "eb studio", "press releases",
   "events", "intelligence", "training", "advertise", "about us", "about",
@@ -170,4 +174,78 @@ export function curateWithScore(item, importanceLevel = "中", dims) {
 export function curateFromDims(item, importanceLevel, dims) {
   const result = curateWithScore(item, importanceLevel, dims);
   return { recommended: result.recommended, whyMatters: result.whyMatters };
+}
+
+// ── 评级动态专项筛选 ────────────────────────────────
+const MODULE_DIR = dirname(fileURLToPath(import.meta.url));
+let FOCUS_COMPANIES = [];
+try {
+  const raw = readFileSync(resolve(MODULE_DIR, "..", "data", "focus-companies.json"), "utf-8");
+  FOCUS_COMPANIES = JSON.parse(raw).companies || [];
+} catch { FOCUS_COMPANIES = []; }
+
+const RATING_RATER_TERMS = [
+  "msci", "sustainalytics", "s&p global", "sp global", "s&p", "cdp",
+  "ecovadis", "wind esg", "ftse", "djsi", "moody", "lseg", "refinitiv",
+  "iss esg", "hang seng", "hkex", "sse", "szse", "nasdaq", "nyse", "lse", "sgx",
+  "esg rating", "esg ratings", "esg score", "esg index",
+  "标普", "万得", "商道融绿", "中证", "华证", "恒生",
+  "上交所", "深交所", "港交所", "上证", "深证",
+];
+
+const RATING_METHODOLOGY_TERMS = [
+  "rating methodology", "esg methodology", "score methodology", "index methodology",
+  "methodology update", "methodology change", "methodology revision", "methodology review",
+  "methodology", "criteria update", "criteria change", "criteria revision",
+  "model update", "model change", "model revision", "annual review", "annual methodology",
+  "questionnaire update", "weighting update", "weighting change", "weighting",
+  "framework update", "framework change", "framework revision", "recalibrat",
+  "index rules", "index review", "index consultation",
+  "方法论", "方法更新", "方法调整", "方法修订", "评级方法", "评分方法",
+  "模型调整", "模型更新", "评分模型", "评级模型", "权重调整", "权重",
+  "指数编制", "指数方法", "评估方法", "核心指标", "审核标准",
+  "评分标准", "评级标准", "考核方法", "评价体系",
+];
+
+const RATING_ACTION_TERMS = [
+  "upgrade", "upgraded", "downgrade", "downgraded", "improved", "improvement",
+  "raised", "lowered", "included in", "added to", "removed from", "excluded from",
+  "first time", "first-ever", "leaderboard", "a list", "top 1%", "top 5%", "top 10%",
+  "score of", "scored", "score", "scores", "awarded", "recognized", "recognition", "achieved",
+  "aa", "aaa", "platinum", "gold", "silver", "bronze",
+  "rating change", "rating upgrade", "rating downgrade", "rating revision",
+  "上调", "下调", "提升", "降低", "获评", "入选", "被剔除", "剔除", "评级结果", "评分结果",
+  "第一次", "首次", "评级变动", "评级调整", "评级提升", "评级下调",
+];
+
+const RATING_STABLE_TERMS = [
+  "unchanged", "maintains", "maintained", "retains", "reaffirm", "reaffirmed", "no change",
+  "保持", "维持", "不变",
+];
+
+function escapeRegExp(s) {
+  return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function hasRatingTerm(text, term) {
+  const t = String(term).toLowerCase();
+  if (/^[\x00-\x7f]+$/.test(t)) {
+    return new RegExp(`(^|[^a-z0-9])${escapeRegExp(t)}([^a-z0-9]|$)`, "i").test(text);
+  }
+  return text.includes(t);
+}
+
+export function isRatingRelevant(item) {
+  const text = `${item.title || ""} ${item.summary || ""} ${item.source?.name || item.sourceName || ""} ${item.link || item.sourceUrl || ""}`.toLowerCase();
+  const hasRater = RATING_RATER_TERMS.some((t) => hasRatingTerm(text, t));
+  const hasMethodology = RATING_METHODOLOGY_TERMS.some((t) => hasRatingTerm(text, t));
+  const hasAction = RATING_ACTION_TERMS.some((t) => hasRatingTerm(text, t));
+  const hasStableOnly = RATING_STABLE_TERMS.some((t) => hasRatingTerm(text, t));
+  const companyHit = FOCUS_COMPANIES.some((c) => hasRatingTerm(text, c));
+  const hasCompanyChange = companyHit && hasAction && !hasStableOnly;
+
+  if (hasRater && hasMethodology) return true;
+  if (hasRater && hasAction && !hasStableOnly) return true;
+  if (hasCompanyChange) return true;
+  return false;
 }

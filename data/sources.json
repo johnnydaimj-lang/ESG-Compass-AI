@@ -96,6 +96,72 @@
       "language": "en",
       "enabled": true,
       "notes": "旧文章专区 404，改用 CDP Insights Markdown 列表"
+    },
+    {
+      "id": "msci-esg-ratings",
+      "name": "MSCI ESG 评级（候选）",
+      "url": "https://www.msci.com/our-solutions/esg-investing/esg-ratings",
+      "type": "webpage",
+      "contentType": "评级动态",
+      "region": "全球",
+      "language": "en",
+      "enabled": false,
+      "notes": "候选信源：MSCI ESG Ratings 方法/模型动态，待验证抓取结构后启用"
+    },
+    {
+      "id": "sustainalytics-esg-ratings",
+      "name": "Sustainalytics ESG 评级（候选）",
+      "url": "https://www.sustainalytics.com/esg-ratings",
+      "type": "webpage",
+      "contentType": "评级动态",
+      "region": "全球",
+      "language": "en",
+      "enabled": false,
+      "notes": "候选信源：Sustainalytics 评级方法与研究，待验证抓取结构后启用"
+    },
+    {
+      "id": "spglobal-esg-scores",
+      "name": "S&P Global ESG 评分（候选）",
+      "url": "https://www.spglobal.com/esg/solutions/esg-scores",
+      "type": "webpage",
+      "contentType": "评级动态",
+      "region": "全球",
+      "language": "en",
+      "enabled": false,
+      "notes": "候选信源：标普 ESG Scores / DJSI 相关方法动态，待验证抓取结构后启用"
+    },
+    {
+      "id": "ecovadis-insights",
+      "name": "EcoVadis 资讯（候选）",
+      "url": "https://ecovadis.com/insights/",
+      "type": "webpage",
+      "contentType": "评级动态",
+      "region": "全球",
+      "language": "en",
+      "enabled": false,
+      "notes": "候选信源：EcoVadis 评级方法与企业评级动态，待验证抓取结构后启用"
+    },
+    {
+      "id": "wind-esg",
+      "name": "Wind ESG 评级（候选）",
+      "url": "https://esg.wind.com.cn/",
+      "type": "webpage",
+      "contentType": "评级动态",
+      "region": "中国",
+      "language": "zh",
+      "enabled": false,
+      "notes": "候选信源：Wind ESG 评级方法与指数动态，待验证抓取结构后启用"
+    },
+    {
+      "id": "hsi-esg-index",
+      "name": "恒生可持续发展企业指数（候选）",
+      "url": "https://www.hsi.com.hk/eng/indexes/all-indexes/esg",
+      "type": "webpage",
+      "contentType": "评级动态",
+      "region": "中国香港",
+      "language": "en",
+      "enabled": false,
+      "notes": "候选信源：交易所/指数编制机构评级与指数方法动态，待验证抓取结构后启用"
     }
   ]
 }
