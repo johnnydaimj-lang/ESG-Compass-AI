@@ -1,4 +1,4 @@
-// 观澜 / ESG Compass — 产品说明思维导图数据（v5.1）
+// 观澜 / ESG Compass — 产品说明思维导图数据（v9）
 // 与 产品说明.md 同步维护；修改后 /ops/product-map 页面自动生效
 
 export interface MapNode {
@@ -14,12 +14,26 @@ export const PRODUCT_MAP: MapNode[] = [
     children: [
       { label: "核心目标", detail: "3 分钟扫完当下全球 ESG 变化趋势，找到重点领域的原文与解读" },
       { label: "差异化", detail: "不只是信息聚合，而是发现风险及机遇，辅助决策" },
-      { label: "目标用户", detail: "企业 ESG 管理人员 / ESG 咨询顾问" },
-      { label: "产品名", detail: "观澜（ESG Compass）" }
+      { label: "目标用户", detail: "公开层：企业 ESG 管理人员 / ESG 咨询顾问；个人层：仅产品所有者" },
+      { label: "产品名", detail: "观澜（ESG Compass）" },
+      {
+        label: "产品架构（升级规划）",
+        children: [
+          { label: "公开层", detail: "ESG 信息筛选器继续对外开放" },
+          {
+            label: "个人 ESG 工作台",
+            children: [
+              { label: "模块 1", detail: "ESG 信息筛选器个人视图" },
+              { label: "模块 2", detail: "专属 agent（问答/记忆/主动任务）" },
+              { label: "模块 3", detail: "独立知识库（仅内部使用）" }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
-    label: "页面结构（4 页）",
+    label: "页面结构（公开页 + 个人工作台）",
     children: [
       {
         label: "首页 /",
@@ -60,6 +74,14 @@ export const PRODUCT_MAP: MapNode[] = [
           { label: "关键里程碑时间线" },
           { label: "关联事件" },
           { label: "相关法规与标准" }
+        ]
+      },
+      {
+        label: "个人 ESG 工作台 /workbench（仅你）",
+        children: [
+          { label: "模块 1 · 信息筛选器个人视图" },
+          { label: "模块 2 · 专属 agent", detail: "AI 问答 / 事件追问 / 个人记忆 / 主动任务" },
+          { label: "模块 3 · 独立知识库", detail: "政策全文 / 框架标准 / 事件知识单元 / 私密资料" }
         ]
       }
     ]
@@ -153,10 +175,12 @@ export const PRODUCT_MAP: MapNode[] = [
         ]
       },
       {
-        label: "知识库增强",
+        label: "个人 ESG 工作台",
         children: [
-          { label: "KB 覆盖面", detail: "扩展专区关联条目" },
-          { label: "全文展开", detail: "法规 / 标准条目详情" }
+          { label: "架构定义", detail: "信息筛选器个人视图 / 专属 agent / 独立知识库" },
+          { label: "专属 agent", detail: "私密知识源接入 / 个人记忆 / 主动任务" },
+          { label: "独立知识库", detail: "政策全文 / 框架标准 / 事件知识单元 / 私密资料" },
+          { label: "图引擎（Graph Engine）", detail: "事件/政策/标准/主体建图，支撑 Graph RAG 与 agent 推理" }
         ]
       },
       {

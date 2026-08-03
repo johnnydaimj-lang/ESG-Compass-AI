@@ -75,7 +75,7 @@ export default function ProductMap() {
         <div>
           <h1 className="text-xl font-semibold tracking-tight text-ink">产品说明 · 思维导图</h1>
           <p className="mt-1 text-[12.5px] text-ink-soft">
-            观澜 ESG Compass · 产品说明 v5.1 · 与 <code className="font-mono">产品说明.md</code> 同步维护
+            观澜 ESG Compass · 产品说明 v9 · 与 <code className="font-mono">产品说明.md</code> 同步维护
           </p>
         </div>
         <input
