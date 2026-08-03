@@ -180,7 +180,7 @@ export const PRODUCT_MAP: MapNode[] = [
           { label: "架构定义", detail: "信息筛选器个人视图 / 专属 agent / 独立知识库" },
           { label: "专属 agent", detail: "私密知识源接入 / 个人记忆 / 主动任务" },
           { label: "独立知识库", detail: "政策全文 / 框架标准 / 事件知识单元 / 私密资料" },
-          { label: "图引擎（Graph Engine）", detail: "事件/政策/标准/主体建图，支撑 Graph RAG 与 agent 推理" }
+          { label: "Graph Engineering（方法论）", detail: "用图结构编排多智能体协同：节点=agent/任务/知识，边=依赖/数据流/人工审批" }
         ]
       },
       {

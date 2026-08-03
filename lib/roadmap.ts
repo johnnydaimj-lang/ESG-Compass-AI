@@ -47,8 +47,8 @@ export var ROADMAP: RoadmapItem[] = [
     description: "不再并入公开专区：工作台内部沉淀政策全文/框架标准/事件知识单元；公开专区保留轻量法规标准导航，通过事件/专区 ID 关联", updatedAt: "2026-08-03" },
   { id: "rm-personal-layer", label: "个人 ESG 工作台（三模块）", category: "待开始", priority: "P0",
     description: "架构已确认：公开层保留 ESG 信息筛选器；个人工作台聚合信息筛选器个人视图/专属 agent/独立知识库；待接入私密知识源、个人记忆与主动任务", updatedAt: "2026-08-03" },
-  { id: "rm-graph-engine", label: "图引擎知识库（Graph Engine）", category: "待开始", priority: "P1",
-    description: "独立知识库以图结构承载：事件/政策/标准/主体为节点、关联关系为边，支撑专属 agent 的 Graph RAG 检索与推理；先轻量实现，后续按需升级", updatedAt: "2026-08-03" },
+  { id: "rm-graph-engine", label: "Graph Engineering（多智能体协同架构）", category: "待开始", priority: "P1",
+    description: "以图结构编排个人工作台多智能体：筛选/知识检索/影响分析/起草为节点，依赖/数据流/人工审批为边；轻量图编排起步，不引入图数据库", updatedAt: "2026-08-03" },
   { id: "rm-market-research", label: "市场调研：AI Agent + ESG SaaS", category: "待开始", priority: "P1",
     description: "跟踪 AI Agent 前沿动态；分析双碳/ESG 数字化工具（SaaS）产品形态；产出调研笔记反哺产品迭代", updatedAt: "2026-07-31" },
 ];
