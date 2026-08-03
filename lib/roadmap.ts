@@ -45,6 +45,8 @@ export var ROADMAP: RoadmapItem[] = [
     description: "质量门禁+启发式精选已上线（垃圾过滤/ESG相关性/三维度+选题价值），存量内容清洗 99→33 条；继续提升信源覆盖与 LLM 结构化质量", updatedAt: "2026-07-31" },
   { id: "rm-kb-to-zone", label: "知识库内容增强（并入专区后）", category: "待开始", priority: "P2",
     description: "扩展专区关联的 KB 条目覆盖面；增加法规/标准条目的全文展开功能", updatedAt: "2026-07-31" },
+  { id: "rm-personal-layer", label: "个人层：个人 agent 能力", category: "待开始", priority: "P0",
+    description: "边界已定义：AI 问答/私密知识源/个人记忆/主动任务仅限个人工作台；待接入 Obsidian/本地私密源、个人记忆与主动任务", updatedAt: "2026-08-03" },
   { id: "rm-market-research", label: "市场调研：AI Agent + ESG SaaS", category: "待开始", priority: "P1",
     description: "跟踪 AI Agent 前沿动态；分析双碳/ESG 数字化工具（SaaS）产品形态；产出调研笔记反哺产品迭代", updatedAt: "2026-07-31" },
 ];
