@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
-import { cookies } from "next/headers";
 import { getContentById } from "@/lib/esg-data";
 import { searchKnowledgeBase, getRelatedKnowledge } from "@/lib/knowledge-base";
+import { isAdmin } from "@/lib/admin-auth";
 
 async function callLLM(systemPrompt: string, userMsg: string): Promise<string | null> {
   var apiKey = process.env.LLM_API_KEY || process.env.OPENAI_API_KEY || "";
@@ -29,8 +29,7 @@ async function callLLM(systemPrompt: string, userMsg: string): Promise<string | 
 
 export async function POST(request: Request) {
   try {
-    var session = (await cookies()).get("admin_session");
-    if (!session || session.value !== "true") {
+    if (!(await isAdmin())) {
       return NextResponse.json({ error: "未授权" }, { status: 401 });
     }
 

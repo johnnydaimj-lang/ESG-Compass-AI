@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
-import { cookies } from "next/headers";
 import { spawn } from "node:child_process";
 import { resolve } from "node:path";
+import { isAdmin } from "@/lib/admin-auth";
 
 const PIPELINE_SCRIPT = resolve(process.cwd(), "scripts", "pipeline.mjs");
 
@@ -37,8 +37,7 @@ function runPipeline(timeoutMs = 240000): Promise<{ ok: boolean; output: string;
 
 export async function POST() {
   try {
-    const session = (await cookies()).get("admin_session");
-    if (!session || session.value !== "true") {
+    if (!(await isAdmin())) {
       return NextResponse.json({ error: "未授权" }, { status: 401 });
     }
 

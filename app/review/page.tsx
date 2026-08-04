@@ -12,8 +12,11 @@ const SASB_TOPICS = [
 
 export default function ReviewPage() {
   const [items, setItems] = useState<(ContentItem & { editing?: boolean })[]>([]);
+  const [authError, setAuthError] = useState(false);
   const load = async () => {
     const res = await fetch("/api/review");
+    if (res.status === 401) { setAuthError(true); return; }
+    setAuthError(false);
     if (res.ok) setItems(await res.json());
   };
   useEffect(() => { load(); }, []);
@@ -24,7 +27,11 @@ export default function ReviewPage() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ id, ...fields }),
     });
-    if (res.ok) setItems((prev) => prev.filter((i) => i.id !== id));
+    if (res.ok) {
+      setItems((prev) => prev.filter((i) => i.id !== id));
+    } else if (res.status === 401) {
+      setAuthError(true);
+    }
   };
 
   return (
@@ -38,7 +45,14 @@ export default function ReviewPage() {
           <RefreshCw size={13} />刷新
         </button>
       </div>
-      {items.length === 0 ? (
+      {authError ? (
+        <div className="rounded-lg border border-dashed border-line-strong bg-surface px-6 py-10 text-center">
+          <p className="text-[13px] text-ink-soft">未授权，请先在工作台登录后再审校。</p>
+          <Link href="/workbench" className="mt-3 inline-flex items-center gap-1.5 rounded-md bg-brand px-4 py-2 text-[13px] font-medium text-surface transition-colors hover:bg-brand-deep">
+            前往工作台
+          </Link>
+        </div>
+      ) : items.length === 0 ? (
         <div className="rounded-lg border border-dashed border-line-strong bg-surface px-6 py-10 text-center text-[13px] text-ink-faint">暂无待审校的 AI 草稿</div>
       ) : (
         <div className="space-y-4">
@@ -95,7 +109,7 @@ function DraftEditor({ item, onSave }: { item: ContentItem; onSave: (id: string,
         <button onClick={async () => { setSaving(true); await onSave(item.id, { summary, esgTopic, importanceLevel: importance }); setSaving(false); }}
           disabled={saving}
           className="inline-flex items-center gap-1.5 rounded-md bg-brand px-4 py-2 text-[13px] font-medium text-surface transition-colors hover:bg-brand-deep disabled:opacity-50">
-          确认并发布
+          保存修正
         </button>
       </div>
     </div>

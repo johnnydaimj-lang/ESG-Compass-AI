@@ -1,14 +1,9 @@
 import { NextResponse } from "next/server";
-import { cookies } from "next/headers";
 import { getAllZones, writeZones } from "@/lib/zones-store";
+import { isAdmin } from "@/lib/admin-auth";
 import type { Zone } from "@/lib/zones-data";
 
 interface Props { params: Promise<{ id: string }> }
-
-async function isAdmin(): Promise<boolean> {
-  const session = (await cookies()).get("admin_session");
-  return session?.value === "true";
-}
 
 function cleanStr(value: unknown, max = 500): string {
   return String(value ?? "").trim().slice(0, max);

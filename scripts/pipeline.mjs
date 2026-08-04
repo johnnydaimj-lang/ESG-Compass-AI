@@ -102,7 +102,19 @@ function loadSources() {
 
 // ── 步骤 2：抓取 ─────────────────────────────────────
 function loadSeenHashes() {
-  return new Set(readJSON(CONFIG.hashesPath)?.hashes ?? []);
+  const hashes = new Set(readJSON(CONFIG.hashesPath)?.hashes ?? []);
+  // 用已有 contents 补齐 hash，避免 CI 首次运行（尚无 seen_hashes 文件）时把存量内容重复入池
+  const sources = readJSON(CONFIG.sourcesPath)?.sources ?? [];
+  const sourceIdByName = new Map(sources.map((s) => [s.name, s.id]));
+  const contents = readJSON(CONFIG.contentsPath);
+  if (Array.isArray(contents)) {
+    for (const item of contents) {
+      if (!item?.sourceUrl) continue;
+      const sourceId = sourceIdByName.get(item.sourceName) || item.sourceName;
+      hashes.add(hash(item.sourceUrl, sourceId));
+    }
+  }
+  return hashes;
 }
 
 function saveSeenHashes(hashes) {
