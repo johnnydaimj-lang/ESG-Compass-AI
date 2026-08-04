@@ -45,10 +45,15 @@ export var ROADMAP: RoadmapItem[] = [
     description: "质量门禁+启发式精选已上线（垃圾过滤/ESG相关性/三维度+选题价值），存量内容清洗 99→33 条；继续提升信源覆盖与 LLM 结构化质量", updatedAt: "2026-07-31" },
   { id: "rm-kb-to-zone", label: "独立知识库（个人层内部资产）", category: "待开始", priority: "P1",
     description: "不再并入公开专区：工作台内部沉淀政策全文/框架标准/事件知识单元；公开专区保留轻量法规标准导航，通过事件/专区 ID 关联", updatedAt: "2026-08-03" },
-  { id: "rm-personal-layer", label: "个人 ESG 工作台（三模块）", category: "待开始", priority: "P0",
-    description: "架构已确认：公开层保留 ESG 信息筛选器；个人工作台聚合信息筛选器个人视图/专属 agent/独立知识库；待接入私密知识源、个人记忆与主动任务", updatedAt: "2026-08-03" },
-  { id: "rm-graph-engine", label: "Graph Engineering（多智能体协同架构）", category: "待开始", priority: "P1",
-    description: "以图结构编排个人工作台多智能体：筛选/知识检索/影响分析/起草为节点，依赖/数据流/人工审批为边；轻量图编排起步，不引入图数据库", updatedAt: "2026-08-03" },
+  { id: "rm-personal-layer", label: "个人 ESG 工作台（三模块）", category: "进行中", priority: "P0",
+    description: "三模块工作台壳已落地（信息筛选器个人视图 / 专属 Agent / 独立知识库浏览）；待接入 Obsidian 自动同步、个人记忆与主动任务", updatedAt: "2026-08-04" },
+
+  { id: "rm-harness-base", label: "单 Agent + Harness Engineering 底座", category: "进行中", priority: "P0",
+    description: "工具沙箱 / MCP 网关接口 / 记忆分片 / 上下文裁剪 / 人工确认闸门 / 调用日志；Graph 仅保留简单任务状态", updatedAt: "2026-08-04" },
+
+  { id: "rm-graph-engine", label: "Graph Engineering（远期）", category: "待开始", priority: "P2",
+    description: "暂不引入多 Agent 拓扑；业务膨胀需要拆分多角色 Agent 时再升级为图编排，当前仅维护简单任务状态", updatedAt: "2026-08-04" },
+
   { id: "rm-market-research", label: "市场调研：AI Agent + ESG SaaS", category: "待开始", priority: "P1",
     description: "跟踪 AI Agent 前沿动态；分析双碳/ESG 数字化工具（SaaS）产品形态；产出调研笔记反哺产品迭代", updatedAt: "2026-07-31" },
 ];
