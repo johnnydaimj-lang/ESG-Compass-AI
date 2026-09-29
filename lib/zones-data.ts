@@ -1,0 +1,1345 @@
+// ESG Compass — 专区类型与数据
+// 纯数据层，不依赖 node:fs，可在客户端组件使用
+
+export interface Zone {
+  id: string;
+  name: string;
+  description: string;
+  eventIds: string[];
+  milestones?: { date: string; title: string; summary: string; region?: string }[];
+  keywords?: string[];
+  regions?: ZoneRegion[];
+}
+
+export interface ZoneRegion {
+  name: string;
+  milestones?: { date: string; title: string; summary: string }[];
+  regulations?: ZoneRegulation[];
+}
+
+export interface ZoneRegulation {
+  title: string;
+  obligation: string;
+  appliesTo?: string;
+  threshold?: string;
+  timeline?: string;
+  penalty?: string;
+  documents?: ZoneDocument[];
+  riskSources?: ZoneRiskSource[];
+}
+
+export interface ZoneDocument {
+  title: string;
+  issuer?: string;
+  sourceUrl: string;
+  note?: string;
+}
+
+export interface ZoneRiskSource {
+  title: string;
+  risk: string;
+}
+
+export interface ZoneContentLike {
+  id?: string;
+  title?: string;
+  summary?: string;
+  esgTopic?: string;
+}
+
+export function recentCutoffDate(days: number): string {
+  const d = new Date();
+  d.setDate(d.getDate() - days);
+  const p = (n: number) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+}
+
+export function zoneMatches(zone: Zone, content: ZoneContentLike): boolean {
+  const text = `${content.title || ""} ${content.summary || ""} ${content.esgTopic || ""}`.toLowerCase();
+  const keywords = zone.keywords || DEFAULT_ZONE_KEYWORDS[zone.id] || [];
+  if (content.id && zone.eventIds.includes(content.id)) return true;
+  return keywords.some((k) => text.includes(k.toLowerCase()));
+}
+
+export const DEFAULT_ZONES: Zone[] = [
+  {
+    id: "esg-disclosure",
+    name: "ESG 信息披露",
+    description: "面向出海企业的 ESG 披露合规监管指南：按地区查看披露框架、适用范围、时间表与风险来源（CSRD、ISSB、SEC、中国交易所等）。",
+    eventIds: ["m-sg-issb", "m-exp-omnibus", "m-exp-issb"],
+    keywords: ["issb", "sasb", "csrd", "esrs", "披露", "disclosure", "taxonomy", "ifrs", "sustainability reporting"],
+    regions: [
+      {
+        name: "欧盟",
+        milestones: [
+          { date: "2024-01-01", title: "CSRD 正式生效", summary: "CSRD 取代 NFRD，将适用企业范围大幅扩大，要求按 ESRS 进行双重重要性评估。" },
+          { date: "2025-01-01", title: "CSRD 首批适用企业开始报告", summary: "大型企业为首批须按 CSRD 要求披露 2024 财年可持续信息的主体。" },
+        ],
+        regulations: [
+          {
+            title: "CSRD/ESRS 可持续披露义务（Directive (EU) 2022/2464）",
+            obligation: "按 ESRS 进行双重重要性评估，披露治理、战略、风险管理、指标与目标。",
+            appliesTo: "在欧盟经营的大型企业、上市中小企业及非欧盟集团在欧子公司",
+            threshold: "员工 250+ 且（净营业额超 4000 万欧元或资产总额超 2000 万欧元）",
+            timeline: "2024 财年起分阶段适用",
+            penalty: "成员国监管处罚 + 强制审计保证要求",
+            documents: [
+              { title: "CSRD 指令原文", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/dir/2022/2464/oj" },
+            ],
+            riskSources: [
+              { title: "双重重要性判断难度", risk: "影响识别与评估口径复杂，披露边界容易失真" },
+              { title: "数据采集链路不足", risk: "供应链上下游数据缺失，范围三与价值链指标难以支撑" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "美国",
+        milestones: [
+          { date: "2024-03-06", title: "SEC 气候披露规则通过", summary: "SEC 通过气候相关披露规则，要求注册人披露气候风险与温室气体排放。" },
+          { date: "2025-04-11", title: "SEC 提出撤销气候披露规则", summary: "SEC 提议撤销 2024 年气候披露规则，规则执行路径进入不确定期。" },
+        ],
+        regulations: [
+          {
+            title: "SEC 气候披露规则（2024）",
+            obligation: "注册人披露气候相关风险、治理、情景分析及范围一/二温室气体排放。",
+            appliesTo: "美国 SEC 注册人",
+            threshold: "按申报人类型分阶段适用",
+            timeline: "2024 年通过后暂缓执行，撤销进程不确定",
+            penalty: "联邦证券法反欺诈与执法风险",
+            documents: [
+              { title: "SEC 规则原文", issuer: "美国 SEC", sourceUrl: "https://www.sec.gov/rules/final/2024/33-11275.pdf" },
+            ],
+            riskSources: [
+              { title: "监管路径反复", risk: "规则暂缓与撤销进程导致披露时间表无法确定" },
+              { title: "州级要求并存", risk: "加州等地披露法案仍独立生效，双重合规成本上升" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "中国",
+        milestones: [
+          { date: "2024-04-12", title: "沪深北交易所发布可持续发展报告指引", summary: "三大交易所发布可持续发展报告指引，要求指数样本公司自 2025 财年起披露。" },
+          { date: "2024-12-17", title: "财政部发布可持续披露基本准则", summary: "财政部发布《企业可持续披露准则——基本准则（试行）》，建立国家统一可持续披露基准。" },
+        ],
+        regulations: [
+          {
+            title: "交易所可持续发展报告指引",
+            obligation: "披露治理、战略、影响/风险机遇管理与指标目标，并逐步纳入范围一/二/三排放。",
+            appliesTo: "上证180、科创50、深证100、创业板指数样本等大型上市公司",
+            threshold: "按指数样本与市值门槛分阶段扩展",
+            timeline: "2025 财年起披露（2026 年披露首份报告）",
+            penalty: "交易所自律监管措施",
+            documents: [
+              { title: "上交所官网检索", issuer: "上海证券交易所", sourceUrl: "https://www.google.com/search?q=site%3Asse.com.cn%20%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E6%8A%A5%E5%91%8A%E6%8C%87%E5%BC%95", note: "检索可持续发展报告指引原文" },
+              { title: "深交所官网检索", issuer: "深圳证券交易所", sourceUrl: "https://www.szse.cn/lawrules/", note: "检索可持续发展报告指引原文" },
+            ],
+            riskSources: [
+              { title: "披露质量参差", risk: "指标口径与数据基础不统一，首年披露容易流于模板化" },
+              { title: "跨境双重披露成本", risk: "同时满足 A 股指引与欧盟/ISSB 口径，系统与人力投入翻倍" },
+            ],
+          },
+          {
+            title: "财政部可持续披露基本准则（试行）",
+            obligation: "建立国家统一可持续披露基准，指引企业按重要性原则披露。",
+            appliesTo: "中国企业（分行业、分阶段实施）",
+            threshold: "按财政部实施安排",
+            timeline: "2024 年发布，逐步落地",
+            penalty: "以监管指引为主，暂无直接罚则",
+            documents: [
+              { title: "财政部官网检索", issuer: "中国财政部", sourceUrl: "https://www.google.com/search?q=site%3Amof.gov.cn%20%E4%BC%81%E4%B8%9A%E5%8F%AF%E6%8C%81%E7%BB%AD%E6%8A%AB%E9%9C%B2%E5%87%86%E5%88%99", note: "检索准则原文" },
+            ],
+            riskSources: [
+              { title: "口径衔接问题", risk: "与交易所指引、ISSB 的关系和映射仍需落地细则" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "新加坡",
+        milestones: [
+          { date: "2026-07-18", title: "新加坡推进 ISSB 披露路线图", summary: "新加坡金管局明确上市公司分阶段对标 ISSB 准则的时间表。" },
+        ],
+        regulations: [
+          {
+            title: "MAS/SGX ISSB 披露路线图",
+            obligation: "上市公司分阶段对标 IFRS S1/S2 披露可持续信息。",
+            appliesTo: "新加坡上市公司",
+            threshold: "按市值分阶段实施",
+            timeline: "2025 财年起分阶段适用",
+            penalty: "交易所监管要求",
+            documents: [
+              { title: "MAS 可持续金融页", issuer: "新加坡金管局", sourceUrl: "https://www.mas.gov.sg/development/sustainable-finance" },
+            ],
+            riskSources: [
+              { title: "国际对标预期高", risk: "国际投资者直接按 ISSB 口径审查，本地数据服务不足" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "全球",
+        milestones: [
+          { date: "2021-11-03", title: "IFRS 宣布成立 ISSB", summary: "IFRS 基金会于 COP26 期间宣布成立 ISSB，目标是制定全球统一的可持续披露基准。" },
+          { date: "2023-06-26", title: "ISSB 正式发布 IFRS S1、S2 准则", summary: "ISSB 发布首批两项准则，标志着全球可持续披露进入新阶段。" },
+        ],
+        regulations: [
+          {
+            title: "IFRS S1/S2 可持续披露准则",
+            obligation: "披露可持续相关财务信息（S1）与气候相关风险机遇（S2）。",
+            appliesTo: "采用或对标 ISSB 的辖区企业",
+            threshold: "按辖区采纳范围",
+            timeline: "2024 年发布，各辖区分批采纳",
+            penalty: "多辖区将其纳入强制披露体系",
+            documents: [
+              { title: "IFRS 可持续准则导航页", issuer: "ISSB/IFRS", sourceUrl: "https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/" },
+            ],
+            riskSources: [
+              { title: "多套标准并存", risk: "欧盟、美国、中国与 ISSB 口径并存，转换成本高" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "esg-rating",
+    name: "ESG 评级",
+    description: "面向出海企业的 ESG 评级合规监管指南：按地区查看评级监管、方法论变化、评级机构义务与风险来源（欧盟评级条例、IOSCO、MSCI 等）。",
+    eventIds: ["m-rat-msci", "m-rat-ecovadis", "m-aca-rating"],
+    keywords: ["rating", "esg rating", "评级", "msci", "ecovadis", "sustainalytics"],
+    regions: [
+      {
+        name: "欧盟",
+        milestones: [
+          { date: "2023-07-01", title: "欧盟 ESG 评级活动监管提案", summary: "欧盟委员会提出 ESG 评级活动监管草案，要求评级机构披露方法、分离咨询与评级业务。" },
+          { date: "2024-03-01", title: "ESMA 发布 ESG 评级指南", summary: "ESMA 要求评级机构清晰区分 E、S、G 各维度的评分逻辑。" },
+          { date: "2024-11-19", title: "欧盟 ESG 评级活动监管条例通过", summary: "欧盟通过 ESG 评级活动监管条例，要求评级机构注册并提高透明度。" },
+        ],
+        regulations: [
+          {
+            title: "ESG 评级活动监管条例（Regulation (EU) 2024/3005）",
+            obligation: "评级机构须在 ESMA 注册，披露方法、数据来源与利益冲突管理。",
+            appliesTo: "在欧盟提供 ESG 评级服务的机构",
+            threshold: "欧盟市场评级活动",
+            timeline: "2026 年起适用",
+            penalty: "ESMA 监管措施与罚款",
+            documents: [
+              { title: "条例原文", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/reg/2024/3005/oj" },
+            ],
+            riskSources: [
+              { title: "方法论透明度不足", risk: "评分逻辑与权重披露不充分，可能触发注册与合规审查" },
+              { title: "咨询与评级利益冲突", risk: "同时提供咨询和评级服务的机构面临业务隔离要求" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "美国",
+        milestones: [
+          { date: "2024-05-23", title: "SEC 就 ESG 评级与数据产品征询意见", summary: "SEC 就 ESG 评级机构与数据产品提供商的注册和披露规则征询市场意见。" },
+        ],
+        regulations: [
+          {
+            title: "SEC 对 ESG 评级与数据产品的监管讨论",
+            obligation: "关注 SEC 对评级机构注册、方法论披露与潜在利益冲突的监管方向。",
+            appliesTo: "在美国市场提供 ESG 评级/数据服务的机构",
+            threshold: "美国市场服务",
+            timeline: "征求意见阶段",
+            penalty: "暂无强制罚则，纳入证券监管框架风险",
+            documents: [
+              { title: "SEC 官网", issuer: "美国 SEC", sourceUrl: "https://www.google.com/search?q=site%3Asec.gov%20ESG%20rating%20regulation", note: "检索 ESG 评级监管动态" },
+            ],
+            riskSources: [
+              { title: "监管不确定", risk: "评级机构是否被视为信用评级机构、披露要求均未定" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "中国",
+        milestones: [
+          { date: "2024-06-01", title: "中国 ESG 评级自律规范推进", summary: "行业自律组织推进 ESG 评级业务规范，要求披露评级方法与数据来源。" },
+        ],
+        regulations: [
+          {
+            title: "中国 ESG 评级自律规范",
+            obligation: "评级机构披露方法论、数据来源与利益冲突管理，提高评级透明度。",
+            appliesTo: "在中国市场开展 ESG 评级的机构",
+            threshold: "境内评级业务",
+            timeline: "2024 年起逐步规范",
+            penalty: "行业自律措施",
+            documents: [
+              { title: "中国证券业协会官网", issuer: "中国证券业协会", sourceUrl: "https://www.google.com/search?q=site%3Asac.net.cn%20ESG%20%E8%AF%84%E7%BA%A7%E8%87%AA%E5%BE%8B%E8%A7%84%E5%88%99", note: "检索 ESG 评级自律规则" },
+            ],
+            riskSources: [
+              { title: "方法论不透明", risk: "评级口径差异大，企业难以理解分数变化原因" },
+              { title: "数据源受限", risk: "非财务数据标准化不足，评级结果可验证性弱" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "全球",
+        milestones: [
+          { date: "2021-10-01", title: "IOSCO 启动 ESG 评级市场审查", summary: "国际证监组织开始对全球 ESG 评级机构进行市场审查。" },
+          { date: "2026-07-17", title: "MSCI 年度模型调整", summary: "MSCI 上调气候脆弱性在关键议题中的权重，转型计划披露质量开始影响治理维度得分。" },
+        ],
+        regulations: [
+          {
+            title: "IOSCO ESG 评级与数据产品建议",
+            obligation: "评级机构应披露方法、数据来源与利益冲突，并接受监管监督。",
+            appliesTo: "全球 ESG 评级与数据产品提供商",
+            threshold: "跨境评级服务",
+            timeline: "2021 年发布建议，各国逐步立法",
+            penalty: "被欧盟等辖区立法转化为强制义务",
+            documents: [
+              { title: "IOSCO 报告", issuer: "IOSCO", sourceUrl: "https://www.iosco.org/library/pubdocs/pdf/IOSCOPD690.pdf" },
+            ],
+            riskSources: [
+              { title: "评级分歧", risk: "不同机构对同一公司评分差异大，影响融资条件判断" },
+              { title: "模型调整传导", risk: "评级权重调整导致得分突变，企业难以及时应对" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "sustainable-supply-chain",
+    name: "可持续供应链",
+    description: "面向中国企业出海的供应链合规监管指南：按地区查看监管要求、关键文件、风险来源与执法时间线（欧盟 CSDDD/CBAM、美国 UFLPA、中国出口管制等）。",
+    eventIds: ["m-eu-csddd", "m-eu-cbam", "m-exp-cbam-sme", "m-aca-supply"],
+    keywords: ["supply chain", "供应链", "csddd", "cbam", "due diligence", "尽职调查", "forced labour", "forced labor", "强迫劳动", "uflpa", "出口管制", "两用物项"],
+    regions: [
+      {
+        name: "欧盟",
+        milestones: [
+          { date: "2022-02-23", title: "欧盟 CSDDD 提案发布", summary: "欧盟委员会发布 CSDDD 提案，要求大型企业对其价值链上下游进行尽职调查。" },
+          { date: "2024-05-24", title: "CSDDD 正式通过", summary: "欧盟理事会正式通过 CSDDD，分阶段 2027 年起适用。" },
+          { date: "2025-10-01", title: "CBAM 过渡期最后一年", summary: "CBAM 过渡期进入最后阶段，为 2026 年正式收费做准备。" },
+          { date: "2026-07-21", title: "CBAM 进入正式收费期", summary: "进口商须按季度申报隐含碳排放并购买 CBAM 证书。" },
+          { date: "2026-07-24", title: "CSDDD 首轮合规检查启动", summary: "欧盟成员国监管机构开始开展首轮合规检查。" },
+        ],
+        regulations: [
+          {
+            title: "CSDDD 价值链尽责调查（Directive (EU) 2024/1760）",
+            obligation: "识别、预防、终止并补救价值链上下游的人权与环境负面影响。",
+            appliesTo: "欧盟企业及在欧盟产生净营业额的第三国企业",
+            threshold: "员工 500+ 且净营业额 1.5 亿欧元+（欧盟企业）；非欧盟企业按欧盟净营业额 4.5 亿欧元+ 触发",
+            timeline: "2027 年起分阶段适用",
+            penalty: "成员国罚则上限可达全球净营业额 5%",
+            documents: [
+              { title: "CSDDD 条例原文", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/dir/2024/1760/oj", note: "价值链尽责调查指令原文" },
+            ],
+            riskSources: [
+              { title: "上游供应透明度不足", risk: "多级分包与原材料溯源缺失，难以证明产品不涉及强迫劳动或高碳环节" },
+              { title: "合规义务层层传导", risk: "欧盟进口商将义务转嫁给中国供应商，合同与审计要求快速上升" },
+            ],
+          },
+          {
+            title: "CBAM 碳边境调节（Regulation (EU) 2023/956）",
+            obligation: "按季度申报进口产品隐含碳排放，购买并清缴 CBAM 证书。",
+            appliesTo: "水泥、钢铁、铝、化肥、电力、氢等产品进口商",
+            threshold: "按法规设定年度进口量阈值",
+            timeline: "2026 年正式收费",
+            penalty: "未足额清缴将按 EU ETS 罚款机制处理",
+            documents: [
+              { title: "CBAM 条例原文", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/reg/2023/956/oj", note: "碳边境调节机制条例" },
+            ],
+            riskSources: [
+              { title: "碳排放核算能力", risk: "CBAM 隐含碳排放计算口径复杂，申报错误将带来证书成本与处罚" },
+            ],
+          },
+          {
+            title: "欧盟《禁止强迫劳动产品条例》（Regulation (EU) 2024/3015）",
+            obligation: "禁止投放、出口任何使用强迫劳动制造的产品，配合调查并整改。",
+            appliesTo: "向欧盟市场投放产品的企业",
+            threshold: "欧盟市场全部产品",
+            timeline: "2027 年起适用，执法准备阶段",
+            penalty: "产品下架、销毁、禁止投放",
+            documents: [
+              { title: "条例原文与适用时间表", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/reg/2024/3015/oj" },
+            ],
+            riskSources: [
+              { title: "供应链追溯体系缺失", risk: "无法证明产品未使用强迫劳动，将面临下架与销毁风险" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "美国",
+        milestones: [
+          { date: "2022-09-14", title: "UFLPA 全面生效", summary: "美国海关推定所有与新疆相关的产品为强迫劳动产品，除非进口商提供清晰且令人信服的反证。" },
+        ],
+        regulations: [
+          {
+            title: "UFLPA 强迫劳动推定（2021）",
+            obligation: "进口商证明产品供应链不涉及新疆强迫劳动，否则推定违法。",
+            appliesTo: "进口涉新疆供应链产品的企业",
+            threshold: "所有涉新疆供应链产品",
+            timeline: "2022 年起持续执法",
+            penalty: "货物扣押、没收、刑事与民事罚则",
+            documents: [
+              { title: "UFLPA 执法指引", issuer: "美国 CBP", sourceUrl: "https://www.cbp.gov/trade/forced-labor/uflpa", note: "涉新疆供应链推定规则与实体清单" },
+            ],
+            riskSources: [
+              { title: "原产地与供应链证明", risk: "海关执法要求完整链路证据，证据不足即触发推定或扣押" },
+              { title: "上游供应透明度不足", risk: "多级分包与原材料溯源缺失，难以证明产品不涉及强迫劳动" },
+            ],
+          },
+          {
+            title: "涉疆实体与进口限制",
+            obligation: "被列入 UFLPA 实体清单的企业与船运公司相关货物面临可反驳推定与更严格审查。",
+            appliesTo: "与清单实体存在交易或运输关系的企业",
+            threshold: "清单内实体及关联货物",
+            timeline: "动态更新",
+            penalty: "货物扣押、没收、列入黑名单",
+            documents: [
+              { title: "UFLPA 实体清单", issuer: "美国 CBP", sourceUrl: "https://www.cbp.gov/trade/forced-labor/uflpa", note: "随执法动态更新" },
+            ],
+            riskSources: [
+              { title: "客户与船运关联", risk: "与清单实体存在间接交易或共用承运商，可能触发整批货物审查" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "中国",
+        milestones: [
+          { date: "2024-12-01", title: "《两用物项出口管制条例》施行", summary: "出口管制清单物项需申请许可，企业须建立内部合规制度。" },
+        ],
+        regulations: [
+          {
+            title: "两用物项出口管制条例（2024）",
+            obligation: "出口管制清单物项需申请许可，建立内部合规制度。",
+            appliesTo: "出口管制物项相关企业",
+            threshold: "清单内物项及临时管制物项",
+            timeline: "2024 年 12 月 1 日起施行",
+            penalty: "行政处罚、没收违法所得、构成犯罪的追究刑事责任",
+            documents: [
+              { title: "官方政策文件库", issuer: "中国国务院", sourceUrl: "https://www.gov.cn/zhengce/zhengceku/", note: "检索条例原文" },
+            ],
+            riskSources: [
+              { title: "出口管制与制裁叠加", risk: "中美/中欧贸易摩擦下，物项与客户筛查不到位可能触发反制与法律风险" },
+            ],
+          },
+          {
+            title: "反制清单与不可靠实体清单",
+            obligation: "关注商务部将境外实体列入反制清单的公告，评估相关交易与供应链影响。",
+            appliesTo: "与被列实体存在交易或依赖关系的企业",
+            threshold: "被列实体及其关联交易",
+            timeline: "动态更新",
+            penalty: "相关交易受限、信用与贸易风险",
+            documents: [
+              { title: "商务部公告检索", issuer: "中国商务部", sourceUrl: "https://www.mofcom.gov.cn/zwgk/zcfb/", note: "检索反制清单与公告原文" },
+            ],
+            riskSources: [
+              { title: "供应链依赖传导", risk: "对被列实体的原材料或设备依赖可能导致断供与合同违约" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "英国",
+        milestones: [
+          { date: "2015-10-29", title: "英国《现代奴隶制法案》生效", summary: "年营业额超 3600 万英镑的在英经营组织须发布年度透明度声明。" },
+        ],
+        regulations: [
+          {
+            title: "Modern Slavery Act 2015（第 54 条）",
+            obligation: "发布年度奴隶制与人口贩运透明度声明，说明供应链中的尽职调查措施。",
+            appliesTo: "年营业额超 3600 万英镑的在英经营组织",
+            threshold: "营业额超 3600 万英镑",
+            timeline: "每年更新",
+            penalty: "无直接罚款，但影响执法与商业声誉",
+            documents: [
+              { title: "法案第 54 条原文", issuer: "英国", sourceUrl: "https://www.legislation.gov.uk/ukpga/2015/30/section/54" },
+            ],
+            riskSources: [
+              { title: "披露不充分", risk: "声明内容空泛或未覆盖供应链，采购资格与商业声誉受损" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "加拿大",
+        milestones: [
+          { date: "2024-01-01", title: "加拿大供应链强迫劳动与童工法案生效", summary: "在加经营且达到规模阈值的企业须提交年度供应链报告。" },
+        ],
+        regulations: [
+          {
+            title: "Fighting Against Forced Labour and Child Labour in Supply Chains Act (2023)",
+            obligation: "提交年度供应链强迫劳动与童工报告，说明风险评估、尽职调查与补救措施。",
+            appliesTo: "在加拿大经营并达到规模阈值的企业",
+            threshold: "在加经营且满足资产/营业额/员工规模要求",
+            timeline: "2024 年起每年 5 月 31 日前提交",
+            penalty: "未报告或虚假报告可面临处罚",
+            documents: [
+              { title: "法案原文", issuer: "加拿大司法部", sourceUrl: "https://laws-lois.justice.gc.ca/eng/acts/F-9.6/", note: "以官方文本为准" },
+            ],
+            riskSources: [
+              { title: "报告合规记录缺失", risk: "未及时提交报告或被审计发现虚假信息，将影响对加业务" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "澳大利亚",
+        milestones: [
+          { date: "2018-11-29", title: "澳大利亚《现代奴隶制法案》通过", summary: "年营业额超 1 亿澳元的企业须提交年度现代奴隶制报告。" },
+        ],
+        regulations: [
+          {
+            title: "Modern Slavery Act 2018 (Cth)",
+            obligation: "提交年度现代奴隶制报告，说明供应链结构与尽责调查措施。",
+            appliesTo: "在澳经营并达到营业额阈值的企业",
+            threshold: "合并营业额 1 亿澳元以上",
+            timeline: "2019 年起每财年报告",
+            penalty: "部长可要求采取行动，不报告将登记在案并影响声誉",
+            documents: [
+              { title: "法案原文", issuer: "澳大利亚联邦", sourceUrl: "https://www.legislation.gov.au/Details/C2018A00153" },
+            ],
+            riskSources: [
+              { title: "报告与尽调记录不足", risk: "供应链尽调记录不完整，难以支撑年度报告中的自我声明" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "日本",
+        milestones: [
+          { date: "2022-09-13", title: "经产省发布供应链人权尽责调查指南", summary: "面向在日经营企业发布人权尽责调查指引，被采购实践逐步采纳。" },
+        ],
+        regulations: [
+          {
+            title: "供应链人权尽责调查指南（2022）",
+            obligation: "按指南识别、评估并回应供应链人权风险。",
+            appliesTo: "在日经营企业",
+            threshold: "自愿性指南，但常被采购与投资者尽调引用",
+            timeline: "2022 年 9 月发布，持续修订",
+            penalty: "非强制，但可能成为对日客户合同要求",
+            documents: [
+              { title: "指南发布页", issuer: "日本经济产业省", sourceUrl: "https://www.meti.go.jp/press/2022/09/20220913001/20220913001.html" },
+            ],
+            riskSources: [
+              { title: "合同传导", risk: "对日客户在采购协议中引用指南，要求供应商配合尽调" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "全球",
+        milestones: [
+          { date: "2011-06-16", title: "联合国《工商业与人权指导原则》通过", summary: "确立企业尊重人权的全球基线，被多国立法采纳。" },
+          { date: "2023-06-08", title: "OECD 尽责管理指南更新", summary: "更新负责任商业行为尽责管理指南，强化风险识别与补救方法论。" },
+        ],
+        regulations: [
+          {
+            title: "UN Guiding Principles on Business and Human Rights",
+            obligation: "开展人权尽责调查、建立申诉与补救机制。",
+            appliesTo: "所有跨国企业",
+            threshold: "全球通用基线",
+            timeline: "2011 年发布，持续被立法采纳",
+            penalty: "多国立法直接引用，作为执法判定依据",
+            documents: [
+              { title: "UNGP 原文", issuer: "联合国", sourceUrl: "https://www.ohchr.org/en/publications/reference-publications/guiding-principles-business-and-human-rights" },
+            ],
+            riskSources: [
+              { title: "基线被立法化", risk: "未按 UNGPs 建立流程的企业，在欧盟/美国执法中被视为尽责不足" },
+            ],
+          },
+          {
+            title: "OECD Due Diligence Guidance for Responsible Business Conduct",
+            obligation: "按六步方法论识别、评估、预防与补救负面影响的闭环流程。",
+            appliesTo: "跨国企业通用",
+            threshold: "全球通用",
+            timeline: "2023 年修订版",
+            penalty: "作为多国执法与采购尽调的方法论基准",
+            documents: [
+              { title: "指南原文", issuer: "OECD", sourceUrl: "https://www.oecd.org/en/publications/oecd-due-diligence-guidance-for-responsible-business-conduct_3449b1b4-en.html" },
+            ],
+            riskSources: [
+              { title: "流程不完整", risk: "尽调仅停留在书面政策，缺乏风险分级与补救闭环，难通过监管审查" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "labor-human-rights",
+    name: "劳工与人权",
+    description: "面向出海企业的劳工与人权合规监管指南：按地区查看强迫劳动禁令、人权尽责调查、劳动披露义务与风险来源（美欧执法 + 中国境内劳动合规）。",
+    eventIds: ["m-aca-supply", "m-eu-forced-labor", "m-exp-labor-supply"],
+    keywords: ["labor", "labour", "劳工", "human rights", "人权", "forced labour", "forced labor", "强迫劳动", "workers", "工人", "uflpa", "modern slavery", "现代奴隶制"],
+    regions: [
+      {
+        name: "欧盟",
+        milestones: [
+          { date: "2024-03-13", title: "欧盟《禁止强迫劳动产品条例》立法提案", summary: "欧盟委员会提出禁止强迫劳动产品进入欧盟市场的条例提案，要求企业建立供应链追溯体系。" },
+          { date: "2024-11-19", title: "《禁止强迫劳动产品条例》正式通过", summary: "Regulation (EU) 2024/3015 通过，禁止强迫劳动产品投放欧盟市场。" },
+          { date: "2026-07-28", title: "欧盟强迫劳动条例进入执法准备阶段", summary: "欧盟成员国海关与市场监管机构开始搭建执法框架，企业须建立全供应链追溯体系。" },
+        ],
+        regulations: [
+          {
+            title: "欧盟《禁止强迫劳动产品条例》（Regulation (EU) 2024/3015）",
+            obligation: "禁止投放、出口任何使用强迫劳动制造的产品；配合调查并整改。",
+            appliesTo: "向欧盟市场投放产品的企业",
+            threshold: "欧盟市场全部产品",
+            timeline: "2027 年起适用，执法准备阶段",
+            penalty: "产品下架、销毁、禁止投放",
+            documents: [
+              { title: "条例原文与适用时间表", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/reg/2024/3015/oj" },
+            ],
+            riskSources: [
+              { title: "供应链追溯体系缺失", risk: "无法证明产品未使用强迫劳动，将面临下架与销毁风险" },
+              { title: "证据链不足", risk: "海关与市场监管要求完整追溯记录，证据不足即触发调查" },
+            ],
+          },
+          {
+            title: "CSDDD 人权尽责调查（Directive (EU) 2024/1760）",
+            obligation: "覆盖强迫劳动、童工、职业安全与环境人权影响。",
+            appliesTo: "CSDDD 阈值内企业",
+            threshold: "员工与营业额阈值同 CSDDD",
+            timeline: "2027 年起分阶段适用",
+            penalty: "民事/行政责任与罚则",
+            documents: [
+              { title: "CSDDD 原文", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/dir/2024/1760/oj" },
+            ],
+            riskSources: [
+              { title: "申诉与补救机制缺失", risk: "缺少可用的申诉渠道会被监管视为尽责管理不充分" },
+              { title: "供应链审计流于形式", risk: "仅审 Tier 1、仅查文件，难以识别真实强迫劳动信号" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "美国",
+        milestones: [
+          { date: "2022-09-14", title: "UFLPA 全面生效", summary: "美国海关推定所有与新疆相关的产品为强迫劳动产品，除非进口商提供清晰且令人信服的反证。" },
+        ],
+        regulations: [
+          {
+            title: "UFLPA 强迫劳动推定（2021）",
+            obligation: "证明供应链不涉及新疆强迫劳动，默认推定违法。",
+            appliesTo: "进口涉新疆供应链产品的企业",
+            threshold: "涉新疆供应链产品",
+            timeline: "持续执法",
+            penalty: "货物扣押、没收、罚则",
+            documents: [
+              { title: "UFLPA 执法指引", issuer: "美国 CBP", sourceUrl: "https://www.cbp.gov/trade/forced-labor/uflpa" },
+            ],
+            riskSources: [
+              { title: "招聘费用与劳务派遣链", risk: "工人承担招聘/签证费用易被认定为强迫劳动或人口贩运" },
+              { title: "跨境用工证明", risk: "外派劳工、境外雇佣的工时/工资/居住安排缺乏系统记录，审计时无法自证" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "英国",
+        milestones: [
+          { date: "2015-10-29", title: "英国《现代奴隶制法案》生效", summary: "年营业额超 3600 万英镑的在英经营组织须发布年度透明度声明。" },
+        ],
+        regulations: [
+          {
+            title: "Modern Slavery Act 2015（第 54 条）",
+            obligation: "发布年度奴隶制与人口贩运透明度声明。",
+            appliesTo: "年营业额超 3600 万英镑的在英经营组织",
+            threshold: "营业额超 3600 万英镑",
+            timeline: "每年更新",
+            penalty: "无直接罚款，但影响执法与商业声誉",
+            documents: [
+              { title: "法案第 54 条原文", issuer: "英国", sourceUrl: "https://www.legislation.gov.uk/ukpga/2015/30/section/54" },
+            ],
+            riskSources: [
+              { title: "披露不充分", risk: "声明未覆盖完整供应链或未披露尽调措施，采购资格与声誉受损" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "加拿大",
+        milestones: [
+          { date: "2024-01-01", title: "加拿大供应链强迫劳动与童工法案生效", summary: "在加经营且达到规模阈值的企业须提交年度供应链报告。" },
+        ],
+        regulations: [
+          {
+            title: "Fighting Against Forced Labour and Child Labour in Supply Chains Act (2023)",
+            obligation: "提交年度供应链强迫劳动与童工报告。",
+            appliesTo: "在加拿大经营并达到规模阈值的企业",
+            threshold: "在加经营且满足资产/营业额/员工规模要求",
+            timeline: "2024 年起每年 5 月 31 日前提交",
+            penalty: "未报告或虚假报告可面临处罚",
+            documents: [
+              { title: "法案原文", issuer: "加拿大司法部", sourceUrl: "https://laws-lois.justice.gc.ca/eng/acts/F-9.6/", note: "以官方文本为准" },
+            ],
+            riskSources: [
+              { title: "报告合规记录缺失", risk: "未及时提交报告或被审计发现虚假信息，将影响对加业务" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "澳大利亚",
+        milestones: [
+          { date: "2018-11-29", title: "澳大利亚《现代奴隶制法案》通过", summary: "年营业额超 1 亿澳元的企业须提交年度现代奴隶制报告。" },
+        ],
+        regulations: [
+          {
+            title: "Modern Slavery Act 2018 (Cth)",
+            obligation: "提交年度现代奴隶制报告。",
+            appliesTo: "在澳经营并达到营业额阈值的企业",
+            threshold: "合并营业额 1 亿澳元以上",
+            timeline: "2019 年起每财年报告",
+            penalty: "部长可要求采取行动，不报告将登记在案并影响声誉",
+            documents: [
+              { title: "法案原文", issuer: "澳大利亚联邦", sourceUrl: "https://www.legislation.gov.au/Details/C2018A00153" },
+            ],
+            riskSources: [
+              { title: "报告与尽调记录不足", risk: "供应链尽调记录不完整，难以支撑年度报告中的自我声明" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "中国",
+        milestones: [
+          { date: "2008-01-01", title: "《中华人民共和国劳动合同法》施行", summary: "确立劳动合同、工时、社保与禁止强迫劳动的中国境内劳动合规基线。" },
+        ],
+        regulations: [
+          {
+            title: "中国境内劳动合规基线",
+            obligation: "劳动合同、工时、社保、禁止童工与强迫劳动。",
+            appliesTo: "中国境内用工主体",
+            threshold: "中国境内用工主体",
+            timeline: "持续监管",
+            penalty: "行政处罚、劳动仲裁与刑事责任",
+            documents: [
+              { title: "劳动法律法规检索", issuer: "中国政府网", sourceUrl: "https://www.gov.cn/zhengce/", note: "检索劳动法与劳动合同法原文" },
+            ],
+            riskSources: [
+              { title: "劳务派遣与外包用工", risk: "用工形式不规范或社保缴纳不全，触发行政处罚与劳动争议" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "日本",
+        milestones: [
+          { date: "2022-09-13", title: "经产省发布供应链人权尽责调查指南", summary: "面向在日经营企业发布人权尽责调查指引。" },
+        ],
+        regulations: [
+          {
+            title: "供应链人权尽责调查指南（2022）",
+            obligation: "按指南识别、评估并回应供应链人权风险。",
+            appliesTo: "在日经营企业",
+            threshold: "自愿性指南，但常被采购与投资者尽调引用",
+            timeline: "2022 年 9 月发布，持续修订",
+            penalty: "非强制，但可能成为对日客户合同要求",
+            documents: [
+              { title: "指南发布页", issuer: "日本经济产业省", sourceUrl: "https://www.meti.go.jp/press/2022/09/20220913001/20220913001.html" },
+            ],
+            riskSources: [
+              { title: "合同传导", risk: "对日客户在采购协议中引用指南，要求供应商配合尽调" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "全球",
+        milestones: [
+          { date: "1998-06-18", title: "ILO《工作中的基本原则和权利宣言》通过", summary: "确立结社自由、集体谈判、消除强迫劳动、废除童工与歧视四项基本原则。" },
+          { date: "2011-06-16", title: "UNGP 通过", summary: "确立企业尊重人权的全球基线。" },
+          { date: "2025-06-01", title: "ILO 通过第 191 号建议书", summary: "关于供应链中劳工权利尽职调查的新建议书，为各国立法提供指引。" },
+        ],
+        regulations: [
+          {
+            title: "ILO 核心劳工公约",
+            obligation: "结社自由、强迫劳动、童工、歧视四项基本原则。",
+            appliesTo: "跨国企业通用",
+            threshold: "全球通用",
+            timeline: "持续",
+            penalty: "作为各国立法与采购尽调基线",
+            documents: [
+              { title: "ILO 宣言原文", issuer: "国际劳工组织", sourceUrl: "https://www.ilo.org/declaration/thedeclaration/textdeclaration/lang--en/index.htm" },
+            ],
+            riskSources: [
+              { title: "供应链传导", risk: "下游客户按 ILO 标准审核供应商，违规信号直接暴露" },
+            ],
+          },
+          {
+            title: "UN Guiding Principles on Business and Human Rights",
+            obligation: "开展人权尽责调查、建立申诉与补救机制。",
+            appliesTo: "所有跨国企业",
+            threshold: "全球通用基线",
+            timeline: "2011 年发布，持续被立法采纳",
+            penalty: "多国立法直接引用，作为执法判定依据",
+            documents: [
+              { title: "UNGP 原文", issuer: "联合国", sourceUrl: "https://www.ohchr.org/en/publications/reference-publications/guiding-principles-business-and-human-rights" },
+            ],
+            riskSources: [
+              { title: "申诉与补救机制缺失", risk: "缺少可用的申诉渠道会被监管视为尽责管理不充分" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "green-finance",
+    name: "绿色金融",
+    description: "面向出海企业的绿色金融合规监管指南：按地区查看分类目录、绿色债券标准、转型融资要求与风险来源（EU Taxonomy、中国绿债目录、ICMA 等）。",
+    eventIds: ["m-sg-issb", "m-eu-gbs"],
+    keywords: ["green finance", "绿色金融", "bond", "债券", "blended finance", "transition finance", "转型金融", "sustainable finance", "green investments"],
+    regions: [
+      {
+        name: "欧盟",
+        milestones: [
+          { date: "2020-06-22", title: "欧盟可持续金融分类目录正式生效", summary: "EU Taxonomy 正式生效，为判断经济活动是否环境可持续提供分类标准。" },
+          { date: "2021-07-06", title: "SFDR 生效", summary: "要求金融市场参与者披露金融产品的可持续性风险整合方式和不利影响。" },
+          { date: "2023-11-28", title: "欧盟绿色债券标准（EUGBS）立法通过", summary: "EUGBS 为绿色债券发行提供自愿性标准，要求与 EU Taxonomy 对齐并接受外部认证。" },
+          { date: "2025-03-01", title: "转型金融概念在多国分类目录中落地", summary: "多个国家在分类目录中引入转型活动类别，为高碳行业向净零过渡提供融资框架。" },
+          { date: "2026-07-26", title: "EUGBS 进入强制认证阶段", summary: "在欧盟发行绿色债券须通过强制认证并与分类目录对齐，外部审查机构须在 ESMA 注册。" },
+        ],
+        regulations: [
+          {
+            title: "EU Taxonomy（Regulation (EU) 2020/852）",
+            obligation: "判断经济活动是否环境可持续，金融产品须披露分类目录对齐比例。",
+            appliesTo: "欧盟金融市场参与者及大型企业",
+            threshold: "按 SFDR/CSRD 覆盖范围",
+            timeline: "2022 年起逐步适用",
+            penalty: "漂绿风险与市场监管",
+            documents: [
+              { title: "分类目录条例原文", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/reg/2020/852/oj" },
+            ],
+            riskSources: [
+              { title: "判定数据依赖", risk: "活动是否达标需要专家判断与第三方数据，误判即构成漂绿风险" },
+            ],
+          },
+          {
+            title: "SFDR（Regulation (EU) 2019/2088）",
+            obligation: "金融产品披露可持续风险整合、不利影响与可持续投资比例。",
+            appliesTo: "欧盟金融市场参与者与财务顾问",
+            threshold: "所有受 SFDR 覆盖产品",
+            timeline: "2021 年生效，2023 年强化",
+            penalty: "主管机构处罚",
+            documents: [
+              { title: "SFDR 条例原文", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/reg/2019/2088/oj" },
+            ],
+            riskSources: [
+              { title: "披露口径调整频繁", risk: "SFDR 分类与模板多次修订，产品文件需要反复更新" },
+            ],
+          },
+          {
+            title: "EUGBS（Regulation (EU) 2023/2631）",
+            obligation: "欧盟绿色债券须与 EU Taxonomy 对齐并接受强制外部认证。",
+            appliesTo: "在欧盟发行绿色债券的主体",
+            threshold: "标称欧盟绿色债券",
+            timeline: "2026 年起强制认证",
+            penalty: "失去欧盟绿色债券标签与市场准入",
+            documents: [
+              { title: "EUGBS 条例原文", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/reg/2023/2631/oj" },
+            ],
+            riskSources: [
+              { title: "认证成本与项目合规", risk: "募集项目须逐项证明与分类目录对齐，合规成本上升" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "中国",
+        milestones: [
+          { date: "2021-04-21", title: "绿色债券支持项目目录发布", summary: "人民银行等发布《绿色债券支持项目目录（2021年版）》，统一绿色债券项目界定。" },
+        ],
+        regulations: [
+          {
+            title: "绿色债券支持项目目录（2021 年版）",
+            obligation: "界定绿色债券募集资金支持的项目范围，防止漂绿。",
+            appliesTo: "中国绿色债券发行人",
+            threshold: "绿债贴标项目",
+            timeline: "2021 年起适用",
+            penalty: "监管机构检查与违规处罚",
+            documents: [
+              { title: "人民银行官网检索", issuer: "中国人民银行", sourceUrl: "https://www.google.com/search?q=site%3Apbc.gov.cn%20%E7%BB%BF%E8%89%B2%E5%80%BA%E5%88%B8%E6%94%AF%E6%8C%81%E9%A1%B9%E7%9B%AE%E7%9B%AE%E5%BD%95", note: "检索目录原文" },
+            ],
+            riskSources: [
+              { title: "项目认定偏差", risk: "募集项目与目录匹配不足，可能被认定为漂绿" },
+            ],
+          },
+          {
+            title: "转型金融与碳减排支持工具",
+            obligation: "高碳行业转型项目可通过转型债券/碳减排支持工具获得定向融资。",
+            appliesTo: "高碳行业企业与金融机构",
+            threshold: "符合转型标准项目",
+            timeline: "持续推进",
+            penalty: "以引导为主，叠加绿色金融评价",
+            documents: [
+              { title: "人民银行官网", issuer: "中国人民银行", sourceUrl: "https://www.google.com/search?q=site%3Apbc.gov.cn%20%E8%BD%AC%E5%9E%8B%E9%87%91%E8%9E%8D%20%E7%A2%B3%E5%87%8F%E6%8E%92%E6%94%AF%E6%8C%81%E5%B7%A5%E5%85%B7" },
+            ],
+            riskSources: [
+              { title: "转型标准不统一", risk: "转型活动定义分散，融资工具认定存在不确定性" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "新加坡",
+        milestones: [
+          { date: "2023-12-01", title: "新加坡-亚洲分类目录发布", summary: "新加坡发布新加坡-亚洲分类目录，为东盟/亚洲地区绿色与转型活动提供框架。" },
+        ],
+        regulations: [
+          {
+            title: "新加坡-亚洲可持续分类目录",
+            obligation: "为东盟/亚洲地区绿色与转型活动提供分类框架，支持跨境绿色融资。",
+            appliesTo: "在新加坡及亚洲市场开展可持续金融的机构",
+            threshold: "分类目录覆盖行业",
+            timeline: "2023 年发布，逐步落地",
+            penalty: "以市场采用为主",
+            documents: [
+              { title: "MAS 可持续金融页", issuer: "新加坡金管局", sourceUrl: "https://www.mas.gov.sg/development/sustainable-finance" },
+            ],
+            riskSources: [
+              { title: "跨境口径对齐", risk: "与欧盟/中国分类目录定义不一致，跨境贴标复杂" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "全球",
+        milestones: [
+          { date: "2014-06-01", title: "ICMA 绿色债券原则发布", summary: "ICMA 发布绿色债券原则，确立募集资金用途、项目评估、资金管理与报告四项核心原则。" },
+        ],
+        regulations: [
+          {
+            title: "ICMA Green Bond Principles",
+            obligation: "确立绿色债券募集资金用途、项目评估、资金管理与报告四项核心原则。",
+            appliesTo: "全球绿色债券发行人",
+            threshold: "标称 ICMA 绿债",
+            timeline: "2014 年发布，每年更新",
+            penalty: "市场自律，标签可信度风险",
+            documents: [
+              { title: "ICMA 绿色债券原则", issuer: "ICMA", sourceUrl: "https://www.icmagroup.org/sustainable-finance/the-principles-guidelines-and-handbooks/green-bond-principles-gbp/" },
+            ],
+            riskSources: [
+              { title: "外部审查标准不一", risk: "第二方意见质量参差，影响国际投资者认可度" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "climate-risk",
+    name: "气候风险",
+    description: "面向出海企业的气候风险合规监管指南：按地区查看碳定价、气候披露、情景分析与风险来源（CBAM、加州披露法、全国碳市场、NGFS 等）。",
+    eventIds: ["m-sg-issb", "m-rat-msci", "m-exp-issb", "m-eu-cbam", "m-exp-climate-scenario"],
+    keywords: ["climate", "气候", "carbon", "碳", "cbam", "net zero", "净零", "scenario", "情景"],
+    regions: [
+      {
+        name: "欧盟",
+        milestones: [
+          { date: "2026-07-21", title: "CBAM 碳定价机制正式收费", summary: "CBAM 证书价格与 EU ETS 挂钩，碳成本成为出口企业必须量化的经营变量。" },
+        ],
+        regulations: [
+          {
+            title: "CBAM 碳边境调节（Regulation (EU) 2023/956）",
+            obligation: "进口隐含碳排放申报与 CBAM 证书清缴。",
+            appliesTo: "水泥、钢铁、铝、化肥、电力、氢等产品进口商",
+            threshold: "年度进口量阈值",
+            timeline: "2026 年正式收费",
+            penalty: "按 EU ETS 罚款机制处理",
+            documents: [
+              { title: "CBAM 条例原文", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/reg/2023/956/oj" },
+            ],
+            riskSources: [
+              { title: "隐含碳核算口径", risk: "核算边界与方法学复杂，申报错误带来证书成本与处罚" },
+              { title: "碳价波动", risk: "证书价格与 EU ETS 挂钩，成本预测困难" },
+            ],
+          },
+          {
+            title: "CSRD/ESRS E1 气候披露",
+            obligation: "披露气候转型计划、范围一/二/三排放与气候情景分析。",
+            appliesTo: "CSRD 覆盖企业",
+            threshold: "同 CSRD 阈值",
+            timeline: "2024 财年起",
+            penalty: "监管处罚",
+            documents: [
+              { title: "CSRD 指令原文", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/dir/2022/2464/oj" },
+            ],
+            riskSources: [
+              { title: "情景数据缺口", risk: "转型与物理情景所需输入数据不足，分析结果难以审计" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "美国",
+        milestones: [
+          { date: "2023-10-07", title: "加州气候披露法案签署", summary: "加州签署 SB 253 与 SB 261，要求大型企业披露温室气体排放与气候财务风险。" },
+        ],
+        regulations: [
+          {
+            title: "加州气候披露法案（SB 253 / SB 261）",
+            obligation: "披露范围一/二/三温室气体排放与气候财务风险报告。",
+            appliesTo: "在加州经营的大型美国及外国企业",
+            threshold: "年营收超 10 亿美元（SB253）/5 亿美元（SB261）",
+            timeline: "2026 财年起分阶段披露",
+            penalty: "年度最高 50 万美元民事罚款",
+            documents: [
+              { title: "SB 253 立法信息", issuer: "加州立法机构", sourceUrl: "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB253" },
+            ],
+            riskSources: [
+              { title: "范围三数据缺口", risk: "供应链排放数据缺失，第三方保证成本高" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "中国",
+        milestones: [
+          { date: "2021-07-16", title: "全国碳市场启动上线", summary: "全国碳排放权交易市场启动，发电行业首批纳入。" },
+          { date: "2024-05-01", title: "《碳排放权交易管理暂行条例》施行", summary: "条例为全国碳市场提供行政法规依据，明确配额清缴与处罚机制。" },
+        ],
+        regulations: [
+          {
+            title: "全国碳排放权交易市场",
+            obligation: "重点排放单位按配额履约，开展温室气体排放核算与核查。",
+            appliesTo: "全国碳市场覆盖行业的重点排放单位",
+            threshold: "年度温室气体排放量达 2.6 万吨二氧化碳当量",
+            timeline: "2021 年启动，行业逐步扩容",
+            penalty: "未履约清缴面临罚款与配额扣除",
+            documents: [
+              { title: "生态环境部官网检索", issuer: "生态环境部", sourceUrl: "https://www.google.com/search?q=site%3Amee.gov.cn%20%E7%A2%B3%E6%8E%92%E6%94%BE%E6%9D%83%E4%BA%A4%E6%98%93%20%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A0%B7%E6%80%A7%E4%BF%9D%E6%8A%A4", note: "检索配额方案与管理办法" },
+            ],
+            riskSources: [
+              { title: "配额缺口", risk: "排放增长超出配额分配，需外购配额形成成本" },
+              { title: "核算核查成本", risk: "数据质量要求提升，第三方核查费用上升" },
+            ],
+          },
+          {
+            title: "金融机构气候风险管理指引",
+            obligation: "银行保险机构逐步将气候风险纳入治理、风险管理与压力测试。",
+            appliesTo: "银行保险机构",
+            threshold: "按监管范围",
+            timeline: "持续完善",
+            penalty: "监管评价影响",
+            documents: [
+              { title: "国家金融监督管理总局", issuer: "国家金融监督管理总局", sourceUrl: "https://www.google.com/search?q=site%3Anfra.gov.cn%20%E6%B0%94%E5%80%99%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86", note: "检索气候风险相关指引" },
+            ],
+            riskSources: [
+              { title: "情景方法选择", risk: "物理与转型风险建模方法不成熟，压力测试结果难比较" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "全球",
+        milestones: [
+          { date: "2023-06-26", title: "ISSB S2 正式整合 TCFD 框架", summary: "IFRS S2 实质采纳 TCFD 框架逻辑，气候风险披露从自愿走向半强制。" },
+          { date: "2025-06-01", title: "NGFS 发布第四版情景数据库", summary: "NGFS 更新气候情景数据，纳入更细化的物理风险和转型风险路径。" },
+        ],
+        regulations: [
+          {
+            title: "IFRS S2 气候相关披露",
+            obligation: "披露气候风险机遇、情景分析与范围一/二/三排放。",
+            appliesTo: "采用 ISSB 辖区企业",
+            threshold: "按辖区采纳范围",
+            timeline: "2024 年发布",
+            penalty: "多辖区纳入强制披露",
+            documents: [
+              { title: "IFRS 可持续准则导航页", issuer: "ISSB/IFRS", sourceUrl: "https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/" },
+            ],
+            riskSources: [
+              { title: "跨辖区口径差异", risk: "各辖区对情景分析和范围三的强制程度不同，披露口径难统一" },
+            ],
+          },
+          {
+            title: "NGFS 气候情景",
+            obligation: "使用 NGFS 情景评估物理与转型风险（有序/无序转型、净零2050 等）。",
+            appliesTo: "金融机构与监管压力测试",
+            threshold: "通用方法学",
+            timeline: "2025 年更新第四版",
+            penalty: "监管压力测试要求",
+            documents: [
+              { title: "NGFS 情景门户", issuer: "NGFS", sourceUrl: "https://www.ngfs.net/ngfs-scenarios-portal/" },
+            ],
+            riskSources: [
+              { title: "情景选择偏差", risk: "假设参数差异大，同一企业不同情景下风险结论差异显著" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "biodiversity",
+    name: "生物多样性",
+    description: "面向出海企业的生物多样性合规监管指南：按地区查看自然相关框架、零毁林要求与风险来源（GBF、TNFD、EUDR、中国行动计划等）。",
+    eventIds: ["m-gbf-tnfd"],
+    keywords: ["biodiversity", "生物多样", "tnfd", "deforestation", "nature", "natural capital", "森林", "eudr", "毁林", "木材", "timber", "橡胶", "rubber", "大豆", "soy", "棕榈油", "palm oil", "产品森林"],
+    regions: [
+      {
+        name: "欧盟",
+        milestones: [
+          { date: "2023-06-29", title: "欧盟零毁林法规（EUDR）生效", summary: "欧盟零毁林法规生效，要求相关大宗商品证明非毁林并满足原产国法律要求。" },
+          { date: "2024-10-02", title: "EUDR 实施时间表延后", summary: "欧盟将大企业适用时间延后至 2025 年 12 月，中小企业延后至 2026 年 6 月。" },
+        ],
+        regulations: [
+          {
+            title: "欧盟零毁林法规（EUDR, Regulation (EU) 2023/1115）",
+            obligation: "牛、可可、咖啡、棕榈油、橡胶、大豆、木材及衍生品须证明非毁林并满足原产国法律要求。",
+            appliesTo: "投放欧盟市场相关产品的企业",
+            threshold: "覆盖 7 类大宗商品及衍生品",
+            timeline: "2025 年 12 月起大企业适用，2026 年 6 月起中小企业",
+            penalty: "产品下架、罚款、市场份额损失",
+            documents: [
+              { title: "EUDR 条例原文", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/reg/2023/1115/oj" },
+            ],
+            riskSources: [
+              { title: "供应链追溯与地理定位", risk: "需提供地块地理坐标与完整溯源链，多级采购数据难以补齐" },
+              { title: "小农户数据缺失", risk: "上游小农无法提供合规文件，导致采购来源被排除" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "全球",
+        milestones: [
+          { date: "2022-12-19", title: "COP15 通过昆明-蒙特利尔全球生物多样性框架", summary: "协议设定到 2030 年保护 30% 陆地和海洋、减少每年 5000 亿美元有害补贴等目标。" },
+          { date: "2023-09-18", title: "TNFD 正式发布 v1.0 框架", summary: "TNFD 发布基于定位-评估-评估-准备（LEAP）方法的自然相关风险管理与披露框架。" },
+          { date: "2026-07-25", title: "TNFD 框架获多国监管采纳", summary: "英国、日本、瑞士等国将在国内披露标准中引入 TNFD 的 LEAP 方法，自然风险评估走向半强制。" },
+        ],
+        regulations: [
+          {
+            title: "昆明-蒙特利尔全球生物多样性框架（GBF）",
+            obligation: "到 2030 年保护 30% 陆地和海洋、恢复 30% 退化生态系统并减少有害补贴。",
+            appliesTo: "各国政府及在其境内运营的企业",
+            threshold: "国家自主贡献与更新 NBSAP",
+            timeline: "2022 年通过，2030 年目标",
+            penalty: "国家履约审查与资金条件",
+            documents: [
+              { title: "GBF 官方页面", issuer: "联合国生物多样性公约（CBD）", sourceUrl: "https://www.cbd.int/gbf" },
+            ],
+            riskSources: [
+              { title: "项目选址触碰保护目标", risk: "新建项目位于保护区或高价值自然区域，面临融资与审批阻力" },
+            ],
+          },
+          {
+            title: "TNFD 自然相关风险管理与披露框架",
+            obligation: "按 LEAP 方法评估自然相关依赖、影响、风险与机遇并披露。",
+            appliesTo: "自愿采纳的企业与金融机构",
+            threshold: "自愿性，但逐步被监管引用",
+            timeline: "2023 年发布 v1.0，2026 年起多国采纳",
+            penalty: "非强制，影响投资者与监管预期",
+            documents: [
+              { title: "TNFD 框架文件", issuer: "TNFD", sourceUrl: "https://tnfd.global/publication/nature-related-risk-management-and-disclosure-framework/" },
+            ],
+            riskSources: [
+              { title: "自然数据缺口", risk: "依赖/影响评估所需生态数据稀缺，方法学执行成本高" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "中国",
+        milestones: [
+          { date: "2024-01-18", title: "中国生物多样性保护战略与行动计划发布", summary: "生态环境部发布《中国生物多样性保护战略与行动计划（2023—2030年）》，对接 GBF。" },
+        ],
+        regulations: [
+          {
+            title: "中国生物多样性保护战略与行动计划",
+            obligation: "对接 GBF，明确生物多样性保护优先区域、生态红线与修复任务。",
+            appliesTo: "在中国境内开展业务的企业与项目",
+            threshold: "涉及生态敏感区项目",
+            timeline: "2023—2030 年",
+            penalty: "环评、生态红线与执法约束",
+            documents: [
+              { title: "生态环境部官网检索", issuer: "生态环境部", sourceUrl: "https://www.google.com/search?q=site%3Amee.gov.cn%20%E7%A2%B3%E6%8E%92%E6%94%BE%E6%9D%83%E4%BA%A4%E6%98%93%20%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A0%B7%E6%80%A7%E4%BF%9D%E6%8A%A4", note: "检索行动计划原文" },
+            ],
+            riskSources: [
+              { title: "项目选址与环评", risk: "项目落入生态红线或生物多样性敏感区，审批与整改成本高" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "英国",
+        milestones: [
+          { date: "2025-05-01", title: "英国率先表态将 TNFD 纳入国内标准", summary: "英国成为首个明确将 TNFD 框架纳入国内可持续披露标准的国家。" },
+        ],
+        regulations: [
+          {
+            title: "英国可持续披露框架中的自然披露",
+            obligation: "将 TNFD LEAP 方法纳入英国可持续披露标准（UK SDS）。",
+            appliesTo: "在英国披露的大型企业",
+            threshold: "按英国 SDS 范围",
+            timeline: "2025 年表态，逐步立法",
+            penalty: "未来监管强制",
+            documents: [
+              { title: "TNFD 官网", issuer: "TNFD", sourceUrl: "https://www.google.com/search?q=site%3Atnfd.global%20nature-related%20disclosure%20framework", note: "跟踪英国采纳进展" },
+            ],
+            riskSources: [
+              { title: "双重披露成本", risk: "同时满足 TNFD 与现有披露要求，数据与系统投入上升" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "circular-economy",
+    name: "产品可持续与循环经济",
+    description: "面向出海产品的循环经济与生态设计要求：按地区查看电池护照、数字产品护照、再生材料、包装与生产者责任延伸等合规义务。",
+    eventIds: [],
+    keywords: [
+      "battery passport",
+      "电池护照",
+      "digital product passport",
+      "dpp",
+      "espr",
+      "ecodesign",
+      "生态设计",
+      "recycled content",
+      "再生材料",
+      "recycling",
+      "回收",
+      "packaging",
+      "包装",
+      "ppwr",
+      "right to repair",
+      "维修权",
+      "循环经济",
+      "circular economy",
+      "extended producer responsibility",
+      "生产者责任延伸",
+      "battery regulation",
+      "电池法规",
+    ],
+    regions: [
+      {
+        name: "欧盟",
+        milestones: [
+          { date: "2023-08-17", title: "欧盟电池法规正式生效", summary: "欧盟电池法规（2023/1542）生效，建立电池护照、碳足迹声明、再生材料含量与报废回收目标等要求。" },
+          { date: "2024-07-18", title: "ESPR 生态设计法规正式生效", summary: "欧盟生态设计可持续产品法规（2024/1781）生效，为分类产品设定生态设计要求与数字产品护照（DPP）。" },
+          { date: "2025-02-11", title: "PPWR 发布于欧盟官方公报", summary: "包装与包装废弃物法规（2025/40）发布，明确包装可回收性、最低再生材料含量与重复使用目标。" },
+        ],
+        regulations: [
+          {
+            title: "欧盟电池法规（Regulation (EU) 2023/1542）",
+            obligation: "电池护照、碳足迹声明、再生材料最低含量、供应链尽职调查与报废电池回收目标。",
+            appliesTo: "投放欧盟市场的便携式、轻型运输工具、工业、启动与电动汽车电池",
+            threshold: "按电池类别分阶段适用",
+            timeline: "2024—2027 年分阶段实施",
+            penalty: "成员国市场监管、产品下架与罚款",
+            documents: [
+              { title: "电池法规原文", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/reg/2023/1542/oj" },
+            ],
+            riskSources: [
+              { title: "护照数据链路", risk: "供应链多级数据与标签信息须随电池流转，数据治理成本高" },
+              { title: "再生材料核算", risk: "再生材料含量需按类别证明，核算口径与取证要求复杂" },
+            ],
+          },
+          {
+            title: "ESPR 生态设计可持续产品法规（Regulation (EU) 2024/1781）",
+            obligation: "产品生态设计要求、数字产品护照（DPP）、禁止销毁未售消费品。",
+            appliesTo: "欧盟分类产品，覆盖电子电器、纺织品、电池等",
+            threshold: "按分类产品授权法案逐步落地",
+            timeline: "2024 年生效，分类产品分阶段实施",
+            penalty: "成员国市场监管与合规处罚",
+            documents: [
+              { title: "ESPR 法规原文", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/reg/2024/1781/oj" },
+            ],
+            riskSources: [
+              { title: "DPP 数据要求", risk: "需建立唯一产品标识与全生命周期信息，数据系统改造投入大" },
+              { title: "分类产品范围扩展", risk: "授权法案持续扩充，产品覆盖范围不确定" },
+            ],
+          },
+          {
+            title: "PPWR 包装与包装废弃物法规（Regulation (EU) 2025/40）",
+            obligation: "包装可回收性、最低再生材料含量、减少过度包装、重复使用与生产者责任延伸。",
+            appliesTo: "投放欧盟市场的全部包装与包装产品",
+            threshold: "按包装类别与经营者规模分阶段适用",
+            timeline: "2025 年发布，分阶段实施",
+            penalty: "成员国市场监管与合规处罚",
+            documents: [
+              { title: "PPWR 法规原文", issuer: "欧盟", sourceUrl: "https://eur-lex.europa.eu/eli/reg/2025/40/oj" },
+            ],
+            riskSources: [
+              { title: "可回收性分级", risk: "包装须按性能分级并限制不可回收材料，产品包装需重新设计" },
+              { title: "再生材料含量", risk: "包装再生材料最低含量逐年提高，供应链供应与成本承压" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "中国",
+        milestones: [
+          { date: "2024-08-01", title: "新能源汽车动力电池综合利用管理推进", summary: "中国推进动力电池溯源、梯次利用与再生利用管理，强化电池全生命周期责任。" },
+        ],
+        regulations: [
+          {
+            title: "新能源汽车动力电池综合利用管理要求",
+            obligation: "动力电池溯源、梯次利用、再生利用与生产者责任延伸。",
+            appliesTo: "新能源汽车动力电池生产、使用与回收利用企业",
+            threshold: "按产品类型与环节分阶段适用",
+            timeline: "持续完善",
+            penalty: "行业主管部门监管与整改要求",
+            documents: [
+              { title: "工业和信息化部官网检索", issuer: "工业和信息化部", sourceUrl: "https://www.google.com/search?q=site%3Amiit.gov.cn%20%E5%8A%A8%E5%8A%9B%E7%94%B5%E6%B1%A0%20%E7%BB%BC%E5%90%88%E5%88%A9%E7%94%A8", note: "检索动力电池综合利用管理办法" },
+            ],
+            riskSources: [
+              { title: "溯源数据链", risk: "全生命周期溯源要求贯穿生产、销售、回收各环节，数据协同难度高" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "全球",
+        milestones: [
+          { date: "2026-07-01", title: "数字产品护照成为贸易合规趋势", summary: "欧盟 DPP 与电池护照推动产品级可持续数据成为跨境贸易的常见合规要求。" },
+        ],
+      },
+    ],
+  },
+  {
+    id: "esg-events",
+    name: "ESG 活动",
+    description: "全球范围内重要的 ESG 相关会议、论坛、峰会与学术交流活动动态与成果回顾。",
+    eventIds: ["m-event-nyc-climate-week"],
+    milestones: [
+      { date: "2025-09-22", title: "2025 纽约气候周召开", summary: "主题聚焦碳市场第六条的规则制定与自然融资机制设计，加速公私资本配置。" },
+      { date: "2025-11-10", title: "COP30 筹备工作启动", summary: "巴西亚马逊城市贝伦为 COP30 主办地，聚焦全球适应目标盘点与资金落实。" },
+      { date: "2026-05-15", title: "全球可持续投资论坛（GSIF）召开", summary: "ISSB 与各交易所集团讨论全球可持续披露趋同与投资者数据需求。" },
+      { date: "2026-07-20", title: "2026 纽约气候周召开", summary: "碳市场互联与自然融资成为核心议题，生物多样性信用试点方案获得关注。" },
+    ],
+  },
+];
+
+export const DEFAULT_ZONE_KEYWORDS: Record<string, string[]> = {
+  "esg-disclosure": ["issb", "sasb", "csrd", "esrs", "披露", "disclosure", "taxonomy", "ifrs", "sustainability reporting"],
+  "esg-rating": ["rating", "esg rating", "评级", "msci", "ecovadis", "sustainalytics"],
+  "sustainable-supply-chain": ["supply chain", "供应链", "csddd", "cbam", "due diligence", "尽职调查", "forced labour", "forced labor", "强迫劳动", "uflpa", "出口管制", "两用物项"],
+  "labor-human-rights": ["labor", "labour", "劳工", "human rights", "人权", "forced labour", "forced labor", "强迫劳动", "workers", "工人", "uflpa", "modern slavery", "现代奴隶制"],
+  "green-finance": ["green finance", "绿色金融", "bond", "债券", "blended finance", "transition finance", "转型金融", "sustainable finance", "green investments"],
+  "climate-risk": ["climate", "气候", "carbon", "碳", "cbam", "net zero", "净零", "scenario", "情景"],
+  "biodiversity": ["biodiversity", "生物多样", "tnfd", "deforestation", "nature", "natural capital", "森林", "eudr", "毁林", "木材", "timber", "橡胶", "rubber", "大豆", "soy", "棕榈油", "palm oil", "产品森林"],
+  "circular-economy": ["battery passport", "电池护照", "digital product passport", "dpp", "espr", "ecodesign", "生态设计", "recycled content", "再生材料", "recycling", "回收", "packaging", "包装", "ppwr", "right to repair", "维修权", "循环经济", "circular economy", "extended producer responsibility", "生产者责任延伸", "battery regulation", "电池法规"],
+  "esg-events": ["climate week", "论坛", "峰会", "seminar", "conference", "event", "活动", "cop30", "cop29", "gsif"],
+};
+
+export function getZoneKeywords(zoneId: string): string[] {
+  const zone = DEFAULT_ZONES.find((z) => z.id === zoneId);
+  return zone?.keywords || DEFAULT_ZONE_KEYWORDS[zoneId] || [];
+}
+
+export function getZonesForContent(content: { title?: string; summary?: string; esgTopic?: string }): Zone[] {
+  const text = `${content.title || ""} ${content.summary || ""} ${content.esgTopic || ""}`.toLowerCase();
+  return DEFAULT_ZONES.filter((z) => (z.keywords || DEFAULT_ZONE_KEYWORDS[z.id] || []).some((k) => text.includes(k.toLowerCase())));
+}
+
+export function getAllZones(): Zone[] { return DEFAULT_ZONES; }
+export function getZoneById(id: string): Zone | undefined { return DEFAULT_ZONES.find((z) => z.id === id); }
+export function getZonesByEventId(eventId: string): Zone[] { return DEFAULT_ZONES.filter((z) => z.eventIds.includes(eventId)); }

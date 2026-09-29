@@ -1,0 +1,1179 @@
+{
+  "sources": [
+    {
+      "id": "eu-commission",
+      "name": "欧盟委员会",
+      "url": "https://ec.europa.eu/commission/presscorner/api/search?language=en&pageSize=50",
+      "type": "eu-presscorner",
+      "contentType": "政策",
+      "region": "欧盟",
+      "language": "en",
+      "enabled": true,
+      "notes": "欧盟新闻发布室官方 JSON API，仅保留正式新闻稿（IP）"
+    },
+    {
+      "id": "sec-esg",
+      "name": "SEC 新闻稿（ESG 相关）",
+      "url": "https://www.sec.gov/news/pressreleases.rss",
+      "type": "rss",
+      "contentType": "政策",
+      "region": "美国",
+      "language": "en",
+      "enabled": true,
+      "notes": "SEC 官方 RSS，需要客户端侧过滤 ESG 关键字"
+    },
+    {
+      "id": "ifrs-issb",
+      "name": "IFRS / ISSB 新闻",
+      "url": "https://www.ifrs.org/sitemap.xml",
+      "type": "sitemap",
+      "urlPrefix": "/news-and-events/news/",
+      "excludeUrlPatterns": [
+        "^https://www.ifrs.org/news-and-events/news/$",
+        "^https://www.ifrs.org/content/ifrs/home/news-and-events/news/$"
+      ],
+      "limit": 10,
+      "contentType": "政策",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "RSS 路径已失效，改用 sitemap 解析近期新闻文章；已支持按 URL 日期排序",
+      "backfillLimit": 20
+    },
+    {
+      "id": "mas-sustainable-finance",
+      "name": "新加坡金管局（MAS）可持续金融",
+      "url": "https://www.mas.gov.sg/development/sustainable-finance",
+      "type": "webpage",
+      "contentType": "政策",
+      "region": "新加坡",
+      "language": "en",
+      "enabled": true,
+      "notes": "政府新闻页，无 RSS，需 scrape",
+      "limit": 20
+    },
+    {
+      "id": "eco-business",
+      "name": "Eco-Business（亚洲 ESG 新闻）",
+      "url": "https://www.eco-business.com/news/",
+      "type": "webpage",
+      "contentType": "观点",
+      "region": "亚洲",
+      "language": "en",
+      "enabled": true,
+      "notes": "旧 RSS 404，改用新闻列表抓取",
+      "limit": 20,
+      "timeoutMs": 35000
+    },
+    {
+      "id": "bhrrc-latest",
+      "name": "Business & Human Rights（全球企业人权/劳工风险案例）",
+      "url": "https://www.business-humanrights.org/en/feeds/latest-news/3/",
+      "type": "rss",
+      "contentType": "政策",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "limit": 25,
+      "backfillLimit": 40,
+      "timeoutMs": 25000,
+      "fallbackOnEmpty": true,
+      "fallbacks": [
+        {
+          "name": "Google News RSS（BHR 专项）",
+          "type": "rss",
+          "url": "https://news.google.com/rss/search?q=site%3Abusiness-humanrights.org%20when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+          "limit": 25,
+          "backfillLimit": 25,
+          "timeoutMs": 20000
+        },
+        {
+          "name": "GDELT（BHR 专项）",
+          "type": "gdelt",
+          "url": "http://api.gdeltproject.org/api/v2/doc/doc",
+          "query": "(site:business-humanrights.org OR \"Business and Human Rights Resource Centre\" OR \"forced labor\" OR \"human rights due diligence\")",
+          "timespan": "14d",
+          "limit": 25,
+          "timeoutMs": 30000
+        }
+      ],
+      "notes": "企业人权争议与跨境经营风险 RSS：主站受 Cloudflare 403 时自动切换 BHR 专项 Google News RSS，再降级至 GDELT；覆盖各国公司工厂事件、劳工争议、监管调查与公司回应。",
+      "scenario": "出海经营风险案例",
+      "recoveryCategory": "需人工验证",
+      "recoveryPlan": "已配置自动备用通道；主站恢复后仍优先使用官方 RSS，403 或空结果时自动切换专项搜索"
+    },
+    {
+      "id": "bhrrc-gdelt",
+      "name": "BHR 风险替代检索（GDELT）",
+      "url": "http://api.gdeltproject.org/api/v2/doc/doc",
+      "type": "gdelt",
+      "query": "(\"forced labor\" OR \"Chinese company labor\" OR \"human rights due diligence\" OR \"factory labor rights\")",
+      "timespan": "7d",
+      "limit": 25,
+      "contentType": "政策",
+      "region": "全球",
+      "language": "en",
+      "enabled": false,
+      "notes": "BHR 主站不可达时的候选检索通道，基于 GDELT 全球新闻聚合；因 GDELT 免费接口有速率限制，当前改由每日全网搜索中的 BHR/劳工专项查询作为实际替代通道。",
+      "scenario": "出海经营风险案例",
+      "recoveryCategory": "需人工验证",
+      "recoveryPlan": "GDELT 无密钥但存在限流；如持续 429，使用 BING_SEARCH_API_KEY 或 Google News RSS 作为补充"
+    },
+    {
+      "id": "responsible-business-alliance",
+      "name": "责任商业联盟（RBA）新闻",
+      "url": "https://www.responsiblebusiness.org/news/",
+      "type": "webpage",
+      "linkBaseUrl": "https://www.responsiblebusiness.org/",
+      "selectors": [
+        ".newsItem"
+      ],
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "limit": 20,
+      "backfillLimit": 30,
+      "notes": "RBA 官方新闻：行业标准、供应链尽责调查、审计与争议声明；用于跟踪 RBA 涉华反制回应及供应链劳工事件。",
+      "scenario": "出海劳工与供应链合规",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已接入官网新闻列表"
+    },
+    {
+      "id": "esgtoday",
+      "name": "ESG Today（全球 ESG 新闻）",
+      "url": "https://www.esgtoday.com/",
+      "rssUrl": "https://www.esgtoday.com/feed/",
+      "type": "rss",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "官方 RSS 接入；robots.txt 禁止分类 feed 与站内搜索，仅使用根 /feed/，不爬页面"
+    },
+    {
+      "id": "wri-insights",
+      "name": "世界资源研究所（WRI）Insights",
+      "url": "https://www.wri.org/insights",
+      "type": "webpage",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "RSS 被屏蔽，改用网页抓取（需浏览器 UA + 重试）",
+      "limit": 20,
+      "timeoutMs": 30000
+    },
+    {
+      "id": "ssrn-esg",
+      "name": "学术文章（Crossref ESG 检索）",
+      "url": "https://api.crossref.org/works",
+      "type": "api",
+      "query": "ESG sustainability climate disclosure",
+      "rows": 10,
+      "fromDays": 30,
+      "contentType": "学术",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "SSRN 直连被拦截，改用 Crossref 学术元数据 API"
+    },
+    {
+      "id": "cdp-articles",
+      "name": "CDP 新闻与文章",
+      "url": "https://www.cdp.net/en/insights.md",
+      "type": "markdown",
+      "contentType": "评级",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "旧文章专区 404，改用 CDP Insights Markdown 列表"
+    },
+    {
+      "id": "msci-esg-ratings",
+      "name": "MSCI ESG 评级（候选）",
+      "url": "https://weixin.sogou.com/weixin?type=2&query=MSCI-China",
+      "type": "wechat-search",
+      "contentType": "评级",
+      "region": "全球",
+      "language": "en",
+      "enabled": false,
+      "requiresEnv": "SOGOU_COOKIE",
+      "query": "MSCI-China",
+      "wechatAccountName": "MSCI",
+      "wechatAccountId": "MSCI-China",
+      "notes": "公司自身评级升降不跟踪；仅在 MSCI 方法、模型或监管变化出现时由评级方法专项检索补充。",
+      "recoveryCategory": "规则已停用",
+      "recoveryPlan": "按信息筛选策略停用企业评级变动跟踪"
+    },
+    {
+      "id": "sustainalytics-esg-ratings",
+      "name": "Sustainalytics ESG 评级（候选）",
+      "url": "https://www.sustainalytics.com/esg-news",
+      "type": "webpage",
+      "selectors": [
+        "a[href*=\"/esg-news/news-details/\"]"
+      ],
+      "contentType": "评级",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "limit": 20,
+      "backfillLimit": 30,
+      "notes": "公众号晨星Sustainalytics 已停更，不再追踪；改用 Sustainalytics 官网 ESG 新闻页抓取（Morningstar 体系）",
+      "recoveryCategory": "公众号自动抓取",
+      "recoveryPlan": "已接入官网 ESG 新闻页；如页面改版可换回公众号或其他二手渠道"
+    },
+    {
+      "id": "spglobal-esg-scores",
+      "name": "S&P Global ESG 评分（候选）",
+      "url": "https://weixin.sogou.com/weixin?type=2&query=%E6%A0%87%E6%99%AE%E5%85%A8%E7%90%83",
+      "type": "wechat-search",
+      "contentType": "评级",
+      "region": "全球",
+      "language": "en",
+      "enabled": false,
+      "requiresEnv": "SOGOU_COOKIE",
+      "query": "标普全球",
+      "wechatAccountName": "标普全球",
+      "notes": "公司自身 ESG 评分升降不跟踪；S&P Global 气候风险等实质报告由专项搜索和邮件通道覆盖。",
+      "recoveryCategory": "规则已停用",
+      "recoveryPlan": "按信息筛选策略停用企业评级变动跟踪"
+    },
+    {
+      "id": "ecovadis-insights",
+      "name": "EcoVadis 资讯（候选）",
+      "url": "https://ecovadis.com/insights/",
+      "type": "webpage",
+      "contentType": "评级",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "已核验启用：文章列表可解析（.item 卡片），可持续观测质量",
+      "selectors": [
+        ".item"
+      ]
+    },
+    {
+      "id": "wind-esg",
+      "name": "Wind ESG 评级（候选）",
+      "url": "https://weixin.sogou.com/weixin?type=2&query=Wind%20ESG",
+      "type": "wechat-search",
+      "contentType": "评级",
+      "region": "中国",
+      "language": "zh",
+      "enabled": false,
+      "requiresEnv": "SOGOU_COOKIE",
+      "query": "Wind ESG",
+      "wechatAccountName": "Wind万得",
+      "notes": "公司自身 ESG 评级升降不跟踪；仅保留评级方法、模型和监管变化相关检索。",
+      "recoveryCategory": "规则已停用",
+      "recoveryPlan": "按信息筛选策略停用企业评级变动跟踪"
+    },
+    {
+      "id": "hsi-esg-index",
+      "name": "恒生可持续发展企业指数（候选）",
+      "url": "https://weixin.sogou.com/weixin?type=2&query=%E6%81%92%E7%94%9F%E6%8C%87%E6%95%B0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E6%8C%87%E6%95%B0",
+      "type": "wechat-search",
+      "contentType": "评级",
+      "region": "中国香港",
+      "language": "en",
+      "enabled": false,
+      "query": "恒生指数有限公司 指数",
+      "wechatAccountName": "恒生指数有限公司",
+      "notes": "暂时跳过：恒生指数有限公司服务号未被搜狗收录，待接入官网指数公告或其他渠道后恢复",
+      "recoveryCategory": "公众号自动抓取",
+      "recoveryPlan": "待接入官网指数公告或其他渠道后恢复"
+    },
+    {
+      "id": "unep-news",
+      "name": "联合国环境规划署（UNEP）新闻与观点",
+      "url": "https://www.unep.org/news-and-stories",
+      "type": "browser-render",
+      "linkPatterns": [
+        "^https://www\\.unep\\.org/news-and-stories/(story|press-release|statement|speech|opinion|media)/"
+      ],
+      "browserWaitMs": 60000,
+      "preferSnapshot": true,
+      "snapshotMaxAgeHours": 72,
+      "limit": 20,
+      "contentType": "政策",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "UNEP 官网被 Cloudflare 拦截，普通抓取不可用；已接入浏览器渲染抓取，自动失败时读取人工快照 data/manual/unep-news.html（应用内浏览器打开官方页面后保存）",
+      "recoveryCategory": "需人工验证",
+      "recoveryPlan": "在应用内浏览器打开 https://www.unep.org/news-and-stories 完成验证后保存快照，管道会优先浏览器渲染、失败时用快照兜底"
+    },
+    {
+      "id": "unfccc-news",
+      "name": "联合国气候变化框架公约（UNFCCC）新闻",
+      "url": "https://unfccc.int/news",
+      "type": "browser-render",
+      "linkPatterns": [
+        "^https://unfccc\\.int/(?:en/)?news/[^?#]+$"
+      ],
+      "stripTrailingType": true,
+      "browserGotoMs": 90000,
+      "browserWaitMs": 30000,
+      "limit": 20,
+      "contentType": "政策",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "UNFCCC 直连被 WAF 拦截，官方 RSS 为空；改用浏览器渲染官方新闻列表，可解析日期与原文链接",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "浏览器渲染已实测可用；如失效可改走 sitemap.xml 解析"
+    },
+    {
+      "id": "un-global-compact",
+      "name": "联合国全球契约（UNGC）新闻",
+      "url": "https://unglobalcompact.org/news",
+      "type": "webpage",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "已核验启用：联合国全球契约新闻（article.article--teaser 卡片）",
+      "selectors": [
+        "article.article--teaser",
+        ".views-row"
+      ],
+      "limit": 15,
+      "backfillLimit": 20
+    },
+    {
+      "id": "worldbank-news",
+      "name": "世界银行新闻与报告",
+      "url": "https://search.worldbank.org/api/v2/news?format=json&rows=30",
+      "type": "worldbank",
+      "contentType": "政策",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "改用世界银行官方新闻/报告 JSON API（含 ESG 与可持续发展相关研究报告）",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已改用官方 JSON API"
+    },
+    {
+      "id": "iso-news",
+      "name": "ISO 标准动态",
+      "url": "https://www.iso.org/insights/standards-world",
+      "type": "browser-render",
+      "linkPatterns": [
+        "^https://www\\.iso\\.org/(contents/news|news)/"
+      ],
+      "browserWaitMs": 30000,
+      "limit": 20,
+      "contentType": "政策",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "ISO 官网被 Cloudflare 拦截；改用浏览器渲染官方 Insights/News 列表，链接为官网原文",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "浏览器渲染已实测可用；如失效可评估 ISO 官方新闻 API"
+    },
+    {
+      "id": "sbti-news",
+      "name": "SBTi 科学碳目标动态",
+      "url": "https://sciencebasedtargets.org/sitemap.xml",
+      "type": "sitemap",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "已核验启用：SBTi sitemap 索引，子地图按 /news/ 过滤",
+      "urlPrefix": "/news/",
+      "limit": 10,
+      "backfillLimit": 20,
+      "sitemapLimit": 18
+    },
+    {
+      "id": "mckinsey-sustainability",
+      "name": "麦肯锡可持续发展洞察",
+      "url": "https://www.mckinsey.com/rss",
+      "rssUrl": "https://www.mckinsey.com/rss",
+      "type": "rss",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "limit": 20,
+      "notes": "麦肯锡官方 RSS（McKinsey Insights & Publications），ESG 相关性由质量门禁过滤",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已接入官方 RSS"
+    },
+    {
+      "id": "bcg-sustainability",
+      "name": "BCG 可持续发展洞察",
+      "url": "https://www.bcg.com/publications",
+      "type": "webpage",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "selectors": [
+        "a[href*=\"/publications/202\"]"
+      ],
+      "enabled": true,
+      "notes": "已核验：页面可访问，文章卡为 .Promo 组件，需专用选择器后启用",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "页面可访问，文章卡为 .Promo 组件，补专用选择器后启用"
+    },
+    {
+      "id": "deloitte-sustainability",
+      "name": "德勤可持续发展洞察",
+      "url": "https://www2.deloitte.com/global/en/issues/climate/sustainability-and-climate.html",
+      "type": "webpage",
+      "selectors": [
+        "a[href*=\"/global/en/issues/climate/\"]"
+      ],
+      "urlPatterns": [
+        "^https://www2\\.deloitte\\.com/global/en/issues/climate/[a-z0-9-]+\\.html$"
+      ],
+      "excludeUrlPatterns": [
+        "greenspacetech",
+        "sustainability-reporting-catalyst",
+        "the-deloitte-center-for-sustainable-progress",
+        "sustainability-and-climate\\.html\\?icid"
+      ],
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "limit": 20,
+      "backfillLimit": 30,
+      "notes": "德勤官网可持续与气候洞察页，按 climate 文章链接抓取",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已接入官网页面抓取"
+    },
+    {
+      "id": "ey-sustainability",
+      "name": "安永（EY）可持续发展洞察",
+      "url": "https://www.ey.com/en_gl/insights/sustainability",
+      "type": "webpage",
+      "selectors": [
+        "a[href*=\"/en_gl/insights/sustainability/\"]"
+      ],
+      "urlPatterns": [
+        "^https://www\\.ey\\.com/en_gl/insights/sustainability/[a-z0-9-]+$"
+      ],
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "limit": 20,
+      "backfillLimit": 30,
+      "notes": "安永官网可持续洞察页，按 sustainability 文章链接抓取",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已接入官网页面抓取"
+    },
+    {
+      "id": "pwc-esg",
+      "name": "普华永道（PwC）ESG 洞察",
+      "url": "https://weixin.sogou.com/weixin?type=2&query=%E6%99%AE%E5%8D%8E%E6%B0%B8%E9%81%93",
+      "type": "wechat-search",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "requiresEnv": "SOGOU_COOKIE",
+      "fallbackOnEmpty": true,
+      "fallbacks": [
+        {
+          "name": "Google News（PwC 专项）",
+          "type": "rss",
+          "url": "https://news.google.com/rss/search?q=PwC%20ESG%20sustainability%20disclosure%20when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
+          "limit": 20,
+          "backfillLimit": 20,
+          "timeoutMs": 20000
+        }
+      ],
+      "query": "普华永道",
+      "wechatAccountName": "普华永道",
+      "notes": "公众号官方账号追踪：普华永道",
+      "recoveryCategory": "公众号自动抓取",
+      "recoveryPlan": "已接入公众号官方账号过滤"
+    },
+    {
+      "id": "kpmg-esg",
+      "name": "毕马威（KPMG）ESG 洞察",
+      "url": "https://kpmg.com/xx/en/home/insights.html",
+      "type": "webpage",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "selectors": [
+        ".cmp-teaser a"
+      ],
+      "enabled": true,
+      "notes": "已核验：导航项与文章卡混用 .cmp-teaser，需更精确选择器后启用",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": ".cmp-teaser 混用导航与文章卡，细化选择器后启用"
+    },
+    {
+      "id": "bakermckenzie-esg",
+      "name": "贝克·麦坚时（Baker McKenzie）ESG/监管洞察",
+      "url": "https://weixin.sogou.com/weixin?type=2&query=%E8%B4%9D%E5%85%8B%C2%B7%E9%BA%A6%E5%9D%9A%E6%97%B6",
+      "type": "wechat-search",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "requiresEnv": "SOGOU_COOKIE",
+      "fallbackOnEmpty": true,
+      "fallbacks": [
+        {
+          "name": "Google News（Baker McKenzie 专项）",
+          "type": "rss",
+          "url": "https://news.google.com/rss/search?q=Baker%20McKenzie%20ESG%20regulation%20when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
+          "limit": 20,
+          "backfillLimit": 20,
+          "timeoutMs": 20000
+        }
+      ],
+      "query": "贝克·麦坚时",
+      "wechatAccountName": "奋迅贝克麦坚时法律天地",
+      "notes": "公众号官方账号追踪：奋迅·贝克麦坚时法律天地",
+      "recoveryCategory": "公众号自动抓取",
+      "recoveryPlan": "已接入公众号官方账号过滤"
+    },
+    {
+      "id": "dlapiper-esg",
+      "name": "DLA Piper 洞察",
+      "url": "https://weixin.sogou.com/weixin?type=2&query=DLA%20Piper",
+      "type": "wechat-search",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "requiresEnv": "SOGOU_COOKIE",
+      "fallbackOnEmpty": true,
+      "fallbacks": [
+        {
+          "name": "Google News（DLA Piper 专项）",
+          "type": "rss",
+          "url": "https://news.google.com/rss/search?q=DLA%20Piper%20ESG%20regulation%20when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
+          "limit": 20,
+          "backfillLimit": 20,
+          "timeoutMs": 20000
+        }
+      ],
+      "query": "DLA Piper",
+      "wechatAccountName": "欧华律师事务所",
+      "notes": "公众号官方账号追踪：欧华律师事务所（DLA Piper）",
+      "recoveryCategory": "公众号自动抓取",
+      "recoveryPlan": "已接入公众号官方账号过滤"
+    },
+    {
+      "id": "freshfields-esg",
+      "name": "富而德（Freshfields）洞察",
+      "url": "https://weixin.sogou.com/weixin?type=2&query=%E5%AF%8C%E8%80%8C%E5%BE%B7",
+      "type": "wechat-search",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "requiresEnv": "SOGOU_COOKIE",
+      "fallbackOnEmpty": true,
+      "fallbacks": [
+        {
+          "name": "Google News（Freshfields 专项）",
+          "type": "rss",
+          "url": "https://news.google.com/rss/search?q=Freshfields%20ESG%20regulation%20when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
+          "limit": 20,
+          "backfillLimit": 20,
+          "timeoutMs": 20000
+        }
+      ],
+      "query": "富而德",
+      "wechatAccountName": "富而德律师事务所",
+      "notes": "公众号官方账号追踪：富而德律师事务所",
+      "recoveryCategory": "公众号自动抓取",
+      "recoveryPlan": "已接入公众号官方账号过滤"
+    },
+    {
+      "id": "nortonrose-esg",
+      "name": "诺顿罗氏（Norton Rose Fulbright）知识中心",
+      "url": "https://www.nortonrosefulbright.com/en/knowledge",
+      "type": "webpage",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "已核验启用：诺顿罗氏法律知识文章",
+      "selectors": [
+        "article",
+        ".card-body"
+      ]
+    },
+    {
+      "id": "skadden-esg",
+      "name": "世达（Skadden）洞察",
+      "url": "https://www.skadden.com/insights",
+      "type": "webpage",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "已核验启用：世达洞察文章（.insightful-cards__grid-cell 外层卡片，含标题与原文链接）",
+      "selectors": [
+        ".insightful-cards__grid-cell"
+      ],
+      "urlPatterns": [
+        "/insights/"
+      ],
+      "linkBaseUrl": "https://www.skadden.com/"
+    },
+    {
+      "id": "cliffordchance-esg",
+      "name": "高伟绅（Clifford Chance）洞察",
+      "url": "https://www.cliffordchance.com/insights.html",
+      "type": "webpage",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "notes": "已核验启用：高伟绅洞察文章，标题需 LLM 二次清洗",
+      "selectors": [
+        "article"
+      ]
+    },
+    {
+      "id": "x-esg-experts",
+      "name": "X（Twitter）ESG/气候大咖动态",
+      "url": "https://x.com/",
+      "type": "x",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": false,
+      "notes": "候选信源：需接入 X API 或专用抓取服务后启用",
+      "recoveryCategory": "需人工清单",
+      "recoveryPlan": "X 需 API 授权或第三方抓取服务，短期转人工清单"
+    },
+    {
+      "id": "mee-china",
+      "name": "中国生态环境部新闻",
+      "url": "https://www.mee.gov.cn/ywdt/",
+      "type": "webpage",
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "enabled": true,
+      "notes": "已核验启用：生态环境部要闻动态（a.cjcx_biaob 标题+链接，列表内带日期）",
+      "selectors": [
+        ".cjcx_biaob"
+      ],
+      "limit": 30,
+      "backfillLimit": 40
+    },
+    {
+      "id": "mofcom-china",
+      "name": "中国商务部政策发布",
+      "url": "https://www.mofcom.gov.cn/zwgk/zcfb/",
+      "apiUrl": "https://www.mofcom.gov.cn/api-gateway/jpaas-publish-server/front/page/build/unit?parseType=bulidstatic&webId=8f43c7ad3afc411fb56f281724b73708&tplSetId=52551ea0e2c14bca8c84792f7aa37ead&pageType=column&tagId=%E5%88%86%E9%A1%B5%E5%88%97%E8%A1%A8&editType=null&pageId=fc8bdff48fa345a48b651c1285b70b8f",
+      "type": "mofcom",
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "enabled": true,
+      "notes": "已核验启用：商务部政策发布官方 API（异步列表），聚焦反制清单、出口管制、两用物项、涉疆强迫劳动等贸易合规政策",
+      "limit": 20,
+      "backfillLimit": 40
+    },
+    {
+      "id": "mof-policy",
+      "name": "财政部政策发布",
+      "url": "https://www.mof.gov.cn/zhengwuxinxi/",
+      "type": "webpage",
+      "selectors": [
+        "a[href*=\"/zhengcefabu/\"]"
+      ],
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "limit": 20,
+      "backfillLimit": 30,
+      "enabled": true,
+      "notes": "财政部政策发布页为服务端渲染，按 zhengcefabu 链接选择器抓取政策原文",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已按官方网页列表接入"
+    },
+    {
+      "id": "sfc-hk",
+      "name": "香港证监会（SFC）新闻稿",
+      "url": "https://www.sfc.hk/en/RSS-Feeds/Press-releases",
+      "rssUrl": "https://www.sfc.hk/en/RSS-Feeds/Press-releases",
+      "type": "rss",
+      "contentType": "政策",
+      "region": "香港",
+      "language": "en",
+      "limit": 20,
+      "backfillLimit": 30,
+      "enabled": true,
+      "notes": "SFC 官方 RSS（Press releases），已验证返回 XML 条目",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已接入官方 RSS"
+    },
+    {
+      "id": "csrc-news",
+      "name": "中国证监会新闻发布",
+      "url": "https://www.csrc.gov.cn/",
+      "type": "webpage",
+      "selectors": [
+        "a[href*=\"/csrc/c100028/\"]"
+      ],
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "limit": 20,
+      "backfillLimit": 30,
+      "enabled": true,
+      "notes": "证监会官网服务端渲染，按 /csrc/c100028/ 新闻链接抓取",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已按官方网页列表接入"
+    },
+    {
+      "id": "hkex-news",
+      "name": "香港交易所新闻稿",
+      "url": "https://www.hkex.com.hk/Services/RSS-Feeds/News-Releases?sc_lang=en",
+      "rssUrl": "https://www.hkex.com.hk/Services/RSS-Feeds/News-Releases?sc_lang=en",
+      "type": "rss",
+      "contentType": "政策",
+      "region": "香港",
+      "language": "en",
+      "limit": 20,
+      "backfillLimit": 30,
+      "enabled": true,
+      "notes": "HKEX 官方 RSS（News Releases），已验证返回 XML 条目",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已接入官方 RSS"
+    },
+    {
+      "id": "szse-rules",
+      "name": "深交所规则与公告",
+      "url": "https://www.szse.cn/lawrules/rule/",
+      "type": "webpage",
+      "selectors": [
+        "a[href*=\"/lawrules/\"]"
+      ],
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "limit": 20,
+      "backfillLimit": 30,
+      "enabled": true,
+      "notes": "深交所规则页服务端渲染，HTML 可抓",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已按官方规则页接入"
+    },
+    {
+      "id": "sasac-policy",
+      "name": "国务院国资委政策发布",
+      "url": "http://www.sasac.gov.cn/n2588035/n2588320/index.html",
+      "type": "webpage",
+      "selectors": [
+        "a[href$=\".htm\"]",
+        "a[href$=\".html\"]"
+      ],
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "limit": 20,
+      "backfillLimit": 30,
+      "enabled": true,
+      "notes": "国资委政策页服务端渲染，HTML 可抓",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已按官方政策页接入"
+    },
+    {
+      "id": "pbc-policy",
+      "name": "中国人民银行公告",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/index.html",
+      "type": "webpage",
+      "selectors": [
+        "a[href*=\"/goutongjiaoliu/\"]"
+      ],
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "limit": 20,
+      "backfillLimit": 30,
+      "enabled": true,
+      "notes": "人民银行公告页服务端渲染，HTML 可抓",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已按官方公告页接入"
+    },
+    {
+      "id": "ndrc-news",
+      "name": "国家发改委新闻动态",
+      "url": "https://www.ndrc.gov.cn/xwdt/",
+      "type": "webpage",
+      "selectors": [
+        "a[href*=\"/xwdt/\"]"
+      ],
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "limit": 20,
+      "backfillLimit": 30,
+      "enabled": true,
+      "notes": "发改委新闻动态页服务端渲染，HTML 可抓",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已按官方新闻页接入"
+    },
+    {
+      "id": "miit-news",
+      "name": "工业和信息化部新闻动态",
+      "url": "https://www.miit.gov.cn/xwdt/",
+      "type": "webpage",
+      "selectors": [
+        "a[href*=\"/xwdt/\"]"
+      ],
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "limit": 20,
+      "backfillLimit": 30,
+      "enabled": true,
+      "notes": "工信部新闻动态页服务端渲染，HTML 可抓",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已按官方新闻页接入"
+    },
+    {
+      "id": "nea-news",
+      "name": "国家能源局新闻动态",
+      "url": "https://www.nea.gov.cn/xwzx/",
+      "type": "webpage",
+      "selectors": [
+        "a[href$='/c.html']"
+      ],
+      "urlPatterns": [
+        "^https://www\\.nea\\.gov\\.cn/20\\d{6}/[a-f0-9]+/c\\.html$"
+      ],
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "limit": 30,
+      "backfillLimit": 40,
+      "enabled": true,
+      "notes": "国家能源局新闻动态，覆盖储能、氢能、电网、新能源和能源转型政策。",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已接入官网新闻列表"
+    },
+    {
+      "id": "shanghai-fgw",
+      "name": "上海市发展和改革委员会",
+      "url": "https://fgw.sh.gov.cn/",
+      "type": "webpage",
+      "selectors": [
+        "a[href*='/fgw_']"
+      ],
+      "urlPatterns": [
+        "^https://fgw\\.sh\\.gov\\.cn/fgw_.+/20\\d{6}/[a-f0-9]+\\.html$"
+      ],
+      "contentType": "政策",
+      "region": "中国上海",
+      "language": "zh",
+      "limit": 25,
+      "backfillLimit": 35,
+      "enabled": true,
+      "notes": "上海市发展改革委政策与动态，覆盖零碳园区、绿色转型、双碳和能源政策。",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已接入官网列表"
+    },
+    {
+      "id": "fujian-gxt",
+      "name": "福建省工业和信息化厅",
+      "url": "https://gxt.fujian.gov.cn/",
+      "type": "webpage",
+      "selectors": [
+        "a[href$='.htm']",
+        "a[href*='/zwgk/']",
+        "a[href*='/zcfg/']",
+        "a[href$='.html']"
+      ],
+      "urlPatterns": [
+        "^https://gxt\\.fujian\\.gov\\.cn/.+\\.(?:html?|shtml)$"
+      ],
+      "contentType": "政策",
+      "region": "中国福建",
+      "language": "zh",
+      "limit": 25,
+      "backfillLimit": 35,
+      "enabled": true,
+      "notes": "福建省工信厅政策和新闻，覆盖零碳工厂、绿色制造、工业节能与数字化。",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已接入官网列表"
+    },
+    {
+      "id": "cac-policy",
+      "name": "中央网信办政策与要闻",
+      "url": "https://www.cac.gov.cn/",
+      "type": "webpage",
+      "selectors": [
+        "a[href*='/2026-']",
+        "a[href$='.htm']"
+      ],
+      "urlPatterns": [
+        "^https://www\\.cac\\.gov\\.cn/20\\d{2}-\\d{2}/\\d{2}/c_.+\\.htm$"
+      ],
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "limit": 25,
+      "backfillLimit": 35,
+      "enabled": true,
+      "notes": "中央网信办政策与要闻，覆盖数字化绿色化协同转型、数据治理和数字基础设施政策。",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已接入官网列表"
+    },
+    {
+      "id": "epa-news",
+      "name": "美国环保署（EPA）新闻",
+      "url": "https://www.epa.gov/newsreleases",
+      "type": "webpage",
+      "selectors": [
+        "a[href*='/newsreleases/']"
+      ],
+      "urlPatterns": [
+        "^https://www\\.epa\\.gov/newsreleases/.+"
+      ],
+      "contentType": "政策",
+      "region": "美国",
+      "language": "en",
+      "limit": 25,
+      "backfillLimit": 35,
+      "enabled": false,
+      "notes": "EPA 官方新闻稿，覆盖电厂排放标准、气候变化、污染控制和环境执法。",
+      "recoveryCategory": "需JS渲染",
+      "recoveryPlan": "当前页面由脚本动态加载文章，先用 EPA 电厂排放标准专项搜索覆盖；补浏览器渲染或 API 后启用"
+    },
+    {
+      "id": "eu-parliament-press",
+      "name": "欧洲议会新闻发布室（候选）",
+      "url": "https://www.europarl.europa.eu/news/en/press-room",
+      "type": "browser-render",
+      "linkPatterns": [
+        "^https://www\\.europarl\\.europa\\.eu/news/en/press-room/20\\d{6}IPR.+"
+      ],
+      "contentType": "政策",
+      "region": "欧盟",
+      "language": "en",
+      "enabled": false,
+      "notes": "欧洲议会立法谈判和政策表决新闻；官网当前返回 Cloudflare 挑战。",
+      "recoveryCategory": "需反爬代理",
+      "recoveryPlan": "通过 BRUSSELS/CBAM 专项全网搜索覆盖；浏览器或代理稳定后启用"
+    },
+    {
+      "id": "eu-council-press",
+      "name": "欧盟理事会新闻（候选）",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/",
+      "type": "browser-render",
+      "linkPatterns": [
+        "^https://www\\.consilium\\.europa\\.eu/.+/press/press-releases/20\\d{4}/.+"
+      ],
+      "contentType": "政策",
+      "region": "欧盟",
+      "language": "en",
+      "enabled": false,
+      "notes": "欧盟理事会谈判立场和正式文件；官网当前返回 403。",
+      "recoveryCategory": "需反爬代理",
+      "recoveryPlan": "通过欧盟理事会/CBAM/ETS 专项全网搜索覆盖；官网恢复后启用"
+    },
+    {
+      "id": "carb-news",
+      "name": "加州空气资源委员会（CARB）新闻（候选）",
+      "url": "https://ww2.arb.ca.gov/news",
+      "type": "browser-render",
+      "linkPatterns": [
+        "^https://ww2\\.arb\\.ca\\.gov/(news|resources/documents)/.+"
+      ],
+      "contentType": "政策",
+      "region": "美国加州",
+      "language": "en",
+      "enabled": false,
+      "notes": "CARB 气候披露、交通排放和空气质量规则动态；官网当前返回挑战页。",
+      "recoveryCategory": "需反爬代理",
+      "recoveryPlan": "通过 SB 253/范围1范围2专项全网搜索覆盖；官网恢复后启用"
+    },
+    {
+      "id": "spglobal-sustainable1",
+      "name": "S&P Global Sustainable1 洞察（候选）",
+      "url": "https://www.spglobal.com/sustainable1/en/insights",
+      "type": "browser-render",
+      "linkPatterns": [
+        "^https://www\\.spglobal\\.com/.+"
+      ],
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": false,
+      "notes": "S&P Global 气候风险和可持续金融研究报告；官网当前返回 403。",
+      "recoveryCategory": "需反爬代理",
+      "recoveryPlan": "通过 S&P Global/泰国气候财务影响专项搜索覆盖；官网恢复后启用"
+    },
+    {
+      "id": "mnr-news",
+      "name": "自然资源部要闻",
+      "url": "https://www.mnr.gov.cn/dt/ywbb/",
+      "type": "webpage",
+      "selectors": [
+        "a[href$='.shtml']"
+      ],
+      "urlPatterns": [
+        "^https://www\\.mnr\\.gov\\.cn/.+/20\\d{6}/t\\d+_\\d+\\.shtml$"
+      ],
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "limit": 30,
+      "backfillLimit": 40,
+      "enabled": false,
+      "notes": "自然资源部要闻，覆盖矿产资源、关键矿产、国际合作与矿业可持续发展。",
+      "recoveryCategory": "需JS渲染",
+      "recoveryPlan": "官网列表由脚本动态加载，当前使用全域搜索中的矿产资源国际合作查询覆盖；后续补 Playwright 专用解析后启用"
+    },
+    {
+      "id": "samr-news",
+      "name": "市场监管总局新闻",
+      "url": "https://www.samr.gov.cn/xw/zj/",
+      "type": "webpage",
+      "selectors": [
+        "a[href*='/xw/'][href*='/art/']"
+      ],
+      "urlPatterns": [
+        "^https://www\\.samr\\.gov\\.cn/xw/.+/art/20\\d{2}/art_[a-f0-9]+\\.html$"
+      ],
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "limit": 30,
+      "backfillLimit": 40,
+      "enabled": false,
+      "notes": "市场监管总局新闻，覆盖反垄断、经营者集中审查、标准与市场治理。",
+      "recoveryCategory": "需JS渲染",
+      "recoveryPlan": "官网当前未返回可解析文章链接，当前使用全域搜索中的反垄断/经营者集中查询覆盖；后续补专用解析后启用"
+    },
+    {
+      "id": "doj-antitrust-news",
+      "name": "美国司法部反垄断司新闻（候选）",
+      "url": "https://www.justice.gov/atr/news",
+      "type": "webpage",
+      "contentType": "政策",
+      "region": "美国",
+      "language": "en",
+      "enabled": false,
+      "notes": "覆盖跨国并购、经营者集中和反垄断调查；当前网络无法直连官网。",
+      "recoveryCategory": "需反爬代理",
+      "recoveryPlan": "通过全域搜索的 DOJ 反垄断专项查询接入；官网恢复直连后再启用"
+    },
+    {
+      "id": "email-newsletters",
+      "name": "邮件订阅信源（IMAP）",
+      "url": "mailto:newsletter@localhost",
+      "type": "mailbox",
+      "contentType": "观点",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "requiresEnv": "MAILBOX_HOST,MAILBOX_USER,MAILBOX_PASSWORD",
+      "mailboxFolders": [
+        "INBOX"
+      ],
+      "mailboxDays": 14,
+      "mailboxSenderPatterns": [
+        "europarl.europa.eu",
+        "consilium.europa.eu",
+        "epa.gov",
+        "arb.ca.gov",
+        "spglobal.com"
+      ],
+      "limit": 50,
+      "notes": "通过 IMAP 读取用户订阅的欧洲议会、欧盟理事会、EPA、CARB、S&P Global 等邮件；未配置邮箱凭据时自动跳过。",
+      "recoveryCategory": "需邮件订阅",
+      "recoveryPlan": "配置 MAILBOX_HOST/MAILBOX_USER/MAILBOX_PASSWORD；可按需设置 MAILBOX_SENDER_PATTERNS 和 MAILBOX_PORT"
+    },
+    {
+      "id": "sse-news",
+      "name": "上交所公告与规则",
+      "url": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%8A%E4%BA%A4%E6%89%80%E5%8F%91%E5%B8%83%20%E5%85%AC%E5%91%8A",
+      "type": "wechat-search",
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "enabled": true,
+      "requiresEnv": "SOGOU_COOKIE",
+      "fallbackOnEmpty": true,
+      "fallbacks": [
+        {
+          "name": "Google News（上交所专项）",
+          "type": "rss",
+          "url": "https://news.google.com/rss/search?q=%E4%B8%8A%E4%BA%A4%E6%89%80%20%E5%8F%AF%E6%8C%81%E7%BB%AD%20%E6%8A%AB%E9%9C%B2%20%E8%A7%84%E5%88%99%20when%3A30d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+          "limit": 20,
+          "backfillLimit": 20,
+          "timeoutMs": 20000
+        }
+      ],
+      "query": "上交所发布 公告",
+      "wechatAccountName": "上交所发布",
+      "notes": "公众号官方账号追踪：上交所发布",
+      "recoveryCategory": "公众号自动抓取",
+      "recoveryPlan": "已接入公众号官方账号过滤"
+    },
+    {
+      "id": "bse-news",
+      "name": "北交所新闻与公告",
+      "url": "https://weixin.sogou.com/weixin?type=2&query=%E5%8C%97%E4%BA%A4%E6%89%80%20%E5%85%AC%E5%91%8A%20%E5%85%A8%E5%9B%BD%E8%82%A1%E8%BD%AC",
+      "type": "wechat-search",
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "enabled": true,
+      "requiresEnv": "SOGOU_COOKIE",
+      "fallbackOnEmpty": true,
+      "fallbacks": [
+        {
+          "name": "Google News（北交所专项）",
+          "type": "rss",
+          "url": "https://news.google.com/rss/search?q=%E5%8C%97%E4%BA%A4%E6%89%80%20%E5%8F%AF%E6%8C%81%E7%BB%AD%20%E6%8A%AB%E9%9C%B2%20%E8%A7%84%E5%88%99%20when%3A30d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+          "limit": 20,
+          "backfillLimit": 20,
+          "timeoutMs": 20000
+        }
+      ],
+      "query": "北交所 公告 全国股转",
+      "wechatAccountName": "北交所发布",
+      "notes": "公众号官方账号追踪：北交所发布",
+      "recoveryCategory": "公众号自动抓取",
+      "recoveryPlan": "已接入公众号官方账号过滤"
+    },
+    {
+      "id": "nfra-news",
+      "name": "金融监管总局通知公告",
+      "url": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+      "type": "wechat-search",
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "enabled": true,
+      "requiresEnv": "SOGOU_COOKIE",
+      "fallbackOnEmpty": true,
+      "fallbacks": [
+        {
+          "name": "Google News（金融监管总局专项）",
+          "type": "rss",
+          "url": "https://news.google.com/rss/search?q=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E7%BB%BF%E8%89%B2%E9%87%91%E8%9E%8D%20%E5%8F%AF%E6%8C%81%E7%BB%AD%20when%3A30d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+          "limit": 20,
+          "backfillLimit": 20,
+          "timeoutMs": 20000
+        }
+      ],
+      "query": "金融监管总局 国家金融监督管理总局",
+      "wechatAccountName": "国家金融监督管理总局",
+      "notes": "公众号官方账号追踪：国家金融监督管理总局",
+      "recoveryCategory": "公众号自动抓取",
+      "recoveryPlan": "已接入公众号官方账号过滤"
+    }
+  ]
+}

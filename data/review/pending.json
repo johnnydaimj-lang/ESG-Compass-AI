@@ -1,0 +1,30 @@
+[
+  {
+    "id": "src-web-search-冷战中的金丝雀-悉尼首映-专家谈中共人权迫害-6f80",
+    "title": "《 冷战中的金丝雀 》 悉尼首映 专家谈中共人权迫害",
+    "contentType": "ESG 政策",
+    "region": "全球",
+    "publishedAt": "2026-09-22",
+    "importanceLevel": "中",
+    "summary": "《 冷战中的金丝雀 》 悉尼首映 专家谈中共人权迫害",
+    "sourceName": "全网搜索",
+    "sourceUrl": "https://www.epochtimes.com/gb/26/9/19/n14852666.htm",
+    "esgTopic": "合规与监管",
+    "recommended": false,
+    "aiDraft": false,
+    "link": "https://www.epochtimes.com/gb/26/9/19/n14852666.htm",
+    "reviewStatus": "pending",
+    "reviewRule": "political-claim-single-source",
+    "reviewReason": "涉及单一来源政治指控或反华叙事，且非学术研究，先进入后台人工审阅",
+    "reviewPriority": "normal",
+    "reviewSourceCount": 1,
+    "reviewMinSources": 2,
+    "reviewLearnedSourceRejects": 0,
+    "reviewLearnedSignalRejects": 0,
+    "reviewMatchedSignals": [
+      "中共人权迫害",
+      "冷战中的金丝雀"
+    ],
+    "reviewQueuedAt": "2026-09-22T10:34:04.226Z"
+  }
+]

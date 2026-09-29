@@ -1,0 +1,67 @@
+[
+  {
+    "id": "skadden-esg",
+    "name": "世达（Skadden）洞察",
+    "type": "webpage",
+    "enabled": true,
+    "checks": [
+      {
+        "url": "https://www.skadden.com/insights",
+        "status": 200,
+        "ms": 1120,
+        "type": "text/html; charset=utf-8",
+        "finalUrl": "https://www.skadden.com/insights",
+        "title": "Insights | Skadden, Arps, Slate, Meagher &amp; Flom LLP",
+        "linkCount": 43,
+        "sampleTitles": [
+          "Quarterly Edition Insights – June 2026 In this edition of Sk",
+          "Skadden Insights – June 2026 AI-Enabled Vulnerability Discov",
+          "Skadden Insights – June 2026 Beyond Divestitures: The Global",
+          "Skadden Insights – June 2026 Federal Tax Credits Play a Key ",
+          "Booking Holdings v European Commission: EU General Court Con",
+          "SEC Proposes Major Changes to Federal Proxy Rules, Including",
+          "Booking Holdings v European Commission: EU General Court Con",
+          "SEC Proposes Major Changes to Federal Proxy Rules, Including"
+        ],
+        "selCounts": {
+          "article": 0,
+          ".post": 0,
+          ".news-item": 0,
+          ".item": 31,
+          "li": 34,
+          "tr": 0
+        },
+        "haveFeed": false,
+        "locCount": 0,
+        "inspectClasses": [
+          "sr-only x10",
+          "social-links-item x9",
+          "insightful-card__abstract x8",
+          "insightful-card__supplement-label x8",
+          "site-footer-menu-item x7",
+          "site-footer-menu-link x7",
+          "carousel-spotlight__slide js-carousel-slide x4",
+          "carousel-spotlight__slide-body page-wrapper page-wrapper--wide x4",
+          "carousel-spotlight__link x4",
+          "carousel-spotlight__tag x4",
+          "carousel-spotlight__title x4",
+          "carousel-spotlight__peek-content x4",
+          "carousel-spotlight__abstract x4",
+          "form-label form-label--radio x4",
+          "form-field x4",
+          "page-wrapper page-wrapper--wide x4",
+          "insightful-cards__grid-cell insightful-cards__grid-cell--accordion x4",
+          "insightful-card insightful-card--accordion x4",
+          "insightful-card__title x4",
+          "insightful-card__background x4",
+          "insightful-cards__grid-mobile-tray__close ico ico-cross x4",
+          "insightful-cards__grid-tray__item x4",
+          "meta-location meta-authors x4",
+          "carousel-spotlight__nav-link js-nav-option x3",
+          "select-dropdown-label x3"
+        ],
+        "samples": []
+      }
+    ]
+  }
+]

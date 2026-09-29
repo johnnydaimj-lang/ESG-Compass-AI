@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-22T10:42:35.676Z",
+  "enabled": true,
+  "decisions": {
+    "approved": 0,
+    "rejected": 0
+  },
+  "thresholds": {
+    "baseMinIndependentSources": 2,
+    "repeatSourceRejectThreshold": 2,
+    "repeatSignalRejectThreshold": 3
+  },
+  "sourceStats": {},
+  "signalStats": {},
+  "recommendations": []
+}

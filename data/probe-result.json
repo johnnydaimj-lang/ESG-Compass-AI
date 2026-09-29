@@ -1,0 +1,1078 @@
+[
+  {
+    "id": "sbti-news",
+    "name": "SBTi",
+    "type": "webpage",
+    "enabled": false,
+    "checks": [
+      {
+        "url": "https://sciencebasedtargets.org/news",
+        "status": 200,
+        "ms": 893,
+        "type": "text/html; charset=UTF-8",
+        "finalUrl": "https://sciencebasedtargets.org/news",
+        "title": "News - Science Based Targets Initiative",
+        "linkCount": 162,
+        "sampleTitles": [
+          "SBTi Services",
+          "Join Our Team",
+          "News &amp; Events",
+          "Set a Target",
+          "Science Based Targets Initiative",
+          "How to set science-based targets",
+          "Our 2026-2030 strategy",
+          "SBTi Academy"
+        ],
+        "selCounts": {
+          "article": 6,
+          ".post": 0,
+          ".news-item": 0,
+          ".item": 62,
+          "li": 159,
+          "tr": 0
+        },
+        "haveFeed": false,
+        "locCount": 0,
+        "inspectClasses": [
+          "mobile__nav-link x47",
+          "main__submenu-link x25",
+          "main__submenu-item x21",
+          "mb-[5px] g-footer-list-item x17",
+          "block text-sm leading-tight x17",
+          "main__grandsub-item w-full x16",
+          "w-full block main__grandsub-link x16",
+          "icon icon--chevron-right pointer-events-none x13",
+          "o-image absolute inset-0 object-cover object-center w-full h-full lazyload x11",
+          "o-image absolute inset-0 object-cover object-center w-full h-full x11",
+          "fui-input-wrapper x11",
+          "mt-5 first:ml-0 first:mt-0 xl:ml-5 xl:mt-0 x10",
+          "g-header__nav-link text-sm x10",
+          "mobile__menu-bar x10",
+          "mr-auto x10",
+          "mobile__menu-inner x10",
+          "mobile__nav-item x10",
+          "c-listing-item__img o-picture block w-full relative h-0 x10",
+          "c-listing-item__meta-cont x10",
+          "c-news__listing-title x10",
+          "c-pagination__item x10",
+          "fui-field-container x10",
+          "mobile__nav-title x9",
+          "mobile__nav-icon x9",
+          "mobile__menu x9"
+        ],
+        "samples": []
+      }
+    ]
+  },
+  {
+    "id": "bcg-sustainability",
+    "name": "BCG",
+    "type": "webpage",
+    "enabled": false,
+    "checks": [
+      {
+        "url": "https://www.bcg.com/publications",
+        "status": 200,
+        "ms": 618,
+        "type": "text/html;charset=UTF-8",
+        "finalUrl": "https://www.bcg.com/publications",
+        "title": "Featured Insights and Perspectives | BCG",
+        "linkCount": 386,
+        "sampleTitles": [
+          "Log error View Profile",
+          "Edit Profile",
+          "Manage Subscriptions",
+          "My Saved Content",
+          "Aerospace and Defense Industry",
+          "Visit Page",
+          "Automotive Industry",
+          "Visit Page"
+        ],
+        "selCounts": {
+          "article": 0,
+          ".post": 0,
+          ".news-item": 0,
+          ".item": 42,
+          "li": 445,
+          "tr": 0
+        },
+        "haveFeed": false,
+        "locCount": 0,
+        "inspectClasses": [
+          "Link x319",
+          "NavigationPromo-list-link x171",
+          "js-dropdown-list-item secondary x156",
+          "arrow-right-icon x104",
+          "Promo-ctaLink x61",
+          "global-navigation__nav-item-wrapper x52",
+          "global-navigation__section x52",
+          "global-navigation__section-title x52",
+          "back-to-previous-links__list x52",
+          "global-navigation__section-title__text-description-wrapper x52",
+          "global-navigation__promo-card x49",
+          "NavigationPromo x49",
+          "NavigationPromo-media x49",
+          "NavigationPromo-title x49",
+          "NavigationPromo-description x49",
+          "NavigationPromo-PromoCtaLink x49",
+          "primary-button primary-button x49",
+          "js-dropdown-list-item primary x43",
+          "global-navigation__secondary-nav-item__link global-navigation__nav-link x41",
+          "global-navigation__secondary-nav-item x40",
+          "NavigationPromo-hr x37",
+          "NavigationPromo-list-container x37",
+          "NavigationPromo-list-title x37",
+          "NavigationPromo-list x37",
+          "secondary-list x33"
+        ],
+        "samples": []
+      }
+    ]
+  },
+  {
+    "id": "deloitte-sustainability",
+    "name": "Deloitte",
+    "type": "webpage",
+    "enabled": false,
+    "checks": [
+      {
+        "url": "https://www.deloitte.com/global/en/issues/climate.html",
+        "status": 200,
+        "ms": 501,
+        "type": "text/html;charset=utf-8",
+        "finalUrl": "https://www.deloitte.com/global/en/issues/climate.html",
+        "title": "Sustainability Insights | Deloitte Global",
+        "linkCount": 338,
+        "sampleTitles": [
+          "Press room",
+          "Contact Us",
+          "What we believe in",
+          "Future vision",
+          "Together makes progress About Us",
+          "Social responsibility",
+          "Together makes progress About Us",
+          "Facts &amp; figures"
+        ],
+        "selCounts": {
+          "article": 0,
+          ".post": 0,
+          ".news-item": 0,
+          ".item": 24,
+          "li": 355,
+          "tr": 0
+        },
+        "haveFeed": false,
+        "locCount": 0,
+        "inspectClasses": [
+          "aem-Grid aem-Grid--12 aem-Grid--default--12 x97",
+          "cmp-promo x72",
+          "cmp-promo__location__date x72",
+          "cmp-promo-tracking cmp-promo-curated x69",
+          "cmp-promo__content__title element__primary x67",
+          "js-image-rendition x57",
+          "cmp-promo__content__details x55",
+          "cmp-header__nav-has-levels x50",
+          "cmp-promo__content img-position-bottom__content x50",
+          "cmp-promo__content-type__read-time x50",
+          "cmp-promo__content__type x50",
+          "cmp-promo__image 3:2 img-position-bottom x48",
+          "cmp-promo__content__desc dot-ellipsis dot-lines-4 x47",
+          "cmp-promo-divider x40",
+          "icon-chevron-left x37",
+          "dot-ellipsis dot-lines-3 x37",
+          "icon-chevron-right x36",
+          "cmp-header__back-one-level x34",
+          "cmp-header__nav-level-title x34",
+          "cmp-promo__content__read-time x33",
+          "promo cmp-promo--card nav-promo-v3 aem-GridColumn aem-GridColumn--default--12 x22",
+          "cmp-promo__image 3:2 img-position-top x22",
+          "cmp-promo__content img-position-top__content x22",
+          "mt-1 dot-ellipsis dot-lines-2 x20",
+          "cmp-promo__content__type mb-0 x20"
+        ],
+        "samples": []
+      }
+    ]
+  },
+  {
+    "id": "pwc-esg",
+    "name": "PwC",
+    "type": "webpage",
+    "enabled": false,
+    "checks": [
+      {
+        "url": "https://www.pwc.com/gx/en/issues/esg.html",
+        "status": 200,
+        "ms": 595,
+        "type": "text/html; charset=UTF-8",
+        "finalUrl": "https://www.pwc.com/gx/en/issues/esg.html",
+        "title": "Climate change insights for business strategy | PwC",
+        "linkCount": 286,
+        "sampleTitles": [
+          "My Account",
+          "Register",
+          "{{this.linkText}}",
+          "{{name}}",
+          "{{this}}",
+          "{{this.linkText}}",
+          "Industries",
+          "See all industries"
+        ],
+        "selCounts": {
+          "article": 1,
+          ".post": 0,
+          ".news-item": 0,
+          ".item": 17,
+          "li": 24,
+          "tr": 0
+        },
+        "haveFeed": false,
+        "locCount": 0,
+        "inspectClasses": [
+          "levelThreeLink x95",
+          "slide-nav-contain x66",
+          "sublevel-title-container search-hide x66",
+          "slimnav-mobile-header x66",
+          "slimheader-breadcrumb is-hidden x66",
+          "lv2-label x66",
+          "slimheader-slide-nav x61",
+          "levelTwoLink x45",
+          "cmp-container x24",
+          "row x23",
+          "section container responsivegrid x19",
+          "parsys sectionpar x19",
+          "levelTwoLink has-lv3 x16",
+          "slim-featured-item x13",
+          "featuredLink x13",
+          "text parbase section x10",
+          "text-component x10",
+          "col-sm-12 x10",
+          "strip-btn x9",
+          "strip-btn__text x9",
+          "strip-btn__block strip-btn__icon x9",
+          "css-triangle--right x9",
+          "ixfsection experiencefragment x8",
+          "mod-ixf-page-section x8",
+          "aem-Grid aem-Grid--12 aem-Grid--default--12 x8"
+        ],
+        "samples": []
+      }
+    ]
+  },
+  {
+    "id": "kpmg-esg",
+    "name": "KPMG",
+    "type": "webpage",
+    "enabled": false,
+    "checks": [
+      {
+        "url": "https://kpmg.com/xx/en/our-insights.html",
+        "status": 200,
+        "ms": 395,
+        "type": "text/html;charset=utf-8",
+        "finalUrl": "https://kpmg.com/xx/en/our-insights.html",
+        "title": "Insights",
+        "linkCount": 96,
+        "sampleTitles": [
+          "person Login",
+          "Preferences",
+          "article Submit RFP",
+          "All Insights",
+          "AI and Technology",
+          "Operations",
+          "Risk and Regulation",
+          "Transformation"
+        ],
+        "selCounts": {
+          "article": 0,
+          ".post": 0,
+          ".news-item": 0,
+          ".item": 32,
+          "li": 67,
+          "tr": 0
+        },
+        "haveFeed": false,
+        "locCount": 0,
+        "inspectClasses": [
+          "cmp-menu-link__inner x49",
+          "cmp-menu-link__inner--label x49",
+          "cmp-container x23",
+          "cmp-menu-link cmp-menu-link--section-nav x18",
+          "cmp-column-control__col x14",
+          "cmp-menu-link cmp-menu-link--section-nav cmp-menu-link--level-two x13",
+          "cmp-teaser x12",
+          "cmp-teaser__content x12",
+          "cmp-teaser__description x12",
+          "cmp-teaser__action-container x12",
+          "cmp-footer-category-list__item x12",
+          "cmp-footer-category-list__item-link x12",
+          "material-icons-outlined x11",
+          "cmp-teaser__title x11",
+          "cmp-teaser__title-link x11",
+          "cmp-teaser__action-link x11",
+          "cmp-teaser__action-link--text x11",
+          "cmp-teaser__chevron-placeholder x11",
+          "cmp-menu-item__label x8",
+          "topicteaser teaser utils-background-white light-theme x7",
+          "cmp-teaser__icon x7",
+          "cmp-menu-item__icon cmp-menu-item__icon--person x6",
+          "cmp-main-nav__main-menu--list-item x6",
+          "cmp-menu-link cmp-menu-link--level-one x6",
+          "cmp-column-control x6"
+        ],
+        "samples": [
+          {
+            "title": "AI and Technology",
+            "link": "https://kpmg.com/xx/en/our-insights/ai-and-technology.html"
+          },
+          {
+            "title": "Operations",
+            "link": "https://kpmg.com/xx/en/our-insights/operations.html"
+          },
+          {
+            "title": "Risk and Regulation",
+            "link": "https://kpmg.com/xx/en/our-insights/risk-and-regulation.html"
+          },
+          {
+            "title": "Transformation",
+            "link": "https://kpmg.com/xx/en/our-insights/transformation.html"
+          },
+          {
+            "title": "Value Creation",
+            "link": "https://kpmg.com/xx/en/our-insights/value-creation.html"
+          },
+          {
+            "title": "Workforce",
+            "link": "https://kpmg.com/xx/en/our-insights/workforce.html"
+          },
+          {
+            "title": "AI Governance Principles for Boards",
+            "link": "https://kpmg.com/xx/en/our-insights/ai-and-technology/ai-governance-principles-for-boards.html"
+          },
+          {
+            "title": "Banking transformation: The new agenda",
+            "link": "https://kpmg.com/xx/en/our-insights/transformation/operational-and-cost-transformation-in-banking.html"
+          },
+          {
+            "title": "See it differently",
+            "link": "https://kpmg.com/xx/en/our-insights/workforce/see-it-differently.html"
+          },
+          {
+            "title": "Fit for Pillar Two series",
+            "link": "https://kpmg.com/xx/en/our-insights/regulatory-insights/fit-for-pillar-two-series.html"
+          },
+          {
+            "title": "Subscribe to KPMG newsletters",
+            "link": "https://kpmg.com/xx/en/account/register.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "un-global-compact",
+    "name": "UNGC",
+    "type": "webpage",
+    "enabled": false,
+    "checks": [
+      {
+        "url": "https://unglobalcompact.org/news",
+        "status": 200,
+        "ms": 2098,
+        "type": "text/html; charset=UTF-8",
+        "finalUrl": "https://unglobalcompact.org/news",
+        "title": "News | UN Global Compact",
+        "linkCount": 59,
+        "sampleTitles": [
+          "Who We Are",
+          "The SDGs",
+          "Participation",
+          "Take Action",
+          "Engage Locally",
+          "Explore Our Library",
+          "The Compact Journal",
+          "Contact Us"
+        ],
+        "selCounts": {
+          "article": 1,
+          ".post": 0,
+          ".news-item": 0,
+          ".item": 2,
+          "li": 42,
+          "tr": 0
+        },
+        "haveFeed": false,
+        "locCount": 0,
+        "inspectClasses": [
+          "option x27",
+          "form-checkbox x23",
+          "header-bottom__menu-link x14",
+          "views-row x12",
+          "article article--teaser  horizontal x12",
+          "article__container x12",
+          "article__content x12",
+          "article__title line-clamp--3 x12",
+          "article__description text--sm line-clamp--3 x12",
+          "article__info text--sm x12",
+          "date x12",
+          "social-menu__image x8",
+          "visually-hidden x5",
+          "joiner-date-range-radios-inputs form-radio x4",
+          "footer-bottom__menu-link text--sm x4",
+          "header-top__menu-link x3",
+          "form-item js-form-wrapper form-wrapper x3",
+          "text--lg x3",
+          "pager__item x3",
+          "block block-menu navigation menu--header-menu x2",
+          "header-bottom__menu x2",
+          "navigation-trigger js-navigation-trigger x2",
+          "section mode--dark  width--full x2",
+          "section-container container section-container--lg x2",
+          "section__title x2"
+        ],
+        "samples": [
+          {
+            "title": "UN Global Compact Convenes Member States to Advance Business Action on the Pact for the Future",
+            "link": "https://unglobalcompact.org/news/un-global-compact-convenes-member-states-advance-business-action-pact-future"
+          },
+          {
+            "title": "Business leaders call for stronger partnerships to accelerate sustainable development at 2026 SDG Business Forum",
+            "link": "https://unglobalcompact.org/news/business-leaders-call-stronger-partnerships-accelerate-sustainable-development-2026-sdg"
+          },
+          {
+            "title": "In Search of Unstoppable Africans, GABI Invites Nominations from Across the Continent",
+            "link": "https://unglobalcompact.org/news/search-unstoppable-africans-gabi-invites-nominations-across-continent"
+          },
+          {
+            "title": "UN Global Compact and UNEP FI Advance Ocean Investment Protocol Following Stakeholder Roundtable on Central Banks and Fi",
+            "link": "https://unglobalcompact.org/news/un-global-compact-and-unep-fi-advance-ocean-investment-protocol-following-stakeholder"
+          },
+          {
+            "title": "UN Global Compact Launches First Practical Guide for Companies Leading on Blended Finance",
+            "link": "https://unglobalcompact.org/news/un-global-compact-launches-first-practical-guide-companies-leading-blended-finance"
+          },
+          {
+            "title": "China’s National Human Rights Action Plan Encourages Companies to Follow UN Global Compact Principles and ESG Standards",
+            "link": "https://unglobalcompact.org/news/chinas-national-human-rights-action-plan-encourages-companies-follow-un-global-compact"
+          },
+          {
+            "title": "Senior Sustainability Leaders Gather at European Parliament to Advance Corporate Sustainability and Competitiveness",
+            "link": "https://unglobalcompact.org/news/senior-sustainability-leaders-gather-european-parliament-advance-corporate-sustainability-and"
+          },
+          {
+            "title": "UN Global Compact and Kantar Launch First-Ever Global Benchmark Study on Sustainable Marketing Transformation",
+            "link": "https://unglobalcompact.org/news/un-global-compact-and-kantar-launch-first-ever-global-benchmark-study-sustainable-marketing"
+          },
+          {
+            "title": "Global Africa Business Initiative shifts Digital and Health Action Pathways into higher gear to accelerate continent’s e",
+            "link": "https://unglobalcompact.org/news/global-africa-business-initiative-shifts-digital-and-health-action-pathways-higher-gear"
+          },
+          {
+            "title": "UN Global Compact Launches Country Network Rwanda to Accelerate Private Sector Action on Sustainable Development",
+            "link": "https://unglobalcompact.org/news/un-global-compact-launches-country-network-rwanda-accelerate-private-sector-action-sustainable"
+          },
+          {
+            "title": "UN Global Compact Africa Business Leaders Coalition Unveils New Roadmap to Accelerate Intra-African Trade and Sustainabl",
+            "link": "https://unglobalcompact.org/news/un-global-compact-africa-business-leaders-coalition-unveils-new-roadmap-accelerate-intra"
+          },
+          {
+            "title": "UN Global Compact launches Angola Network to advance sustainable business",
+            "link": "https://unglobalcompact.org/news/un-global-compact-launches-angola-network-advance-sustainable-business"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "worldbank-news",
+    "name": "World Bank",
+    "type": "webpage",
+    "enabled": false,
+    "checks": [
+      {
+        "url": "https://www.worldbank.org/en/news/all",
+        "status": 200,
+        "ms": 459,
+        "type": "text/html;charset=utf-8",
+        "finalUrl": "https://www.worldbank.org/en/news/all",
+        "title": "Search All News | World Bank Group",
+        "linkCount": 2,
+        "sampleTitles": [],
+        "selCounts": {
+          "article": 0,
+          ".post": 0,
+          ".news-item": 0,
+          ".item": 3,
+          "li": 3,
+          "tr": 0
+        },
+        "haveFeed": false,
+        "locCount": 0,
+        "inspectClasses": [
+          "cmp-container x5",
+          "aem-Grid aem-Grid--12 aem-Grid--default--12 x5",
+          "cmp-breadcrumb__item x3",
+          "xfpage page basicpage x2",
+          "cmp-breadcrumb__item-link x2",
+          "page basicpage x1",
+          "wbg-aem-target x1",
+          "root container responsivegrid tui_background_img x1",
+          "cmp-experiencefragment cmp-experiencefragment--header x1",
+          "megamenu aem-GridColumn aem-GridColumn--default--12 x1",
+          "container responsivegrid aem-GridColumn aem-GridColumn--default--12 x1",
+          "breadcrumb tui_breadcrumb x1",
+          "cmp-breadcrumb x1",
+          "cmp-breadcrumb__list x1",
+          "sr-only x1",
+          "lp lp-home x1",
+          "title aem-GridColumn aem-GridColumn--default--12 x1",
+          "cmp-title x1",
+          "cmp-title__text x1",
+          "ibrdsreactapp aem-GridColumn aem-GridColumn--default--12 x1",
+          "root-selector x1",
+          "experiencefragment aem-GridColumn aem-GridColumn--default--12 x1",
+          "cmp-experiencefragment cmp-experiencefragment--footer x1",
+          "footer aem-GridColumn aem-GridColumn--default--12 x1"
+        ],
+        "samples": []
+      }
+    ]
+  },
+  {
+    "id": "unfccc-news",
+    "name": "UNFCCC",
+    "type": "webpage",
+    "enabled": false,
+    "checks": [
+      {
+        "url": "https://unfccc.int/news",
+        "status": 200,
+        "ms": 784,
+        "type": "text/html",
+        "finalUrl": "https://unfccc.int/news",
+        "title": "",
+        "linkCount": 0,
+        "sampleTitles": [],
+        "selCounts": {
+          "article": 0,
+          ".post": 0,
+          ".news-item": 0,
+          ".item": 0,
+          "li": 0,
+          "tr": 0
+        },
+        "haveFeed": false,
+        "locCount": 0,
+        "inspectClasses": [],
+        "samples": []
+      }
+    ]
+  },
+  {
+    "id": "mee-china",
+    "name": "MEE China",
+    "type": "webpage",
+    "enabled": false,
+    "checks": [
+      {
+        "url": "https://www.mee.gov.cn/ywdt/",
+        "status": 200,
+        "ms": 111,
+        "type": "text/html",
+        "finalUrl": "https://www.mee.gov.cn/ywdt/",
+        "title": "要闻动态_中华人民共和国生态环境部",
+        "linkCount": 344,
+        "sampleTitles": [
+          "东风浩荡开新局——习近平经济思想指引中国经济高质量发展行稳致远",
+          "习近平总书记引领“十五五”开局之年中国经济破浪前行",
+          "习近平：加快建设健康中国",
+          "《求是》杂志发表习近平总书记重要文章《加快建设健康中国》",
+          "习近平在中共中央政治局第二十七次集体学习时强调 强化政治引领 深化创新发展 高质量推进国防和军队现代化",
+          "中共中央政治局召开会议 决定召开二十届五中全会 分析研究当前经济形势和经济工作 中共中央总书记习近平主持会议",
+          "东风浩荡开新局——习近平经济思想指引中国经济高质量发展行稳致远",
+          "习近平总书记引领“十五五”开局之年中国经济破浪前行"
+        ],
+        "selCounts": {
+          "article": 0,
+          ".post": 0,
+          ".news-item": 0,
+          ".item": 0,
+          "li": 259,
+          "tr": 0
+        },
+        "haveFeed": false,
+        "locCount": 0,
+        "inspectClasses": [
+          "cjcx_biaob x60",
+          "cjcx_biadi x30",
+          "cjcs_pic_img x9",
+          "mobile_none x7",
+          "pc_none seeMore x7",
+          "dozy_gong mobile_none x6",
+          "pc_none x6",
+          "cjcs_gengduo mobile_none x6",
+          "mobile_text_new x5",
+          "cjcx_danduimg mobile_none x5",
+          "cjcx_danduimg pc_none x5",
+          "stylefile x4",
+          "mobileStyle x4",
+          "footer_web_linkLi footer_web_linkLi2 x4",
+          "center x3",
+          "header_mailbox_li x2",
+          "header_ewmImg x2",
+          "fan_mail x2",
+          "CurrChnlCls x2",
+          "bd x2",
+          "ywen_bo_bg x1",
+          "header x1",
+          "headerC center x1",
+          "backHome x1",
+          "AppBtn x1"
+        ],
+        "samples": [
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/szyw/202608/t20260804_1163392.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/szyw/202608/t20260803_1163368.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/szyw/202607/t20260731_1163280.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/szyw/202608/t20260801_1163304.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/szyw/202607/t20260731_1163262.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/szyw/202607/t20260730_1163174.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/hjywnews/202608/t20260802_1163309.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/hjywnews/202608/t20260801_1163306.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/hjywnews/202607/t20260731_1163303.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/hjywnews/202607/t20260731_1163246.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/hjywnews/202607/t20260730_1163213.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/hjywnews/202607/t20260730_1163124.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/dfnews/202608/t20260804_1163538.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/dfnews/202607/t20260724_1162733.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/dfnews/202607/t20260722_1162590.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/dfnews/202607/t20260721_1162263.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/dfnews/202607/t20260720_1162210.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/dfnews/202607/t20260716_1161972.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/xwfb/202607/t20260731_1163302.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/xwfb/202607/t20260730_1163186.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/xwfb/202607/t20260729_1163032.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/xwfb/202607/t20260728_1163005.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/xwfb/202607/t20260728_1163004.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/xwfb/202607/t20260728_1162999.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/gsgg/tz/202608/t20260804_1163419.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/gsgg/tz/202608/t20260804_1163412.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/gsgg/gongshi/gsq/202608/t20260803_1163388.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywdt/gsgg/gongshi/gsq/202608/t20260803_1163337.shtml"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202608/t20260804_1163417.html"
+          },
+          {
+            "title": "查看详细>",
+            "link": "https://www.mee.gov.cn/ywgz/gtfwyhxpgl/hxphjgl/xhxwz/202607/t20260731_1163278.shtml"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unep-news",
+    "name": "UNEP",
+    "type": "webpage",
+    "enabled": true,
+    "checks": [
+      {
+        "url": "https://www.unep.org/news-and-stories",
+        "status": 200,
+        "ms": 540,
+        "type": "text/html; charset=UTF-8",
+        "finalUrl": "https://www.unep.org/news-and-stories",
+        "title": "News, Stories &amp; Speeches | UNEP - UN Environment Programme",
+        "linkCount": 186,
+        "sampleTitles": [
+          "News, Stories &amp; Speeches",
+          "Get Involved",
+          "Français",
+          "Português",
+          "About Us",
+          "Structure and leadership",
+          "Committee of Permanent Representatives",
+          "UN Environment Assembly"
+        ],
+        "selCounts": {
+          "article": 1,
+          ".post": 0,
+          ".news-item": 0,
+          ".item": 17,
+          "li": 170,
+          "tr": 0
+        },
+        "haveFeed": false,
+        "locCount": 0,
+        "inspectClasses": [
+          "unep_0 x86",
+          "st1 x43",
+          "language-link x12",
+          "news_whitearea_item_text x11",
+          "news_whitearea_item_text_meta x11",
+          "navItem dropdown x6",
+          "mainnav_sub x6",
+          "mainnav_sub_wrap x6",
+          "mainnav_sub_section x6",
+          "news_whitearea_additional_item x6",
+          "news_whitearea_item x5",
+          "globalnav-link x4",
+          "mainnav_sub_section featured x4",
+          "is-active x3",
+          "new_footer_column x3",
+          "nav_utility x2",
+          "globalnav-link bc x2",
+          "globalnav-link globalnav-dropdown x2",
+          "links x2",
+          "en is-active x2",
+          "language-link is-active x2",
+          "ar x2",
+          "es x2",
+          "fr x2",
+          "pt-br x2"
+        ],
+        "samples": [
+          {
+            "title": "Big ideas: How to make the global energy system more sustainable",
+            "link": "https://www.unep.org/news-and-stories/story/big-ideas-how-make-global-energy-system-more-sustainable"
+          },
+          {
+            "title": "Shoot for the Moon: Can space exploration be sustainable?",
+            "link": "https://www.unep.org/news-and-stories/story/shoot-moon-can-space-exploration-be-sustainable"
+          },
+          {
+            "title": "Can nature win the next World Cup? Lessons from 2026 host cities",
+            "link": "https://www.unep.org/news-and-stories/story/can-nature-win-next-world-cup-lessons-2026-host-cities"
+          },
+          {
+            "title": "AI helping UN detect methane emissions and spark real reductions in climate-warming gas",
+            "link": "https://www.unep.org/news-and-stories/press-release/ai-helping-un-detect-methane-emissions-and-spark-real-reductions"
+          },
+          {
+            "title": "I live in Paris. During heatwaves, the City of Light dims.",
+            "link": "https://www.unep.org/news-and-stories/story/i-live-paris-during-heatwaves-city-light-dims"
+          },
+          {
+            "title": "As land is degrading, sand storms wreak havoc on desert communities",
+            "link": "https://www.unep.org/news-and-stories/story/land-degrading-sand-storms-wreak-havoc-desert-communities"
+          },
+          {
+            "title": "Earth has two football pitches of land for every human. Much of it is ailing.",
+            "link": "https://www.unep.org/news-and-stories/story/earth-has-two-football-pitches-land-every-human-much-it-ailing"
+          },
+          {
+            "title": "The hidden environmental cost of your jeans – and what’s being done about it",
+            "link": "https://www.unep.org/news-and-stories/story/hidden-environmental-cost-your-jeans-and-whats-being-done-about-it"
+          },
+          {
+            "title": "UNEP, partners ramp up efforts to address major methane leaks as UN chief urges rapid cuts",
+            "link": "https://www.unep.org/news-and-stories/press-release/unep-partners-ramp-efforts-address-major-methane-leaks-un-chief"
+          },
+          {
+            "title": "Nine ways to stay cool during a heatwave",
+            "link": "https://www.unep.org/news-and-stories/story/nine-ways-stay-cool-during-heatwave"
+          },
+          {
+            "title": "A tale of all cities: uniting for environmental action and prosperity",
+            "link": "https://www.unep.org/news-and-stories/speech/tale-all-cities-uniting-environmental-action-and-prosperity"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sustainalytics-esg-ratings",
+    "name": "Sustainalytics",
+    "type": "webpage",
+    "enabled": false,
+    "checks": [
+      {
+        "url": "https://www.sustainalytics.com/esg-research",
+        "status": 200,
+        "ms": 274,
+        "type": "text/html; charset=utf-8",
+        "finalUrl": "https://www.sustainalytics.com/esg-research",
+        "title": "Resource Center",
+        "linkCount": 296,
+        "sampleTitles": [
+          "Morningstar Data+Analytics",
+          "Morningstar Wealth",
+          "Morningstar Credit",
+          "Morningstar Retirement",
+          "Morningstar Indexes",
+          "Morningstar Direct",
+          "PitchBook",
+          "Direct Advisory Suite"
+        ],
+        "selCounts": {
+          "article": 0,
+          ".post": 0,
+          ".news-item": 0,
+          ".item": 191,
+          "li": 282,
+          "tr": 0
+        },
+        "haveFeed": false,
+        "locCount": 0,
+        "inspectClasses": [
+          "megamenu-link dropdown-item x77",
+          "dropdown-item x53",
+          "nav-item x49",
+          "pl-5 x38",
+          "nav-link x35",
+          "megamenu-quaternary-link x30",
+          "megamenu-quaternary-item x20",
+          "col-12 col-sm-6 col-md-4 col-lg-3 sust-blog-item-col x20",
+          "card x20",
+          "sust-blog-item-main x20",
+          "card-img-top x20",
+          "embed-responsive embed-responsive-16by9 x20",
+          "embed-responsive-item x20",
+          "card-body x20",
+          "card-title x20",
+          "sust-blog-item-summary x20",
+          "card-text x20",
+          "card-footer x20",
+          "card-footer-link x20",
+          "text-muted card-footer-text x20",
+          "text-muted card-footer-badge float-right x20",
+          "card-link x20",
+          "mobile-menu-back x18",
+          "submenu dropdown-menu x14",
+          "list-unstyled x14"
+        ],
+        "samples": [
+          {
+            "title": "Listen Now",
+            "link": "https://www.sustainalytics.com/esg-research/resource/podcasts/sustainability-in-conversation---the-investor-s-role-in-addressing-climate-change"
+          },
+          {
+            "title": "Read More",
+            "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/us--europe-biopharma-partnerships-with-chinese-firms--evaluating-esg-risks"
+          },
+          {
+            "title": "Read More",
+            "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/intensifying-us-healthcare-access-and-pricing-policy-risks-put-pressure-on-sector-companies"
+          },
+          {
+            "title": "Read More",
+            "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/examining-double-materiality--how-sustainalytics--csrd-double-materiality-assessment-tool-can-help-investors"
+          },
+          {
+            "title": "Read More",
+            "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/how-quality-capex-data-can-help-investors-navigate-climate-transition-risk"
+          },
+          {
+            "title": "Read More",
+            "link": "https://connect.sustainalytics.com/country-risk-implications-of-middle-east-conflict-escalation"
+          },
+          {
+            "title": "Read More",
+            "link": "https://connect.sustainalytics.com/biopharma-turns-to-china-for-growth"
+          },
+          {
+            "title": "Listen Now",
+            "link": "https://www.sustainalytics.com/esg-research/resource/podcasts/sustainability-in-conversation---climate-transition--signals--strategy--and-scale"
+          },
+          {
+            "title": "Read More",
+            "link": "https://connect.sustainalytics.com/esg-transparency-in-private-markets"
+          },
+          {
+            "title": "Read More",
+            "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/sustainable-investing-and-asset-owners-perspective-in-2026"
+          },
+          {
+            "title": "Read More",
+            "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/responsible-investor-partner-content---categorizing-the-climate-transition"
+          },
+          {
+            "title": "Read More",
+            "link": "https://connect.sustainalytics.com/netzero_lctr_capex"
+          },
+          {
+            "title": "Watch Now",
+            "link": "https://www.asset.tv/video/climate-investing-2026-ambition-real-world-impact-sustainable-investing-masterclass"
+          },
+          {
+            "title": "Listen Now",
+            "link": "https://www.sustainalytics.com/esg-research/resource/podcasts/sustainability-in-conversation---testing-markets-and-building-esg-resilience"
+          },
+          {
+            "title": "Read More",
+            "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/sfdr-2.0--change-is-welcome--but-challenges-remain"
+          },
+          {
+            "title": "Watch Now",
+            "link": "https://www.brighttalk.com/webcast/19061/667109"
+          },
+          {
+            "title": "Read More",
+            "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/ipe-partner-content---from-pledges-to-portfolio-insight--why-climate-ambition-alone-is-no-longer-enough"
+          },
+          {
+            "title": "Read More",
+            "link": "https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/environmental-finance-partner-content---using-data-to-close-the-climate-action-gap"
+          },
+          {
+            "title": "Read More",
+            "link": "https://indexes.morningstar.com/insights/analysis/blt3b830a41f15a4cfa/asset-owner-perspectives-survey-2026-qualitative-insights"
+          },
+          {
+            "title": "Watch Now",
+            "link": "https://www.brighttalk.com/webcast/2163/666913"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "msci-esg-ratings",
+    "name": "MSCI",
+    "type": "webpage",
+    "enabled": false,
+    "checks": [
+      {
+        "url": "https://www.msci.com/data-and-analytics/sustainability-solutions/esg-ratings",
+        "status": 200,
+        "ms": 893,
+        "type": "text/html; charset=utf-8",
+        "finalUrl": "https://www.msci.com/data-and-analytics/sustainability-solutions/esg-ratings",
+        "title": "ESG Ratings | MSCI",
+        "linkCount": 170,
+        "sampleTitles": [
+          "Rules-based Index Solutions",
+          "Fixed Income Offerings",
+          "Private Asset Solutions",
+          "Real Estate Data and Analytics",
+          "Sustainability Solutions",
+          "Climate Solutions",
+          "Sustainability Regulatory Toolkit​",
+          "Wealth Management Solutions"
+        ],
+        "selCounts": {
+          "article": 0,
+          ".post": 0,
+          ".news-item": 0,
+          ".item": 0,
+          "li": 152,
+          "tr": 0
+        },
+        "haveFeed": false,
+        "locCount": 0,
+        "inspectClasses": [
+          "ms-text-sm lg:ms-text-xs x77",
+          "ms-flex ms-flex-col ms-gap-4 x50",
+          "ms-body-l-sm lg:ms-body-l-lg ms-font-regular x24",
+          "ms-col-span-1 md:ms-col-span-1 lg:ms-col-span-1 x24",
+          "ms-body-l-sm lg:ms-body-l-lg ms-text-gray-700 ms-font-regular x16",
+          "ms-body-s-sm lg:ms-body-s-lg ms-font-regular x13",
+          "ms-headline3-sm lg:ms-headline3-lg headline-3 ms-font-semibold x13",
+          "ms-grid  ms-grid-cols-1  ms-gap-y-0  ms-gap-x-5  ms-mx-0 x12",
+          "aem-Grid aem-Grid--12 aem-Grid--default--12 x12",
+          "aem-GridColumn aem-GridColumn--default--12 ms-pb-10 x12",
+          "aem-GridColumn aem-GridColumn--default--12 x12",
+          "ms-text-base ms-mb-2 lg:ms-mb-3 ms-w-full x12",
+          "ms-hidden lg:ms-block x10",
+          "section-wrapper ms-w-full ms-max-w-[1440px] ms-m-auto ms-relative x10",
+          "ms-body-s-sm lg:ms-body-s-lg body-s ms-font-regular x9",
+          "ms-block lg:ms-hidden x9",
+          "ms-w-6 ms-min-w-6 ms-h-6 x8",
+          "section-item ms-mx-5 lg:ms-mx-17-5  ms-pt-0  ms-pb-10 lg:ms-pb-17-5 x8",
+          "ms-link-label-sm lg:ms-link-label-lg ms-font-regular x7",
+          "heroBackgroundImage x7",
+          "ms-relative ms-overflow-hidden x7",
+          "ms-col-span-4 md:ms-col-span-8 lg:ms-col-span-12 ms-z-10 x7",
+          "ms-mt-4 lg:ms-mt-5 ms-text-gray-700 x7",
+          "ms-mt-4 ms-flex ms-gap-3 ms-flex-wrap ms-items-center lg:ms-mt-10 x7",
+          "ms-flex ms-flex-wrap ms-gap-3 x7"
+        ],
+        "samples": []
+      }
+    ]
+  }
+]

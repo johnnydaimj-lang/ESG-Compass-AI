@@ -1,0 +1,144 @@
+{
+  "updatedAt": "2026-09-24T10:07:50.911Z",
+  "enabled": true,
+  "events": [
+    {
+      "eventId": "track-rba-countermeasures-202608",
+      "title": "RBA / 责任商业联盟涉华反制与供应链合规回应",
+      "contentIds": [
+        "src-mofcom-china-rba-counter-list-20260805",
+        "src-responsible-busi-rba-statement-on-china-ministry-of-commerce-deci-1a7d",
+        "src-web-search-china-s-designation-of-the-responsible-business--baf5",
+        "src-web-search-5-august-2026-a-turning-point-for-supply-chain-d-a10a"
+      ],
+      "sourceCount": 3,
+      "autoHits": {
+        "weibo": null,
+        "baidu": null,
+        "wechat": null
+      },
+      "heatScore": 95,
+      "heatLevel": "高",
+      "dimensions": {
+        "weibo": {
+          "score": 0,
+          "raw": null
+        },
+        "baidu": {
+          "score": 0,
+          "raw": null
+        },
+        "wechat": {
+          "score": 0,
+          "raw": null
+        },
+        "evidence": {
+          "score": 92,
+          "raw": {
+            "sourceCount": 3,
+            "itemCount": 4
+          }
+        },
+        "recency": {
+          "score": 100,
+          "raw": {
+            "lastUpdateAt": "2026-09-23",
+            "daysSince": 1.4221235532407408
+          }
+        }
+      },
+      "status": "ok",
+      "lastCheckedAt": "2026-09-24T10:07:50.911Z"
+    },
+    {
+      "eventId": "track-xingyu-labor-202609",
+      "title": "星宇股份终止毕业生录用及整车厂供应链劳工调查",
+      "contentIds": [],
+      "sourceCount": 0,
+      "autoHits": {
+        "weibo": null,
+        "baidu": null,
+        "wechat": null
+      },
+      "heatScore": 0,
+      "heatLevel": "低",
+      "dimensions": {
+        "weibo": {
+          "score": 0,
+          "raw": null
+        },
+        "baidu": {
+          "score": 0,
+          "raw": null
+        },
+        "wechat": {
+          "score": 0,
+          "raw": null
+        },
+        "evidence": {
+          "score": 0,
+          "raw": {
+            "sourceCount": 0,
+            "itemCount": 0
+          }
+        },
+        "recency": {
+          "score": 0,
+          "raw": {
+            "lastUpdateAt": "",
+            "daysSince": 999
+          }
+        }
+      },
+      "status": "no-hit",
+      "lastCheckedAt": "2026-09-24T10:07:50.911Z"
+    },
+    {
+      "eventId": "track-catl-hungary-compliance",
+      "title": "宁德时代匈牙利电池项目监管与运营风险跟踪",
+      "contentIds": [
+        "src-web-search-hungary-catl-debrecen-battery-plant-faces-fines--b7eb"
+      ],
+      "sourceCount": 1,
+      "autoHits": {
+        "weibo": null,
+        "baidu": null,
+        "wechat": null
+      },
+      "heatScore": 57,
+      "heatLevel": "中",
+      "dimensions": {
+        "weibo": {
+          "score": 0,
+          "raw": null
+        },
+        "baidu": {
+          "score": 0,
+          "raw": null
+        },
+        "wechat": {
+          "score": 0,
+          "raw": null
+        },
+        "evidence": {
+          "score": 28,
+          "raw": {
+            "sourceCount": 1,
+            "itemCount": 1
+          }
+        },
+        "recency": {
+          "score": 100,
+          "raw": {
+            "lastUpdateAt": "2026-09-23",
+            "daysSince": 1.4221236689814816
+          }
+        }
+      },
+      "status": "ok",
+      "lastCheckedAt": "2026-09-24T10:07:50.911Z"
+    }
+  ],
+  "failures": {},
+  "lastCheckedAt": "2026-09-24T10:07:50.911Z"
+}

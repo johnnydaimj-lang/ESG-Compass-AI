@@ -1,0 +1,43 @@
+import Link from "next/link";
+import { ArrowUpRight, MapPin, BookOpen } from "lucide-react";
+import { getContentLink, getHomeTitle, getHomeSummary, type ContentItem, type ContentType } from "@/lib/esg-data";
+import { getZonesByEventId } from "@/lib/zones-data";
+
+const TYPE_STYLES: Record<ContentType, string> = {
+  政策: "bg-info-soft text-info", 行业: "bg-brand-soft text-brand-deep",
+  观点: "bg-violet-soft text-violet-note", 学术: "bg-calm-soft text-calm", 评级: "bg-paper text-ink-soft",
+};
+
+interface ContentCardProps { item: ContentItem; headline?: boolean }
+
+export default function ContentCard({ item, headline = false }: ContentCardProps) {
+  return (
+    <div className={`group flex h-full flex-col rounded-lg border bg-surface p-5 transition-all hover:-translate-y-0.5 hover:border-brand-line hover:shadow-md ${headline ? "border-brand-line shadow-sm" : "border-line"}`}>
+      <div className="mb-3 flex flex-wrap items-center gap-1.5 text-[11px] font-medium">
+        <span className={`rounded px-1.5 py-0.5 ${TYPE_STYLES[item.contentType]}`}>{item.contentType}</span>
+        {headline && <span className="rounded bg-brand px-1.5 py-0.5 text-surface">头条</span>}
+        <span className="ml-auto inline-flex items-center gap-1 text-ink-faint"><MapPin size={11} />{item.region}</span>
+        <time className="font-mono text-ink-faint">{item.publishedAt}</time>
+        <a href={getContentLink(item)} target="_blank" rel="noreferrer" title={`查看原文：${item.sourceName}`}
+          className="rounded p-1 text-ink-faint transition-colors hover:bg-brand-soft hover:text-brand-deep">
+          <ArrowUpRight size={13} />
+        </a>
+      </div>
+      <Link href={`/events/${item.id}`} className="flex flex-1 flex-col">
+        <h3 className="mb-2 text-[15px] leading-snug font-semibold text-ink group-hover:text-brand-deep">{getHomeTitle(item)}</h3>
+        <p className="mb-3 line-clamp-3 text-[13px] leading-relaxed text-ink-soft">{getHomeSummary(item)}</p>
+        <div className="mt-auto pt-3">
+          <span className="inline-flex items-center gap-1 rounded border border-line bg-paper px-2 py-0.5 text-[11px] text-ink-soft">
+            {item.esgTopic}
+          </span>
+        </div>                <div className="mt-2 flex flex-wrap gap-1.5">
+          {getZonesByEventId(item.id).map((z) => (
+            <span key={z.id} className="inline-flex items-center gap-0.5 rounded bg-brand-soft px-1.5 py-0.5 text-[10px] text-brand-deep">
+              {z.name}
+            </span>
+          ))}
+        </div>
+      </Link>
+    </div>
+  );
+}

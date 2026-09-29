@@ -1,0 +1,39 @@
+{
+  "name": "esg-compass",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "check": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "pipeline": "tsx scripts/pipeline/run.ts",
+    "backfill:zh": "tsx scripts/backfill-zh.ts",
+    "enrich:leads": "tsx scripts/enrich-leads.ts",
+    "enrich:bodies": "tsx scripts/enrich-bodies.ts",
+    "fix:summaries": "tsx scripts/fix-summaries.ts"
+  },
+  "dependencies": {
+    "@svg-maps/world": "^2.0.0",
+    "cheerio": "^1.0.0",
+    "imapflow": "^2.0.6",
+    "lucide-react": "^0.545.0",
+    "mailparser": "^3.9.28",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.14",
+    "@types/node": "^24.7.2",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.3"
+  }
+}

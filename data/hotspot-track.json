@@ -1,0 +1,84 @@
+{
+  "_readme": "重点事件/风险主体的主动跟踪清单。aliases 用于把固定信源抓到的内容与热搜词关联；queryZh/queryEn 供全网搜索和人工回填使用。heatSignals.manual 只填可核验的数字，不要凭印象补数。",
+  "version": 1,
+  "updatedAt": "2026-09-03",
+  "heat": {
+    "weights": {
+      "weibo": 30,
+      "baidu": 25,
+      "wechat": 20,
+      "evidence": 15,
+      "recency": 10
+    },
+    "minTrackedScore": 45,
+    "minHotScore": 70,
+    "scoreRange": {
+      "weiboRank": [1, 50],
+      "baiduRank": [1, 50],
+      "wechatArticles": [0, 500]
+    }
+  },
+  "events": [
+    {
+      "id": "track-rba-countermeasures-202608",
+      "title": "RBA / 责任商业联盟涉华反制与供应链合规回应",
+      "type": "跨境监管对抗",
+      "esgTopic": "合规与监管",
+      "regions": ["中国", "美国", "全球"],
+      "aliases": ["责任商业联盟", "Responsible Business Alliance", "RBA"],
+      "queryZh": "RBA 责任商业联盟 反制清单",
+      "queryEn": "Responsible Business Alliance China Ministry of Commerce countermeasures",
+      "sourceIds": ["mofcom-china", "responsible-business-alliance", "bhrrc-latest"],
+      "startAt": "2026-08-05",
+      "statusNote": "商务部将责任商业联盟（RBA）等美国实体列入反制清单，RBA 官方发布声明；该主题关联涉疆强迫劳动审查、供应链审计与跨境 ESG 合规风险。",
+      "heatSignals": {
+        "manual": {
+          "weiboRank": null,
+          "baiduRank": null,
+          "wechatArticles": null
+        }
+      }
+    },
+    {
+      "id": "track-xingyu-labor-202609",
+      "title": "星宇股份终止毕业生录用及整车厂供应链劳工调查",
+      "type": "出海劳工与供应链风险",
+      "esgTopic": "人权与劳工",
+      "regions": ["中国", "全球"],
+      "aliases": ["星宇股份", "Xingyu", "Star High-Tech", "107 名毕业生", "graduate contracts"],
+      "queryZh": "星宇股份 毕业生 解约 劳工 供应链",
+      "queryEn": "Xingyu graduate contract termination labor investigation supply chain",
+      "sourceIds": ["bhrrc-latest", "responsible-business-alliance", "web-search"],
+      "startAt": "2026-09-02",
+      "statusNote": "BHR 报道星宇股份就终止 107 份毕业生录用合同致歉，车企对供应商劳工管理启动调查；按劳工与人权 / 供应链尽职调查口径跟踪。",
+      "heatSignals": {
+        "manual": {
+          "weiboRank": null,
+          "baiduRank": null,
+          "wechatArticles": null
+        }
+      }
+    },
+    {
+      "id": "track-catl-hungary-compliance",
+      "title": "宁德时代匈牙利电池项目监管与运营风险跟踪",
+      "type": "出海监管与项目风险",
+      "esgTopic": "合规与监管",
+      "regions": ["中国", "匈牙利", "欧盟"],
+      "aliases": ["宁德时代", "CATL", "Contemporary Amperex Technology", "匈牙利", "Hungary", "Debrecen", "德布勒森"],
+      "queryZh": "宁德时代 匈牙利 电池工厂 调查 罚款 环评",
+      "queryEn": "CATL Hungary Debrecen battery factory investigation fine environmental permit",
+      "sourceIds": ["bhrrc-latest", "responsible-business-alliance", "eu-commission", "web-search"],
+      "startAt": "2026-08-01",
+      "persistent": true,
+      "statusNote": "把宁德时代匈牙利电池项目作为长期主题：跟踪东道国许可、环保、劳工、补贴与监管处罚等 ESG 相关风险信号，只收录可溯源报道。",
+      "heatSignals": {
+        "manual": {
+          "weiboRank": null,
+          "baiduRank": null,
+          "wechatArticles": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1967 @@
+{
+  "updatedAt": "2026-09-24T10:07:51.775Z",
+  "rulesVersion": 12,
+  "hotspots": [
+    {
+      "id": "track-rba-countermeasures-202608",
+      "title": "RBA / 责任商业联盟涉华反制与供应链合规回应",
+      "contentIds": [
+        "src-mofcom-china-rba-counter-list-20260805",
+        "src-responsible-busi-rba-statement-on-china-ministry-of-commerce-deci-1a7d",
+        "src-web-search-china-s-designation-of-the-responsible-business--baf5",
+        "src-web-search-5-august-2026-a-turning-point-for-supply-chain-d-a10a"
+      ],
+      "sourceCount": 3,
+      "authoritativeSources": 2,
+      "firstSeenAt": "2026-08-05",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 3,
+      "trackingStatus": "active",
+      "reason": "热度/信源触发跟踪，信源覆盖 3 家（权威 2 家）",
+      "consensus": false,
+      "tracked": true,
+      "trackingTopic": "跨境监管对抗",
+      "esgTopic": "合规与监管",
+      "regions": [
+        "中国",
+        "美国",
+        "全球"
+      ],
+      "heatScore": 95,
+      "heatLevel": "高",
+      "heatSource": "ok",
+      "statusNote": "商务部将责任商业联盟（RBA）等美国实体列入反制清单，RBA 官方发布声明；该主题关联涉疆强迫劳动审查、供应链审计与跨境 ESG 合规风险。"
+    },
+    {
+      "id": "track-catl-hungary-compliance",
+      "title": "宁德时代匈牙利电池项目监管与运营风险跟踪",
+      "contentIds": [
+        "src-web-search-hungary-catl-debrecen-battery-plant-faces-fines--b7eb"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "active",
+      "reason": "热度/信源触发跟踪，信源覆盖 1 家（权威 0 家）",
+      "consensus": false,
+      "tracked": true,
+      "trackingTopic": "出海监管与项目风险",
+      "esgTopic": "合规与监管",
+      "regions": [
+        "中国",
+        "匈牙利",
+        "欧盟"
+      ],
+      "heatScore": 57,
+      "heatLevel": "中",
+      "heatSource": "ok",
+      "statusNote": "把宁德时代匈牙利电池项目作为长期主题：跟踪东道国许可、环保、劳工、补贴与监管处罚等 ESG 相关风险信号，只收录可溯源报道。"
+    },
+    {
+      "id": "track-xingyu-labor-202609",
+      "title": "星宇股份终止毕业生录用及整车厂供应链劳工调查",
+      "contentIds": [],
+      "sourceCount": 0,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-02",
+      "lastUpdateAt": "2026-09-24T10:07:50.911Z",
+      "impactScore": 0,
+      "trackingStatus": "watch",
+      "reason": "主动跟踪：等待信源命中或热搜命中",
+      "consensus": false,
+      "tracked": true,
+      "trackingTopic": "出海劳工与供应链风险",
+      "esgTopic": "人权与劳工",
+      "regions": [
+        "中国",
+        "全球"
+      ],
+      "heatScore": 0,
+      "heatLevel": "低",
+      "heatSource": "no-hit",
+      "statusNote": "BHR 报道星宇股份就终止 107 份毕业生录用合同致歉，车企对供应商劳工管理启动调查；按劳工与人权 / 供应链尽职调查口径跟踪。"
+    },
+    {
+      "id": "hotspot-src-web-search-5-august-2026-a-turning-p",
+      "title": "5 August 2026: A turning point for supply chain due diligence in China?",
+      "contentIds": [
+        "src-web-search-5-august-2026-a-turning-point-for-supply-chain-d-a10a",
+        "src-web-search-supply-chain-due-diligence-in-2026-the-triple-co-7248"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-24",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-beyond-greenwashing-navigat",
+      "title": "Beyond Greenwashing: Navigating the EU Directive on Green Claims",
+      "contentIds": [
+        "src-esgtoday-beyond-greenwashing-navigating-the-eu-directive--b475"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-24",
+      "lastUpdateAt": "2026-09-24",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-ssrn-esg-the-impact-of-financing-cos",
+      "title": "The impact of financing cost differences on global energy and industry decarbonization",
+      "contentIds": [
+        "src-ssrn-esg-the-impact-of-financing-cost-differences-on-glob-d023"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-24",
+      "lastUpdateAt": "2026-09-24",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": true
+    },
+    {
+      "id": "hotspot-src-mee-china-2026年全国生态环境国际合作工作会议在京召开-c5",
+      "title": "2026年全国生态环境国际合作工作会议在京召开",
+      "contentIds": [
+        "src-mee-china-2026年全国生态环境国际合作工作会议在京召开-c5e9"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-24",
+      "lastUpdateAt": "2026-09-24",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-mee-china-黑龙江省委书记许勤督导检查中央生态环保督察整改工作-",
+      "title": "黑龙江省委书记许勤督导检查中央生态环保督察整改工作 以“长牙齿”的措施管水治水",
+      "contentIds": [
+        "src-mee-china-黑龙江省委书记许勤督导检查中央生态环保督察整改工作-以-长牙齿-的措施管水治水-91fa"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-24",
+      "lastUpdateAt": "2026-09-24",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-ssrn-esg-sustainability-reporting-fr",
+      "title": "Sustainability reporting frameworks and environmental disclosure coverage in the Indian infrastructure industry: an empirical comparison of GRI and BRSR",
+      "contentIds": [
+        "src-ssrn-esg-sustainability-reporting-frameworks-and-environm-96c9"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": true
+    },
+    {
+      "id": "hotspot-src-web-search-the-state-of-esg-in-2026-",
+      "title": "The State of ESG in 2026 | ESGsource",
+      "contentIds": [
+        "src-web-search-the-state-of-esg-in-2026-esgsource-5b09"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-esg-regulations-2026-key-",
+      "title": "ESG Regulations 2026: Key Updates & Compliance | KnowESG",
+      "contentIds": [
+        "src-web-search-esg-regulations-2026-key-updates-compliance-know-b547"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-vi-t-nam-businesses-build",
+      "title": "Việt Nam businesses build capacity to adapt to EU deforestation rules",
+      "contentIds": [
+        "src-web-search-vi-t-nam-businesses-build-capacity-to-adapt-to-e-6e21"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-china-s-designation-of-th",
+      "title": "China's designation of the Responsible Business Alliance and other ...",
+      "contentIds": [
+        "src-web-search-china-s-designation-of-the-responsible-business--baf5"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-multinational-corporation",
+      "title": "Multinational Corporations and Human Rights Compliance",
+      "contentIds": [
+        "src-web-search-multinational-corporations-and-human-rights-comp-3a84"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-the-boardroom-goes-global",
+      "title": "THE BOARDROOM GOES GLOBAL: Legal Duties, ESG Accountability and ...",
+      "contentIds": [
+        "src-web-search-the-boardroom-goes-global-legal-duties-esg-accou-211b"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-the-projected-financial-c",
+      "title": "The projected financial cost of climate change physical hazards for ...",
+      "contentIds": [
+        "src-web-search-the-projected-financial-cost-of-climate-change-p-635c"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-climate-risk-and-portfoli",
+      "title": "Climate risk and portfolio analysis | S&P Global",
+      "contentIds": [
+        "src-web-search-climate-risk-and-portfolio-analysis-s-p-global-b036"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-carbon-border-adjustment-",
+      "title": "Carbon Border Adjustment Mechanism (CBAM) - Taxation and Customs Union",
+      "contentIds": [
+        "src-web-search-carbon-border-adjustment-mechanism-cbam-taxation-2bb2"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-cbam-registry-taxation-an",
+      "title": "CBAM Registry - Taxation and Customs Union - European Commission",
+      "contentIds": [
+        "src-web-search-cbam-registry-taxation-and-customs-union-europea-39c9"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-us-revokes-limits-on-powe",
+      "title": "US Revokes Limits on Power Plant Climate Pollution | Human Rights Watch",
+      "contentIds": [
+        "src-web-search-us-revokes-limits-on-power-plant-climate-polluti-e12d"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-how-trump-repeal-of-the-g",
+      "title": "How Trump repeal of the greenhouse gas rule could double new emissions from Georgia",
+      "contentIds": [
+        "src-web-search-how-trump-repeal-of-the-greenhouse-gas-rule-coul-d84b"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-china-electric-vehicle-ru",
+      "title": "China Electric Vehicle Rural Push Targets Charging Gap in $70 Billion ...",
+      "contentIds": [
+        "src-web-search-china-electric-vehicle-rural-push-targets-chargi-0830"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": true
+    },
+    {
+      "id": "hotspot-src-web-search-enhanced-charging-infrast",
+      "title": "Enhanced charging infrastructure propels NEVs into rural market",
+      "contentIds": [
+        "src-web-search-enhanced-charging-infrastructure-propels-nevs-in-8473"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-justice-dept-investigates",
+      "title": "Justice Dept. Investigates Nvidia Deal With Groq",
+      "contentIds": [
+        "src-web-search-justice-dept-investigates-nvidia-deal-with-groq-9fa8"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": true
+    },
+    {
+      "id": "hotspot-src-web-search-doj-probes-whether-nvidia",
+      "title": "DOJ probes whether Nvidia's $20B Groq license avoided antitrust review",
+      "contentIds": [
+        "src-web-search-doj-probes-whether-nvidia-s-20b-groq-license-avo-ef91"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-bhrrc-latest-shifting-ground-human-r",
+      "title": "Shifting ground: Human rights, Chinese investment and the rush for transition minerals - business-humanrights.org",
+      "contentIds": [
+        "src-bhrrc-latest-shifting-ground-human-rights-chinese-investment--6ab6",
+        "src-bhrrc-latest-transition-minerals-tracker-2026-global-analysis-61f0",
+        "src-bhrrc-latest-concerning-rise-in-human-rights-abuses-linked-to-125e"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-20",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-global-supply-chain-exper",
+      "title": "Global Supply Chain Experts - Supply Chain Analytics",
+      "contentIds": [
+        "src-web-search-global-supply-chain-experts-supply-chain-analyti-20db"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-new-supply-chain-regulati",
+      "title": "New Supply Chain Regulations 2026 - goandtrack.com",
+      "contentIds": [
+        "src-web-search-new-supply-chain-regulations-2026-goandtrack-com-e91e"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-eu-commission-joint-press-release-la",
+      "title": "Joint press release - Launch of a French National Hub for Social, Intermediate and Sustainable Housing",
+      "contentIds": [
+        "src-eu-commission-joint-press-release-launch-of-a-french-national--7f68"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-schroders-launches-new-fram",
+      "title": "Schroders Launches New Framework to Identify, Assess Climate Adaptation Investment Opportunities",
+      "contentIds": [
+        "src-esgtoday-schroders-launches-new-framework-to-identify-ass-fda8"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-levi-strauss-m-s-schneider-",
+      "title": "Levi Strauss, M&S, Schneider Electric Launch Fashion Supply Chain Clean Energy Initiative",
+      "contentIds": [
+        "src-esgtoday-levi-strauss-m-s-schneider-electric-launch-fashi-8a1a"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-consumer-concern-about-sust",
+      "title": "Consumer Concern About Sustainability Increases for First Time in 3 Years: Bain Survey",
+      "contentIds": [
+        "src-esgtoday-consumer-concern-about-sustainability-increases--e0e7"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-metris-raises-5-million-to-",
+      "title": "Metris Raises $5 Million to Scale AI-Powered Renewable Energy Asset Management Platform",
+      "contentIds": [
+        "src-esgtoday-metris-raises-5-million-to-scale-ai-powered-rene-af96"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-nortonrose-esg-federal-environmental",
+      "title": "Federal environmental enforcement trends: Beyond the headlines",
+      "contentIds": [
+        "src-nortonrose-esg-federal-environmental-enforcement-trends-beyond--3d36"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-23",
+      "lastUpdateAt": "2026-09-23",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-mhj-exemption-notice-new-",
+      "title": "MHJ - Exemption Notice : New Zealand Climate - Related Disclosures",
+      "contentIds": [
+        "src-web-search-mhj-exemption-notice-new-zealand-climate-related-4522"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-22",
+      "lastUpdateAt": "2026-09-22",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-verdane-invests-in-environm",
+      "title": "Verdane Invests in Environmental Markets Platform Xpansiv",
+      "contentIds": [
+        "src-esgtoday-verdane-invests-in-environmental-markets-platfor-f092"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-22",
+      "lastUpdateAt": "2026-09-22",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-eu-publishes-final-revised-",
+      "title": "EU Publishes Final Revised European Sustainability Reporting Standards in Official Journal",
+      "contentIds": [
+        "src-esgtoday-eu-publishes-final-revised-european-sustainabili-7ffa"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-22",
+      "lastUpdateAt": "2026-09-22",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": true
+    },
+    {
+      "id": "hotspot-src-esgtoday-new-york-raises-319-million",
+      "title": "New York Raises $319 Million in Inaugural ESG Bond Offering",
+      "contentIds": [
+        "src-esgtoday-new-york-raises-319-million-in-inaugural-esg-bon-3f59"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-22",
+      "lastUpdateAt": "2026-09-22",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-eu-to-launch-mandatory-sust",
+      "title": "EU to Launch Mandatory Sustainability Labels for Data Centers",
+      "contentIds": [
+        "src-esgtoday-eu-to-launch-mandatory-sustainability-labels-for-d168"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-22",
+      "lastUpdateAt": "2026-09-22",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-morgan-stanley-climate-fund",
+      "title": "Morgan Stanley Climate Fund Backs Residential Clean Energy Solutions Provider Amber Electric",
+      "contentIds": [
+        "src-esgtoday-morgan-stanley-climate-fund-backs-residential-cl-bb0a"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-22",
+      "lastUpdateAt": "2026-09-22",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-the-green-skills-gap-is-the",
+      "title": "The Green Skills Gap is the Missing Link in the Energy Transition",
+      "contentIds": [
+        "src-esgtoday-the-green-skills-gap-is-the-missing-link-in-the--e09b"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-22",
+      "lastUpdateAt": "2026-09-22",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-mee-china-守正创新-全面实施固体废物与新污染物治理行动-有关情",
+      "title": "“守正创新，全面实施固体废物与新污染物治理行动”有关情况",
+      "contentIds": [
+        "src-mee-china-守正创新-全面实施固体废物与新污染物治理行动-有关情况-08e9"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-22",
+      "lastUpdateAt": "2026-09-22",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-洪堡零碳国际论坛主席蒋庆哲谈零碳园区建设-重化工园",
+      "title": "洪堡零碳国际论坛主席蒋庆哲谈零碳园区建设：重化工园区是最难啃的“硬骨头” - 中国经济网",
+      "contentIds": [
+        "src-web-search-洪堡零碳国际论坛主席蒋庆哲谈零碳园区建设-重化工园区是最难啃的-硬骨头-中国经济网-3d89"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-22",
+      "lastUpdateAt": "2026-09-22",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-eu-commission-commission-enhances-en",
+      "title": "Commission enhances energy efficiency and sustainability of data centres in the EU",
+      "contentIds": [
+        "src-eu-commission-commission-enhances-energy-efficiency-and-sustai-b88c"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-21",
+      "lastUpdateAt": "2026-09-21",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unfccc-news-un-climate-chief-major-k",
+      "title": "UN Climate Chief major keynote: thanks to global renewables, humanity avoided almost half a trillion US dollars in fossil fuel costs last year",
+      "contentIds": [
+        "src-unfccc-news-un-climate-chief-major-keynote-thanks-to-global--897b"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-21",
+      "lastUpdateAt": "2026-09-21",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-pulse-fund-raises-63-millio",
+      "title": "Pulse Fund Raises $63 Million to Back Climate Solutions Startups Across Interconnected Sectors",
+      "contentIds": [
+        "src-esgtoday-pulse-fund-raises-63-million-to-back-climate-sol-4f76"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-21",
+      "lastUpdateAt": "2026-09-21",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-bhrrc-latest-ireland-google-fined-ov",
+      "title": "Ireland: Google fined over EUR 400 million for alleged GDPR infringement in processing users’ location data - business-humanrights.org",
+      "contentIds": [
+        "src-bhrrc-latest-ireland-google-fined-over-eur-400-million-for-al-678d"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-21",
+      "lastUpdateAt": "2026-09-21",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-bhrrc-latest-new-report-124-defender",
+      "title": "New report: 124 defenders killed in 2025, highlighting the need to protect land and environmental defenders as part of responsible business conduct - Business and Human Rights Centre",
+      "contentIds": [
+        "src-bhrrc-latest-new-report-124-defenders-killed-in-2025-highligh-a6c3"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-21",
+      "lastUpdateAt": "2026-09-21",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-mee-china-生态环境部党组与驻部纪检监察组召开2026年第一次专",
+      "title": "生态环境部党组与驻部纪检监察组召开2026年第一次专题会商会",
+      "contentIds": [
+        "src-mee-china-生态环境部党组与驻部纪检监察组召开2026年第一次专题会商会-9918"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-19",
+      "lastUpdateAt": "2026-09-19",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-bhrrc-latest-from-invisibility-to-pr",
+      "title": "From invisibility to protection: ILO adopts landmark protections for platform workers - business-humanrights.org",
+      "contentIds": [
+        "src-bhrrc-latest-from-invisibility-to-protection-ilo-adopts-landm-074a"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-19",
+      "lastUpdateAt": "2026-09-19",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-bhrrc-latest-human-rights-abuses-lin",
+      "title": "Human rights abuses linked to transition mineral mining surge by 73% in just one year - seven in ten implicated mines tied to listed companies - business-humanrights.org",
+      "contentIds": [
+        "src-bhrrc-latest-human-rights-abuses-linked-to-transition-mineral-aff7"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-19",
+      "lastUpdateAt": "2026-09-19",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-零碳园区-试验班-的破题之路-新华网-764f",
+      "title": "零碳园区“试验班”的破题之路 - 新华网",
+      "contentIds": [
+        "src-web-search-零碳园区-试验班-的破题之路-新华网-764f"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-18",
+      "lastUpdateAt": "2026-09-18",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unfccc-news-new-un-climate-change-to",
+      "title": "New UN Climate Change tool strengthens tracking of non-Party climate action",
+      "contentIds": [
+        "src-unfccc-news-new-un-climate-change-tool-strengthens-tracking--06e2"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-17",
+      "lastUpdateAt": "2026-09-17",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-nortonrose-esg-australia-s-new-manda",
+      "title": "Australia’s new mandatory merger control regime",
+      "contentIds": [
+        "src-nortonrose-esg-australia-s-new-mandatory-merger-control-regime-bb71"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-17",
+      "lastUpdateAt": "2026-09-17",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unep-news-cool-leaders-a-roadmap-and",
+      "title": "Cool Leaders, a roadmap and nature for cooling: Global Cooling Pledge acts on heat",
+      "contentIds": [
+        "src-unep-news-cool-leaders-a-roadmap-and-nature-for-cooling-gl-d97b"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-17",
+      "lastUpdateAt": "2026-09-17",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-东盟零碳园区产融对话会新加坡落幕-千亿级市场待挖掘",
+      "title": "东盟零碳园区产融对话会新加坡落幕：千亿级市场待挖掘，正式启动东盟零碳园区产业项目储备库 - 上海市人民政府",
+      "contentIds": [
+        "src-web-search-东盟零碳园区产融对话会新加坡落幕-千亿级市场待挖掘-正式启动东盟零碳园区产业项目储备库-上海市人-247f",
+        "src-web-search-东盟零碳园区产融对话会新加坡落幕-千亿级市场待挖掘-正式启动东盟零碳园区产业项目储备库-segg-247f"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-17",
+      "lastUpdateAt": "2026-09-17",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-worthington-enterprises发布",
+      "title": "Worthington Enterprises发布2026年企业公民与可持续发展报告 - Moomoo",
+      "contentIds": [
+        "src-web-search-worthington-enterprises发布2026年企业公民与可持续发展报告-moomo-0a20"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-17",
+      "lastUpdateAt": "2026-09-17",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-eu-commission-commission-sends-state",
+      "title": "Commission sends Statement of Objections over the proposed acquisition of Anglo American's nickel business by MMG",
+      "contentIds": [
+        "src-eu-commission-commission-sends-statement-of-objections-over-th-ce92"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-16",
+      "lastUpdateAt": "2026-09-16",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-mee-china-安徽推进长江经济带生态环境问题整改-打造经济社会发展",
+      "title": "安徽推进长江经济带生态环境问题整改 打造经济社会发展全面绿色转型区",
+      "contentIds": [
+        "src-mee-china-安徽推进长江经济带生态环境问题整改-打造经济社会发展全面绿色转型区-a125"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-16",
+      "lastUpdateAt": "2026-09-16",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unep-news-boosting-action-on-climate",
+      "title": "Boosting action on climate and nature in focus",
+      "contentIds": [
+        "src-unep-news-boosting-action-on-climate-and-nature-in-focus-2949"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-16",
+      "lastUpdateAt": "2026-09-16",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-sustainalytics-e-morningstar-sustain",
+      "title": "Morningstar Sustainalytics Submits ESMA Application",
+      "contentIds": [
+        "src-sustainalytics-e-morningstar-sustainalytics-submits-esma-applicat-30e0"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-15",
+      "lastUpdateAt": "2026-09-15",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-forced-labor-import-bans-",
+      "title": "Forced Labor Import Bans And The Next Frontier Of Anti - Corruption Compliance",
+      "contentIds": [
+        "src-web-search-forced-labor-import-bans-and-the-next-frontier-o-3973"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-14",
+      "lastUpdateAt": "2026-09-14",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-farm-exports-urged-to-pre",
+      "title": "Farm exports urged to prepare for united kingdom anti - deforestation rules",
+      "contentIds": [
+        "src-web-search-farm-exports-urged-to-prepare-for-united-kingdom-d394"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-14",
+      "lastUpdateAt": "2026-09-14",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-ssrn-esg-listening-to-the-mountain-o",
+      "title": "Listening to the mountain: oral history, biocultural heritage, and sustainability transitions in Serra da Estrela",
+      "contentIds": [
+        "src-ssrn-esg-listening-to-the-mountain-oral-history-biocultur-6eaf"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-14",
+      "lastUpdateAt": "2026-09-14",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-cliffordchance-e-how-governments-are",
+      "title": "How governments are backing critical minerals investment",
+      "contentIds": [
+        "src-cliffordchance-e-how-governments-are-backing-critical-minerals-in-1b33"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-14",
+      "lastUpdateAt": "2026-09-14",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-web-search-birla-institute-of-manage",
+      "title": "Birla Institute of Management Technology and IAI Sign MoU to Build Professional Capabilities in Carbon Markets and Climate Finance",
+      "contentIds": [
+        "src-web-search-birla-institute-of-management-technology-and-iai-6675"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-14",
+      "lastUpdateAt": "2026-09-14",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": true
+    },
+    {
+      "id": "hotspot-src-web-search-super-power-bank-goes-liv",
+      "title": "Super power bank  goes live ! World largest salt cavern compressed air energy storage project starts up in East China",
+      "contentIds": [
+        "src-web-search-super-power-bank-goes-live-world-largest-salt-ca-3211"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-14",
+      "lastUpdateAt": "2026-09-14",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-bhrrc-latest-funding-for-business-an",
+      "title": "Funding for business and human rights plunges as defenders face growing risks - business-humanrights.org",
+      "contentIds": [
+        "src-bhrrc-latest-funding-for-business-and-human-rights-plunges-as-d1c1"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-14",
+      "lastUpdateAt": "2026-09-14",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-bhrrc-latest-argentina-a-mapuche-wom",
+      "title": "Argentina: A Mapuche woman champions a community-based solar energy model - business-humanrights.org",
+      "contentIds": [
+        "src-bhrrc-latest-argentina-a-mapuche-woman-champions-a-community--c060"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-11",
+      "lastUpdateAt": "2026-09-11",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unfccc-news-un-climate-chief-the-cli",
+      "title": "UN Climate Chief: “the climate crisis is now a continent-wide economic security emergency”",
+      "contentIds": [
+        "src-unfccc-news-un-climate-chief-the-climate-crisis-is-now-a-con-6e08"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-10",
+      "lastUpdateAt": "2026-09-10",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-mckinsey-sustain-zero-emission-truck",
+      "title": "Zero-emission trucks: Accelerating Europe’s transition",
+      "contentIds": [
+        "src-mckinsey-sustain-zero-emission-trucks-accelerating-europe-s-trans-8e3a"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-10",
+      "lastUpdateAt": "2026-09-10",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-bhrrc-latest-usa-openai-urges-congre",
+      "title": "USA: OpenAI urges Congress to adopt mandatory national AI safety requirements - business-humanrights.org",
+      "contentIds": [
+        "src-bhrrc-latest-usa-openai-urges-congress-to-adopt-mandatory-nat-559b"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-10",
+      "lastUpdateAt": "2026-09-10",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unfccc-news-un-climate-chief-at-the-",
+      "title": "UN Climate Chief at the opening of Climate Week in Baku: \"Showing that the world chooses delivery over delay\"",
+      "contentIds": [
+        "src-unfccc-news-un-climate-chief-at-the-opening-of-climate-week--e31a"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-09",
+      "lastUpdateAt": "2026-09-09",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-nortonrose-esg-improving-the-efficie",
+      "title": "Improving the efficiency of climate-related financial disclosures",
+      "contentIds": [
+        "src-nortonrose-esg-improving-the-efficiency-of-climate-related-fina-f86c"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-09-08",
+      "lastUpdateAt": "2026-09-08",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unfccc-news-from-yeosu-to-baku-trans",
+      "title": "From Yeosu to Baku, translating 2026 climate commitments into real-world solutions",
+      "contentIds": [
+        "src-unfccc-news-from-yeosu-to-baku-translating-2026-climate-comm-04f2"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-07",
+      "lastUpdateAt": "2026-09-07",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unep-news-new-report-finds-tackling-",
+      "title": "New report finds tackling climate change and air pollution together could save trillions",
+      "contentIds": [
+        "src-unep-news-new-report-finds-tackling-climate-change-and-air-8355"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-07",
+      "lastUpdateAt": "2026-09-07",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unep-news-un-every-us-1-invested-in-",
+      "title": "UN: Every US$1 invested in climate and clean-air action can return US$15",
+      "contentIds": [
+        "src-unep-news-un-every-us-1-invested-in-climate-and-clean-air--bc9c"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-07",
+      "lastUpdateAt": "2026-09-07",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unfccc-news-unfccc-climate-week-in-b",
+      "title": "UNFCCC Climate Week in Baku to step up action and support on climate transparency",
+      "contentIds": [
+        "src-unfccc-news-unfccc-climate-week-in-baku-to-step-up-action-an-7b33"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-04",
+      "lastUpdateAt": "2026-09-04",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-mee-china-生态环境部召开部务会议-921f",
+      "title": "生态环境部召开部务会议",
+      "contentIds": [
+        "src-mee-china-生态环境部召开部务会议-921f"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-03",
+      "lastUpdateAt": "2026-09-03",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-ifrs-issb-iasb-seeks-investor-views-",
+      "title": "IASB seeks investor views on cash flow information reported by financial institutions",
+      "contentIds": [
+        "src-ifrs-issb-iasb-seeks-investor-views-on-cash-flow-informati-e876"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-09-01",
+      "lastUpdateAt": "2026-09-01",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unfccc-news-un-climate-chief-written",
+      "title": "UN Climate Chief written statement on glacial collapse and flooding in the Himalayan region",
+      "contentIds": [
+        "src-unfccc-news-un-climate-chief-written-statement-on-glacial-co-4444"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-31",
+      "lastUpdateAt": "2026-08-31",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unfccc-news-ocean-dialogue-outlines-",
+      "title": "Ocean Dialogue outlines pathways to scale up ocean-based climate action ahead of COP31",
+      "contentIds": [
+        "src-unfccc-news-ocean-dialogue-outlines-pathways-to-scale-up-oce-0c8d"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-31",
+      "lastUpdateAt": "2026-08-31",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-mckinsey-sustain-investing-in-the-en",
+      "title": "Investing in the energy transition: Time to look at whole-system value",
+      "contentIds": [
+        "src-mckinsey-sustain-investing-in-the-energy-transition-time-to-look--d930"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-08-31",
+      "lastUpdateAt": "2026-08-31",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-mee-china-第七次中新气候变化部长级对话成功召开-acff",
+      "title": "第七次中新气候变化部长级对话成功召开",
+      "contentIds": [
+        "src-mee-china-第七次中新气候变化部长级对话成功召开-acff"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-30",
+      "lastUpdateAt": "2026-08-30",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-eu-commission-commission-endorses-gr",
+      "title": "Commission endorses Greece's €4.8 billion Social Climate Plan to support vulnerable households, transport users and micro-enterprises in the clean transition",
+      "contentIds": [
+        "src-eu-commission-commission-endorses-greece-s-4-8-billion-social--c73e"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-27",
+      "lastUpdateAt": "2026-08-27",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": true
+    },
+    {
+      "id": "hotspot-src-unfccc-news-two-new-reports-highligh",
+      "title": "Two new reports highlight innovative finance-related ways to reduce emissions in the fashion industry",
+      "contentIds": [
+        "src-unfccc-news-two-new-reports-highlight-innovative-finance-rel-e0d5"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-27",
+      "lastUpdateAt": "2026-08-27",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-mee-china-第十次中澳气候变化部长级对话成功召开-e694",
+      "title": "第十次中澳气候变化部长级对话成功召开",
+      "contentIds": [
+        "src-mee-china-第十次中澳气候变化部长级对话成功召开-e694"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-27",
+      "lastUpdateAt": "2026-08-27",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unep-news-green-and-grey-infrastruct",
+      "title": "Green and grey infrastructure: stronger together - UNEP - UN Environment Programme",
+      "contentIds": [
+        "src-unep-news-green-and-grey-infrastructure-stronger-together--fa0f"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-25",
+      "lastUpdateAt": "2026-08-25",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unep-news-green-and-grey-infrastruct",
+      "title": "Green and grey infrastructure: stronger together",
+      "contentIds": [
+        "src-unep-news-green-and-grey-infrastructure-stronger-together-730f"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-25",
+      "lastUpdateAt": "2026-08-25",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unfccc-news-definition-eligibility-a",
+      "title": "Definition, eligibility, and registration process of Cooperative Climate Initiatives on NAZCA (August2026) - UNFCCC",
+      "contentIds": [
+        "src-unfccc-news-definition-eligibility-and-registration-process--db43"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-20",
+      "lastUpdateAt": "2026-08-20",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-iso-news-key-recommendations-for-str",
+      "title": "Key recommendations for strengthening the ISO Net Zero Standard - NewClimate Institute",
+      "contentIds": [
+        "src-iso-news-key-recommendations-for-strengthening-the-iso-ne-45a5"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-20",
+      "lastUpdateAt": "2026-08-20",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-sbti-news-the-sbti-launches-second-p",
+      "title": "The SBTi launches second public consultation on updated draft Power Sector Net-Zero Standard",
+      "contentIds": [
+        "src-sbti-news-the-sbti-launches-second-public-consultation-on--fc84"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-14",
+      "lastUpdateAt": "2026-08-14",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-responsible-busi-rba-statement-on-ch",
+      "title": "RBA Statement on China Ministry of Commerce Decision",
+      "contentIds": [
+        "src-responsible-busi-rba-statement-on-china-ministry-of-commerce-deci-1a7d"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-14",
+      "lastUpdateAt": "2026-08-14",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-iso-news-how-the-london-declaration-",
+      "title": "How the London Declaration embedded climate action in standards development - The World Economic Forum",
+      "contentIds": [
+        "src-iso-news-how-the-london-declaration-embedded-climate-acti-9ff4"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-13",
+      "lastUpdateAt": "2026-08-13",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unep-news-2026-call-for-proposals-ku",
+      "title": "2026 Call for Proposals — Kunming Biodiversity Fund - UNEP - UN Environment Programme",
+      "contentIds": [
+        "src-unep-news-2026-call-for-proposals-kunming-biodiversity-fun-3664"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-11",
+      "lastUpdateAt": "2026-08-11",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unep-news-climate-week-nyc-solving-f",
+      "title": "Climate Week NYC: Solving Food Waste - a Key Solution to the Climate Crisis - UNEP - UN Environment Programme",
+      "contentIds": [
+        "src-unep-news-climate-week-nyc-solving-food-waste-a-key-soluti-5a24"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-10",
+      "lastUpdateAt": "2026-08-10",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-mee-china-关于发布国家生态环境标准-海洋倾倒区选划技术导则-的",
+      "title": "关于发布国家生态环境标准《海洋倾倒区选划技术导则》的公告",
+      "contentIds": [
+        "src-mee-china-关于发布国家生态环境标准-海洋倾倒区选划技术导则-的公告-2e6d"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-07",
+      "lastUpdateAt": "2026-08-07",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": true
+    },
+    {
+      "id": "hotspot-src-unfccc-news-safeguarding-life-throug",
+      "title": "Safeguarding life through living knowledge systems",
+      "contentIds": [
+        "src-unfccc-news-safeguarding-life-through-living-knowledge-syste-3a34"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-07",
+      "lastUpdateAt": "2026-08-07",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-unfccc-news-new-global-climate-actio",
+      "title": "New Global Climate Action Agenda Work Programme and structure to operationalize five-year vision",
+      "contentIds": [
+        "src-unfccc-news-new-global-climate-action-agenda-work-programme--2712"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-06",
+      "lastUpdateAt": "2026-08-06",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-mckinsey-sustain-the-106-trillion-in",
+      "title": "The $106 trillion infrastructure opportunity: Private market outlook",
+      "contentIds": [
+        "src-mckinsey-sustain-the-106-trillion-infrastructure-opportunity-priv-811b"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-08-05",
+      "lastUpdateAt": "2026-08-05",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-eu-commission-commission-opens-in-de",
+      "title": "Commission opens in-depth State aid investigation into arbitration award ordering Spain to pay compensation to JGC Holdings Corporation",
+      "contentIds": [
+        "src-eu-commission-commission-opens-in-depth-state-aid-investigatio-2008"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-04",
+      "lastUpdateAt": "2026-08-04",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-cliffordchance-e-energy-transition-p",
+      "title": "Energy Transition Perspectives: Batteries, Trade and Critical Minerals",
+      "contentIds": [
+        "src-cliffordchance-e-energy-transition-perspectives-batteries-trade-a-e214"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-08-04",
+      "lastUpdateAt": "2026-08-04",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-ssrn-esg-from-project-outputs-to-gov",
+      "title": "From Project Outputs to Governance Capacity: A Multi-Scale Reflective Case Study of SDG-Oriented Peri-Urban Rural Regeneration in Hsinchu City, Taiwan",
+      "contentIds": [
+        "src-ssrn-esg-from-project-outputs-to-governance-capacity-a-mu-57cd"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-08-04",
+      "lastUpdateAt": "2026-08-04",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-sonnedix-secures-730-millio",
+      "title": "Sonnedix Secures €730 Million to Develop Renewables Portfolio in Southern Europe",
+      "contentIds": [
+        "src-esgtoday-sonnedix-secures-730-million-to-develop-renewabl-e8ed"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-08-04",
+      "lastUpdateAt": "2026-08-04",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-brookfield-launches-600-mil",
+      "title": "Brookfield Launches $600 Million India-focused Renewable Energy Platform",
+      "contentIds": [
+        "src-esgtoday-brookfield-launches-600-million-india-focused-re-a64b"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-08-03",
+      "lastUpdateAt": "2026-08-03",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-walmart-sets-new-sbti-appro",
+      "title": "Walmart Sets New SBTi-Approved Emissions Reduction Target",
+      "contentIds": [
+        "src-esgtoday-walmart-sets-new-sbti-approved-emissions-reducti-e72d"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-08-03",
+      "lastUpdateAt": "2026-08-03",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": true
+    },
+    {
+      "id": "hotspot-src-esgtoday-u-s-sustainable-fund-flows-",
+      "title": "U.S. Sustainable Fund Flows Turn Positive for First Time Since 2022: Morningstar",
+      "contentIds": [
+        "src-esgtoday-u-s-sustainable-fund-flows-turn-positive-for-fir-c6bd"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-08-03",
+      "lastUpdateAt": "2026-08-03",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-totalenergies-acquires-shel",
+      "title": "TotalEnergies Acquires Shell’s European Onshore Renewables Business",
+      "contentIds": [
+        "src-esgtoday-totalenergies-acquires-shell-s-european-onshore--a197"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-08-03",
+      "lastUpdateAt": "2026-08-03",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-esgtoday-what-cdp-s-2026-changes-sig",
+      "title": "What CDP’s 2026 Changes Signal About the Future of Corporate Disclosure",
+      "contentIds": [
+        "src-esgtoday-what-cdp-s-2026-changes-signal-about-the-future--3194"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-08-03",
+      "lastUpdateAt": "2026-08-03",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-ifrs-issb-ifrs-foundation-trustees-a",
+      "title": "IFRS Foundation Trustees announce five-year plan including new seat of the ISSB in Geneva",
+      "contentIds": [
+        "src-ifrs-issb-ifrs-foundation-trustees-announce-five-year-plan-fbac"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-01",
+      "lastUpdateAt": "2026-08-01",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-sbti-news-sbti-issues-call-for-input",
+      "title": "SBTi issues call for input to inform revision of Forest, Land and Agriculture Standard",
+      "contentIds": [
+        "src-sbti-news-sbti-issues-call-for-input-to-inform-revision-of-788f"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-07-31",
+      "lastUpdateAt": "2026-07-31",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-eu-commission-commission-approves-59",
+      "title": "Commission approves €59 million Slovenian State aid scheme to promote battery energy storage systems",
+      "contentIds": [
+        "src-eu-commission-commission-approves-59-million-slovenian-state-a-da70"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-07-30",
+      "lastUpdateAt": "2026-07-30",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": true
+    },
+    {
+      "id": "hotspot-src-eu-commission-commission-approves-29",
+      "title": "Commission approves €290 million Dutch State aid to support sustainable aviation fuels",
+      "contentIds": [
+        "src-eu-commission-commission-approves-290-million-dutch-state-aid--6c53"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-07-30",
+      "lastUpdateAt": "2026-07-30",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": true
+    },
+    {
+      "id": "hotspot-src-mee-china-生态环境部召开部常务会议-9c65",
+      "title": "生态环境部召开部常务会议",
+      "contentIds": [
+        "src-mee-china-生态环境部召开部常务会议-9c65"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-07-30",
+      "lastUpdateAt": "2026-07-30",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-ssrn-esg-corporate-governance-driver",
+      "title": "Corporate governance drivers of ESG disclosure in Saudi non-financial listed firms",
+      "contentIds": [
+        "src-ssrn-esg-corporate-governance-drivers-of-esg-disclosure-i-d48d"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-07-29",
+      "lastUpdateAt": "2026-07-29",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-eu-commission-commission-endorses-ma",
+      "title": "Commission endorses Malta's €60 million Social Climate Plan to support vulnerable households and small companies in the clean transition",
+      "contentIds": [
+        "src-eu-commission-commission-endorses-malta-s-60-million-social-cl-1792"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-07-28",
+      "lastUpdateAt": "2026-07-28",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": true
+    },
+    {
+      "id": "hotspot-src-eu-commission-commission-opens-in-de",
+      "title": "Commission opens in-depth investigation into arbitration award ordering Romania to pay compensation to ten energy investors",
+      "contentIds": [
+        "src-eu-commission-commission-opens-in-depth-investigation-into-arb-037f"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-07-28",
+      "lastUpdateAt": "2026-07-28",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-mee-china-扎实做好生态环境法典实施准备工作-为美丽中国建设提供",
+      "title": "“扎实做好生态环境法典实施准备工作，为美丽中国建设提供法治保障”有关情况",
+      "contentIds": [
+        "src-mee-china-扎实做好生态环境法典实施准备工作-为美丽中国建设提供法治保障-有关情况-b91f"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-07-28",
+      "lastUpdateAt": "2026-07-28",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-ssrn-esg-artificial-intelligence-and",
+      "title": "Artificial Intelligence and Corporate Sustainability Disclosure: Evidence from Corporate Climate Risk Disclosure in China",
+      "contentIds": [
+        "src-ssrn-esg-artificial-intelligence-and-corporate-sustainabi-f4bc"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-07-17",
+      "lastUpdateAt": "2026-07-17",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-ssrn-esg-between-law-and-market-volu",
+      "title": "Between law and market: voluntary ESG disclosure as a legal counterpoint to mandatory governance in China",
+      "contentIds": [
+        "src-ssrn-esg-between-law-and-market-voluntary-esg-disclosure--2046"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-07-16",
+      "lastUpdateAt": "2026-07-16",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": true
+    },
+    {
+      "id": "hotspot-src-ssrn-esg-mandate-or-market-climate-d",
+      "title": "Mandate or Market? Climate-Disclosure Regulation and the Quality of Corporate Climate Governance: Evidence from Staggered Adoption Across Four Economies",
+      "contentIds": [
+        "src-ssrn-esg-mandate-or-market-climate-disclosure-regulation--e1b4"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-07-08",
+      "lastUpdateAt": "2026-07-08",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-ssrn-esg-llm-assisted-and-rule-based",
+      "title": "LLM-Assisted and Rule-Based Assessment of ESG Disclosure Quality and Its Association with External ESG Ratings: Exploratory Evidence from S&amp;P 500 Energy Firms",
+      "contentIds": [
+        "src-ssrn-esg-llm-assisted-and-rule-based-assessment-of-esg-di-2944"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-07-06",
+      "lastUpdateAt": "2026-07-06",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-ssrn-esg-esg-rating-disagreement-as-",
+      "title": "ESG Rating Disagreement as a Greenwashing Signal: Asymmetric Effects of Digital Transformation Through Disclosure and Performance Channels",
+      "contentIds": [
+        "src-ssrn-esg-esg-rating-disagreement-as-a-greenwashing-signal-3219"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 0,
+      "firstSeenAt": "2026-07-04",
+      "lastUpdateAt": "2026-07-04",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 0 家），未达启动阈值",
+      "consensus": true
+    },
+    {
+      "id": "hotspot-src-ifrs-issb-issb-proposes-updates-to-i",
+      "title": "ISSB proposes updates to its digital sustainability taxonomy",
+      "contentIds": [
+        "src-ifrs-issb-issb-proposes-updates-to-its-digital-sustainabil-ae7b",
+        "src-ifrs-issb-iasb-proposes-updates-to-ifrs-accounting-taxonom-4f61"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-07-01",
+      "lastUpdateAt": "2026-07-01",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-ifrs-issb-emmanuel-faber-s-speech-at",
+      "title": "Emmanuel Faber’s speech at the 2026 Asia Sustainability Symposium",
+      "contentIds": [
+        "src-ifrs-issb-emmanuel-faber-s-speech-at-the-2026-asia-sustain-e4a1"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-07-01",
+      "lastUpdateAt": "2026-07-01",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-sec-esg-sec-proposes-rescission-of-c",
+      "title": "SEC Proposes Rescission of Climate-Related Disclosure Rules",
+      "contentIds": [
+        "src-sec-esg-sec-proposes-rescission-of-climate-related-discl-9e5f"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-05-29",
+      "lastUpdateAt": "2026-05-29",
+      "impactScore": 2,
+      "trackingStatus": "watch",
+      "reason": "信源覆盖 1 家（权威 1 家），未达启动阈值",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-mofcom-china-drone-export-control-20",
+      "title": "商务部公告2026年第34号 公布加强无人机相关两用物项对美国出口管制",
+      "contentIds": [
+        "src-mofcom-china-drone-export-control-20260805"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-05",
+      "lastUpdateAt": "2026-08-05",
+      "impactScore": 3,
+      "trackingStatus": "ended",
+      "reason": "50 天无实质更新，已停止跟踪",
+      "consensus": false
+    },
+    {
+      "id": "hotspot-src-mofcom-china-us-compliance-tester-co",
+      "title": "商务部令二〇二六年第3号 关于对美国合规性测试公司采取反制措施的决定",
+      "contentIds": [
+        "src-mofcom-china-us-compliance-tester-counter-20260805"
+      ],
+      "sourceCount": 1,
+      "authoritativeSources": 1,
+      "firstSeenAt": "2026-08-05",
+      "lastUpdateAt": "2026-08-05",
+      "impactScore": 3,
+      "trackingStatus": "ended",
+      "reason": "50 天无实质更新，已停止跟踪（已达成共识/落地）",
+      "consensus": true
+    }
+  ]
+}

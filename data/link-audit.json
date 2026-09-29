@@ -1,0 +1,601 @@
+{
+  "updatedAt": "2026-08-25T06:53:11.974Z",
+  "zones": [
+    {
+      "id": "esg-disclosure",
+      "name": "ESG 信息披露",
+      "eventCount": 14,
+      "regCount": 3,
+      "items": [
+        {
+          "id": "src-ssrn-esg-retreat-of-european-mandatory-sustainability-rep-9fd8",
+          "title": "Retreat of European Mandatory Sustainability Reporting: What Value Remains for Companies Removed from the CSRD’s Scope?",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-05",
+          "link": "https://doi.org/10.55845/jos-2026-22285",
+          "sourceUrl": "https://doi.org/10.55845/jos-2026-22285",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-esgtoday-what-cdp-s-2026-changes-signal-about-the-future--3194",
+          "title": "What CDP’s 2026 Changes Signal About the Future of Corporate Disclosure",
+          "contentType": "专家观点",
+          "publishedAt": "2026-08-03",
+          "link": "https://www.esgtoday.com/what-cdps-2026-changes-signal-about-the-future-of-corporate-disclosure/",
+          "sourceUrl": "https://www.esgtoday.com/what-cdps-2026-changes-signal-about-the-future-of-corporate-disclosure/",
+          "articleUrl": "",
+          "kind": "homepage-candidate"
+        },
+        {
+          "id": "src-ssrn-esg-esg-disclosure-research-a-bibliometric-analysis--2b48",
+          "title": "ESG Disclosure Research: A Bibliometric Analysis of Sustainability Reporting Trends",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-30",
+          "link": "https://doi.org/10.58812/wsshs.v4i07.3009",
+          "sourceUrl": "https://doi.org/10.58812/wsshs.v4i07.3009",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-corporate-governance-drivers-of-esg-disclosure-i-d48d",
+          "title": "Corporate governance drivers of ESG disclosure in Saudi non-financial listed firms",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-29",
+          "link": "https://doi.org/10.1007/s43621-026-04136-2",
+          "sourceUrl": "https://doi.org/10.1007/s43621-026-04136-2",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-overseas-esg-disclosure-strategies-of-chinese-mu-cae0",
+          "title": "Overseas ESG Disclosure Strategies of Chinese Multinational Enterprises: A Comparative Analysis Based on Sustainability Reports",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-28",
+          "link": "https://doi.org/10.54254/2754-1169/2026.35637",
+          "sourceUrl": "https://doi.org/10.54254/2754-1169/2026.35637",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-pengaruh-leverage-likuiditas-profitabilitas-dan--49d5",
+          "title": "PENGARUH LEVERAGE, LIKUIDITAS, PROFITABILITAS DAN UKURAN PERUSAHAAN TERHADAP SUSTAINABILITY REPORT DISCLOSURE DENGAN ESG SEBAGAI VARIABEL MODERASI",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-22",
+          "link": "https://doi.org/10.36080/jak.v15i1.4570",
+          "sourceUrl": "https://doi.org/10.36080/jak.v15i1.4570",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-strategic-communicator-s-role-in-effectively-bui-b3d4",
+          "title": "Strategic communicator’s role in effectively building stakeholder trust through ESG disclosure",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-19",
+          "link": "https://doi.org/10.1007/s43621-026-04075-y",
+          "sourceUrl": "https://doi.org/10.1007/s43621-026-04075-y",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-artificial-intelligence-and-corporate-sustainabi-f4bc",
+          "title": "Artificial Intelligence and Corporate Sustainability Disclosure: Evidence from Corporate Climate Risk Disclosure in China",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-17",
+          "link": "https://doi.org/10.3390/su18147313",
+          "sourceUrl": "https://doi.org/10.3390/su18147313",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-between-law-and-market-voluntary-esg-disclosure--2046",
+          "title": "Between law and market: voluntary ESG disclosure as a legal counterpoint to mandatory governance in China",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-16",
+          "link": "https://doi.org/10.3389/frsus.2026.1857419",
+          "sourceUrl": "https://doi.org/10.3389/frsus.2026.1857419",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-mandate-or-market-climate-disclosure-regulation--e1b4",
+          "title": "Mandate or Market? Climate-Disclosure Regulation and the Quality of Corporate Climate Governance: Evidence from Staggered Adoption Across Four Economies",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-08",
+          "link": "https://doi.org/10.3390/su18146940",
+          "sourceUrl": "https://doi.org/10.3390/su18146940",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-llm-assisted-and-rule-based-assessment-of-esg-di-2944",
+          "title": "LLM-Assisted and Rule-Based Assessment of ESG Disclosure Quality and Its Association with External ESG Ratings: Exploratory Evidence from S&amp;P 500 Energy Firms",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-06",
+          "link": "https://doi.org/10.3390/su18136882",
+          "sourceUrl": "https://doi.org/10.3390/su18136882",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-esg-rating-disagreement-as-a-greenwashing-signal-3219",
+          "title": "ESG Rating Disagreement as a Greenwashing Signal: Asymmetric Effects of Digital Transformation Through Disclosure and Performance Channels",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-04",
+          "link": "https://doi.org/10.3390/su18136800",
+          "sourceUrl": "https://doi.org/10.3390/su18136800",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-esg-disclosure-and-financial-performance-in-indi-89b5",
+          "title": "ESG disclosure and financial performance in Indian hospitality firms using text mining",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-03",
+          "link": "https://doi.org/10.1007/s43621-026-03994-0",
+          "sourceUrl": "https://doi.org/10.1007/s43621-026-03994-0",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-esg-sasb-label-stability-a-curated-benchmark-and-ba1d",
+          "title": "ESG-SASB Label Stability: A Curated Benchmark and Reproducible Pipeline for Reusing Sentence-Level Sustainability Disclosure Labels",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-03",
+          "link": "https://doi.org/10.3390/informatics13070106",
+          "sourceUrl": "https://doi.org/10.3390/informatics13070106",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ifrs-issb-issb-proposes-updates-to-its-digital-sustainabil-ae7b",
+          "title": "ISSB proposes updates to its digital sustainability taxonomy",
+          "contentType": "ESG 政策",
+          "publishedAt": "2026-07-01",
+          "link": "https://www.ifrs.org/news-and-events/news/2026/07/issb-proposes-update-ifrs-sustainability-disclosure-taxonomy/",
+          "sourceUrl": "https://www.ifrs.org/news-and-events/news/2026/07/issb-proposes-update-ifrs-sustainability-disclosure-taxonomy/",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ifrs-issb-iasb-proposes-updates-to-ifrs-accounting-taxonom-4f61",
+          "title": "IASB proposes updates to IFRS Accounting Taxonomy 2025",
+          "contentType": "ESG 政策",
+          "publishedAt": "2026-07-01",
+          "link": "https://www.ifrs.org/news-and-events/news/2026/07/iasb-proposes-updates-ifrs-accounting-taxonomy-2025/",
+          "sourceUrl": "https://www.ifrs.org/news-and-events/news/2026/07/iasb-proposes-updates-ifrs-accounting-taxonomy-2025/",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-sec-esg-sec-proposes-rescission-of-climate-related-discl-9e5f",
+          "title": "SEC Proposes Rescission of Climate-Related Disclosure Rules",
+          "contentType": "ESG 政策",
+          "publishedAt": "2026-05-29",
+          "link": "https://www.sec.gov/newsroom/press-releases/2026-49-sec-proposes-rescission-climate-related-disclosure-rules",
+          "sourceUrl": "https://www.sec.gov/newsroom/press-releases/2026-49-sec-proposes-rescission-climate-related-disclosure-rules",
+          "articleUrl": "",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "esg-rating",
+      "name": "ESG 评级",
+      "eventCount": 7,
+      "regCount": 0,
+      "items": [
+        {
+          "id": "src-ssrn-esg-from-retail-csr-to-sustainability-how-consumer-c-fdc9",
+          "title": "From retail CSR to sustainability: how consumer citizenship and green practices make the difference",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-05",
+          "link": "https://doi.org/10.1108/ijoa-10-2025-6022",
+          "sourceUrl": "https://doi.org/10.1108/ijoa-10-2025-6022",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-developing-ai-enabled-sustainable-supply-chain-q-f344",
+          "title": "Developing AI-enabled sustainable supply chain quality capability: Scale development, validation, and its role in enhancing supply chain resilience and performance",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-04",
+          "link": "https://doi.org/10.51594/rjbs.v1i3.22",
+          "sourceUrl": "https://doi.org/10.51594/rjbs.v1i3.22",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-artificial-intelligence-as-effectiveness-enabler-c04c",
+          "title": "Artificial Intelligence as Effectiveness Enabler of Dynamic Reconfiguration of Systems Architecture in Industry 5.0",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-04",
+          "link": "https://doi.org/10.3390/su18157913",
+          "sourceUrl": "https://doi.org/10.3390/su18157913",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-a-closed-loop-measurement-study-of-runtime-gover-37c7",
+          "title": "A Closed-Loop Measurement Study of Runtime Governance in AI-Driven Smart Building Climate Control",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-04",
+          "link": "https://doi.org/10.3390/s26154921",
+          "sourceUrl": "https://doi.org/10.3390/s26154921",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-pengaruh-leverage-likuiditas-profitabilitas-dan--49d5",
+          "title": "PENGARUH LEVERAGE, LIKUIDITAS, PROFITABILITAS DAN UKURAN PERUSAHAAN TERHADAP SUSTAINABILITY REPORT DISCLOSURE DENGAN ESG SEBAGAI VARIABEL MODERASI",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-22",
+          "link": "https://doi.org/10.36080/jak.v15i1.4570",
+          "sourceUrl": "https://doi.org/10.36080/jak.v15i1.4570",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-llm-assisted-and-rule-based-assessment-of-esg-di-2944",
+          "title": "LLM-Assisted and Rule-Based Assessment of ESG Disclosure Quality and Its Association with External ESG Ratings: Exploratory Evidence from S&amp;P 500 Energy Firms",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-06",
+          "link": "https://doi.org/10.3390/su18136882",
+          "sourceUrl": "https://doi.org/10.3390/su18136882",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-esg-rating-disagreement-as-a-greenwashing-signal-3219",
+          "title": "ESG Rating Disagreement as a Greenwashing Signal: Asymmetric Effects of Digital Transformation Through Disclosure and Performance Channels",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-04",
+          "link": "https://doi.org/10.3390/su18136800",
+          "sourceUrl": "https://doi.org/10.3390/su18136800",
+          "articleUrl": "",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "sustainable-supply-chain",
+      "name": "可持续供应链",
+      "eventCount": 1,
+      "regCount": 2,
+      "items": [
+        {
+          "id": "src-ssrn-esg-developing-ai-enabled-sustainable-supply-chain-q-f344",
+          "title": "Developing AI-enabled sustainable supply chain quality capability: Scale development, validation, and its role in enhancing supply chain resilience and performance",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-04",
+          "link": "https://doi.org/10.51594/rjbs.v1i3.22",
+          "sourceUrl": "https://doi.org/10.51594/rjbs.v1i3.22",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-mofcom-china-rba-counter-list-20260805",
+          "title": "商务部令二〇二六年第2号：对应用DNA科学公司等6家美国实体采取反制措施的决定",
+          "contentType": "ESG 政策",
+          "publishedAt": "2026-08-05",
+          "link": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_bd62c275eb144ba7bc6a50716ab823b6.html",
+          "sourceUrl": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_bd62c275eb144ba7bc6a50716ab823b6.html",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-mofcom-china-drone-export-control-20260805",
+          "title": "商务部公告2026年第34号 公布加强无人机相关两用物项对美国出口管制",
+          "contentType": "ESG 政策",
+          "publishedAt": "2026-08-05",
+          "link": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_74835ca289b5463f9c36cb983b689dba.html",
+          "sourceUrl": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_74835ca289b5463f9c36cb983b689dba.html",
+          "articleUrl": "",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "labor-human-rights",
+      "name": "劳工与人权",
+      "eventCount": 4,
+      "regCount": 1,
+      "items": [
+        {
+          "id": "src-ssrn-esg-developing-ai-enabled-sustainable-supply-chain-q-f344",
+          "title": "Developing AI-enabled sustainable supply chain quality capability: Scale development, validation, and its role in enhancing supply chain resilience and performance",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-04",
+          "link": "https://doi.org/10.51594/rjbs.v1i3.22",
+          "sourceUrl": "https://doi.org/10.51594/rjbs.v1i3.22",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-artificial-intelligence-as-effectiveness-enabler-c04c",
+          "title": "Artificial Intelligence as Effectiveness Enabler of Dynamic Reconfiguration of Systems Architecture in Industry 5.0",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-04",
+          "link": "https://doi.org/10.3390/su18157913",
+          "sourceUrl": "https://doi.org/10.3390/su18157913",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-ecofeminism-climate-justice-and-women-s-leadersh-26d5",
+          "title": "Ecofeminism, Climate Justice, and Women’s Leadership in South Asia",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-04",
+          "link": "https://doi.org/10.3126/informal.v3i1.97534",
+          "sourceUrl": "https://doi.org/10.3126/informal.v3i1.97534",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-esg-disclosure-research-a-bibliometric-analysis--2b48",
+          "title": "ESG Disclosure Research: A Bibliometric Analysis of Sustainability Reporting Trends",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-30",
+          "link": "https://doi.org/10.58812/wsshs.v4i07.3009",
+          "sourceUrl": "https://doi.org/10.58812/wsshs.v4i07.3009",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-mofcom-china-rba-counter-list-20260805",
+          "title": "商务部令二〇二六年第2号：对应用DNA科学公司等6家美国实体采取反制措施的决定",
+          "contentType": "ESG 政策",
+          "publishedAt": "2026-08-05",
+          "link": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_bd62c275eb144ba7bc6a50716ab823b6.html",
+          "sourceUrl": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_bd62c275eb144ba7bc6a50716ab823b6.html",
+          "articleUrl": "",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "green-finance",
+      "name": "绿色金融",
+      "eventCount": 1,
+      "regCount": 0,
+      "items": [
+        {
+          "id": "src-ssrn-esg-esg-disclosure-research-a-bibliometric-analysis--2b48",
+          "title": "ESG Disclosure Research: A Bibliometric Analysis of Sustainability Reporting Trends",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-30",
+          "link": "https://doi.org/10.58812/wsshs.v4i07.3009",
+          "sourceUrl": "https://doi.org/10.58812/wsshs.v4i07.3009",
+          "articleUrl": "",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "climate-risk",
+      "name": "气候风险",
+      "eventCount": 17,
+      "regCount": 3,
+      "items": [
+        {
+          "id": "src-ssrn-esg-austral-summer-mjo-forecast-skill-in-s2s-models--39c5",
+          "title": "Austral summer MJO forecast skill in S2S models:  decadal shifts and their drivers",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-05",
+          "link": "https://doi.org/10.5194/wcd-7-1385-2026",
+          "sourceUrl": "https://doi.org/10.5194/wcd-7-1385-2026",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-ethical-climate-and-innovative-behavior-the-medi-1f15",
+          "title": "Ethical climate and innovative behavior: the mediating role of ethical conduct",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-05",
+          "link": "https://doi.org/10.3389/fpsyg.2026.1735002",
+          "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1735002",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-volcanic-eruptions-reorganize-climate-teleconnec-59cd",
+          "title": "Volcanic Eruptions Reorganize Climate Teleconnections: Detection via Riemannian Covariance Fingerprinting",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-05",
+          "link": "https://doi.org/10.1029/2026gl124297",
+          "sourceUrl": "https://doi.org/10.1029/2026gl124297",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-effect-of-a-theory-based-coach-education-program-d1e7",
+          "title": "Effect of a theory-based coach education program on the objectively assessed motivational climate in grassroots football across four European countries: results from the Promoting Adolescent Physical",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-05",
+          "link": "https://doi.org/10.3389/fpsyg.2026.1563931",
+          "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1563931",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-podcast-climate--potential-energy-coalition-why-climate-messaging-dc94",
+          "title": "Potential Energy Coalition: Why Climate Messaging Fails - and How to Fix It",
+          "contentType": "播客",
+          "publishedAt": "2026-08-05",
+          "link": "https://pdst.fm/e/tracking.swap.fm/track/tcQd6Q6C0RUUlOHq1Ytj/mgln.ai/e/51/traffic.megaphone.fm/TPG2385542581.mp3",
+          "sourceUrl": "https://pdst.fm/e/tracking.swap.fm/track/tcQd6Q6C0RUUlOHq1Ytj/mgln.ai/e/51/traffic.megaphone.fm/TPG2385542581.mp3",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-assessing-effectiveness-of-critical-slowing-down-7cb0",
+          "title": "Assessing effectiveness of critical slowing down in a non-idealised timeseries of the Greenland ice sheet in a paleo-climate model run",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-04",
+          "link": "https://doi.org/10.1088/2632-072x/ae8d6e",
+          "sourceUrl": "https://doi.org/10.1088/2632-072x/ae8d6e",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-artificial-intelligence-as-effectiveness-enabler-c04c",
+          "title": "Artificial Intelligence as Effectiveness Enabler of Dynamic Reconfiguration of Systems Architecture in Industry 5.0",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-04",
+          "link": "https://doi.org/10.3390/su18157913",
+          "sourceUrl": "https://doi.org/10.3390/su18157913",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-climate-and-landscape-features-associated-with-s-da6d",
+          "title": "Climate and landscape features associated with successful Wolbachia replacement in the municipality of Rio de Janeiro, Brazil",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-04",
+          "link": "https://doi.org/10.1186/s13071-026-07602-y",
+          "sourceUrl": "https://doi.org/10.1186/s13071-026-07602-y",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-carbon-summer-as-nuclear-winter-2-0-the-1980s-nu-ac96",
+          "title": "Carbon Summer as Nuclear Winter 2.0: The  1980s Nuclear Fear That Precluded Climate Action",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-04",
+          "link": "https://doi.org/10.1007/s12115-026-01279-w",
+          "sourceUrl": "https://doi.org/10.1007/s12115-026-01279-w",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-ecofeminism-climate-justice-and-women-s-leadersh-26d5",
+          "title": "Ecofeminism, Climate Justice, and Women’s Leadership in South Asia",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-04",
+          "link": "https://doi.org/10.3126/informal.v3i1.97534",
+          "sourceUrl": "https://doi.org/10.3126/informal.v3i1.97534",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-from-project-outputs-to-governance-capacity-a-mu-57cd",
+          "title": "From Project Outputs to Governance Capacity: A Multi-Scale Reflective Case Study of SDG-Oriented Peri-Urban Rural Regeneration in Hsinchu City, Taiwan",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-04",
+          "link": "https://doi.org/10.3390/su18157876",
+          "sourceUrl": "https://doi.org/10.3390/su18157876",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-a-closed-loop-measurement-study-of-runtime-gover-37c7",
+          "title": "A Closed-Loop Measurement Study of Runtime Governance in AI-Driven Smart Building Climate Control",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-04",
+          "link": "https://doi.org/10.3390/s26154921",
+          "sourceUrl": "https://doi.org/10.3390/s26154921",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-mee-china-生态环境部部长黄润秋-加快经济社会发展全面绿色转型-不断绘就美丽中国新画卷-8578",
+          "title": "生态环境部部长黄润秋：加快经济社会发展全面绿色转型 不断绘就美丽中国新画卷",
+          "contentType": "专家观点",
+          "publishedAt": "2026-07-31",
+          "link": "https://www.mee.gov.cn/ywdt/hjywnews/202607/t20260731_1163246.shtml",
+          "sourceUrl": "https://www.mee.gov.cn/ywdt/hjywnews/202607/t20260731_1163246.shtml",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-mee-video-news-视频丨我国-十五五-期间单位国内生产总值二氧化碳排放将降17-央视-新闻联播-e1af",
+          "title": "视频丨我国“十五五”期间单位国内生产总值二氧化碳排放将降17% （央视《新闻联播》）",
+          "contentType": "视频",
+          "publishedAt": "2026-07-30",
+          "link": "https://www.mee.gov.cn/ywdt/spxw/202607/t20260730_1163127.shtml",
+          "sourceUrl": "https://www.mee.gov.cn/ywdt/spxw/202607/t20260730_1163127.shtml",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-podcast-tipping--s2-e5-ranking-your-travel-from-best-to-worst-9cdf",
+          "title": "S2 E5: Ranking your travel from best to worst",
+          "contentType": "播客",
+          "publishedAt": "2026-07-30",
+          "link": "https://api.riverside.com/hosting-analytics/media/6c713400ea18b8cbadc6f6a6bac870b8c3d1f495211452f02e9534f9ee7733c6/eyJlcGlzb2RlSWQiOiIzNjU5Mzk2Yy1kNzczLTQ4NDktYTZkOC1kNjU4YWM2YWUyNGQiLCJwb2RjYXN0SWQiOiJlMjgwMzhjNy1hY2E4LTRmYTQtOGEwNy1lMDg2YjIxNzliODMiLCJhY2NvdW50SWQiOiI2OGU4YWI0OGFlZjNjNTJhNGNhNThkMTEiLCJwYXRoIjoibWVkaWEvY2xpcHMvNmE2YWZiY2U1ZDFiZjU0MTY2MWQxY2ExL2NocmlzdG9waGVycy1zdHVkaW8tamZiZ0UtY29tcG9zZXItMjAyNi03LTMwX185LTIyLTU0Lm1wMyJ9.mp3",
+          "sourceUrl": "https://api.riverside.com/hosting-analytics/media/6c713400ea18b8cbadc6f6a6bac870b8c3d1f495211452f02e9534f9ee7733c6/eyJlcGlzb2RlSWQiOiIzNjU5Mzk2Yy1kNzczLTQ4NDktYTZkOC1kNjU4YWM2YWUyNGQiLCJwb2RjYXN0SWQiOiJlMjgwMzhjNy1hY2E4LTRmYTQtOGEwNy1lMDg2YjIxNzliODMiLCJhY2NvdW50SWQiOiI2OGU4YWI0OGFlZjNjNTJhNGNhNThkMTEiLCJwYXRoIjoibWVkaWEvY2xpcHMvNmE2YWZiY2U1ZDFiZjU0MTY2MWQxY2ExL2NocmlzdG9waGVycy1zdHVkaW8tamZiZ0UtY29tcG9zZXItMjAyNi03LTMwX185LTIyLTU0Lm1wMyJ9.mp3",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-artificial-intelligence-and-corporate-sustainabi-f4bc",
+          "title": "Artificial Intelligence and Corporate Sustainability Disclosure: Evidence from Corporate Climate Risk Disclosure in China",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-17",
+          "link": "https://doi.org/10.3390/su18147313",
+          "sourceUrl": "https://doi.org/10.3390/su18147313",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-ssrn-esg-mandate-or-market-climate-disclosure-regulation--e1b4",
+          "title": "Mandate or Market? Climate-Disclosure Regulation and the Quality of Corporate Climate Governance: Evidence from Staggered Adoption Across Four Economies",
+          "contentType": "学术文章",
+          "publishedAt": "2026-07-08",
+          "link": "https://doi.org/10.3390/su18146940",
+          "sourceUrl": "https://doi.org/10.3390/su18146940",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-eu-commission-commission-approves-290-million-dutch-state-aid--6c53",
+          "title": "Commission approves €290 million Dutch State aid to support sustainable aviation fuels",
+          "contentType": "ESG 政策",
+          "publishedAt": "2026-07-30",
+          "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1706",
+          "sourceUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1706",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-eu-commission-commission-endorses-malta-s-60-million-social-cl-1792",
+          "title": "Commission endorses Malta's €60 million Social Climate Plan to support vulnerable households and small companies in the clean transition",
+          "contentType": "ESG 政策",
+          "publishedAt": "2026-07-28",
+          "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1701",
+          "sourceUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1701",
+          "articleUrl": "",
+          "kind": "article"
+        },
+        {
+          "id": "src-sec-esg-sec-proposes-rescission-of-climate-related-discl-9e5f",
+          "title": "SEC Proposes Rescission of Climate-Related Disclosure Rules",
+          "contentType": "ESG 政策",
+          "publishedAt": "2026-05-29",
+          "link": "https://www.sec.gov/newsroom/press-releases/2026-49-sec-proposes-rescission-climate-related-disclosure-rules",
+          "sourceUrl": "https://www.sec.gov/newsroom/press-releases/2026-49-sec-proposes-rescission-climate-related-disclosure-rules",
+          "articleUrl": "",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "biodiversity",
+      "name": "生物多样性",
+      "eventCount": 1,
+      "regCount": 0,
+      "items": [
+        {
+          "id": "src-ssrn-esg-from-project-outputs-to-governance-capacity-a-mu-57cd",
+          "title": "From Project Outputs to Governance Capacity: A Multi-Scale Reflective Case Study of SDG-Oriented Peri-Urban Rural Regeneration in Hsinchu City, Taiwan",
+          "contentType": "学术文章",
+          "publishedAt": "2026-08-04",
+          "link": "https://doi.org/10.3390/su18157876",
+          "sourceUrl": "https://doi.org/10.3390/su18157876",
+          "articleUrl": "",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
