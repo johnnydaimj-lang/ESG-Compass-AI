@@ -14,4 +14,3 @@ data/private-kb/
 data/harness/
 data/seen_hashes.json
 data/.admin-session-secret
-data/publication/

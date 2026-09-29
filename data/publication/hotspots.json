@@ -1,0 +1,140 @@
+[
+  {
+    "id": "story-17c9ghq",
+    "rootId": "src-17ttquu",
+    "title": "白花能源未回应",
+    "digest": "纽约市审计长马克·莱文 (Mark Levine) 宣布，他建议该市的三个公共养老基金战略性扩大私募市场气候解决方案投资，并计划提供 50 亿美元的新私募市场投资机会。",
+    "latest": "纽约市审计长马克·莱文 (Mark Levine) 宣布，他建议在 进行战略扩张。",
+    "memberIds": [
+      "src-17ttquu",
+      "src-sp5ay9",
+      "src-gwuwz8"
+    ],
+    "facts": [
+      {
+        "title": "白花能源未回应",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "白花能源未回应",
+        "occurredAt": "2026-09-27"
+      },
+      {
+        "title": "摩根大通自然资本巴拉圭推出价值 2 亿美元的可持续林业平台",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "摩根大通自然资本巴拉圭推出价值 2 亿美元的可持续林业平台",
+        "occurredAt": "2026-09-28"
+      },
+      {
+        "title": "纽约市审计长提议 50 亿美元用于新的私募市场气候解决方案投",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "提议",
+        "object": "纽约市审计长提议 50 亿美元用于新的私募市场气候解决方案投资",
+        "occurredAt": "2026-09-28"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest",
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-09-27T23:00:00.000Z",
+    "latestPublishedAt": "2026-09-28T16:05:08.000Z",
+    "heat": 1.6,
+    "relations": [
+      {
+        "memberId": "src-17ttquu",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-sp5ay9",
+        "relation": "SAME_STORY",
+        "confidence": 0.8148353450645079
+      },
+      {
+        "memberId": "src-gwuwz8",
+        "relation": "SAME_STORY",
+        "confidence": 0.6659271582120269
+      }
+    ],
+    "heat6hAgo": 1.9,
+    "trend": "down",
+    "trendPct": -15.8,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）",
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1ui59p6",
+    "rootId": "src-1azec3b",
+    "title": "人工智能驱动的护理未来",
+    "digest": "总部位于英国的银行集团巴克莱银行已任命保罗·威廉姆斯为其新任可持续运营全球主管。",
+    "latest": "总部位于英国的银行集团巴克莱银行已任命保罗·威廉姆斯为其新的全球运营主管",
+    "memberIds": [
+      "src-1azec3b",
+      "src-1lh1exe",
+      "src-13ivvd2"
+    ],
+    "facts": [
+      {
+        "title": "人工智能驱动的护理未来",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "人工智能驱动的护理未来",
+        "occurredAt": "2026-09-27"
+      },
+      {
+        "title": "香港交易所举办“A Place to Connect”展览庆",
+        "subject": "香港交易所新闻稿",
+        "action": "发布",
+        "object": "香港交易所举办“A Place to Connect”展览庆祝香港现代证券交易所成立40周年",
+        "occurredAt": "2026-09-28"
+      },
+      {
+        "title": "巴克莱任命保罗·威廉姆斯为可持续运营全球主管",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "巴克莱任命保罗·威廉姆斯为可持续运营全球主管",
+        "occurredAt": "2026-09-28"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability",
+      "hkex-news",
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-09-27T16:00:00.000Z",
+    "latestPublishedAt": "2026-09-28T11:36:27.000Z",
+    "heat": 1.6,
+    "relations": [
+      {
+        "memberId": "src-1azec3b",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1lh1exe",
+        "relation": "SAME_STORY",
+        "confidence": 0.6509636439073611
+      },
+      {
+        "memberId": "src-13ivvd2",
+        "relation": "SAME_STORY",
+        "confidence": 0.8542821429703302
+      }
+    ],
+    "heat6hAgo": 1.9,
+    "trend": "down",
+    "trendPct": -15.8,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察",
+      "香港交易所新闻稿",
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  }
+]
