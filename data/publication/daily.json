@@ -1,11 +1,11 @@
 {
   "date": "2026-10-08",
-  "generatedAt": "2026-10-08T17:34:54.850Z",
+  "generatedAt": "2026-10-08T18:07:16.962Z",
   "highlights": [
     {
       "id": "src-14umkjn",
-      "title": "SFC hosts meeting of IOSCO’s Committee on Issuer Accounting, Audit and Disclosure",
-      "summary": "",
+      "title": "证监会主办国际证监会组织发行人会计、审计和披露委员会会议",
+      "summary": "香港证监会主办国际证监会组织发行人会计、审计与披露委员会会议。",
       "sourceName": "香港证监会（SFC）新闻稿",
       "contentType": "政策",
       "region": "香港",
@@ -14,8 +14,8 @@
     },
     {
       "id": "src-g4wm9q",
-      "title": "SFC, AFRC and the Exchange join forces to address disclaimers of opinion solely relating to going concern",
-      "summary": "",
+      "title": "证监会、武革委及本交易所联手处理仅与持续经营有关的免责声明",
+      "summary": "香港证监会、会财局与联交所联合应对仅与持续经营相关的核数师保留意见。",
       "sourceName": "香港证监会（SFC）新闻稿",
       "contentType": "政策",
       "region": "香港",
@@ -24,8 +24,8 @@
     },
     {
       "id": "src-fl1dgu",
-      "title": "South Korea Launches $750 Billion Decarbonization Strategy",
-      "summary": "The Government of South Korea announced the launch of its new Korean Green Transformation (K-GX)",
+      "title": "韩国推出7500亿美元的脱碳战略（$ 750 Billion Decarbonization Strategy）",
+      "summary": "韩国政府宣布推出新的韩国绿色转型（K-GX）战略，包括计划在未来十年内动员1000万亿韩元（7470亿美元）用于实现其气候目标，重点关注工业脱碳、可再生能源和清洁交通等关键领域。",
       "sourceName": "ESG Today（全球 ESG 新闻）",
       "contentType": "观点",
       "region": "全球",
@@ -34,8 +34,8 @@
     },
     {
       "id": "src-zibkgm",
-      "title": "SEC Drops Investigation into BlackRock, State Street, with a Warning Over Participation in Climate Groups",
-      "summary": "The U.S.",
+      "title": "美国证券交易委员会放弃对州街贝莱德的调查，并就参与气候组织发出警告",
+      "summary": "美国证券交易委员会（SEC）周三宣布，它已决定不对包括贝莱德（BlackRock）和道富银行（State Street）在内的资产管理公司采取执法行动，此前他们与以气候为重点的参与组织Climate Action 100 + （CA100 +）一起参与了2021年更换埃克森美孚董事的投票，从而对潜在的监管违规行为进行了调查。",
       "sourceName": "ESG Today（全球 ESG 新闻）",
       "contentType": "观点",
       "region": "全球",
@@ -44,8 +44,8 @@
     },
     {
       "id": "src-15swhdy",
-      "title": "CIP Invests in Via Verde to Enter Italian Biomethane Market",
-      "summary": "Copenhagen Infrastructure Partners (CIP), announced the first investment from its new bioenergy fund",
+      "title": "CIP投资佛得角，进军意大利生物甲烷市场",
+      "summary": "哥本哈根基础设施合作伙伴（CIP）宣布了其新的生物能源基金的首笔投资，清洁基础设施投资者支持意大利的生物甲烷开发平台Via Verde。这项投资是在今年早些时候CIP推出其先进生物能源基金II （ABF II）之后进行的，该基金专注于扩大整个欧洲的生物甲烷和先进生物能源生产。",
       "sourceName": "ESG Today（全球 ESG 新闻）",
       "contentType": "观点",
       "region": "全球",
@@ -59,8 +59,8 @@
       "items": [
         {
           "id": "src-fl1dgu",
-          "title": "South Korea Launches $750 Billion Decarbonization Strategy",
-          "summary": "The Government of South Korea announced the launch of its new Korean Green Transformation (K-GX)",
+          "title": "韩国推出7500亿美元的脱碳战略（$ 750 Billion Decarbonization Strategy）",
+          "summary": "韩国政府宣布推出新的韩国绿色转型（K-GX）战略，包括计划在未来十年内动员1000万亿韩元（7470亿美元）用于实现其气候目标，重点关注工业脱碳、可再生能源和清洁交通等关键领域。",
           "sourceName": "ESG Today（全球 ESG 新闻）",
           "contentType": "观点",
           "region": "全球",
@@ -69,8 +69,8 @@
         },
         {
           "id": "src-zibkgm",
-          "title": "SEC Drops Investigation into BlackRock, State Street, with a Warning Over Participation in Climate Groups",
-          "summary": "The U.S.",
+          "title": "美国证券交易委员会放弃对州街贝莱德的调查，并就参与气候组织发出警告",
+          "summary": "美国证券交易委员会（SEC）周三宣布，它已决定不对包括贝莱德（BlackRock）和道富银行（State Street）在内的资产管理公司采取执法行动，此前他们与以气候为重点的参与组织Climate Action 100 + （CA100 +）一起参与了2021年更换埃克森美孚董事的投票，从而对潜在的监管违规行为进行了调查。",
           "sourceName": "ESG Today（全球 ESG 新闻）",
           "contentType": "观点",
           "region": "全球",
@@ -79,8 +79,8 @@
         },
         {
           "id": "src-15swhdy",
-          "title": "CIP Invests in Via Verde to Enter Italian Biomethane Market",
-          "summary": "Copenhagen Infrastructure Partners (CIP), announced the first investment from its new bioenergy fund",
+          "title": "CIP投资佛得角，进军意大利生物甲烷市场",
+          "summary": "哥本哈根基础设施合作伙伴（CIP）宣布了其新的生物能源基金的首笔投资，清洁基础设施投资者支持意大利的生物甲烷开发平台Via Verde。这项投资是在今年早些时候CIP推出其先进生物能源基金II （ABF II）之后进行的，该基金专注于扩大整个欧洲的生物甲烷和先进生物能源生产。",
           "sourceName": "ESG Today（全球 ESG 新闻）",
           "contentType": "观点",
           "region": "全球",
@@ -89,8 +89,8 @@
         },
         {
           "id": "src-jh3ndy",
-          "title": "Amazon, Microsoft Partner on 750 Million Liter Water Replenishment Project",
-          "summary": "Tech giants Amazon and Microsoft announced a new water replenishment project in Hesse, Germany",
+          "title": "亚马逊与微软合作开展7.5亿升补水项目",
+          "summary": "科技巨头亚马逊和微软在德国黑森州宣布了一项新的补水项目，旨在恢复自然湿地条件和补充当地地下水资源，预计每年将为当地地下水供应返还超过7.5亿升水。",
           "sourceName": "ESG Today（全球 ESG 新闻）",
           "contentType": "观点",
           "region": "全球",
@@ -99,8 +99,8 @@
         },
         {
           "id": "src-1opplf6",
-          "title": "Deutsche Telekom Appoints Robert Metzke as Chief Sustainability Officer",
-          "summary": "Deutsche Telekom announced the appointment of Robert Metzke as Chief Sustainability Officer",
+          "title": "德国电信任命Robert Metzke为首席可持续发展官",
+          "summary": "德国电信宣布任命Robert Metzke为首席可持续发展官，这是该公司新设立的职位。在新职位上， Metzke将专注于将可持续发展更紧密地整合到德国电信的企业战略和核心业务中。",
           "sourceName": "ESG Today（全球 ESG 新闻）",
           "contentType": "观点",
           "region": "全球",
@@ -109,8 +109,8 @@
         },
         {
           "id": "src-134plq7",
-          "title": "LEGO Owner KIRKBI Appoints Craig Arnold as Head of Circular Plastics",
-          "summary": "LEGO Group holding company KIRKBI’s climate investment arm KIRKBI Climate announced the appointment of Craig",
+          "title": "乐高老板KIRKBI任命Craig Arnold为圆形塑料主管",
+          "summary": "乐高集团控股公司KIRKBI的气候投资部门KIRKBI Climate宣布任命Craig Arnold为循环塑料主管及其领导团队成员，因为该公司计划大幅增加对循环塑料的投资。",
           "sourceName": "ESG Today（全球 ESG 新闻）",
           "contentType": "观点",
           "region": "全球",
@@ -124,8 +124,8 @@
       "items": [
         {
           "id": "src-14umkjn",
-          "title": "SFC hosts meeting of IOSCO’s Committee on Issuer Accounting, Audit and Disclosure",
-          "summary": "",
+          "title": "证监会主办国际证监会组织发行人会计、审计和披露委员会会议",
+          "summary": "香港证监会主办国际证监会组织发行人会计、审计与披露委员会会议。",
           "sourceName": "香港证监会（SFC）新闻稿",
           "contentType": "政策",
           "region": "香港",
@@ -134,8 +134,8 @@
         },
         {
           "id": "src-g4wm9q",
-          "title": "SFC, AFRC and the Exchange join forces to address disclaimers of opinion solely relating to going concern",
-          "summary": "",
+          "title": "证监会、武革委及本交易所联手处理仅与持续经营有关的免责声明",
+          "summary": "香港证监会、会财局与联交所联合应对仅与持续经营相关的核数师保留意见。",
           "sourceName": "香港证监会（SFC）新闻稿",
           "contentType": "政策",
           "region": "香港",

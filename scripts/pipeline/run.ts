@@ -231,7 +231,15 @@ async function acquireMaterials(
   // 实时结果优先，快照材料补齐尚未实现适配器的信源，避免公开内容在切换时消失。
   const byId = new Map<string, RawMaterial>();
   for (const material of snapshot) byId.set(material.id, material);
-  for (const material of collected) byId.set(material.id, material);
+  for (const material of collected) {
+    const existing = byId.get(material.id);
+    if (existing) {
+      // 同一条材料再次被抓取时，保留快照里已翻译的中文标题与摘要。
+      material.content.titleZh = existing.content.titleZh || material.content.titleZh;
+      material.content.summaryZh = existing.content.summaryZh || material.content.summaryZh;
+    }
+    byId.set(material.id, material);
+  }
   return [...byId.values()];
 }
 
