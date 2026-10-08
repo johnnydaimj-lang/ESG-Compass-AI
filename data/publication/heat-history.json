@@ -1,745 +1,251 @@
 {
-  "generatedAt": "2026-09-29T16:42:56.668Z",
+  "generatedAt": "2026-10-08T17:34:54.850Z",
   "stories": {
-    "story-1ur8r4w": [
-      {
-        "hour": "2026-09-27T16:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-27T17:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-27T18:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-27T19:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-27T20:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-27T21:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-27T22:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-27T23:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T00:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T01:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T02:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T03:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T04:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T05:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T06:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T07:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T08:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T09:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T10:42:56.037Z",
-        "heat": 3.2,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T11:42:56.037Z",
-        "heat": 3.1,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T12:42:56.037Z",
-        "heat": 3,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T13:42:56.037Z",
-        "heat": 3,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T14:42:56.037Z",
-        "heat": 3,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T15:42:56.037Z",
-        "heat": 2.9,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T16:42:56.037Z",
-        "heat": 2.8,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T17:42:56.037Z",
-        "heat": 2.7,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T18:42:56.037Z",
-        "heat": 2.6,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T19:42:56.037Z",
-        "heat": 2.6,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T20:42:56.037Z",
-        "heat": 2.5,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T21:42:56.037Z",
-        "heat": 2.4,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T22:42:56.037Z",
-        "heat": 2.3,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T23:42:56.037Z",
-        "heat": 2.3,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T00:42:56.037Z",
-        "heat": 2.2,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T01:42:56.037Z",
-        "heat": 2.2,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T02:42:56.037Z",
-        "heat": 2.1,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T03:42:56.037Z",
-        "heat": 2,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T04:42:56.037Z",
-        "heat": 2,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T05:42:56.037Z",
-        "heat": 1.9,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T06:42:56.037Z",
-        "heat": 1.9,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T07:42:56.037Z",
-        "heat": 1.8,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T08:42:56.037Z",
-        "heat": 1.8,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T09:42:56.037Z",
-        "heat": 1.7,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T10:42:56.037Z",
-        "heat": 1.7,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T11:42:56.037Z",
-        "heat": 1.6,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T12:42:56.037Z",
-        "heat": 1.6,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T13:42:56.037Z",
-        "heat": 1.5,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T14:42:56.037Z",
-        "heat": 1.5,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T15:42:56.037Z",
-        "heat": 1.4,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-29T16:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      }
-    ],
-    "story-1ui59p6": [
-      {
-        "hour": "2026-09-27T16:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-27T17:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-27T18:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-27T19:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-27T20:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-27T21:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-27T22:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-27T23:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T00:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T01:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T02:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T03:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T04:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T05:42:56.037Z",
-        "heat": 0,
-        "participants": 1
-      },
-      {
-        "hour": "2026-09-28T06:42:56.037Z",
-        "heat": 3.3,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T07:42:56.037Z",
-        "heat": 3.2,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T08:42:56.037Z",
-        "heat": 3.1,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T09:42:56.037Z",
-        "heat": 3,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T10:42:56.037Z",
-        "heat": 2.9,
-        "participants": 2
-      },
-      {
-        "hour": "2026-09-28T11:42:56.037Z",
-        "heat": 4.8,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-28T12:42:56.037Z",
-        "heat": 4.7,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-28T13:42:56.037Z",
-        "heat": 4.5,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-28T14:42:56.037Z",
-        "heat": 4.4,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-28T15:42:56.037Z",
-        "heat": 4.3,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-28T16:42:56.037Z",
-        "heat": 4.2,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-28T17:42:56.037Z",
-        "heat": 4.1,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-28T18:42:56.037Z",
-        "heat": 3.9,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-28T19:42:56.037Z",
-        "heat": 3.8,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-28T20:42:56.037Z",
-        "heat": 3.7,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-28T21:42:56.037Z",
-        "heat": 3.6,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-28T22:42:56.037Z",
-        "heat": 3.5,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-28T23:42:56.037Z",
-        "heat": 3.4,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T00:42:56.037Z",
-        "heat": 3.3,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T01:42:56.037Z",
-        "heat": 3.2,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T02:42:56.037Z",
-        "heat": 3.1,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T03:42:56.037Z",
-        "heat": 3,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T04:42:56.037Z",
-        "heat": 2.9,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T05:42:56.037Z",
-        "heat": 2.9,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T06:42:56.037Z",
-        "heat": 2.8,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T07:42:56.037Z",
-        "heat": 2.7,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T08:42:56.037Z",
-        "heat": 2.6,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T09:42:56.037Z",
-        "heat": 2.6,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T10:42:56.037Z",
-        "heat": 2.5,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T11:42:56.037Z",
-        "heat": 2.4,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T12:42:56.037Z",
-        "heat": 2.3,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T13:42:56.037Z",
-        "heat": 2.3,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T14:42:56.037Z",
-        "heat": 2.2,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T15:42:56.037Z",
-        "heat": 2.1,
-        "participants": 3
-      },
-      {
-        "hour": "2026-09-29T16:42:56.037Z",
-        "heat": 1.6,
-        "participants": 2
-      }
-    ],
     "story-17c9ghq": [
       {
-        "hour": "2026-09-27T16:42:56.037Z",
+        "hour": "2026-10-06T17:34:45.573Z",
         "heat": 0,
         "participants": 0
       },
       {
-        "hour": "2026-09-27T17:42:56.037Z",
+        "hour": "2026-10-06T18:34:45.573Z",
         "heat": 0,
         "participants": 0
       },
       {
-        "hour": "2026-09-27T18:42:56.037Z",
+        "hour": "2026-10-06T19:34:45.573Z",
         "heat": 0,
         "participants": 0
       },
       {
-        "hour": "2026-09-27T19:42:56.037Z",
+        "hour": "2026-10-06T20:34:45.573Z",
         "heat": 0,
         "participants": 0
       },
       {
-        "hour": "2026-09-27T20:42:56.037Z",
+        "hour": "2026-10-06T21:34:45.573Z",
         "heat": 0,
         "participants": 0
       },
       {
-        "hour": "2026-09-27T21:42:56.037Z",
+        "hour": "2026-10-06T22:34:45.573Z",
         "heat": 0,
         "participants": 0
       },
       {
-        "hour": "2026-09-27T22:42:56.037Z",
+        "hour": "2026-10-06T23:34:45.573Z",
         "heat": 0,
         "participants": 0
       },
       {
-        "hour": "2026-09-27T23:42:56.037Z",
+        "hour": "2026-10-07T00:34:45.573Z",
         "heat": 0,
-        "participants": 1
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T00:42:56.037Z",
+        "hour": "2026-10-07T01:34:45.573Z",
         "heat": 0,
-        "participants": 1
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T01:42:56.037Z",
+        "hour": "2026-10-07T02:34:45.573Z",
         "heat": 0,
-        "participants": 1
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T02:42:56.037Z",
+        "hour": "2026-10-07T03:34:45.573Z",
         "heat": 0,
-        "participants": 1
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T03:42:56.037Z",
+        "hour": "2026-10-07T04:34:45.573Z",
         "heat": 0,
-        "participants": 1
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T04:42:56.037Z",
+        "hour": "2026-10-07T05:34:45.573Z",
         "heat": 0,
-        "participants": 1
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T05:42:56.037Z",
+        "hour": "2026-10-07T06:34:45.573Z",
         "heat": 0,
-        "participants": 1
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T06:42:56.037Z",
+        "hour": "2026-10-07T07:34:45.573Z",
         "heat": 0,
-        "participants": 1
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T07:42:56.037Z",
+        "hour": "2026-10-07T08:34:45.573Z",
         "heat": 0,
-        "participants": 1
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T08:42:56.037Z",
+        "hour": "2026-10-07T09:34:45.573Z",
         "heat": 0,
-        "participants": 1
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T09:42:56.037Z",
+        "hour": "2026-10-07T10:34:45.573Z",
         "heat": 0,
-        "participants": 1
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T10:42:56.037Z",
+        "hour": "2026-10-07T11:34:45.573Z",
         "heat": 0,
-        "participants": 1
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T11:42:56.037Z",
+        "hour": "2026-10-07T12:34:45.573Z",
         "heat": 0,
-        "participants": 1
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T12:42:56.037Z",
+        "hour": "2026-10-07T13:34:45.573Z",
         "heat": 0,
-        "participants": 1
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T13:42:56.037Z",
+        "hour": "2026-10-07T14:34:45.573Z",
         "heat": 0,
-        "participants": 1
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T14:42:56.037Z",
-        "heat": 3.2,
-        "participants": 2
+        "hour": "2026-10-07T15:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T15:42:56.037Z",
-        "heat": 3.1,
-        "participants": 2
+        "hour": "2026-10-07T16:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T16:42:56.037Z",
-        "heat": 3.2,
-        "participants": 2
+        "hour": "2026-10-07T17:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T17:42:56.037Z",
-        "heat": 3.1,
-        "participants": 2
+        "hour": "2026-10-07T18:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T18:42:56.037Z",
-        "heat": 3,
-        "participants": 2
+        "hour": "2026-10-07T19:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T19:42:56.037Z",
-        "heat": 2.9,
-        "participants": 2
+        "hour": "2026-10-07T20:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T20:42:56.037Z",
-        "heat": 2.8,
-        "participants": 2
+        "hour": "2026-10-07T21:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T21:42:56.037Z",
-        "heat": 2.7,
-        "participants": 2
+        "hour": "2026-10-07T22:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T22:42:56.037Z",
-        "heat": 2.7,
-        "participants": 2
+        "hour": "2026-10-07T23:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-28T23:42:56.037Z",
-        "heat": 2.6,
-        "participants": 2
+        "hour": "2026-10-08T00:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T00:42:56.037Z",
-        "heat": 2.5,
-        "participants": 2
+        "hour": "2026-10-08T01:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T01:42:56.037Z",
-        "heat": 2.4,
-        "participants": 2
+        "hour": "2026-10-08T02:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T02:42:56.037Z",
-        "heat": 2.4,
-        "participants": 2
+        "hour": "2026-10-08T03:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T03:42:56.037Z",
-        "heat": 2.3,
-        "participants": 2
+        "hour": "2026-10-08T04:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T04:42:56.037Z",
-        "heat": 2.2,
-        "participants": 2
+        "hour": "2026-10-08T05:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T05:42:56.037Z",
-        "heat": 2.2,
-        "participants": 2
+        "hour": "2026-10-08T06:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T06:42:56.037Z",
-        "heat": 2.1,
-        "participants": 2
+        "hour": "2026-10-08T07:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T07:42:56.037Z",
-        "heat": 2.1,
-        "participants": 2
+        "hour": "2026-10-08T08:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T08:42:56.037Z",
-        "heat": 2,
-        "participants": 2
+        "hour": "2026-10-08T09:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T09:42:56.037Z",
-        "heat": 1.9,
-        "participants": 2
+        "hour": "2026-10-08T10:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T10:42:56.037Z",
-        "heat": 1.9,
-        "participants": 2
+        "hour": "2026-10-08T11:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T11:42:56.037Z",
-        "heat": 1.8,
-        "participants": 2
+        "hour": "2026-10-08T12:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T12:42:56.037Z",
-        "heat": 1.8,
-        "participants": 2
+        "hour": "2026-10-08T13:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T13:42:56.037Z",
-        "heat": 1.7,
-        "participants": 2
+        "hour": "2026-10-08T14:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T14:42:56.037Z",
-        "heat": 1.7,
-        "participants": 2
+        "hour": "2026-10-08T15:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T15:42:56.037Z",
-        "heat": 1.6,
-        "participants": 2
+        "hour": "2026-10-08T16:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       },
       {
-        "hour": "2026-09-29T16:42:56.037Z",
-        "heat": 1.6,
-        "participants": 2
+        "hour": "2026-10-08T17:34:45.573Z",
+        "heat": 0,
+        "participants": 0
       }
     ]
   }
