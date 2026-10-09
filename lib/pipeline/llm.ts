@@ -1,38 +1,82 @@
-export interface JsonCompletionOptions {
-  system: string;
-  user: string;
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
+import type { RawMaterial, ScoreRun } from "@/lib/contracts/pipeline";
+import { promptText } from "./prompt";
+import { runHeuristicScores } from "./score";
+
+export interface LlmConfig {
   apiKey: string;
   baseUrl: string;
   model: string;
-  temperature?: number;
-  signal?: AbortSignal;
 }
 
-export async function completeJson<T>(options: JsonCompletionOptions): Promise<T> {
-  const response = await fetch(`${options.baseUrl.replace(/\/$/, "")}/chat/completions`, {
-    method: "POST",
-    headers: {
-      "content-type": "application/json",
-      authorization: `Bearer ${options.apiKey}`,
-    },
-    body: JSON.stringify({
-      model: options.model,
-      temperature: options.temperature ?? 0,
-      response_format: { type: "json_object" },
-      messages: [
-        { role: "system", content: options.system },
-        { role: "user", content: options.user },
-      ],
-    }),
-    signal: options.signal,
-  });
-  if (!response.ok) {
-    throw new Error(`模型调用失败：HTTP ${response.status}`);
+function loadEnvFile(): void {
+  const path = resolve(process.cwd(), ".env.local");
+  try {
+    for (const line of readFileSync(path, "utf8").split("\n")) {
+      const match = line.match(/^\s*([A-Za-z_][A-Za-z0-9_]*)\s*=\s*([^\r\n]*)\s*$/);
+      if (match && !(match[1] in process.env)) {
+        process.env[match[1]] = match[2].replace(/^["']|["']$/g, "").trim();
+      }
+    }
+  } catch {
+    // .env.local 不存在时忽略
   }
-  const payload = await response.json() as {
-    choices?: Array<{ message?: { content?: string } }>;
+}
+
+export function getLlmConfig(): LlmConfig | null {
+  loadEnvFile();
+  const apiKey = process.env.LLM_API_KEY?.trim();
+  if (!apiKey) return null;
+  return {
+    apiKey,
+    baseUrl: (process.env.LLM_BASE_URL || "https://api.deepseek.com/v1").trim(),
+    model: (process.env.LLM_MODEL || "deepseek-chat").trim(),
   };
-  const content = payload.choices?.[0]?.message?.content;
-  if (!content) throw new Error("模型未返回 JSON 内容");
-  return JSON.parse(content) as T;
+}
+
+async function attentionScore(system: string, user: string, config: LlmConfig): Promise<number | null> {
+  try {
+    const url = `${config.baseUrl.replace(/\/+$/, "")}/chat/completions`;
+    const res = await fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Authorization: `Bearer ${config.apiKey}` },
+      body: JSON.stringify({
+        model: config.model,
+        temperature: 1,
+        messages: [
+          { role: "system", content: system },
+          { role: "user", content: user },
+        ],
+      }),
+      signal: AbortSignal.timeout(90_000),
+    });
+    if (!res.ok) return null;
+    const data = (await res.json()) as { choices?: Array<{ message?: { content?: string } }> };
+    const text = data.choices?.[0]?.message?.content || "";
+    const json = text.match(/\{[\s\S]*\}/)?.[0];
+    if (!json) return null;
+    const score = Number((JSON.parse(json) as { attentionScore?: unknown }).attentionScore);
+    if (!Number.isFinite(score)) return null;
+    return Math.max(0, Math.min(100, Math.round(score)));
+  } catch {
+    return null;
+  }
+}
+
+const EMPTY_AXES = { significance: 0, novelty: 0, credibility: 0, resonance: 0, actionability: 0 };
+
+export async function scoreMaterialWithLlm(material: RawMaterial): Promise<[ScoreRun, ScoreRun]> {
+  const config = getLlmConfig();
+  const fallback = runHeuristicScores(material, material.sourceTier || "T2");
+  if (!config) return fallback;
+  const system = promptText("selection-score", { siteName: "ESG Compass" });
+  const user = `标题：${material.title}\n正文：${material.summary || ""}\n${material.body || ""}`;
+  const first = await attentionScore(system, user, config);
+  const second = await attentionScore(system, user, config);
+  if (first === null || second === null) return fallback;
+  return [
+    { score: first, axes: EMPTY_AXES },
+    { score: second, axes: EMPTY_AXES },
+  ];
 }

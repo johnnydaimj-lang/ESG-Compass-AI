@@ -11,8 +11,8 @@ export const SCORE_WEIGHTS: Record<ContentType, [number, number, number, number,
 
 export const SELECTION_THRESHOLDS: Record<SourceTier, number> = {
   T1: 60,
-  T1_5: 64,
-  T2: 70,
+  T1_5: 65,
+  T2: 76,
   SIGNAL: 101,
 };
 

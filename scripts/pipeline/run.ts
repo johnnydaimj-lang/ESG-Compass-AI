@@ -23,6 +23,7 @@ import { prefilterMaterial } from "@/lib/pipeline/prefilter";
 import { promptVersion, promptVersions } from "@/lib/pipeline/prompt";
 import { toPublishedItem, type ProcessedMaterial } from "@/lib/pipeline/publication";
 import { decideSelection, recommendReasonFor, runHeuristicScores } from "@/lib/pipeline/score";
+import { scoreMaterialWithLlm } from "@/lib/pipeline/llm";
 import { structureMaterial } from "@/lib/pipeline/structure";
 import { cleanSummaryText, stableHash } from "@/lib/pipeline/text";
 import { understandMaterial } from "@/lib/pipeline/understand";
@@ -220,7 +221,7 @@ async function acquireMaterials(
 ): Promise<RawMaterial[]> {
   const snapshot = materialsFromSnapshot(sources, warnings);
 
-  if (mode !== "live") {
+  if (mode === "snapshot") {
     sourceRuns.push(...snapshotSourceRuns(sources, snapshot, startedAt));
     return snapshot;
   }
@@ -243,6 +244,19 @@ async function acquireMaterials(
   return [...byId.values()];
 }
 
+async function mapWithConcurrency<T, R>(items: T[], concurrency: number, fn: (item: T) => Promise<R>): Promise<R[]> {
+  const results = new Array<R>(items.length);
+  let cursor = 0;
+  const workers = Array.from({ length: Math.max(1, Math.min(concurrency, items.length)) }, async () => {
+    while (cursor < items.length) {
+      const index = cursor++;
+      results[index] = await fn(items[index]);
+    }
+  });
+  await Promise.all(workers);
+  return results;
+}
+
 async function main() {
   const startedAt = new Date();
   const sourceConfig = readJson<SourceFile>(sourcesFile, { sources: [] });
@@ -256,6 +270,7 @@ async function main() {
   let blocked = 0;
   let unknown = 0;
 
+  const prefiltered: Array<{ material: RawMaterial; prefilter: PrefilterResult; sourceTier: SourceTier }> = [];
   for (const material of rawMaterials) {
     const prefilter: PrefilterResult = prefilterMaterial(material);
     if (prefilter.label === "BLOCK") {
@@ -263,21 +278,29 @@ async function main() {
       continue;
     }
     if (prefilter.label === "UNKNOWN") unknown += 1;
+    prefiltered.push({ material, prefilter, sourceTier: material.sourceTier || "T2" });
+  }
 
-    const sourceTier = material.sourceTier || "T2";
-    const runs = runHeuristicScores(material, sourceTier);
-    const decision = decideSelection(runs, sourceTier);
-    const understanding = understandMaterial(material, sourceTier);
-    understanding.editorialJudgment = recommendReasonFor(material, decision);
-    const fact = structureMaterial(material);
+  const scored = await mapWithConcurrency(prefiltered, mode === "llm" ? 6 : 1, async (entry) => ({
+    ...entry,
+    runs: mode === "llm"
+      ? await scoreMaterialWithLlm(entry.material)
+      : runHeuristicScores(entry.material, entry.sourceTier),
+  }));
+
+  for (const entry of scored) {
+    const decision = decideSelection(entry.runs, entry.sourceTier);
+    const understanding = understandMaterial(entry.material, entry.sourceTier);
+    understanding.editorialJudgment = recommendReasonFor(entry.material, decision);
+    const fact = structureMaterial(entry.material);
     processed.push({
-      material,
-      sourceTier,
-      prefilter,
+      material: entry.material,
+      sourceTier: entry.sourceTier,
+      prefilter: entry.prefilter,
       decision,
       understanding,
       fact,
-      legacySelected: Boolean(material.legacyRecommended),
+      legacySelected: Boolean(entry.material.legacyRecommended),
     });
   }
 
@@ -337,7 +360,7 @@ async function main() {
     .slice(0, 30);
 
   if (mode === "llm") {
-    warnings.push("未配置模型执行器，本次使用确定性评分适配器；Prompt 由 prompts/ 版本化管理。");
+    warnings.push("llm 模式：优先使用 LLM 评分，无 LLM_API_KEY 或调用失败时回退到确定性评分适配器。");
   }
   if (mode === "live") {
     warnings.push("实时模式仅对已实现的 RSS 适配器联网，其余信源沿用快照材料。");

@@ -1,5 +1,5 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { ArrowUpRight, MapPin, Star, ChevronDown, CalendarRange, RotateCcw, Flame, Clock } from "lucide-react";
 import { getContentLink, getHomeTitle, getHomeSummary, summarizeForHome, type ContentItem, type ContentType } from "@/lib/esg-data-client";
@@ -82,6 +82,29 @@ function relativeDay(date: string) {
 interface Props { contents: ContentItem[]; zones: Zone[]; initialMonth?: string; hotspots?: StoryCluster[]; heatHistory?: HeatHistory | null }
 
 export default function HomeClient({ contents, zones, initialMonth, hotspots, heatHistory }: Props) {
+  // 返回首页时恢复离开前的滚动位置，避免每次都回到顶部。
+  useEffect(function () {
+    var key = "esg-home-scroll-y";
+    var saved = Number(sessionStorage.getItem(key));
+    if (Number.isFinite(saved) && saved > 0) {
+      window.scrollTo(0, saved);
+    }
+    sessionStorage.removeItem(key);
+
+    var timer: ReturnType<typeof setTimeout> | undefined;
+    function onScroll() {
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(function () {
+        sessionStorage.setItem(key, String(window.scrollY));
+      }, 120);
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return function () {
+      if (timer) clearTimeout(timer);
+      window.removeEventListener("scroll", onScroll);
+    };
+  }, []);
+
   var [tab, setTab] = useState<Tab>("全部");
   var [showAll, setShowAll] = useState(false);
   var [pickedOnly, setPickedOnly] = useState(false);
@@ -245,18 +268,17 @@ export default function HomeClient({ contents, zones, initialMonth, hotspots, he
         </div>
       ) : (
         <div className="relative">
-          <div className="absolute left-[15px] top-1 h-[calc(100%-8px)] w-px bg-line-strong" aria-hidden />
+          <div className="absolute left-3 top-1 h-[calc(100%-8px)] w-px bg-line-strong" aria-hidden />
           <div className="space-y-8">
             {displayGroups.map(function (_a) {
               var date = _a[0], items = _a[1], multi = items.length > 1;
               return (
                 <div key={date} className="relative">
                   <div className="flex items-start">
-                    <div className="relative flex shrink-0 items-center pt-[2px]">
+                    <div className="sticky top-14 z-10 flex shrink-0 items-center pt-[2px]">
                       <div className="z-10 flex h-6 w-6 items-center justify-center rounded-full border-2 border-brand bg-surface">
                         <div className="h-1.5 w-1.5 rounded-full bg-brand" />
                       </div>
-                      <div className="absolute left-3 top-3 h-px w-4 bg-line-strong" />
                     </div>
                     <div className="ml-6 flex-1">
                       <div className="sticky top-14 z-10 mb-3 flex items-center gap-2 rounded-md bg-paper/95 px-2 py-1 backdrop-blur">

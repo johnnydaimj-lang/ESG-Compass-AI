@@ -120,11 +120,14 @@ const AXIS_LABELS: Record<keyof ScoreAxes, string> = {
 };
 
 export function recommendReasonFor(material: RawMaterial, decision: ScoreDecision): string {
+  const topic = material.esgTopic || "ESG";
+  const region = material.region || "全球";
   const axes = (Object.keys(AXIS_LABELS) as Array<keyof ScoreAxes>)
     .map((key) => ({ key, value: (decision.runs[0].axes[key] + decision.runs[1].axes[key]) / 2 }))
     .sort((a, b) => b.value - a.value);
   const top = axes[0];
-  const topic = material.esgTopic || "ESG";
-  const region = material.region || "全球";
+  if (!top || top.value === 0) {
+    return `涉及${topic}${region !== "全球" ? `的${region}` : ""}动向，综合评分 ${decision.displayScore}。`;
+  }
   return `${AXIS_LABELS[top.key]}较突出，涉及${topic}${region !== "全球" ? `的${region}` : ""}动向，综合评分 ${decision.displayScore}。`;
 }

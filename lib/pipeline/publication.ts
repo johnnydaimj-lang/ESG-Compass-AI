@@ -25,9 +25,7 @@ export function toPublishedItem(
   options: { preserveLegacySelection?: boolean; promptVersion?: string } = {}
 ): ContentItem {
   const { material, decision, understanding, fact } = processed;
-  const selected = options.preserveLegacySelection
-    ? processed.legacySelected
-    : decision.selected;
+  const selected = decision.selected;
   return {
     ...material.content,
     titleZh: understanding.titleZh,
