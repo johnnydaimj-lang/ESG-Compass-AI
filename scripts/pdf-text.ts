@@ -8,7 +8,10 @@ async function main() {
     console.log("用法: tsx scripts/pdf-text.ts <url>");
     return;
   }
-  const res = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" } });
+  const res = await fetch(url, {
+    headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" },
+    signal: AbortSignal.timeout(25_000),
+  });
   const buf = Buffer.from(await res.arrayBuffer());
   const s = buf.toString("latin1");
   const parts: string[] = [];
