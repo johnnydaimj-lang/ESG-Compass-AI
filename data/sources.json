@@ -1174,6 +1174,17 @@
       "notes": "公众号官方账号追踪：国家金融监督管理总局",
       "recoveryCategory": "公众号自动抓取",
       "recoveryPlan": "已接入公众号官方账号过滤"
+    },
+    {
+      "id": "sec-investreports",
+      "name": "SEC 调查报告（Investigation Reports）",
+      "url": "https://www.sec.gov/enforcement-litigation/reports-investigations",
+      "type": "sec-investreport",
+      "contentType": "政策",
+      "region": "美国",
+      "language": "en",
+      "enabled": true,
+      "notes": "SEC 依据证券交易法第 21(a) 条发布的调查报告，含气候行动 100+/埃克森美孚等案例。"
     }
   ]
 }

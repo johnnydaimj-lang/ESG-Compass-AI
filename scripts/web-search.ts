@@ -34,7 +34,7 @@ async function main() {
   }
   const results = [...(await ddg(query)), ...(await bing(query))];
   const unique = [...new Set(results)];
-  const gov = unique.filter((l) => /mof\.gov\.cn|gov\.cn|chinatax|kjs\./.test(l));
+  const gov = unique.filter((l) => /mof\.gov\.cn|gov\.cn|sec\.gov|chinatax|kjs\./.test(l));
   for (const link of (gov.length ? gov : unique).slice(0, 25)) console.log(link);
 }
 

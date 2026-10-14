@@ -16,7 +16,7 @@ import type {
 import { PIPELINE_VERSION } from "@/lib/contracts/pipeline";
 import { clusterMaterials, type ClusterInput } from "@/lib/pipeline/cluster";
 import { classifyContentType } from "@/lib/pipeline/classify";
-import { collectRssSource, sourceTierFor, type SourceConfig } from "@/lib/pipeline/collect";
+import { collectRssSource, collectSecInvestreports, sourceTierFor, type SourceConfig } from "@/lib/pipeline/collect";
 import { buildDailyReport } from "@/lib/pipeline/daily";
 import { calculateHeat } from "@/lib/pipeline/heat";
 import { prefilterMaterial } from "@/lib/pipeline/prefilter";
@@ -189,6 +189,19 @@ async function liveSourceRuns(
       const warning = `缺少环境变量：${missing.join(", ")}`;
       runs.push({ ...base, state: "skipped", count: 0, rawCount: 0, error: "", warning, channel: "live", fallbackUsed: false });
       warnings.push(`${source.name} ${warning}`);
+      continue;
+    }
+
+    if (source.type.toLowerCase() === "sec-investreport") {
+      try {
+        const items = await collectSecInvestreports(source);
+        collected.push(...items);
+        runs.push({ ...base, state: "ok", count: items.length, rawCount: items.length, error: "", warning: "", channel: "sec-investreport", fallbackUsed: false });
+      } catch (error) {
+        const message = error instanceof Error ? error.message : String(error);
+        runs.push({ ...base, state: "failed", count: 0, rawCount: 0, error: message, warning: "", channel: "sec-investreport", fallbackUsed: false });
+        warnings.push(`${source.name} 抓取失败：${message}`);
+      }
       continue;
     }
 

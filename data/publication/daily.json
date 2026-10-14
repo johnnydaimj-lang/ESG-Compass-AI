@@ -1,166 +1,31 @@
 {
-  "date": "2026-10-13",
-  "generatedAt": "2026-10-14T02:42:40.389Z",
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T06:10:17.586Z",
   "highlights": [
     {
-      "id": "src-100yut5",
-      "title": "SBTN 发布企业基于科学的自然目标设定新框架",
-      "summary": "基于科学的目标网络 (SBTN) 今天宣布发布基于科学的自然目标",
-      "sourceName": "ESG Today（全球 ESG 新闻）",
-      "contentType": "观点",
-      "region": "全球",
-      "publishedAt": "2026-10-13T11:14:31.000Z",
-      "score": 71
-    },
-    {
-      "id": "src-18ebdgn",
-      "title": "TNFD 发布支持企业自然相关报告指南的重大更新",
-      "summary": "自然相关财务披露工作组 (TNFD) 宣布发布 LEAP 2.0",
-      "sourceName": "ESG Today（全球 ESG 新闻）",
-      "contentType": "观点",
-      "region": "全球",
-      "publishedAt": "2026-10-13T14:44:42.000Z",
-      "score": 70
-    },
-    {
-      "id": "src-1c2myb3",
-      "title": "斯托克， Osmosis推出新的可持续转型因素指数套件",
-      "summary": "指数提供商 Stoxx 和专注于可持续发展的资产管理公司 Osmosis 宣布推出 iSTOXX Osmosis",
-      "sourceName": "ESG Today（全球 ESG 新闻）",
-      "contentType": "观点",
-      "region": "全球",
-      "publishedAt": "2026-10-13T08:06:43.000Z",
-      "score": 50
-    },
-    {
-      "id": "src-q11rj4",
-      "title": "Finance Earth、FSD Africa启动1亿美元$基金，支持基于自然的碳项目",
-      "summary": "环境影响投资公司Finance Earth和金融部门发展机构FSD Africa",
-      "sourceName": "ESG Today（全球 ESG 新闻）",
-      "contentType": "观点",
-      "region": "全球",
-      "publishedAt": "2026-10-13T11:38:50.000Z",
-      "score": 40
-    },
-    {
-      "id": "src-whdr85",
-      "title": "证监会对涉嫌串通IPO的集团采取行动并暂停百茶股份买卖",
-      "summary": "证监会对涉嫌串通IPO的集团采取行动并暂停百茶股份买卖",
-      "sourceName": "香港证监会（SFC）新闻稿",
+      "id": "src-1f94eio",
+      "title": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
+      "summary": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
+      "sourceName": "香港交易所新闻稿",
       "contentType": "政策",
       "region": "香港",
-      "publishedAt": "2026-10-13T08:30:08.000Z",
+      "publishedAt": "2026-10-14T04:00:00.000Z",
       "score": 37
     }
   ],
   "sections": [
     {
-      "label": "观点",
-      "items": [
-        {
-          "id": "src-100yut5",
-          "title": "SBTN 发布企业基于科学的自然目标设定新框架",
-          "summary": "基于科学的目标网络 (SBTN) 今天宣布发布基于科学的自然目标",
-          "sourceName": "ESG Today（全球 ESG 新闻）",
-          "contentType": "观点",
-          "region": "全球",
-          "publishedAt": "2026-10-13T11:14:31.000Z",
-          "score": 71
-        },
-        {
-          "id": "src-18ebdgn",
-          "title": "TNFD 发布支持企业自然相关报告指南的重大更新",
-          "summary": "自然相关财务披露工作组 (TNFD) 宣布发布 LEAP 2.0",
-          "sourceName": "ESG Today（全球 ESG 新闻）",
-          "contentType": "观点",
-          "region": "全球",
-          "publishedAt": "2026-10-13T14:44:42.000Z",
-          "score": 70
-        },
-        {
-          "id": "src-1c2myb3",
-          "title": "斯托克， Osmosis推出新的可持续转型因素指数套件",
-          "summary": "指数提供商 Stoxx 和专注于可持续发展的资产管理公司 Osmosis 宣布推出 iSTOXX Osmosis",
-          "sourceName": "ESG Today（全球 ESG 新闻）",
-          "contentType": "观点",
-          "region": "全球",
-          "publishedAt": "2026-10-13T08:06:43.000Z",
-          "score": 50
-        },
-        {
-          "id": "src-q11rj4",
-          "title": "Finance Earth、FSD Africa启动1亿美元$基金，支持基于自然的碳项目",
-          "summary": "环境影响投资公司Finance Earth和金融部门发展机构FSD Africa",
-          "sourceName": "ESG Today（全球 ESG 新闻）",
-          "contentType": "观点",
-          "region": "全球",
-          "publishedAt": "2026-10-13T11:38:50.000Z",
-          "score": 40
-        },
-        {
-          "id": "src-123yaiy",
-          "title": "Epyr筹集1700万美元用于扩建工业供热电气化平台",
-          "summary": "法国能源科技初创公司 Epyr 今天宣布筹集 1500 万欧元（1680 万美元）",
-          "sourceName": "ESG Today（全球 ESG 新闻）",
-          "contentType": "观点",
-          "region": "全球",
-          "publishedAt": "2026-10-13T13:18:52.000Z",
-          "score": 21
-        },
-        {
-          "id": "src-1iv61sr",
-          "title": "史蒂夫·沃兹尼亚克的节能技术平台 Efforce 被 TROOPS 收购",
-          "summary": "香港金融服务和科技公司 TROOPS 宣布达成收购能源技术的协议",
-          "sourceName": "ESG Today（全球 ESG 新闻）",
-          "contentType": "观点",
-          "region": "全球",
-          "publishedAt": "2026-10-13T16:31:13.000Z",
-          "score": 20
-        },
-        {
-          "id": "src-1ks0v63",
-          "title": "安永与分水岭启动可持续发展报告合作伙伴关系",
-          "summary": "专业服务公司安永美国宣布与气候解决方案提供商 Watershed 建立新联盟",
-          "sourceName": "ESG Today（全球 ESG 新闻）",
-          "contentType": "观点",
-          "region": "全球",
-          "publishedAt": "2026-10-13T09:15:02.000Z",
-          "score": 20
-        }
-      ]
-    },
-    {
       "label": "政策",
       "items": [
         {
-          "id": "src-whdr85",
-          "title": "证监会对涉嫌串通IPO的集团采取行动并暂停百茶股份买卖",
-          "summary": "证监会对涉嫌串通IPO的集团采取行动并暂停百茶股份买卖",
-          "sourceName": "香港证监会（SFC）新闻稿",
+          "id": "src-1f94eio",
+          "title": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
+          "summary": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
+          "sourceName": "香港交易所新闻稿",
           "contentType": "政策",
           "region": "香港",
-          "publishedAt": "2026-10-13T08:30:08.000Z",
+          "publishedAt": "2026-10-14T04:00:00.000Z",
           "score": 37
-        },
-        {
-          "id": "src-13ogzb3",
-          "title": "证监会认可保荐人工作取得的进展并敦促保持警惕",
-          "summary": "证监会认可保荐人工作取得的进展并敦促保持警惕",
-          "sourceName": "香港证监会（SFC）新闻稿",
-          "contentType": "政策",
-          "region": "香港",
-          "publishedAt": "2026-10-13T09:20:03.000Z",
-          "score": 15
-        },
-        {
-          "id": "src-u2duuc",
-          "title": "黄凯文新演讲：2026年国际证监会组织世界投资者周主旨演讲——金融知识敲响锣鼓",
-          "summary": "黄凯文新演讲：2026年国际证监会组织世界投资者周主旨演讲——金融知识敲响锣鼓",
-          "sourceName": "香港证监会（SFC）新闻稿",
-          "contentType": "政策",
-          "region": "香港",
-          "publishedAt": "2026-10-13T07:13:28.000Z",
-          "score": 10
         }
       ]
     }
@@ -168,8 +33,8 @@
   "stories": [
     {
       "id": "story-1df26g",
-      "title": "Lucky Unique non-response re- Transparentem report on alleged slow remediation",
-      "summary": "",
+      "title": "关于所谓缓慢补救措施的Lucky Unique无响应重新透明报告",
+      "summary": "Lucky Unique 未回复透明报告涉嫌补救缓慢",
       "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",

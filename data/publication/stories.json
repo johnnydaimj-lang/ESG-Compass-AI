@@ -1,5 +1,645 @@
 [
   {
+    "id": "story-xc1zc",
+    "rootId": "src-1tqd3p1",
+    "title": "Report of Investigation in the Matter of County of Orange, California as it Relates to the Conduct of the Members of the Board of Supervisors",
+    "digest": "Report of Investigation in the Matter of County of Orange, California as it Relates to the Conduct of the Members of the Board of Supervisors",
+    "latest": "Report of Investigation in the Matter of County of Orange, California as it Relates to the Conduct of the Members of the Board of Supervisors",
+    "memberIds": [
+      "src-1tqd3p1"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation in the",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report of Investigation in the Matter of County of Orange, California as it Rela",
+        "occurredAt": "1996-01-24"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "1996-01-24",
+    "latestPublishedAt": "1996-01-24",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1tqd3p1",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
+    "id": "story-1emdhat",
+    "rootId": "src-rzus66",
+    "title": "Report Persuant to Section 21(a) of the Securities Exchange Act of 1934 Regarding the NASD and the NASDAQ Market",
+    "digest": "Report Persuant to Section 21(a) of the Securities Exchange Act of 1934 Regarding the NASD and the NASDAQ Market",
+    "latest": "Report Persuant to Section 21(a) of the Securities Exchange Act of 1934 Regarding the NASD and the NASDAQ Market",
+    "memberIds": [
+      "src-rzus66"
+    ],
+    "facts": [
+      {
+        "title": "Report Persuant to Section 21(",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report Persuant to Section 21(a) of the Securities Exchange Act of 1934 Regardin",
+        "occurredAt": "1996-08-08"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "1996-08-08",
+    "latestPublishedAt": "1996-08-08",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-rzus66",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
+    "id": "story-198mjv3",
+    "rootId": "src-1doqqlc",
+    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 Concerning the Conduct of Certain Former Officers and Directors of W. R. Grace & Co.",
+    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 Concerning the Conduct of Certain Former Officers and Directors of W. R. Grace & Co.",
+    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 Concerning the Conduct of Certain Former Officers and Directors of W. R. Grace & Co.",
+    "memberIds": [
+      "src-1doqqlc"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation Pursua",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
+        "occurredAt": "1997-09-30"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "1997-09-30",
+    "latestPublishedAt": "1997-09-30",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1doqqlc",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
+    "id": "story-1yrav8u",
+    "rootId": "src-z7ccka",
+    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 and Commission Statement on the Relationship of Cooperation to Agency Enforcement Decisions",
+    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 and Commission Statement on the Relationship of Cooperation to Agency Enforcement Decisions",
+    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 and Commission Statement on the Relationship of Cooperation to Agency Enforcement Decisions",
+    "memberIds": [
+      "src-z7ccka"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation Pursua",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "enforce",
+        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
+        "occurredAt": "2001-10-23"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "2001-10-23",
+    "latestPublishedAt": "2001-10-23",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-z7ccka",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
+    "id": "story-kfx529",
+    "rootId": "src-sldcvr",
+    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Motorola, Inc.",
+    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Motorola, Inc.",
+    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Motorola, Inc.",
+    "memberIds": [
+      "src-sldcvr"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation Pursua",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
+        "occurredAt": "2002-11-25"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "2002-11-25",
+    "latestPublishedAt": "2002-11-25",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-sldcvr",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
+    "id": "story-1ls96aw",
+    "rootId": "src-1cbuibj",
+    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 (“Exchange Act”) Regarding The Nasdaq Stock Market, Inc. (“Nasdaq”), as Overseen By Its Parent, The National Association of Securities Dealers, Inc.",
+    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 (“Exchange Act”) Regarding The Nasdaq Stock Market, Inc. (“Nasdaq”), as Overseen By Its Parent, The National Association of Securities Dealers, Inc.",
+    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 (“Exchange Act”) Regarding The Nasdaq Stock Market, Inc. (“Nasdaq”), as Overseen By Its Parent, The National Association of Securities Dealers, Inc.",
+    "memberIds": [
+      "src-1cbuibj"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation Pursua",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
+        "occurredAt": "2005-02-09"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "2005-02-09",
+    "latestPublishedAt": "2005-02-09",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1cbuibj",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
+    "id": "story-1my9kh",
+    "rootId": "src-b3n8gv",
+    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 and Commission Statement on potential Exchange Act Section 10(b) and Section 14(a) liability",
+    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 and Commission Statement on potential Exchange Act Section 10(b) and Section 14(a) liability",
+    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 and Commission Statement on potential Exchange Act Section 10(b) and Section 14(a) liability",
+    "memberIds": [
+      "src-b3n8gv"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation Pursua",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
+        "occurredAt": "2005-03-01"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "2005-03-01",
+    "latestPublishedAt": "2005-03-01",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-b3n8gv",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
+    "id": "story-1u7b0du",
+    "rootId": "src-1che0wc",
+    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: The Retirement Systems of Alabama",
+    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: The Retirement Systems of Alabama",
+    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: The Retirement Systems of Alabama",
+    "memberIds": [
+      "src-1che0wc"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation Pursua",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
+        "occurredAt": "2008-03-06"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "2008-03-06",
+    "latestPublishedAt": "2008-03-06",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1che0wc",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
+    "id": "story-1x8n52h",
+    "rootId": "src-1djdlgv",
+    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: JP Morgan Securities, Inc.",
+    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: JP Morgan Securities, Inc.",
+    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: JP Morgan Securities, Inc.",
+    "memberIds": [
+      "src-1djdlgv"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation Pursua",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
+        "occurredAt": "2010-03-18"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "2010-03-18",
+    "latestPublishedAt": "2010-03-18",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1djdlgv",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
+    "id": "story-da71o8",
+    "rootId": "src-nczic0",
+    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Moody’s Investors Service, Inc.",
+    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Moody’s Investors Service, Inc.",
+    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Moody’s Investors Service, Inc.",
+    "memberIds": [
+      "src-nczic0"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation Pursua",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
+        "occurredAt": "2010-08-31"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "2010-08-31",
+    "latestPublishedAt": "2010-08-31",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-nczic0",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
+    "id": "story-bmh8ar",
+    "rootId": "src-uxx0jv",
+    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Netflix, Inc.",
+    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Netflix, Inc.",
+    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Netflix, Inc.",
+    "memberIds": [
+      "src-uxx0jv"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation Pursua",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
+        "occurredAt": "2013-04-02"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "2013-04-02",
+    "latestPublishedAt": "2013-04-02",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-uxx0jv",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
+    "id": "story-19kwlc8",
+    "rootId": "src-v1app5",
+    "title": "Report of Investigation in the Matter of the City of Harrisburg, Pennsylvania Concerning the Potential Liability of Public Officials with Regard to Disclosure Obligations in the Secondary Market",
+    "digest": "Report of Investigation in the Matter of the City of Harrisburg, Pennsylvania Concerning the Potential Liability of Public Officials with Regard to Disclosure Obligations in the Secondary Market",
+    "latest": "Report of Investigation in the Matter of the City of Harrisburg, Pennsylvania Concerning the Potential Liability of Public Officials with Regard to Disclosure Obligations in the Secondary Market",
+    "memberIds": [
+      "src-v1app5"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation in the",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report of Investigation in the Matter of the City of Harrisburg, Pennsylvania Co",
+        "occurredAt": "2013-05-06"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "2013-05-06",
+    "latestPublishedAt": "2013-05-06",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-v1app5",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
+    "id": "story-o40br3",
+    "rootId": "src-1ld9gig",
+    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Eurex Deutschland",
+    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Eurex Deutschland",
+    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Eurex Deutschland",
+    "memberIds": [
+      "src-1ld9gig"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation Pursua",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
+        "occurredAt": "2013-08-08"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "2013-08-08",
+    "latestPublishedAt": "2013-08-08",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1ld9gig",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
+    "id": "story-iwm9q1",
+    "rootId": "src-1vieok",
+    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: KPMG",
+    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: KPMG",
+    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: KPMG",
+    "memberIds": [
+      "src-1vieok"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation Pursua",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
+        "occurredAt": "2014-01-24"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "2014-01-24",
+    "latestPublishedAt": "2014-01-24",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1vieok",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
+    "id": "story-kd4shc",
+    "rootId": "src-17sc5vq",
+    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: The DAO",
+    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: The DAO",
+    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: The DAO",
+    "memberIds": [
+      "src-17sc5vq"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation Pursua",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
+        "occurredAt": "2017-07-25"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "2017-07-25",
+    "latestPublishedAt": "2017-07-25",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-17sc5vq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
+    "id": "story-14tnwpz",
+    "rootId": "src-4ozquo",
+    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 Regarding Certain Cyber-Related Frauds Perpetrated Against Public Companies and Related Internal Accounting Controls Requirements",
+    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 Regarding Certain Cyber-Related Frauds Perpetrated Against Public Companies and Related Internal Accounting Controls Requirements",
+    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 Regarding Certain Cyber-Related Frauds Perpetrated Against Public Companies and Related Internal Accounting Controls Requirements",
+    "memberIds": [
+      "src-4ozquo"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation Pursua",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
+        "occurredAt": "2018-10-16"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "2018-10-16",
+    "latestPublishedAt": "2018-10-16",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-4ozquo",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
     "id": "story-oi5pbk",
     "rootId": "src-1wny2n6",
     "title": "2005",
@@ -83,8 +723,8 @@
     "id": "story-1klgsar",
     "rootId": "src-122x9g1",
     "title": "2026",
-    "digest": "港交所年度公告。",
-    "latest": "港交所年度公告。",
+    "digest": "2026",
+    "latest": "2026",
     "memberIds": [
       "src-122x9g1"
     ],
@@ -11721,6 +12361,46 @@
     ]
   },
   {
+    "id": "story-1djf1b9",
+    "rootId": "src-mof-climate-disclosure-appguide-2026",
+    "title": "财政部就气候准则应用指南及电力等9项行业应用指南征求意见",
+    "digest": "财政部办公厅2026年9月30日发文（财办会〔2026〕34号），就《企业可持续披露准则第1号——气候（试行）》应用指南（征求意见稿）以及电力、钢铁、煤炭、石油、化肥、铝、氢、水泥、汽车9项行业应用指南（征求意见稿）公开征求意见，反馈截止2026年10月26日。",
+    "latest": "财政部办公厅2026年9月30日发文（财办会〔2026〕34号），就《企业可持续披露准则第1号——气候（试行）》应用指南（征求意见稿）以及电力、钢铁、煤炭、石油、化肥、铝、氢、水泥、汽车9项行业应用指南（征求意见稿）公开征求意见，反馈截止2026年10月26日。",
+    "memberIds": [
+      "src-mof-climate-disclosure-appguide-2026"
+    ],
+    "facts": [
+      {
+        "title": "财政部就气候准则应用指南及电力等9项行业应用指南征求意见",
+        "subject": "财政部",
+        "action": "披露",
+        "object": "财政部就气候准则应用指南及电力等9项行业应用指南征求意见",
+        "occurredAt": "2026-09-30"
+      }
+    ],
+    "participants": [
+      "unmatched-1fhotik"
+    ],
+    "firstPublishedAt": "2026-09-30T02:00:00.000Z",
+    "latestPublishedAt": "2026-09-30T02:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-mof-climate-disclosure-appguide-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部"
+    ]
+  },
+  {
     "id": "story-1dzj2ho",
     "rootId": "src-1m4yhz4",
     "title": "证监会、马来西亚证券委员会宣布单一提交安排，以简化在马来西亚和香港的同时上市流程",
@@ -11764,8 +12444,8 @@
     "id": "story-o3e1sj",
     "rootId": "src-18yfok2",
     "title": "美国证券交易委员会提出修正案，以扩大私募市场的负责任零售",
-    "digest": "美国证券交易委员会今天投票提出规则修正案，通过扩大散户投资者的选择和促进受监管基金结构的创新",
-    "latest": "美国证券交易委员会今天投票提出规则修正案，通过扩大散户投资者的选择和促进受监管基金结构的创新",
+    "digest": "美国证券交易委员会今天投票提出规则修正案",
+    "latest": "美国证券交易委员会今天投票提出规则修正案",
     "memberIds": [
       "src-18yfok2"
     ],
@@ -11773,7 +12453,7 @@
       {
         "title": "美国证券交易委员会提出修正案，以扩大私募市场的负责任零售",
         "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "通过",
+        "action": "发布",
         "object": "美国证券交易委员会提出修正案，以扩大私募市场的负责任零售",
         "occurredAt": "2026-09-30"
       }
@@ -12832,8 +13512,8 @@
     "id": "story-128t99s",
     "rootId": "src-1ccdieg",
     "title": "为什么人工智能最容易获胜是误导首席执行官",
-    "digest": "美国证券交易委员会(Securities and Exchange Commission)今天提出动议，要求对注册投资顾问Western Asset Management Company LLC的前联合首席投资官Stephen Kenneth Leech II作出最终判决， SEC此前曾负责一项多年的挑选分配计划。",
-    "latest": "美国证券交易委员会(Securities and Exchange Commission)今天提出动议，要求对注册投资顾问Western Asset Management Company LLC的前联合首席投资官Stephen Kenneth Leech II作出最终判决， SEC此前曾负责一项多年的挑选分配计划。",
+    "digest": "为什么人工智能最简单的胜利会误导首席执行官",
+    "latest": "为什么人工智能最简单的胜利会误导首席执行官",
     "memberIds": [
       "src-1ccdieg"
     ],
@@ -13109,6 +13789,46 @@
     ]
   },
   {
+    "id": "story-yemp4b",
+    "rootId": "src-16cfn1p",
+    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Climate Action 100+ and the Election of Directors at the May 2021 Annual Meeting of ExxonMobil Corporation",
+    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Climate Action 100+ and the Election of Directors at the May 2021 Annual Meeting of ExxonMobil Corporation",
+    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Climate Action 100+ and the Election of Directors at the May 2021 Annual Meeting of ExxonMobil Corporation",
+    "memberIds": [
+      "src-16cfn1p"
+    ],
+    "facts": [
+      {
+        "title": "Report of Investigation Pursua",
+        "subject": "SEC 调查报告（Investigation Reports）",
+        "action": "发布",
+        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
+        "occurredAt": "2026-10-07"
+      }
+    ],
+    "participants": [
+      "sec-investreports"
+    ],
+    "firstPublishedAt": "2026-10-07",
+    "latestPublishedAt": "2026-10-07",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-16cfn1p",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 调查报告（Investigation Reports）"
+    ]
+  },
+  {
     "id": "story-1kr5ds0",
     "rootId": "src-xwykw4",
     "title": "证监会继续加强香港零售基金制度守则",
@@ -13272,8 +13992,8 @@
     "id": "story-1hn74sm",
     "rootId": "src-m2yj74",
     "title": "82%的投资者预计气候风险将在未来十年影响资产价格： Robeco调查",
-    "digest": "3年来，气候变化首次成为投资者的战略优先事项自2023年政治反弹加剧以来，气候变化首次成为投资者的优先事项",
-    "latest": "3年来，气候变化首次成为投资者的战略优先事项自2023年政治反弹加剧以来，气候变化首次成为投资者的优先事项",
+    "digest": "3年来，气候变化首次成为投资者的战略优先事项自2023年政治反弹加剧以来",
+    "latest": "3年来，气候变化首次成为投资者的战略优先事项自2023年政治反弹加剧以来",
     "memberIds": [
       "src-m2yj74"
     ],
@@ -13351,18 +14071,18 @@
   {
     "id": "story-n2alrz",
     "rootId": "src-bq0kog",
-    "title": "Shapers and Founders: Understanding the owner mindset",
-    "digest": "Marrying Eastern philosophy and Western management culture has given many of Asia’s owner-CEOs a unique edge in growing their businesses.",
-    "latest": "Marrying Eastern philosophy and Western management culture has given many of Asia’s owner-CEOs a unique edge in growing their businesses.",
+    "title": "塑造者和创始人：了解所有者的心态",
+    "digest": "将东方哲学与西方管理文化相结合，为许多亚洲的所有者兼首席执行官提供了发展业务的独特优势。",
+    "latest": "将东方哲学与西方管理文化相结合，为许多亚洲的所有者兼首席执行官提供了发展业务的独特优势。",
     "memberIds": [
       "src-bq0kog"
     ],
     "facts": [
       {
-        "title": "Shapers and Founders: Understa",
+        "title": "塑造者和创始人：了解所有者的心态",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Shapers and Founders: Understanding the owner mindset",
+        "object": "塑造者和创始人：了解所有者的心态",
         "occurredAt": "2026-10-07"
       }
     ],
@@ -13472,8 +14192,8 @@
     "id": "story-1m87ojf",
     "rootId": "src-14umkjn",
     "title": "证监会主办国际证监会组织发行人会计、审计和披露委员会会议",
-    "digest": "香港证监会主办国际证监会组织发行人会计、审计与披露委员会会议。",
-    "latest": "香港证监会主办国际证监会组织发行人会计、审计与披露委员会会议。",
+    "digest": "证监会主办国际证监会组织发行人会计、审计及披露委员会会议",
+    "latest": "证监会主办国际证监会组织发行人会计、审计及披露委员会会议",
     "memberIds": [
       "src-14umkjn"
     ],
@@ -13552,8 +14272,8 @@
     "id": "story-12h7drf",
     "rootId": "src-zibkgm",
     "title": "美国证券交易委员会放弃对州街贝莱德的调查，并就参与气候组织发出警告",
-    "digest": "美国证券交易委员会（SEC）周三宣布，它已决定不对包括贝莱德（BlackRock）和道富银行（State Street）在内的资产管理公司采取执法行动，此前他们与以气候为重点的参与组织Climate Action 100 + （CA100 +）一起参与了2021年更换埃克森美孚董事的投票，从而对潜在的监管违规行为进行了调查。",
-    "latest": "美国证券交易委员会（SEC）周三宣布，它已决定不对包括贝莱德（BlackRock）和道富银行（State Street）在内的资产管理公司采取执法行动，此前他们与以气候为重点的参与组织Climate Action 100 + （CA100 +）一起参与了2021年更换埃克森美孚董事的投票，从而对潜在的监管违规行为进行了调查。",
+    "digest": "美国证券交易委员会（SEC）周三宣布，它已决定不对包括贝莱德（BlackRock）和道富银行（State Street）在内的资产管理公司采取执法行动，此前他们与以气候为重点的参与组织Climate Action 100 + （CA100 +）一起参与了2021年更换埃克森美孚董事的投票，从而对潜在的监管违规行为进行了调查。 SEC 同时发布调查报告（Release No. 34-106611），说明不采取执法行动的理由，并提示在气候相关组织中的参与和投票可能触发披露与代理规则义务。",
+    "latest": "美国证券交易委员会（SEC）周三宣布，它已决定不对包括贝莱德（BlackRock）和道富银行（State Street）在内的资产管理公司采取执法行动，此前他们与以气候为重点的参与组织Climate Action 100 + （CA100 +）一起参与了2021年更换埃克森美孚董事的投票，从而对潜在的监管违规行为进行了调查。 SEC 同时发布调查报告（Release No. 34-106611），说明不采取执法行动的理由，并提示在气候相关组织中的参与和投票可能触发披露与代理规则义务。",
     "memberIds": [
       "src-zibkgm"
     ],
@@ -13561,7 +14281,7 @@
       {
         "title": "美国证券交易委员会放弃对州街贝莱德的调查，并就参与气候组织发",
         "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "调查",
+        "action": "发布",
         "object": "美国证券交易委员会放弃对州街贝莱德的调查，并就参与气候组织发出警告",
         "occurredAt": "2026-10-08"
       }
@@ -13711,18 +14431,18 @@
   {
     "id": "story-mhh0y",
     "rootId": "src-1a1gac8",
-    "title": "The six strategy roles a CEO must not delegate",
-    "digest": "Strategy is a team sport, but the value it creates ultimately depends on the CEO’s involvement.",
-    "latest": "Strategy is a team sport, but the value it creates ultimately depends on the CEO’s involvement.",
+    "title": "首席执行官不得委派的六个战略角色",
+    "digest": "战略是一项团队运动，但它创造的价值最终取决于首席执行官的参与。",
+    "latest": "战略是一项团队运动，但它创造的价值最终取决于首席执行官的参与。",
     "memberIds": [
       "src-1a1gac8"
     ],
     "facts": [
       {
-        "title": "The six strategy roles a CEO m",
+        "title": "首席执行官不得委派的六个战略角色",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "The six strategy roles a CEO must not delegate",
+        "object": "首席执行官不得委派的六个战略角色",
         "occurredAt": "2026-10-08"
       }
     ],
@@ -13751,18 +14471,18 @@
   {
     "id": "story-8juluq",
     "rootId": "src-czeh06",
-    "title": "As the world order turns, leading companies are keeping pace. Here’s how",
-    "digest": "Leading companies are tracking six emerging patterns of geopolitical change and realigning their businesses to achieve resilience, seize growth, and build competitive advantage.",
-    "latest": "Leading companies are tracking six emerging patterns of geopolitical change and realigning their businesses to achieve resilience, seize growth, and build competitive advantage.",
+    "title": "随着世界秩序的转变，领先的公司正在跟上步伐。以下是",
+    "digest": "领先的公司正在跟踪地缘政治变化的六种新兴模式，并重新调整其业务，以实现弹性、抓住增长并建立竞争优势。",
+    "latest": "领先的公司正在跟踪地缘政治变化的六种新兴模式，并重新调整其业务，以实现弹性、抓住增长并建立竞争优势。",
     "memberIds": [
       "src-czeh06"
     ],
     "facts": [
       {
-        "title": "As the world order turns, lead",
+        "title": "随着世界秩序的转变，领先的公司正在跟上步伐。以下是",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "As the world order turns, leading companies are keeping pace. Here’s how",
+        "object": "随着世界秩序的转变，领先的公司正在跟上步伐。以下是",
         "occurredAt": "2026-10-08"
       }
     ],
@@ -13791,18 +14511,18 @@
   {
     "id": "story-19g62mu",
     "rootId": "src-tzmfe2",
-    "title": "For CPG companies, agentic AI’s real payoff is growth",
-    "digest": "As the relationship between consumer-packaged-goods companies and retailers becomes more complex, agentic AI can recapture lost sales. But are leaders ready to harness the technology’s power?",
-    "latest": "As the relationship between consumer-packaged-goods companies and retailers becomes more complex, agentic AI can recapture lost sales. But are leaders ready to harness the technology’s power?",
+    "title": "对于 CPG 公司来说，代理人工智能的真正回报是增长",
+    "digest": "随着消费品公司和零售商之间的关系变得更加复杂，代理人工智能可以重新夺回失去的销售。但领导者准备好利用技术的力量了吗？",
+    "latest": "随着消费品公司和零售商之间的关系变得更加复杂，代理人工智能可以重新夺回失去的销售。但领导者准备好利用技术的力量了吗？",
     "memberIds": [
       "src-tzmfe2"
     ],
     "facts": [
       {
-        "title": "For CPG companies, agentic AI’",
+        "title": "对于 CPG 公司来说，代理人工智能的真正回报是增长",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "For CPG companies, agentic AI’s real payoff is growth",
+        "object": "对于 CPG 公司来说，代理人工智能的真正回报是增长",
         "occurredAt": "2026-10-08"
       }
     ],
@@ -13831,18 +14551,18 @@
   {
     "id": "story-1e4dewl",
     "rootId": "src-19wwbmc",
-    "title": "New speech by Julia Leung: Keynote address at ASIFMA’s Future of Liquidity in Asia Pacific Capital Markets Conference",
-    "digest": "",
-    "latest": "",
+    "title": "Julia Leung的新演讲：在ASIFMA亚太资本市场未来流动性大会上的主旨演讲",
+    "digest": "梁朱莉娅 (Julia Leung) 新演讲：在 ASIFMA 亚太资本市场流动性的未来会议上发表主题演讲",
+    "latest": "梁朱莉娅 (Julia Leung) 新演讲：在 ASIFMA 亚太资本市场流动性的未来会议上发表主题演讲",
     "memberIds": [
       "src-19wwbmc"
     ],
     "facts": [
       {
-        "title": "New speech by Julia Leung: Key",
+        "title": "Julia Leung的新演讲：在ASIFMA亚太资本市场未",
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
-        "object": "New speech by Julia Leung: Keynote address at ASIFMA’s Future of Liquidity in As",
+        "object": "Julia Leung的新演讲：在ASIFMA亚太资本市场未来流动性大会上的主旨演讲",
         "occurredAt": "2026-10-09"
       }
     ],
@@ -13871,18 +14591,18 @@
   {
     "id": "story-1wguhsh",
     "rootId": "src-p1ax22",
-    "title": "SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds",
-    "digest": "The Securities and Exchange Commission today proposed amendments to the Investment Company Act “cross-trading rule,” which permits transactions in securities between a registered fund and its affiliates under certain conditions.",
-    "latest": "The Securities and Exchange Commission today proposed amendments to the Investment Company Act “cross-trading rule,” which permits transactions in securities between a registered fund and its affiliates under certain conditions.",
+    "title": "美国证券交易委员会提议扩大注册基金交叉交易资格的证券",
+    "digest": "美国证券交易委员会今天提议修订《投资公司法》的“交叉交易规则”，该规则允许注册基金及其附属公司在某些条件下进行证券交易。",
+    "latest": "美国证券交易委员会今天提议修订《投资公司法》的“交叉交易规则”，该规则允许注册基金及其附属公司在某些条件下进行证券交易。",
     "memberIds": [
       "src-p1ax22"
     ],
     "facts": [
       {
-        "title": "SEC Proposes Expanding Securit",
+        "title": "美国证券交易委员会提议扩大注册基金交叉交易资格的证券",
         "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "propose",
-        "object": "SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds",
+        "action": "修订",
+        "object": "美国证券交易委员会提议扩大注册基金交叉交易资格的证券",
         "occurredAt": "2026-10-09"
       }
     ],
@@ -13911,18 +14631,18 @@
   {
     "id": "story-pddmaq",
     "rootId": "src-1kpoxu6",
-    "title": "Meesho: Making e-commerce everyone’s business",
-    "digest": "Scaling an e-commerce start-up in India’s dispersed markets is challenging, but innovation, patience, and passionately solving hard problems have enabled Meesho’s founders to succeed.",
-    "latest": "Scaling an e-commerce start-up in India’s dispersed markets is challenging, but innovation, patience, and passionately solving hard problems have enabled Meesho’s founders to succeed.",
+    "title": "Meesho：让电子商务成为每个人的事业",
+    "digest": "在印度分散的市场中扩大电子商务初创企业的规模具有挑战性，但创新、耐心和热情解决难题使 Meesho 的创始人取得了成功。",
+    "latest": "在印度分散的市场中扩大电子商务初创企业的规模具有挑战性，但创新、耐心和热情解决难题使 Meesho 的创始人取得了成功。",
     "memberIds": [
       "src-1kpoxu6"
     ],
     "facts": [
       {
-        "title": "Meesho: Making e-commerce ever",
+        "title": "Meesho：让电子商务成为每个人的事业",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Meesho: Making e-commerce everyone’s business",
+        "object": "Meesho：让电子商务成为每个人的事业",
         "occurredAt": "2026-10-11"
       }
     ],
@@ -13951,18 +14671,18 @@
   {
     "id": "story-kf0wo2",
     "rootId": "src-2pnlxp",
-    "title": "Asset management 2026: Plenty for the few?",
-    "digest": "A golden age for the industry is becoming a golden age for a smaller group of asset managers.",
-    "latest": "A golden age for the industry is becoming a golden age for a smaller group of asset managers.",
+    "title": "资产管理 2026：少数人的财富？",
+    "digest": "该行业的黄金时代正在成为一小部分资产管理公司的黄金时代。",
+    "latest": "该行业的黄金时代正在成为一小部分资产管理公司的黄金时代。",
     "memberIds": [
       "src-2pnlxp"
     ],
     "facts": [
       {
-        "title": "Asset management 2026: Plenty ",
+        "title": "资产管理 2026：少数人的财富？",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Asset management 2026: Plenty for the few?",
+        "object": "资产管理 2026：少数人的财富？",
         "occurredAt": "2026-10-11"
       }
     ],
@@ -13991,18 +14711,18 @@
   {
     "id": "story-1s8avqs",
     "rootId": "src-10ruyvu",
-    "title": "Myanmar: Military regime bars hundreds of migrant workers from jobs over remittance & tax compliance failures",
-    "digest": "",
-    "latest": "",
+    "title": "缅甸：军政权因汇款和税务不合规而禁止数百名移民工人工作",
+    "digest": "缅甸：军政权因汇款和税务不合规而禁止数百名移民工人工作",
+    "latest": "缅甸：军政权因汇款和税务不合规而禁止数百名移民工人工作",
     "memberIds": [
       "src-10ruyvu"
     ],
     "facts": [
       {
-        "title": "Myanmar: Military regime bars ",
+        "title": "缅甸：军政权因汇款和税务不合规而禁止数百名移民工人工作",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Myanmar: Military regime bars hundreds of migrant workers from jobs over remitta",
+        "object": "缅甸：军政权因汇款和税务不合规而禁止数百名移民工人工作",
         "occurredAt": "2026-10-11"
       }
     ],
@@ -14031,18 +14751,18 @@
   {
     "id": "story-1dam31g",
     "rootId": "src-1rdxw95",
-    "title": "Taiwan: Suppliers & major brands on course to returning USD6mn fee repayments to migrant workers, but others lagging behind; incl. cos. responses & non-response",
-    "digest": "",
-    "latest": "",
+    "title": "台湾：供应商和主要品牌正在向农民工退还 600 万美元的费用，但其他品牌则落后；包括。科斯。回应与不回应",
+    "digest": "台湾：供应商和主要品牌正在向农民工退还 600 万美元的费用，但其他品牌则落后；包括。科斯。",
+    "latest": "台湾：供应商和主要品牌正在向农民工退还 600 万美元的费用，但其他品牌则落后；包括。科斯。",
     "memberIds": [
       "src-1rdxw95"
     ],
     "facts": [
       {
-        "title": "Taiwan: Suppliers & major bran",
+        "title": "台湾：供应商和主要品牌正在向农民工退还 600 万美元的费用",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Taiwan: Suppliers & major brands on course to returning USD6mn fee repayments to",
+        "object": "台湾：供应商和主要品牌正在向农民工退还 600 万美元的费用，但其他品牌则落后；包括。科斯。回应与不回应",
         "occurredAt": "2026-10-11"
       }
     ],
@@ -14071,26 +14791,26 @@
   {
     "id": "story-1df26g",
     "rootId": "src-18uyn4g",
-    "title": "Lucky Unique non-response re- Transparentem report on alleged slow remediation",
-    "digest": "",
-    "latest": "",
+    "title": "关于所谓缓慢补救措施的Lucky Unique无响应重新透明报告",
+    "digest": "Lucky Unique 未回复透明报告涉嫌补救缓慢",
+    "latest": "Libolon 回应透明报告涉嫌补救缓慢",
     "memberIds": [
       "src-18uyn4g",
       "src-jeqtxb"
     ],
     "facts": [
       {
-        "title": "Lucky Unique non-response re- ",
+        "title": "关于所谓缓慢补救措施的Lucky Unique无响应重新透明",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Lucky Unique non-response re- Transparentem report on alleged slow remediation",
+        "object": "关于所谓缓慢补救措施的Lucky Unique无响应重新透明报告",
         "occurredAt": "2026-10-11"
       },
       {
-        "title": "Libolon response re- Transpare",
+        "title": "Libolon 回应透明报告涉嫌补救缓慢",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Libolon response re- Transparentem report on alleged slow remediation",
+        "object": "Libolon 回应透明报告涉嫌补救缓慢",
         "occurredAt": "2026-10-11"
       }
     ],
@@ -14124,18 +14844,18 @@
   {
     "id": "story-1k61zi",
     "rootId": "src-1bdurgk",
-    "title": "EU: Central Asian truck drivers allegedly subjected to labour rights abuses by logistics firms, incl. while delivering BMW vehicles; incl. co. response",
-    "digest": "",
-    "latest": "",
+    "title": "欧盟：中亚卡车司机涉嫌遭受物流公司（包括物流公司）侵犯劳工权利的行为交付宝马车辆时；包括。公司回复",
+    "digest": "欧盟：中亚卡车司机涉嫌遭受物流公司（包括物流公司）侵犯劳工权利的行为交付宝马车辆时；包括。",
+    "latest": "欧盟：中亚卡车司机涉嫌遭受物流公司（包括物流公司）侵犯劳工权利的行为交付宝马车辆时；包括。",
     "memberIds": [
       "src-1bdurgk"
     ],
     "facts": [
       {
-        "title": "EU: Central Asian truck driver",
+        "title": "欧盟：中亚卡车司机涉嫌遭受物流公司（包括物流公司）侵犯劳工权",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "EU: Central Asian truck drivers allegedly subjected to labour rights abuses by l",
+        "object": "欧盟：中亚卡车司机涉嫌遭受物流公司（包括物流公司）侵犯劳工权利的行为交付宝马车辆时；包括。公司回复",
         "occurredAt": "2026-10-11"
       }
     ],
@@ -14164,18 +14884,18 @@
   {
     "id": "story-1k6l23n",
     "rootId": "src-8ysyeg",
-    "title": "HKEX to Introduce 12 Stock Option Classes with Weekly and Monthly Expiries",
-    "digest": "HKEX to Introduce 12 Stock Option Classes with Weekly and Monthly Expiries",
-    "latest": "HKEX to Introduce 12 Stock Option Classes with Weekly and Monthly Expiries",
+    "title": "香港交易所推出每周和每月到期的12个股票期权类别",
+    "digest": "香港交易所推出12种股票期权类别",
+    "latest": "香港交易所推出12种股票期权类别",
     "memberIds": [
       "src-8ysyeg"
     ],
     "facts": [
       {
-        "title": "HKEX to Introduce 12 Stock Opt",
+        "title": "香港交易所推出每周和每月到期的12个股票期权类别",
         "subject": "香港交易所新闻稿",
         "action": "发布",
-        "object": "HKEX to Introduce 12 Stock Option Classes with Weekly and Monthly Expiries",
+        "object": "香港交易所推出每周和每月到期的12个股票期权类别",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14204,18 +14924,18 @@
   {
     "id": "story-1niexbl",
     "rootId": "src-18ta8vg",
-    "title": "HKEX Launches S&P 500 & HKEX Tech 100 Index in Partnership with S&P Dow Jones Indices",
-    "digest": "HKEX Launches S&P 500 & HKEX Tech 100 Index in Partnership with S&P Dow Jones Indices",
-    "latest": "HKEX Launches S&P 500 & HKEX Tech 100 Index in Partnership with S&P Dow Jones Indices",
+    "title": "香港交易所与标普道琼斯指数合作推出标普 500 指数及香港交易所科技 100 指数",
+    "digest": "香港交易所与标普道琼斯指数合作推出标普 500 指数及香港交易所科技 100 指数",
+    "latest": "香港交易所与标普道琼斯指数合作推出标普 500 指数及香港交易所科技 100 指数",
     "memberIds": [
       "src-18ta8vg"
     ],
     "facts": [
       {
-        "title": "HKEX Launches S&P 500 & HKEX T",
+        "title": "香港交易所与标普道琼斯指数合作推出标普 500 指数及香港交",
         "subject": "香港交易所新闻稿",
         "action": "发布",
-        "object": "HKEX Launches S&P 500 & HKEX Tech 100 Index in Partnership with S&P Dow Jones In",
+        "object": "香港交易所与标普道琼斯指数合作推出标普 500 指数及香港交易所科技 100 指数",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14244,18 +14964,18 @@
   {
     "id": "story-dp1217",
     "rootId": "src-1b4i09n",
-    "title": "SFC approves six securities registrars for upcoming uncertificated securities market regime",
-    "digest": "",
-    "latest": "",
+    "title": "证监会批准六家证券登记处实施即将实施的非认证证券市场制度",
+    "digest": "证监会批准六家证券登记处实施即将实施的非认证证券市场制度",
+    "latest": "证监会批准六家证券登记处实施即将实施的非认证证券市场制度",
     "memberIds": [
       "src-1b4i09n"
     ],
     "facts": [
       {
-        "title": "SFC approves six securities re",
+        "title": "证监会批准六家证券登记处实施即将实施的非认证证券市场制度",
         "subject": "香港证监会（SFC）新闻稿",
-        "action": "approve",
-        "object": "SFC approves six securities registrars for upcoming uncertificated securities ma",
+        "action": "批准",
+        "object": "证监会批准六家证券登记处实施即将实施的非认证证券市场制度",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14284,18 +15004,18 @@
   {
     "id": "story-124f381",
     "rootId": "src-nuf5lq",
-    "title": "SFC proceeds to strengthen targeted tools to tackle IPO-related and other corporate misconduct",
-    "digest": "",
-    "latest": "",
+    "title": "证监会继续加强针对性工具，以打击首次公开募股相关及其他企业不当行为",
+    "digest": "证监会继续加强针对性工具",
+    "latest": "证监会继续加强针对性工具",
     "memberIds": [
       "src-nuf5lq"
     ],
     "facts": [
       {
-        "title": "SFC proceeds to strengthen tar",
+        "title": "证监会继续加强针对性工具，以打击首次公开募股相关及其他企业不",
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
-        "object": "SFC proceeds to strengthen targeted tools to tackle IPO-related and other corpor",
+        "object": "证监会继续加强针对性工具，以打击首次公开募股相关及其他企业不当行为",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14324,18 +15044,18 @@
   {
     "id": "story-g9lw1a",
     "rootId": "src-5ebb8y",
-    "title": "Candide Raises Over $70 Million to Close the Climate Finance Gap in Underinvested Communities",
-    "digest": "California-based impact investment advisory firm Candide announced that it has raised $71.5 million in commitments",
-    "latest": "California-based impact investment advisory firm Candide announced that it has raised $71.5 million in commitments",
+    "title": "Candide 筹集超过 7000 万美元，以缩小投资不足社区的气候融资缺口",
+    "digest": "总部位于加州的影响力投资咨询公司 Candide 宣布已筹集 7150 万美元的承诺资金",
+    "latest": "总部位于加州的影响力投资咨询公司 Candide 宣布已筹集 7150 万美元的承诺资金",
     "memberIds": [
       "src-5ebb8y"
     ],
     "facts": [
       {
-        "title": "Candide Raises Over $70 Millio",
+        "title": "Candide 筹集超过 7000 万美元，以缩小投资不足社",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "Candide Raises Over $70 Million to Close the Climate Finance Gap in Underinveste",
+        "object": "Candide 筹集超过 7000 万美元，以缩小投资不足社区的气候融资缺口",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14364,18 +15084,18 @@
   {
     "id": "story-x80f2s",
     "rootId": "src-j5lpie",
-    "title": "BII to Mobilize $1.6 Billion for Climate Finance in Southeast Asia",
-    "digest": "UK development finance institution British International Investment (BII) announced plans to channel $1.6 billion in",
-    "latest": "UK development finance institution British International Investment (BII) announced plans to channel $1.6 billion in",
+    "title": "天地互连将为东南亚气候融资筹集 16 亿美元",
+    "digest": "英国开发金融机构英国国际投资公司 (BII) 宣布计划投入 16 亿美元",
+    "latest": "英国开发金融机构英国国际投资公司 (BII) 宣布计划投入 16 亿美元",
     "memberIds": [
       "src-j5lpie"
     ],
     "facts": [
       {
-        "title": "BII to Mobilize $1.6 Billion f",
+        "title": "天地互连将为东南亚气候融资筹集 16 亿美元",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "BII to Mobilize $1.6 Billion for Climate Finance in Southeast Asia",
+        "object": "天地互连将为东南亚气候融资筹集 16 亿美元",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14404,18 +15124,18 @@
   {
     "id": "story-1ae2u8t",
     "rootId": "src-wcwnj5",
-    "title": "The AI operating system: A new way for CEOs to run the enterprise",
-    "digest": "An AI operating system can become an enterprise’s “second brain,” but only if CEOs rethink how management itself evolves.",
-    "latest": "An AI operating system can become an enterprise’s “second brain,” but only if CEOs rethink how management itself evolves.",
+    "title": "AI操作系统：CEO经营企业的新方式",
+    "digest": "人工智能操作系统可以成为企业的“第二大脑”，但前提是首席执行官重新思考管理本身的发展方式。",
+    "latest": "人工智能操作系统可以成为企业的“第二大脑”，但前提是首席执行官重新思考管理本身的发展方式。",
     "memberIds": [
       "src-wcwnj5"
     ],
     "facts": [
       {
-        "title": "The AI operating system: A new",
+        "title": "AI操作系统：CEO经营企业的新方式",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "The AI operating system: A new way for CEOs to run the enterprise",
+        "object": "AI操作系统：CEO经营企业的新方式",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14444,18 +15164,18 @@
   {
     "id": "story-9tgwl",
     "rootId": "src-lbalov",
-    "title": "Why the future of capital projects belongs to digital and AI-enabled teams",
-    "digest": "Digital and AI are changing the way capital projects are selected, designed, procured, built, and steered. Leaders are moving beyond pilots to rewire how projects are planned and delivered.",
-    "latest": "Digital and AI are changing the way capital projects are selected, designed, procured, built, and steered. Leaders are moving beyond pilots to rewire how projects are planned and delivered.",
+    "title": "为什么资本项目的未来属于数字化和人工智能团队",
+    "digest": "数字和人工智能正在改变资本项目的选择、设计、采购、建造和引导方式。领导者正在超越试点，重新调整项目的规划和交付方式。",
+    "latest": "数字和人工智能正在改变资本项目的选择、设计、采购、建造和引导方式。领导者正在超越试点，重新调整项目的规划和交付方式。",
     "memberIds": [
       "src-lbalov"
     ],
     "facts": [
       {
-        "title": "Why the future of capital proj",
+        "title": "为什么资本项目的未来属于数字化和人工智能团队",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Why the future of capital projects belongs to digital and AI-enabled teams",
+        "object": "为什么资本项目的未来属于数字化和人工智能团队",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14484,18 +15204,18 @@
   {
     "id": "story-1cem43l",
     "rootId": "src-hrepsz",
-    "title": "Why medtechs can’t afford to overlook customer experience",
-    "digest": "Customer experience is a competitive imperative for medtechs. To create a durable advantage, it must be designed into products from day one, not added as a post-sale service.",
-    "latest": "Customer experience is a competitive imperative for medtechs. To create a durable advantage, it must be designed into products from day one, not added as a post-sale service.",
+    "title": "为什么医疗技术人员不能忽视客户体验",
+    "digest": "客户体验是医疗技术公司的竞争要素。为了创造持久的优势，它必须从一开始就被设计到产品中，而不是作为售后服务添加。",
+    "latest": "客户体验是医疗技术公司的竞争要素。为了创造持久的优势，它必须从一开始就被设计到产品中，而不是作为售后服务添加。",
     "memberIds": [
       "src-hrepsz"
     ],
     "facts": [
       {
-        "title": "Why medtechs can’t afford to o",
+        "title": "为什么医疗技术人员不能忽视客户体验",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Why medtechs can’t afford to overlook customer experience",
+        "object": "为什么医疗技术人员不能忽视客户体验",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14524,18 +15244,18 @@
   {
     "id": "story-1kfvzkp",
     "rootId": "src-1yhpvmx",
-    "title": "Blaze Raises $6.5 Million to Enable Ships to Run on Clean Fuel",
-    "digest": "Maritime fuel technology startup Blaze Energy announced that it has raised $6.5 million in a",
-    "latest": "Maritime fuel technology startup Blaze Energy announced that it has raised $6.5 million in a",
+    "title": "Blaze 筹集 650 万美元，使船舶能够使用清洁燃料",
+    "digest": "海上燃料技术初创公司 Blaze Energy 宣布已筹集 650 万美元资金",
+    "latest": "海上燃料技术初创公司 Blaze Energy 宣布已筹集 650 万美元资金",
     "memberIds": [
       "src-1yhpvmx"
     ],
     "facts": [
       {
-        "title": "Blaze Raises $6.5 Million to E",
+        "title": "Blaze 筹集 650 万美元，使船舶能够使用清洁燃料",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "Blaze Raises $6.5 Million to Enable Ships to Run on Clean Fuel",
+        "object": "Blaze 筹集 650 万美元，使船舶能够使用清洁燃料",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14564,18 +15284,18 @@
   {
     "id": "story-v2eleu",
     "rootId": "src-iv4wmd",
-    "title": "Laos: Wage gap and rising costs drive mass labour migration as government reviews minimum wage",
-    "digest": "",
-    "latest": "",
+    "title": "老挝：政府审查最低工资，工资差距和成本上升推动大规模劳动力移民",
+    "digest": "老挝：政府审查最低工资",
+    "latest": "老挝：政府审查最低工资",
     "memberIds": [
       "src-iv4wmd"
     ],
     "facts": [
       {
-        "title": "Laos: Wage gap and rising cost",
+        "title": "老挝：政府审查最低工资，工资差距和成本上升推动大规模劳动力移",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Laos: Wage gap and rising costs drive mass labour migration as government review",
+        "object": "老挝：政府审查最低工资，工资差距和成本上升推动大规模劳动力移民",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14604,18 +15324,18 @@
   {
     "id": "story-72r683",
     "rootId": "src-vt5o9e",
-    "title": "Malaysia: MSMEs exempt from new minimum wage, calls for transparent implementation and accessible financing",
-    "digest": "",
-    "latest": "",
+    "title": "马来西亚：中小微企业免除新的最低工资，呼吁透明实施和易于融资",
+    "digest": "马来西亚：中小微企业免除新的最低工资",
+    "latest": "马来西亚：中小微企业免除新的最低工资",
     "memberIds": [
       "src-vt5o9e"
     ],
     "facts": [
       {
-        "title": "Malaysia: MSMEs exempt from ne",
+        "title": "马来西亚：中小微企业免除新的最低工资，呼吁透明实施和易于融资",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Malaysia: MSMEs exempt from new minimum wage, calls for transparent implementati",
+        "object": "马来西亚：中小微企业免除新的最低工资，呼吁透明实施和易于融资",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14644,18 +15364,18 @@
   {
     "id": "story-gaykmo",
     "rootId": "src-ndcue",
-    "title": "Malaysia: Migrant workers trafficked, unpaid & passed between companies in alleged bonded labour scheme",
-    "digest": "",
-    "latest": "",
+    "title": "马来西亚：外籍工人在所谓的债役计划中被贩卖、无薪并在公司之间流动",
+    "digest": "马来西亚：外籍工人在所谓的债役计划中被贩卖、无薪并在公司之间流动",
+    "latest": "马来西亚：外籍工人在所谓的债役计划中被贩卖、无薪并在公司之间流动",
     "memberIds": [
       "src-ndcue"
     ],
     "facts": [
       {
-        "title": "Malaysia: Migrant workers traf",
+        "title": "马来西亚：外籍工人在所谓的债役计划中被贩卖、无薪并在公司之间",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Malaysia: Migrant workers trafficked, unpaid & passed between companies in alleg",
+        "object": "马来西亚：外籍工人在所谓的债役计划中被贩卖、无薪并在公司之间流动",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14684,18 +15404,18 @@
   {
     "id": "story-1qbfh4a",
     "rootId": "src-1hp4z99",
-    "title": "Day 2: Tuesday 13 October",
-    "digest": "The second day of the 12th session of the Open-ended Intergovernmental Working Group focused on Article 14 (Consistency with international law) before turning to Article 15 (Institutional arrangements). In the afternoon, discussion resumed on Article 16 (Implementation), before concluding on proposals on the definition of \"victims\" (Article 1).",
-    "latest": "The second day of the 12th session of the Open-ended Intergovernmental Working Group focused on Article 14 (Consistency with international law) before turning to Article 15 (Institutional arrangements). In the afternoon, discussion resumed on Article 16 (Implementation), before concluding on proposals on the definition of \"victims\" (Article 1).",
+    "title": "第2天： 10月13日星期二",
+    "digest": "不限成员名额政府间工作组第十二届会议第二天重点讨论了第 14 条（与国际法的一致性），然后转向第 15 条（机构安排）。下午，继续讨论第 16 条（实施），然后就“受害者”定义（第 1 条）的提案作出结论。",
+    "latest": "不限成员名额政府间工作组第十二届会议第二天重点讨论了第 14 条（与国际法的一致性），然后转向第 15 条（机构安排）。下午，继续讨论第 16 条（实施），然后就“受害者”定义（第 1 条）的提案作出结论。",
     "memberIds": [
       "src-1hp4z99"
     ],
     "facts": [
       {
-        "title": "Day 2: Tuesday 13 October",
+        "title": "第2天： 10月13日星期二",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Day 2: Tuesday 13 October",
+        "object": "第2天： 10月13日星期二",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14724,18 +15444,18 @@
   {
     "id": "story-q134a4",
     "rootId": "src-z6up40",
-    "title": "Ecuador: Protests against President Noboa's policies demand social security and labour guarantees",
-    "digest": "",
-    "latest": "",
+    "title": "厄瓜多尔：反对总统诺博亚政策的抗议活动要求社会保障和劳工保障",
+    "digest": "厄瓜多尔：反对总统诺博亚政策的抗议活动要求社会保障和劳工保障",
+    "latest": "厄瓜多尔：反对总统诺博亚政策的抗议活动要求社会保障和劳工保障",
     "memberIds": [
       "src-z6up40"
     ],
     "facts": [
       {
-        "title": "Ecuador: Protests against Pres",
+        "title": "厄瓜多尔：反对总统诺博亚政策的抗议活动要求社会保障和劳工保障",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Ecuador: Protests against President Noboa's policies demand social security and ",
+        "object": "厄瓜多尔：反对总统诺博亚政策的抗议活动要求社会保障和劳工保障",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14764,18 +15484,18 @@
   {
     "id": "story-18wjs7s",
     "rootId": "src-zsyoua",
-    "title": "Chile: Workers at the Centinela copper mine escalate their protests for equal wages to a hunger strike",
-    "digest": "",
-    "latest": "",
+    "title": "智利：森蒂内拉铜矿工人将同工抗议升级为绝食抗议",
+    "digest": "智利：森蒂内拉铜矿工人将同工抗议升级为绝食抗议",
+    "latest": "智利：森蒂内拉铜矿工人将同工抗议升级为绝食抗议",
     "memberIds": [
       "src-zsyoua"
     ],
     "facts": [
       {
-        "title": "Chile: Workers at the Centinel",
+        "title": "智利：森蒂内拉铜矿工人将同工抗议升级为绝食抗议",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Chile: Workers at the Centinela copper mine escalate their protests for equal wa",
+        "object": "智利：森蒂内拉铜矿工人将同工抗议升级为绝食抗议",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14804,18 +15524,18 @@
   {
     "id": "story-vu2itu",
     "rootId": "src-1a4qrjp",
-    "title": "Ecuador: Petroecuador oil spill in Cupa River raises environmental and social concerns",
-    "digest": "",
-    "latest": "",
+    "title": "厄瓜多尔：厄瓜多尔石油公司库帕河漏油事件引发环境和社会担忧",
+    "digest": "厄瓜多尔：厄瓜多尔石油公司库帕河漏油事件引发环境和社会担忧",
+    "latest": "厄瓜多尔：厄瓜多尔石油公司库帕河漏油事件引发环境和社会担忧",
     "memberIds": [
       "src-1a4qrjp"
     ],
     "facts": [
       {
-        "title": "Ecuador: Petroecuador oil spil",
+        "title": "厄瓜多尔：厄瓜多尔石油公司库帕河漏油事件引发环境和社会担忧",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Ecuador: Petroecuador oil spill in Cupa River raises environmental and social co",
+        "object": "厄瓜多尔：厄瓜多尔石油公司库帕河漏油事件引发环境和社会担忧",
         "occurredAt": "2026-10-12"
       }
     ],
@@ -14844,18 +15564,18 @@
   {
     "id": "story-snnpcs",
     "rootId": "src-u2duuc",
-    "title": "New speech by Kelvin Wong: Keynote Remarks at IOSCO World Investor Week 2026 - Strike the Gong for Financial Literacy Event",
-    "digest": "",
-    "latest": "",
+    "title": "黄凯文新演讲：2026年国际证监会组织世界投资者周主旨演讲——金融知识敲响锣鼓",
+    "digest": "黄凯文新演讲：2026年国际证监会组织世界投资者周主旨演讲——金融知识敲响锣鼓",
+    "latest": "黄凯文新演讲：2026年国际证监会组织世界投资者周主旨演讲——金融知识敲响锣鼓",
     "memberIds": [
       "src-u2duuc"
     ],
     "facts": [
       {
-        "title": "New speech by Kelvin Wong: Key",
+        "title": "黄凯文新演讲：2026年国际证监会组织世界投资者周主旨演讲—",
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
-        "object": "New speech by Kelvin Wong: Keynote Remarks at IOSCO World Investor Week 2026 - S",
+        "object": "黄凯文新演讲：2026年国际证监会组织世界投资者周主旨演讲——金融知识敲响锣鼓",
         "occurredAt": "2026-10-13"
       }
     ],
@@ -14884,18 +15604,18 @@
   {
     "id": "story-39fmi5",
     "rootId": "src-1c2myb3",
-    "title": "Stoxx, Osmosis Launch New Suite of Sustainable Transition Factor Indices",
-    "digest": "Index provider Stoxx and sustainability-focused asset manager Osmosis announced the launch of the iSTOXX Osmosis",
-    "latest": "Index provider Stoxx and sustainability-focused asset manager Osmosis announced the launch of the iSTOXX Osmosis",
+    "title": "斯托克， Osmosis推出新的可持续转型因素指数套件",
+    "digest": "指数提供商 Stoxx 和专注于可持续发展的资产管理公司 Osmosis 宣布推出 iSTOXX Osmosis",
+    "latest": "指数提供商 Stoxx 和专注于可持续发展的资产管理公司 Osmosis 宣布推出 iSTOXX Osmosis",
     "memberIds": [
       "src-1c2myb3"
     ],
     "facts": [
       {
-        "title": "Stoxx, Osmosis Launch New Suit",
+        "title": "斯托克， Osmosis推出新的可持续转型因素指数套件",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "Stoxx, Osmosis Launch New Suite of Sustainable Transition Factor Indices",
+        "object": "斯托克， Osmosis推出新的可持续转型因素指数套件",
         "occurredAt": "2026-10-13"
       }
     ],
@@ -14924,18 +15644,18 @@
   {
     "id": "story-a2a3rk",
     "rootId": "src-whdr85",
-    "title": "SFC takes action against suspected IPO-rigging syndicates and suspends dealings in Baicha shares",
-    "digest": "",
-    "latest": "",
+    "title": "证监会对涉嫌串通IPO的集团采取行动并暂停百茶股份买卖",
+    "digest": "证监会对涉嫌串通IPO的集团采取行动并暂停百茶股份买卖",
+    "latest": "证监会对涉嫌串通IPO的集团采取行动并暂停百茶股份买卖",
     "memberIds": [
       "src-whdr85"
     ],
     "facts": [
       {
-        "title": "SFC takes action against suspe",
+        "title": "证监会对涉嫌串通IPO的集团采取行动并暂停百茶股份买卖",
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
-        "object": "SFC takes action against suspected IPO-rigging syndicates and suspends dealings ",
+        "object": "证监会对涉嫌串通IPO的集团采取行动并暂停百茶股份买卖",
         "occurredAt": "2026-10-13"
       }
     ],
@@ -14964,18 +15684,18 @@
   {
     "id": "story-1dkk9ew",
     "rootId": "src-1ks0v63",
-    "title": "EY, Watershed Launch Sustainability Reporting Partnership",
-    "digest": "Professional services firm EY US announced a new alliance with climate solutions provider Watershed",
-    "latest": "Professional services firm EY US announced a new alliance with climate solutions provider Watershed",
+    "title": "安永与分水岭启动可持续发展报告合作伙伴关系",
+    "digest": "专业服务公司安永美国宣布与气候解决方案提供商 Watershed 建立新联盟",
+    "latest": "专业服务公司安永美国宣布与气候解决方案提供商 Watershed 建立新联盟",
     "memberIds": [
       "src-1ks0v63"
     ],
     "facts": [
       {
-        "title": "EY, Watershed Launch Sustainab",
+        "title": "安永与分水岭启动可持续发展报告合作伙伴关系",
         "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "EY, Watershed Launch Sustainability Reporting Partnership",
+        "action": "启动",
+        "object": "安永与分水岭启动可持续发展报告合作伙伴关系",
         "occurredAt": "2026-10-13"
       }
     ],
@@ -15004,18 +15724,18 @@
   {
     "id": "story-evdho8",
     "rootId": "src-13ogzb3",
-    "title": "SFC recognises progress in sponsors’ work and urges sustained vigilance",
-    "digest": "",
-    "latest": "",
+    "title": "证监会认可保荐人工作取得的进展并敦促保持警惕",
+    "digest": "证监会认可保荐人工作取得的进展并敦促保持警惕",
+    "latest": "证监会认可保荐人工作取得的进展并敦促保持警惕",
     "memberIds": [
       "src-13ogzb3"
     ],
     "facts": [
       {
-        "title": "SFC recognises progress in spo",
+        "title": "证监会认可保荐人工作取得的进展并敦促保持警惕",
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
-        "object": "SFC recognises progress in sponsors’ work and urges sustained vigilance",
+        "object": "证监会认可保荐人工作取得的进展并敦促保持警惕",
         "occurredAt": "2026-10-13"
       }
     ],
@@ -15044,18 +15764,18 @@
   {
     "id": "story-1d4v94o",
     "rootId": "src-100yut5",
-    "title": "SBTN Releases New Framework for Corporate Science-Based Nature Target Setting",
-    "digest": "The Science Based Targets Network (SBTN) announced today the release of Science-Based Targets for Nature",
-    "latest": "The Science Based Targets Network (SBTN) announced today the release of Science-Based Targets for Nature",
+    "title": "SBTN 发布企业基于科学的自然目标设定新框架",
+    "digest": "基于科学的目标网络 (SBTN) 今天宣布发布基于科学的自然目标",
+    "latest": "基于科学的目标网络 (SBTN) 今天宣布发布基于科学的自然目标",
     "memberIds": [
       "src-100yut5"
     ],
     "facts": [
       {
-        "title": "SBTN Releases New Framework fo",
+        "title": "SBTN 发布企业基于科学的自然目标设定新框架",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "SBTN Releases New Framework for Corporate Science-Based Nature Target Setting",
+        "object": "SBTN 发布企业基于科学的自然目标设定新框架",
         "occurredAt": "2026-10-13"
       }
     ],
@@ -15084,18 +15804,18 @@
   {
     "id": "story-8ptl9q",
     "rootId": "src-q11rj4",
-    "title": "Finance Earth, FSD Africa Launch $100 Million Fund to Back Nature-Based Carbon Projects",
-    "digest": "Environmental impact investment firm Finance Earth and financial sector development agency FSD Africa",
-    "latest": "Environmental impact investment firm Finance Earth and financial sector development agency FSD Africa",
+    "title": "Finance Earth、FSD Africa启动1亿美元$基金，支持基于自然的碳项目",
+    "digest": "环境影响投资公司Finance Earth和金融部门发展机构FSD Africa",
+    "latest": "环境影响投资公司Finance Earth和金融部门发展机构FSD Africa",
     "memberIds": [
       "src-q11rj4"
     ],
     "facts": [
       {
-        "title": "Finance Earth, FSD Africa Laun",
+        "title": "Finance Earth、FSD Africa启动1亿美元",
         "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "Finance Earth, FSD Africa Launch $100 Million Fund to Back Nature-Based Carbon P",
+        "action": "启动",
+        "object": "Finance Earth、FSD Africa启动1亿美元$基金，支持基于自然的碳项目",
         "occurredAt": "2026-10-13"
       }
     ],
@@ -15124,18 +15844,18 @@
   {
     "id": "story-1hzbks5",
     "rootId": "src-123yaiy",
-    "title": "Epyr Raises $17 Million to Scale Industrial Heat Electrification Platform",
-    "digest": "French energy tech startup Epyr announced today that it has raised €15 million (USD$16.8 million)",
-    "latest": "French energy tech startup Epyr announced today that it has raised €15 million (USD$16.8 million)",
+    "title": "Epyr筹集1700万美元用于扩建工业供热电气化平台",
+    "digest": "法国能源科技初创公司 Epyr 今天宣布筹集 1500 万欧元（1680 万美元）",
+    "latest": "法国能源科技初创公司 Epyr 今天宣布筹集 1500 万欧元（1680 万美元）",
     "memberIds": [
       "src-123yaiy"
     ],
     "facts": [
       {
-        "title": "Epyr Raises $17 Million to Sca",
+        "title": "Epyr筹集1700万美元用于扩建工业供热电气化平台",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "Epyr Raises $17 Million to Scale Industrial Heat Electrification Platform",
+        "object": "Epyr筹集1700万美元用于扩建工业供热电气化平台",
         "occurredAt": "2026-10-13"
       }
     ],
@@ -15164,18 +15884,18 @@
   {
     "id": "story-8aeudl",
     "rootId": "src-18ebdgn",
-    "title": "TNFD Releases Major Update to Guidance Supporting Corporate Nature-Related Reporting",
-    "digest": "The Taskforce on Nature-related Financial Disclosures (TNFD) announced the release of LEAP 2.0",
-    "latest": "The Taskforce on Nature-related Financial Disclosures (TNFD) announced the release of LEAP 2.0",
+    "title": "TNFD 发布支持企业自然相关报告指南的重大更新",
+    "digest": "自然相关财务披露工作组 (TNFD) 宣布发布 LEAP 2.0",
+    "latest": "自然相关财务披露工作组 (TNFD) 宣布发布 LEAP 2.0",
     "memberIds": [
       "src-18ebdgn"
     ],
     "facts": [
       {
-        "title": "TNFD Releases Major Update to ",
+        "title": "TNFD 发布支持企业自然相关报告指南的重大更新",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "TNFD Releases Major Update to Guidance Supporting Corporate Nature-Related Repor",
+        "object": "TNFD 发布支持企业自然相关报告指南的重大更新",
         "occurredAt": "2026-10-13"
       }
     ],
@@ -15204,18 +15924,18 @@
   {
     "id": "story-fwon8c",
     "rootId": "src-1iv61sr",
-    "title": "Steve Wozniak’s Energy Saving Technology Platform Efforce Acquired by TROOPS",
-    "digest": "Hong Kong-based financial services and technology company TROOPS announced an agreement to acquire energy technology",
-    "latest": "Hong Kong-based financial services and technology company TROOPS announced an agreement to acquire energy technology",
+    "title": "史蒂夫·沃兹尼亚克的节能技术平台 Efforce 被 TROOPS 收购",
+    "digest": "香港金融服务和科技公司 TROOPS 宣布达成收购能源技术的协议",
+    "latest": "香港金融服务和科技公司 TROOPS 宣布达成收购能源技术的协议",
     "memberIds": [
       "src-1iv61sr"
     ],
     "facts": [
       {
-        "title": "Steve Wozniak’s Energy Saving ",
+        "title": "史蒂夫·沃兹尼亚克的节能技术平台 Efforce 被 TRO",
         "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "Steve Wozniak’s Energy Saving Technology Platform Efforce Acquired by TROOPS",
+        "action": "收购",
+        "object": "史蒂夫·沃兹尼亚克的节能技术平台 Efforce 被 TROOPS 收购",
         "occurredAt": "2026-10-13"
       }
     ],
@@ -15239,6 +15959,46 @@
     "signalCount": 0,
     "sourceNames": [
       "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-5ikeqj",
+    "rootId": "src-1f94eio",
+    "title": "HKEX’s Core Climate Completes First Cross-boundary Pilots in Green Electricity Certificates and Carbon Allowances",
+    "digest": "HKEX’s Core Climate Completes First Cross-boundary Pilots in Green Electricity Certificates and Carbon Allowances",
+    "latest": "HKEX’s Core Climate Completes First Cross-boundary Pilots in Green Electricity Certificates and Carbon Allowances",
+    "memberIds": [
+      "src-1f94eio"
+    ],
+    "facts": [
+      {
+        "title": "HKEX’s Core Climate Completes ",
+        "subject": "香港交易所新闻稿",
+        "action": "发布",
+        "object": "HKEX’s Core Climate Completes First Cross-boundary Pilots in Green Electricity C",
+        "occurredAt": "2026-10-14"
+      }
+    ],
+    "participants": [
+      "hkex-news"
+    ],
+    "firstPublishedAt": "2026-10-14T04:00:00.000Z",
+    "latestPublishedAt": "2026-10-14T04:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1f94eio",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港交易所新闻稿"
     ]
   }
 ]
