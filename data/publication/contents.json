@@ -3510,6 +3510,44 @@
     }
   },
   {
+    "id": "src-mof-climate-disclosure-appguide-2026",
+    "title": "关于征求《〈企业可持续披露准则第1号——气候（试行）〉应用指南（征求意见稿）》及电力等9项行业应用指南（征求意见稿）意见的函",
+    "titleZh": "财政部就气候准则应用指南及电力等9项行业应用指南征求意见",
+    "summary": "财政部办公厅2026年9月30日发文（财办会〔2026〕34号），就《企业可持续披露准则第1号——气候（试行）》应用指南（征求意见稿）以及电力、钢铁、煤炭、石油、化肥、铝、氢、水泥、汽车9项行业应用指南（征求意见稿）公开征求意见，反馈截止2026年10月26日。",
+    "summaryZh": "财政部办公厅2026年9月30日发文（财办会〔2026〕34号），就《企业可持续披露准则第1号——气候（试行）》应用指南（征求意见稿）以及电力、钢铁、煤炭、石油、化肥、铝、氢、水泥、汽车9项行业应用指南（征求意见稿）公开征求意见，反馈截止2026年10月26日。",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-09-30T02:00:00.000Z",
+    "importanceLevel": "高",
+    "sourceName": "财政部",
+    "sourceUrl": "http://kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm",
+    "articleUrl": "http://kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm",
+    "esgTopic": "合规与监管",
+    "recommended": true,
+    "recommendReason": "财政部首次就气候准则配套应用指南及9个重点行业应用指南公开征求意见，覆盖电力、钢铁、煤炭、石油、化肥、铝、氢、水泥、汽车，是可持续披露准则体系落地的关键一步。",
+    "pipeline": {
+      "score": 88,
+      "scoreThreshold": 60,
+      "scorePass": true,
+      "sourceTier": "T1",
+      "storyId": "story-mof-climate-appguide-2026",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "财政部就气候准则应用指南及9项行业应用指南征求意见",
+        "subject": "财政部办公厅",
+        "action": "公开征求意见",
+        "object": "气候准则应用指南及电力等9项行业应用指南",
+        "occurredAt": "2026-09-30"
+      },
+      "pipelineVersion": "esg-v2.0.0"
+    }
+  },
+  {
     "id": "src-153owyq",
     "title": "How to drive transformations with rigor",
     "summary": "McKinsey research finds that companies executing transformations with rigor are much more likely to meet overall organizational transformation goals. Chris Hagedorn, Preeya Mody, and Michel Morenville join us to discuss what rigor really means in the context of transformation and how to embed it throughout the process, from setting the aspiration, to mobilization, to delivering impact.",
