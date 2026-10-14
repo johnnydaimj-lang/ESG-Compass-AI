@@ -1650,7 +1650,7 @@
     "articleUrl": "https://www.esgtoday.com/sec-drops-investigation-into-blackrock-state-street-with-a-warning-over-participation-in-climate-groups/?utm_source=rss&utm_medium=rss&utm_campaign=sec-drops-investigation-into-blackrock-state-street-with-a-warning-over-participation-in-climate-groups",
     "esgTopic": "合规与监管",
     "titleZh": "美国证券交易委员会放弃对州街贝莱德的调查，并就参与气候组织发出警告",
-    "summaryZh": "美国证券交易委员会（SEC）周三宣布，它已决定不对包括贝莱德（BlackRock）和道富银行（State Street）在内的资产管理公司采取执法行动，此前他们与以气候为重点的参与组织Climate Action 100 + （CA100 +）一起参与了2021年更换埃克森美孚董事的投票，从而对潜在的监管违规行为进行了调查。",
+    "summaryZh": "美国证券交易委员会（SEC）周三宣布，它已决定不对包括贝莱德（BlackRock）和道富银行（State Street）在内的资产管理公司采取执法行动，此前他们与以气候为重点的参与组织Climate Action 100 + （CA100 +）一起参与了2021年更换埃克森美孚董事的投票，从而对潜在的监管违规行为进行了调查。 SEC 同时发布调查报告（Release No. 34-106611），说明不采取执法行动的理由，并提示在气候相关组织中的参与和投票可能触发披露与代理规则义务。",
     "recommended": true,
     "recommendReason": "涉及合规与监管动向，综合评分 75。",
     "pipeline": {
@@ -1674,7 +1674,15 @@
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
+    },
+    "sourceRefs": [
+      {
+        "sourceName": "美国证券交易委员会（SEC）",
+        "sourceUrl": "https://www.sec.gov/files/litigation/investreport/34-106611.pdf",
+        "title": "Report of Investigation Pursuant to Section 21(a) — Release No. 34-106611",
+        "publishedAt": "2026-10-07"
+      }
+    ]
   },
   {
     "id": "src-134plq7",
