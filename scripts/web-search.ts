@@ -42,3 +42,5 @@ main().catch((error) => {
   console.error("ERR", error instanceof Error ? error.message : String(error));
   process.exitCode = 1;
 });
+
+export {};
