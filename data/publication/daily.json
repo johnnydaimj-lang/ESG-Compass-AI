@@ -1,126 +1,131 @@
 {
-  "date": "2026-10-08",
-  "generatedAt": "2026-10-09T17:03:27.372Z",
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-14T02:42:40.389Z",
   "highlights": [
     {
-      "id": "src-zibkgm",
-      "title": "美国证券交易委员会放弃对州街贝莱德的调查，并就参与气候组织发出警告",
-      "summary": "美国证券交易委员会（SEC）周三宣布，它已决定不对包括贝莱德（BlackRock）和道富银行（State Street）在内的资产管理公司采取执法行动，此前他们与以气候为重点的参与组织Climate Action 100 + （CA100 +）一起参与了2021年更换埃克森美孚董事的投票，从而对潜在的监管违规行为进行了调查。",
-      "sourceName": "ESG Today（全球 ESG 新闻）",
-      "contentType": "政策",
-      "region": "全球",
-      "publishedAt": "2026-10-08T11:48:42.000Z",
-      "score": 72
-    },
-    {
-      "id": "src-fl1dgu",
-      "title": "韩国推出7500亿美元的脱碳战略（$ 750 Billion Decarbonization Strategy）",
-      "summary": "韩国政府宣布推出新的韩国绿色转型（K-GX）战略，包括计划在未来十年内动员1000万亿韩元（7470亿美元）用于实现其气候目标，重点关注工业脱碳、可再生能源和清洁交通等关键领域。",
+      "id": "src-100yut5",
+      "title": "SBTN 发布企业基于科学的自然目标设定新框架",
+      "summary": "基于科学的目标网络 (SBTN) 今天宣布发布基于科学的自然目标",
       "sourceName": "ESG Today（全球 ESG 新闻）",
       "contentType": "观点",
       "region": "全球",
-      "publishedAt": "2026-10-08T14:55:12.000Z",
-      "score": 60
+      "publishedAt": "2026-10-13T11:14:31.000Z",
+      "score": 71
     },
     {
-      "id": "src-g4wm9q",
-      "title": "证监会、武革委及本交易所联手处理仅与持续经营有关的免责声明",
-      "summary": "香港证监会、会财局与联交所联合应对仅与持续经营相关的核数师保留意见。",
-      "sourceName": "香港证监会（SFC）新闻稿",
-      "contentType": "政策",
-      "region": "香港",
-      "publishedAt": "2026-10-08T08:30:52.000Z",
+      "id": "src-18ebdgn",
+      "title": "TNFD 发布支持企业自然相关报告指南的重大更新",
+      "summary": "自然相关财务披露工作组 (TNFD) 宣布发布 LEAP 2.0",
+      "sourceName": "ESG Today（全球 ESG 新闻）",
+      "contentType": "观点",
+      "region": "全球",
+      "publishedAt": "2026-10-13T14:44:42.000Z",
+      "score": 70
+    },
+    {
+      "id": "src-1c2myb3",
+      "title": "斯托克， Osmosis推出新的可持续转型因素指数套件",
+      "summary": "指数提供商 Stoxx 和专注于可持续发展的资产管理公司 Osmosis 宣布推出 iSTOXX Osmosis",
+      "sourceName": "ESG Today（全球 ESG 新闻）",
+      "contentType": "观点",
+      "region": "全球",
+      "publishedAt": "2026-10-13T08:06:43.000Z",
       "score": 50
     },
     {
-      "id": "src-15swhdy",
-      "title": "CIP投资佛得角，进军意大利生物甲烷市场",
-      "summary": "哥本哈根基础设施合作伙伴（CIP）宣布了其新的生物能源基金的首笔投资，清洁基础设施投资者支持意大利的生物甲烷开发平台Via Verde。这项投资是在今年早些时候CIP推出其先进生物能源基金II （ABF II）之后进行的，该基金专注于扩大整个欧洲的生物甲烷和先进生物能源生产。",
+      "id": "src-q11rj4",
+      "title": "Finance Earth、FSD Africa启动1亿美元$基金，支持基于自然的碳项目",
+      "summary": "环境影响投资公司Finance Earth和金融部门发展机构FSD Africa",
       "sourceName": "ESG Today（全球 ESG 新闻）",
-      "contentType": "行业",
+      "contentType": "观点",
       "region": "全球",
-      "publishedAt": "2026-10-08T07:48:58.000Z",
-      "score": 31
+      "publishedAt": "2026-10-13T11:38:50.000Z",
+      "score": 40
     },
     {
-      "id": "src-jh3ndy",
-      "title": "亚马逊与微软合作开展7.5亿升补水项目",
-      "summary": "科技巨头亚马逊和微软在德国黑森州宣布了一项新的补水项目，旨在恢复自然湿地条件和补充当地地下水资源，预计每年将为当地地下水供应返还超过7.5亿升水。",
-      "sourceName": "ESG Today（全球 ESG 新闻）",
-      "contentType": "行业",
-      "region": "全球",
-      "publishedAt": "2026-10-08T13:43:52.000Z",
-      "score": 28
+      "id": "src-whdr85",
+      "title": "证监会对涉嫌串通IPO的集团采取行动并暂停百茶股份买卖",
+      "summary": "证监会对涉嫌串通IPO的集团采取行动并暂停百茶股份买卖",
+      "sourceName": "香港证监会（SFC）新闻稿",
+      "contentType": "政策",
+      "region": "香港",
+      "publishedAt": "2026-10-13T08:30:08.000Z",
+      "score": 37
     }
   ],
   "sections": [
     {
-      "label": "行业",
-      "items": [
-        {
-          "id": "src-15swhdy",
-          "title": "CIP投资佛得角，进军意大利生物甲烷市场",
-          "summary": "哥本哈根基础设施合作伙伴（CIP）宣布了其新的生物能源基金的首笔投资，清洁基础设施投资者支持意大利的生物甲烷开发平台Via Verde。这项投资是在今年早些时候CIP推出其先进生物能源基金II （ABF II）之后进行的，该基金专注于扩大整个欧洲的生物甲烷和先进生物能源生产。",
-          "sourceName": "ESG Today（全球 ESG 新闻）",
-          "contentType": "行业",
-          "region": "全球",
-          "publishedAt": "2026-10-08T07:48:58.000Z",
-          "score": 31
-        },
-        {
-          "id": "src-jh3ndy",
-          "title": "亚马逊与微软合作开展7.5亿升补水项目",
-          "summary": "科技巨头亚马逊和微软在德国黑森州宣布了一项新的补水项目，旨在恢复自然湿地条件和补充当地地下水资源，预计每年将为当地地下水供应返还超过7.5亿升水。",
-          "sourceName": "ESG Today（全球 ESG 新闻）",
-          "contentType": "行业",
-          "region": "全球",
-          "publishedAt": "2026-10-08T13:43:52.000Z",
-          "score": 28
-        },
-        {
-          "id": "src-134plq7",
-          "title": "乐高老板KIRKBI任命Craig Arnold为圆形塑料主管",
-          "summary": "乐高集团控股公司KIRKBI的气候投资部门KIRKBI Climate宣布任命Craig Arnold为循环塑料主管及其领导团队成员，因为该公司计划大幅增加对循环塑料的投资。",
-          "sourceName": "ESG Today（全球 ESG 新闻）",
-          "contentType": "行业",
-          "region": "全球",
-          "publishedAt": "2026-10-08T10:41:18.000Z",
-          "score": 20
-        },
-        {
-          "id": "src-14umkjn",
-          "title": "证监会主办国际证监会组织发行人会计、审计和披露委员会会议",
-          "summary": "香港证监会主办国际证监会组织发行人会计、审计与披露委员会会议。",
-          "sourceName": "香港证监会（SFC）新闻稿",
-          "contentType": "行业",
-          "region": "香港",
-          "publishedAt": "2026-10-08T08:50:25.000Z",
-          "score": 18
-        }
-      ]
-    },
-    {
       "label": "观点",
       "items": [
         {
-          "id": "src-fl1dgu",
-          "title": "韩国推出7500亿美元的脱碳战略（$ 750 Billion Decarbonization Strategy）",
-          "summary": "韩国政府宣布推出新的韩国绿色转型（K-GX）战略，包括计划在未来十年内动员1000万亿韩元（7470亿美元）用于实现其气候目标，重点关注工业脱碳、可再生能源和清洁交通等关键领域。",
+          "id": "src-100yut5",
+          "title": "SBTN 发布企业基于科学的自然目标设定新框架",
+          "summary": "基于科学的目标网络 (SBTN) 今天宣布发布基于科学的自然目标",
           "sourceName": "ESG Today（全球 ESG 新闻）",
           "contentType": "观点",
           "region": "全球",
-          "publishedAt": "2026-10-08T14:55:12.000Z",
-          "score": 60
+          "publishedAt": "2026-10-13T11:14:31.000Z",
+          "score": 71
         },
         {
-          "id": "src-1opplf6",
-          "title": "德国电信任命Robert Metzke为首席可持续发展官",
-          "summary": "德国电信宣布任命Robert Metzke为首席可持续发展官，这是该公司新设立的职位。在新职位上， Metzke将专注于将可持续发展更紧密地整合到德国电信的企业战略和核心业务中。",
+          "id": "src-18ebdgn",
+          "title": "TNFD 发布支持企业自然相关报告指南的重大更新",
+          "summary": "自然相关财务披露工作组 (TNFD) 宣布发布 LEAP 2.0",
           "sourceName": "ESG Today（全球 ESG 新闻）",
           "contentType": "观点",
           "region": "全球",
-          "publishedAt": "2026-10-08T13:05:54.000Z",
-          "score": 22
+          "publishedAt": "2026-10-13T14:44:42.000Z",
+          "score": 70
+        },
+        {
+          "id": "src-1c2myb3",
+          "title": "斯托克， Osmosis推出新的可持续转型因素指数套件",
+          "summary": "指数提供商 Stoxx 和专注于可持续发展的资产管理公司 Osmosis 宣布推出 iSTOXX Osmosis",
+          "sourceName": "ESG Today（全球 ESG 新闻）",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-10-13T08:06:43.000Z",
+          "score": 50
+        },
+        {
+          "id": "src-q11rj4",
+          "title": "Finance Earth、FSD Africa启动1亿美元$基金，支持基于自然的碳项目",
+          "summary": "环境影响投资公司Finance Earth和金融部门发展机构FSD Africa",
+          "sourceName": "ESG Today（全球 ESG 新闻）",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-10-13T11:38:50.000Z",
+          "score": 40
+        },
+        {
+          "id": "src-123yaiy",
+          "title": "Epyr筹集1700万美元用于扩建工业供热电气化平台",
+          "summary": "法国能源科技初创公司 Epyr 今天宣布筹集 1500 万欧元（1680 万美元）",
+          "sourceName": "ESG Today（全球 ESG 新闻）",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-10-13T13:18:52.000Z",
+          "score": 21
+        },
+        {
+          "id": "src-1iv61sr",
+          "title": "史蒂夫·沃兹尼亚克的节能技术平台 Efforce 被 TROOPS 收购",
+          "summary": "香港金融服务和科技公司 TROOPS 宣布达成收购能源技术的协议",
+          "sourceName": "ESG Today（全球 ESG 新闻）",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-10-13T16:31:13.000Z",
+          "score": 20
+        },
+        {
+          "id": "src-1ks0v63",
+          "title": "安永与分水岭启动可持续发展报告合作伙伴关系",
+          "summary": "专业服务公司安永美国宣布与气候解决方案提供商 Watershed 建立新联盟",
+          "sourceName": "ESG Today（全球 ESG 新闻）",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-10-13T09:15:02.000Z",
+          "score": 20
         }
       ]
     },
@@ -128,37 +133,47 @@
       "label": "政策",
       "items": [
         {
-          "id": "src-zibkgm",
-          "title": "美国证券交易委员会放弃对州街贝莱德的调查，并就参与气候组织发出警告",
-          "summary": "美国证券交易委员会（SEC）周三宣布，它已决定不对包括贝莱德（BlackRock）和道富银行（State Street）在内的资产管理公司采取执法行动，此前他们与以气候为重点的参与组织Climate Action 100 + （CA100 +）一起参与了2021年更换埃克森美孚董事的投票，从而对潜在的监管违规行为进行了调查。",
-          "sourceName": "ESG Today（全球 ESG 新闻）",
-          "contentType": "政策",
-          "region": "全球",
-          "publishedAt": "2026-10-08T11:48:42.000Z",
-          "score": 72
-        },
-        {
-          "id": "src-g4wm9q",
-          "title": "证监会、武革委及本交易所联手处理仅与持续经营有关的免责声明",
-          "summary": "香港证监会、会财局与联交所联合应对仅与持续经营相关的核数师保留意见。",
+          "id": "src-whdr85",
+          "title": "证监会对涉嫌串通IPO的集团采取行动并暂停百茶股份买卖",
+          "summary": "证监会对涉嫌串通IPO的集团采取行动并暂停百茶股份买卖",
           "sourceName": "香港证监会（SFC）新闻稿",
           "contentType": "政策",
           "region": "香港",
-          "publishedAt": "2026-10-08T08:30:52.000Z",
-          "score": 50
+          "publishedAt": "2026-10-13T08:30:08.000Z",
+          "score": 37
+        },
+        {
+          "id": "src-13ogzb3",
+          "title": "证监会认可保荐人工作取得的进展并敦促保持警惕",
+          "summary": "证监会认可保荐人工作取得的进展并敦促保持警惕",
+          "sourceName": "香港证监会（SFC）新闻稿",
+          "contentType": "政策",
+          "region": "香港",
+          "publishedAt": "2026-10-13T09:20:03.000Z",
+          "score": 15
+        },
+        {
+          "id": "src-u2duuc",
+          "title": "黄凯文新演讲：2026年国际证监会组织世界投资者周主旨演讲——金融知识敲响锣鼓",
+          "summary": "黄凯文新演讲：2026年国际证监会组织世界投资者周主旨演讲——金融知识敲响锣鼓",
+          "sourceName": "香港证监会（SFC）新闻稿",
+          "contentType": "政策",
+          "region": "香港",
+          "publishedAt": "2026-10-13T07:13:28.000Z",
+          "score": 10
         }
       ]
     }
   ],
   "stories": [
     {
-      "id": "story-128t99s",
-      "title": "为什么人工智能最容易获胜是误导首席执行官",
-      "summary": "美国证券交易委员会(Securities and Exchange Commission)今天提出动议，要求对注册投资顾问Western Asset Management Company LLC的前联合首席投资官Stephen Kenneth Leech II作出最终判决， SEC此前曾负责一项多年的挑选分配计划。",
-      "sourceName": "2 家独立来源",
+      "id": "story-1df26g",
+      "title": "Lucky Unique non-response re- Transparentem report on alleged slow remediation",
+      "summary": "",
+      "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-10-06T20:30:24.000Z"
+      "publishedAt": "2026-10-11T23:00:00.000Z"
     },
     {
       "id": "story-yp8duv",
@@ -179,42 +194,6 @@
       "publishedAt": "2026-10-05T23:00:00.000Z"
     },
     {
-      "id": "story-kwf2ki",
-      "title": "缩放AI推理",
-      "summary": "美国证券交易委员会与其他美国和全球金融监管机构协调，今天发布了一份联合投资者公告，作为世界投资者周（WIW）的一部分。该公告鼓励投资者在不断变化的经济状况中保持弹性，并在面对不断增加的关系投资和假冒诈骗时保持警惕。 世界投资者周是国际证券委员会组织的一项全球性活动，旨在汇集六大洲的监管机构，提高对投资者教育和投资者保护重要性的认识。",
-      "sourceName": "2 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-10-05T12:47:36.000Z"
-    },
-    {
-      "id": "story-tffn1k",
-      "title": "使命的现代化：对Jamie Wolff的采访",
-      "summary": "美国证券交易委员会今天指控私募基金顾问Meyer Global Management LLC （MGM）及其首席执行官Owen E.H. Meyer在投资SpaceX和其他IPO前证券方面欺骗投资者和MGM管理的基金。 根据美国证券交易委员会的投诉，在至少从2021年12月到现在的一系列计划中，被告通过滥用客户基金资产违反了他们的信托义务，并向基金的基础投资者撒谎。",
-      "sourceName": "2 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-09-30T18:30:01.000Z"
-    },
-    {
-      "id": "story-d8mkqb",
-      "title": "作者对话：你能否实现抱负并书写人生？",
-      "summary": "一场关于如何平衡个人抱负与人生选择的对话，探讨在实现目标的同时保持生活的完整性。",
-      "sourceName": "2 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-09-29T13:08:53.000Z"
-    },
-    {
-      "id": "story-1ybtpd",
-      "title": "政府人工智能经济学的新阶段",
-      "summary": "分析政府层面人工智能经济学的下一阶段，探讨公共部门如何更有效地应用人工智能。",
-      "sourceName": "2 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-09-29T12:11:16.000Z"
-    },
-    {
       "id": "story-17c9ghq",
       "title": "白花能源未回应",
       "summary": "纽约市审计长马克·莱文 (Mark Levine) 宣布，他建议该市的三个公共养老基金战略性扩大私募市场气候解决方案投资，并计划提供 50 亿美元的新私募市场投资机会。",
@@ -224,22 +203,58 @@
       "publishedAt": "2026-09-28T16:05:08.000Z"
     },
     {
-      "id": "story-1ui59p6",
-      "title": "人工智能驱动的护理未来",
-      "summary": "探讨人工智能驱动的照护未来。",
-      "sourceName": "2 家独立来源",
+      "id": "story-1cdl44h",
+      "title": "东盟零碳园区产融对话会新加坡落幕：千亿级市场待挖掘，正式启动东盟零碳园区产业项目储备库 - 上海市人民政府",
+      "summary": "东盟零碳园区产融对话会新加坡落幕：千亿级市场待挖掘",
+      "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-09-28T13:19:31.000Z"
+      "publishedAt": "2026-09-17"
     },
     {
-      "id": "story-1vadp4i",
-      "title": "美国证券交易委员会指控南佛罗里达州居民及其公司涉嫌投资计划欺诈执法部门",
-      "summary": "SEC 指控南佛罗里达州居民及其公司涉嫌投资骗局诈骗执法人员。",
-      "sourceName": "2 家独立来源",
+      "id": "story-1ui526q",
+      "title": "零排放卡车：加速欧洲转型",
+      "summary": "整个生态系统的挑战推迟了向零排放卡车的过渡，由于潜在的二氧化碳罚款和日益激烈的竞争，导致欧洲原始设备制造商面临的压力不断增加。",
+      "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-09-27T23:00:00.000Z"
+      "publishedAt": "2026-09-10T16:00:00.000Z"
+    },
+    {
+      "id": "story-1ft4rnc",
+      "title": "第十次中澳气候变化部长级对话成功召开",
+      "summary": "第十次中澳气候变化部长级对话成功召开",
+      "sourceName": "1 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-08-30"
+    },
+    {
+      "id": "story-1v9da4g",
+      "title": "绿色与灰色基础设施：协同推进更具韧性",
+      "summary": "联合国环境规划署讨论绿色与灰色基础设施如何协同提升气候韧性和可持续发展成效。",
+      "sourceName": "1 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-08-25"
+    },
+    {
+      "id": "story-14kvmeu",
+      "title": "委员会对要求罗马尼亚向十名能源投资者支付赔偿的仲裁裁决展开深入调查",
+      "summary": "欧盟委员会新闻稿，布鲁塞尔，2026 年 7 月 29 日 欧盟委员会已展开深入调查，以评估一项仲裁裁决，该裁决要求罗马尼亚因可再生电力支持措施的变更而向 10 名投资者支付赔偿，该裁决是否符合欧盟国家援助规则。",
+      "sourceName": "1 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-08-04"
+    },
+    {
+      "id": "story-1eb1um9",
+      "title": "ISSB 提议更新其数字可持续性分类法",
+      "summary": "IFRS 基金会是一个非营利性公共利益组织，旨在制定高质量、易于理解、可执行且全球认可的会计和可持续发展披露标准。",
+      "sourceName": "1 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-07-01"
     }
   ]
 }

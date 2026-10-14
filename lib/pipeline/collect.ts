@@ -53,7 +53,7 @@ export async function collectRssSource(source: SourceConfig): Promise<RawMateria
 
   return (feed.items || []).map((item) => {
     const title = compactText(item.title);
-    const summary = firstParagraph(item.content || item["content:encoded"] || item.contentSnippet || item.summary || "");
+    const summary = firstParagraph(item.content || item["content:encoded"] || item.contentSnippet || item.summary || "") || title;
     const publishedAt = toPublishedTimestamp(compactText(item.isoDate || item.pubDate));
     const articleUrl = compactText(item.link);
     const id = `src-${stableHash(`${source.id}:${articleUrl || title}:${publishedAt}`)}`;

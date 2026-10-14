@@ -13,6 +13,17 @@ function main() {
       item.summary = cleaned;
       item.summaryZh = "";
       fixed += 1;
+      continue;
+    }
+    if (!raw && item.title) {
+      item.summary = item.title;
+      item.summaryZh = "";
+      fixed += 1;
+      continue;
+    }
+    if (!String(item.summaryZh || "").trim() && item.titleZh) {
+      item.summaryZh = item.titleZh;
+      fixed += 1;
     }
   }
   writePublishedContents(contents);

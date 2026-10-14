@@ -9402,10 +9402,9 @@
     "rootId": "src-7e5yjw",
     "title": "美国证券交易委员会指控南佛罗里达州居民及其公司涉嫌投资计划欺诈执法部门",
     "digest": "SEC 指控南佛罗里达州居民及其公司涉嫌投资骗局诈骗执法人员。",
-    "latest": "香港交易及结算所有限公司（香港交易所）今天（星期一）欢迎本月推出追踪其三个跨市场指数的四只交易所交易基金（ETF），标志着集团指数业务持续扩展的重要里程碑，并强化集团致力开发创新产品以支持区域及国际投资者多元化投资机会的承诺。新上市的ETF追踪香港交易所马来西亚大盘股指数、香港交易所KRX半导体指数以及香港交易所科技及美国科技100指数。",
+    "latest": "SEC 指控南佛罗里达州居民及其公司涉嫌投资骗局诈骗执法人员。",
     "memberIds": [
-      "src-7e5yjw",
-      "src-14f32wi"
+      "src-7e5yjw"
     ],
     "facts": [
       {
@@ -9414,32 +9413,19 @@
         "action": "发布",
         "object": "美国证券交易委员会指控南佛罗里达州居民及其公司涉嫌投资计划欺诈执法部门",
         "occurredAt": "2026-09-23"
-      },
-      {
-        "title": "柬埔寨：最低工资谈判陷入僵局，生活成本上涨，工人要求更高工资",
-        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
-        "action": "发布",
-        "object": "柬埔寨：最低工资谈判陷入僵局，生活成本上涨，工人要求更高工资",
-        "occurredAt": "2026-09-27"
       }
     ],
     "participants": [
-      "sec-esg",
-      "bhrrc-latest"
+      "sec-esg"
     ],
     "firstPublishedAt": "2026-09-23T16:00:00.000Z",
-    "latestPublishedAt": "2026-09-27T23:00:00.000Z",
+    "latestPublishedAt": "2026-09-23T16:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-7e5yjw",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
-      },
-      {
-        "memberId": "src-14f32wi",
-        "relation": "SAME_STORY",
-        "confidence": 0.8344553849509775
       }
     ],
     "heat6hAgo": 0,
@@ -9448,8 +9434,7 @@
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
-      "SEC 新闻稿（ESG 相关）",
-      "Business & Human Rights（全球企业人权/劳工风险案例）"
+      "SEC 新闻稿（ESG 相关）"
     ]
   },
   {
@@ -9977,11 +9962,9 @@
     "rootId": "src-1azec3b",
     "title": "人工智能驱动的护理未来",
     "digest": "探讨人工智能驱动的照护未来。",
-    "latest": "总部位于巴黎的国际银行和投资集团法国农业信贷银行周一宣布推出法国农业信贷银行",
+    "latest": "探讨人工智能驱动的照护未来。",
     "memberIds": [
-      "src-1azec3b",
-      "src-11ah0mh",
-      "src-1qc2gic"
+      "src-1azec3b"
     ],
     "facts": [
       {
@@ -9990,44 +9973,19 @@
         "action": "发布",
         "object": "人工智能驱动的护理未来",
         "occurredAt": "2026-09-27"
-      },
-      {
-        "title": "ISO和联合国开发计划署推出新标准将可持续发展目标纳入企业战",
-        "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "ISO和联合国开发计划署推出新标准将可持续发展目标纳入企业战略",
-        "occurredAt": "2026-09-28"
-      },
-      {
-        "title": "法国农业信贷银行成立新的自然资本金融和投资部门",
-        "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "法国农业信贷银行成立新的自然资本金融和投资部门",
-        "occurredAt": "2026-09-28"
       }
     ],
     "participants": [
-      "mckinsey-sustainability",
-      "esgtoday"
+      "mckinsey-sustainability"
     ],
     "firstPublishedAt": "2026-09-27T16:00:00.000Z",
-    "latestPublishedAt": "2026-09-28T13:19:31.000Z",
+    "latestPublishedAt": "2026-09-27T16:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-1azec3b",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
-      },
-      {
-        "memberId": "src-11ah0mh",
-        "relation": "SAME_STORY",
-        "confidence": 0.8703882797784892
-      },
-      {
-        "memberId": "src-1qc2gic",
-        "relation": "SAME_STORY",
-        "confidence": 0.6250541102117806
       }
     ],
     "heat6hAgo": 0,
@@ -10036,8 +9994,7 @@
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
-      "麦肯锡可持续发展洞察",
-      "ESG Today（全球 ESG 新闻）"
+      "麦肯锡可持续发展洞察"
     ]
   },
   {
@@ -10187,6 +10144,46 @@
     "relations": [
       {
         "memberId": "src-1ggcuar",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-1utqntt",
+    "rootId": "src-14f32wi",
+    "title": "柬埔寨：最低工资谈判陷入僵局，生活成本上涨，工人要求更高工资",
+    "digest": "香港交易及结算所有限公司（香港交易所）今天（星期一）欢迎本月推出追踪其三个跨市场指数的四只交易所交易基金（ETF），标志着集团指数业务持续扩展的重要里程碑，并强化集团致力开发创新产品以支持区域及国际投资者多元化投资机会的承诺。新上市的ETF追踪香港交易所马来西亚大盘股指数、香港交易所KRX半导体指数以及香港交易所科技及美国科技100指数。",
+    "latest": "香港交易及结算所有限公司（香港交易所）今天（星期一）欢迎本月推出追踪其三个跨市场指数的四只交易所交易基金（ETF），标志着集团指数业务持续扩展的重要里程碑，并强化集团致力开发创新产品以支持区域及国际投资者多元化投资机会的承诺。新上市的ETF追踪香港交易所马来西亚大盘股指数、香港交易所KRX半导体指数以及香港交易所科技及美国科技100指数。",
+    "memberIds": [
+      "src-14f32wi"
+    ],
+    "facts": [
+      {
+        "title": "柬埔寨：最低工资谈判陷入僵局，生活成本上涨，工人要求更高工资",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "柬埔寨：最低工资谈判陷入僵局，生活成本上涨，工人要求更高工资",
+        "occurredAt": "2026-09-27"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-09-27T23:00:00.000Z",
+    "latestPublishedAt": "2026-09-27T23:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-14f32wi",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -10644,6 +10641,46 @@
     ]
   },
   {
+    "id": "story-16iu3wo",
+    "rootId": "src-11ah0mh",
+    "title": "ISO和联合国开发计划署推出新标准将可持续发展目标纳入企业战略",
+    "digest": "总部位于巴黎的国际银行和投资集团法国农业信贷银行 (Crédit Agricole) 周一宣布成立法国农业信贷银行 (Crédit Agricole Capital Naturel)，这是一个新部门，专注于支持公司、投资者和其他利益相关者应对与保护和恢复自然资源相关的挑战，最初的重点是森林。",
+    "latest": "总部位于巴黎的国际银行和投资集团法国农业信贷银行 (Crédit Agricole) 周一宣布成立法国农业信贷银行 (Crédit Agricole Capital Naturel)，这是一个新部门，专注于支持公司、投资者和其他利益相关者应对与保护和恢复自然资源相关的挑战，最初的重点是森林。",
+    "memberIds": [
+      "src-11ah0mh"
+    ],
+    "facts": [
+      {
+        "title": "ISO和联合国开发计划署推出新标准将可持续发展目标纳入企业战",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "ISO和联合国开发计划署推出新标准将可持续发展目标纳入企业战略",
+        "occurredAt": "2026-09-28"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-09-28T10:40:33.000Z",
+    "latestPublishedAt": "2026-09-28T10:40:33.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-11ah0mh",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
     "id": "story-13tx4wr",
     "rootId": "src-o7nsxh",
     "title": "证监会与证券业分享预防诈骗及网络安全的最新资讯",
@@ -10710,6 +10747,46 @@
     "relations": [
       {
         "memberId": "src-13ivvd2",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-h9p35z",
+    "rootId": "src-1qc2gic",
+    "title": "法国农业信贷银行成立新的自然资本金融和投资部门",
+    "digest": "总部位于巴黎的国际银行和投资集团法国农业信贷银行周一宣布推出法国农业信贷银行",
+    "latest": "总部位于巴黎的国际银行和投资集团法国农业信贷银行周一宣布推出法国农业信贷银行",
+    "memberIds": [
+      "src-1qc2gic"
+    ],
+    "facts": [
+      {
+        "title": "法国农业信贷银行成立新的自然资本金融和投资部门",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "法国农业信贷银行成立新的自然资本金融和投资部门",
+        "occurredAt": "2026-09-28"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-09-28T13:19:31.000Z",
+    "latestPublishedAt": "2026-09-28T13:19:31.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1qc2gic",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -10808,10 +10885,9 @@
     "rootId": "src-165xsgg",
     "title": "作者对话：你能否实现抱负并书写人生？",
     "digest": "一场关于如何平衡个人抱负与人生选择的对话，探讨在实现目标的同时保持生活的完整性。",
-    "latest": "全球报告倡议组织 (GRI) 宣布计划扩大其行业标准，制定一项新标准，旨在使食品和饮料公司能够报告其行业和价值链的相关影响。",
+    "latest": "一场关于如何平衡个人抱负与人生选择的对话，探讨在实现目标的同时保持生活的完整性。",
     "memberIds": [
-      "src-165xsgg",
-      "src-1vz5pk1"
+      "src-165xsgg"
     ],
     "facts": [
       {
@@ -10820,32 +10896,19 @@
         "action": "发布",
         "object": "作者对话：你能否实现抱负并书写人生？",
         "occurredAt": "2026-09-28"
-      },
-      {
-        "title": "GRI 将为食品和饮料公司推出新的可持续发展报告标准",
-        "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "GRI 将为食品和饮料公司推出新的可持续发展报告标准",
-        "occurredAt": "2026-09-29"
       }
     ],
     "participants": [
-      "mckinsey-sustainability",
-      "esgtoday"
+      "mckinsey-sustainability"
     ],
     "firstPublishedAt": "2026-09-28T16:00:00.000Z",
-    "latestPublishedAt": "2026-09-29T13:08:53.000Z",
+    "latestPublishedAt": "2026-09-28T16:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-165xsgg",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
-      },
-      {
-        "memberId": "src-1vz5pk1",
-        "relation": "SAME_STORY",
-        "confidence": 0.8447418837575273
       }
     ],
     "heat6hAgo": 0,
@@ -10854,8 +10917,7 @@
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
-      "麦肯锡可持续发展洞察",
-      "ESG Today（全球 ESG 新闻）"
+      "麦肯锡可持续发展洞察"
     ]
   },
   {
@@ -10863,10 +10925,9 @@
     "rootId": "src-11ok1fn",
     "title": "政府人工智能经济学的新阶段",
     "digest": "分析政府层面人工智能经济学的下一阶段，探讨公共部门如何更有效地应用人工智能。",
-    "latest": "总部位于荷兰的保险集团 Achmea 的投资部门 Achmea Investment Management 和资产管理公司 ILX Management 宣布建立合作伙伴关系，旨在为荷兰养老基金提供新兴市场债务影响工具。",
+    "latest": "分析政府层面人工智能经济学的下一阶段，探讨公共部门如何更有效地应用人工智能。",
     "memberIds": [
-      "src-11ok1fn",
-      "src-1c4lbv3"
+      "src-11ok1fn"
     ],
     "facts": [
       {
@@ -10875,32 +10936,19 @@
         "action": "发布",
         "object": "政府人工智能经济学的新阶段",
         "occurredAt": "2026-09-28"
-      },
-      {
-        "title": "Achmea 与 ILX 合作推出专注于新兴市场的影响力投资",
-        "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "Achmea 与 ILX 合作推出专注于新兴市场的影响力投资平台",
-        "occurredAt": "2026-09-29"
       }
     ],
     "participants": [
-      "mckinsey-sustainability",
-      "esgtoday"
+      "mckinsey-sustainability"
     ],
     "firstPublishedAt": "2026-09-28T16:00:00.000Z",
-    "latestPublishedAt": "2026-09-29T12:11:16.000Z",
+    "latestPublishedAt": "2026-09-28T16:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-11ok1fn",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
-      },
-      {
-        "memberId": "src-1c4lbv3",
-        "relation": "SAME_STORY",
-        "confidence": 0.8116794499134277
       }
     ],
     "heat6hAgo": 0,
@@ -10909,8 +10957,7 @@
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
-      "麦肯锡可持续发展洞察",
-      "ESG Today（全球 ESG 新闻）"
+      "麦肯锡可持续发展洞察"
     ]
   },
   {
@@ -11314,6 +11361,86 @@
     ]
   },
   {
+    "id": "story-uuidkf",
+    "rootId": "src-1c4lbv3",
+    "title": "Achmea 与 ILX 合作推出专注于新兴市场的影响力投资平台",
+    "digest": "总部位于荷兰的保险集团 Achmea 的投资部门 Achmea Investment Management 和资产管理公司 ILX Management 宣布建立合作伙伴关系，旨在为荷兰养老基金提供新兴市场债务影响工具。",
+    "latest": "总部位于荷兰的保险集团 Achmea 的投资部门 Achmea Investment Management 和资产管理公司 ILX Management 宣布建立合作伙伴关系，旨在为荷兰养老基金提供新兴市场债务影响工具。",
+    "memberIds": [
+      "src-1c4lbv3"
+    ],
+    "facts": [
+      {
+        "title": "Achmea 与 ILX 合作推出专注于新兴市场的影响力投资",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Achmea 与 ILX 合作推出专注于新兴市场的影响力投资平台",
+        "occurredAt": "2026-09-29"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-09-29T12:11:16.000Z",
+    "latestPublishedAt": "2026-09-29T12:11:16.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1c4lbv3",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1p8sho",
+    "rootId": "src-1vz5pk1",
+    "title": "GRI 将为食品和饮料公司推出新的可持续发展报告标准",
+    "digest": "全球报告倡议组织 (GRI) 宣布计划扩大其行业标准，制定一项新标准，旨在使食品和饮料公司能够报告其行业和价值链的相关影响。",
+    "latest": "全球报告倡议组织 (GRI) 宣布计划扩大其行业标准，制定一项新标准，旨在使食品和饮料公司能够报告其行业和价值链的相关影响。",
+    "memberIds": [
+      "src-1vz5pk1"
+    ],
+    "facts": [
+      {
+        "title": "GRI 将为食品和饮料公司推出新的可持续发展报告标准",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "GRI 将为食品和饮料公司推出新的可持续发展报告标准",
+        "occurredAt": "2026-09-29"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-09-29T13:08:53.000Z",
+    "latestPublishedAt": "2026-09-29T13:08:53.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1vz5pk1",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
     "id": "story-hrmol",
     "rootId": "src-fnrpdw",
     "title": "SEC 指控多个实体利用 WhatsApp 等平台实施至少 1500 万美元欺诈",
@@ -11637,8 +11764,8 @@
     "id": "story-o3e1sj",
     "rootId": "src-18yfok2",
     "title": "美国证券交易委员会提出修正案，以扩大私募市场的负责任零售",
-    "digest": "美国证券交易委员会今天投票提出规则修正案，通过扩大散户投资者的选择和促进受监管基金结构的创新，促进公共和私人市场的资本形成",
-    "latest": "美国证券交易委员会今天投票提出规则修正案，通过扩大散户投资者的选择和促进受监管基金结构的创新，促进公共和私人市场的资本形成",
+    "digest": "美国证券交易委员会今天投票提出规则修正案，通过扩大散户投资者的选择和促进受监管基金结构的创新",
+    "latest": "美国证券交易委员会今天投票提出规则修正案，通过扩大散户投资者的选择和促进受监管基金结构的创新",
     "memberIds": [
       "src-18yfok2"
     ],
@@ -11718,10 +11845,9 @@
     "rootId": "src-o90pd9",
     "title": "使命的现代化：对Jamie Wolff的采访",
     "digest": "美国证券交易委员会今天指控私募基金顾问Meyer Global Management LLC （MGM）及其首席执行官Owen E.H. Meyer在投资SpaceX和其他IPO前证券方面欺骗投资者和MGM管理的基金。 根据美国证券交易委员会的投诉，在至少从2021年12月到现在的一系列计划中，被告通过滥用客户基金资产违反了他们的信托义务，并向基金的基础投资者撒谎。",
-    "latest": "美国证券交易委员会今天指控私募基金顾问Meyer Global Management LLC （MGM）及其首席执行官Owen E.H.",
+    "latest": "美国证券交易委员会今天指控私募基金顾问Meyer Global Management LLC （MGM）及其首席执行官Owen E.H. Meyer在投资SpaceX和其他IPO前证券方面欺骗投资者和MGM管理的基金。 根据美国证券交易委员会的投诉，在至少从2021年12月到现在的一系列计划中，被告通过滥用客户基金资产违反了他们的信托义务，并向基金的基础投资者撒谎。",
     "memberIds": [
-      "src-o90pd9",
-      "src-11o0y7k"
+      "src-o90pd9"
     ],
     "facts": [
       {
@@ -11730,32 +11856,19 @@
         "action": "通过",
         "object": "使命的现代化：对Jamie Wolff的采访",
         "occurredAt": "2026-09-30"
-      },
-      {
-        "title": "美国证券交易委员会指控Meyer Global Manage",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会指控Meyer Global Management及其首席执行官欺诈持有SpaceX和其他IPO前证券权益的私募基金的散户投资者",
-        "occurredAt": "2026-09-30"
       }
     ],
     "participants": [
-      "mckinsey-sustainability",
-      "sec-esg"
+      "mckinsey-sustainability"
     ],
     "firstPublishedAt": "2026-09-30T16:00:00.000Z",
-    "latestPublishedAt": "2026-09-30T18:30:01.000Z",
+    "latestPublishedAt": "2026-09-30T16:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-o90pd9",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
-      },
-      {
-        "memberId": "src-11o0y7k",
-        "relation": "SAME_STORY",
-        "confidence": 0.6017857182341908
       }
     ],
     "heat6hAgo": 0,
@@ -11764,8 +11877,7 @@
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
-      "麦肯锡可持续发展洞察",
-      "SEC 新闻稿（ESG 相关）"
+      "麦肯锡可持续发展洞察"
     ]
   },
   {
@@ -11812,8 +11924,8 @@
     "id": "story-1mdj1ym",
     "rootId": "src-dp58vf",
     "title": "美国证券交易委员会指控两人实施针对退伍军人的精心策划的欺诈计划",
-    "digest": "美国证券交易委员会今天宣布对克里斯托弗·肯吉·迪内利（Christopher Kenji Dinelli）和雅各布·大卫· “科比” ·弗兰克尔（Jacob David “Kobe” Frankel）提出指控，指控他们涉嫌策划一项欺诈计划",
-    "latest": "美国证券交易委员会今天宣布对克里斯托弗·肯吉·迪内利（Christopher Kenji Dinelli）和雅各布·大卫· “科比” ·弗兰克尔（Jacob David “Kobe” Frankel）提出指控，指控他们涉嫌策划一项欺诈计划",
+    "digest": "美国证券交易委员会今天宣布对克里斯托弗·肯吉·迪内利（Christopher Kenji Dinelli）和雅各布·大卫· “科比” ·弗兰克尔（Jacob David “Kobe” Frankel）提出指控",
+    "latest": "美国证券交易委员会今天宣布对克里斯托弗·肯吉·迪内利（Christopher Kenji Dinelli）和雅各布·大卫· “科比” ·弗兰克尔（Jacob David “Kobe” Frankel）提出指控",
     "memberIds": [
       "src-dp58vf"
     ],
@@ -11835,6 +11947,46 @@
     "relations": [
       {
         "memberId": "src-dp58vf",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 新闻稿（ESG 相关）"
+    ]
+  },
+  {
+    "id": "story-qucd9z",
+    "rootId": "src-11o0y7k",
+    "title": "美国证券交易委员会指控Meyer Global Management及其首席执行官欺诈持有SpaceX和其他IPO前证券权益的私募基金的散户投资者",
+    "digest": "美国证券交易委员会今天指控私募基金顾问Meyer Global Management LLC （MGM）及其首席执行官Owen E.H.",
+    "latest": "美国证券交易委员会今天指控私募基金顾问Meyer Global Management LLC （MGM）及其首席执行官Owen E.H.",
+    "memberIds": [
+      "src-11o0y7k"
+    ],
+    "facts": [
+      {
+        "title": "美国证券交易委员会指控Meyer Global Manage",
+        "subject": "SEC 新闻稿（ESG 相关）",
+        "action": "发布",
+        "object": "美国证券交易委员会指控Meyer Global Management及其首席执行官欺诈持有SpaceX和其他IPO前证券权益的私募基金的散户投资者",
+        "occurredAt": "2026-09-30"
+      }
+    ],
+    "participants": [
+      "sec-esg"
+    ],
+    "firstPublishedAt": "2026-09-30T18:30:01.000Z",
+    "latestPublishedAt": "2026-09-30T18:30:01.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-11o0y7k",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -12092,8 +12244,8 @@
     "id": "story-15w41s7",
     "rootId": "src-1qdd6vv",
     "title": "美国证券交易委员会的提案将解决投资顾问和基金如何根据联邦证券法托管加密资产的问题",
-    "digest": "美国证券交易委员会今天提出了新的规则和修正案，为注册投资顾问和监管基金提供量身定制的加密资产托管框架",
-    "latest": "美国证券交易委员会今天提出了新的规则和修正案，为注册投资顾问和监管基金提供量身定制的加密资产托管框架",
+    "digest": "美国证券交易委员会今天提出了新的规则和修正案",
+    "latest": "美国证券交易委员会今天提出了新的规则和修正案",
     "memberIds": [
       "src-1qdd6vv"
     ],
@@ -12133,10 +12285,9 @@
     "rootId": "src-3f00c",
     "title": "缩放AI推理",
     "digest": "美国证券交易委员会与其他美国和全球金融监管机构协调，今天发布了一份联合投资者公告，作为世界投资者周（WIW）的一部分。该公告鼓励投资者在不断变化的经济状况中保持弹性，并在面对不断增加的关系投资和假冒诈骗时保持警惕。 世界投资者周是国际证券委员会组织的一项全球性活动，旨在汇集六大洲的监管机构，提高对投资者教育和投资者保护重要性的认识。",
-    "latest": "美国证券交易委员会与其他美国和全球金融监管机构协调，今天发布了一份联合投资者公告，作为世界投资者周（WIW）的一部分。",
+    "latest": "美国证券交易委员会与其他美国和全球金融监管机构协调，今天发布了一份联合投资者公告，作为世界投资者周（WIW）的一部分。该公告鼓励投资者在不断变化的经济状况中保持弹性，并在面对不断增加的关系投资和假冒诈骗时保持警惕。 世界投资者周是国际证券委员会组织的一项全球性活动，旨在汇集六大洲的监管机构，提高对投资者教育和投资者保护重要性的认识。",
     "memberIds": [
-      "src-3f00c",
-      "src-1qzeaxq"
+      "src-3f00c"
     ],
     "facts": [
       {
@@ -12145,32 +12296,19 @@
         "action": "发布",
         "object": "缩放AI推理",
         "occurredAt": "2026-10-04"
-      },
-      {
-        "title": "美国证券交易委员会与全球金融监管机构协调，在世界投资者周期间",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会与全球金融监管机构协调，在世界投资者周期间提高欺诈意识",
-        "occurredAt": "2026-10-05"
       }
     ],
     "participants": [
-      "mckinsey-sustainability",
-      "sec-esg"
+      "mckinsey-sustainability"
     ],
     "firstPublishedAt": "2026-10-04T16:00:00.000Z",
-    "latestPublishedAt": "2026-10-05T12:47:36.000Z",
+    "latestPublishedAt": "2026-10-04T16:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-3f00c",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
-      },
-      {
-        "memberId": "src-1qzeaxq",
-        "relation": "SAME_STORY",
-        "confidence": 0.6233022919309994
       }
     ],
     "heat6hAgo": 0,
@@ -12179,8 +12317,7 @@
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
-      "麦肯锡可持续发展洞察",
-      "SEC 新闻稿（ESG 相关）"
+      "麦肯锡可持续发展洞察"
     ]
   },
   {
@@ -12221,6 +12358,46 @@
     "signalCount": 0,
     "sourceNames": [
       "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-17676vu",
+    "rootId": "src-1qzeaxq",
+    "title": "美国证券交易委员会与全球金融监管机构协调，在世界投资者周期间提高欺诈意识",
+    "digest": "美国证券交易委员会与其他美国和全球金融监管机构协调，今天发布了一份联合投资者公告，作为世界投资者周（WIW）的一部分。",
+    "latest": "美国证券交易委员会与其他美国和全球金融监管机构协调，今天发布了一份联合投资者公告，作为世界投资者周（WIW）的一部分。",
+    "memberIds": [
+      "src-1qzeaxq"
+    ],
+    "facts": [
+      {
+        "title": "美国证券交易委员会与全球金融监管机构协调，在世界投资者周期间",
+        "subject": "SEC 新闻稿（ESG 相关）",
+        "action": "发布",
+        "object": "美国证券交易委员会与全球金融监管机构协调，在世界投资者周期间提高欺诈意识",
+        "occurredAt": "2026-10-05"
+      }
+    ],
+    "participants": [
+      "sec-esg"
+    ],
+    "firstPublishedAt": "2026-10-05T12:47:36.000Z",
+    "latestPublishedAt": "2026-10-05T12:47:36.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1qzeaxq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 新闻稿（ESG 相关）"
     ]
   },
   {
@@ -12656,10 +12833,9 @@
     "rootId": "src-1ccdieg",
     "title": "为什么人工智能最容易获胜是误导首席执行官",
     "digest": "美国证券交易委员会(Securities and Exchange Commission)今天提出动议，要求对注册投资顾问Western Asset Management Company LLC的前联合首席投资官Stephen Kenneth Leech II作出最终判决， SEC此前曾负责一项多年的挑选分配计划。",
-    "latest": "美国证券交易委员会今天提出动议，要求对注册投资顾问Western Asset Management Company LLC的前联合首席投资官Stephen Kenneth Leech II作出最终判决",
+    "latest": "美国证券交易委员会(Securities and Exchange Commission)今天提出动议，要求对注册投资顾问Western Asset Management Company LLC的前联合首席投资官Stephen Kenneth Leech II作出最终判决， SEC此前曾负责一项多年的挑选分配计划。",
     "memberIds": [
-      "src-1ccdieg",
-      "src-qdrl3a"
+      "src-1ccdieg"
     ],
     "facts": [
       {
@@ -12668,7 +12844,40 @@
         "action": "发布",
         "object": "为什么人工智能最容易获胜是误导首席执行官",
         "occurredAt": "2026-10-06"
-      },
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-06T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-06T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1ccdieg",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-126ounx",
+    "rootId": "src-qdrl3a",
+    "title": "美国证券交易委员会在樱桃采摘案中寻求对前西方资产联合首席投资官Ken Leech的最终判决",
+    "digest": "美国证券交易委员会今天提出动议，要求对注册投资顾问Western Asset Management Company LLC的前联合首席投资官Stephen Kenneth Leech II作出最终判决",
+    "latest": "美国证券交易委员会今天提出动议，要求对注册投资顾问Western Asset Management Company LLC的前联合首席投资官Stephen Kenneth Leech II作出最终判决",
+    "memberIds": [
+      "src-qdrl3a"
+    ],
+    "facts": [
       {
         "title": "美国证券交易委员会在樱桃采摘案中寻求对前西方资产联合首席投资",
         "subject": "SEC 新闻稿（ESG 相关）",
@@ -12678,22 +12887,16 @@
       }
     ],
     "participants": [
-      "mckinsey-sustainability",
       "sec-esg"
     ],
-    "firstPublishedAt": "2026-10-06T16:00:00.000Z",
+    "firstPublishedAt": "2026-10-06T20:30:24.000Z",
     "latestPublishedAt": "2026-10-06T20:30:24.000Z",
     "heat": 0,
     "relations": [
       {
-        "memberId": "src-1ccdieg",
+        "memberId": "src-qdrl3a",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
-      },
-      {
-        "memberId": "src-qdrl3a",
-        "relation": "SAME_STORY",
-        "confidence": 0.7777653184818517
       }
     ],
     "heat6hAgo": 0,
@@ -12702,7 +12905,6 @@
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
-      "麦肯锡可持续发展洞察",
       "SEC 新闻稿（ESG 相关）"
     ]
   },
@@ -13070,8 +13272,8 @@
     "id": "story-1hn74sm",
     "rootId": "src-m2yj74",
     "title": "82%的投资者预计气候风险将在未来十年影响资产价格： Robeco调查",
-    "digest": "3年来，气候变化首次成为投资者的战略优先事项自2023年政治反弹加剧以来，气候变化首次成为投资者的优先事项，全球超过十分之八的投资者表示",
-    "latest": "3年来，气候变化首次成为投资者的战略优先事项自2023年政治反弹加剧以来，气候变化首次成为投资者的优先事项，全球超过十分之八的投资者表示",
+    "digest": "3年来，气候变化首次成为投资者的战略优先事项自2023年政治反弹加剧以来，气候变化首次成为投资者的优先事项",
+    "latest": "3年来，气候变化首次成为投资者的战略优先事项自2023年政治反弹加剧以来，气候变化首次成为投资者的优先事项",
     "memberIds": [
       "src-m2yj74"
     ],
@@ -13133,6 +13335,46 @@
     "relations": [
       {
         "memberId": "src-1nzx91c",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-n2alrz",
+    "rootId": "src-bq0kog",
+    "title": "Shapers and Founders: Understanding the owner mindset",
+    "digest": "Marrying Eastern philosophy and Western management culture has given many of Asia’s owner-CEOs a unique edge in growing their businesses.",
+    "latest": "Marrying Eastern philosophy and Western management culture has given many of Asia’s owner-CEOs a unique edge in growing their businesses.",
+    "memberIds": [
+      "src-bq0kog"
+    ],
+    "facts": [
+      {
+        "title": "Shapers and Founders: Understa",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Shapers and Founders: Understanding the owner mindset",
+        "occurredAt": "2026-10-07"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-07T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-07T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-bq0kog",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -13453,6 +13695,1539 @@
     "relations": [
       {
         "memberId": "src-fl1dgu",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-mhh0y",
+    "rootId": "src-1a1gac8",
+    "title": "The six strategy roles a CEO must not delegate",
+    "digest": "Strategy is a team sport, but the value it creates ultimately depends on the CEO’s involvement.",
+    "latest": "Strategy is a team sport, but the value it creates ultimately depends on the CEO’s involvement.",
+    "memberIds": [
+      "src-1a1gac8"
+    ],
+    "facts": [
+      {
+        "title": "The six strategy roles a CEO m",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "The six strategy roles a CEO must not delegate",
+        "occurredAt": "2026-10-08"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-08T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-08T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1a1gac8",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-8juluq",
+    "rootId": "src-czeh06",
+    "title": "As the world order turns, leading companies are keeping pace. Here’s how",
+    "digest": "Leading companies are tracking six emerging patterns of geopolitical change and realigning their businesses to achieve resilience, seize growth, and build competitive advantage.",
+    "latest": "Leading companies are tracking six emerging patterns of geopolitical change and realigning their businesses to achieve resilience, seize growth, and build competitive advantage.",
+    "memberIds": [
+      "src-czeh06"
+    ],
+    "facts": [
+      {
+        "title": "As the world order turns, lead",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "As the world order turns, leading companies are keeping pace. Here’s how",
+        "occurredAt": "2026-10-08"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-08T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-08T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-czeh06",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-19g62mu",
+    "rootId": "src-tzmfe2",
+    "title": "For CPG companies, agentic AI’s real payoff is growth",
+    "digest": "As the relationship between consumer-packaged-goods companies and retailers becomes more complex, agentic AI can recapture lost sales. But are leaders ready to harness the technology’s power?",
+    "latest": "As the relationship between consumer-packaged-goods companies and retailers becomes more complex, agentic AI can recapture lost sales. But are leaders ready to harness the technology’s power?",
+    "memberIds": [
+      "src-tzmfe2"
+    ],
+    "facts": [
+      {
+        "title": "For CPG companies, agentic AI’",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "For CPG companies, agentic AI’s real payoff is growth",
+        "occurredAt": "2026-10-08"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-08T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-08T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-tzmfe2",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1e4dewl",
+    "rootId": "src-19wwbmc",
+    "title": "New speech by Julia Leung: Keynote address at ASIFMA’s Future of Liquidity in Asia Pacific Capital Markets Conference",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-19wwbmc"
+    ],
+    "facts": [
+      {
+        "title": "New speech by Julia Leung: Key",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "New speech by Julia Leung: Keynote address at ASIFMA’s Future of Liquidity in As",
+        "occurredAt": "2026-10-09"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-09T01:48:57.000Z",
+    "latestPublishedAt": "2026-10-09T01:48:57.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-19wwbmc",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-1wguhsh",
+    "rootId": "src-p1ax22",
+    "title": "SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds",
+    "digest": "The Securities and Exchange Commission today proposed amendments to the Investment Company Act “cross-trading rule,” which permits transactions in securities between a registered fund and its affiliates under certain conditions.",
+    "latest": "The Securities and Exchange Commission today proposed amendments to the Investment Company Act “cross-trading rule,” which permits transactions in securities between a registered fund and its affiliates under certain conditions.",
+    "memberIds": [
+      "src-p1ax22"
+    ],
+    "facts": [
+      {
+        "title": "SEC Proposes Expanding Securit",
+        "subject": "SEC 新闻稿（ESG 相关）",
+        "action": "propose",
+        "object": "SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds",
+        "occurredAt": "2026-10-09"
+      }
+    ],
+    "participants": [
+      "sec-esg"
+    ],
+    "firstPublishedAt": "2026-10-09T14:59:00.000Z",
+    "latestPublishedAt": "2026-10-09T14:59:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-p1ax22",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 新闻稿（ESG 相关）"
+    ]
+  },
+  {
+    "id": "story-pddmaq",
+    "rootId": "src-1kpoxu6",
+    "title": "Meesho: Making e-commerce everyone’s business",
+    "digest": "Scaling an e-commerce start-up in India’s dispersed markets is challenging, but innovation, patience, and passionately solving hard problems have enabled Meesho’s founders to succeed.",
+    "latest": "Scaling an e-commerce start-up in India’s dispersed markets is challenging, but innovation, patience, and passionately solving hard problems have enabled Meesho’s founders to succeed.",
+    "memberIds": [
+      "src-1kpoxu6"
+    ],
+    "facts": [
+      {
+        "title": "Meesho: Making e-commerce ever",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Meesho: Making e-commerce everyone’s business",
+        "occurredAt": "2026-10-11"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-11T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-11T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1kpoxu6",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-kf0wo2",
+    "rootId": "src-2pnlxp",
+    "title": "Asset management 2026: Plenty for the few?",
+    "digest": "A golden age for the industry is becoming a golden age for a smaller group of asset managers.",
+    "latest": "A golden age for the industry is becoming a golden age for a smaller group of asset managers.",
+    "memberIds": [
+      "src-2pnlxp"
+    ],
+    "facts": [
+      {
+        "title": "Asset management 2026: Plenty ",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Asset management 2026: Plenty for the few?",
+        "occurredAt": "2026-10-11"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-11T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-11T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-2pnlxp",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1s8avqs",
+    "rootId": "src-10ruyvu",
+    "title": "Myanmar: Military regime bars hundreds of migrant workers from jobs over remittance & tax compliance failures",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-10ruyvu"
+    ],
+    "facts": [
+      {
+        "title": "Myanmar: Military regime bars ",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Myanmar: Military regime bars hundreds of migrant workers from jobs over remitta",
+        "occurredAt": "2026-10-11"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-10-11T23:00:00.000Z",
+    "latestPublishedAt": "2026-10-11T23:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-10ruyvu",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-1dam31g",
+    "rootId": "src-1rdxw95",
+    "title": "Taiwan: Suppliers & major brands on course to returning USD6mn fee repayments to migrant workers, but others lagging behind; incl. cos. responses & non-response",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-1rdxw95"
+    ],
+    "facts": [
+      {
+        "title": "Taiwan: Suppliers & major bran",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Taiwan: Suppliers & major brands on course to returning USD6mn fee repayments to",
+        "occurredAt": "2026-10-11"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-10-11T23:00:00.000Z",
+    "latestPublishedAt": "2026-10-11T23:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1rdxw95",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-1df26g",
+    "rootId": "src-18uyn4g",
+    "title": "Lucky Unique non-response re- Transparentem report on alleged slow remediation",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-18uyn4g",
+      "src-jeqtxb"
+    ],
+    "facts": [
+      {
+        "title": "Lucky Unique non-response re- ",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Lucky Unique non-response re- Transparentem report on alleged slow remediation",
+        "occurredAt": "2026-10-11"
+      },
+      {
+        "title": "Libolon response re- Transpare",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Libolon response re- Transparentem report on alleged slow remediation",
+        "occurredAt": "2026-10-11"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-10-11T23:00:00.000Z",
+    "latestPublishedAt": "2026-10-11T23:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-18uyn4g",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-jeqtxb",
+        "relation": "SAME_STORY",
+        "confidence": 0.8040302522073697
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-1k61zi",
+    "rootId": "src-1bdurgk",
+    "title": "EU: Central Asian truck drivers allegedly subjected to labour rights abuses by logistics firms, incl. while delivering BMW vehicles; incl. co. response",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-1bdurgk"
+    ],
+    "facts": [
+      {
+        "title": "EU: Central Asian truck driver",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "EU: Central Asian truck drivers allegedly subjected to labour rights abuses by l",
+        "occurredAt": "2026-10-11"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-10-11T23:00:00.000Z",
+    "latestPublishedAt": "2026-10-11T23:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1bdurgk",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-1k6l23n",
+    "rootId": "src-8ysyeg",
+    "title": "HKEX to Introduce 12 Stock Option Classes with Weekly and Monthly Expiries",
+    "digest": "HKEX to Introduce 12 Stock Option Classes with Weekly and Monthly Expiries",
+    "latest": "HKEX to Introduce 12 Stock Option Classes with Weekly and Monthly Expiries",
+    "memberIds": [
+      "src-8ysyeg"
+    ],
+    "facts": [
+      {
+        "title": "HKEX to Introduce 12 Stock Opt",
+        "subject": "香港交易所新闻稿",
+        "action": "发布",
+        "object": "HKEX to Introduce 12 Stock Option Classes with Weekly and Monthly Expiries",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "hkex-news"
+    ],
+    "firstPublishedAt": "2026-10-12T04:00:00.000Z",
+    "latestPublishedAt": "2026-10-12T04:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-8ysyeg",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港交易所新闻稿"
+    ]
+  },
+  {
+    "id": "story-1niexbl",
+    "rootId": "src-18ta8vg",
+    "title": "HKEX Launches S&P 500 & HKEX Tech 100 Index in Partnership with S&P Dow Jones Indices",
+    "digest": "HKEX Launches S&P 500 & HKEX Tech 100 Index in Partnership with S&P Dow Jones Indices",
+    "latest": "HKEX Launches S&P 500 & HKEX Tech 100 Index in Partnership with S&P Dow Jones Indices",
+    "memberIds": [
+      "src-18ta8vg"
+    ],
+    "facts": [
+      {
+        "title": "HKEX Launches S&P 500 & HKEX T",
+        "subject": "香港交易所新闻稿",
+        "action": "发布",
+        "object": "HKEX Launches S&P 500 & HKEX Tech 100 Index in Partnership with S&P Dow Jones In",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "hkex-news"
+    ],
+    "firstPublishedAt": "2026-10-12T07:49:00.000Z",
+    "latestPublishedAt": "2026-10-12T07:49:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-18ta8vg",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港交易所新闻稿"
+    ]
+  },
+  {
+    "id": "story-dp1217",
+    "rootId": "src-1b4i09n",
+    "title": "SFC approves six securities registrars for upcoming uncertificated securities market regime",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-1b4i09n"
+    ],
+    "facts": [
+      {
+        "title": "SFC approves six securities re",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "approve",
+        "object": "SFC approves six securities registrars for upcoming uncertificated securities ma",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-12T08:37:59.000Z",
+    "latestPublishedAt": "2026-10-12T08:37:59.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1b4i09n",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-124f381",
+    "rootId": "src-nuf5lq",
+    "title": "SFC proceeds to strengthen targeted tools to tackle IPO-related and other corporate misconduct",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-nuf5lq"
+    ],
+    "facts": [
+      {
+        "title": "SFC proceeds to strengthen tar",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "SFC proceeds to strengthen targeted tools to tackle IPO-related and other corpor",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-12T09:29:28.000Z",
+    "latestPublishedAt": "2026-10-12T09:29:28.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-nuf5lq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-g9lw1a",
+    "rootId": "src-5ebb8y",
+    "title": "Candide Raises Over $70 Million to Close the Climate Finance Gap in Underinvested Communities",
+    "digest": "California-based impact investment advisory firm Candide announced that it has raised $71.5 million in commitments",
+    "latest": "California-based impact investment advisory firm Candide announced that it has raised $71.5 million in commitments",
+    "memberIds": [
+      "src-5ebb8y"
+    ],
+    "facts": [
+      {
+        "title": "Candide Raises Over $70 Millio",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Candide Raises Over $70 Million to Close the Climate Finance Gap in Underinveste",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-12T13:16:13.000Z",
+    "latestPublishedAt": "2026-10-12T13:16:13.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-5ebb8y",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-x80f2s",
+    "rootId": "src-j5lpie",
+    "title": "BII to Mobilize $1.6 Billion for Climate Finance in Southeast Asia",
+    "digest": "UK development finance institution British International Investment (BII) announced plans to channel $1.6 billion in",
+    "latest": "UK development finance institution British International Investment (BII) announced plans to channel $1.6 billion in",
+    "memberIds": [
+      "src-j5lpie"
+    ],
+    "facts": [
+      {
+        "title": "BII to Mobilize $1.6 Billion f",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "BII to Mobilize $1.6 Billion for Climate Finance in Southeast Asia",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-12T13:44:43.000Z",
+    "latestPublishedAt": "2026-10-12T13:44:43.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-j5lpie",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1ae2u8t",
+    "rootId": "src-wcwnj5",
+    "title": "The AI operating system: A new way for CEOs to run the enterprise",
+    "digest": "An AI operating system can become an enterprise’s “second brain,” but only if CEOs rethink how management itself evolves.",
+    "latest": "An AI operating system can become an enterprise’s “second brain,” but only if CEOs rethink how management itself evolves.",
+    "memberIds": [
+      "src-wcwnj5"
+    ],
+    "facts": [
+      {
+        "title": "The AI operating system: A new",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "The AI operating system: A new way for CEOs to run the enterprise",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-12T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-12T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-wcwnj5",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-9tgwl",
+    "rootId": "src-lbalov",
+    "title": "Why the future of capital projects belongs to digital and AI-enabled teams",
+    "digest": "Digital and AI are changing the way capital projects are selected, designed, procured, built, and steered. Leaders are moving beyond pilots to rewire how projects are planned and delivered.",
+    "latest": "Digital and AI are changing the way capital projects are selected, designed, procured, built, and steered. Leaders are moving beyond pilots to rewire how projects are planned and delivered.",
+    "memberIds": [
+      "src-lbalov"
+    ],
+    "facts": [
+      {
+        "title": "Why the future of capital proj",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Why the future of capital projects belongs to digital and AI-enabled teams",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-12T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-12T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-lbalov",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1cem43l",
+    "rootId": "src-hrepsz",
+    "title": "Why medtechs can’t afford to overlook customer experience",
+    "digest": "Customer experience is a competitive imperative for medtechs. To create a durable advantage, it must be designed into products from day one, not added as a post-sale service.",
+    "latest": "Customer experience is a competitive imperative for medtechs. To create a durable advantage, it must be designed into products from day one, not added as a post-sale service.",
+    "memberIds": [
+      "src-hrepsz"
+    ],
+    "facts": [
+      {
+        "title": "Why medtechs can’t afford to o",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Why medtechs can’t afford to overlook customer experience",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-12T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-12T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-hrepsz",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1kfvzkp",
+    "rootId": "src-1yhpvmx",
+    "title": "Blaze Raises $6.5 Million to Enable Ships to Run on Clean Fuel",
+    "digest": "Maritime fuel technology startup Blaze Energy announced that it has raised $6.5 million in a",
+    "latest": "Maritime fuel technology startup Blaze Energy announced that it has raised $6.5 million in a",
+    "memberIds": [
+      "src-1yhpvmx"
+    ],
+    "facts": [
+      {
+        "title": "Blaze Raises $6.5 Million to E",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Blaze Raises $6.5 Million to Enable Ships to Run on Clean Fuel",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-12T16:05:46.000Z",
+    "latestPublishedAt": "2026-10-12T16:05:46.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1yhpvmx",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-v2eleu",
+    "rootId": "src-iv4wmd",
+    "title": "Laos: Wage gap and rising costs drive mass labour migration as government reviews minimum wage",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-iv4wmd"
+    ],
+    "facts": [
+      {
+        "title": "Laos: Wage gap and rising cost",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Laos: Wage gap and rising costs drive mass labour migration as government review",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-10-12T23:00:00.000Z",
+    "latestPublishedAt": "2026-10-12T23:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-iv4wmd",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-72r683",
+    "rootId": "src-vt5o9e",
+    "title": "Malaysia: MSMEs exempt from new minimum wage, calls for transparent implementation and accessible financing",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-vt5o9e"
+    ],
+    "facts": [
+      {
+        "title": "Malaysia: MSMEs exempt from ne",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Malaysia: MSMEs exempt from new minimum wage, calls for transparent implementati",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-10-12T23:00:00.000Z",
+    "latestPublishedAt": "2026-10-12T23:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-vt5o9e",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-gaykmo",
+    "rootId": "src-ndcue",
+    "title": "Malaysia: Migrant workers trafficked, unpaid & passed between companies in alleged bonded labour scheme",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-ndcue"
+    ],
+    "facts": [
+      {
+        "title": "Malaysia: Migrant workers traf",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Malaysia: Migrant workers trafficked, unpaid & passed between companies in alleg",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-10-12T23:00:00.000Z",
+    "latestPublishedAt": "2026-10-12T23:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-ndcue",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-1qbfh4a",
+    "rootId": "src-1hp4z99",
+    "title": "Day 2: Tuesday 13 October",
+    "digest": "The second day of the 12th session of the Open-ended Intergovernmental Working Group focused on Article 14 (Consistency with international law) before turning to Article 15 (Institutional arrangements). In the afternoon, discussion resumed on Article 16 (Implementation), before concluding on proposals on the definition of \"victims\" (Article 1).",
+    "latest": "The second day of the 12th session of the Open-ended Intergovernmental Working Group focused on Article 14 (Consistency with international law) before turning to Article 15 (Institutional arrangements). In the afternoon, discussion resumed on Article 16 (Implementation), before concluding on proposals on the definition of \"victims\" (Article 1).",
+    "memberIds": [
+      "src-1hp4z99"
+    ],
+    "facts": [
+      {
+        "title": "Day 2: Tuesday 13 October",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Day 2: Tuesday 13 October",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-10-12T23:00:00.000Z",
+    "latestPublishedAt": "2026-10-12T23:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1hp4z99",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-q134a4",
+    "rootId": "src-z6up40",
+    "title": "Ecuador: Protests against President Noboa's policies demand social security and labour guarantees",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-z6up40"
+    ],
+    "facts": [
+      {
+        "title": "Ecuador: Protests against Pres",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Ecuador: Protests against President Noboa's policies demand social security and ",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-10-12T23:00:00.000Z",
+    "latestPublishedAt": "2026-10-12T23:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-z6up40",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-18wjs7s",
+    "rootId": "src-zsyoua",
+    "title": "Chile: Workers at the Centinela copper mine escalate their protests for equal wages to a hunger strike",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-zsyoua"
+    ],
+    "facts": [
+      {
+        "title": "Chile: Workers at the Centinel",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Chile: Workers at the Centinela copper mine escalate their protests for equal wa",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-10-12T23:00:00.000Z",
+    "latestPublishedAt": "2026-10-12T23:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-zsyoua",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-vu2itu",
+    "rootId": "src-1a4qrjp",
+    "title": "Ecuador: Petroecuador oil spill in Cupa River raises environmental and social concerns",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-1a4qrjp"
+    ],
+    "facts": [
+      {
+        "title": "Ecuador: Petroecuador oil spil",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Ecuador: Petroecuador oil spill in Cupa River raises environmental and social co",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-10-12T23:00:00.000Z",
+    "latestPublishedAt": "2026-10-12T23:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1a4qrjp",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-snnpcs",
+    "rootId": "src-u2duuc",
+    "title": "New speech by Kelvin Wong: Keynote Remarks at IOSCO World Investor Week 2026 - Strike the Gong for Financial Literacy Event",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-u2duuc"
+    ],
+    "facts": [
+      {
+        "title": "New speech by Kelvin Wong: Key",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "New speech by Kelvin Wong: Keynote Remarks at IOSCO World Investor Week 2026 - S",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-13T07:13:28.000Z",
+    "latestPublishedAt": "2026-10-13T07:13:28.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-u2duuc",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-39fmi5",
+    "rootId": "src-1c2myb3",
+    "title": "Stoxx, Osmosis Launch New Suite of Sustainable Transition Factor Indices",
+    "digest": "Index provider Stoxx and sustainability-focused asset manager Osmosis announced the launch of the iSTOXX Osmosis",
+    "latest": "Index provider Stoxx and sustainability-focused asset manager Osmosis announced the launch of the iSTOXX Osmosis",
+    "memberIds": [
+      "src-1c2myb3"
+    ],
+    "facts": [
+      {
+        "title": "Stoxx, Osmosis Launch New Suit",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Stoxx, Osmosis Launch New Suite of Sustainable Transition Factor Indices",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-13T08:06:43.000Z",
+    "latestPublishedAt": "2026-10-13T08:06:43.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1c2myb3",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-a2a3rk",
+    "rootId": "src-whdr85",
+    "title": "SFC takes action against suspected IPO-rigging syndicates and suspends dealings in Baicha shares",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-whdr85"
+    ],
+    "facts": [
+      {
+        "title": "SFC takes action against suspe",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "SFC takes action against suspected IPO-rigging syndicates and suspends dealings ",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-13T08:30:08.000Z",
+    "latestPublishedAt": "2026-10-13T08:30:08.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-whdr85",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-1dkk9ew",
+    "rootId": "src-1ks0v63",
+    "title": "EY, Watershed Launch Sustainability Reporting Partnership",
+    "digest": "Professional services firm EY US announced a new alliance with climate solutions provider Watershed",
+    "latest": "Professional services firm EY US announced a new alliance with climate solutions provider Watershed",
+    "memberIds": [
+      "src-1ks0v63"
+    ],
+    "facts": [
+      {
+        "title": "EY, Watershed Launch Sustainab",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "EY, Watershed Launch Sustainability Reporting Partnership",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-13T09:15:02.000Z",
+    "latestPublishedAt": "2026-10-13T09:15:02.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1ks0v63",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-evdho8",
+    "rootId": "src-13ogzb3",
+    "title": "SFC recognises progress in sponsors’ work and urges sustained vigilance",
+    "digest": "",
+    "latest": "",
+    "memberIds": [
+      "src-13ogzb3"
+    ],
+    "facts": [
+      {
+        "title": "SFC recognises progress in spo",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "SFC recognises progress in sponsors’ work and urges sustained vigilance",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-13T09:20:03.000Z",
+    "latestPublishedAt": "2026-10-13T09:20:03.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-13ogzb3",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-1d4v94o",
+    "rootId": "src-100yut5",
+    "title": "SBTN Releases New Framework for Corporate Science-Based Nature Target Setting",
+    "digest": "The Science Based Targets Network (SBTN) announced today the release of Science-Based Targets for Nature",
+    "latest": "The Science Based Targets Network (SBTN) announced today the release of Science-Based Targets for Nature",
+    "memberIds": [
+      "src-100yut5"
+    ],
+    "facts": [
+      {
+        "title": "SBTN Releases New Framework fo",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "SBTN Releases New Framework for Corporate Science-Based Nature Target Setting",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-13T11:14:31.000Z",
+    "latestPublishedAt": "2026-10-13T11:14:31.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-100yut5",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-8ptl9q",
+    "rootId": "src-q11rj4",
+    "title": "Finance Earth, FSD Africa Launch $100 Million Fund to Back Nature-Based Carbon Projects",
+    "digest": "Environmental impact investment firm Finance Earth and financial sector development agency FSD Africa",
+    "latest": "Environmental impact investment firm Finance Earth and financial sector development agency FSD Africa",
+    "memberIds": [
+      "src-q11rj4"
+    ],
+    "facts": [
+      {
+        "title": "Finance Earth, FSD Africa Laun",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Finance Earth, FSD Africa Launch $100 Million Fund to Back Nature-Based Carbon P",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-13T11:38:50.000Z",
+    "latestPublishedAt": "2026-10-13T11:38:50.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-q11rj4",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1hzbks5",
+    "rootId": "src-123yaiy",
+    "title": "Epyr Raises $17 Million to Scale Industrial Heat Electrification Platform",
+    "digest": "French energy tech startup Epyr announced today that it has raised €15 million (USD$16.8 million)",
+    "latest": "French energy tech startup Epyr announced today that it has raised €15 million (USD$16.8 million)",
+    "memberIds": [
+      "src-123yaiy"
+    ],
+    "facts": [
+      {
+        "title": "Epyr Raises $17 Million to Sca",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Epyr Raises $17 Million to Scale Industrial Heat Electrification Platform",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-13T13:18:52.000Z",
+    "latestPublishedAt": "2026-10-13T13:18:52.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-123yaiy",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-8aeudl",
+    "rootId": "src-18ebdgn",
+    "title": "TNFD Releases Major Update to Guidance Supporting Corporate Nature-Related Reporting",
+    "digest": "The Taskforce on Nature-related Financial Disclosures (TNFD) announced the release of LEAP 2.0",
+    "latest": "The Taskforce on Nature-related Financial Disclosures (TNFD) announced the release of LEAP 2.0",
+    "memberIds": [
+      "src-18ebdgn"
+    ],
+    "facts": [
+      {
+        "title": "TNFD Releases Major Update to ",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "TNFD Releases Major Update to Guidance Supporting Corporate Nature-Related Repor",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-13T14:44:42.000Z",
+    "latestPublishedAt": "2026-10-13T14:44:42.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-18ebdgn",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-fwon8c",
+    "rootId": "src-1iv61sr",
+    "title": "Steve Wozniak’s Energy Saving Technology Platform Efforce Acquired by TROOPS",
+    "digest": "Hong Kong-based financial services and technology company TROOPS announced an agreement to acquire energy technology",
+    "latest": "Hong Kong-based financial services and technology company TROOPS announced an agreement to acquire energy technology",
+    "memberIds": [
+      "src-1iv61sr"
+    ],
+    "facts": [
+      {
+        "title": "Steve Wozniak’s Energy Saving ",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Steve Wozniak’s Energy Saving Technology Platform Efforce Acquired by TROOPS",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-13T16:31:13.000Z",
+    "latestPublishedAt": "2026-10-13T16:31:13.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1iv61sr",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
