@@ -305,9 +305,17 @@ export default function HomeClient({ contents, zones, initialMonth, hotspots, he
                                 {hotspotIds?.includes(item.id) && <span className="inline-flex items-center gap-0.5 rounded bg-risk-soft px-1.5 py-0.5 text-risk"><Flame size={9} />热点跟踪中</span>}
                                 {totalSourceCount(item) > 1 && <span className="rounded bg-paper px-1.5 py-0.5 text-ink-soft">{totalSourceCount(item)} 家独立来源</span>}
                                 {item.region && <span className="inline-flex items-center gap-1 text-ink-faint"><MapPin size={10} />{item.region}</span>}
-                                <span onClick={function(e) { e.stopPropagation(); window.open(getContentLink(item), '_blank', 'noopener,noreferrer'); }}
-                                  className="ml-auto cursor-pointer rounded p-1 text-ink-faint transition-colors hover:bg-brand-soft hover:text-brand-deep"
-                                  title={"查看原文：" + item.sourceName}><ArrowUpRight size={13} /></span>
+                                <span className="ml-auto flex items-center gap-1.5">
+                                  {typeof item.pipeline?.score === "number" && (
+                                    <span className={"rounded px-1.5 py-0.5 font-mono text-[10px] font-semibold " + (item.recommended ? "bg-brand-soft text-brand-deep" : "bg-paper text-ink-soft")}
+                                      title={"综合评分（精选门槛 " + (item.pipeline.scoreThreshold ?? 75) + "）"}>
+                                      {item.pipeline.score} 分
+                                    </span>
+                                  )}
+                                  <span onClick={function(e) { e.stopPropagation(); window.open(getContentLink(item), '_blank', 'noopener,noreferrer'); }}
+                                    className="cursor-pointer rounded p-1 text-ink-faint transition-colors hover:bg-brand-soft hover:text-brand-deep"
+                                    title={"查看原文：" + item.sourceName}><ArrowUpRight size={13} /></span>
+                                </span>
                               </div>
                               <div className="mb-3 flex items-start gap-4">
                                 <div className="min-w-0 flex-1">

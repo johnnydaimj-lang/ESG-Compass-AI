@@ -46,6 +46,12 @@ export default async function EventDetailPage({ params }: Props) {
         <span className="rounded bg-brand-soft px-1.5 py-0.5 text-brand-deep">{item.contentType}</span>
         <span className="inline-flex items-center gap-1 text-ink-faint"><MapPin size={11} />{item.region}</span>
         <time className="font-mono text-ink-faint">{formatPublishedAt(item.publishedAt)}</time>
+        {typeof item.pipeline?.score === "number" && (
+          <span className={"ml-auto rounded px-1.5 py-0.5 font-mono text-[10px] font-semibold " + (item.recommended ? "bg-brand-soft text-brand-deep" : "bg-paper text-ink-soft")}
+            title={"综合评分（精选门槛 " + (item.pipeline.scoreThreshold ?? 75) + "）"}>
+            {item.pipeline.score} 分
+          </span>
+        )}
       </div>
       <h1 className="mb-6 text-2xl leading-snug font-semibold tracking-tight text-ink">{getHomeTitle(item)}</h1>
       <div className="mb-8 flex flex-wrap items-center gap-3 rounded-lg border border-line bg-surface px-5 py-4">

@@ -522,7 +522,7 @@
     "titleZh": "加利福尼亚锁定11月第一份企业气候报告的截止日期",
     "summaryZh": "加利福尼亚州行政法办公室（OAL）已批准该州新的企业温室气体",
     "recommended": true,
-    "recommendReason": "涉及ESG动向，综合评分 88。",
+    "recommendReason": "加州正式敲定企业气候报告规则并锁定 2026 年 11 月首个截止日期，直接影响在加州经营的大型企业的披露义务与合规时间表。",
     "pipeline": {
       "score": 88,
       "scoreThreshold": 75,
@@ -600,7 +600,7 @@
     "articleUrl": "https://www.nbim.no/en/news-and-insights/the-press/",
     "esgTopic": "合规与监管",
     "recommended": true,
-    "recommendReason": "涉及全球最大主权财富基金的道德投资准则调整，影响范围广。",
+    "recommendReason": "挪威独立委员会建议修改全球最大主权财富基金的道德投资准则，允许重新投资部分参与核武器生产的西方国防企业，涉及道德排除机制与国防产业投资的再平衡。",
     "bodyZh": "挪威政府委任的独立委员会建议修改全球最大主权财富基金——挪威政府全球养老基金的道德投资准则，允许基金重新投资部分参与核武器生产的西方国防企业。该建议涉及基金长期执行的排除与观察名单机制，后续将进入政府审议程序。委员会认为，在安全环境变化背景下，有必要重新平衡道德约束与国防产业投资之间的关系。",
     "pipeline": {
       "score": 86,
@@ -639,7 +639,7 @@
     "articleUrl": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
     "esgTopic": "气候风险",
     "recommended": true,
-    "recommendReason": "欧盟最高层就可负担能源与碳市场改革展开讨论，直接影响气候政策走向。",
+    "recommendReason": "欧盟领导人在布鲁塞尔峰会上讨论能源价格上涨与碳市场改革，涉及工业竞争力、电力市场设计与减排目标的平衡，直接影响欧盟气候政策走向。",
     "bodyZh": "10月15日至16日，欧盟领导人在布鲁塞尔峰会上讨论能源价格上涨及碳市场改革。会议重点涉及如何在高能源成本背景下保持工业竞争力，同时推进减排目标与碳市场机制调整。讨论还涉及电力市场设计、碳价传导以及对低收入家庭和能源密集型产业的缓冲措施，反映欧盟在气候目标与能源安全之间寻求平衡。",
     "pipeline": {
       "score": 84,
@@ -716,7 +716,7 @@
     "articleUrl": "https://www.cbd.int/gbo",
     "esgTopic": "气候风险",
     "recommended": true,
-    "recommendReason": "首次系统评估昆明—蒙特利尔全球生物多样性框架实施进展，是生物多样性治理的重要基准。",
+    "recommendReason": "联合国首次系统评估《昆明—蒙特利尔全球生物多样性框架》的实施进展，梳理各国在目标、政策、监测与资金方面的差距，是生物多样性治理的重要基准。",
     "bodyZh": "10月15日，联合国正式发布《全球生物多样性行动状况报告》，首次系统评估2022年《昆明—蒙特利尔全球生物多样性框架》的实施进展。报告梳理各国在生物多样性保护目标、政策行动、监测能力与资金投入方面的进展与差距，并指出要实现框架设定的2030年目标，仍需加强国家战略更新、跨部门协同与融资支持。",
     "pipeline": {
       "score": 88,
@@ -1497,7 +1497,7 @@
     "articleUrl": "https://transitionpathwayinitiative.org/",
     "esgTopic": "气候风险",
     "recommended": true,
-    "recommendReason": "系统评估36家大型银行的气候承诺与转型进展，揭示雄心回落趋势。",
+    "recommendReason": "TPI 评估全球 36 家大型银行的气候承诺、转型计划与风险管理，发现过去三年整体气候雄心下降、部分机构撤销净零承诺，对银行转型与融资排放管理具有警示意义。",
     "bodyZh": "伦敦政治经济学院旗下TPI全球气候转型中心发布《2026年银行业转型状况报告》，评估全球36家大型银行的气候承诺、转型计划及风险管理。研究发现，过去三年银行整体气候雄心有所下降，部分机构撤销了净零承诺和行业减排目标，转型计划与融资排放管理进展不均。报告认为，银行需要更清晰的转型治理、目标设定与信息披露，以支撑可信的净零转型。",
     "pipeline": {
       "score": 79,
@@ -2199,7 +2199,7 @@
     "articleUrl": "https://www.esma.europa.eu/press-news/esma-news/esma-promotes-clarity-claims-impact-and-transition",
     "esgTopic": "合规与监管",
     "recommended": true,
-    "recommendReason": "ESMA就影响力与转型声明统一监管预期，直接关系可持续基金披露与防漂绿。",
+    "recommendReason": "ESMA 就影响力投资与气候转型声明发布监管说明，统一基金管理人的表述与证据要求，直接关系可持续金融产品的披露与防漂绿。",
     "bodyZh": "10月12日，欧洲证券及市场管理局（ESMA）发布两份可持续金融专题监管说明，分别针对影响力投资声明和气候转型声明。说明明确基金管理人在相关表述中应遵循清晰、准确与不误导的要求，包括如何界定影响力、如何描述转型路径与目标，以及需要提供的证据与披露。此举旨在统一监管预期，防范漂绿风险，提升可持续金融产品的可信度。",
     "pipeline": {
       "score": 77,
@@ -4431,7 +4431,7 @@
     "articleUrl": "http://kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm",
     "esgTopic": "合规与监管",
     "recommended": true,
-    "recommendReason": "涉及合规与监管的中国动向，综合评分 93。",
+    "recommendReason": "财政部首次就气候准则配套应用指南及电力、钢铁、煤炭、石油等 9 个重点行业应用指南公开征求意见，是可持续披露准则落地的关键一步。",
     "pipeline": {
       "score": 93,
       "scoreThreshold": 75,
@@ -6769,7 +6769,7 @@
     "articleUrl": "https://reports.weforum.org/chief-sustainability-officers-outlook/",
     "esgTopic": "合规与监管",
     "recommended": true,
-    "recommendReason": "首份面向首席可持续发展官的全球展望，观察企业可持续治理职能的演进。",
+    "recommendReason": "世界经济论坛发布首份《首席可持续发展官展望》，系统观察企业可持续治理职能的角色、优先议题与能力需求，对理解全球企业 ESG 治理演进具有参考价值。",
     "bodyZh": "世界经济论坛于2026年9月15日在日内瓦发布首份《首席可持续发展官展望》（Chief Sustainability Officers' Outlook）。报告基于对全球首席可持续发展官的调研，梳理企业在气候与可持续发展议题上的优先事项、组织定位、跨部门协作与能力建设方向，并讨论首席可持续发展官如何在战略制定、信息披露与业务转型中发挥作用。2026年10月8日，世界经济论坛中文官网发布中文解读，对报告要点进行了本地化梳理。",
     "pipeline": {
       "score": 78,
@@ -7068,7 +7068,7 @@
     "link": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fkumi.consulting%2Finsights%2F5%2Daugust%2D2026%2Da%2Dturning%2Dpoint%2Dfor%2Dsupply%2Dchain%2Ddue%2Ddiligence%2Din%2Dchina%2F&rut=0b1ab9142ae84757557604cb3ccce1e4fede3b9f7a44752e8884e4b07999bdb2",
     "titleZh": "2026年8月5日：中国供应链尽职调查的转折点？",
     "summaryZh": "摘要：中国决定将责任商业联盟 (RBA)、Verité 和其他四个尽职调查和追溯组织置于反制裁制度之下，这给在中国进行供应链尽职调查的公司带来了不确定性。",
-    "recommendReason": "涉及合规与监管动向，综合评分 76。",
+    "recommendReason": "文章分析 2026 年 8 月 5 日中国供应链尽职调查规则变化的影响，为企业判断合规义务与供应链管理调整提供参考。",
     "pipeline": {
       "score": 76,
       "scoreThreshold": 75,
@@ -8184,7 +8184,7 @@
     "link": "https://www.esgtoday.com/eu-publishes-final-revised-european-sustainability-reporting-standards-in-official-journal/",
     "titleZh": "欧盟在官方公报上发布最终修订版欧洲可持续发展报告标准",
     "summaryZh": "欧盟委员会已发布最终修订的公司欧洲可持续发展报告标准（ESRS）",
-    "recommendReason": "涉及合规与监管动向，综合评分 90。",
+    "recommendReason": "欧盟在官方公报发布最终修订版欧洲可持续发展报告标准（ESRS），直接影响 CSRD 适用企业的披露口径与实施节奏。",
     "pipeline": {
       "score": 90,
       "scoreThreshold": 75,
@@ -9136,7 +9136,7 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbTdIUXhLZGxyeFgta0Y0YjFqMzVxOG1BMnl4am1pM1U2YnJaWXNiTUZ5OV9NVUZZN0pTYjkzZUU3ZG80ajBQQ0lnRmVRMGZlemdpQnJlUS1tUzV2aXdHc19WQ1I3LXJnbFl3djc5ZG80UHhFRkJlVjJPZ1V0bUZvOUNMNXd4Qlp5bVNxcGpFY0RfYWRsaWRCZVpuNFhnT0JONnNnOW13TFZEcDRfelo1R2lYS3dlaGYzTXF0QWlMVk1YN0JmWmRucDRn?oc=5",
     "titleZh": "从隐形到保护：国际劳工组织对平台工人采取具有里程碑意义的保护 - Business-Humanrights.org",
     "summaryZh": "从隐形到保护：国际劳工组织对平台工人采取具有里程碑意义的保护 Business- humanrights.org",
-    "recommendReason": "涉及合规与监管动向，综合评分 77。",
+    "recommendReason": "国际劳工组织通过平台工人保护里程碑标准，反映劳工权利治理的最新进展，对平台经济与供应链人权尽职调查具有参考意义。",
     "pipeline": {
       "score": 77,
       "scoreThreshold": 75,
@@ -12667,7 +12667,7 @@
     "esgTopic": "合规与监管",
     "recommended": true,
     "aiDraft": false,
-    "recommendReason": "涉及合规与监管的中国动向，综合评分 86。",
+    "recommendReason": "商务部将责任商业联盟等列入反制清单，涉及供应链尽职调查与跨境合规，对出口企业的供应链管理有直接影响。",
     "recommendBullets": [
       "6家美国实体列入反制清单，包括责任商业联盟（RBA）",
       "禁止境内组织、个人与其开展有关交易、合作等活动",
@@ -12713,7 +12713,7 @@
     "esgTopic": "合规与监管",
     "recommended": true,
     "aiDraft": false,
-    "recommendReason": "涉及合规与监管的中国动向，综合评分 88。",
+    "recommendReason": "商务部加强无人机相关两用物项对美出口管制，涉及出口合规与供应链风险管理，相关企业需关注许可与最终用户要求。",
     "recommendBullets": [
       "对列入两用物项出口管制清单的无人机及其关键零部件、技术逐案从严审核",
       "不适用许可便利措施，自 2026-08-05 公布起实施",
@@ -12759,7 +12759,7 @@
     "esgTopic": "合规与监管",
     "recommended": true,
     "aiDraft": false,
-    "recommendReason": "涉及合规与监管的中国动向，综合评分 78。",
+    "recommendReason": "商务部对美国合规性测试公司采取反制措施，涉及跨境合规与供应链审计安排，相关企业需评估合规测试路径。",
     "recommendBullets": [
       "经国家反外国制裁工作协调机制批准，2026-08-05 起施行",
       "针对协助 FCC 涉华措施的美国合规性测试公司",

@@ -122,12 +122,13 @@ const AXIS_LABELS: Record<keyof ScoreAxes, string> = {
 export function recommendReasonFor(material: RawMaterial, decision: ScoreDecision): string {
   const topic = material.esgTopic || "ESG";
   const region = material.region || "全球";
+  const summary = compactText(material.content.summaryZh || material.content.summary);
+  const lead = summary.split(/[。；;]/)[0]?.trim() || "";
   const axes = (Object.keys(AXIS_LABELS) as Array<keyof ScoreAxes>)
     .map((key) => ({ key, value: (decision.runs[0].axes[key] + decision.runs[1].axes[key]) / 2 }))
     .sort((a, b) => b.value - a.value);
   const top = axes[0];
-  if (!top || top.value === 0) {
-    return `涉及${topic}${region !== "全球" ? `的${region}` : ""}动向，综合评分 ${decision.displayScore}。`;
-  }
-  return `${AXIS_LABELS[top.key]}较突出，涉及${topic}${region !== "全球" ? `的${region}` : ""}动向，综合评分 ${decision.displayScore}。`;
+  const focus = top && top.value > 0 ? `${AXIS_LABELS[top.key]}较突出` : "信息价值较高";
+  const detail = `${focus}，涉及${topic}${region !== "全球" ? `的${region}` : ""}动向，对相关企业的战略、合规与风险管理具有参考价值。`;
+  return lead ? `${lead}。${detail}` : detail;
 }
