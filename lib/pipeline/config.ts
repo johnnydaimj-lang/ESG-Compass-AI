@@ -16,6 +16,9 @@ export const SELECTION_THRESHOLDS: Record<SourceTier, number> = {
   SIGNAL: 101,
 };
 
+// 精选统一门槛：综合评分（两次独立评分的平均值，向下取整）高于该值才入选。
+export const CURATION_FLOOR = 75;
+
 export const UNDERSTAND_FLOOR = 45;
 export const SOURCE_TIER_WEIGHTS: Record<SourceTier, number> = {
   T1: 3,

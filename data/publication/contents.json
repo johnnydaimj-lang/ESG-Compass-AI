@@ -17,7 +17,7 @@
     "recommendReason": "涉及ESG动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-qxynjv",
@@ -56,7 +56,7 @@
     "recommendReason": "涉及ESG动向，综合评分 25。",
     "pipeline": {
       "score": 25,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-2j5bkx",
@@ -95,7 +95,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1dw9q71",
@@ -134,7 +134,7 @@
     "recommendReason": "涉及ESG动向，综合评分 42。",
     "pipeline": {
       "score": 42,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-14t4xu4",
@@ -173,7 +173,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 46。",
     "pipeline": {
       "score": 46,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-12gwogy",
@@ -212,7 +212,7 @@
     "recommendReason": "涉及ESG动向，综合评分 46。",
     "pipeline": {
       "score": 46,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-15rhig4",
@@ -251,7 +251,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 9。",
     "pipeline": {
       "score": 9,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1efvwpp",
@@ -290,7 +290,7 @@
     "recommendReason": "涉及ESG动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-gwiez9",
@@ -329,7 +329,7 @@
     "recommendReason": "涉及ESG动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-4kco7z",
@@ -368,7 +368,7 @@
     "recommendReason": "涉及ESG动向，综合评分 25。",
     "pipeline": {
       "score": 25,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-199dcaj",
@@ -407,7 +407,7 @@
     "recommendReason": "涉及ESG动向，综合评分 36。",
     "pipeline": {
       "score": 36,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1je81qc",
@@ -446,7 +446,7 @@
     "recommendReason": "涉及ESG动向，综合评分 33。",
     "pipeline": {
       "score": 33,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1j0i1yl",
@@ -485,7 +485,7 @@
     "recommendReason": "涉及ESG动向，综合评分 25。",
     "pipeline": {
       "score": 25,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1sucrp0",
@@ -524,7 +524,7 @@
     "recommendReason": "涉及ESG动向，综合评分 88。",
     "pipeline": {
       "score": 88,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": true,
       "sourceTier": "T1_5",
       "storyId": "story-18a89es",
@@ -563,7 +563,7 @@
     "recommendReason": "涉及ESG动向，综合评分 38。",
     "pipeline": {
       "score": 38,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ah5l6s",
@@ -602,7 +602,7 @@
     "recommendReason": "涉及ESG动向，综合评分 13。",
     "pipeline": {
       "score": 13,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-gckaoa",
@@ -641,7 +641,7 @@
     "recommendReason": "涉及ESG动向，综合评分 35。",
     "pipeline": {
       "score": 35,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-jss08l",
@@ -680,7 +680,7 @@
     "recommendReason": "涉及ESG动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1h6tpr6",
@@ -719,7 +719,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 30。",
     "pipeline": {
       "score": 30,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-ub8v1u",
@@ -758,7 +758,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 32。",
     "pipeline": {
       "score": 32,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-5ikeqj",
@@ -797,7 +797,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-fwon8c",
@@ -836,7 +836,7 @@
     "recommendReason": "涉及ESG动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-14audd3",
@@ -875,7 +875,7 @@
     "recommendReason": "涉及ESG动向，综合评分 11。",
     "pipeline": {
       "score": 11,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1lxxvmm",
@@ -914,7 +914,7 @@
     "recommendReason": "涉及ESG动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1tulbmp",
@@ -953,7 +953,7 @@
     "recommendReason": "涉及ESG动向，综合评分 24。",
     "pipeline": {
       "score": 24,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-ured9s",
@@ -992,7 +992,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 60。",
     "pipeline": {
       "score": 60,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-8aeudl",
@@ -1031,7 +1031,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1hzbks5",
@@ -1070,7 +1070,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 33。",
     "pipeline": {
       "score": 33,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-8ptl9q",
@@ -1109,7 +1109,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 55。",
     "pipeline": {
       "score": 55,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1d4v94o",
@@ -1148,7 +1148,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-evdho8",
@@ -1187,7 +1187,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1dkk9ew",
@@ -1226,7 +1226,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 21。",
     "pipeline": {
       "score": 21,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-a2a3rk",
@@ -1265,7 +1265,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 28。",
     "pipeline": {
       "score": 28,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-39fmi5",
@@ -1304,7 +1304,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 12。",
     "pipeline": {
       "score": 12,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-snnpcs",
@@ -1343,7 +1343,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 45。",
     "pipeline": {
       "score": 45,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-v2eleu",
@@ -1382,7 +1382,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 38。",
     "pipeline": {
       "score": 38,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-72r683",
@@ -1421,7 +1421,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 47。",
     "pipeline": {
       "score": 47,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-gaykmo",
@@ -1460,7 +1460,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 32。",
     "pipeline": {
       "score": 32,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1qbfh4a",
@@ -1499,7 +1499,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-q134a4",
@@ -1538,7 +1538,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 38。",
     "pipeline": {
       "score": 38,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-18wjs7s",
@@ -1577,7 +1577,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 33。",
     "pipeline": {
       "score": 33,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-vu2itu",
@@ -1616,7 +1616,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 25。",
     "pipeline": {
       "score": 25,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1kfvzkp",
@@ -1655,7 +1655,7 @@
     "recommendReason": "涉及ESG动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ae2u8t",
@@ -1694,7 +1694,7 @@
     "recommendReason": "涉及ESG动向，综合评分 13。",
     "pipeline": {
       "score": 13,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-9tgwl",
@@ -1733,7 +1733,7 @@
     "recommendReason": "涉及ESG动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1cem43l",
@@ -1772,7 +1772,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 36。",
     "pipeline": {
       "score": 36,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-x80f2s",
@@ -1811,7 +1811,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 17。",
     "pipeline": {
       "score": 17,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-g9lw1a",
@@ -1850,7 +1850,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 21。",
     "pipeline": {
       "score": 21,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-124f381",
@@ -1889,7 +1889,7 @@
     "recommendReason": "涉及合规与监管的香港动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-dp1217",
@@ -1928,7 +1928,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 43。",
     "pipeline": {
       "score": 43,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1niexbl",
@@ -1967,7 +1967,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1k6l23n",
@@ -2006,7 +2006,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 38。",
     "pipeline": {
       "score": 38,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1s8avqs",
@@ -2045,7 +2045,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 62。",
     "pipeline": {
       "score": 62,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1dam31g",
@@ -2084,7 +2084,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1df26g",
@@ -2123,7 +2123,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 19。",
     "pipeline": {
       "score": 19,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1df26g",
@@ -2162,7 +2162,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 61。",
     "pipeline": {
       "score": 61,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1k61zi",
@@ -2201,7 +2201,7 @@
     "recommendReason": "涉及ESG动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-pddmaq",
@@ -2240,7 +2240,7 @@
     "recommendReason": "涉及ESG动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-kf0wo2",
@@ -2279,7 +2279,7 @@
     "recommendReason": "涉及ESG动向，综合评分 38。",
     "pipeline": {
       "score": 38,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-t6o838",
@@ -2318,7 +2318,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 58。",
     "pipeline": {
       "score": 58,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1wguhsh",
@@ -2357,7 +2357,7 @@
     "recommendReason": "涉及合规与监管的香港动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1e4dewl",
@@ -2396,7 +2396,7 @@
     "recommendReason": "涉及ESG动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-mhh0y",
@@ -2435,7 +2435,7 @@
     "recommendReason": "涉及ESG动向，综合评分 12。",
     "pipeline": {
       "score": 12,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-8juluq",
@@ -2474,7 +2474,7 @@
     "recommendReason": "涉及ESG动向，综合评分 12。",
     "pipeline": {
       "score": 12,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-19g62mu",
@@ -2513,7 +2513,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 62。",
     "pipeline": {
       "score": 62,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-rq5qdw",
@@ -2552,7 +2552,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 28。",
     "pipeline": {
       "score": 28,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-bciv6p",
@@ -2591,7 +2591,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 23。",
     "pipeline": {
       "score": 23,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-smj83l",
@@ -2630,7 +2630,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 60。",
     "pipeline": {
       "score": 60,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-12h7drf",
@@ -2677,7 +2677,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 25。",
     "pipeline": {
       "score": 25,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-13epahy",
@@ -2716,7 +2716,7 @@
     "recommendReason": "涉及合规与监管的香港动向，综合评分 24。",
     "pipeline": {
       "score": 24,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1m87ojf",
@@ -2755,7 +2755,7 @@
     "recommendReason": "涉及合规与监管的香港动向，综合评分 58。",
     "pipeline": {
       "score": 58,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1kblk0",
@@ -2794,7 +2794,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 32。",
     "pipeline": {
       "score": 32,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-veqd2c",
@@ -2833,7 +2833,7 @@
     "recommendReason": "涉及ESG动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-d8yyrp",
@@ -2872,7 +2872,7 @@
     "recommendReason": "涉及ESG动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-n2alrz",
@@ -2911,7 +2911,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 42。",
     "pipeline": {
       "score": 42,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1hn74sm",
@@ -2950,7 +2950,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 28。",
     "pipeline": {
       "score": 28,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-l5ei7m",
@@ -2989,7 +2989,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 32。",
     "pipeline": {
       "score": 32,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1mz4ggc",
@@ -3028,7 +3028,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 53。",
     "pipeline": {
       "score": 53,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1b4cifd",
@@ -3067,7 +3067,7 @@
     "recommendReason": "涉及合规与监管的香港动向，综合评分 30。",
     "pipeline": {
       "score": 30,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1kr5ds0",
@@ -3102,12 +3102,12 @@
     "esgTopic": "合规与监管",
     "titleZh": "根据1934年《证券交易法》第21 (a)条进行调查的报告：埃克森美孚公司2021年5月年会上的气候行动100 +和董事选举",
     "summaryZh": "根据1934年《证券交易法》第21 (a)条进行调查的报告：埃克森美孚公司2021年5月年会上的气候行动100 +和董事选举",
-    "recommended": true,
+    "recommended": false,
     "recommendReason": "涉及ESG的美国动向，综合评分 70。",
     "pipeline": {
       "score": 70,
-      "scoreThreshold": 60,
-      "scorePass": true,
+      "scoreThreshold": 75,
+      "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-yemp4b",
       "heat": 0,
@@ -3145,7 +3145,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 46。",
     "pipeline": {
       "score": 46,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-w29p8u",
@@ -3184,7 +3184,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 25。",
     "pipeline": {
       "score": 25,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-19zoovq",
@@ -3223,7 +3223,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-17xb3jz",
@@ -3262,7 +3262,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 40。",
     "pipeline": {
       "score": 40,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1gbylxr",
@@ -3301,7 +3301,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 50。",
     "pipeline": {
       "score": 50,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-rb8fe1",
@@ -3340,7 +3340,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 21。",
     "pipeline": {
       "score": 21,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-126ounx",
@@ -3379,7 +3379,7 @@
     "recommendReason": "涉及ESG动向，综合评分 13。",
     "pipeline": {
       "score": 13,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-128t99s",
@@ -3418,7 +3418,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-yp8duv",
@@ -3457,7 +3457,7 @@
     "recommendReason": "涉及合规与监管的香港动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-yp8duv",
@@ -3496,7 +3496,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 25。",
     "pipeline": {
       "score": 25,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-6s4yc4",
@@ -3535,7 +3535,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 36。",
     "pipeline": {
       "score": 36,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-ogpmds",
@@ -3574,7 +3574,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1uinks5",
@@ -3613,7 +3613,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1uinks5",
@@ -3652,7 +3652,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-4wo40x",
@@ -3691,7 +3691,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 39。",
     "pipeline": {
       "score": 39,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-11hngu5",
@@ -3730,7 +3730,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 56。",
     "pipeline": {
       "score": 56,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1xbkpjk",
@@ -3769,7 +3769,7 @@
     "recommendReason": "涉及ESG动向，综合评分 17。",
     "pipeline": {
       "score": 17,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-ypwy3b",
@@ -3808,7 +3808,7 @@
     "recommendReason": "涉及ESG动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-85upk5",
@@ -3847,7 +3847,7 @@
     "recommendReason": "涉及ESG动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ijeumx",
@@ -3886,7 +3886,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 17。",
     "pipeline": {
       "score": 17,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-17676vu",
@@ -3925,7 +3925,7 @@
     "recommendReason": "涉及ESG动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-kwf2ki",
@@ -3964,7 +3964,7 @@
     "recommendReason": "涉及ESG动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-14pures",
@@ -3999,12 +3999,12 @@
     "esgTopic": "合规与监管",
     "titleZh": "美国证券交易委员会的提案将解决投资顾问和基金如何根据联邦证券法托管加密资产的问题",
     "summaryZh": "美国证券交易委员会今天提出了新的规则和修正案",
-    "recommended": true,
+    "recommended": false,
     "recommendReason": "涉及ESG的美国动向，综合评分 72。",
     "pipeline": {
       "score": 72,
-      "scoreThreshold": 65,
-      "scorePass": true,
+      "scoreThreshold": 75,
+      "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-15w41s7",
       "heat": 0,
@@ -4042,7 +4042,7 @@
     "recommendReason": "涉及ESG动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-wh1r5r",
@@ -4081,7 +4081,7 @@
     "recommendReason": "涉及ESG动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-15sjcja",
@@ -4120,7 +4120,7 @@
     "recommendReason": "涉及ESG动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-47slt6",
@@ -4159,7 +4159,7 @@
     "recommendReason": "涉及ESG动向，综合评分 21。",
     "pipeline": {
       "score": 21,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-xydbrn",
@@ -4198,7 +4198,7 @@
     "recommendReason": "涉及ESG动向，综合评分 17。",
     "pipeline": {
       "score": 17,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-l1z9cy",
@@ -4233,12 +4233,12 @@
     "esgTopic": "合规与监管",
     "titleZh": "美国证券交易委员会的考试部门宣布新的考试手册",
     "summaryZh": "美国证券交易委员会的考试部门今天发布了新的手册“SEC考试手册：流程和参与的实用指南”",
-    "recommended": true,
+    "recommended": false,
     "recommendReason": "涉及ESG的美国动向，综合评分 67。",
     "pipeline": {
       "score": 67,
-      "scoreThreshold": 65,
-      "scorePass": true,
+      "scoreThreshold": 75,
+      "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1v9arct",
       "heat": 0,
@@ -4272,12 +4272,12 @@
     "esgTopic": "合规与监管",
     "titleZh": "美国证券交易委员会指控Meyer Global Management及其首席执行官欺诈持有SpaceX和其他IPO前证券权益的私募基金的散户投资者",
     "summaryZh": "美国证券交易委员会今天指控私募基金顾问Meyer Global Management LLC （MGM）及其首席执行官Owen E.H.",
-    "recommended": true,
+    "recommended": false,
     "recommendReason": "涉及ESG的美国动向，综合评分 65。",
     "pipeline": {
       "score": 65,
-      "scoreThreshold": 65,
-      "scorePass": true,
+      "scoreThreshold": 75,
+      "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-qucd9z",
       "heat": 0,
@@ -4315,7 +4315,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1mdj1ym",
@@ -4354,7 +4354,7 @@
     "recommendReason": "涉及ESG动向，综合评分 12。",
     "pipeline": {
       "score": 12,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1gaplka",
@@ -4393,7 +4393,7 @@
     "recommendReason": "涉及ESG动向，综合评分 16。",
     "pipeline": {
       "score": 16,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-tffn1k",
@@ -4432,7 +4432,7 @@
     "recommendReason": "涉及ESG动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-j4ah77",
@@ -4471,7 +4471,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 57。",
     "pipeline": {
       "score": 57,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-o3e1sj",
@@ -4510,7 +4510,7 @@
     "recommendReason": "涉及合规与监管的香港动向，综合评分 45。",
     "pipeline": {
       "score": 45,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1dzj2ho",
@@ -4549,7 +4549,7 @@
     "recommendReason": "涉及合规与监管的中国动向，综合评分 93。",
     "pipeline": {
       "score": 93,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": true,
       "sourceTier": "T2",
       "storyId": "story-1djf1b9",
@@ -4588,7 +4588,7 @@
     "recommendReason": "涉及ESG动向，综合评分 17。",
     "pipeline": {
       "score": 17,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1el1zxq",
@@ -4627,7 +4627,7 @@
     "recommendReason": "涉及ESG动向，综合评分 13。",
     "pipeline": {
       "score": 13,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1jitkph",
@@ -4666,7 +4666,7 @@
     "recommendReason": "涉及ESG动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-yjf7uh",
@@ -4705,7 +4705,7 @@
     "recommendReason": "涉及ESG动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-bgsvsj",
@@ -4744,7 +4744,7 @@
     "recommendReason": "涉及ESG动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-3vrj0e",
@@ -4783,7 +4783,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 50。",
     "pipeline": {
       "score": 50,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-148hicl",
@@ -4824,7 +4824,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 38。",
     "pipeline": {
       "score": 38,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-hrmol",
@@ -4863,7 +4863,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 34。",
     "pipeline": {
       "score": 34,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1p8sho",
@@ -4904,7 +4904,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 23。",
     "pipeline": {
       "score": 23,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-uuidkf",
@@ -4945,7 +4945,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 30。",
     "pipeline": {
       "score": 30,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1en1r6w",
@@ -4982,12 +4982,12 @@
     "esgTopic": "合规与监管",
     "titleZh": "ISO 拟议的净零标准在创纪录的反馈中未能通过初步投票",
     "summaryZh": "ESG Today 在 12 周的咨询期内收到创纪录的反馈后证实，国际标准化组织 (ISO) 期待已久的拟议净零标准 ISO 14040 未能通过成员组织的投票，而该标准需要推进成为当前形式的最终标准。",
-    "recommended": true,
+    "recommended": false,
     "recommendReason": "涉及合规与监管动向，综合评分 65。",
     "pipeline": {
       "score": 65,
-      "scoreThreshold": 65,
-      "scorePass": true,
+      "scoreThreshold": 75,
+      "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-14xsxd0",
       "heat": 0,
@@ -5027,7 +5027,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-qesep",
@@ -5068,7 +5068,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 46。",
     "pipeline": {
       "score": 46,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1bd3tbx",
@@ -5106,7 +5106,7 @@
     "recommended": false,
     "pipeline": {
       "score": 45,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1lbl3eo",
@@ -5146,7 +5146,7 @@
     "recommendReason": "涉及合规与监管的香港动向，综合评分 42。",
     "pipeline": {
       "score": 42,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1fmzs1b",
@@ -5185,7 +5185,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 58。",
     "pipeline": {
       "score": 58,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1j5u5qs",
@@ -5224,7 +5224,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 29。",
     "pipeline": {
       "score": 29,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-17c9ghq",
@@ -5265,7 +5265,7 @@
     "recommendReason": "涉及ESG动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-yivx5",
@@ -5304,7 +5304,7 @@
     "recommendReason": "涉及ESG动向，综合评分 6。",
     "pipeline": {
       "score": 6,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-b7q8p2",
@@ -5343,7 +5343,7 @@
     "recommendReason": "涉及ESG动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-d8mkqb",
@@ -5382,7 +5382,7 @@
     "recommendReason": "涉及ESG动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ybtpd",
@@ -5421,7 +5421,7 @@
     "recommendReason": "涉及ESG动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-69sbbj",
@@ -5460,7 +5460,7 @@
     "recommendReason": "涉及ESG动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-x3fe2z",
@@ -5499,7 +5499,7 @@
     "recommendReason": "涉及ESG动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-ox1x4o",
@@ -5538,7 +5538,7 @@
     "recommendReason": "涉及ESG动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1oosh1w",
@@ -5577,7 +5577,7 @@
     "recommendReason": "涉及ESG动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-l8vjlw",
@@ -5616,7 +5616,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 30。",
     "pipeline": {
       "score": 30,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-17c9ghq",
@@ -5657,7 +5657,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 33。",
     "pipeline": {
       "score": 33,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-h9p35z",
@@ -5698,7 +5698,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-gouafg",
@@ -5739,7 +5739,7 @@
     "recommendReason": "涉及合规与监管的香港动向，综合评分 13。",
     "pipeline": {
       "score": 13,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-13tx4wr",
@@ -5778,7 +5778,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-16iu3wo",
@@ -5819,7 +5819,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-f4lapv",
@@ -5857,7 +5857,7 @@
     "recommended": false,
     "pipeline": {
       "score": 23,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-17c9ghq",
@@ -5896,7 +5896,7 @@
     "recommended": false,
     "pipeline": {
       "score": 34,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1osvzeg",
@@ -5936,7 +5936,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1xtyxd9",
@@ -5974,7 +5974,7 @@
     "recommended": false,
     "pipeline": {
       "score": 60,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1wu59kv",
@@ -6013,7 +6013,7 @@
     "recommended": false,
     "pipeline": {
       "score": 42,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-99rzh7",
@@ -6052,7 +6052,7 @@
     "recommended": false,
     "pipeline": {
       "score": 13,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1utqntt",
@@ -6091,7 +6091,7 @@
     "recommended": false,
     "pipeline": {
       "score": 34,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-kg48c6",
@@ -6131,7 +6131,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 58。",
     "pipeline": {
       "score": 58,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-j6wjp5",
@@ -6170,7 +6170,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 43。",
     "pipeline": {
       "score": 43,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-m00no3",
@@ -6208,7 +6208,7 @@
     "recommended": false,
     "pipeline": {
       "score": 58,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-17c9ghq",
@@ -6247,7 +6247,7 @@
     "recommended": false,
     "pipeline": {
       "score": 5,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1et1fms",
@@ -6286,7 +6286,7 @@
     "recommended": false,
     "pipeline": {
       "score": 5,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1vih8z1",
@@ -6325,7 +6325,7 @@
     "recommended": false,
     "pipeline": {
       "score": 28,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-95w70m",
@@ -6365,7 +6365,7 @@
     "recommendReason": "涉及ESG动向，综合评分 12。",
     "pipeline": {
       "score": 12,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ur8r4w",
@@ -6404,7 +6404,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ui59p6",
@@ -6443,7 +6443,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-18quezw",
@@ -6482,7 +6482,7 @@
     "recommendReason": "涉及ESG动向，综合评分 11。",
     "pipeline": {
       "score": 11,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1o1f0g2",
@@ -6517,11 +6517,11 @@
     "esgTopic": "合规与监管",
     "titleZh": "银建国际控股集团有限公司涉嫌挪用超过10亿元贷款所得款项予当时的主要股东及关连人士，证监会暂停其股份买卖",
     "summaryZh": "银建国际控股集团有限公司涉嫌挪用超过10亿元贷款所得款项予当时的主要股东及关连人士",
-    "recommended": true,
+    "recommended": false,
     "pipeline": {
       "score": 73,
-      "scoreThreshold": 65,
-      "scorePass": true,
+      "scoreThreshold": 75,
+      "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1lmie66",
       "heat": 0,
@@ -6559,7 +6559,7 @@
     "recommended": false,
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-16b8jzj",
@@ -6598,7 +6598,7 @@
     "recommended": false,
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-uj8qi6",
@@ -6639,7 +6639,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1tylxk0",
@@ -6671,7 +6671,7 @@
     "sourceName": "学术文章（Crossref ESG 检索）",
     "sourceUrl": "https://doi.org/10.1038/s41558-026-02756-0",
     "esgTopic": "合规与监管",
-    "recommended": true,
+    "recommended": false,
     "whyMatters": "学术精选：高相关：直接研究 ESG/非财务绩效或披露；期刊强：高影响力期刊。建议结合所在行业与议题评估实践价值。",
     "aiDraft": false,
     "journalName": "Nature Climate Change",
@@ -6689,8 +6689,8 @@
     "recommendReason": "涉及合规与监管动向，综合评分 60。",
     "pipeline": {
       "score": 60,
-      "scoreThreshold": 60,
-      "scorePass": true,
+      "scoreThreshold": 75,
+      "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-17aqp2i",
       "heat": 0,
@@ -6729,7 +6729,7 @@
     "recommendReason": "涉及合规与监管的中国动向，综合评分 23。",
     "pipeline": {
       "score": 23,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1fteqgo",
@@ -6769,7 +6769,7 @@
     "recommendReason": "涉及合规与监管的中国动向，综合评分 25。",
     "pipeline": {
       "score": 25,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-idei1g",
@@ -6809,7 +6809,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 40。",
     "pipeline": {
       "score": 40,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1elruh3",
@@ -6848,7 +6848,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 17。",
     "pipeline": {
       "score": 17,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-13hgy0j",
@@ -6887,7 +6887,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1vadp4i",
@@ -6926,7 +6926,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-yriujd",
@@ -6965,7 +6965,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ve85t7",
@@ -7004,7 +7004,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-w081w0",
@@ -7054,7 +7054,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 50。",
     "pipeline": {
       "score": 50,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-1lhjayq",
@@ -7094,7 +7094,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 16。",
     "pipeline": {
       "score": 16,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-15j2olm",
@@ -7134,7 +7134,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 28。",
     "pipeline": {
       "score": 28,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-eq1owe",
@@ -7174,7 +7174,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1f6doy6",
@@ -7214,7 +7214,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 73。",
     "pipeline": {
       "score": 73,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-19h1u6b",
@@ -7254,7 +7254,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 65。",
     "pipeline": {
       "score": 65,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-eiloiz",
@@ -7294,7 +7294,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 76。",
     "pipeline": {
       "score": 76,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": true,
       "sourceTier": "T2",
       "storyId": "story-oq289a",
@@ -7334,7 +7334,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 21。",
     "pipeline": {
       "score": 21,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-13h0s08",
@@ -7374,7 +7374,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 23。",
     "pipeline": {
       "score": 23,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-sonuee",
@@ -7414,7 +7414,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 63。",
     "pipeline": {
       "score": 63,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1e3y5ow",
@@ -7454,7 +7454,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 46。",
     "pipeline": {
       "score": 46,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-3ox6ik",
@@ -7494,7 +7494,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 21。",
     "pipeline": {
       "score": 21,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1mkqkgi",
@@ -7534,7 +7534,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 34。",
     "pipeline": {
       "score": 34,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-oue18s",
@@ -7574,7 +7574,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 53。",
     "pipeline": {
       "score": 53,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1pyjwn4",
@@ -7614,7 +7614,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 46。",
     "pipeline": {
       "score": 46,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1kz6lwz",
@@ -7654,7 +7654,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 43。",
     "pipeline": {
       "score": 43,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-ah2dja",
@@ -7694,7 +7694,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-7fho2u",
@@ -7734,7 +7734,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 26。",
     "pipeline": {
       "score": 26,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-10mx9mv",
@@ -7774,7 +7774,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1hrgufx",
@@ -7815,7 +7815,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 40。",
     "pipeline": {
       "score": 40,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1ow288x",
@@ -7855,7 +7855,7 @@
     "recommendReason": "涉及合规与监管的欧盟动向，综合评分 35。",
     "pipeline": {
       "score": 35,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-gblt2m",
@@ -7895,7 +7895,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 43。",
     "pipeline": {
       "score": 43,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-gddgq4",
@@ -7935,7 +7935,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 38。",
     "pipeline": {
       "score": 38,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-vzebgx",
@@ -7975,7 +7975,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 40。",
     "pipeline": {
       "score": 40,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-llvwa5",
@@ -8015,7 +8015,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 24。",
     "pipeline": {
       "score": 24,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-fwijs3",
@@ -8055,7 +8055,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1181o7h",
@@ -8095,7 +8095,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-18je6zc",
@@ -8130,12 +8130,12 @@
     "esgTopic": "合规与监管",
     "titleZh": "SEC 谴责 OTC Link LLC 屡次未能遵守 SCI 法规",
     "summaryZh": "美国证券交易委员会今天谴责总部位于纽约的经纪交易商 OTC Link LLC，并责令其支付 575,000 美元的民事罚款，原因是其长期违反监管系统合规性和诚信 (SCI)。",
-    "recommended": true,
+    "recommended": false,
     "recommendReason": "涉及ESG的美国动向，综合评分 72。",
     "pipeline": {
       "score": 72,
-      "scoreThreshold": 65,
-      "scorePass": true,
+      "scoreThreshold": 75,
+      "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1hof1vb",
       "heat": 0,
@@ -8173,7 +8173,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-n1d9po",
@@ -8212,7 +8212,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-t29g1r",
@@ -8251,7 +8251,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-s72qwv",
@@ -8290,7 +8290,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-jt1tvo",
@@ -8329,7 +8329,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 13。",
     "pipeline": {
       "score": 13,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-gp41nm",
@@ -8369,7 +8369,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 48。",
     "pipeline": {
       "score": 48,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-10m7dza",
@@ -8409,7 +8409,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-9ebciw",
@@ -8449,7 +8449,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 90。",
     "pipeline": {
       "score": 90,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": true,
       "sourceTier": "T1_5",
       "storyId": "story-9d3g1c",
@@ -8489,7 +8489,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 58。",
     "pipeline": {
       "score": 58,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-zubbug",
@@ -8530,7 +8530,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 56。",
     "pipeline": {
       "score": 56,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-16ak4b2",
@@ -8570,7 +8570,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-dr2wb5",
@@ -8610,7 +8610,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 12。",
     "pipeline": {
       "score": 12,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-138cu58",
@@ -8650,7 +8650,7 @@
     "recommendReason": "涉及合规与监管的中国动向，综合评分 29。",
     "pipeline": {
       "score": 29,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-132msfm",
@@ -8690,7 +8690,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-37e7us",
@@ -8729,7 +8729,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-2hg5s5",
@@ -8768,7 +8768,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-19aqczy",
@@ -8807,7 +8807,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-yyh52d",
@@ -8846,7 +8846,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1htdy54",
@@ -8885,7 +8885,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-11t4i4k",
@@ -8925,7 +8925,7 @@
     "recommendReason": "涉及合规与监管的欧盟动向，综合评分 58。",
     "pipeline": {
       "score": 58,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-tgk477",
@@ -8965,7 +8965,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 30。",
     "pipeline": {
       "score": 30,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-17az7bc",
@@ -9005,7 +9005,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 17。",
     "pipeline": {
       "score": 17,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-jgs2gg",
@@ -9045,7 +9045,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ghr5cq",
@@ -9085,7 +9085,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 38。",
     "pipeline": {
       "score": 38,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-110wblm",
@@ -9125,7 +9125,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 50。",
     "pipeline": {
       "score": 50,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1l92szb",
@@ -9164,7 +9164,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-20iaz4",
@@ -9203,7 +9203,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-14qyei",
@@ -9242,7 +9242,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-jsuu6a",
@@ -9281,7 +9281,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-4tgthu",
@@ -9321,7 +9321,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 28。",
     "pipeline": {
       "score": 28,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-8pkijg",
@@ -9361,7 +9361,7 @@
     "recommendReason": "涉及合规与监管的中国动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-4bw1o",
@@ -9401,7 +9401,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 77。",
     "pipeline": {
       "score": 77,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": true,
       "sourceTier": "T1_5",
       "storyId": "story-1cmscuo",
@@ -9441,7 +9441,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 62。",
     "pipeline": {
       "score": 62,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-17nl4js",
@@ -9481,7 +9481,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1tpef7o",
@@ -9520,7 +9520,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-utsrfg",
@@ -9559,7 +9559,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-149f2se",
@@ -9598,7 +9598,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 17。",
     "pipeline": {
       "score": 17,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-9cim53",
@@ -9637,7 +9637,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 14。",
     "pipeline": {
       "score": 14,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-mqnhu8",
@@ -9676,7 +9676,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 12。",
     "pipeline": {
       "score": 12,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-11zj1u8",
@@ -9711,12 +9711,12 @@
     "esgTopic": "合规与监管",
     "titleZh": "SEC 发布“创新豁免”以促进代币化 NMS 股票的交易并征求意见",
     "summaryZh": "SEC 发布「创新豁免」，便利代币化 NMS 股票交易并征求意见。",
-    "recommended": true,
+    "recommended": false,
     "recommendReason": "涉及ESG的美国动向，综合评分 74。",
     "pipeline": {
       "score": 74,
-      "scoreThreshold": 65,
-      "scorePass": true,
+      "scoreThreshold": 75,
+      "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1wnz43b",
       "heat": 0,
@@ -9755,7 +9755,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 21。",
     "pipeline": {
       "score": 21,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-yu381v",
@@ -9795,7 +9795,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 21。",
     "pipeline": {
       "score": 21,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1d90gvs",
@@ -9835,7 +9835,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 17。",
     "pipeline": {
       "score": 17,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-18iiibw",
@@ -9875,7 +9875,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1cdl44h",
@@ -9915,7 +9915,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1krma9f",
@@ -9955,7 +9955,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1cdl44h",
@@ -9994,7 +9994,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 25。",
     "pipeline": {
       "score": 25,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ov7bka",
@@ -10033,7 +10033,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 14。",
     "pipeline": {
       "score": 14,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-byiamp",
@@ -10072,7 +10072,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 21。",
     "pipeline": {
       "score": 21,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-19b3odv",
@@ -10111,7 +10111,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 17。",
     "pipeline": {
       "score": 17,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1b0ywyf",
@@ -10150,7 +10150,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-rofj7v",
@@ -10189,7 +10189,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 85。",
     "pipeline": {
       "score": 85,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": true,
       "sourceTier": "T1_5",
       "storyId": "story-21y7o",
@@ -10229,7 +10229,7 @@
     "recommendReason": "涉及合规与监管的欧盟动向，综合评分 58。",
     "pipeline": {
       "score": 58,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-1pdicn1",
@@ -10269,7 +10269,7 @@
     "recommendReason": "涉及合规与监管的中国动向，综合评分 27。",
     "pipeline": {
       "score": 27,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-q94b0a",
@@ -10309,7 +10309,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1mu7vn9",
@@ -10348,7 +10348,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1gc7sth",
@@ -10387,7 +10387,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-h1gqsd",
@@ -10426,7 +10426,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1nrx6ve",
@@ -10465,7 +10465,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 7。",
     "pipeline": {
       "score": 7,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-lc1jxc",
@@ -10505,7 +10505,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 45。",
     "pipeline": {
       "score": 45,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1so3dmg",
@@ -10544,7 +10544,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 60。",
     "pipeline": {
       "score": 60,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1k95j9l",
@@ -10583,7 +10583,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 17。",
     "pipeline": {
       "score": 17,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-7o27ex",
@@ -10622,7 +10622,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 17。",
     "pipeline": {
       "score": 17,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-qiy2fs",
@@ -10661,7 +10661,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-owaie5",
@@ -10700,7 +10700,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 13。",
     "pipeline": {
       "score": 13,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-171d90c",
@@ -10739,7 +10739,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-u6213b",
@@ -10779,7 +10779,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 21。",
     "pipeline": {
       "score": 21,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1elz6aq",
@@ -10819,7 +10819,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-srupon",
@@ -10869,7 +10869,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 28。",
     "pipeline": {
       "score": 28,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-1t591d1",
@@ -10909,7 +10909,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 23。",
     "pipeline": {
       "score": 23,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-vjrg9o",
@@ -10949,7 +10949,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-12bp85k",
@@ -10989,7 +10989,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-jkrgcq",
@@ -11029,7 +11029,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 24。",
     "pipeline": {
       "score": 24,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1f68clu",
@@ -11068,7 +11068,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 16。",
     "pipeline": {
       "score": 16,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1a5rovf",
@@ -11107,7 +11107,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 11。",
     "pipeline": {
       "score": 11,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-16hiawr",
@@ -11148,7 +11148,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 25。",
     "pipeline": {
       "score": 25,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-r5w25w",
@@ -11188,7 +11188,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-j3v3cd",
@@ -11227,7 +11227,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 28。",
     "pipeline": {
       "score": 28,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1uzd5i",
@@ -11266,7 +11266,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-plq4ef",
@@ -11305,7 +11305,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1b80fp3",
@@ -11344,7 +11344,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ui526q",
@@ -11383,7 +11383,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 12。",
     "pipeline": {
       "score": 12,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1iqcadd",
@@ -11422,7 +11422,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 12。",
     "pipeline": {
       "score": 12,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1pzibbo",
@@ -11461,7 +11461,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-f5zrog",
@@ -11500,7 +11500,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 32。",
     "pipeline": {
       "score": 32,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ozoxbw",
@@ -11539,7 +11539,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-i8my4h",
@@ -11578,7 +11578,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-2kge8u",
@@ -11617,7 +11617,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 28。",
     "pipeline": {
       "score": 28,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-b12mod",
@@ -11657,7 +11657,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 23。",
     "pipeline": {
       "score": 23,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-av3qyb",
@@ -11697,7 +11697,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ui526q",
@@ -11737,7 +11737,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 46。",
     "pipeline": {
       "score": 46,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-hd0n1j",
@@ -11777,7 +11777,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 17。",
     "pipeline": {
       "score": 17,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-lpojce",
@@ -11817,7 +11817,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 13。",
     "pipeline": {
       "score": 13,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-12fcnpj",
@@ -11857,7 +11857,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1ps092y",
@@ -11897,7 +11897,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 21。",
     "pipeline": {
       "score": 21,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-w06kx3",
@@ -11937,7 +11937,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 25。",
     "pipeline": {
       "score": 25,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-hcdzak",
@@ -11977,7 +11977,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 23。",
     "pipeline": {
       "score": 23,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-qbdzu5",
@@ -12012,12 +12012,12 @@
     "esgTopic": "合规与监管",
     "titleZh": "美国证券交易委员会提议废除投资顾问的政治献金规则",
     "summaryZh": "美国证券交易委员会今天发布了一项提案",
-    "recommended": true,
+    "recommended": false,
     "recommendReason": "涉及ESG的美国动向，综合评分 65。",
     "pipeline": {
       "score": 65,
-      "scoreThreshold": 65,
-      "scorePass": true,
+      "scoreThreshold": 75,
+      "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-19xzeg8",
       "heat": 0,
@@ -12055,7 +12055,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1tn9f1n",
@@ -12095,7 +12095,7 @@
     "recommendReason": "涉及合规与监管的中国动向，综合评分 56。",
     "pipeline": {
       "score": 56,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-lah37s",
@@ -12134,7 +12134,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 11。",
     "pipeline": {
       "score": 11,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-rtkyip",
@@ -12173,7 +12173,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 30。",
     "pipeline": {
       "score": 30,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-14ii7ad",
@@ -12212,7 +12212,7 @@
     "recommendReason": "涉及ESG的美国动向，综合评分 30。",
     "pipeline": {
       "score": 30,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1qpu081",
@@ -12252,7 +12252,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-jg6qqg",
@@ -12291,7 +12291,7 @@
     "recommendReason": "涉及合规与监管的美国动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-7b5dnv",
@@ -12330,7 +12330,7 @@
     "summaryZh": "联合国气候声明",
     "pipeline": {
       "score": 13,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-jgi2ic",
@@ -12371,7 +12371,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-9ugllv",
@@ -12411,7 +12411,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 17。",
     "pipeline": {
       "score": 17,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ifxq3u",
@@ -12451,7 +12451,7 @@
     "recommendReason": "涉及合规与监管的中国动向，综合评分 23。",
     "pipeline": {
       "score": 23,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1ft4rnc",
@@ -12490,7 +12490,7 @@
     "recommendReason": "涉及合规与监管的美国动向，综合评分 45。",
     "pipeline": {
       "score": 45,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1n9xfbu",
@@ -12529,7 +12529,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 28。",
     "pipeline": {
       "score": 28,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-ka4660",
@@ -12568,7 +12568,7 @@
     "recommendReason": "涉及合规与监管的美国动向，综合评分 60。",
     "pipeline": {
       "score": 60,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1evv85q",
@@ -12602,7 +12602,7 @@
     "sourceName": "欧盟委员会",
     "sourceUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1762",
     "esgTopic": "合规与监管",
-    "recommended": true,
+    "recommended": false,
     "aiDraft": false,
     "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1762",
     "titleZh": "委员会批准希腊 48 亿欧元的社会气候计划，以支持弱势家庭、交通用户和微型企业进行清洁转型",
@@ -12610,8 +12610,8 @@
     "recommendReason": "涉及合规与监管的欧盟动向，综合评分 62。",
     "pipeline": {
       "score": 62,
-      "scoreThreshold": 60,
-      "scorePass": true,
+      "scoreThreshold": 75,
+      "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-6w1p",
       "heat": 0,
@@ -12650,7 +12650,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 25。",
     "pipeline": {
       "score": 25,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-j98178",
@@ -12690,7 +12690,7 @@
     "recommendReason": "涉及合规与监管的中国动向，综合评分 32。",
     "pipeline": {
       "score": 32,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1ft4rnc",
@@ -12730,7 +12730,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 12。",
     "pipeline": {
       "score": 12,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1v9da4g",
@@ -12770,7 +12770,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1v9da4g",
@@ -12809,7 +12809,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 6。",
     "pipeline": {
       "score": 6,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-bckhya",
@@ -12849,7 +12849,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-19pkybt",
@@ -12889,7 +12889,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-lux569",
@@ -12928,7 +12928,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-u29r7h",
@@ -12967,7 +12967,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-11a1h7o",
@@ -13006,7 +13006,7 @@
     "recommendReason": "涉及合规与监管的美国动向，综合评分 50。",
     "pipeline": {
       "score": 50,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-macz16",
@@ -13047,7 +13047,7 @@
     "recommendReason": "涉及合规与监管的美国动向，综合评分 82。",
     "pipeline": {
       "score": 82,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": true,
       "sourceTier": "T1_5",
       "storyId": "story-1bse8ia",
@@ -13088,7 +13088,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 36。",
     "pipeline": {
       "score": 36,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-akepwb",
@@ -13127,7 +13127,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-k25vf4",
@@ -13166,7 +13166,7 @@
     "recommendReason": "涉及合规与监管的美国动向，综合评分 35。",
     "pipeline": {
       "score": 35,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-m1g8af",
@@ -13208,7 +13208,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 60。",
     "pipeline": {
       "score": 60,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-hifk9k",
@@ -13248,7 +13248,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-6bqyxl",
@@ -13287,7 +13287,7 @@
     "recommendReason": "涉及合规与监管的美国动向，综合评分 27。",
     "pipeline": {
       "score": 27,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1nr2jwh",
@@ -13329,7 +13329,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1t8p8ab",
@@ -13369,7 +13369,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-gl7dme",
@@ -13408,7 +13408,7 @@
     "recommendReason": "涉及合规与监管的美国动向，综合评分 46。",
     "pipeline": {
       "score": 46,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ovpy0q",
@@ -13450,7 +13450,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-ejmhia",
@@ -13490,7 +13490,7 @@
     "recommendReason": "涉及合规与监管的中国动向，综合评分 58。",
     "pipeline": {
       "score": 58,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1qv52tz",
@@ -13530,7 +13530,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 14。",
     "pipeline": {
       "score": 14,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-242m9j",
@@ -13570,7 +13570,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 19。",
     "pipeline": {
       "score": 19,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-35wdow",
@@ -13609,7 +13609,7 @@
     "recommendReason": "涉及合规与监管的美国动向，综合评分 58。",
     "pipeline": {
       "score": 58,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1u8xbr0",
@@ -13650,7 +13650,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-13tobmj",
@@ -13696,7 +13696,7 @@
     "whyMatters": "信号：高 | 紧迫：涉及生效/执法/时限；面广：影响区域或主体范围大；影响：政策/监管动作或强主体信号；影响大：涉及规则/标准/执法或大规模主体；选题价值：关联披露/评级/供应链等关键议题的研究或动态。建议结合所在区域与行业评估直接影响，并跟踪后续细则。",
     "pipeline": {
       "score": 86,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": true,
       "sourceTier": "T1",
       "storyId": "story-h9jnyq",
@@ -13742,7 +13742,7 @@
     "whyMatters": "信号：高 | 紧迫：涉及生效/执法/时限；影响：政策/监管动作或强主体信号；影响大：涉及规则/标准/执法或大规模主体。建议结合所在区域与行业评估直接影响，并跟踪后续细则。",
     "pipeline": {
       "score": 88,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": true,
       "sourceTier": "T1",
       "storyId": "story-d03268",
@@ -13788,7 +13788,7 @@
     "whyMatters": "信号：高 | 紧迫：涉及生效/执法/时限；可转化：有披露/合规/融资等落地动作；影响：政策/监管动作或强主体信号。建议结合所在区域与行业评估直接影响，并跟踪后续细则。",
     "pipeline": {
       "score": 78,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": true,
       "sourceTier": "T1",
       "storyId": "story-xw7zk6",
@@ -13828,7 +13828,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-17fnush",
@@ -13868,7 +13868,7 @@
     "recommendReason": "涉及合规与监管的欧盟动向，综合评分 47。",
     "pipeline": {
       "score": 47,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-14kvmeu",
@@ -13908,7 +13908,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 26。",
     "pipeline": {
       "score": 26,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-gh66le",
@@ -13958,7 +13958,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 24。",
     "pipeline": {
       "score": 24,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-t347jf",
@@ -13998,7 +13998,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 30。",
     "pipeline": {
       "score": 30,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-swuho2",
@@ -14037,7 +14037,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 26。",
     "pipeline": {
       "score": 26,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-794h9q",
@@ -14077,7 +14077,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 38。",
     "pipeline": {
       "score": 38,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ilozbz",
@@ -14117,7 +14117,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 37。",
     "pipeline": {
       "score": 37,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-4x8lej",
@@ -14157,7 +14157,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 22。",
     "pipeline": {
       "score": 22,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-aen06t",
@@ -14197,7 +14197,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 43。",
     "pipeline": {
       "score": 43,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-tdzt3q",
@@ -14237,7 +14237,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 25。",
     "pipeline": {
       "score": 25,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-admiej",
@@ -14277,7 +14277,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 41。",
     "pipeline": {
       "score": 41,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1v988ls",
@@ -14316,7 +14316,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 12。",
     "pipeline": {
       "score": 12,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1i2prqd",
@@ -14356,7 +14356,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 36。",
     "pipeline": {
       "score": 36,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-z4b6vl",
@@ -14395,7 +14395,7 @@
     "recommendReason": "涉及合规与监管的美国动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1dvn20s",
@@ -14437,7 +14437,7 @@
     "recommendReason": "涉及合规与监管的欧盟动向，综合评分 52。",
     "pipeline": {
       "score": 52,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-6cpfb2",
@@ -14469,7 +14469,7 @@
     "sourceName": "欧盟委员会",
     "sourceUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1706",
     "esgTopic": "合规与监管",
-    "recommended": true,
+    "recommended": false,
     "aiDraft": false,
     "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1706",
     "titleZh": "委员会批准荷兰国家援助 2.9 亿欧元以支持可持续航空燃料",
@@ -14477,8 +14477,8 @@
     "recommendReason": "涉及合规与监管的欧盟动向，综合评分 64。",
     "pipeline": {
       "score": 64,
-      "scoreThreshold": 60,
-      "scorePass": true,
+      "scoreThreshold": 75,
+      "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-sk7i1d",
       "heat": 0,
@@ -14517,7 +14517,7 @@
     "recommendReason": "涉及合规与监管的中国动向，综合评分 45。",
     "pipeline": {
       "score": 45,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-epwldf",
@@ -14568,7 +14568,7 @@
     "whyMatters": "信号：中 | 可转化：有披露/合规/融资等落地动作；影响：政策/监管动作或强主体信号；影响大：涉及规则/标准/执法或大规模主体。建议结合所在区域与行业评估直接影响，并跟踪后续细则。",
     "pipeline": {
       "score": 47,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-uph12a",
@@ -14601,15 +14601,15 @@
     "sourceUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1701",
     "esgTopic": "合规与监管",
     "aiDraft": false,
-    "recommended": true,
+    "recommended": false,
     "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1701",
     "titleZh": "委员会批准马耳他 6000 万欧元的社会气候计划，以支持弱势家庭和小公司进行清洁转型",
     "summaryZh": "欧盟委员会新闻稿 布鲁塞尔，2026 年 7 月 29 日 欧盟委员会今天批准了马耳他的社会气候计划，这是社会气候基金下通过的第四个国家计划，利用碳定价收入确保公平和包容性的清洁转型。马耳他的计划将在 2032 年之前筹集 6060 万欧元，其中包括来自欧盟的 4540 万欧元。",
     "recommendReason": "涉及合规与监管的欧盟动向，综合评分 63。",
     "pipeline": {
       "score": 63,
-      "scoreThreshold": 60,
-      "scorePass": true,
+      "scoreThreshold": 75,
+      "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-189l8xj",
       "heat": 0,
@@ -14641,15 +14641,15 @@
     "sourceUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1685",
     "esgTopic": "合规与监管",
     "aiDraft": false,
-    "recommended": true,
+    "recommended": false,
     "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1685",
     "titleZh": "委员会对要求罗马尼亚向十名能源投资者支付赔偿的仲裁裁决展开深入调查",
     "summaryZh": "欧盟委员会新闻稿，布鲁塞尔，2026 年 7 月 29 日 欧盟委员会已展开深入调查，以评估一项仲裁裁决，该裁决要求罗马尼亚因可再生电力支持措施的变更而向 10 名投资者支付赔偿，该裁决是否符合欧盟国家援助规则。",
     "recommendReason": "涉及合规与监管的欧盟动向，综合评分 67。",
     "pipeline": {
       "score": 67,
-      "scoreThreshold": 60,
-      "scorePass": true,
+      "scoreThreshold": 75,
+      "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-14kvmeu",
       "heat": 0,
@@ -14688,7 +14688,7 @@
     "recommendReason": "涉及合规与监管的中国动向，综合评分 21。",
     "pipeline": {
       "score": 21,
-      "scoreThreshold": 76,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-251sxg",
@@ -14727,7 +14727,7 @@
     "recommendReason": "涉及合规与监管的美国动向，综合评分 23。",
     "pipeline": {
       "score": 23,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1o5hsym",
@@ -14768,7 +14768,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-k9tbrv",
@@ -14807,7 +14807,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-c2h4ln",
@@ -14846,7 +14846,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 21。",
     "pipeline": {
       "score": 21,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1f6ztdv",
@@ -14896,7 +14896,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 50。",
     "pipeline": {
       "score": 50,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-f1a6ei",
@@ -14947,7 +14947,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 50。",
     "pipeline": {
       "score": 50,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-uvfxyu",
@@ -14986,7 +14986,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-y1tryk",
@@ -15025,7 +15025,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-18z2h59",
@@ -15058,7 +15058,7 @@
     "sourceUrl": "https://doi.org/10.3390/su18146940",
     "esgTopic": "合规与监管",
     "aiDraft": false,
-    "recommended": true,
+    "recommended": false,
     "recommendReason": "涉及合规与监管动向，综合评分 72。",
     "link": "https://doi.org/10.3390/su18146940",
     "academicScore": 0.4,
@@ -15076,8 +15076,8 @@
     "whyMatters": "信号：中 | 可转化：有披露/合规/融资等落地动作；影响：政策/监管动作或强主体信号；影响大：涉及规则/标准/执法或大规模主体；选题价值：关联披露/评级/供应链等关键议题的研究或动态。建议结合所在区域与行业评估直接影响，并跟踪后续细则。",
     "pipeline": {
       "score": 72,
-      "scoreThreshold": 60,
-      "scorePass": true,
+      "scoreThreshold": 75,
+      "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-1s0rku8",
       "heat": 0,
@@ -15115,7 +15115,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-f71z7p",
@@ -15154,7 +15154,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 28。",
     "pipeline": {
       "score": 28,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-pqx4m6",
@@ -15193,7 +15193,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-mpti0h",
@@ -15244,7 +15244,7 @@
     "whyMatters": "信号：中 | 可转化：有披露/合规/融资等落地动作；影响：政策/监管动作或强主体信号；影响大：涉及规则/标准/执法或大规模主体；选题价值：关联披露/评级/供应链等关键议题的研究或动态。建议结合所在区域与行业评估直接影响，并跟踪后续细则。",
     "pipeline": {
       "score": 35,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-qsarpm",
@@ -15295,7 +15295,7 @@
     "whyMatters": "信号：中 | 可转化：有披露/合规/融资等落地动作；影响：政策/监管动作或强主体信号；影响大：涉及规则/标准/执法或大规模主体；选题价值：关联披露/评级/供应链等关键议题的研究或动态。建议结合所在区域与行业评估直接影响，并跟踪后续细则。",
     "pipeline": {
       "score": 51,
-      "scoreThreshold": 60,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
       "storyId": "story-61gkd3",
@@ -15334,7 +15334,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 33。",
     "pipeline": {
       "score": 33,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-r19h1n",
@@ -15375,7 +15375,7 @@
     "summaryZh": "IFRS 基金会是一个非营利性公共利益组织，旨在制定高质量、易于理解、可执行且全球认可的会计和可持续发展披露标准。",
     "pipeline": {
       "score": 45,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1eb1um9",
@@ -15416,7 +15416,7 @@
     "summaryZh": "IFRS 基金会是一个非营利性公共利益组织，旨在制定高质量、易于理解、可执行且全球认可的会计和可持续发展披露标准。",
     "pipeline": {
       "score": 25,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1eb1um9",
@@ -15456,7 +15456,7 @@
     "recommendReason": "涉及合规与监管动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-5mymlt",
@@ -15495,7 +15495,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 16。",
     "pipeline": {
       "score": 16,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-n3peb0",
@@ -15534,7 +15534,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 16。",
     "pipeline": {
       "score": 16,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1lbfv8i",
@@ -15573,7 +15573,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 40。",
     "pipeline": {
       "score": 40,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1jdz280",
@@ -15612,7 +15612,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 21。",
     "pipeline": {
       "score": 21,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1nznzbg",
@@ -15651,7 +15651,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-13yu1bs",
@@ -15690,7 +15690,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-gacj0",
@@ -15731,7 +15731,7 @@
     "summaryZh": "美国证券交易委员会今天提议废除过于繁琐且成本高昂的规定，这些规定要求公司在其注册声明和年度报告中提供某些与气候相关的信息。",
     "pipeline": {
       "score": 90,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": true,
       "sourceTier": "T1_5",
       "storyId": "story-198p1io",
@@ -15770,7 +15770,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 5。",
     "pipeline": {
       "score": 5,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-fgdwy0",
@@ -15809,7 +15809,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 13。",
     "pipeline": {
       "score": 13,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-167uk08",
@@ -15848,7 +15848,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 11。",
     "pipeline": {
       "score": 11,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-2m2f5i",
@@ -15887,7 +15887,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1gvtibj",
@@ -15926,7 +15926,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 12。",
     "pipeline": {
       "score": 12,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-pnw05",
@@ -15965,7 +15965,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1kuqcn6",
@@ -16004,7 +16004,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-19hbuq1",
@@ -16043,7 +16043,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 8。",
     "pipeline": {
       "score": 8,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-16jkxk9",
@@ -16082,7 +16082,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 18。",
     "pipeline": {
       "score": 18,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1if0vsy",
@@ -16121,7 +16121,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 20。",
     "pipeline": {
       "score": 20,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1ltwlqe",
@@ -16160,7 +16160,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 10。",
     "pipeline": {
       "score": 10,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-e7t6pz",
@@ -16199,7 +16199,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 15。",
     "pipeline": {
       "score": 15,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-xosjro",
@@ -16238,7 +16238,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 5。",
     "pipeline": {
       "score": 5,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-xleg1z",
@@ -16277,7 +16277,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 7。",
     "pipeline": {
       "score": 7,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-11bpalo",
@@ -16316,7 +16316,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 11。",
     "pipeline": {
       "score": 11,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1c8p7o1",
@@ -16355,7 +16355,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 7。",
     "pipeline": {
       "score": 7,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1chanmv",
@@ -16394,7 +16394,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 36。",
     "pipeline": {
       "score": 36,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-9xovz",
@@ -16433,7 +16433,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 13。",
     "pipeline": {
       "score": 13,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-18hnsa1",
@@ -16472,7 +16472,7 @@
     "recommendReason": "涉及ESG的香港动向，综合评分 17。",
     "pipeline": {
       "score": 17,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-96y28y",
@@ -16511,7 +16511,7 @@
     "recommendReason": "涉及合规与监管的香港动向，综合评分 0。",
     "pipeline": {
       "score": 0,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1klgsar",
@@ -16550,7 +16550,7 @@
     "recommendReason": "涉及合规与监管的香港动向，综合评分 5。",
     "pipeline": {
       "score": 5,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-1mbih92",
@@ -16589,7 +16589,7 @@
     "recommendReason": "涉及合规与监管的香港动向，综合评分 0。",
     "pipeline": {
       "score": 0,
-      "scoreThreshold": 65,
+      "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-oi5pbk",

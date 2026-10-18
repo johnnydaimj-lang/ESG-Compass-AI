@@ -1,6 +1,6 @@
 import type { ContentType } from "@/lib/contracts/content";
 import type { RawMaterial, ScoreAxes, ScoreDecision, ScoreRun, SourceTier } from "@/lib/contracts/pipeline";
-import { SCORE_WEIGHTS, SELECTION_THRESHOLDS, UNDERSTAND_FLOOR } from "./config";
+import { CURATION_FLOOR, SCORE_WEIGHTS, UNDERSTAND_FLOOR } from "./config";
 import { compactText, normalizeText, stableHash } from "./text";
 
 const clamp10 = (value: number) => Math.max(0, Math.min(10, Math.round(value)));
@@ -88,18 +88,18 @@ export function decideSelection(
   sourceTier: SourceTier,
   options: { threshold?: number; understandFloor?: number } = {}
 ): ScoreDecision {
-  const threshold = options.threshold ?? SELECTION_THRESHOLDS[sourceTier];
+  const threshold = options.threshold ?? CURATION_FLOOR;
   const understandFloor = options.understandFloor ?? UNDERSTAND_FLOOR;
   const displayScore = Math.floor((runs[0].score + runs[1].score) / 2);
   const selected = sourceTier !== "SIGNAL"
-    && runs[0].score + runs[1].score >= threshold * 2
+    && displayScore > threshold
     && runs[0].score >= understandFloor
     && runs[1].score >= understandFloor;
   const reason = sourceTier === "SIGNAL"
     ? "信号源只参与热度，不进入精选"
     : selected
-      ? `两次独立评分达到 ${threshold} 分门槛`
-      : `未达到 ${threshold} 分门槛`;
+      ? `综合评分 ${displayScore} 分，达到精选门槛`
+      : `综合评分 ${displayScore} 分，未达到 ${threshold} 分门槛`;
   return { runs, displayScore, threshold, understandFloor, selected, reason };
 }
 
