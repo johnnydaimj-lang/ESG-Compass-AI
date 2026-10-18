@@ -3180,7 +3180,7 @@
     "articleUrl": "https://www.business-humanrights.org/en/from-us/updates-from-bhrrc/weekly-update-7-october-australian-data-centre-plans-withdrawn-after-community-protests-and-regulatory-concerns/",
     "esgTopic": "合规与监管",
     "titleZh": "每周更新10月7日|澳大利亚数据中心计划在社区抗议和监管问题后撤回",
-    "summaryZh": "民间社会组织概述了审查国际金融公司/MIGA环境和社会标准的建议|英国：伦敦金矿市场协会对坦桑尼亚金矿“负责任”认证的审判开始|哥伦比亚： 11名农民在反对铜矿开采项目后在杰里科面临刑事指控|孟加拉国：亚投行和NDB资助的废物转化能源项目因污染和健康问题面临社区反对|挪威限制 出于隐私考虑推出智能眼镜",
+    "summaryZh": "本周聚焦企业人权与社区风险：澳大利亚数据中心计划因社区抗议和监管担忧被撤回；民间社会组织就 IFC/MIGA 环境与社会标准审查提出建议；伦敦金银市场协会因坦桑尼亚金矿“负责任”认证被诉；哥伦比亚 11 名农民因反对铜矿项目面临刑事指控；孟加拉国亚投行资助的垃圾发电项目因污染遭社区反对；挪威以隐私担忧限制智能眼镜。",
     "recommended": false,
     "recommendReason": "涉及合规与监管动向，综合评分 40。",
     "pipeline": {
@@ -3204,7 +3204,8 @@
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
+    },
+    "bodyZh": "本期每周更新聚焦企业人权与社区风险：澳大利亚一处数据中心计划因社区抗议和监管担忧被撤回。标准与治理方面，民间社会组织就国际金融公司（IFC）与世界银行集团多边投资担保机构（MIGA）环境与社会标准的审查提出建议。司法与合规方面，英国伦敦金银市场协会因坦桑尼亚金矿的“负责任”认证被提起诉讼，相关审判已开始；哥伦比亚 Jericó 地区 11 名农民因反对铜矿项目面临刑事指控。社区与环境方面，孟加拉国由亚洲基础设施投资银行和新开发银行资助的垃圾发电项目因污染和健康问题遭当地社区反对；挪威以隐私担忧为由限制智能眼镜使用。"
   },
   {
     "id": "src-1srh8qr",
@@ -6585,7 +6586,7 @@
     "aiDraft": false,
     "link": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.knowesg.com%2Freporting%2Dstandards%2Fesg%2Dregulations%2Dfor%2D2026%2Dyour%2Dcompliance%2Ddecision%2Dguide&rut=7177e7b9f2f2f0db5c5eb8e8d3b72e00b79b8b9a9a7a9f087dd545b7f3d4195d",
     "titleZh": "ESG 法规 2026：主要更新与合规性 |了解ESG",
-    "summaryZh": "ESG 法规解释：CSRD、CSDDD、英国 SRS 和 SEC/加州气候规则的 2026 年更新 - 以及团队的实用合规决策指南。",
+    "summaryZh": "2026 年 ESG 法规关键更新与合规要点：覆盖欧盟 CSRD、CSDDD、英国 SRS，以及美国 SEC 与加州气候披露规则，并给出面向团队的合规决策指南。",
     "recommendReason": "涉及合规与监管动向，综合评分 28。",
     "pipeline": {
       "score": 28,
@@ -6608,7 +6609,8 @@
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
+    },
+    "bodyZh": "本文梳理 2026 年 ESG 法规的关键更新与合规要点：欧盟方面，《企业可持续发展报告指令》（CSRD）扩大可持续发展报告的适用范围与披露要求，《企业可持续发展尽职调查指令》（CSDDD）要求企业对其供应链进行人权与环境尽职调查；英国方面，英国可持续报告标准（UK SRS）持续推进；美国方面，SEC 气候披露规则与加州气候披露法规要求企业披露温室气体排放与气候相关风险。文章还提供面向团队的实用合规决策指南，帮助企业判断自身适用哪些规则、关键披露时间表与行动优先级。"
   },
   {
     "id": "src-web-search-vi-t-nam-businesses-build-capacity-to-adapt-to-e-6e21",
