@@ -20,7 +20,25 @@
       "region": "美国",
       "language": "en",
       "enabled": true,
-      "notes": "SEC 官方 RSS，需要客户端侧过滤 ESG 关键字"
+      "notes": "SEC 官方 RSS，需要客户端侧过滤 ESG 关键字",
+      "keywords": [
+        "climate",
+        "esg",
+        "sustainab",
+        "environment",
+        "greenwash",
+        "greenwashing",
+        "carbon",
+        "emission",
+        "greenhouse",
+        "climate action",
+        "net zero",
+        "气候",
+        "可持续",
+        "排放",
+        "环境"
+      ],
+      "recencyDays": 60
     },
     {
       "id": "ifrs-issb",

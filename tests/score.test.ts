@@ -34,11 +34,14 @@ test("decideSelection floors the display score", () => {
   assert.equal(decision.displayScore, 63);
 });
 
-test("decideSelection requires the summed score to reach twice the threshold", () => {
-  const pass = decideSelection([run(60), run(60)], "T1");
-  const fail = decideSelection([run(58), run(61)], "T1");
+test("decideSelection selects only when the composite score exceeds the floor", () => {
+  const pass = decideSelection([run(76), run(78)], "T1");
+  const edge = decideSelection([run(75), run(75)], "T1");
+  const fail = decideSelection([run(74), run(76)], "T1");
   assert.equal(pass.selected, true);
-  assert.equal(pass.threshold, 60);
+  assert.equal(pass.displayScore, 77);
+  assert.equal(pass.threshold, 75);
+  assert.equal(edge.selected, false);
   assert.equal(fail.selected, false);
 });
 

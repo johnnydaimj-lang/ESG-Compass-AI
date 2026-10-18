@@ -15,6 +15,8 @@ export interface SourceConfig {
   enabled?: boolean;
   requiresEnv?: string;
   fallbacks?: unknown[];
+  keywords?: string[];
+  recencyDays?: number;
 }
 
 export function sourceTierFor(source: SourceConfig): SourceTier {
@@ -87,6 +89,17 @@ export async function collectRssSource(source: SourceConfig): Promise<RawMateria
       editorialSource: isEditorialSource(source),
       content,
     };
+  }).filter((material) => {
+    if (source.keywords && source.keywords.length > 0) {
+      const text = `${material.title} ${material.summary}`.toLowerCase();
+      if (!source.keywords.some((keyword) => text.includes(keyword.toLowerCase()))) return false;
+    }
+    if (source.recencyDays && source.recencyDays > 0) {
+      const cutoff = Date.now() - source.recencyDays * 24 * 3_600_000;
+      const published = Date.parse(material.publishedAt);
+      if (Number.isFinite(published) && published < cutoff) return false;
+    }
+    return true;
   });
 }
 

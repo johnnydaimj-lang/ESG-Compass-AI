@@ -702,45 +702,6 @@
     }
   },
   {
-    "id": "src-evel3z",
-    "title": "SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulation Crowdfunding",
-    "summary": "The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, October 27, 2026, at 10 a.m.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-10-14T14:30:47.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-105-sec-small-business-advisory-committee-discuss-ipo-modernization-regulation-crowdfunding",
-    "esgTopic": "合规与监管",
-    "titleZh": "SEC小企业咨询委员会讨论IPO现代化和监管众筹",
-    "summaryZh": "美国证券交易委员会小企业资本形成咨询委员会宣布将于2026年10月27日星期二上午10点召开会议。",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 30。",
-    "pipeline": {
-      "score": 30,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-ub8v1u",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "SEC Small Business Advisory Co",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulatio",
-        "occurredAt": "2026-10-14"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
     "id": "src-1f94eio",
     "title": "HKEX’s Core Climate Completes First Cross-boundary Pilots in Green Electricity Certificates and Carbon Allowances",
     "summary": "HKEX’s Core Climate Completes First Cross-boundary Pilots in Green Electricity Certificates and Carbon Allowances",
@@ -2301,45 +2262,6 @@
     }
   },
   {
-    "id": "src-p1ax22",
-    "title": "SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds",
-    "summary": "The Securities and Exchange Commission today proposed amendments to the Investment Company Act “cross-trading rule,” which permits transactions in securities between a registered fund and its affiliates under certain conditions.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-10-09T14:59:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-104-sec-proposes-expanding-securities-eligible-cross-trading-registered-funds",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会提议扩大注册基金交叉交易资格的证券",
-    "summaryZh": "美国证券交易委员会今天提议修订《投资公司法》的“交叉交易规则”，该规则允许注册基金及其附属公司在某些条件下进行证券交易。",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 58。",
-    "pipeline": {
-      "score": 58,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1wguhsh",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会提议扩大注册基金交叉交易资格的证券",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "修订",
-        "object": "美国证券交易委员会提议扩大注册基金交叉交易资格的证券",
-        "occurredAt": "2026-10-09"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
     "id": "src-19wwbmc",
     "title": "New speech by Julia Leung: Keynote address at ASIFMA’s Future of Liquidity in Asia Pacific Capital Markets Conference",
     "summary": "New speech by Julia Leung: Keynote address at ASIFMA’s Future of Liquidity in Asia Pacific Capital Markets Conference",
@@ -3323,45 +3245,6 @@
     }
   },
   {
-    "id": "src-qdrl3a",
-    "title": "SEC Seeks Final Judgment Against Former Western Asset Co-CIO Ken Leech in Cherry Picking Case",
-    "summary": "The Securities and Exchange Commission today moved for entry of a final judgment by consent against Stephen Kenneth Leech II, the former co-chief investment officer of registered investment adviser Western Asset Management Company LLC",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-10-06T20:30:24.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-103-sec-seeks-final-judgment-against-former-western-asset-co-cio-ken-leech-cherry-picking-case",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会在樱桃采摘案中寻求对前西方资产联合首席投资官Ken Leech的最终判决",
-    "summaryZh": "美国证券交易委员会今天提出动议，要求对注册投资顾问Western Asset Management Company LLC的前联合首席投资官Stephen Kenneth Leech II作出最终判决",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 21。",
-    "pipeline": {
-      "score": 21,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-126ounx",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会在樱桃采摘案中寻求对前西方资产联合首席投资",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会在樱桃采摘案中寻求对前西方资产联合首席投资官Ken Leech的最终判决",
-        "occurredAt": "2026-10-06"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
     "id": "src-1ccdieg",
     "title": "Why AI’s easiest wins are misleading CEOs",
     "summary": "Why AI’s easiest wins are misleading CEOs",
@@ -3395,45 +3278,6 @@
         "action": "发布",
         "object": "为什么人工智能最容易获胜是误导首席执行官",
         "occurredAt": "2026-10-06"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
-    "id": "src-nqucc4",
-    "title": "SEC to Host Virtual National Compliance Outreach Seminar for Investment Companies and Investment Advisers",
-    "summary": "The Securities and Exchange Commission’s Compliance Outreach Program announced today that it will host a virtual national seminar for investment companies and investment advisers on November 19, 2026.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-10-06T14:37:55.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-102-sec-host-virtual-national-compliance-outreach-seminar-investment-companies-investment-advisers",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会将为投资公司和投资顾问举办虚拟国家合规外展研讨会",
-    "summaryZh": "美国证券交易委员会的合规外展计划今天宣布，将于2026年11月19日为投资公司和投资顾问举办虚拟全国研讨会。",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 18。",
-    "pipeline": {
-      "score": 18,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-yp8duv",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会将为投资公司和投资顾问举办虚拟国家合规外展",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会将为投资公司和投资顾问举办虚拟国家合规外展研讨会",
-        "occurredAt": "2026-11-19"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
@@ -3869,45 +3713,6 @@
     }
   },
   {
-    "id": "src-1qzeaxq",
-    "title": "SEC Coordinates with Global Financial Regulators to Raise Fraud Awareness During World Investor Week",
-    "summary": "The Securities and Exchange Commission, in coordination with other U.S. and global financial regulators, today issued a joint investor bulletin as part of World Investor Week (WIW).",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-10-05T12:47:36.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-101-sec-coordinates-global-financial-regulators-raise-fraud-awareness-during-world-investor-week",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会与全球金融监管机构协调，在世界投资者周期间提高欺诈意识",
-    "summaryZh": "美国证券交易委员会与其他美国和全球金融监管机构协调，今天发布了一份联合投资者公告，作为世界投资者周（WIW）的一部分。",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 17。",
-    "pipeline": {
-      "score": 17,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-17676vu",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会与全球金融监管机构协调，在世界投资者周期间",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会与全球金融监管机构协调，在世界投资者周期间提高欺诈意识",
-        "occurredAt": "2026-10-05"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
     "id": "src-3f00c",
     "title": "Scaling AI inference",
     "summary": "Inference is reshaping AI economics, infrastructure architectures, and investment priorities across the semiconductor ecosystem.",
@@ -3980,45 +3785,6 @@
         "action": "发布",
         "object": "人工智能正在改变工作。现在它必须改变组织",
         "occurredAt": "2026-10-04"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
-    "id": "src-1qdd6vv",
-    "title": "SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws",
-    "summary": "The Securities and Exchange Commission today proposed new rules and amendments to provide a tailored framework for the custody of crypto assets for registered investment advisers and regulated funds, i.e.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-10-01T16:16:07.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会的提案将解决投资顾问和基金如何根据联邦证券法托管加密资产的问题",
-    "summaryZh": "美国证券交易委员会今天提出了新的规则和修正案",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 72。",
-    "pipeline": {
-      "score": 72,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-15w41s7",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会的提案将解决投资顾问和基金如何根据联邦证券",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会的提案将解决投资顾问和基金如何根据联邦证券法托管加密资产的问题",
-        "occurredAt": "2026-10-01"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
@@ -4220,123 +3986,6 @@
     }
   },
   {
-    "id": "src-e71ph7",
-    "title": "SEC’s Division of Examinations Announces New Exam Handbook",
-    "summary": "The Securities and Exchange Commission’s Division of Examinations today published its new handbook, “The SEC Exam Handbook: A Practical Guide on Process and Engagement,” which replaces and expands upon the previous examination brochure by providing",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-10-01T15:03:35.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-99-secs-division-examinations-announces-new-exam-handbook",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会的考试部门宣布新的考试手册",
-    "summaryZh": "美国证券交易委员会的考试部门今天发布了新的手册“SEC考试手册：流程和参与的实用指南”",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 67。",
-    "pipeline": {
-      "score": 67,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1v9arct",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会的考试部门宣布新的考试手册",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会的考试部门宣布新的考试手册",
-        "occurredAt": "2026-10-01"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
-    "id": "src-11o0y7k",
-    "title": "SEC Charges Meyer Global Management and Its CEO With Defrauding Retail Investors in Private Funds That Held Interests in SpaceX and Other Pre-IPO Securities",
-    "summary": "The Securities and Exchange Commission today charged private fund adviser Meyer Global Management LLC (MGM) and its CEO, Owen E.H.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-30T18:30:01.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-98-sec-charges-meyer-global-management-its-ceo-defrauding-retail-investors-private-funds-held-interests",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会指控Meyer Global Management及其首席执行官欺诈持有SpaceX和其他IPO前证券权益的私募基金的散户投资者",
-    "summaryZh": "美国证券交易委员会今天指控私募基金顾问Meyer Global Management LLC （MGM）及其首席执行官Owen E.H.",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 65。",
-    "pipeline": {
-      "score": 65,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-qucd9z",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会指控Meyer Global Manage",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会指控Meyer Global Management及其首席执行官欺诈持有SpaceX和其他IPO前证券权益的私募基金的散户投资者",
-        "occurredAt": "2026-09-30"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
-    "id": "src-dp58vf",
-    "title": "SEC Charges Two Individuals With Orchestrating Fraud Scheme That Targeted Veterans",
-    "summary": "The Securities and Exchange Commission today announced charges against Christopher Kenji Dinelli and Jacob David “Kobe” Frankel for allegedly orchestrating a fraud scheme that raised more than $8.7 million from 35 investors through their fund",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-30T16:42:15.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-97-sec-charges-two-individuals-orchestrating-fraud-scheme-targeted-veterans",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会指控两人实施针对退伍军人的精心策划的欺诈计划",
-    "summaryZh": "美国证券交易委员会今天宣布对克里斯托弗·肯吉·迪内利（Christopher Kenji Dinelli）和雅各布·大卫· “科比” ·弗兰克尔（Jacob David “Kobe” Frankel）提出指控",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 15。",
-    "pipeline": {
-      "score": 15,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1mdj1ym",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会指控两人实施针对退伍军人的精心策划的欺诈计",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会指控两人实施针对退伍军人的精心策划的欺诈计划",
-        "occurredAt": "2026-09-30"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
     "id": "src-1heilo1",
     "title": "The cash hiding in plain sight",
     "summary": "Companies often have significant opportunities to unlock cash. Four practices can help CFOs free it up.",
@@ -4447,45 +4096,6 @@
         "subject": "麦肯锡可持续发展洞察",
         "action": "通过",
         "object": "美国的下一个增长机会：投资就绪的心脏地带",
-        "occurredAt": "2026-09-30"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
-    "id": "src-18yfok2",
-    "title": "SEC Proposes Amendments to Expand Responsible Retailization of Private Markets",
-    "summary": "The Securities and Exchange Commission today voted to propose rule amendments that would facilitate capital formation in the public and private markets by expanding retail investor choice and promoting innovation in regulated fund structures while",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-30T15:45:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-96-sec-proposes-amendments-expand-responsible-retailization-private-markets",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会提出修正案，以扩大私募市场的负责任零售",
-    "summaryZh": "美国证券交易委员会今天投票提出规则修正案",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 57。",
-    "pipeline": {
-      "score": 57,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-o3e1sj",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会提出修正案，以扩大私募市场的负责任零售",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会提出修正案，以扩大私募市场的负责任零售",
         "occurredAt": "2026-09-30"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -4807,45 +4417,6 @@
     "bodyZh": "政府/可持续金融 Mark Segal 2026 年 9 月 29 日意大利经济和财政部宣布完成新的绿色债券发行，筹集 80 亿欧元，为可再生能源、能源效率和清洁交通等领域对环境产生积极影响的项目提供融资。该部报告称，对新的 12 年期绿色债券的需求强劲，发行超额认购超过 13 倍，订单量超过 1100 亿欧元。此次发行收到了来自 35 个国家 330 多名投资者的订单，其中约 75% 来自外国投资者。该部补充说，ESG 投资者约占配售量的 80%。此次发行是在意大利于 2025 年末发布新的绿色债券框架之后进行的，其中包括更新的识别和报告环境可持续支出的标准，旨在制定识别和报告环境可持续支出的标准。绿色债券框架概述了符合资格的收益用途的6个类别，包括可再生能源、能源效率、清洁交通、气候和环境适应力措施、环境保护、水和生物多样性以及环境研究。该部表示，新发行的资金将分配给所有六个类别，而主要部分将针对建筑物和交通类别的能源效率干预措施。此次发行的牵头经办人包括巴克莱银行、法国巴黎银行、德意志银行、联合圣保罗银行、摩根大通和法国兴业银行。"
   },
   {
-    "id": "src-fnrpdw",
-    "title": "SEC Charges Multiple Entities in Fraud Schemes Totaling at Least $15 Million That Used WhatsApp and Other Platforms to Lure Investors",
-    "summary": "The Securities and Exchange Commission today charged multiple entities that are likely operated by individuals located overseas for defrauding hundreds of retail investors, including many in the U.S., through so-called investment confidence scams where",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-29T13:55:53.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms",
-    "esgTopic": "合规与监管",
-    "titleZh": "SEC 指控多个实体利用 WhatsApp 等平台实施至少 1500 万美元欺诈",
-    "summaryZh": "美国证券交易委员会指控多个可能由海外个人运营的实体，通过所谓的投资信心骗局诈骗数百名散户投资者，其中许多位于美国境内。",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 38。",
-    "pipeline": {
-      "score": 38,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-hrmol",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "SEC 指控多个实体利用 WhatsApp 等平台实施至少 ",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "通过",
-        "object": "SEC 指控多个实体利用 WhatsApp 等平台实施至少 1500 万美元欺诈",
-        "occurredAt": "2026-09-29"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
     "id": "src-1vz5pk1",
     "title": "GRI to Launch New Sustainability Reporting Standard for Food and Beverage Companies",
     "summary": "The Global Reporting Initiative (GRI) announced plans to expand its sector standards with the development of a new standard designed to enable food and beverage companies to report on relevant impacts in their industries and value chains.",
@@ -5161,45 +4732,6 @@
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
         "object": "正大国际金融控股有限公司因违反监管规定遭证监会谴责及罚款700万元，并暂停其负责人员的职务",
-        "occurredAt": "2026-09-28"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
-    "id": "src-15qdq4l",
-    "title": "SEC Charges Registered Investment Adviser Zoe Financial for Failure to Disclose Conflict of Interest",
-    "summary": "The Securities and Exchange Commission today announced settled charges against New York-based investment adviser Zoe Financial Inc.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-28T17:46:30.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-94-sec-charges-registered-investment-adviser-zoe-financial-failure-disclose-conflict-interest",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会 (SEC) 指控注册投资顾问 Zoe Financial 未能披露利益冲突",
-    "summaryZh": "美国证券交易委员会今天宣布对总部位于纽约的投资顾问 Zoe Financial Inc. 提出的和解指控。",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 58。",
-    "pipeline": {
-      "score": 58,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1j5u5qs",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会 (SEC) 指控注册投资顾问 Zoe F",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "披露",
-        "object": "美国证券交易委员会 (SEC) 指控注册投资顾问 Zoe Financial 未能披露利益冲突",
         "occurredAt": "2026-09-28"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -6831,84 +6363,6 @@
     }
   },
   {
-    "id": "src-1sptzcd",
-    "title": "SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised",
-    "summary": "The Securities and Exchange Commission’s Division of Economic and Risk Analysis (DERA) published updated statistics and data visualizations covering key segments of the U.S.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-23T18:27:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-93-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会发布最新市场统计数据，强调 IPO 和筹集资金的增加",
-    "summaryZh": "美国证券交易委员会经济和风险分析部 (DERA) 发布了涵盖美国关键领域的最新统计数据和数据可视化。",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 17。",
-    "pipeline": {
-      "score": 17,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-13hgy0j",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会发布最新市场统计数据，强调 IPO 和筹集",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会发布最新市场统计数据，强调 IPO 和筹集资金的增加",
-        "occurredAt": "2026-09-23"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
-    "id": "src-7e5yjw",
-    "title": "SEC Charges South Florida Resident and His Company for Alleged Investment Scheme Defrauding Law Enforcement",
-    "summary": "The Securities and Exchange Commission today charged CMI Capital LLC and its founder and manager, Michael D.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-23T16:00:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-92-sec-charges-south-florida-resident-his-company-alleged-investment-scheme-defrauding-law-enforcement",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会指控南佛罗里达州居民及其公司涉嫌投资计划欺诈执法部门",
-    "summaryZh": "SEC 指控南佛罗里达州居民及其公司涉嫌投资骗局诈骗执法人员。",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 18。",
-    "pipeline": {
-      "score": 18,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1vadp4i",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会指控南佛罗里达州居民及其公司涉嫌投资计划欺",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会指控南佛罗里达州居民及其公司涉嫌投资计划欺诈执法部门",
-        "occurredAt": "2026-09-23"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
     "id": "src-zbqgbz",
     "title": "Billion-dollar beauty: The odds of scaling a breakout brand",
     "summary": "Our new analysis reveals the odds of reaching $1 billion in sales—and how the paths to that milestone differ by category and ownership.",
@@ -8111,45 +7565,6 @@
         "action": "发布",
         "object": "联邦环境执法趋势：超越头条新闻",
         "occurredAt": "2026-09-23"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
-    "id": "src-gwms2p",
-    "title": "SEC Censures OTC Link LLC for Repeated Compliance Failures Related to Regulation SCI",
-    "summary": "The Securities and Exchange Commission today censured New York-based broker dealer OTC Link LLC and ordered it to pay a $575,000 civil penalty for longstanding violations of Regulation Systems Compliance and Integrity (SCI).According to the SEC’s settled",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-22T16:41:11.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-compliance-failures-related-regulation-sci",
-    "esgTopic": "合规与监管",
-    "titleZh": "SEC 谴责 OTC Link LLC 屡次未能遵守 SCI 法规",
-    "summaryZh": "美国证券交易委员会今天谴责总部位于纽约的经纪交易商 OTC Link LLC，并责令其支付 575,000 美元的民事罚款，原因是其长期违反监管系统合规性和诚信 (SCI)。",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 72。",
-    "pipeline": {
-      "score": 72,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1hof1vb",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "SEC 谴责 OTC Link LLC 屡次未能遵守 SCI",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 谴责 OTC Link LLC 屡次未能遵守 SCI 法规",
-        "occurredAt": "2026-09-22"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
@@ -9698,45 +9113,6 @@
     }
   },
   {
-    "id": "src-hnc268",
-    "title": "SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
-    "summary": "The SEC is taking a significant step forward, within its statutory authority, to bring America’s capital markets into the digital age by facilitating onchain trading of certain tokenized stocks.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-17T12:55:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
-    "esgTopic": "合规与监管",
-    "titleZh": "SEC 发布“创新豁免”以促进代币化 NMS 股票的交易并征求意见",
-    "summaryZh": "SEC 发布「创新豁免」，便利代币化 NMS 股票交易并征求意见。",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 74。",
-    "pipeline": {
-      "score": 74,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1wnz43b",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "SEC 发布“创新豁免”以促进代币化 NMS 股票的交易并征",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 发布“创新豁免”以促进代币化 NMS 股票的交易并征求意见",
-        "occurredAt": "2026-09-17"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
     "id": "src-unfccc-news-new-un-climate-change-tool-strengthens-tracking--06e2",
     "title": "New UN Climate Change tool strengthens tracking of non-Party climate action",
     "contentType": "政策",
@@ -10172,45 +9548,6 @@
     }
   },
   {
-    "id": "src-ci54xx",
-    "title": "SEC Proposes Rescission of Shareholder Proposal Rule and Reforms to Proxy Solicitation Process",
-    "summary": "The Securities and Exchange Commission today proposed to rescind Rule 14a-8 under the Securities Exchange Act of 1934, which exceeds the scope of the Commission's statutory authority and intrudes into matters of state law.The Commission outlined",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-16T14:00:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-89-sec-proposes-rescission-shareholder-proposal-rule-reforms-proxy-solicitation-process",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会提议废除股东提案规则并改革委托书征集流程",
-    "summaryZh": "美国证券交易委员会今天提议废除 1934 年《证券交易法》中的第 14a-8 条规则，该规则超出了委员会的法定权力范围并侵犯了州法律事务。",
-    "recommended": true,
-    "recommendReason": "涉及ESG的美国动向，综合评分 85。",
-    "pipeline": {
-      "score": 85,
-      "scoreThreshold": 75,
-      "scorePass": true,
-      "sourceTier": "T1_5",
-      "storyId": "story-21y7o",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会提议废除股东提案规则并改革委托书征集流程",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "提议",
-        "object": "美国证券交易委员会提议废除股东提案规则并改革委托书征集流程",
-        "occurredAt": "2026-09-16"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
     "id": "src-eu-commission-commission-sends-statement-of-objections-over-th-ce92",
     "title": "Commission sends Statement of Objections over the proposed acquisition of Anglo American's nickel business by MMG",
     "contentType": "行业",
@@ -10521,45 +9858,6 @@
         "action": "评级",
         "object": "晨星Sustainalytics提交欧洲ESG评级授权申请",
         "occurredAt": "2026-09-15"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
-    "id": "src-fx11cj",
-    "title": "SEC Grants Exemptive Relief from Certain Inline XBRL Filing or Submission Requirements",
-    "summary": "The Securities and Exchange Commission issued an order granting exemptive relief from certain Inline XBRL requirements adopted on Dec. 16, 2024.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-14T16:47:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-88-sec-grants-exemptive-relief-certain-inline-xbrl-filing-or-submission-requirements",
-    "esgTopic": "合规与监管",
-    "titleZh": "SEC 授予某些内嵌 XBRL 申报或提交要求的豁免",
-    "summaryZh": "美国证券交易委员会发布了一项命令，授予对 2024 年 12 月 16 日通过的某些 Inline XBRL 要求的豁免。",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 60。",
-    "pipeline": {
-      "score": 60,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1k95j9l",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "SEC 授予某些内嵌 XBRL 申报或提交要求的豁免",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 授予某些内嵌 XBRL 申报或提交要求的豁免",
-        "occurredAt": "2026-09-14"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
@@ -11131,45 +10429,6 @@
     "bodyZh": "每个国家都在讲述自己的故事。在过去百年的大部分时间里，澳大利亚的故事简单而舒适：这是一个幸运的国家，只要付出一点努力，伟大的成果就会自然而然地到来。正如澳大利亚独特的习语所说，“她是对的，伙计”。现在，这个故事已经改变，取而代之的是一种截然不同的感觉：进步正在停滞，国家不再表现良好，繁荣的与生俱来的权利正在消失。只有 22% 的澳大利亚人相信下一代会过得更好。12026 爱德曼信托晴雨表：孤立中的信任：澳大利亚报告，爱德曼信托研究所，2026 年。他们的生活经验说明了原因：自第二次世界大战之前以来，该国的收入增长从未经历过如此缓慢的十年。2Jutta Bolt 和 Jan Luiten van Zanden，麦迪逊项目数据库 2023（根据购买力平价进行调整，以便可以比较收入水平）跨国家）；全球经济模型，牛津经济研究院，2025；人均 GDP（不变本币单位），NY.GDP.PCAP.KN 系列，世界银行集团，2026 年 7 月版。世界银行的数据使用每个国家自己的不变当地货币。尽管增长率不同，麦迪逊项目和世界银行却表现出相同的形象。但这个故事和当前的看法都有一个缺陷。每个人都将澳大利亚视为财富的被动接受者：过去幸运，现在不幸。澳大利亚的真实经历却截然不同：它通过深思熟虑的选择、行动和普通的“硬yakka”创造了自己的运气。这是澳大利亚的两个繁荣时期（1945年至1970年和1993年至2015年）特别提供的教训——我们可以从中学习。麦肯锡全球研究院 (MGI) 在其《丰盛的世纪》一书中提供了全球视角和额外的经验教训。3丰盛的世纪：子孙后代的进步故事，麦肯锡全球研究院，2026 年。麦肯锡全球研究院的研究表明，过去的一个世纪给全球生活水平带来了物质进步，第二个丰盛的世纪指日可待。澳大利亚也是如此。"
   },
   {
-    "id": "src-1xfgstv",
-    "title": "Joint Readout of Principals’ Meeting of U.S. and UK Authorities Regarding Central Counterparty Resolution",
-    "summary": "Senior officials from the Securities and Exchange Commission, Federal Deposit Insurance Corporation, Commodity Futures Trading Commission, Federal Reserve Board, and Bank of England convened for a tabletop exercise on Sept.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-11T15:00:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-87-joint-readout-principals-meeting-us-uk-authorities-regarding-central-counterparty-resolution",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国和英国当局关于中央对手方解决方案的主要负责人会议的联合宣读",
-    "summaryZh": "来自美国证券交易委员会、联邦存款保险公司、商品期货交易委员会、联邦储备委员会和英格兰银行的高级官员于 9 月 17 日召开桌面演习。",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 25。",
-    "pipeline": {
-      "score": 25,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-r5w25w",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国和英国当局关于中央对手方解决方案的主要负责人会议的联合宣",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国和英国当局关于中央对手方解决方案的主要负责人会议的联合宣读",
-        "occurredAt": "2026-09-11"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
     "id": "src-bhrrc-latest-argentina-a-mapuche-woman-champions-a-community--c060",
     "title": "Argentina: A Mapuche woman champions a community-based solar energy model - business-humanrights.org",
     "contentType": "政策",
@@ -11204,45 +10463,6 @@
         "action": "发布",
         "object": "阿根廷：一名马普切妇女倡导基于社区的太阳能模式 - Business-Humanrights.org",
         "occurredAt": "2026-09-11"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
-    "id": "src-fpafu7",
-    "title": "SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme",
-    "summary": "The Securities and Exchange Commission today charged Ernest Ossei Boateng and two New Jersey-based companies he controls, Intercontinental Wealth Network LLC and I Wealth Network LP, for allegedly raising approximately $16 million from more than 200",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-10T17:45:22.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-86-sec-charges-founder-his-two-new-jersey-based-companies-alleged-16-million-ponzi-scheme",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会 (SEC) 指控创始人及其两家新泽西州公司涉嫌参与 1600 万美元的庞氏骗局",
-    "summaryZh": "美国证券交易委员会今天指控欧内斯特·奥塞·博阿滕 (Ernest Ossei Boateng) 和他控制的两家位于新泽西州的公司 InterContinental Wealth Network LLC 和 I Wealth Network LP 涉嫌从 200 多家公司筹集约 1600 万美元",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 28。",
-    "pipeline": {
-      "score": 28,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1uzd5i",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会 (SEC) 指控创始人及其两家新泽西州公",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会 (SEC) 指控创始人及其两家新泽西州公司涉嫌参与 1600 万美元的庞氏骗局",
-        "occurredAt": "2026-09-10"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
@@ -11999,84 +11219,6 @@
     }
   },
   {
-    "id": "src-1njxt9m",
-    "title": "SEC Proposes Rescission of Political Contribution Rule for Investment Advisers",
-    "summary": "The Securities and Exchange Commission today issued a proposal to rescind its “pay-to-play” rule that prohibits investment advisers from providing compensated investment advisory services to a government client for two years",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-03T20:30:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-85-sec-proposes-rescission-political-contribution-rule-investment-advisers",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会提议废除投资顾问的政治献金规则",
-    "summaryZh": "美国证券交易委员会今天发布了一项提案",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 65。",
-    "pipeline": {
-      "score": 65,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-19xzeg8",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会提议废除投资顾问的政治献金规则",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会提议废除投资顾问的政治献金规则",
-        "occurredAt": "2026-09-03"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
-    "id": "src-194xdlf",
-    "title": "SEC Investor Advisory Committee to Host Sept. 10 Meeting",
-    "summary": "The Securities and Exchange Commission’s Investor Advisory Committee will host a public meeting at the SEC Headquarters in Washington D.C. on Sept. 10 at 10 a.m.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-03T14:27:49.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-84-sec-investor-advisory-committee-host-sept-10-meeting",
-    "esgTopic": "合规与监管",
-    "titleZh": "SEC 投资者咨询委员会将于 9 月 10 日召开会议",
-    "summaryZh": "美国证券交易委员会投资者咨询委员会将于 9 月 10 日上午 10 点在华盛顿特区 SEC 总部召开公开会议。",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 10。",
-    "pipeline": {
-      "score": 10,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1tn9f1n",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "SEC 投资者咨询委员会将于 9 月 10 日召开会议",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 投资者咨询委员会将于 9 月 10 日召开会议",
-        "occurredAt": "2026-09-03"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
     "id": "src-mee-china-生态环境部召开部务会议-921f",
     "title": "生态环境部召开部务会议",
     "contentType": "政策",
@@ -12117,123 +11259,6 @@
     }
   },
   {
-    "id": "src-1h596r0",
-    "title": "SEC Announces Agenda and Panelists for Roundtable on Preparations for 24-Hour Trading",
-    "summary": "The Securities and Exchange Commission today announced the agenda and panelists for its Sept.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-01T19:17:39.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-83-sec-announces-agenda-panelists-roundtable-preparations-24-hour-trading",
-    "esgTopic": "合规与监管",
-    "titleZh": "SEC 公布 24 小时交易准备圆桌会议议程和小组成员",
-    "summaryZh": "美国证券交易委员会今天公布了 9 月份的议程和小组成员。",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 11。",
-    "pipeline": {
-      "score": 11,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-rtkyip",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "SEC 公布 24 小时交易准备圆桌会议议程和小组成员",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 公布 24 小时交易准备圆桌会议议程和小组成员",
-        "occurredAt": "2026-09-01"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
-    "id": "src-1miv2f0",
-    "title": "SEC Charges San Francisco Bay Area Private Fund Executives with Multimillion Dollar Ponzi-Like Scheme",
-    "summary": "The Securities and Exchange Commission today charged Mark D.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-01T17:52:32.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-82-sec-charges-san-francisco-bay-area-private-fund-executives-multimillion-dollar-ponzi-scheme",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会指控旧金山湾区私募基金高管参与数百万美元的庞氏骗局",
-    "summaryZh": "美国证券交易委员会今天指控 Mark D.",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 30。",
-    "pipeline": {
-      "score": 30,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-14ii7ad",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会指控旧金山湾区私募基金高管参与数百万美元的",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会指控旧金山湾区私募基金高管参与数百万美元的庞氏骗局",
-        "occurredAt": "2026-09-01"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
-    "id": "src-16r78q5",
-    "title": "SEC Proposes to Modernize Rules for Registered Transfer Agents",
-    "summary": "The Securities and Exchange Commission today proposed to update the rules and forms that apply to registered transfer agents.Transfer agents are a key component of the national clearance and settlement system.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-09-01T14:57:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-81-sec-proposes-modernize-rules-registered-transfer-agents",
-    "esgTopic": "合规与监管",
-    "titleZh": "SEC 提议对注册转让代理人的规则进行现代化改造",
-    "summaryZh": "美国证券交易委员会今天提议更新适用于注册转让代理人的规则和表格。转让代理人是国家清算和结算系统的关键组成部分。",
-    "recommended": false,
-    "recommendReason": "涉及ESG的美国动向，综合评分 30。",
-    "pipeline": {
-      "score": 30,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1qpu081",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "SEC 提议对注册转让代理人的规则进行现代化改造",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "提议",
-        "object": "SEC 提议对注册转让代理人的规则进行现代化改造",
-        "occurredAt": "2026-09-01"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
     "id": "src-ifrs-issb-iasb-seeks-investor-views-on-cash-flow-informati-e876",
     "title": "IASB seeks investor views on cash flow information reported by financial institutions",
     "contentType": "政策",
@@ -12268,45 +11293,6 @@
         "action": "披露",
         "object": "国际会计准则理事会征求投资者对金融机构报告的现金流量信息的看法",
         "occurredAt": "2026-09-01"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
-    "id": "src-46ss1h",
-    "title": "SEC and FDA Announce MOU to Bolster Cooperation and Ensure Market Integrity",
-    "summary": "The Securities and Exchange Commission and the Food and Drug Administration today announced that they have entered into a Memorandum of Understanding (MOU) designed to assist the agencies in carrying out their respective missions of ensuring the",
-    "contentType": "行业",
-    "region": "美国",
-    "publishedAt": "2026-08-31T18:24:32.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-80-sec-fda-announce-mou-bolster-cooperation-ensure-market-integrity",
-    "esgTopic": "合规与监管",
-    "titleZh": "SEC 和 FDA 宣布签署谅解备忘录以加强合作并确保市场诚信",
-    "summaryZh": "美国证券交易委员会和美国食品药品监督管理局今天宣布",
-    "recommended": false,
-    "recommendReason": "涉及合规与监管的美国动向，综合评分 22。",
-    "pipeline": {
-      "score": 22,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-7b5dnv",
-      "heat": 0,
-      "tags": [
-        "行业",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "SEC 和 FDA 宣布签署谅解备忘录以加强合作并确保市场诚",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 和 FDA 宣布签署谅解备忘录以加强合作并确保市场诚信",
-        "occurredAt": "2026-08-31"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
@@ -12473,45 +11459,6 @@
     }
   },
   {
-    "id": "src-uarrrp",
-    "title": "SEC Proposes Amendments to Exchange Act Rule 3a12-8 to Add European Union Debt Obligations",
-    "summary": "The Securities and Exchange Commission today proposed amendments to Rule 3a12-8 under the Securities Exchange Act of 1934 to add the debt obligations of the European Union (EU) to the list of foreign government debt obligations designated as \"exempted",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-08-28T17:33:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-79-sec-proposes-amendments-exchange-act-rule-3a12-8-add-european-union-debt-obligations",
-    "esgTopic": "合规与监管",
-    "titleZh": "SEC 提议修订交易法第 3a12-8 条以增加欧盟债务义务",
-    "summaryZh": "美国证券交易委员会今天提议对 1934 年《证券交易法》第 3a12-8 条进行修订，将欧盟 (EU) 的债务义务添加到指定为“豁免……”的外国政府债务清单中。",
-    "recommended": false,
-    "recommendReason": "涉及合规与监管的美国动向，综合评分 45。",
-    "pipeline": {
-      "score": 45,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1n9xfbu",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "SEC 提议修订交易法第 3a12-8 条以增加欧盟债务义务",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "修订",
-        "object": "SEC 提议修订交易法第 3a12-8 条以增加欧盟债务义务",
-        "occurredAt": "2026-08-28"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
     "id": "src-e73cum",
     "title": "HKEX Enhances Product Offering with SHEIN Debut",
     "summary": "HKEX Enhances Product Offering with SHEIN Debut",
@@ -12549,47 +11496,6 @@
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
     }
-  },
-  {
-    "id": "src-7wla3m",
-    "title": "SEC: 38 Entities Feigned Legitimacy as U.S. Advisers Through False Filings to Lure Retail Investors",
-    "summary": "The Securities and Exchange Commission today charged 38 entities alleging that they made material misrepresentations in Forms ADV filed with the Commission between 2025 and 2026 to falsely portray themselves as legitimate advisory firms to U.S.",
-    "contentType": "行业",
-    "region": "美国",
-    "publishedAt": "2026-08-27T21:30:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-78-sec-38-entities-feigned-legitimacy-us-advisers-through-false-filings-lure-retail-investors",
-    "esgTopic": "合规与监管",
-    "titleZh": "SEC：38 个实体通过虚假申报冒充美国顾问的合法性以吸引散户投资者",
-    "summaryZh": "美国证券交易委员会 (Securities and Exchange Commission) 今天对 38 家实体提出指控，指控他们在 2025 年至 2026 年间向委员会提交的 ADV 表格中做出重大虚假陈述，错误地将自己描述为向美国提供服务的合法咨询公司。",
-    "recommended": false,
-    "recommendReason": "涉及合规与监管的美国动向，综合评分 60。",
-    "pipeline": {
-      "score": 60,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1evv85q",
-      "heat": 0,
-      "tags": [
-        "行业",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "SEC：38 个实体通过虚假申报冒充美国顾问的合法性以吸引散",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "通过",
-        "object": "SEC：38 个实体通过虚假申报冒充美国顾问的合法性以吸引散户投资者",
-        "occurredAt": "2026-08-27"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    },
-    "body": "Washington D.C., Aug. 27, 2026 — The Securities and Exchange Commission today charged 38 entities alleging that they made material misrepresentations in Forms ADV filed with the Commission between 2025 and 2026 to falsely portray themselves as legitimate advisory firms to U.S. investors. The complaints also allege that the defendants, a number of whom used IP addresses that were tracked to foreign jurisdictions to connect to the Commission’s filing system, failed to respond to requests by Commission counsel to provide records to substantiate information on their Forms ADV. “Our complaints allege large-scale abuse of SEC adviser filings by persons, several of whom are likely located overseas, exploiting interest in emerging technologies,” said Laura D’Allaird, Chief of the SEC Enforcement Division's Cyber and Emerging Technologies Unit. “When we find bad actors using fraudulent SEC filings to feign legitimacy with retail investors, we will act decisively to disrupt these operations.” According to the complaints, the defendants made material misrepresentations and statements that could not be substantiated in Forms ADV filings, including listing places of business at addresses in Colorado where the defendants had no presence and providing phone numbers that are disconnected or belong to unrelated businesses. The SEC complaints also allege that the defendants disclosed an ownership structure and numerical data that was identical or nearly identical to a multitude of other purported exempt reporting advisers (ERA) and claimed that the financial statements of the private funds they purportedly advised had been audited by one of two independent public accounting firms, neither of which can be found in any public registry of federal or state accountancy firms. The SEC also alleges that certain defendants have been marketed on websites, some of which displayed a fake certificate indicating that the defendant was registered with the SEC, even though it was not. The complaints, filed in the United States District Court for the District of Colorado, charge the defendants with violating Sections 204(a) and 207 of the Investment Advisers Act of 1940.",
-    "bodyZh": "华盛顿特区，2026 年 8 月 27 日——美国证券交易委员会今天对 ​​38 家实体提出指控，指控它们在 2025 年至 2026 年间向委员会提交的 ADV 表格中做出重大虚假陈述，错误地将自己描绘成向美国投资者提供的合法咨询公司。投诉还称，被告中的一些人使用被追踪到外国司法管辖区的 IP 地址连接到委员会的备案系统，但未能回应委员会律师提供记录以证实其 ADV 表格上信息的要求。美国证券交易委员会执法部门网络和新兴技术部门负责人劳拉·达莱尔德 (Laura D’Allaird) 表示：“我们的投诉称，一些人（其中一些人可能位于海外）大规模滥用美国证券交易委员会顾问的备案文件，利用对新兴技术的兴趣。” “当我们发现不良行为者利用欺诈性的 SEC 文件向散户投资者伪装合法性时，我们将果断采取行动，扰乱这些操作。”根据投诉，被告做出了无法在 ADV 表格文件中得到证实的重大失实陈述和陈述，包括列出了被告在科罗拉多州没有业务的地址的营业地点，以及提供了已断开或属于不相关企业的电话号码。美国证券交易委员会的投诉还称，被告披露的所有权结构和数字数据与许多其他所谓的豁免报告顾问（ERA）相同或几乎相同，并声称他们据称提供咨询服务的私人基金的财务报表已经过两家独立公共会计师事务所之一的审计，而这两家会计师事务所在任何联邦或州会计师事务所的公共注册处都找不到。美国证券交易委员会还声称，某些被告已在网站上进行营销，其中一些网站显示了虚假证书，表明被告已在美国证券交易委员会注册，尽管事实并非如此。这些诉状向美国科罗拉多州地方法院提起，指控被告违反 1940 年《投资顾问法》第 204(a) 条和第 207 条。"
   },
   {
     "id": "src-eu-commission-commission-endorses-greece-s-4-8-billion-social--c73e",
@@ -12989,88 +11895,6 @@
     }
   },
   {
-    "id": "src-1c0bzl2",
-    "title": "SEC Charges Former Executives With Fraud in Connection With $1.9 Billion Collapse of Subprime Auto Lender Tricolor",
-    "summary": "The Securities and Exchange Commission today charged Daniel Chu, Jerome Kollar, and Ameryn Seibold, the former CEO, CFO, and Senior Director of Finance, respectively, at Texas-based Tricolor Holdings, LLC, for their roles in an alleged multi-year scheme",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-08-18T19:55:10.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-77-sec-charges-former-executives-fraud-connection-19-billion-collapse-subprime-auto-lender-tricolor",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会 (SEC) 指控前高管欺诈，与次级汽车贷款公司 Tricolor 19 亿美元的倒闭有关",
-    "summaryZh": "美国证券交易委员会今天对总部位于德克萨斯州 Tricolor Holdings, LLC 的前首席执行官 Daniel Chu、Jerome Kollar 和 Ameryn Seibold 分别提出指控",
-    "recommended": false,
-    "recommendReason": "涉及合规与监管的美国动向，综合评分 50。",
-    "pipeline": {
-      "score": 50,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-macz16",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会 (SEC) 指控前高管欺诈，与次级汽车贷",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会 (SEC) 指控前高管欺诈，与次级汽车贷款公司 Tricolor 19 亿美元的倒闭有关",
-        "occurredAt": "2026-08-18"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    },
-    "body": "Washington D.C., Aug. 18, 2026 — The Securities and Exchange Commission today charged Daniel Chu, Jerome Kollar, and Ameryn Seibold, the former CEO, CFO, and Senior Director of Finance, respectively, at Texas-based Tricolor Holdings, LLC, for their roles in an alleged multi-year scheme to defraud investors by double pledging hundreds of millions of dollars of subprime auto loans to multiple asset-backed securities (ABS) offerings and lenders. According to the SEC’s complaint, from at least 2020 through Tricolor’s bankruptcy in September 2025, Tricolor raised more than $1.9 billion through ABS offerings while Tricolor, Chu, and Kollar made numerous false and misleading representations to investors about the lender’s overall financial health, portraying the company as financially sound despite knowing that Tricolor was facing significant liquidity constraints and struggling to fund its operations. In offering materials and meetings, Tricolor allegedly represented that the loans included in the ABS collateral pools were free and clear of any other liens when the defendants knew that many had been or would soon be double pledged. The complaint further alleges that the defendants deceived underwriters and investors, including by manipulating various loan metrics to make non-paying or defaulted loans appear current and therefore eligible for inclusion in the securitization pools. According to the complaint, more than $945 million of principal associated with the ABS offerings remained outstanding and payable to investors at the time of Tricolor’s bankruptcy. In a parallel action, the U.S. Attorney’s Office for the Southern District of New York announced criminal charges against Chu, Kollar, and Seibold in December 2025. “We allege that these defendants defrauded investors based on bogus collateral and violated the integrity of our private credit markets,” said David Woodcock, Director of the SEC’s Division of Enforcement. “Our team did a tremendous job bringing these charges and we appreciate the assistance of our partners at the Southern District of New York, the FBI and the FDIC Office of Inspector General.” The SEC’s complaint, filed in the U.S.",
-    "bodyZh": "华盛顿特区，2026 年 8 月 18 日 — 美国证券交易委员会今天对总部位于德克萨斯州 Tricolor Holdings, LLC 的前首席执行官 Daniel Chu、Jerome Kollar 和高级财务总监 Ameryn Seibold 提出指控，罪名是他们涉嫌参与一项多年计划，通过向多个资产支持证券 (ABS) 发行和贷方双重承诺提供数亿美元的次级汽车贷款来欺骗投资者。根据 SEC 的投诉，至少从 2020 年到 Tricolor 在 2025 年 9 月破产期间，Tricolor 通过 ABS 发行筹集了超过 19 亿美元，而 Tricolor、Chu 和 Kollar 向投资者就贷方的整体财务状况做出了许多虚假和误导性的陈述，将公司描绘成财务状况良好，尽管知道 Tricolor 面临严重的流动性限制并难以为其运营提供资金。据称，在提供材料和会议时，Tricolor 声称 ABS 抵押品池中包含的贷款是免费的，并且没有任何其他留置权，而被告知道许多贷款已经或很快将受到双重质押。起诉书进一步指控被告欺骗承销商和投资者，包括操纵各种贷款指标，使未偿还或违约贷款看起来像流动贷款，因此有资格纳入证券化池。根据诉状，在 Tricolor 破产时，与 ABS 发行相关的超过 9.45 亿美元本金仍未偿还并须支付给投资者。在一项平行行动中，纽约南区美国检察官办公室于 2025 年 12 月宣布对 Chu、Kollar 和 Seibold 提出刑事指控。美国证券交易委员会执法部门主任 David Woodcock 表示：“我们指控这些被告利用虚假抵押品欺骗投资者，并侵犯了我们私人信贷市场的诚信。” “我们的团队在提出这些指控方面做得非常出色，我们感谢纽约南区合作伙伴、联邦调查局 (FBI) 和联邦存款保险公司 (FDIC) 监察长办公室的协助。”美国证券交易委员会 (SEC) 在美国提起的诉讼"
-  },
-  {
-    "id": "src-16s9xw1",
-    "title": "SEC Proposes New Regulation Crypto Assets",
-    "summary": "The Securities and Exchange Commission today announced that it proposed new rules, titled “Regulation Crypto Assets,” that would create a clear and fit-for-purpose framework for certain investment contracts involving crypto assets.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-08-18T17:15:48.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets",
-    "esgTopic": "合规与监管",
-    "titleZh": "SEC 提出加密资产新规",
-    "summaryZh": "美国证券交易委员会今天宣布，提出了名为“加密资产监管”的新规则，该规则将为涉及加密资产的某些投资合同创建一个清晰且适合目的的框架。",
-    "recommended": true,
-    "recommendReason": "涉及合规与监管的美国动向，综合评分 82。",
-    "pipeline": {
-      "score": 82,
-      "scoreThreshold": 75,
-      "scorePass": true,
-      "sourceTier": "T1_5",
-      "storyId": "story-1bse8ia",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "SEC 提出加密资产新规",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 提出加密资产新规",
-        "occurredAt": "2026-08-18"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    },
-    "body": "Washington D.C., Aug. 18, 2026 — The Securities and Exchange Commission today announced that it proposed new rules, titled “Regulation Crypto Assets,” that would create a clear and fit-for-purpose framework for certain investment contracts involving crypto assets. This proposal follows the Commission’s March 2026 interpretation clarifying how the federal securities laws apply to certain crypto assets and transactions involving crypto assets. Together, these efforts introduce a comprehensive, tailored securities offering regime intended to address long-standing barriers to responsible capital formation and innovation within domestic crypto asset markets, while preserving the investor protections at the core of federal securities laws. “As we continue the Commission’s efforts to provide clarity for crypto markets, and as Congress works to establish a lasting regulatory framework, Regulation Crypto Assets seeks to provide crypto asset entrepreneurs and market participants with clear pathways to raise capital under the federal securities laws,” said SEC Chairman Paul S. Atkins. “In line with the Commission’s earlier interpretative guidance, this proposal would also allow for a safe harbor once an issuer has completed or permanently ceased all essential managerial efforts that it represented or promised it would take under an investment contract. Congress designed our securities laws to amplify – within specific guardrails – opportunities for entrepreneurs to innovate and build new products. Advancing this regulatory framework is a key element in our strategy to advance the rule books for the modern era and another step by the Commission to onshore innovation in crypto asset markets for generations to come.” The proposed rules include two exemptions from the registration requirements of the Securities Act of 1933 specifically tailored to certain investment contracts involving crypto assets. The first is a one-time exemption that would permit offerings of up to $5 million during a four-year period. The second exemption would permit offerings of up to $75 million during each 12-month period.",
-    "bodyZh": "华盛顿特区，2026 年 8 月 18 日——美国证券交易委员会今天宣布，提出了名为“加密资产监管”的新规则，将为涉及加密资产的某些投资合同创建一个清晰且适合目的的框架。该提案遵循委员会 2026 年 3 月的解释，澄清了联邦证券法如何适用于某些加密资产和涉及加密资产的交易。这些努力共同引入了全面、量身定制的证券发行制度，旨在解决国内加密资产市场中负责任的资本形成和创新的长期障碍，同时保留联邦证券法核心的投资者保护。 SEC 主席 Paul S. Atkins 表示：“随着委员会继续努力为加密货币市场提供透明度，以及国会努力建立持久的监管框架，《加密资产监管》旨在为加密资产企业家和市场参与者提供根据联邦证券法筹集资金的明确途径。” “根据委员会先前的解释性指导意见，一旦发行人完成或永久停止了其在投资合同下所代表或承诺的所有必要管理工作，该提案还将提供安全港。国会设计我们的证券法是为了在特定的护栏内扩大企业家创新和开发新产品的机会。推进这一监管框架是我们推进现代规则手册战略的关键要素，也是委员会为几代人的加密资产市场本土创新迈出的又一步。来吧。”拟议的规则包括 1933 年《证券法》注册要求的两项豁免，专门针对某些涉及加密资产的投资合同。第一个是一次性豁免，允许在四年内发行最多 500 万美元。第二项豁免将允许每 12 个月期间发行最多 7500 万美元。"
-  },
-  {
     "id": "src-ip6ox2",
     "title": "HKEX Welcomes Mainland Insurance Funds to Invest in Hong Kong ETFs",
     "summary": "HKEX Welcomes Mainland Insurance Funds to Invest in Hong Kong ETFs",
@@ -13147,47 +11971,6 @@
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
     }
-  },
-  {
-    "id": "src-1ipw5z8",
-    "title": "SEC Charges Boiler Room Operator and Three Entities with Defrauding Retail Investors in $74 Million Pre-IPO Investment Scam",
-    "summary": "The Securities and Exchange Commission today charged New York resident Andrew Spaventa and three entities he owned and controlled with fraud and other violations in connection with unregistered securities offerings of private funds that purportedly",
-    "contentType": "行业",
-    "region": "美国",
-    "publishedAt": "2026-08-14T20:16:34.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defrauding-retail-investors-74-million-pre-ipo",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会 (SEC) 指控锅炉房运营商和三个实体在 7400 万美元的 IPO 前投资骗局中欺骗散户投资者",
-    "summaryZh": "美国证券交易委员会今天指控纽约居民安德鲁·斯帕文塔 (Andrew Spaventa) 及其拥有和控制的三个实体涉嫌欺诈和其他违法行为",
-    "recommended": false,
-    "recommendReason": "涉及合规与监管的美国动向，综合评分 35。",
-    "pipeline": {
-      "score": 35,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-m1g8af",
-      "heat": 0,
-      "tags": [
-        "行业",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会 (SEC) 指控锅炉房运营商和三个实体在",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会 (SEC) 指控锅炉房运营商和三个实体在 7400 万美元的 IPO 前投资骗局中欺骗散户投资者",
-        "occurredAt": "2026-08-14"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    },
-    "body": "Washington D.C., Aug. 14, 2026 — The Securities and Exchange Commission today charged New York resident Andrew Spaventa and three entities he owned and controlled with fraud and other violations in connection with unregistered securities offerings of private funds that purportedly provided retail investors an opportunity to invest in shares of “pre-IPO” private companies while charging hidden fees. According to the SEC’s complaint, between approximately December 2020 and June 2025, Spaventa, The Spaventa Group LLC, TSG Capital Advisors LLC, and TSG Alpha Partners LLC raised more than $74 million from more than 800 mostly retail investors across the United States for eleven private funds. Through entities he owned, Spaventa purchased the pre-IPO shares, either directly or through another investment fund, and then sold them in principal transactions to his funds at marked-up prices. These markups were then passed on to investors in the form of hidden fees charged on the sale of membership interests in the funds. “Unsolicited calls and high-pressure sales tactics are the calling cards of so-called boiler room operators. They get you on the phone and then hit you with the hidden fees,” said Sheldon L. Pollock, Associate Director of the SEC’s New York Regional Office. “We encourage investors to be vigilant when it comes to these types of tactics.” As alleged, Spaventa and the entities he controlled solicited these investments using over 100 “sales agents” to cold call and pitch the funds to thousands of prospective investors, many of them retirees, using high-pressure sales tactics. The defendants falsely told investors that they would pay either no upfront fees at all or upfront fees of at most 12.5%, when in reality, the prices investors paid were on average approximately 46% higher than the prices Spaventa paid for the investments. As a result of their fraud, the defendants collected approximately $23 million in upfront fees from unsuspecting investors – of which more than $12 million was funneled to their sales agents for commissions and approximately $4 million went to Spaventa personally. The SEC’s complaint, filed in the U.S.",
-    "bodyZh": "华盛顿特区，2026 年 8 月 14 日 — 美国证券交易委员会今天指控纽约居民 Andrew Spaventa 及其拥有和控制的三个实体涉嫌欺诈和其他违法行为，涉及未经注册的私募基金证券发行，据称这些私募基金为散户投资者提供了投资“首次公开募股前”私人公司股票的机会，同时收取隐性费用。根据 SEC 的投诉，大约在 2020 年 12 月至 2025 年 6 月期间，Spaventa、The Spaventa Group LLC、TSG Capital Advisors LLC 和 TSG Alpha Partners LLC 为 11 支私募基金从美国各地 800 多名（主要是散户投资者）筹集了超过 7400 万美元。 Spaventa 通过他拥有的实体直接或通过另一家投资基金购买了首次公开募股前的股票，然后在本金交易中以标价将其出售给他的基金。然后，这些加价以出售基金会员权益时收取的隐性费用的形式转嫁给投资者。 “不请自来的电话和高压销售策略是所谓锅炉房运营商的名片。他们让你打电话，然后向你收取隐性费用，”美国证券交易委员会纽约地区办事处副主任谢尔登·L·波洛克(Sheldon L. Pollock)表示。 “我们鼓励投资者对此类策略保持警惕。”据称，斯帕文塔及其控制的实体利用 100 多名“销售代理”，采用高压销售策略，向数千名潜在投资者（其中许多人是退休人员）进行推销电话和推销资金，以招揽这些投资。被告错误地告诉投资者，他们要么根本不支付任何预付费用，要么最多支付 12.5% 的预付费用，而实际上，投资者支付的价格平均比 Spaventa 支付的投资价格高出约 46%。由于他们的欺诈行为，被告从毫无戒心的投资者那里收取了约 2300 万美元的预付费用，其中超过 1200 万美元被转移给他们的销售代理以获取佣金，约 400 万美元则流向了 Spaventa 个人。美国证券交易委员会 (SEC) 在美国提起的诉讼"
   },
   {
     "id": "src-sbti-news-the-sbti-launches-second-public-consultation-on--fc84",
@@ -13270,47 +12053,6 @@
     }
   },
   {
-    "id": "src-33geky",
-    "title": "SEC Charges Toms River Trio in Connection with Alleged $47 Million Fraud Targeting Orthodox Jewish Communities",
-    "summary": "The Securities and Exchange Commission today charged three Toms River, New Jersey residents for their roles in an affinity investment fraud that raised approximately $47 million from more than 87 investors, who were primarily members of Orthodox Jewish",
-    "contentType": "行业",
-    "region": "美国",
-    "publishedAt": "2026-08-13T20:32:19.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-74-sec-charges-toms-river-trio-connection-alleged-47-million-fraud-targeting-orthodox-jewish",
-    "esgTopic": "合规与监管",
-    "titleZh": "SEC 指控 Toms River Trio 涉嫌针对正统犹太社区诈骗 4700 万美元",
-    "summaryZh": "美国证券交易委员会今天对新泽西州汤姆斯河的三名居民提出指控",
-    "recommended": false,
-    "recommendReason": "涉及合规与监管的美国动向，综合评分 27。",
-    "pipeline": {
-      "score": 27,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1nr2jwh",
-      "heat": 0,
-      "tags": [
-        "行业",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "SEC 指控 Toms River Trio 涉嫌针对正统犹",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 指控 Toms River Trio 涉嫌针对正统犹太社区诈骗 4700 万美元",
-        "occurredAt": "2026-08-13"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    },
-    "body": "Washington D.C., Aug. 13, 2026 — The Securities and Exchange Commission today charged three Toms River, New Jersey residents for their roles in an affinity investment fraud that raised approximately $47 million from more than 87 investors, who were primarily members of Orthodox Jewish communities in New Jersey and New York. The SEC’s complaint, filed in federal court in the District of New Jersey, alleges that between approximately November 2019 and June 2023, Leor Moshe, the scheme’s orchestrator, convinced investors, most of whom, like Moshe, were active members of the Orthodox Jewish community, to invest in his company, Capital Funding ASAP LLC. Moshe told the would-be investors that their money would be used to fund short-term loans for small businesses and their investments would lead to significant fixed returns. However, rather than funding business loans, Moshe allegedly misappropriated more than $11 million from investors for his personal use and used more than $850,000 for Ponzi-like payments to earlier-in-time investors. The complaint further alleges that Moshe paid fellow Toms River residents, Jacob Goldman and Isaac Odes, who were not registered as broker-dealers or associated with any registered broker-dealer, to recruit investors. Goldman and Odes solicited more than $23 million from at least 25 investors, negotiated investment terms, and facilitated the collection of funds. As a result of the scheme, investors from Arizona, Connecticut, Florida, Illinois, New Jersey, New York and Ohio lost more than $25 million. “As our complaint alleges, the defendants promised some investors that they could see returns in excess of thirty percent which definitely falls into the ‘if it sounds too good to be true, it probably is’ category,” said Thomas P. Smith, Jr., Associate Director of the SEC’s New York Regional Office.",
-    "bodyZh": "华盛顿特区，2026 年 8 月 13 日 — 美国证券交易委员会今天对新泽西州汤姆斯河的三名居民提出指控，指控他们参与了亲和投资欺诈案，该欺诈案从超过 87 名投资者那里筹集了约 4700 万美元，这些投资者主要是新泽西州和纽约州的正统犹太社区成员。美国证券交易委员会向新泽西州联邦法院提起的诉讼称，大约在 2019 年 11 月至 2023 年 6 月期间，该计划的策划者 Leor Moshe 说服投资者投资他的公司 Capital Funding ASAP LLC，其中大多数投资者像 Moshe 一样都是正统犹太社区的活跃成员。摩西告诉潜在投资者，他们的钱将用于为小企业提供短期贷款，他们的投资将带来可观的固定回报。然而，Moshe 据称并没有为商业贷款提供资金，而是从投资者那里挪用了超过 1100 万美元供个人使用，并使用超过 85 万美元向早期投资者进行庞氏骗局付款。起诉书还称，Moshe 向 Toms River 居民 Jacob Goldman 和 Isaac Odes 支付报酬，以招募投资者，而他们没有注册为经纪交易商，也没有与任何注册经纪交易商有关联。高盛和 Odes 向至少 25 名投资者筹集了超过 2300 万美元，协商了投资条款，并促进了资金筹集。由于该计划，来自亚利桑那州、康涅狄格州、佛罗里达州、伊利诺伊州、新泽西州、纽约州和俄亥俄州的投资者损失超过 2500 万美元。 “正如我们的起诉书所称，被告向一些投资者承诺，他们可以获得超过百分之三十的回报，这绝对属于‘如果听起来好得令人难以置信，那么它可能就是真的’类别，”美国证券交易委员会纽约地区办事处副主任托马斯·P·史密斯 (Thomas P. Smith, Jr.) 说。"
-  },
-  {
     "id": "src-iso-news-how-the-london-declaration-embedded-climate-acti-9ff4",
     "title": "How the London Declaration embedded climate action in standards development - The World Economic Forum",
     "contentType": "政策",
@@ -13389,47 +12131,6 @@
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
     }
-  },
-  {
-    "id": "src-gmsi5e",
-    "title": "SEC Charges Private Fund Adviser Adit Ventures Management, Its CEO and Affiliated General Partners in Alleged Fraud",
-    "summary": "The Securities and Exchange Commission today charged New York-based investment adviser Adit Ventures Management LLC, its CEO Eric Munson, and three affiliated general partners, Adit Ventures LLC; Adit Ventures II LLC;",
-    "contentType": "行业",
-    "region": "美国",
-    "publishedAt": "2026-08-10T18:00:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-73-sec-charges-private-fund-adviser-adit-ventures-management-its-ceo-affiliated-general-partners",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会 (SEC) 指控私募基金顾问 Adit Ventures Management、其首席执行官及附属普通合伙人涉嫌欺诈",
-    "summaryZh": "美国证券交易委员会今天对总部位于纽约的投资顾问 Adit Ventures Management LLC、其首席执行官 Eric Munson 以及 Adit Ventures LLC 的三名附属普通合伙人提出指控； Adit Ventures II 有限责任公司；",
-    "recommended": false,
-    "recommendReason": "涉及合规与监管的美国动向，综合评分 46。",
-    "pipeline": {
-      "score": 46,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1ovpy0q",
-      "heat": 0,
-      "tags": [
-        "行业",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会 (SEC) 指控私募基金顾问 Adit ",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会 (SEC) 指控私募基金顾问 Adit Ventures Management、其首席执行官及附属普通合伙人涉嫌欺诈",
-        "occurredAt": "2026-08-10"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    },
-    "body": "Washington D.C., Aug. 10, 2026 — The Securities and Exchange Commission today charged New York-based investment adviser Adit Ventures Management LLC, its CEO Eric Munson, and three affiliated general partners, Adit Ventures LLC; Adit Ventures II LLC; and Adit Ventures III LLC (the General Partners), for allegedly defrauding investors and client funds in connection with investments in pre-IPO shares, such as SpaceX and Klarna, including by misappropriating advisory client assets and charging millions in undisclosed fees. According to the SEC’s complaint, from at least April 2019 through December 2024, the defendants used false claims and promises to persuade investors to contribute capital to Adit-managed funds, including Munson soliciting an investor by falsely claiming that a fund owned shares of stock of a private, pre-IPO company. As alleged, the defendants regularly used client capital for their own benefit, including by taking unsecured loans from funds on favorable terms, and these transactions were not authorized by fund documents and generally not disclosed to investors. “Investment advisers are entrusted with acting in their clients’ best interests,” said Corey A. Schuster, Chief of the Enforcement Division’s Asset Management Unit. “Here, the defendants allegedly engaged in repeated fraudulent acts to benefit or enrich themselves. That misconduct has no place in investment advisory relationships where clients count on investment advisers being their fiduciaries.” The complaint, filed in the U.S. District Court for the Southern District of New York, further alleges that the defendants violated their fiduciary duties by buying pre-IPO shares and then causing client funds to buy those shares at a higher price, while misrepresenting the true cost of acquiring the shares to investors and without obtaining the requisite consent for these principal transactions. The defendants also allegedly overcharged their client funds millions in unauthorized “acquisition fees” and improperly pledged client assets as collateral for a $10 million line of credit, which was used in part to pay off the defendants’ own obligations.",
-    "bodyZh": "华盛顿特区，2026 年 8 月 10 日 — 美国证券交易委员会今天对总部位于纽约的投资顾问 Adit Ventures Management LLC、其首席执行官 Eric Munson 以及 Adit Ventures LLC 的三名附属普通合伙人提出指控； Adit Ventures II 有限责任公司； Adit Ventures III LLC（普通合伙人）涉嫌在投资 SpaceX 和 Klarna 等 IPO 前股票时欺骗投资者和客户资金，包括挪用咨询客户资产并收取数百万美元的未公开费用。根据 SEC 的诉状，至少从 2019 年 4 月到 2024 年 12 月，被告利用虚假声明和承诺说服投资者向 Adit 管理的基金注资，其中包括 Munson 通过虚假声称某基金拥有一家未上市公司的股票来招揽投资者。据称，被告经常利用客户资金谋取自身利益，包括以优惠条件从基金中获取无担保贷款，而这些交易未经基金文件授权，通常不会向投资者披露。 “投资顾问的职责是为客户的最佳利益行事，”执法部门资产管理部门负责人科里·A·舒斯特 (Corey A. Schuster) 表示。 “在这里，被告涉嫌多次从事欺诈行为，以谋取利益或致富。这种不当行为在客户依赖投资顾问作为其受托人的投资咨询关系中没有立足之地。”该诉状向美国纽约南区地方法院提起，进一步指控被告违反了信托义务，购买了首次公开募股前的股票，然后导致客户资金以更高的价格购买这些股票，同时向投资者歪曲了购买股票的真实成本，并且没有获得这些主要交易的必要同意。被告还据称在未经授权的情况下向客户资金收取了数百万美元的“收购费”，并不当将客户资产作为 1000 万美元信贷额度的抵押品，该信贷额度部分用于偿还被告自己的债务。"
   },
   {
     "id": "src-unep-news-climate-week-nyc-solving-food-waste-a-key-soluti-5a24",
@@ -13590,47 +12291,6 @@
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
     }
-  },
-  {
-    "id": "src-mcmko4",
-    "title": "SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division",
-    "summary": "The Securities and Exchange Commission today announced it is establishing a new specialized unit within the Division of Enforcement to provide the dedicated expertise, focus, and capacity to pursue accounting and financial reporting fraud cases as well",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-08-05T18:30:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-72-sec-establishes-financial-reporting-accounting-unit-enforcement-division",
-    "esgTopic": "合规与监管",
-    "titleZh": "SEC 在执法部门设立财务报告和会计部门",
-    "summaryZh": "美国证券交易委员会今天宣布",
-    "recommended": false,
-    "recommendReason": "涉及合规与监管的美国动向，综合评分 58。",
-    "pipeline": {
-      "score": 58,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1u8xbr0",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "SEC 在执法部门设立财务报告和会计部门",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 在执法部门设立财务报告和会计部门",
-        "occurredAt": "2026-08-05"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    },
-    "body": "Washington D.C., Aug. 5, 2026 — The Securities and Exchange Commission today announced it is establishing a new specialized unit within the Division of Enforcement to provide the dedicated expertise, focus, and capacity to pursue accounting and financial reporting fraud cases as well as general misconduct in the accounting and auditing areas. The Financial Reporting and Accounting Unit will work in close collaboration with staff across all relevant SEC divisions and offices to ensure its approach to enforcing federal securities laws is consistent with the Commission’s policy goals. “Since my return to the Division, I have been assessing every aspect of our staffing to ensure that we are aligned to deliver results in our core mission areas,” said David Woodcock, Director of the SEC’s Division of Enforcement. “This new unit – which expands on the Division’s current and historical efforts to crack down on bad actors in the accounting and auditing profession – will be critical in our efforts to pursuing financial reporting fraud, as well as accounting and auditor misconduct more generally.” The unit will be led by Timothy Zimmerman, who joined the SEC’s Division of Enforcement in May 2026 as a senior advisor to the Director. Prior to joining the agency, Mr. Zimmerman worked for 12 years at an international law firm, and most recently served as Deputy General Counsel at an international accounting and professional services firm. “I look forward to working with Tim on this important endeavor,” said Osman Nawaz, Principal Deputy Director of the SEC’s Division of Enforcement and head of specialized units. “His depth of experience and passion are tremendous assets that will help the Division.” The Financial Reporting and Accounting Unit will be staffed by both attorneys and accountants with specialized skills related to financial reporting, accounting, and auditing in securities regulation. Last Reviewed or Updated: Aug.",
-    "bodyZh": "华盛顿特区，2026 年 8 月 5 日 — 美国证券交易委员会今天宣布，将在执法部门内设立一个新的专门部门，以提供专业知识、重点和能力，追查会计和财务报告欺诈案件以及会计和审计领域的一般不当行为。财务报告和会计部门将与 SEC 所有相关部门和办公室的工作人员密切合作，以确保其执行联邦证券法的方法与委员会的政策目标一致。 “自从我回到该部门以来，我一直在评估我们人员配置的各个方面，以确保我们能够在核心任务领域取得成果，”美国证券交易委员会执法部门主任戴维·伍德科克 (David Woodcock) 说。 “这个新部门扩大了该部门当前和历史上打击会计和审计行业不良行为者的努力，对于我们追查财务报告欺诈以及更广泛的会计和审计师不当行为的努力至关重要。”该部门将由 Timothy Zimmerman 领导，他于 2026 年 5 月加入 SEC 执法部门，担任主任高级顾问。在加入该机构之前，Zimmerman 先生在一家国际律师事务所工作了 12 年，最近在一家国际会计和专业服务公司担任副总法律顾问。 “我期待与蒂姆在这项重要工作上合作，”美国证券交易委员会执法部门首席副主任兼专业部门负责人奥斯曼·纳瓦兹 (Osman Nawaz) 说。 “他丰富的经验和热情是巨大的资产，将有助于该部门。”财务报告和会计部门将由律师和会计师组成，他们具有与证券监管中的财务报告、会计和审计相关的专业技能。上次审查或更新：八月"
   },
   {
     "id": "src-u53070",
@@ -14378,47 +13038,6 @@
     }
   },
   {
-    "id": "src-1549odq",
-    "title": "SEC Announces Continuation of Small Business Advisory Committee Meeting",
-    "summary": "The Securities and Exchange Commission announced that the Small Business Capital Formation Advisory Committee meeting held on July 21, 2026, will reconvene August 6, 2026, at 1 p.m. ET, virtually, on SEC.gov.",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-07-30T13:53:38.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-71-sec-announces-continuation-small-business-advisory-committee-meeting",
-    "esgTopic": "合规与监管",
-    "titleZh": "美国证券交易委员会宣布继续召开小型企业咨询委员会会议",
-    "summaryZh": "美国证券交易委员会宣布，于 2026 年 7 月 21 日举行的小企业资本形成咨询委员会会议将于 2026 年 8 月 6 日下午 1 点重新召开。 ET，实际上，在 SEC.gov 上。",
-    "recommended": false,
-    "recommendReason": "涉及合规与监管的美国动向，综合评分 18。",
-    "pipeline": {
-      "score": 18,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1dvn20s",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会宣布继续召开小型企业咨询委员会会议",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会宣布继续召开小型企业咨询委员会会议",
-        "occurredAt": "2026-07-30"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    },
-    "body": "Washington D.C., July 30, 2026 — The Securities and Exchange Commission announced that the Small Business Capital Formation Advisory Committee meeting held on July 21, 2026, will reconvene August 6, 2026, at 1 p.m. ET, virtually, on SEC.gov. The committee will continue its exploration into modernizing public market access and encouraging IPOs and small public company capital formation - including consideration of policy recommendations to reduce regulatory friction and facilitate capital formation in the public securities markets. The Small Business Capital Formation Advisory Committee provides advice and recommendations to the SEC on rules, regulations, and policy matters relating to small businesses. For more information about the committee and the full agenda for the meeting, visit the committee webpage.",
-    "bodyZh": "华盛顿特区，2026 年 7 月 30 日 — 美国证券交易委员会宣布，于 2026 年 7 月 21 日举行的小企业资本形成咨询委员会会议将于 2026 年 8 月 6 日下午 1 点重新召开。 ET，实际上，在 SEC.gov 上。该委员会将继续探索现代化公开市场准入并鼓励首次公开募股和小型上市公司资本形成，包括考虑减少监管摩擦和促进公共证券市场资本形成的政策建议。小企业资本形成咨询委员会就与小企业相关的规则、法规和政策事宜向 SEC 提供意见和建议。有关委员会的更多信息和会议的完整议程，请访问委员会网页。"
-  },
-  {
     "id": "src-eu-commission-commission-approves-59-million-slovenian-state-a-da70",
     "title": "Commission approves €59 million Slovenian State aid scheme to promote battery energy storage systems",
     "contentType": "政策",
@@ -14708,47 +13327,6 @@
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
     }
-  },
-  {
-    "id": "src-wuu7r6",
-    "title": "Small Business Forum’s Report to Congress Highlights Recommendations to Improve Capital-Raising Policy",
-    "summary": "The Securities and Exchange Commission released a report to Congress today highlighting policy recommendations from the SEC’s 45th Annual Government-Business Forum on Small Business Capital Formation.",
-    "contentType": "行业",
-    "region": "美国",
-    "publishedAt": "2026-07-27T19:59:17.000Z",
-    "importanceLevel": "中",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/news/pressreleases.rss",
-    "articleUrl": "https://www.sec.gov/newsroom/press-releases/2026-70-small-business-forums-report-congress-highlights-recommendations-improve-capital-raising-policy",
-    "esgTopic": "合规与监管",
-    "titleZh": "小型企业论坛向国会提交的报告重点介绍了改进融资政策的建议",
-    "summaryZh": "美国证券交易委员会今天向国会发布了一份报告，重点介绍了 SEC 第 45 届年度政府与企业小型企业资本形成论坛的政策建议。",
-    "recommended": false,
-    "recommendReason": "涉及合规与监管的美国动向，综合评分 23。",
-    "pipeline": {
-      "score": 23,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1o5hsym",
-      "heat": 0,
-      "tags": [
-        "行业",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "小型企业论坛向国会提交的报告重点介绍了改进融资政策的建议",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "小型企业论坛向国会提交的报告重点介绍了改进融资政策的建议",
-        "occurredAt": "2026-07-27"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    },
-    "body": "Washington D.C., July 27, 2026 — The Securities and Exchange Commission released a report to Congress today highlighting policy recommendations from the SEC’s 45th Annual Government-Business Forum on Small Business Capital Formation. The report provides a summary of the forum proceedings, policy recommendations developed by participants for changes to the capital-raising framework, and the Commission’s responses to those recommendations. The forum took place on March 9, 2026, and featured remarks from each of the Commissioners and thoughtful discussions with members of the public and private sectors on improving policy affecting how entrepreneurs, small businesses, and smaller public companies raise capital from investors. The sessions focused on the following topics: The SEC’s Office of the Advocate for Small Business Capital Formation is charged by Congress with hosting the SEC’s annual Small Business Forum, where members of the public and private sectors gather to provide feedback to improve capital-raising policy. The Office thanks the speakers, participants, advisory planning group members, and SEC staff members who made this year’s forum a success. Video archives and a transcript of the discussions are available online.",
-    "bodyZh": "华盛顿特区，2026 年 7 月 27 日——美国证券交易委员会今天向国会发布了一份报告，重点介绍了美国证券交易委员会第 45 届年度政府与企业小型企业资本形成论坛的政策建议。该报告总结了论坛议程、参与者为改变筹资框架提出的政策建议以及委员会对这些建议的回应。该论坛于 2026 年 3 月 9 日举行，每位委员发表了讲话，并与公共和私营部门成员就改善影响企业家、小企业和小型上市公司从投资者筹集资金的政策进行了深思熟虑的讨论。会议重点讨论以下主题： 国会委托 SEC 小型企业资本形成倡导者办公室主办 SEC 年度小型企业论坛，公共和私营部门成员齐聚一堂，提供反馈意见，以改进融资政策。本办公室感谢演讲者、参与者、咨询规划小组成员和 SEC 工作人员，他们使今年的论坛取得了成功。视频档案和讨论记录可在线获取。"
   },
   {
     "id": "src-t1p94x",
@@ -15705,47 +14283,6 @@
         "subject": "香港交易所新闻稿",
         "action": "发布",
         "object": "香港交易所委任新顾问小组成员",
-        "occurredAt": "2026-05-29"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
-  },
-  {
-    "id": "src-sec-esg-sec-proposes-rescission-of-climate-related-discl-9e5f",
-    "title": "SEC Proposes Rescission of Climate-Related Disclosure Rules",
-    "contentType": "政策",
-    "region": "美国",
-    "publishedAt": "2026-05-29",
-    "importanceLevel": "中",
-    "summary": "The Securities and Exchange Commission today proposed the rescission of overly burdensome and costly rules that require companies to provide certain climate-related information in their registration statements and annual reports.",
-    "sourceName": "SEC 新闻稿（ESG 相关）",
-    "sourceUrl": "https://www.sec.gov/newsroom/press-releases/2026-49-sec-proposes-rescission-climate-related-disclosure-rules",
-    "esgTopic": "合规与监管",
-    "aiDraft": false,
-    "recommended": true,
-    "whyMatters": "信号：中 | 紧迫：涉及生效/执法/时限；可转化：有披露/合规/融资等落地动作；影响：政策/监管动作或强主体信号；影响大：涉及规则/标准/执法或大规模主体。建议结合所在区域与行业评估直接影响，并跟踪后续细则。",
-    "recommendReason": "涉及合规与监管的美国动向，综合评分 90。",
-    "link": "https://www.sec.gov/newsroom/press-releases/2026-49-sec-proposes-rescission-climate-related-disclosure-rules",
-    "titleZh": "美国证券交易委员会提议废除气候相关披露规则",
-    "summaryZh": "美国证券交易委员会今天提议废除过于繁琐且成本高昂的规定，这些规定要求公司在其注册声明和年度报告中提供某些与气候相关的信息。",
-    "pipeline": {
-      "score": 90,
-      "scoreThreshold": 75,
-      "scorePass": true,
-      "sourceTier": "T1_5",
-      "storyId": "story-198p1io",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "美国"
-      ],
-      "fact": {
-        "title": "美国证券交易委员会提议废除气候相关披露规则",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "提议",
-        "object": "美国证券交易委员会提议废除气候相关披露规则",
         "occurredAt": "2026-05-29"
       },
       "pipelineVersion": "esg-v2.0.0",
