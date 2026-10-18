@@ -7,7 +7,8 @@
       "eventIds": [
         "m-sg-issb",
         "m-exp-omnibus",
-        "m-exp-issb"
+        "m-exp-issb",
+        "src-wef-cso-outlook-2026"
       ],
       "keywords": [
         "issb",
@@ -881,7 +882,8 @@
       "eventIds": [
         "m-aca-supply",
         "m-eu-forced-labor",
-        "m-exp-labor-supply"
+        "m-exp-labor-supply",
+        "src-norway-swf-ethics-2026"
       ],
       "keywords": [
         "labor",
@@ -1247,7 +1249,10 @@
       "description": "面向出海企业的绿色金融合规监管指南：按地区查看分类目录、绿色债券标准、转型融资要求与风险来源（EU Taxonomy、中国绿债目录、ICMA 等）。",
       "eventIds": [
         "m-sg-issb",
-        "m-eu-gbs"
+        "m-eu-gbs",
+        "src-gcf-kuwait-fund-mou-2026",
+        "src-tpi-banking-transition-2026",
+        "src-1f94eio"
       ],
       "keywords": [
         "green finance",
