@@ -1,31 +1,31 @@
 {
-  "date": "2026-10-14",
-  "generatedAt": "2026-10-14T06:10:17.586Z",
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T09:48:36.706Z",
   "highlights": [
     {
-      "id": "src-1f94eio",
-      "title": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
-      "summary": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
-      "sourceName": "香港交易所新闻稿",
-      "contentType": "政策",
-      "region": "香港",
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "score": 37
+      "id": "src-5udi8w",
+      "title": "今日ESG：一周回顾",
+      "summary": "本周ESG新闻：法国巴黎银行AM继安盛之后推出新的全球可持续发展战略",
+      "sourceName": "ESG Today（全球 ESG 新闻）",
+      "contentType": "观点",
+      "region": "全球",
+      "publishedAt": "2026-10-18T09:20:44.000Z",
+      "score": 20
     }
   ],
   "sections": [
     {
-      "label": "政策",
+      "label": "观点",
       "items": [
         {
-          "id": "src-1f94eio",
-          "title": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
-          "summary": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
-          "sourceName": "香港交易所新闻稿",
-          "contentType": "政策",
-          "region": "香港",
-          "publishedAt": "2026-10-14T04:00:00.000Z",
-          "score": 37
+          "id": "src-5udi8w",
+          "title": "今日ESG：一周回顾",
+          "summary": "本周ESG新闻：法国巴黎银行AM继安盛之后推出新的全球可持续发展战略",
+          "sourceName": "ESG Today（全球 ESG 新闻）",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-10-18T09:20:44.000Z",
+          "score": 20
         }
       ]
     }

@@ -91,6 +91,22 @@ export async function collectRssSource(source: SourceConfig): Promise<RawMateria
 }
 
 const SEC_BASE = "https://www.sec.gov";
+const SEC_ESG_TERMS = [
+  "climate",
+  "esg",
+  "sustainab",
+  "environment",
+  "disclosure",
+  "carbon",
+  "emission",
+  "greenhouse",
+  "气候",
+  "可持续",
+  "披露",
+  "排放",
+  "环境",
+];
+const SEC_RECENCY_MONTHS = 12;
 
 function parseSecInvestreports(html: string): Array<{ releaseNo: string; date: string; title: string; href: string }> {
   const rows = [...html.matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map((m) => m[1]);
@@ -123,7 +139,16 @@ export async function collectSecInvestreports(source: SourceConfig): Promise<Raw
   if (!res.ok) throw new Error(`SEC investreports HTTP ${res.status}`);
   const html = await res.text();
   const tier = sourceTierFor(source);
-  return parseSecInvestreports(html).map((report) => {
+  const cutoff = Date.now() - SEC_RECENCY_MONTHS * 30 * 24 * 3_600_000;
+  return parseSecInvestreports(html)
+    .filter((report) => {
+      const title = report.title.toLowerCase();
+      const isEsg = SEC_ESG_TERMS.some((term) => title.includes(term));
+      const parsed = new Date(report.date);
+      const isRecent = !Number.isNaN(parsed.getTime()) && parsed.getTime() >= cutoff;
+      return isEsg && isRecent;
+    })
+    .map((report) => {
     const pdfUrl = report.href.startsWith("http") ? report.href : `${SEC_BASE}${report.href}`;
     const publishedAt = secDate(report.date);
     const title = report.title;
@@ -157,5 +182,5 @@ export async function collectSecInvestreports(source: SourceConfig): Promise<Raw
       editorialSource: isEditorialSource(source),
       content,
     };
-  });
+    });
 }

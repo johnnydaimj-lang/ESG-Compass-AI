@@ -1,645 +1,5 @@
 [
   {
-    "id": "story-xc1zc",
-    "rootId": "src-1tqd3p1",
-    "title": "Report of Investigation in the Matter of County of Orange, California as it Relates to the Conduct of the Members of the Board of Supervisors",
-    "digest": "Report of Investigation in the Matter of County of Orange, California as it Relates to the Conduct of the Members of the Board of Supervisors",
-    "latest": "Report of Investigation in the Matter of County of Orange, California as it Relates to the Conduct of the Members of the Board of Supervisors",
-    "memberIds": [
-      "src-1tqd3p1"
-    ],
-    "facts": [
-      {
-        "title": "Report of Investigation in the",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report of Investigation in the Matter of County of Orange, California as it Rela",
-        "occurredAt": "1996-01-24"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "1996-01-24",
-    "latestPublishedAt": "1996-01-24",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1tqd3p1",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
-    "id": "story-1emdhat",
-    "rootId": "src-rzus66",
-    "title": "Report Persuant to Section 21(a) of the Securities Exchange Act of 1934 Regarding the NASD and the NASDAQ Market",
-    "digest": "Report Persuant to Section 21(a) of the Securities Exchange Act of 1934 Regarding the NASD and the NASDAQ Market",
-    "latest": "Report Persuant to Section 21(a) of the Securities Exchange Act of 1934 Regarding the NASD and the NASDAQ Market",
-    "memberIds": [
-      "src-rzus66"
-    ],
-    "facts": [
-      {
-        "title": "Report Persuant to Section 21(",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report Persuant to Section 21(a) of the Securities Exchange Act of 1934 Regardin",
-        "occurredAt": "1996-08-08"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "1996-08-08",
-    "latestPublishedAt": "1996-08-08",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-rzus66",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
-    "id": "story-198mjv3",
-    "rootId": "src-1doqqlc",
-    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 Concerning the Conduct of Certain Former Officers and Directors of W. R. Grace & Co.",
-    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 Concerning the Conduct of Certain Former Officers and Directors of W. R. Grace & Co.",
-    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 Concerning the Conduct of Certain Former Officers and Directors of W. R. Grace & Co.",
-    "memberIds": [
-      "src-1doqqlc"
-    ],
-    "facts": [
-      {
-        "title": "Report of Investigation Pursua",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
-        "occurredAt": "1997-09-30"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "1997-09-30",
-    "latestPublishedAt": "1997-09-30",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1doqqlc",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
-    "id": "story-1yrav8u",
-    "rootId": "src-z7ccka",
-    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 and Commission Statement on the Relationship of Cooperation to Agency Enforcement Decisions",
-    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 and Commission Statement on the Relationship of Cooperation to Agency Enforcement Decisions",
-    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 and Commission Statement on the Relationship of Cooperation to Agency Enforcement Decisions",
-    "memberIds": [
-      "src-z7ccka"
-    ],
-    "facts": [
-      {
-        "title": "Report of Investigation Pursua",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "enforce",
-        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
-        "occurredAt": "2001-10-23"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "2001-10-23",
-    "latestPublishedAt": "2001-10-23",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-z7ccka",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
-    "id": "story-kfx529",
-    "rootId": "src-sldcvr",
-    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Motorola, Inc.",
-    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Motorola, Inc.",
-    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Motorola, Inc.",
-    "memberIds": [
-      "src-sldcvr"
-    ],
-    "facts": [
-      {
-        "title": "Report of Investigation Pursua",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
-        "occurredAt": "2002-11-25"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "2002-11-25",
-    "latestPublishedAt": "2002-11-25",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-sldcvr",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
-    "id": "story-1ls96aw",
-    "rootId": "src-1cbuibj",
-    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 (“Exchange Act”) Regarding The Nasdaq Stock Market, Inc. (“Nasdaq”), as Overseen By Its Parent, The National Association of Securities Dealers, Inc.",
-    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 (“Exchange Act”) Regarding The Nasdaq Stock Market, Inc. (“Nasdaq”), as Overseen By Its Parent, The National Association of Securities Dealers, Inc.",
-    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 (“Exchange Act”) Regarding The Nasdaq Stock Market, Inc. (“Nasdaq”), as Overseen By Its Parent, The National Association of Securities Dealers, Inc.",
-    "memberIds": [
-      "src-1cbuibj"
-    ],
-    "facts": [
-      {
-        "title": "Report of Investigation Pursua",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
-        "occurredAt": "2005-02-09"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "2005-02-09",
-    "latestPublishedAt": "2005-02-09",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1cbuibj",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
-    "id": "story-1my9kh",
-    "rootId": "src-b3n8gv",
-    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 and Commission Statement on potential Exchange Act Section 10(b) and Section 14(a) liability",
-    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 and Commission Statement on potential Exchange Act Section 10(b) and Section 14(a) liability",
-    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 and Commission Statement on potential Exchange Act Section 10(b) and Section 14(a) liability",
-    "memberIds": [
-      "src-b3n8gv"
-    ],
-    "facts": [
-      {
-        "title": "Report of Investigation Pursua",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
-        "occurredAt": "2005-03-01"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "2005-03-01",
-    "latestPublishedAt": "2005-03-01",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-b3n8gv",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
-    "id": "story-1u7b0du",
-    "rootId": "src-1che0wc",
-    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: The Retirement Systems of Alabama",
-    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: The Retirement Systems of Alabama",
-    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: The Retirement Systems of Alabama",
-    "memberIds": [
-      "src-1che0wc"
-    ],
-    "facts": [
-      {
-        "title": "Report of Investigation Pursua",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
-        "occurredAt": "2008-03-06"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "2008-03-06",
-    "latestPublishedAt": "2008-03-06",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1che0wc",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
-    "id": "story-1x8n52h",
-    "rootId": "src-1djdlgv",
-    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: JP Morgan Securities, Inc.",
-    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: JP Morgan Securities, Inc.",
-    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: JP Morgan Securities, Inc.",
-    "memberIds": [
-      "src-1djdlgv"
-    ],
-    "facts": [
-      {
-        "title": "Report of Investigation Pursua",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
-        "occurredAt": "2010-03-18"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "2010-03-18",
-    "latestPublishedAt": "2010-03-18",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1djdlgv",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
-    "id": "story-da71o8",
-    "rootId": "src-nczic0",
-    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Moody’s Investors Service, Inc.",
-    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Moody’s Investors Service, Inc.",
-    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Moody’s Investors Service, Inc.",
-    "memberIds": [
-      "src-nczic0"
-    ],
-    "facts": [
-      {
-        "title": "Report of Investigation Pursua",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
-        "occurredAt": "2010-08-31"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "2010-08-31",
-    "latestPublishedAt": "2010-08-31",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-nczic0",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
-    "id": "story-bmh8ar",
-    "rootId": "src-uxx0jv",
-    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Netflix, Inc.",
-    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Netflix, Inc.",
-    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Netflix, Inc.",
-    "memberIds": [
-      "src-uxx0jv"
-    ],
-    "facts": [
-      {
-        "title": "Report of Investigation Pursua",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
-        "occurredAt": "2013-04-02"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "2013-04-02",
-    "latestPublishedAt": "2013-04-02",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-uxx0jv",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
-    "id": "story-19kwlc8",
-    "rootId": "src-v1app5",
-    "title": "Report of Investigation in the Matter of the City of Harrisburg, Pennsylvania Concerning the Potential Liability of Public Officials with Regard to Disclosure Obligations in the Secondary Market",
-    "digest": "Report of Investigation in the Matter of the City of Harrisburg, Pennsylvania Concerning the Potential Liability of Public Officials with Regard to Disclosure Obligations in the Secondary Market",
-    "latest": "Report of Investigation in the Matter of the City of Harrisburg, Pennsylvania Concerning the Potential Liability of Public Officials with Regard to Disclosure Obligations in the Secondary Market",
-    "memberIds": [
-      "src-v1app5"
-    ],
-    "facts": [
-      {
-        "title": "Report of Investigation in the",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report of Investigation in the Matter of the City of Harrisburg, Pennsylvania Co",
-        "occurredAt": "2013-05-06"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "2013-05-06",
-    "latestPublishedAt": "2013-05-06",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-v1app5",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
-    "id": "story-o40br3",
-    "rootId": "src-1ld9gig",
-    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Eurex Deutschland",
-    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Eurex Deutschland",
-    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Eurex Deutschland",
-    "memberIds": [
-      "src-1ld9gig"
-    ],
-    "facts": [
-      {
-        "title": "Report of Investigation Pursua",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
-        "occurredAt": "2013-08-08"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "2013-08-08",
-    "latestPublishedAt": "2013-08-08",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1ld9gig",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
-    "id": "story-iwm9q1",
-    "rootId": "src-1vieok",
-    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: KPMG",
-    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: KPMG",
-    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: KPMG",
-    "memberIds": [
-      "src-1vieok"
-    ],
-    "facts": [
-      {
-        "title": "Report of Investigation Pursua",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
-        "occurredAt": "2014-01-24"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "2014-01-24",
-    "latestPublishedAt": "2014-01-24",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1vieok",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
-    "id": "story-kd4shc",
-    "rootId": "src-17sc5vq",
-    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: The DAO",
-    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: The DAO",
-    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: The DAO",
-    "memberIds": [
-      "src-17sc5vq"
-    ],
-    "facts": [
-      {
-        "title": "Report of Investigation Pursua",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
-        "occurredAt": "2017-07-25"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "2017-07-25",
-    "latestPublishedAt": "2017-07-25",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-17sc5vq",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
-    "id": "story-14tnwpz",
-    "rootId": "src-4ozquo",
-    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 Regarding Certain Cyber-Related Frauds Perpetrated Against Public Companies and Related Internal Accounting Controls Requirements",
-    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 Regarding Certain Cyber-Related Frauds Perpetrated Against Public Companies and Related Internal Accounting Controls Requirements",
-    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934 Regarding Certain Cyber-Related Frauds Perpetrated Against Public Companies and Related Internal Accounting Controls Requirements",
-    "memberIds": [
-      "src-4ozquo"
-    ],
-    "facts": [
-      {
-        "title": "Report of Investigation Pursua",
-        "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
-        "occurredAt": "2018-10-16"
-      }
-    ],
-    "participants": [
-      "sec-investreports"
-    ],
-    "firstPublishedAt": "2018-10-16",
-    "latestPublishedAt": "2018-10-16",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-4ozquo",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 调查报告（Investigation Reports）"
-    ]
-  },
-  {
     "id": "story-oi5pbk",
     "rootId": "src-1wny2n6",
     "title": "2005",
@@ -11721,6 +11081,86 @@
     ]
   },
   {
+    "id": "story-1oosh1w",
+    "rootId": "src-1jkbr0t",
+    "title": "America’s next workforce challenge: Building pathways to better jobs",
+    "digest": "Over the next decade, AI, automation, and economic forces like demographic aging will set off the largest workforce restructuring in history, writes Kweilin Ellingrud in Forbes.",
+    "latest": "Over the next decade, AI, automation, and economic forces like demographic aging will set off the largest workforce restructuring in history, writes Kweilin Ellingrud in Forbes.",
+    "memberIds": [
+      "src-1jkbr0t"
+    ],
+    "facts": [
+      {
+        "title": "America’s next workforce chall",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "America’s next workforce challenge: Building pathways to better jobs",
+        "occurredAt": "2026-09-28"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-09-28T16:00:00.000Z",
+    "latestPublishedAt": "2026-09-28T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1jkbr0t",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-l8vjlw",
+    "rootId": "src-19a0uxj",
+    "title": "Energy security in an age of disruption",
+    "digest": "While there is no single prescription for energy security, strengthening “response capacity,” such as by establishing stockpiles, substituting sources, and diversifying suppliers, is essential. The point is not to eliminate vulnerabilities altogether, but to ensure that there are options when disruption arrives, write Diego Hernandez Diaz, Luciano Di Fiori, and Tiago Devesa in Project Syndicate.",
+    "latest": "While there is no single prescription for energy security, strengthening “response capacity,” such as by establishing stockpiles, substituting sources, and diversifying suppliers, is essential. The point is not to eliminate vulnerabilities altogether, but to ensure that there are options when disruption arrives, write Diego Hernandez Diaz, Luciano Di Fiori, and Tiago Devesa in Project Syndicate.",
+    "memberIds": [
+      "src-19a0uxj"
+    ],
+    "facts": [
+      {
+        "title": "Energy security in an age of d",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Energy security in an age of disruption",
+        "occurredAt": "2026-09-28"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-09-28T16:00:00.000Z",
+    "latestPublishedAt": "2026-09-28T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-19a0uxj",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
     "id": "story-1j5u5qs",
     "rootId": "src-15qdq4l",
     "title": "美国证券交易委员会 (SEC) 指控注册投资顾问 Zoe Financial 未能披露利益冲突",
@@ -13791,18 +13231,18 @@
   {
     "id": "story-yemp4b",
     "rootId": "src-16cfn1p",
-    "title": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Climate Action 100+ and the Election of Directors at the May 2021 Annual Meeting of ExxonMobil Corporation",
-    "digest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Climate Action 100+ and the Election of Directors at the May 2021 Annual Meeting of ExxonMobil Corporation",
-    "latest": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: Climate Action 100+ and the Election of Directors at the May 2021 Annual Meeting of ExxonMobil Corporation",
+    "title": "根据1934年《证券交易法》第21 (a)条进行调查的报告：埃克森美孚公司2021年5月年会上的气候行动100 +和董事选举",
+    "digest": "根据1934年《证券交易法》第21 (a)条进行调查的报告：埃克森美孚公司2021年5月年会上的气候行动100 +和董事选举",
+    "latest": "根据1934年《证券交易法》第21 (a)条进行调查的报告：埃克森美孚公司2021年5月年会上的气候行动100 +和董事选举",
     "memberIds": [
       "src-16cfn1p"
     ],
     "facts": [
       {
-        "title": "Report of Investigation Pursua",
+        "title": "根据1934年《证券交易法》第21 (a)条进行调查的报告：",
         "subject": "SEC 调查报告（Investigation Reports）",
-        "action": "发布",
-        "object": "Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act",
+        "action": "调查",
+        "object": "根据1934年《证券交易法》第21 (a)条进行调查的报告：埃克森美孚公司2021年5月年会上的气候行动100 +和董事选举",
         "occurredAt": "2026-10-07"
       }
     ],
@@ -14192,8 +13632,8 @@
     "id": "story-1m87ojf",
     "rootId": "src-14umkjn",
     "title": "证监会主办国际证监会组织发行人会计、审计和披露委员会会议",
-    "digest": "证监会主办国际证监会组织发行人会计、审计及披露委员会会议",
-    "latest": "证监会主办国际证监会组织发行人会计、审计及披露委员会会议",
+    "digest": "证监会主办国际证监会组织发行人会计委员会会议",
+    "latest": "证监会主办国际证监会组织发行人会计委员会会议",
     "memberIds": [
       "src-14umkjn"
     ],
@@ -14629,6 +14069,46 @@
     ]
   },
   {
+    "id": "story-t6o838",
+    "rootId": "src-eu80wb",
+    "title": "McKinsey research shows AI creating more jobs than automation displaces — but 11 million American workers will need help this decade",
+    "digest": "While debates about AI’s impact on the workforce dominate headlines, the biggest challenge ahead will be helping workers find the most direct pathway into growing jobs, write Eric Kutcher and Tanguy Catlin in Fortune.",
+    "latest": "While debates about AI’s impact on the workforce dominate headlines, the biggest challenge ahead will be helping workers find the most direct pathway into growing jobs, write Eric Kutcher and Tanguy Catlin in Fortune.",
+    "memberIds": [
+      "src-eu80wb"
+    ],
+    "facts": [
+      {
+        "title": "McKinsey research shows AI cre",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "McKinsey research shows AI creating more jobs than automation displaces — but 11",
+        "occurredAt": "2026-10-10"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-10T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-10T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-eu80wb",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
     "id": "story-pddmaq",
     "rootId": "src-1kpoxu6",
     "title": "Meesho：让电子商务成为每个人的事业",
@@ -14752,8 +14232,8 @@
     "id": "story-1dam31g",
     "rootId": "src-1rdxw95",
     "title": "台湾：供应商和主要品牌正在向农民工退还 600 万美元的费用，但其他品牌则落后；包括。科斯。回应与不回应",
-    "digest": "台湾：供应商和主要品牌正在向农民工退还 600 万美元的费用，但其他品牌则落后；包括。科斯。",
-    "latest": "台湾：供应商和主要品牌正在向农民工退还 600 万美元的费用，但其他品牌则落后；包括。科斯。",
+    "digest": "台湾：供应商和主要品牌正在向农民工返还600万美元的费用，但其他品牌落后，包括COS。",
+    "latest": "台湾：供应商和主要品牌正在向农民工返还600万美元的费用，但其他品牌落后，包括COS。",
     "memberIds": [
       "src-1rdxw95"
     ],
@@ -14845,8 +14325,8 @@
     "id": "story-1k61zi",
     "rootId": "src-1bdurgk",
     "title": "欧盟：中亚卡车司机涉嫌遭受物流公司（包括物流公司）侵犯劳工权利的行为交付宝马车辆时；包括。公司回复",
-    "digest": "欧盟：中亚卡车司机涉嫌遭受物流公司（包括物流公司）侵犯劳工权利的行为交付宝马车辆时；包括。",
-    "latest": "欧盟：中亚卡车司机涉嫌遭受物流公司（包括物流公司）侵犯劳工权利的行为交付宝马车辆时；包括。",
+    "digest": "欧盟：中亚卡车司机涉嫌受到物流公司的劳动权利侵犯，包括在交付宝马车辆时；包括公司。",
+    "latest": "欧盟：中亚卡车司机涉嫌受到物流公司的劳动权利侵犯，包括在交付宝马车辆时；包括公司。",
     "memberIds": [
       "src-1bdurgk"
     ],
@@ -15922,6 +15402,166 @@
     ]
   },
   {
+    "id": "story-14audd3",
+    "rootId": "src-1545eon",
+    "title": "Voices on Planning: The AI-powered future of supply chain",
+    "digest": "The shift from software as a service to AI-enabled planning could move decision-making from fixed cycles to real time, but success will require the right governance, expertise, and operating model.",
+    "latest": "The shift from software as a service to AI-enabled planning could move decision-making from fixed cycles to real time, but success will require the right governance, expertise, and operating model.",
+    "memberIds": [
+      "src-1545eon"
+    ],
+    "facts": [
+      {
+        "title": "Voices on Planning: The AI-pow",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Voices on Planning: The AI-powered future of supply chain",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-13T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-13T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1545eon",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1lxxvmm",
+    "rootId": "src-1wr80pl",
+    "title": "The AI value curve: The economics of applying AI to existing work",
+    "digest": "Many organizations are still measuring AI adoption instead of value. The AI value curve helps identify where AI’s automation potential can be deployed most cost-effectively.",
+    "latest": "Many organizations are still measuring AI adoption instead of value. The AI value curve helps identify where AI’s automation potential can be deployed most cost-effectively.",
+    "memberIds": [
+      "src-1wr80pl"
+    ],
+    "facts": [
+      {
+        "title": "The AI value curve: The econom",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "adopt",
+        "object": "The AI value curve: The economics of applying AI to existing work",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-13T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-13T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1wr80pl",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1tulbmp",
+    "rootId": "src-9fg8ti",
+    "title": "Rewiring capital projects to boost construction productivity",
+    "digest": "McKinsey’s Capital Excellence experts discuss how AI and technology can boost construction productivity, address labor shortages, and accelerate delivery of complex capital projects.",
+    "latest": "McKinsey’s Capital Excellence experts discuss how AI and technology can boost construction productivity, address labor shortages, and accelerate delivery of complex capital projects.",
+    "memberIds": [
+      "src-9fg8ti"
+    ],
+    "facts": [
+      {
+        "title": "Rewiring capital projects to b",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Rewiring capital projects to boost construction productivity",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-13T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-13T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-9fg8ti",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-ured9s",
+    "rootId": "src-15ad7pt",
+    "title": "What does AI really cost?",
+    "digest": "Moving an AI tool from pilot to production can nearly quadruple its cost. Three McKinsey experts explain why—and how to tell whether it’s worth it.",
+    "latest": "Moving an AI tool from pilot to production can nearly quadruple its cost. Three McKinsey experts explain why—and how to tell whether it’s worth it.",
+    "memberIds": [
+      "src-15ad7pt"
+    ],
+    "facts": [
+      {
+        "title": "What does AI really cost?",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "What does AI really cost?",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-13T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-13T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-15ad7pt",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
     "id": "story-fwon8c",
     "rootId": "src-1iv61sr",
     "title": "史蒂夫·沃兹尼亚克的节能技术平台 Efforce 被 TROOPS 收购",
@@ -15964,18 +15604,18 @@
   {
     "id": "story-5ikeqj",
     "rootId": "src-1f94eio",
-    "title": "HKEX’s Core Climate Completes First Cross-boundary Pilots in Green Electricity Certificates and Carbon Allowances",
-    "digest": "HKEX’s Core Climate Completes First Cross-boundary Pilots in Green Electricity Certificates and Carbon Allowances",
-    "latest": "HKEX’s Core Climate Completes First Cross-boundary Pilots in Green Electricity Certificates and Carbon Allowances",
+    "title": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
+    "digest": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
+    "latest": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
     "memberIds": [
       "src-1f94eio"
     ],
     "facts": [
       {
-        "title": "HKEX’s Core Climate Completes ",
+        "title": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试",
         "subject": "香港交易所新闻稿",
         "action": "发布",
-        "object": "HKEX’s Core Climate Completes First Cross-boundary Pilots in Green Electricity C",
+        "object": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
         "occurredAt": "2026-10-14"
       }
     ],
@@ -15999,6 +15639,766 @@
     "signalCount": 0,
     "sourceNames": [
       "香港交易所新闻稿"
+    ]
+  },
+  {
+    "id": "story-ub8v1u",
+    "rootId": "src-evel3z",
+    "title": "SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulation Crowdfunding",
+    "digest": "The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, October 27, 2026, at 10 a.m.",
+    "latest": "The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, October 27, 2026, at 10 a.m.",
+    "memberIds": [
+      "src-evel3z"
+    ],
+    "facts": [
+      {
+        "title": "SEC Small Business Advisory Co",
+        "subject": "SEC 新闻稿（ESG 相关）",
+        "action": "发布",
+        "object": "SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulatio",
+        "occurredAt": "2026-10-14"
+      }
+    ],
+    "participants": [
+      "sec-esg"
+    ],
+    "firstPublishedAt": "2026-10-14T14:30:47.000Z",
+    "latestPublishedAt": "2026-10-14T14:30:47.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-evel3z",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "SEC 新闻稿（ESG 相关）"
+    ]
+  },
+  {
+    "id": "story-gckaoa",
+    "rootId": "src-1l9iv4z",
+    "title": "Place, purpose, and the path to economic mobility",
+    "digest": "Where you live shapes far more than you’d think. New research points to how community, place, and connection relate to getting ahead.",
+    "latest": "Where you live shapes far more than you’d think. New research points to how community, place, and connection relate to getting ahead.",
+    "memberIds": [
+      "src-1l9iv4z"
+    ],
+    "facts": [
+      {
+        "title": "Place, purpose, and the path t",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Place, purpose, and the path to economic mobility",
+        "occurredAt": "2026-10-14"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-14T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-14T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1l9iv4z",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-jss08l",
+    "rootId": "src-1383dt5",
+    "title": "Strengthening supply chains behind US semiconductors",
+    "digest": "New research maps hidden upstream dependencies in the US semiconductor supply chain and outlines potential mitigation strategies to make the ecosystem more resilient.",
+    "latest": "New research maps hidden upstream dependencies in the US semiconductor supply chain and outlines potential mitigation strategies to make the ecosystem more resilient.",
+    "memberIds": [
+      "src-1383dt5"
+    ],
+    "facts": [
+      {
+        "title": "Strengthening supply chains be",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Strengthening supply chains behind US semiconductors",
+        "occurredAt": "2026-10-14"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-14T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-14T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1383dt5",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1h6tpr6",
+    "rootId": "src-tw25wn",
+    "title": "The judgment bottleneck: Balancing AI and human speeds in strategy",
+    "digest": "Analysis now runs on AI time, but judgment still runs on human time. Three moves can help turn AI’s speed into better strategy decisions.",
+    "latest": "Analysis now runs on AI time, but judgment still runs on human time. Three moves can help turn AI’s speed into better strategy decisions.",
+    "memberIds": [
+      "src-tw25wn"
+    ],
+    "facts": [
+      {
+        "title": "The judgment bottleneck: Balan",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "The judgment bottleneck: Balancing AI and human speeds in strategy",
+        "occurredAt": "2026-10-14"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-14T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-14T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-tw25wn",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1ah5l6s",
+    "rootId": "src-vtsa4r",
+    "title": "Engie, CMA CGM to Build New Clean Fuel Plant to Drive Fleet Decarbonization",
+    "digest": "French energy company Engie announced that it has signed a new framework agreement with multinational",
+    "latest": "French energy company Engie announced that it has signed a new framework agreement with multinational",
+    "memberIds": [
+      "src-vtsa4r"
+    ],
+    "facts": [
+      {
+        "title": "Engie, CMA CGM to Build New Cl",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Engie, CMA CGM to Build New Clean Fuel Plant to Drive Fleet Decarbonization",
+        "occurredAt": "2026-10-15"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-15T08:05:53.000Z",
+    "latestPublishedAt": "2026-10-15T08:05:53.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-vtsa4r",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-18a89es",
+    "rootId": "src-qvlbt2",
+    "title": "California Locks in November Deadline for First Corporate Climate Reports",
+    "digest": "The California Office of Administrative Law (OAL) has approved the state’s new corporate greenhouse gas",
+    "latest": "The California Office of Administrative Law (OAL) has approved the state’s new corporate greenhouse gas",
+    "memberIds": [
+      "src-qvlbt2"
+    ],
+    "facts": [
+      {
+        "title": "California Locks in November D",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "approve",
+        "object": "California Locks in November Deadline for First Corporate Climate Reports",
+        "occurredAt": "2026-10-15"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-15T09:55:45.000Z",
+    "latestPublishedAt": "2026-10-15T09:55:45.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-qvlbt2",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1sucrp0",
+    "rootId": "src-18hkbph",
+    "title": "Hy24 Acquires Clean Hydrogen Platform Hynamics from EDF",
+    "digest": "French clean hydrogen-focused investment firm Hy24 announced that it has signed an agreement to acquire",
+    "latest": "French clean hydrogen-focused investment firm Hy24 announced that it has signed an agreement to acquire",
+    "memberIds": [
+      "src-18hkbph"
+    ],
+    "facts": [
+      {
+        "title": "Hy24 Acquires Clean Hydrogen P",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Hy24 Acquires Clean Hydrogen Platform Hynamics from EDF",
+        "occurredAt": "2026-10-15"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-15T10:49:45.000Z",
+    "latestPublishedAt": "2026-10-15T10:49:45.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-18hkbph",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1j0i1yl",
+    "rootId": "src-1p81m6q",
+    "title": "L&G, NTR Raise $370 Million for New Clean Power Transition Fund",
+    "digest": "UK financial services group Legal & General (L&G) and sustainable infrastructure investor NTR announced today",
+    "latest": "UK financial services group Legal & General (L&G) and sustainable infrastructure investor NTR announced today",
+    "memberIds": [
+      "src-1p81m6q"
+    ],
+    "facts": [
+      {
+        "title": "L&G, NTR Raise $370 Million fo",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "L&G, NTR Raise $370 Million for New Clean Power Transition Fund",
+        "occurredAt": "2026-10-15"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-15T12:05:26.000Z",
+    "latestPublishedAt": "2026-10-15T12:05:26.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1p81m6q",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1je81qc",
+    "rootId": "src-1a43uvd",
+    "title": "In-House Research, Engagement Overtake ESG Ratings as Investors’ Top Sustainability Tools: Survey",
+    "digest": "Investors are increasingly turning to internal resources to gauge companies’ ESG performance",
+    "latest": "Investors are increasingly turning to internal resources to gauge companies’ ESG performance",
+    "memberIds": [
+      "src-1a43uvd"
+    ],
+    "facts": [
+      {
+        "title": "In-House Research, Engagement ",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "In-House Research, Engagement Overtake ESG Ratings as Investors’ Top Sustainabil",
+        "occurredAt": "2026-10-15"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-15T14:12:25.000Z",
+    "latestPublishedAt": "2026-10-15T14:12:25.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1a43uvd",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-199dcaj",
+    "rootId": "src-13f6o4q",
+    "title": "AEP to Build $4 Billion Fuel Cell Project to Supply Low-Carbon Power to Google",
+    "digest": "Ohio-based electric utility American Electric Power (AEP) announced a $4 billion investment to develop a",
+    "latest": "Ohio-based electric utility American Electric Power (AEP) announced a $4 billion investment to develop a",
+    "memberIds": [
+      "src-13f6o4q"
+    ],
+    "facts": [
+      {
+        "title": "AEP to Build $4 Billion Fuel C",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "AEP to Build $4 Billion Fuel Cell Project to Supply Low-Carbon Power to Google",
+        "occurredAt": "2026-10-15"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-15T14:47:00.000Z",
+    "latestPublishedAt": "2026-10-15T14:47:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-13f6o4q",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-gwiez9",
+    "rootId": "src-13yrtwy",
+    "title": "Getting real about AI: How AI agents are changing the economics of software engineering",
+    "digest": "Cognition co-founder and President Russell Kaplan explains why the next frontier of AI in software engineering is about more than writing code faster and what it takes to turn autonomous agents into measurable business value.",
+    "latest": "Cognition co-founder and President Russell Kaplan explains why the next frontier of AI in software engineering is about more than writing code faster and what it takes to turn autonomous agents into measurable business value.",
+    "memberIds": [
+      "src-13yrtwy"
+    ],
+    "facts": [
+      {
+        "title": "Getting real about AI: How AI ",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Getting real about AI: How AI agents are changing the economics of software engi",
+        "occurredAt": "2026-10-15"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-15T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-15T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-13yrtwy",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-4kco7z",
+    "rootId": "src-rgizo4",
+    "title": "What is a forward-deployed engineer?",
+    "digest": "Forward-deployed engineers work inside another company’s own systems. Three McKinsey leaders explain how FDEs help companies derive impact from AI.",
+    "latest": "Forward-deployed engineers work inside another company’s own systems. Three McKinsey leaders explain how FDEs help companies derive impact from AI.",
+    "memberIds": [
+      "src-rgizo4"
+    ],
+    "facts": [
+      {
+        "title": "What is a forward-deployed eng",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "What is a forward-deployed engineer?",
+        "occurredAt": "2026-10-15"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-15T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-15T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-rgizo4",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1efvwpp",
+    "rootId": "src-84bcqq",
+    "title": "New speech by Kelvin Wong: Remarks at the IFAPC’s 25th anniversary and Outstanding Listed Companies Award 2026",
+    "digest": "New speech by Kelvin Wong: Remarks at the IFAPC’s 25th anniversary and Outstanding Listed Companies Award 2026",
+    "latest": "New speech by Kelvin Wong: Remarks at the IFAPC’s 25th anniversary and Outstanding Listed Companies Award 2026",
+    "memberIds": [
+      "src-84bcqq"
+    ],
+    "facts": [
+      {
+        "title": "New speech by Kelvin Wong: Rem",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "New speech by Kelvin Wong: Remarks at the IFAPC’s 25th anniversary and Outstandi",
+        "occurredAt": "2026-10-16"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-16T04:26:40.000Z",
+    "latestPublishedAt": "2026-10-16T04:26:40.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-84bcqq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-15rhig4",
+    "rootId": "src-op6ejq",
+    "title": "Over 800 Companies Commit to TNFD-Aligned Nature Reporting Ahead of New ISSB, ISO Standards",
+    "digest": "The Taskforce on Nature-related Financial Disclosures (TNFD) revealed that more than 800 companies and financial",
+    "latest": "The Taskforce on Nature-related Financial Disclosures (TNFD) revealed that more than 800 companies and financial",
+    "memberIds": [
+      "src-op6ejq"
+    ],
+    "facts": [
+      {
+        "title": "Over 800 Companies Commit to T",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Over 800 Companies Commit to TNFD-Aligned Nature Reporting Ahead of New ISSB, IS",
+        "occurredAt": "2026-10-16"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-16T09:12:41.000Z",
+    "latestPublishedAt": "2026-10-16T09:12:41.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-op6ejq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-12gwogy",
+    "rootId": "src-lwhf65",
+    "title": "SFC welcomes HKEX’s proposal to implement T+1 settlement in Hong Kong’s stock market",
+    "digest": "SFC welcomes HKEX’s proposal to implement T+1 settlement in Hong Kong’s stock market",
+    "latest": "SFC welcomes HKEX’s proposal to implement T+1 settlement in Hong Kong’s stock market",
+    "memberIds": [
+      "src-lwhf65"
+    ],
+    "facts": [
+      {
+        "title": "SFC welcomes HKEX’s proposal t",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "SFC welcomes HKEX’s proposal to implement T+1 settlement in Hong Kong’s stock ma",
+        "occurredAt": "2026-10-16"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-16T09:57:50.000Z",
+    "latestPublishedAt": "2026-10-16T09:57:50.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-lwhf65",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-14t4xu4",
+    "rootId": "src-lvmea0",
+    "title": "Google, Stripe, Shopify Sign Carbon Removal Deal with CO2-Into-Rock Startup 44.01",
+    "digest": "Carbon removal buyer coalition Frontier announced new offtake agreements with carbon sequestration technology company 44.01",
+    "latest": "Carbon removal buyer coalition Frontier announced new offtake agreements with carbon sequestration technology company 44.01",
+    "memberIds": [
+      "src-lvmea0"
+    ],
+    "facts": [
+      {
+        "title": "Google, Stripe, Shopify Sign C",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Google, Stripe, Shopify Sign Carbon Removal Deal with CO2-Into-Rock Startup 44.0",
+        "occurredAt": "2026-10-16"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-16T10:14:54.000Z",
+    "latestPublishedAt": "2026-10-16T10:14:54.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-lvmea0",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1dw9q71",
+    "rootId": "src-v2m7nv",
+    "title": "SFC welcomes re-appointment of Non-Executive Directors",
+    "digest": "SFC welcomes re-appointment of Non-Executive Directors",
+    "latest": "SFC welcomes re-appointment of Non-Executive Directors",
+    "memberIds": [
+      "src-v2m7nv"
+    ],
+    "facts": [
+      {
+        "title": "SFC welcomes re-appointment of",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "SFC welcomes re-appointment of Non-Executive Directors",
+        "occurredAt": "2026-10-16"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-16T10:51:59.000Z",
+    "latestPublishedAt": "2026-10-16T10:51:59.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-v2m7nv",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-2j5bkx",
+    "rootId": "src-nmmcjm",
+    "title": "LanzaTech Boosts Stake in SAF Business LanzaJet in New Financing Round",
+    "digest": "Sustainable aviation fuel (SAF) technology and production company LanzaJet announced that it has secured at",
+    "latest": "Sustainable aviation fuel (SAF) technology and production company LanzaJet announced that it has secured at",
+    "memberIds": [
+      "src-nmmcjm"
+    ],
+    "facts": [
+      {
+        "title": "LanzaTech Boosts Stake in SAF ",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "LanzaTech Boosts Stake in SAF Business LanzaJet in New Financing Round",
+        "occurredAt": "2026-10-16"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-16T13:47:59.000Z",
+    "latestPublishedAt": "2026-10-16T13:47:59.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-nmmcjm",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-qxynjv",
+    "rootId": "src-5udi8w",
+    "title": "ESG Today: Week in Review",
+    "digest": "This week in ESG news: BNP Paribas AM launches new global sustainability strategy following AXA",
+    "latest": "This week in ESG news: BNP Paribas AM launches new global sustainability strategy following AXA",
+    "memberIds": [
+      "src-5udi8w"
+    ],
+    "facts": [
+      {
+        "title": "ESG Today: Week in Review",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "ESG Today: Week in Review",
+        "occurredAt": "2026-10-18"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-18T09:20:44.000Z",
+    "latestPublishedAt": "2026-10-18T09:20:44.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-5udi8w",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
     ]
   }
 ]

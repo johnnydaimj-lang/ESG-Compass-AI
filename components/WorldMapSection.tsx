@@ -222,17 +222,8 @@ export default function WorldMapSection({ regions, zoneName, fallbackMilestones,
                     )}
                     {reg.documents && reg.documents.length > 0 && (
                       <div className="mb-3 space-y-1.5">
-                        {(() => {
-                          const regionLinks = (contentRegulations || []).filter((r) => {
-                            const a = String(r.region || "");
-                            const b = String(active || "");
-                            return a === b || (a && b && (a.includes(b) || b.includes(a)));
-                          });
-                          const docItems: { title: string; issuer?: string; note?: string; href?: string; sourceUrl?: string }[] = regionLinks.length > 0
-                            ? regionLinks.map((r) => ({ title: r.title, issuer: r.sourceName || "", note: r.publishedAt || "", href: r.href }))
-                            : reg.documents;
-                          return docItems.map((doc, j) => (
-                          <a key={`${doc.title}-${j}`} href={doc.href || doc.sourceUrl} target="_blank" rel="noreferrer"
+                        {reg.documents.map((doc, j) => (
+                          <a key={`${doc.title}-${j}`} href={doc.sourceUrl} target="_blank" rel="noreferrer"
                             className="group flex items-start justify-between gap-3 rounded-md border border-line bg-paper px-3 py-2 transition-colors hover:border-brand-line">
                             <span className="flex min-w-0 items-start gap-2">
                               <FileText size={13} className="mt-0.5 shrink-0 text-brand-deep" />
@@ -243,8 +234,7 @@ export default function WorldMapSection({ regions, zoneName, fallbackMilestones,
                             </span>
                             <ArrowUpRight size={13} className="mt-1 shrink-0 text-ink-faint transition-colors group-hover:text-brand-deep" />
                           </a>
-                          ));
-                        })()}
+                        ))}
                       </div>
                     )}
                     {reg.riskSources && reg.riskSources.length > 0 && (
@@ -265,6 +255,32 @@ export default function WorldMapSection({ regions, zoneName, fallbackMilestones,
               </div>
             </div>
           )}
+
+          {contentRegulations && contentRegulations.length > 0 && (() => {
+            const links = contentRegulations.filter((r) => {
+              const a = String(r.region || "");
+              const b = String(active || "");
+              return a === b || (a && b && (a.includes(b) || b.includes(a)));
+            });
+            if (links.length === 0) return null;
+            return (
+              <div>
+                <h3 className="mb-3 text-[13px] font-semibold tracking-wide text-ink">最新相关动态 · {active}</h3>
+                <div className="space-y-2">
+                  {links.map((r, i) => (
+                    <a key={`${r.title}-${i}`} href={r.href} target="_blank" rel="noreferrer"
+                      className="group flex items-start justify-between gap-3 rounded-md border border-line bg-paper px-3 py-2 transition-colors hover:border-brand-line">
+                      <span className="min-w-0">
+                        <span className="block text-[13px] font-medium text-ink group-hover:text-brand-deep">{r.title}</span>
+                        <span className="block text-[11px] text-ink-faint">{r.sourceName || ""}{r.publishedAt ? ` · ${String(r.publishedAt).slice(0, 10)}` : ""}</span>
+                      </span>
+                      <ArrowUpRight size={13} className="mt-1 shrink-0 text-ink-faint transition-colors group-hover:text-brand-deep" />
+                    </a>
+                  ))}
+                </div>
+              </div>
+            );
+          })()}
         </div>
       ) : (
         <div className="rounded-lg border border-dashed border-line-strong bg-surface px-5 py-6 text-center text-[12.5px] text-ink-faint">
