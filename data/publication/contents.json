@@ -6756,21 +6756,21 @@
   },
   {
     "id": "src-wef-cso-outlook-2026",
-    "title": "Chief Sustainability Officer Outlook 2026",
+    "title": "Chief Sustainability Officers' Outlook",
     "titleZh": "世界经济论坛发布首份《首席可持续发展官展望》",
-    "summary": "The World Economic Forum published its first Chief Sustainability Officer Outlook, examining the evolving role, priorities and capabilities of corporate sustainability leaders.",
-    "summaryZh": "世界经济论坛发布首份《首席可持续发展官展望》，聚焦首席可持续发展官在企业战略中的角色、优先议题与能力需求，为观察全球企业可持续发展治理趋势提供参考。",
+    "summary": "The World Economic Forum published the first edition of its Chief Sustainability Officers' Outlook on 15 September 2026 in Geneva, examining the evolving role, priorities and capabilities of corporate sustainability leaders.",
+    "summaryZh": "世界经济论坛于2026年9月15日在日内瓦发布首份《首席可持续发展官展望》（Chief Sustainability Officers' Outlook），聚焦首席可持续发展官在企业战略中的角色、优先议题与能力需求，为观察全球企业可持续发展治理趋势提供参考。",
     "contentType": "观点",
     "region": "全球",
-    "publishedAt": "2026-09-23T08:00:00.000Z",
+    "publishedAt": "2026-09-15T08:00:00.000Z",
     "importanceLevel": "中",
     "sourceName": "世界经济论坛（WEF）",
-    "sourceUrl": "https://www.weforum.org/publications/chief-sustainability-officer-outlook-2026/",
-    "articleUrl": "https://www.weforum.org/publications/chief-sustainability-officer-outlook-2026/",
+    "sourceUrl": "https://www.weforum.org/publications/chief-sustainability-officers-outlook/",
+    "articleUrl": "https://www.weforum.org/publications/chief-sustainability-officers-outlook/",
     "esgTopic": "合规与监管",
     "recommended": true,
     "recommendReason": "首份面向首席可持续发展官的全球展望，观察企业可持续治理职能的演进。",
-    "bodyZh": "世界经济论坛发布其首份《首席可持续发展官展望》，基于对全球首席可持续发展官的调研，梳理企业在气候与可持续发展议题上的优先事项、组织定位、跨部门协作与能力建设方向，并讨论首席可持续发展官如何在战略制定、信息披露与业务转型中发挥作用。报告为理解全球企业可持续发展治理职能的演进提供了第一份系统性参考。",
+    "bodyZh": "世界经济论坛于2026年9月15日在日内瓦发布首份《首席可持续发展官展望》（Chief Sustainability Officers' Outlook）。报告基于对全球首席可持续发展官的调研，梳理企业在气候与可持续发展议题上的优先事项、组织定位、跨部门协作与能力建设方向，并讨论首席可持续发展官如何在战略制定、信息披露与业务转型中发挥作用。2026年10月8日，世界经济论坛中文官网发布中文解读，对报告要点进行了本地化梳理。",
     "pipeline": {
       "score": 78,
       "scoreThreshold": 75,
@@ -6788,10 +6788,18 @@
         "subject": "世界经济论坛",
         "action": "发布",
         "object": "《首席可持续发展官展望》",
-        "occurredAt": "2026-09-23"
+        "occurredAt": "2026-09-15"
       },
       "pipelineVersion": "esg-v2.0.0"
-    }
+    },
+    "sourceRefs": [
+      {
+        "sourceName": "世界经济论坛中文官网",
+        "sourceUrl": "https://cn.weforum.org/",
+        "title": "《首席可持续发展官展望》中文解读",
+        "publishedAt": "2026-10-08"
+      }
+    ]
   },
   {
     "id": "src-ssrn-esg-sustainability-reporting-frameworks-and-environm-96c9",
