@@ -880,46 +880,6 @@
     ]
   },
   {
-    "id": "story-198p1io",
-    "rootId": "src-sec-esg-sec-proposes-rescission-of-climate-related-discl-9e5f",
-    "title": "美国证券交易委员会提议废除气候相关披露规则",
-    "digest": "美国证券交易委员会今天提议废除过于繁琐且成本高昂的规定，这些规定要求公司在其注册声明和年度报告中提供某些与气候相关的信息。",
-    "latest": "美国证券交易委员会今天提议废除过于繁琐且成本高昂的规定，这些规定要求公司在其注册声明和年度报告中提供某些与气候相关的信息。",
-    "memberIds": [
-      "src-sec-esg-sec-proposes-rescission-of-climate-related-discl-9e5f"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会提议废除气候相关披露规则",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "提议",
-        "object": "美国证券交易委员会提议废除气候相关披露规则",
-        "occurredAt": "2026-05-29"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-05-29",
-    "latestPublishedAt": "2026-05-29",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-sec-esg-sec-proposes-rescission-of-climate-related-discl-9e5f",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-gacj0",
     "rootId": "src-ktyctm",
     "title": "香港交易所委任新顾问小组成员",
@@ -1813,46 +1773,6 @@
     ]
   },
   {
-    "id": "story-1o5hsym",
-    "rootId": "src-wuu7r6",
-    "title": "小型企业论坛向国会提交的报告重点介绍了改进融资政策的建议",
-    "digest": "美国证券交易委员会今天向国会发布了一份报告，重点介绍了 SEC 第 45 届年度政府与企业小型企业资本形成论坛的政策建议。",
-    "latest": "美国证券交易委员会今天向国会发布了一份报告，重点介绍了 SEC 第 45 届年度政府与企业小型企业资本形成论坛的政策建议。",
-    "memberIds": [
-      "src-wuu7r6"
-    ],
-    "facts": [
-      {
-        "title": "小型企业论坛向国会提交的报告重点介绍了改进融资政策的建议",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "小型企业论坛向国会提交的报告重点介绍了改进融资政策的建议",
-        "occurredAt": "2026-07-27"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-07-27T19:59:17.000Z",
-    "latestPublishedAt": "2026-07-27T19:59:17.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-wuu7r6",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-189l8xj",
     "rootId": "src-eu-commission-commission-endorses-malta-s-60-million-social-cl-1792",
     "title": "委员会批准马耳他 6000 万欧元的社会气候计划，以支持弱势家庭和小公司进行清洁转型",
@@ -2143,46 +2063,6 @@
     "signalCount": 0,
     "sourceNames": [
       "中国生态环境部新闻"
-    ]
-  },
-  {
-    "id": "story-1dvn20s",
-    "rootId": "src-1549odq",
-    "title": "美国证券交易委员会宣布继续召开小型企业咨询委员会会议",
-    "digest": "美国证券交易委员会宣布，于 2026 年 7 月 21 日举行的小企业资本形成咨询委员会会议将于 2026 年 8 月 6 日下午 1 点重新召开。 ET，实际上，在 SEC.gov 上。",
-    "latest": "美国证券交易委员会宣布，于 2026 年 7 月 21 日举行的小企业资本形成咨询委员会会议将于 2026 年 8 月 6 日下午 1 点重新召开。 ET，实际上，在 SEC.gov 上。",
-    "memberIds": [
-      "src-1549odq"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会宣布继续召开小型企业咨询委员会会议",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会宣布继续召开小型企业咨询委员会会议",
-        "occurredAt": "2026-07-30"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-07-30T13:53:38.000Z",
-    "latestPublishedAt": "2026-07-30T13:53:38.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1549odq",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
     ]
   },
   {
@@ -2866,46 +2746,6 @@
     ]
   },
   {
-    "id": "story-1u8xbr0",
-    "rootId": "src-mcmko4",
-    "title": "SEC 在执法部门设立财务报告和会计部门",
-    "digest": "美国证券交易委员会今天宣布",
-    "latest": "美国证券交易委员会今天宣布",
-    "memberIds": [
-      "src-mcmko4"
-    ],
-    "facts": [
-      {
-        "title": "SEC 在执法部门设立财务报告和会计部门",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 在执法部门设立财务报告和会计部门",
-        "occurredAt": "2026-08-05"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-08-05T18:30:00.000Z",
-    "latestPublishedAt": "2026-08-05T18:30:00.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-mcmko4",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-35wdow",
     "rootId": "src-unfccc-news-new-global-climate-action-agenda-work-programme--2712",
     "title": "新全球气候行动议程工作计划与架构：落实五年愿景",
@@ -3066,46 +2906,6 @@
     ]
   },
   {
-    "id": "story-1ovpy0q",
-    "rootId": "src-gmsi5e",
-    "title": "美国证券交易委员会 (SEC) 指控私募基金顾问 Adit Ventures Management、其首席执行官及附属普通合伙人涉嫌欺诈",
-    "digest": "美国证券交易委员会今天对总部位于纽约的投资顾问 Adit Ventures Management LLC、其首席执行官 Eric Munson 以及 Adit Ventures LLC 的三名附属普通合伙人提出指控； Adit Ventures II 有限责任公司；",
-    "latest": "美国证券交易委员会今天对总部位于纽约的投资顾问 Adit Ventures Management LLC、其首席执行官 Eric Munson 以及 Adit Ventures LLC 的三名附属普通合伙人提出指控； Adit Ventures II 有限责任公司；",
-    "memberIds": [
-      "src-gmsi5e"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会 (SEC) 指控私募基金顾问 Adit ",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会 (SEC) 指控私募基金顾问 Adit Ventures Management、其首席执行官及附属普通合伙人涉嫌欺诈",
-        "occurredAt": "2026-08-10"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-08-10T18:00:00.000Z",
-    "latestPublishedAt": "2026-08-10T18:00:00.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-gmsi5e",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-gl7dme",
     "rootId": "src-unep-news-2026-call-for-proposals-kunming-biodiversity-fun-3664",
     "title": "2026年昆明生物多样性基金提案征集",
@@ -3183,46 +2983,6 @@
     "signalCount": 0,
     "sourceNames": [
       "ISO 标准动态"
-    ]
-  },
-  {
-    "id": "story-1nr2jwh",
-    "rootId": "src-33geky",
-    "title": "SEC 指控 Toms River Trio 涉嫌针对正统犹太社区诈骗 4700 万美元",
-    "digest": "美国证券交易委员会今天对新泽西州汤姆斯河的三名居民提出指控",
-    "latest": "美国证券交易委员会今天对新泽西州汤姆斯河的三名居民提出指控",
-    "memberIds": [
-      "src-33geky"
-    ],
-    "facts": [
-      {
-        "title": "SEC 指控 Toms River Trio 涉嫌针对正统犹",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 指控 Toms River Trio 涉嫌针对正统犹太社区诈骗 4700 万美元",
-        "occurredAt": "2026-08-13"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-08-13T20:32:19.000Z",
-    "latestPublishedAt": "2026-08-13T20:32:19.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-33geky",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
     ]
   },
   {
@@ -3306,46 +3066,6 @@
     ]
   },
   {
-    "id": "story-m1g8af",
-    "rootId": "src-1ipw5z8",
-    "title": "美国证券交易委员会 (SEC) 指控锅炉房运营商和三个实体在 7400 万美元的 IPO 前投资骗局中欺骗散户投资者",
-    "digest": "美国证券交易委员会今天指控纽约居民安德鲁·斯帕文塔 (Andrew Spaventa) 及其拥有和控制的三个实体涉嫌欺诈和其他违法行为",
-    "latest": "美国证券交易委员会今天指控纽约居民安德鲁·斯帕文塔 (Andrew Spaventa) 及其拥有和控制的三个实体涉嫌欺诈和其他违法行为",
-    "memberIds": [
-      "src-1ipw5z8"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会 (SEC) 指控锅炉房运营商和三个实体在",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会 (SEC) 指控锅炉房运营商和三个实体在 7400 万美元的 IPO 前投资骗局中欺骗散户投资者",
-        "occurredAt": "2026-08-14"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-08-14T20:16:34.000Z",
-    "latestPublishedAt": "2026-08-14T20:16:34.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1ipw5z8",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-k25vf4",
     "rootId": "src-1yksvmh",
     "title": "香港交易所行政总裁续约",
@@ -3423,86 +3143,6 @@
     "signalCount": 0,
     "sourceNames": [
       "香港交易所新闻稿"
-    ]
-  },
-  {
-    "id": "story-1bse8ia",
-    "rootId": "src-16s9xw1",
-    "title": "SEC 提出加密资产新规",
-    "digest": "美国证券交易委员会今天宣布，提出了名为“加密资产监管”的新规则，该规则将为涉及加密资产的某些投资合同创建一个清晰且适合目的的框架。",
-    "latest": "美国证券交易委员会今天宣布，提出了名为“加密资产监管”的新规则，该规则将为涉及加密资产的某些投资合同创建一个清晰且适合目的的框架。",
-    "memberIds": [
-      "src-16s9xw1"
-    ],
-    "facts": [
-      {
-        "title": "SEC 提出加密资产新规",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 提出加密资产新规",
-        "occurredAt": "2026-08-18"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-08-18T17:15:48.000Z",
-    "latestPublishedAt": "2026-08-18T17:15:48.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-16s9xw1",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
-    "id": "story-macz16",
-    "rootId": "src-1c0bzl2",
-    "title": "美国证券交易委员会 (SEC) 指控前高管欺诈，与次级汽车贷款公司 Tricolor 19 亿美元的倒闭有关",
-    "digest": "美国证券交易委员会今天对总部位于德克萨斯州 Tricolor Holdings, LLC 的前首席执行官 Daniel Chu、Jerome Kollar 和 Ameryn Seibold 分别提出指控",
-    "latest": "美国证券交易委员会今天对总部位于德克萨斯州 Tricolor Holdings, LLC 的前首席执行官 Daniel Chu、Jerome Kollar 和 Ameryn Seibold 分别提出指控",
-    "memberIds": [
-      "src-1c0bzl2"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会 (SEC) 指控前高管欺诈，与次级汽车贷",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会 (SEC) 指控前高管欺诈，与次级汽车贷款公司 Tricolor 19 亿美元的倒闭有关",
-        "occurredAt": "2026-08-18"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-08-18T19:55:10.000Z",
-    "latestPublishedAt": "2026-08-18T19:55:10.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1c0bzl2",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
     ]
   },
   {
@@ -3892,46 +3532,6 @@
     ]
   },
   {
-    "id": "story-1evv85q",
-    "rootId": "src-7wla3m",
-    "title": "SEC：38 个实体通过虚假申报冒充美国顾问的合法性以吸引散户投资者",
-    "digest": "美国证券交易委员会 (Securities and Exchange Commission) 今天对 38 家实体提出指控，指控他们在 2025 年至 2026 年间向委员会提交的 ADV 表格中做出重大虚假陈述，错误地将自己描述为向美国提供服务的合法咨询公司。",
-    "latest": "美国证券交易委员会 (Securities and Exchange Commission) 今天对 38 家实体提出指控，指控他们在 2025 年至 2026 年间向委员会提交的 ADV 表格中做出重大虚假陈述，错误地将自己描述为向美国提供服务的合法咨询公司。",
-    "memberIds": [
-      "src-7wla3m"
-    ],
-    "facts": [
-      {
-        "title": "SEC：38 个实体通过虚假申报冒充美国顾问的合法性以吸引散",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "通过",
-        "object": "SEC：38 个实体通过虚假申报冒充美国顾问的合法性以吸引散户投资者",
-        "occurredAt": "2026-08-27"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-08-27T21:30:00.000Z",
-    "latestPublishedAt": "2026-08-27T21:30:00.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-7wla3m",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-ka4660",
     "rootId": "src-e73cum",
     "title": "香港交易所首次亮相 SHEIN 增强产品供应",
@@ -3969,46 +3569,6 @@
     "signalCount": 0,
     "sourceNames": [
       "香港交易所新闻稿"
-    ]
-  },
-  {
-    "id": "story-1n9xfbu",
-    "rootId": "src-uarrrp",
-    "title": "SEC 提议修订交易法第 3a12-8 条以增加欧盟债务义务",
-    "digest": "美国证券交易委员会今天提议对 1934 年《证券交易法》第 3a12-8 条进行修订，将欧盟 (EU) 的债务义务添加到指定为“豁免……”的外国政府债务清单中。",
-    "latest": "美国证券交易委员会今天提议对 1934 年《证券交易法》第 3a12-8 条进行修订，将欧盟 (EU) 的债务义务添加到指定为“豁免……”的外国政府债务清单中。",
-    "memberIds": [
-      "src-uarrrp"
-    ],
-    "facts": [
-      {
-        "title": "SEC 提议修订交易法第 3a12-8 条以增加欧盟债务义务",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "修订",
-        "object": "SEC 提议修订交易法第 3a12-8 条以增加欧盟债务义务",
-        "occurredAt": "2026-08-28"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-08-28T17:33:00.000Z",
-    "latestPublishedAt": "2026-08-28T17:33:00.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-uarrrp",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
     ]
   },
   {
@@ -4132,46 +3692,6 @@
     ]
   },
   {
-    "id": "story-7b5dnv",
-    "rootId": "src-46ss1h",
-    "title": "SEC 和 FDA 宣布签署谅解备忘录以加强合作并确保市场诚信",
-    "digest": "美国证券交易委员会和美国食品药品监督管理局今天宣布",
-    "latest": "美国证券交易委员会和美国食品药品监督管理局今天宣布",
-    "memberIds": [
-      "src-46ss1h"
-    ],
-    "facts": [
-      {
-        "title": "SEC 和 FDA 宣布签署谅解备忘录以加强合作并确保市场诚",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 和 FDA 宣布签署谅解备忘录以加强合作并确保市场诚信",
-        "occurredAt": "2026-08-31"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-08-31T18:24:32.000Z",
-    "latestPublishedAt": "2026-08-31T18:24:32.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-46ss1h",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-jg6qqg",
     "rootId": "src-ifrs-issb-iasb-seeks-investor-views-on-cash-flow-informati-e876",
     "title": "国际会计准则理事会征求投资者对金融机构报告的现金流量信息的看法",
@@ -4212,126 +3732,6 @@
     ]
   },
   {
-    "id": "story-1qpu081",
-    "rootId": "src-16r78q5",
-    "title": "SEC 提议对注册转让代理人的规则进行现代化改造",
-    "digest": "美国证券交易委员会今天提议更新适用于注册转让代理人的规则和表格。转让代理人是国家清算和结算系统的关键组成部分。",
-    "latest": "美国证券交易委员会今天提议更新适用于注册转让代理人的规则和表格。转让代理人是国家清算和结算系统的关键组成部分。",
-    "memberIds": [
-      "src-16r78q5"
-    ],
-    "facts": [
-      {
-        "title": "SEC 提议对注册转让代理人的规则进行现代化改造",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "提议",
-        "object": "SEC 提议对注册转让代理人的规则进行现代化改造",
-        "occurredAt": "2026-09-01"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-01T14:57:00.000Z",
-    "latestPublishedAt": "2026-09-01T14:57:00.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-16r78q5",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
-    "id": "story-14ii7ad",
-    "rootId": "src-1miv2f0",
-    "title": "美国证券交易委员会指控旧金山湾区私募基金高管参与数百万美元的庞氏骗局",
-    "digest": "美国证券交易委员会今天指控 Mark D.",
-    "latest": "美国证券交易委员会今天指控 Mark D.",
-    "memberIds": [
-      "src-1miv2f0"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会指控旧金山湾区私募基金高管参与数百万美元的",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会指控旧金山湾区私募基金高管参与数百万美元的庞氏骗局",
-        "occurredAt": "2026-09-01"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-01T17:52:32.000Z",
-    "latestPublishedAt": "2026-09-01T17:52:32.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1miv2f0",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
-    "id": "story-rtkyip",
-    "rootId": "src-1h596r0",
-    "title": "SEC 公布 24 小时交易准备圆桌会议议程和小组成员",
-    "digest": "美国证券交易委员会今天公布了 9 月份的议程和小组成员。",
-    "latest": "美国证券交易委员会今天公布了 9 月份的议程和小组成员。",
-    "memberIds": [
-      "src-1h596r0"
-    ],
-    "facts": [
-      {
-        "title": "SEC 公布 24 小时交易准备圆桌会议议程和小组成员",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 公布 24 小时交易准备圆桌会议议程和小组成员",
-        "occurredAt": "2026-09-01"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-01T19:17:39.000Z",
-    "latestPublishedAt": "2026-09-01T19:17:39.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1h596r0",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-lah37s",
     "rootId": "src-mee-china-生态环境部召开部务会议-921f",
     "title": "生态环境部召开部务会议",
@@ -4369,86 +3769,6 @@
     "signalCount": 0,
     "sourceNames": [
       "中国生态环境部新闻"
-    ]
-  },
-  {
-    "id": "story-1tn9f1n",
-    "rootId": "src-194xdlf",
-    "title": "SEC 投资者咨询委员会将于 9 月 10 日召开会议",
-    "digest": "美国证券交易委员会投资者咨询委员会将于 9 月 10 日上午 10 点在华盛顿特区 SEC 总部召开公开会议。",
-    "latest": "美国证券交易委员会投资者咨询委员会将于 9 月 10 日上午 10 点在华盛顿特区 SEC 总部召开公开会议。",
-    "memberIds": [
-      "src-194xdlf"
-    ],
-    "facts": [
-      {
-        "title": "SEC 投资者咨询委员会将于 9 月 10 日召开会议",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 投资者咨询委员会将于 9 月 10 日召开会议",
-        "occurredAt": "2026-09-03"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-03T14:27:49.000Z",
-    "latestPublishedAt": "2026-09-03T14:27:49.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-194xdlf",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
-    "id": "story-19xzeg8",
-    "rootId": "src-1njxt9m",
-    "title": "美国证券交易委员会提议废除投资顾问的政治献金规则",
-    "digest": "美国证券交易委员会今天发布了一项提案",
-    "latest": "美国证券交易委员会今天发布了一项提案",
-    "memberIds": [
-      "src-1njxt9m"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会提议废除投资顾问的政治献金规则",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会提议废除投资顾问的政治献金规则",
-        "occurredAt": "2026-09-03"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-03T20:30:00.000Z",
-    "latestPublishedAt": "2026-09-03T20:30:00.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1njxt9m",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
     ]
   },
   {
@@ -5185,46 +4505,6 @@
     ]
   },
   {
-    "id": "story-1uzd5i",
-    "rootId": "src-fpafu7",
-    "title": "美国证券交易委员会 (SEC) 指控创始人及其两家新泽西州公司涉嫌参与 1600 万美元的庞氏骗局",
-    "digest": "美国证券交易委员会今天指控欧内斯特·奥塞·博阿滕 (Ernest Ossei Boateng) 和他控制的两家位于新泽西州的公司 InterContinental Wealth Network LLC 和 I Wealth Network LP 涉嫌从 200 多家公司筹集约 1600 万美元",
-    "latest": "美国证券交易委员会今天指控欧内斯特·奥塞·博阿滕 (Ernest Ossei Boateng) 和他控制的两家位于新泽西州的公司 InterContinental Wealth Network LLC 和 I Wealth Network LP 涉嫌从 200 多家公司筹集约 1600 万美元",
-    "memberIds": [
-      "src-fpafu7"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会 (SEC) 指控创始人及其两家新泽西州公",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会 (SEC) 指控创始人及其两家新泽西州公司涉嫌参与 1600 万美元的庞氏骗局",
-        "occurredAt": "2026-09-10"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-10T17:45:22.000Z",
-    "latestPublishedAt": "2026-09-10T17:45:22.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-fpafu7",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-j3v3cd",
     "rootId": "src-bhrrc-latest-argentina-a-mapuche-woman-champions-a-community--c060",
     "title": "阿根廷：一名马普切妇女倡导基于社区的太阳能模式 - Business-Humanrights.org",
@@ -5262,46 +4542,6 @@
     "signalCount": 0,
     "sourceNames": [
       "Business & Human Rights（全球企业人权/劳工风险案例）"
-    ]
-  },
-  {
-    "id": "story-r5w25w",
-    "rootId": "src-1xfgstv",
-    "title": "美国和英国当局关于中央对手方解决方案的主要负责人会议的联合宣读",
-    "digest": "来自美国证券交易委员会、联邦存款保险公司、商品期货交易委员会、联邦储备委员会和英格兰银行的高级官员于 9 月 17 日召开桌面演习。",
-    "latest": "来自美国证券交易委员会、联邦存款保险公司、商品期货交易委员会、联邦储备委员会和英格兰银行的高级官员于 9 月 17 日召开桌面演习。",
-    "memberIds": [
-      "src-1xfgstv"
-    ],
-    "facts": [
-      {
-        "title": "美国和英国当局关于中央对手方解决方案的主要负责人会议的联合宣",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国和英国当局关于中央对手方解决方案的主要负责人会议的联合宣读",
-        "occurredAt": "2026-09-11"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-11T15:00:00.000Z",
-    "latestPublishedAt": "2026-09-11T15:00:00.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1xfgstv",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
     ]
   },
   {
@@ -5865,46 +5105,6 @@
     ]
   },
   {
-    "id": "story-1k95j9l",
-    "rootId": "src-fx11cj",
-    "title": "SEC 授予某些内嵌 XBRL 申报或提交要求的豁免",
-    "digest": "美国证券交易委员会发布了一项命令，授予对 2024 年 12 月 16 日通过的某些 Inline XBRL 要求的豁免。",
-    "latest": "美国证券交易委员会发布了一项命令，授予对 2024 年 12 月 16 日通过的某些 Inline XBRL 要求的豁免。",
-    "memberIds": [
-      "src-fx11cj"
-    ],
-    "facts": [
-      {
-        "title": "SEC 授予某些内嵌 XBRL 申报或提交要求的豁免",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 授予某些内嵌 XBRL 申报或提交要求的豁免",
-        "occurredAt": "2026-09-14"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-14T16:47:00.000Z",
-    "latestPublishedAt": "2026-09-14T16:47:00.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-fx11cj",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-1so3dmg",
     "rootId": "src-sustainalytics-e-morningstar-sustainalytics-submits-esma-applicat-30e0",
     "title": "晨星Sustainalytics提交欧洲ESG评级授权申请",
@@ -5942,6 +5142,46 @@
     "signalCount": 0,
     "sourceNames": [
       "Sustainalytics ESG 评级（候选）"
+    ]
+  },
+  {
+    "id": "story-uooc7k",
+    "rootId": "src-wef-cso-outlook-2026",
+    "title": "世界经济论坛发布首份《首席可持续发展官展望》",
+    "digest": "世界经济论坛于2026年9月15日在日内瓦发布首份《首席可持续发展官展望》（Chief Sustainability Officers' Outlook），聚焦首席可持续发展官在企业战略中的角色、优先议题与能力需求，为观察全球企业可持续发展治理趋势提供参考。",
+    "latest": "世界经济论坛于2026年9月15日在日内瓦发布首份《首席可持续发展官展望》（Chief Sustainability Officers' Outlook），聚焦首席可持续发展官在企业战略中的角色、优先议题与能力需求，为观察全球企业可持续发展治理趋势提供参考。",
+    "memberIds": [
+      "src-wef-cso-outlook-2026"
+    ],
+    "facts": [
+      {
+        "title": "世界经济论坛发布首份《首席可持续发展官展望》",
+        "subject": "世界经济论坛（WEF）",
+        "action": "发布",
+        "object": "世界经济论坛发布首份《首席可持续发展官展望》",
+        "occurredAt": "2026-09-15"
+      }
+    ],
+    "participants": [
+      "unmatched-1lshjlq"
+    ],
+    "firstPublishedAt": "2026-09-15T08:00:00.000Z",
+    "latestPublishedAt": "2026-09-15T08:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-wef-cso-outlook-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "世界经济论坛（WEF）"
     ]
   },
   {
@@ -6222,46 +5462,6 @@
     "signalCount": 0,
     "sourceNames": [
       "联合国环境规划署（UNEP）新闻与观点"
-    ]
-  },
-  {
-    "id": "story-21y7o",
-    "rootId": "src-ci54xx",
-    "title": "美国证券交易委员会提议废除股东提案规则并改革委托书征集流程",
-    "digest": "美国证券交易委员会今天提议废除 1934 年《证券交易法》中的第 14a-8 条规则，该规则超出了委员会的法定权力范围并侵犯了州法律事务。",
-    "latest": "美国证券交易委员会今天提议废除 1934 年《证券交易法》中的第 14a-8 条规则，该规则超出了委员会的法定权力范围并侵犯了州法律事务。",
-    "memberIds": [
-      "src-ci54xx"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会提议废除股东提案规则并改革委托书征集流程",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "提议",
-        "object": "美国证券交易委员会提议废除股东提案规则并改革委托书征集流程",
-        "occurredAt": "2026-09-16"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-16T14:00:00.000Z",
-    "latestPublishedAt": "2026-09-16T14:00:00.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-ci54xx",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
     ]
   },
   {
@@ -6675,46 +5875,6 @@
     "signalCount": 0,
     "sourceNames": [
       "全网搜索"
-    ]
-  },
-  {
-    "id": "story-1wnz43b",
-    "rootId": "src-hnc268",
-    "title": "SEC 发布“创新豁免”以促进代币化 NMS 股票的交易并征求意见",
-    "digest": "SEC 发布「创新豁免」，便利代币化 NMS 股票交易并征求意见。",
-    "latest": "SEC 发布「创新豁免」，便利代币化 NMS 股票交易并征求意见。",
-    "memberIds": [
-      "src-hnc268"
-    ],
-    "facts": [
-      {
-        "title": "SEC 发布“创新豁免”以促进代币化 NMS 股票的交易并征",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 发布“创新豁免”以促进代币化 NMS 股票的交易并征求意见",
-        "occurredAt": "2026-09-17"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-17T12:55:00.000Z",
-    "latestPublishedAt": "2026-09-17T12:55:00.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-hnc268",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
     ]
   },
   {
@@ -8278,46 +7438,6 @@
     ]
   },
   {
-    "id": "story-1hof1vb",
-    "rootId": "src-gwms2p",
-    "title": "SEC 谴责 OTC Link LLC 屡次未能遵守 SCI 法规",
-    "digest": "美国证券交易委员会今天谴责总部位于纽约的经纪交易商 OTC Link LLC，并责令其支付 575,000 美元的民事罚款，原因是其长期违反监管系统合规性和诚信 (SCI)。",
-    "latest": "美国证券交易委员会今天谴责总部位于纽约的经纪交易商 OTC Link LLC，并责令其支付 575,000 美元的民事罚款，原因是其长期违反监管系统合规性和诚信 (SCI)。",
-    "memberIds": [
-      "src-gwms2p"
-    ],
-    "facts": [
-      {
-        "title": "SEC 谴责 OTC Link LLC 屡次未能遵守 SCI",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC 谴责 OTC Link LLC 屡次未能遵守 SCI 法规",
-        "occurredAt": "2026-09-22"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-22T16:41:11.000Z",
-    "latestPublishedAt": "2026-09-22T16:41:11.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-gwms2p",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-1lhjayq",
     "rootId": "src-ssrn-esg-sustainability-reporting-frameworks-and-environm-96c9",
     "title": "印度基础设施行业的可持续发展报告框架和环境信息披露覆盖范围：GRI 和 BRSR 的实证比较",
@@ -8401,8 +7521,8 @@
     "id": "story-eq1owe",
     "rootId": "src-web-search-esg-regulations-2026-key-updates-compliance-know-b547",
     "title": "ESG 法规 2026：主要更新与合规性 |了解ESG",
-    "digest": "ESG 法规解释：CSRD、CSDDD、英国 SRS 和 SEC/加州气候规则的 2026 年更新 - 以及团队的实用合规决策指南。",
-    "latest": "ESG 法规解释：CSRD、CSDDD、英国 SRS 和 SEC/加州气候规则的 2026 年更新 - 以及团队的实用合规决策指南。",
+    "digest": "2026 年 ESG 法规关键更新与合规要点：覆盖欧盟 CSRD、CSDDD、英国 SRS，以及美国 SEC 与加州气候披露规则，并给出面向团队的合规决策指南。",
+    "latest": "2026 年 ESG 法规关键更新与合规要点：覆盖欧盟 CSRD、CSDDD、英国 SRS，以及美国 SEC 与加州气候披露规则，并给出面向团队的合规决策指南。",
     "memberIds": [
       "src-web-search-esg-regulations-2026-key-updates-compliance-know-b547"
     ],
@@ -8410,7 +7530,7 @@
       {
         "title": "ESG 法规 2026：主要更新与合规性 |了解ESG",
         "subject": "全网搜索",
-        "action": "发布",
+        "action": "披露",
         "object": "ESG 法规 2026：主要更新与合规性 |了解ESG",
         "occurredAt": "2026-09-23"
       }
@@ -9398,46 +8518,6 @@
     ]
   },
   {
-    "id": "story-1vadp4i",
-    "rootId": "src-7e5yjw",
-    "title": "美国证券交易委员会指控南佛罗里达州居民及其公司涉嫌投资计划欺诈执法部门",
-    "digest": "SEC 指控南佛罗里达州居民及其公司涉嫌投资骗局诈骗执法人员。",
-    "latest": "SEC 指控南佛罗里达州居民及其公司涉嫌投资骗局诈骗执法人员。",
-    "memberIds": [
-      "src-7e5yjw"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会指控南佛罗里达州居民及其公司涉嫌投资计划欺",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会指控南佛罗里达州居民及其公司涉嫌投资计划欺诈执法部门",
-        "occurredAt": "2026-09-23"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-23T16:00:00.000Z",
-    "latestPublishedAt": "2026-09-23T16:00:00.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-7e5yjw",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-yriujd",
     "rootId": "src-zbqgbz",
     "title": "价值十亿美元的美丽：突破品牌的成功几率",
@@ -9555,46 +8635,6 @@
     "signalCount": 0,
     "sourceNames": [
       "麦肯锡可持续发展洞察"
-    ]
-  },
-  {
-    "id": "story-13hgy0j",
-    "rootId": "src-1sptzcd",
-    "title": "美国证券交易委员会发布最新市场统计数据，强调 IPO 和筹集资金的增加",
-    "digest": "美国证券交易委员会经济和风险分析部 (DERA) 发布了涵盖美国关键领域的最新统计数据和数据可视化。",
-    "latest": "美国证券交易委员会经济和风险分析部 (DERA) 发布了涵盖美国关键领域的最新统计数据和数据可视化。",
-    "memberIds": [
-      "src-1sptzcd"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会发布最新市场统计数据，强调 IPO 和筹集",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会发布最新市场统计数据，强调 IPO 和筹集资金的增加",
-        "occurredAt": "2026-09-23"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-23T18:27:00.000Z",
-    "latestPublishedAt": "2026-09-23T18:27:00.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1sptzcd",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
     ]
   },
   {
@@ -11083,18 +10123,18 @@
   {
     "id": "story-1oosh1w",
     "rootId": "src-1jkbr0t",
-    "title": "America’s next workforce challenge: Building pathways to better jobs",
-    "digest": "Over the next decade, AI, automation, and economic forces like demographic aging will set off the largest workforce restructuring in history, writes Kweilin Ellingrud in Forbes.",
-    "latest": "Over the next decade, AI, automation, and economic forces like demographic aging will set off the largest workforce restructuring in history, writes Kweilin Ellingrud in Forbes.",
+    "title": "美国下一个劳动力挑战：建立通往更好工作的途径",
+    "digest": "福布斯的Kweilin Ellingrud写道，在未来十年，人工智能、自动化和人口老龄化等经济力量将引发历史上最大的劳动力重组。",
+    "latest": "福布斯的Kweilin Ellingrud写道，在未来十年，人工智能、自动化和人口老龄化等经济力量将引发历史上最大的劳动力重组。",
     "memberIds": [
       "src-1jkbr0t"
     ],
     "facts": [
       {
-        "title": "America’s next workforce chall",
+        "title": "美国下一个劳动力挑战：建立通往更好工作的途径",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "America’s next workforce challenge: Building pathways to better jobs",
+        "object": "美国下一个劳动力挑战：建立通往更好工作的途径",
         "occurredAt": "2026-09-28"
       }
     ],
@@ -11123,18 +10163,18 @@
   {
     "id": "story-l8vjlw",
     "rootId": "src-19a0uxj",
-    "title": "Energy security in an age of disruption",
-    "digest": "While there is no single prescription for energy security, strengthening “response capacity,” such as by establishing stockpiles, substituting sources, and diversifying suppliers, is essential. The point is not to eliminate vulnerabilities altogether, but to ensure that there are options when disruption arrives, write Diego Hernandez Diaz, Luciano Di Fiori, and Tiago Devesa in Project Syndicate.",
-    "latest": "While there is no single prescription for energy security, strengthening “response capacity,” such as by establishing stockpiles, substituting sources, and diversifying suppliers, is essential. The point is not to eliminate vulnerabilities altogether, but to ensure that there are options when disruption arrives, write Diego Hernandez Diaz, Luciano Di Fiori, and Tiago Devesa in Project Syndicate.",
+    "title": "颠覆时代的能源安全",
+    "digest": "虽然没有单一的能源安全处方，但加强“响应能力”至关重要，例如建立库存、替代来源和使供应商多样化。重点不是完全消除漏洞，而是为了确保在中断到来时有选择，在Project Syndicate中写下Diego Hernandez Diaz、Luciano Di Fiori和Tiago Devesa。",
+    "latest": "虽然没有单一的能源安全处方，但加强“响应能力”至关重要，例如建立库存、替代来源和使供应商多样化。重点不是完全消除漏洞，而是为了确保在中断到来时有选择，在Project Syndicate中写下Diego Hernandez Diaz、Luciano Di Fiori和Tiago Devesa。",
     "memberIds": [
       "src-19a0uxj"
     ],
     "facts": [
       {
-        "title": "Energy security in an age of d",
+        "title": "颠覆时代的能源安全",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Energy security in an age of disruption",
+        "object": "颠覆时代的能源安全",
         "occurredAt": "2026-09-28"
       }
     ],
@@ -11158,46 +10198,6 @@
     "signalCount": 0,
     "sourceNames": [
       "麦肯锡可持续发展洞察"
-    ]
-  },
-  {
-    "id": "story-1j5u5qs",
-    "rootId": "src-15qdq4l",
-    "title": "美国证券交易委员会 (SEC) 指控注册投资顾问 Zoe Financial 未能披露利益冲突",
-    "digest": "美国证券交易委员会今天宣布对总部位于纽约的投资顾问 Zoe Financial Inc. 提出的和解指控。",
-    "latest": "美国证券交易委员会今天宣布对总部位于纽约的投资顾问 Zoe Financial Inc. 提出的和解指控。",
-    "memberIds": [
-      "src-15qdq4l"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会 (SEC) 指控注册投资顾问 Zoe F",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "披露",
-        "object": "美国证券交易委员会 (SEC) 指控注册投资顾问 Zoe Financial 未能披露利益冲突",
-        "occurredAt": "2026-09-28"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-28T17:46:30.000Z",
-    "latestPublishedAt": "2026-09-28T17:46:30.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-15qdq4l",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
     ]
   },
   {
@@ -11521,46 +10521,6 @@
     ]
   },
   {
-    "id": "story-hrmol",
-    "rootId": "src-fnrpdw",
-    "title": "SEC 指控多个实体利用 WhatsApp 等平台实施至少 1500 万美元欺诈",
-    "digest": "美国证券交易委员会指控多个可能由海外个人运营的实体，通过所谓的投资信心骗局诈骗数百名散户投资者，其中许多位于美国境内。",
-    "latest": "美国证券交易委员会指控多个可能由海外个人运营的实体，通过所谓的投资信心骗局诈骗数百名散户投资者，其中许多位于美国境内。",
-    "memberIds": [
-      "src-fnrpdw"
-    ],
-    "facts": [
-      {
-        "title": "SEC 指控多个实体利用 WhatsApp 等平台实施至少 ",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "通过",
-        "object": "SEC 指控多个实体利用 WhatsApp 等平台实施至少 1500 万美元欺诈",
-        "occurredAt": "2026-09-29"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-29T13:55:53.000Z",
-    "latestPublishedAt": "2026-09-29T13:55:53.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-fnrpdw",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-148hicl",
     "rootId": "src-uz0h0w",
     "title": "意大利为新绿色债券发行筹集了1100亿欧元的订单",
@@ -11881,46 +10841,6 @@
     ]
   },
   {
-    "id": "story-o3e1sj",
-    "rootId": "src-18yfok2",
-    "title": "美国证券交易委员会提出修正案，以扩大私募市场的负责任零售",
-    "digest": "美国证券交易委员会今天投票提出规则修正案",
-    "latest": "美国证券交易委员会今天投票提出规则修正案",
-    "memberIds": [
-      "src-18yfok2"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会提出修正案，以扩大私募市场的负责任零售",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会提出修正案，以扩大私募市场的负责任零售",
-        "occurredAt": "2026-09-30"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-30T15:45:00.000Z",
-    "latestPublishedAt": "2026-09-30T15:45:00.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-18yfok2",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-1gaplka",
     "rootId": "src-1heilo1",
     "title": "隐藏在显而易见的地方的现金",
@@ -12038,126 +10958,6 @@
     "signalCount": 0,
     "sourceNames": [
       "麦肯锡可持续发展洞察"
-    ]
-  },
-  {
-    "id": "story-1mdj1ym",
-    "rootId": "src-dp58vf",
-    "title": "美国证券交易委员会指控两人实施针对退伍军人的精心策划的欺诈计划",
-    "digest": "美国证券交易委员会今天宣布对克里斯托弗·肯吉·迪内利（Christopher Kenji Dinelli）和雅各布·大卫· “科比” ·弗兰克尔（Jacob David “Kobe” Frankel）提出指控",
-    "latest": "美国证券交易委员会今天宣布对克里斯托弗·肯吉·迪内利（Christopher Kenji Dinelli）和雅各布·大卫· “科比” ·弗兰克尔（Jacob David “Kobe” Frankel）提出指控",
-    "memberIds": [
-      "src-dp58vf"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会指控两人实施针对退伍军人的精心策划的欺诈计",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会指控两人实施针对退伍军人的精心策划的欺诈计划",
-        "occurredAt": "2026-09-30"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-30T16:42:15.000Z",
-    "latestPublishedAt": "2026-09-30T16:42:15.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-dp58vf",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
-    "id": "story-qucd9z",
-    "rootId": "src-11o0y7k",
-    "title": "美国证券交易委员会指控Meyer Global Management及其首席执行官欺诈持有SpaceX和其他IPO前证券权益的私募基金的散户投资者",
-    "digest": "美国证券交易委员会今天指控私募基金顾问Meyer Global Management LLC （MGM）及其首席执行官Owen E.H.",
-    "latest": "美国证券交易委员会今天指控私募基金顾问Meyer Global Management LLC （MGM）及其首席执行官Owen E.H.",
-    "memberIds": [
-      "src-11o0y7k"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会指控Meyer Global Manage",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会指控Meyer Global Management及其首席执行官欺诈持有SpaceX和其他IPO前证券权益的私募基金的散户投资者",
-        "occurredAt": "2026-09-30"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-09-30T18:30:01.000Z",
-    "latestPublishedAt": "2026-09-30T18:30:01.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-11o0y7k",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
-    "id": "story-1v9arct",
-    "rootId": "src-e71ph7",
-    "title": "美国证券交易委员会的考试部门宣布新的考试手册",
-    "digest": "美国证券交易委员会的考试部门今天发布了新的手册“SEC考试手册：流程和参与的实用指南”",
-    "latest": "美国证券交易委员会的考试部门今天发布了新的手册“SEC考试手册：流程和参与的实用指南”",
-    "memberIds": [
-      "src-e71ph7"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会的考试部门宣布新的考试手册",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会的考试部门宣布新的考试手册",
-        "occurredAt": "2026-10-01"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-10-01T15:03:35.000Z",
-    "latestPublishedAt": "2026-10-01T15:03:35.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-e71ph7",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
     ]
   },
   {
@@ -12361,46 +11161,6 @@
     ]
   },
   {
-    "id": "story-15w41s7",
-    "rootId": "src-1qdd6vv",
-    "title": "美国证券交易委员会的提案将解决投资顾问和基金如何根据联邦证券法托管加密资产的问题",
-    "digest": "美国证券交易委员会今天提出了新的规则和修正案",
-    "latest": "美国证券交易委员会今天提出了新的规则和修正案",
-    "memberIds": [
-      "src-1qdd6vv"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会的提案将解决投资顾问和基金如何根据联邦证券",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会的提案将解决投资顾问和基金如何根据联邦证券法托管加密资产的问题",
-        "occurredAt": "2026-10-01"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-10-01T16:16:07.000Z",
-    "latestPublishedAt": "2026-10-01T16:16:07.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1qdd6vv",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-kwf2ki",
     "rootId": "src-3f00c",
     "title": "缩放AI推理",
@@ -12478,46 +11238,6 @@
     "signalCount": 0,
     "sourceNames": [
       "麦肯锡可持续发展洞察"
-    ]
-  },
-  {
-    "id": "story-17676vu",
-    "rootId": "src-1qzeaxq",
-    "title": "美国证券交易委员会与全球金融监管机构协调，在世界投资者周期间提高欺诈意识",
-    "digest": "美国证券交易委员会与其他美国和全球金融监管机构协调，今天发布了一份联合投资者公告，作为世界投资者周（WIW）的一部分。",
-    "latest": "美国证券交易委员会与其他美国和全球金融监管机构协调，今天发布了一份联合投资者公告，作为世界投资者周（WIW）的一部分。",
-    "memberIds": [
-      "src-1qzeaxq"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会与全球金融监管机构协调，在世界投资者周期间",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会与全球金融监管机构协调，在世界投资者周期间提高欺诈意识",
-        "occurredAt": "2026-10-05"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-10-05T12:47:36.000Z",
-    "latestPublishedAt": "2026-10-05T12:47:36.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1qzeaxq",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
     ]
   },
   {
@@ -12898,10 +11618,9 @@
     "rootId": "src-6zo8lx",
     "title": "香港证券经纪商在2026年上半年实现强劲盈利增长",
     "digest": "美国证券交易委员会的合规外展计划今天宣布，将于2026年11月19日为投资公司和投资顾问举办虚拟全国研讨会。此次活动的目的是帮助投资咨询公司和投资公司的首席合规官和高级人员加强其合规计划，以保护投资者。 会议将包括小组讨论：查看完整的议程。要提前或在活动期间向小组提交问题，请使用议程中提供的链接。",
-    "latest": "美国证券交易委员会的合规外展计划今天宣布，将于2026年11月19日为投资公司和投资顾问举办虚拟全国研讨会。",
+    "latest": "美国证券交易委员会的合规外展计划今天宣布，将于2026年11月19日为投资公司和投资顾问举办虚拟全国研讨会。此次活动的目的是帮助投资咨询公司和投资公司的首席合规官和高级人员加强其合规计划，以保护投资者。 会议将包括小组讨论：查看完整的议程。要提前或在活动期间向小组提交问题，请使用议程中提供的链接。",
     "memberIds": [
-      "src-6zo8lx",
-      "src-nqucc4"
+      "src-6zo8lx"
     ],
     "facts": [
       {
@@ -12910,32 +11629,19 @@
         "action": "发布",
         "object": "香港证券经纪商在2026年上半年实现强劲盈利增长",
         "occurredAt": "2026-11-19"
-      },
-      {
-        "title": "美国证券交易委员会将为投资公司和投资顾问举办虚拟国家合规外展",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会将为投资公司和投资顾问举办虚拟国家合规外展研讨会",
-        "occurredAt": "2026-11-19"
       }
     ],
     "participants": [
-      "sfc-hk",
-      "sec-esg"
+      "sfc-hk"
     ],
     "firstPublishedAt": "2026-10-06T08:34:37.000Z",
-    "latestPublishedAt": "2026-10-06T14:37:55.000Z",
+    "latestPublishedAt": "2026-10-06T08:34:37.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-6zo8lx",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
-      },
-      {
-        "memberId": "src-nqucc4",
-        "relation": "SAME_STORY",
-        "confidence": 0.6023749739426605
       }
     ],
     "heat6hAgo": 0,
@@ -12944,8 +11650,7 @@
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
-      "香港证监会（SFC）新闻稿",
-      "SEC 新闻稿（ESG 相关）"
+      "香港证监会（SFC）新闻稿"
     ]
   },
   {
@@ -12986,46 +11691,6 @@
     "signalCount": 0,
     "sourceNames": [
       "麦肯锡可持续发展洞察"
-    ]
-  },
-  {
-    "id": "story-126ounx",
-    "rootId": "src-qdrl3a",
-    "title": "美国证券交易委员会在樱桃采摘案中寻求对前西方资产联合首席投资官Ken Leech的最终判决",
-    "digest": "美国证券交易委员会今天提出动议，要求对注册投资顾问Western Asset Management Company LLC的前联合首席投资官Stephen Kenneth Leech II作出最终判决",
-    "latest": "美国证券交易委员会今天提出动议，要求对注册投资顾问Western Asset Management Company LLC的前联合首席投资官Stephen Kenneth Leech II作出最终判决",
-    "memberIds": [
-      "src-qdrl3a"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会在樱桃采摘案中寻求对前西方资产联合首席投资",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "美国证券交易委员会在樱桃采摘案中寻求对前西方资产联合首席投资官Ken Leech的最终判决",
-        "occurredAt": "2026-10-06"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-10-06T20:30:24.000Z",
-    "latestPublishedAt": "2026-10-06T20:30:24.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-qdrl3a",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
     ]
   },
   {
@@ -13152,8 +11817,8 @@
     "id": "story-1gbylxr",
     "rootId": "src-orvtsu",
     "title": "每周更新10月7日|澳大利亚数据中心计划在社区抗议和监管问题后撤回",
-    "digest": "民间社会组织概述了审查国际金融公司/MIGA环境和社会标准的建议|英国：伦敦金矿市场协会对坦桑尼亚金矿“负责任”认证的审判开始|哥伦比亚： 11名农民在反对铜矿开采项目后在杰里科面临刑事指控|孟加拉国：亚投行和NDB资助的废物转化能源项目因污染和健康问题面临社区反对|挪威限制 出于隐私考虑推出智能眼镜",
-    "latest": "民间社会组织概述了审查国际金融公司/MIGA环境和社会标准的建议|英国：伦敦金矿市场协会对坦桑尼亚金矿“负责任”认证的审判开始|哥伦比亚： 11名农民在反对铜矿开采项目后在杰里科面临刑事指控|孟加拉国：亚投行和NDB资助的废物转化能源项目因污染和健康问题面临社区反对|挪威限制 出于隐私考虑推出智能眼镜",
+    "digest": "本周聚焦企业人权与社区风险：澳大利亚数据中心计划因社区抗议和监管担忧被撤回；民间社会组织就 IFC/MIGA 环境与社会标准审查提出建议；伦敦金银市场协会因坦桑尼亚金矿“负责任”认证被诉；哥伦比亚 11 名农民因反对铜矿项目面临刑事指控；孟加拉国亚投行资助的垃圾发电项目因污染遭社区反对；挪威以隐私担忧限制智能眼镜。",
+    "latest": "本周聚焦企业人权与社区风险：澳大利亚数据中心计划因社区抗议和监管担忧被撤回；民间社会组织就 IFC/MIGA 环境与社会标准审查提出建议；伦敦金银市场协会因坦桑尼亚金矿“负责任”认证被诉；哥伦比亚 11 名农民因反对铜矿项目面临刑事指控；孟加拉国亚投行资助的垃圾发电项目因污染遭社区反对；挪威以隐私担忧限制智能眼镜。",
     "memberIds": [
       "src-orvtsu"
     ],
@@ -14029,60 +12694,20 @@
     ]
   },
   {
-    "id": "story-1wguhsh",
-    "rootId": "src-p1ax22",
-    "title": "美国证券交易委员会提议扩大注册基金交叉交易资格的证券",
-    "digest": "美国证券交易委员会今天提议修订《投资公司法》的“交叉交易规则”，该规则允许注册基金及其附属公司在某些条件下进行证券交易。",
-    "latest": "美国证券交易委员会今天提议修订《投资公司法》的“交叉交易规则”，该规则允许注册基金及其附属公司在某些条件下进行证券交易。",
-    "memberIds": [
-      "src-p1ax22"
-    ],
-    "facts": [
-      {
-        "title": "美国证券交易委员会提议扩大注册基金交叉交易资格的证券",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "修订",
-        "object": "美国证券交易委员会提议扩大注册基金交叉交易资格的证券",
-        "occurredAt": "2026-10-09"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-10-09T14:59:00.000Z",
-    "latestPublishedAt": "2026-10-09T14:59:00.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-p1ax22",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-t6o838",
     "rootId": "src-eu80wb",
-    "title": "McKinsey research shows AI creating more jobs than automation displaces — but 11 million American workers will need help this decade",
-    "digest": "While debates about AI’s impact on the workforce dominate headlines, the biggest challenge ahead will be helping workers find the most direct pathway into growing jobs, write Eric Kutcher and Tanguy Catlin in Fortune.",
-    "latest": "While debates about AI’s impact on the workforce dominate headlines, the biggest challenge ahead will be helping workers find the most direct pathway into growing jobs, write Eric Kutcher and Tanguy Catlin in Fortune.",
+    "title": "麦肯锡的研究表明，人工智能创造的就业机会多于自动化取代的就业机会，但本十年将有1100万美国工人需要帮助",
+    "digest": "Eric Kutcher和Tanguy Catlin在《财富》杂志上写道，虽然关于人工智能对劳动力的影响的辩论占据了头条新闻，但未来最大的挑战将是帮助工人找到最直接的就业途径。",
+    "latest": "Eric Kutcher和Tanguy Catlin在《财富》杂志上写道，虽然关于人工智能对劳动力的影响的辩论占据了头条新闻，但未来最大的挑战将是帮助工人找到最直接的就业途径。",
     "memberIds": [
       "src-eu80wb"
     ],
     "facts": [
       {
-        "title": "McKinsey research shows AI cre",
+        "title": "麦肯锡的研究表明，人工智能创造的就业机会多于自动化取代的就业",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "McKinsey research shows AI creating more jobs than automation displaces — but 11",
+        "object": "麦肯锡的研究表明，人工智能创造的就业机会多于自动化取代的就业机会，但本十年将有1100万美国工人需要帮助",
         "occurredAt": "2026-10-10"
       }
     ],
@@ -14359,6 +12984,46 @@
     "signalCount": 0,
     "sourceNames": [
       "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-y7m85k",
+    "rootId": "src-esma-sustainable-finance-briefings-2026",
+    "title": "ESMA发布两份可持续金融监管说明：影响力投资与气候转型声明",
+    "digest": "10月12日，欧洲证券及市场管理局（ESMA）发布两份可持续金融专题监管说明，分别针对影响力投资声明和气候转型声明，明确基金管理人在相关表述中应遵循的清晰、准确与不误导要求，防范漂绿风险。",
+    "latest": "10月12日，欧洲证券及市场管理局（ESMA）发布两份可持续金融专题监管说明，分别针对影响力投资声明和气候转型声明，明确基金管理人在相关表述中应遵循的清晰、准确与不误导要求，防范漂绿风险。",
+    "memberIds": [
+      "src-esma-sustainable-finance-briefings-2026"
+    ],
+    "facts": [
+      {
+        "title": "ESMA发布两份可持续金融监管说明：影响力投资与气候转型声明",
+        "subject": "欧洲证券及市场管理局（ESMA）",
+        "action": "发布",
+        "object": "ESMA发布两份可持续金融监管说明：影响力投资与气候转型声明",
+        "occurredAt": "2026-10-12"
+      }
+    ],
+    "participants": [
+      "unmatched-1ysrj5v"
+    ],
+    "firstPublishedAt": "2026-10-12T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-12T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-esma-sustainable-finance-briefings-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "欧洲证券及市场管理局（ESMA）"
     ]
   },
   {
@@ -15042,6 +13707,46 @@
     ]
   },
   {
+    "id": "story-ifpdky",
+    "rootId": "src-tpi-banking-transition-2026",
+    "title": "TPI发布《2026年银行业转型状况报告》：大型银行气候雄心下降",
+    "digest": "伦敦政治经济学院旗下TPI全球气候转型中心发布《2026年银行业转型状况报告》，评估全球36家大型银行的气候承诺、转型计划及风险管理。研究发现，过去三年银行整体气候雄心有所下降，部分机构撤销了净零承诺和行业减排目标。",
+    "latest": "伦敦政治经济学院旗下TPI全球气候转型中心发布《2026年银行业转型状况报告》，评估全球36家大型银行的气候承诺、转型计划及风险管理。研究发现，过去三年银行整体气候雄心有所下降，部分机构撤销了净零承诺和行业减排目标。",
+    "memberIds": [
+      "src-tpi-banking-transition-2026"
+    ],
+    "facts": [
+      {
+        "title": "TPI发布《2026年银行业转型状况报告》：大型银行气候雄心",
+        "subject": "TPI 全球气候转型中心",
+        "action": "发布",
+        "object": "TPI发布《2026年银行业转型状况报告》：大型银行气候雄心下降",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "unmatched-3c0r6w"
+    ],
+    "firstPublishedAt": "2026-10-13T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-13T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-tpi-banking-transition-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "TPI 全球气候转型中心"
+    ]
+  },
+  {
     "id": "story-snnpcs",
     "rootId": "src-u2duuc",
     "title": "黄凯文新演讲：2026年国际证监会组织世界投资者周主旨演讲——金融知识敲响锣鼓",
@@ -15365,8 +14070,8 @@
     "id": "story-8aeudl",
     "rootId": "src-18ebdgn",
     "title": "TNFD 发布支持企业自然相关报告指南的重大更新",
-    "digest": "自然相关财务披露工作组 (TNFD) 宣布发布 LEAP 2.0",
-    "latest": "自然相关财务披露工作组 (TNFD) 宣布发布 LEAP 2.0",
+    "digest": "自然相关财务披露工作组（TNFD）于10月13日更新LEAP自然风险评估指引（LEAP 2.0），将新的自然状态衡量指标纳入框架，并加强与科学碳目标（SBTi）及科学基于自然目标（SBTN）相关方法的衔接，帮助企业更系统地评估自然相关依赖、影响、风险和机遇。",
+    "latest": "自然相关财务披露工作组（TNFD）于10月13日更新LEAP自然风险评估指引（LEAP 2.0），将新的自然状态衡量指标纳入框架，并加强与科学碳目标（SBTi）及科学基于自然目标（SBTN）相关方法的衔接，帮助企业更系统地评估自然相关依赖、影响、风险和机遇。",
     "memberIds": [
       "src-18ebdgn"
     ],
@@ -15404,18 +14109,18 @@
   {
     "id": "story-14audd3",
     "rootId": "src-1545eon",
-    "title": "Voices on Planning: The AI-powered future of supply chain",
-    "digest": "The shift from software as a service to AI-enabled planning could move decision-making from fixed cycles to real time, but success will require the right governance, expertise, and operating model.",
-    "latest": "The shift from software as a service to AI-enabled planning could move decision-making from fixed cycles to real time, but success will require the right governance, expertise, and operating model.",
+    "title": "规划之声：人工智能驱动的供应链未来",
+    "digest": "从软件即服务到支持人工智能的规划的转变可能会使决策从固定周期转向实时，但成功将需要正确的治理、专业知识和运营模式。",
+    "latest": "从软件即服务到支持人工智能的规划的转变可能会使决策从固定周期转向实时，但成功将需要正确的治理、专业知识和运营模式。",
     "memberIds": [
       "src-1545eon"
     ],
     "facts": [
       {
-        "title": "Voices on Planning: The AI-pow",
+        "title": "规划之声：人工智能驱动的供应链未来",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Voices on Planning: The AI-powered future of supply chain",
+        "object": "规划之声：人工智能驱动的供应链未来",
         "occurredAt": "2026-10-13"
       }
     ],
@@ -15444,18 +14149,18 @@
   {
     "id": "story-1lxxvmm",
     "rootId": "src-1wr80pl",
-    "title": "The AI value curve: The economics of applying AI to existing work",
-    "digest": "Many organizations are still measuring AI adoption instead of value. The AI value curve helps identify where AI’s automation potential can be deployed most cost-effectively.",
-    "latest": "Many organizations are still measuring AI adoption instead of value. The AI value curve helps identify where AI’s automation potential can be deployed most cost-effectively.",
+    "title": "人工智能价值曲线：将人工智能应用于现有工作的经济学",
+    "digest": "许多组织仍在衡量人工智能的采用而不是价值。人工智能价值曲线有助于确定人工智能的自动化潜力可以最具成本效益的部署位置。",
+    "latest": "许多组织仍在衡量人工智能的采用而不是价值。人工智能价值曲线有助于确定人工智能的自动化潜力可以最具成本效益的部署位置。",
     "memberIds": [
       "src-1wr80pl"
     ],
     "facts": [
       {
-        "title": "The AI value curve: The econom",
+        "title": "人工智能价值曲线：将人工智能应用于现有工作的经济学",
         "subject": "麦肯锡可持续发展洞察",
-        "action": "adopt",
-        "object": "The AI value curve: The economics of applying AI to existing work",
+        "action": "发布",
+        "object": "人工智能价值曲线：将人工智能应用于现有工作的经济学",
         "occurredAt": "2026-10-13"
       }
     ],
@@ -15484,18 +14189,18 @@
   {
     "id": "story-1tulbmp",
     "rootId": "src-9fg8ti",
-    "title": "Rewiring capital projects to boost construction productivity",
-    "digest": "McKinsey’s Capital Excellence experts discuss how AI and technology can boost construction productivity, address labor shortages, and accelerate delivery of complex capital projects.",
-    "latest": "McKinsey’s Capital Excellence experts discuss how AI and technology can boost construction productivity, address labor shortages, and accelerate delivery of complex capital projects.",
+    "title": "重新布线资本项目以提高建筑生产力",
+    "digest": "麦肯锡的资本卓越专家讨论了人工智能和技术如何提高建筑生产力，解决劳动力短缺问题，并加快复杂资本项目的交付。",
+    "latest": "麦肯锡的资本卓越专家讨论了人工智能和技术如何提高建筑生产力，解决劳动力短缺问题，并加快复杂资本项目的交付。",
     "memberIds": [
       "src-9fg8ti"
     ],
     "facts": [
       {
-        "title": "Rewiring capital projects to b",
+        "title": "重新布线资本项目以提高建筑生产力",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Rewiring capital projects to boost construction productivity",
+        "object": "重新布线资本项目以提高建筑生产力",
         "occurredAt": "2026-10-13"
       }
     ],
@@ -15524,18 +14229,18 @@
   {
     "id": "story-ured9s",
     "rootId": "src-15ad7pt",
-    "title": "What does AI really cost?",
-    "digest": "Moving an AI tool from pilot to production can nearly quadruple its cost. Three McKinsey experts explain why—and how to tell whether it’s worth it.",
-    "latest": "Moving an AI tool from pilot to production can nearly quadruple its cost. Three McKinsey experts explain why—and how to tell whether it’s worth it.",
+    "title": "AI的真正代价是什么？",
+    "digest": "将人工智能工具从试点转移到生产可以使其成本几乎翻两番。麦肯锡的三位专家解释了为什么以及如何判断它是否值得。",
+    "latest": "将人工智能工具从试点转移到生产可以使其成本几乎翻两番。麦肯锡的三位专家解释了为什么以及如何判断它是否值得。",
     "memberIds": [
       "src-15ad7pt"
     ],
     "facts": [
       {
-        "title": "What does AI really cost?",
+        "title": "AI的真正代价是什么？",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "What does AI really cost?",
+        "object": "AI的真正代价是什么？",
         "occurredAt": "2026-10-13"
       }
     ],
@@ -15602,11 +14307,51 @@
     ]
   },
   {
+    "id": "story-11vah7r",
+    "rootId": "src-gcf-kuwait-fund-mou-2026",
+    "title": "绿色气候基金与科威特发展基金签署气候融资合作谅解备忘录",
+    "digest": "在世界银行与国际货币基金组织年会期间，绿色气候基金（GCF）与科威特发展基金签署合作谅解备忘录，计划加强对发展中国家气候项目的共同支持，拓展气候融资渠道。",
+    "latest": "在世界银行与国际货币基金组织年会期间，绿色气候基金（GCF）与科威特发展基金签署合作谅解备忘录，计划加强对发展中国家气候项目的共同支持，拓展气候融资渠道。",
+    "memberIds": [
+      "src-gcf-kuwait-fund-mou-2026"
+    ],
+    "facts": [
+      {
+        "title": "绿色气候基金与科威特发展基金签署气候融资合作谅解备忘录",
+        "subject": "绿色气候基金（GCF）",
+        "action": "发布",
+        "object": "绿色气候基金与科威特发展基金签署气候融资合作谅解备忘录",
+        "occurredAt": "2026-10-14"
+      }
+    ],
+    "participants": [
+      "unmatched-x30zv0"
+    ],
+    "firstPublishedAt": "2026-10-14T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-14T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-gcf-kuwait-fund-mou-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "绿色气候基金（GCF）"
+    ]
+  },
+  {
     "id": "story-5ikeqj",
     "rootId": "src-1f94eio",
     "title": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
-    "digest": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
-    "latest": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
+    "digest": "10月14日，全国首批跨境绿色电力证书集中交易在广州达成，成交绿证约10万张，对应近1亿千瓦时可再生能源电量。交易采用“双代理”模式，由内地绿电绿证服务机构与香港交易所平台分别服务两地市场主体，通过广州电力交易中心完成交易，香港采购方涵盖金融、房地产、教育及公共服务机构。",
+    "latest": "10月14日，全国首批跨境绿色电力证书集中交易在广州达成，成交绿证约10万张，对应近1亿千瓦时可再生能源电量。交易采用“双代理”模式，由内地绿电绿证服务机构与香港交易所平台分别服务两地市场主体，通过广州电力交易中心完成交易，香港采购方涵盖金融、房地产、教育及公共服务机构。",
     "memberIds": [
       "src-1f94eio"
     ],
@@ -15614,7 +14359,7 @@
       {
         "title": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试",
         "subject": "香港交易所新闻稿",
-        "action": "发布",
+        "action": "通过",
         "object": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
         "occurredAt": "2026-10-14"
       }
@@ -15642,60 +14387,20 @@
     ]
   },
   {
-    "id": "story-ub8v1u",
-    "rootId": "src-evel3z",
-    "title": "SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulation Crowdfunding",
-    "digest": "The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, October 27, 2026, at 10 a.m.",
-    "latest": "The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, October 27, 2026, at 10 a.m.",
-    "memberIds": [
-      "src-evel3z"
-    ],
-    "facts": [
-      {
-        "title": "SEC Small Business Advisory Co",
-        "subject": "SEC 新闻稿（ESG 相关）",
-        "action": "发布",
-        "object": "SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulatio",
-        "occurredAt": "2026-10-14"
-      }
-    ],
-    "participants": [
-      "sec-esg"
-    ],
-    "firstPublishedAt": "2026-10-14T14:30:47.000Z",
-    "latestPublishedAt": "2026-10-14T14:30:47.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-evel3z",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "SEC 新闻稿（ESG 相关）"
-    ]
-  },
-  {
     "id": "story-gckaoa",
     "rootId": "src-1l9iv4z",
-    "title": "Place, purpose, and the path to economic mobility",
-    "digest": "Where you live shapes far more than you’d think. New research points to how community, place, and connection relate to getting ahead.",
-    "latest": "Where you live shapes far more than you’d think. New research points to how community, place, and connection relate to getting ahead.",
+    "title": "地点、目的和经济流动之路",
+    "digest": "你住的地方的形状比你想象的要多得多。新的研究指出了社区、场所和联系与取得成功之间的关系。",
+    "latest": "你住的地方的形状比你想象的要多得多。新的研究指出了社区、场所和联系与取得成功之间的关系。",
     "memberIds": [
       "src-1l9iv4z"
     ],
     "facts": [
       {
-        "title": "Place, purpose, and the path t",
+        "title": "地点、目的和经济流动之路",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Place, purpose, and the path to economic mobility",
+        "object": "地点、目的和经济流动之路",
         "occurredAt": "2026-10-14"
       }
     ],
@@ -15724,18 +14429,18 @@
   {
     "id": "story-jss08l",
     "rootId": "src-1383dt5",
-    "title": "Strengthening supply chains behind US semiconductors",
-    "digest": "New research maps hidden upstream dependencies in the US semiconductor supply chain and outlines potential mitigation strategies to make the ecosystem more resilient.",
-    "latest": "New research maps hidden upstream dependencies in the US semiconductor supply chain and outlines potential mitigation strategies to make the ecosystem more resilient.",
+    "title": "加强美国半导体背后的供应链",
+    "digest": "新的研究绘制了美国半导体供应链中隐藏的上游依赖关系，并概述了使生态系统更具弹性的潜在缓解策略。",
+    "latest": "新的研究绘制了美国半导体供应链中隐藏的上游依赖关系，并概述了使生态系统更具弹性的潜在缓解策略。",
     "memberIds": [
       "src-1383dt5"
     ],
     "facts": [
       {
-        "title": "Strengthening supply chains be",
+        "title": "加强美国半导体背后的供应链",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Strengthening supply chains behind US semiconductors",
+        "object": "加强美国半导体背后的供应链",
         "occurredAt": "2026-10-14"
       }
     ],
@@ -15764,18 +14469,18 @@
   {
     "id": "story-1h6tpr6",
     "rootId": "src-tw25wn",
-    "title": "The judgment bottleneck: Balancing AI and human speeds in strategy",
-    "digest": "Analysis now runs on AI time, but judgment still runs on human time. Three moves can help turn AI’s speed into better strategy decisions.",
-    "latest": "Analysis now runs on AI time, but judgment still runs on human time. Three moves can help turn AI’s speed into better strategy decisions.",
+    "title": "判断瓶颈：在战略中平衡人工智能和人类速度",
+    "digest": "分析现在运行在人工智能时间上，但判断仍然运行在人类时间上。三步可以帮助将人工智能的速度转化为更好的战略决策。",
+    "latest": "分析现在运行在人工智能时间上，但判断仍然运行在人类时间上。三步可以帮助将人工智能的速度转化为更好的战略决策。",
     "memberIds": [
       "src-tw25wn"
     ],
     "facts": [
       {
-        "title": "The judgment bottleneck: Balan",
+        "title": "判断瓶颈：在战略中平衡人工智能和人类速度",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "The judgment bottleneck: Balancing AI and human speeds in strategy",
+        "object": "判断瓶颈：在战略中平衡人工智能和人类速度",
         "occurredAt": "2026-10-14"
       }
     ],
@@ -15802,20 +14507,180 @@
     ]
   },
   {
+    "id": "story-erc9la",
+    "rootId": "src-norway-swf-ethics-2026",
+    "title": "挪威委员会建议修改主权财富基金道德投资准则",
+    "digest": "挪威政府委任的独立委员会建议修改全球最大主权财富基金——挪威政府全球养老基金的道德投资准则，允许基金重新投资部分参与核武器生产的西方国防企业。",
+    "latest": "挪威政府委任的独立委员会建议修改全球最大主权财富基金——挪威政府全球养老基金的道德投资准则，允许基金重新投资部分参与核武器生产的西方国防企业。",
+    "memberIds": [
+      "src-norway-swf-ethics-2026"
+    ],
+    "facts": [
+      {
+        "title": "挪威委员会建议修改主权财富基金道德投资准则",
+        "subject": "挪威政府",
+        "action": "发布",
+        "object": "挪威委员会建议修改主权财富基金道德投资准则",
+        "occurredAt": "2026-10-15"
+      }
+    ],
+    "participants": [
+      "unmatched-fk2cxd"
+    ],
+    "firstPublishedAt": "2026-10-15T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-15T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-norway-swf-ethics-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "挪威政府"
+    ]
+  },
+  {
+    "id": "story-4csjk9",
+    "rootId": "src-eu-summit-energy-carbon-2026",
+    "title": "欧盟领导人布鲁塞尔峰会讨论能源价格与碳市场改革",
+    "digest": "10月15日至16日，欧盟领导人在布鲁塞尔峰会上讨论能源价格上涨及碳市场改革，重点涉及如何在高能源成本下保持工业竞争力，同时推进减排与碳市场机制调整。",
+    "latest": "10月15日至16日，欧盟领导人在布鲁塞尔峰会上讨论能源价格上涨及碳市场改革，重点涉及如何在高能源成本下保持工业竞争力，同时推进减排与碳市场机制调整。",
+    "memberIds": [
+      "src-eu-summit-energy-carbon-2026"
+    ],
+    "facts": [
+      {
+        "title": "欧盟领导人布鲁塞尔峰会讨论能源价格与碳市场改革",
+        "subject": "欧洲理事会",
+        "action": "发布",
+        "object": "欧盟领导人布鲁塞尔峰会讨论能源价格与碳市场改革",
+        "occurredAt": "2026-10-15"
+      }
+    ],
+    "participants": [
+      "unmatched-qyf45k"
+    ],
+    "firstPublishedAt": "2026-10-15T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-15T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-eu-summit-energy-carbon-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "欧洲理事会"
+    ]
+  },
+  {
+    "id": "story-1lghg9o",
+    "rootId": "src-petrochina-tarim-ethylene-2026",
+    "title": "中国石油塔里木120万吨/年乙烯及配套绿色低碳示范工程投入商业运营",
+    "digest": "10月15日，中国石油宣布新疆塔里木120万吨/年乙烯及配套绿色低碳示范工程全面投入商业运营。项目将绿色电力、二氧化碳捕集、蓝氢、蓝氨及化工生产相结合，采用低浓度二氧化碳捕集技术，并计划每年消纳超过10亿千瓦时光伏电力。",
+    "latest": "10月15日，中国石油宣布新疆塔里木120万吨/年乙烯及配套绿色低碳示范工程全面投入商业运营。项目将绿色电力、二氧化碳捕集、蓝氢、蓝氨及化工生产相结合，采用低浓度二氧化碳捕集技术，并计划每年消纳超过10亿千瓦时光伏电力。",
+    "memberIds": [
+      "src-petrochina-tarim-ethylene-2026"
+    ],
+    "facts": [
+      {
+        "title": "中国石油塔里木120万吨/年乙烯及配套绿色低碳示范工程投入商",
+        "subject": "中国石油",
+        "action": "发布",
+        "object": "中国石油塔里木120万吨/年乙烯及配套绿色低碳示范工程投入商业运营",
+        "occurredAt": "2026-10-15"
+      }
+    ],
+    "participants": [
+      "unmatched-zl3bp2"
+    ],
+    "firstPublishedAt": "2026-10-15T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-15T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-petrochina-tarim-ethylene-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国石油"
+    ]
+  },
+  {
+    "id": "story-2g5hbj",
+    "rootId": "src-un-global-biodiversity-action-report-2026",
+    "title": "联合国发布《全球生物多样性行动状况报告》",
+    "digest": "10月15日，联合国正式发布《全球生物多样性行动状况报告》，首次系统评估2022年《昆明—蒙特利尔全球生物多样性框架》的实施进展，梳理各国在生物多样性保护目标、政策行动与资金投入方面的差距。",
+    "latest": "10月15日，联合国正式发布《全球生物多样性行动状况报告》，首次系统评估2022年《昆明—蒙特利尔全球生物多样性框架》的实施进展，梳理各国在生物多样性保护目标、政策行动与资金投入方面的差距。",
+    "memberIds": [
+      "src-un-global-biodiversity-action-report-2026"
+    ],
+    "facts": [
+      {
+        "title": "联合国发布《全球生物多样性行动状况报告》",
+        "subject": "联合国",
+        "action": "发布",
+        "object": "联合国发布《全球生物多样性行动状况报告》",
+        "occurredAt": "2026-10-15"
+      }
+    ],
+    "participants": [
+      "unmatched-jfz70l"
+    ],
+    "firstPublishedAt": "2026-10-15T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-15T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-un-global-biodiversity-action-report-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "联合国"
+    ]
+  },
+  {
     "id": "story-1ah5l6s",
     "rootId": "src-vtsa4r",
-    "title": "Engie, CMA CGM to Build New Clean Fuel Plant to Drive Fleet Decarbonization",
-    "digest": "French energy company Engie announced that it has signed a new framework agreement with multinational",
-    "latest": "French energy company Engie announced that it has signed a new framework agreement with multinational",
+    "title": "Engie、CMA CGM将建造新的清洁燃料工厂，以推动车队脱碳",
+    "digest": "法国能源公司Engie宣布已与跨国公司签署新的框架协议",
+    "latest": "法国能源公司Engie宣布已与跨国公司签署新的框架协议",
     "memberIds": [
       "src-vtsa4r"
     ],
     "facts": [
       {
-        "title": "Engie, CMA CGM to Build New Cl",
+        "title": "Engie、CMA CGM将建造新的清洁燃料工厂，以推动车队",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "Engie, CMA CGM to Build New Clean Fuel Plant to Drive Fleet Decarbonization",
+        "object": "Engie、CMA CGM将建造新的清洁燃料工厂，以推动车队脱碳",
         "occurredAt": "2026-10-15"
       }
     ],
@@ -15844,18 +14709,18 @@
   {
     "id": "story-18a89es",
     "rootId": "src-qvlbt2",
-    "title": "California Locks in November Deadline for First Corporate Climate Reports",
-    "digest": "The California Office of Administrative Law (OAL) has approved the state’s new corporate greenhouse gas",
-    "latest": "The California Office of Administrative Law (OAL) has approved the state’s new corporate greenhouse gas",
+    "title": "加利福尼亚锁定11月第一份企业气候报告的截止日期",
+    "digest": "加利福尼亚州行政法办公室（OAL）已批准该州新的企业温室气体",
+    "latest": "加利福尼亚州行政法办公室（OAL）已批准该州新的企业温室气体",
     "memberIds": [
       "src-qvlbt2"
     ],
     "facts": [
       {
-        "title": "California Locks in November D",
+        "title": "加利福尼亚锁定11月第一份企业气候报告的截止日期",
         "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "approve",
-        "object": "California Locks in November Deadline for First Corporate Climate Reports",
+        "action": "批准",
+        "object": "加利福尼亚锁定11月第一份企业气候报告的截止日期",
         "occurredAt": "2026-10-15"
       }
     ],
@@ -15884,18 +14749,18 @@
   {
     "id": "story-1sucrp0",
     "rootId": "src-18hkbph",
-    "title": "Hy24 Acquires Clean Hydrogen Platform Hynamics from EDF",
-    "digest": "French clean hydrogen-focused investment firm Hy24 announced that it has signed an agreement to acquire",
-    "latest": "French clean hydrogen-focused investment firm Hy24 announced that it has signed an agreement to acquire",
+    "title": "Hy24从EDF收购清洁氢平台Hynamics",
+    "digest": "法国以清洁氢气为重点的投资公司Hy24宣布已签署收购协议",
+    "latest": "法国以清洁氢气为重点的投资公司Hy24宣布已签署收购协议",
     "memberIds": [
       "src-18hkbph"
     ],
     "facts": [
       {
-        "title": "Hy24 Acquires Clean Hydrogen P",
+        "title": "Hy24从EDF收购清洁氢平台Hynamics",
         "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "Hy24 Acquires Clean Hydrogen Platform Hynamics from EDF",
+        "action": "收购",
+        "object": "Hy24从EDF收购清洁氢平台Hynamics",
         "occurredAt": "2026-10-15"
       }
     ],
@@ -15924,18 +14789,18 @@
   {
     "id": "story-1j0i1yl",
     "rootId": "src-1p81m6q",
-    "title": "L&G, NTR Raise $370 Million for New Clean Power Transition Fund",
-    "digest": "UK financial services group Legal & General (L&G) and sustainable infrastructure investor NTR announced today",
-    "latest": "UK financial services group Legal & General (L&G) and sustainable infrastructure investor NTR announced today",
+    "title": "L&G和NTR为新的清洁能源转型基金筹集了3.7亿美元$",
+    "digest": "英国金融服务集团Legal & General (L&G)和可持续基础设施投资者NTR今天宣布",
+    "latest": "英国金融服务集团Legal & General (L&G)和可持续基础设施投资者NTR今天宣布",
     "memberIds": [
       "src-1p81m6q"
     ],
     "facts": [
       {
-        "title": "L&G, NTR Raise $370 Million fo",
+        "title": "L&G和NTR为新的清洁能源转型基金筹集了3.7亿美元$",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "L&G, NTR Raise $370 Million for New Clean Power Transition Fund",
+        "object": "L&G和NTR为新的清洁能源转型基金筹集了3.7亿美元$",
         "occurredAt": "2026-10-15"
       }
     ],
@@ -15964,18 +14829,18 @@
   {
     "id": "story-1je81qc",
     "rootId": "src-1a43uvd",
-    "title": "In-House Research, Engagement Overtake ESG Ratings as Investors’ Top Sustainability Tools: Survey",
-    "digest": "Investors are increasingly turning to internal resources to gauge companies’ ESG performance",
-    "latest": "Investors are increasingly turning to internal resources to gauge companies’ ESG performance",
+    "title": "内部研究，参与度超越ESG评级，成为投资者的首选可持续发展工具：调查",
+    "digest": "投资者越来越多地转向内部资源来衡量公司的ESG绩效",
+    "latest": "投资者越来越多地转向内部资源来衡量公司的ESG绩效",
     "memberIds": [
       "src-1a43uvd"
     ],
     "facts": [
       {
-        "title": "In-House Research, Engagement ",
+        "title": "内部研究，参与度超越ESG评级，成为投资者的首选可持续发展工",
         "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "In-House Research, Engagement Overtake ESG Ratings as Investors’ Top Sustainabil",
+        "action": "调查",
+        "object": "内部研究，参与度超越ESG评级，成为投资者的首选可持续发展工具：调查",
         "occurredAt": "2026-10-15"
       }
     ],
@@ -16004,18 +14869,18 @@
   {
     "id": "story-199dcaj",
     "rootId": "src-13f6o4q",
-    "title": "AEP to Build $4 Billion Fuel Cell Project to Supply Low-Carbon Power to Google",
-    "digest": "Ohio-based electric utility American Electric Power (AEP) announced a $4 billion investment to develop a",
-    "latest": "Ohio-based electric utility American Electric Power (AEP) announced a $4 billion investment to develop a",
+    "title": "AEP将建造40亿美元的燃料电池项目，为谷歌提供低碳电力",
+    "digest": "总部位于俄亥俄州的电力公司美国电力公司（AEP）宣布投资40亿美元（$ 4 billion）开发",
+    "latest": "总部位于俄亥俄州的电力公司美国电力公司（AEP）宣布投资40亿美元（$ 4 billion）开发",
     "memberIds": [
       "src-13f6o4q"
     ],
     "facts": [
       {
-        "title": "AEP to Build $4 Billion Fuel C",
+        "title": "AEP将建造40亿美元的燃料电池项目，为谷歌提供低碳电力",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "AEP to Build $4 Billion Fuel Cell Project to Supply Low-Carbon Power to Google",
+        "object": "AEP将建造40亿美元的燃料电池项目，为谷歌提供低碳电力",
         "occurredAt": "2026-10-15"
       }
     ],
@@ -16044,18 +14909,18 @@
   {
     "id": "story-gwiez9",
     "rootId": "src-13yrtwy",
-    "title": "Getting real about AI: How AI agents are changing the economics of software engineering",
-    "digest": "Cognition co-founder and President Russell Kaplan explains why the next frontier of AI in software engineering is about more than writing code faster and what it takes to turn autonomous agents into measurable business value.",
-    "latest": "Cognition co-founder and President Russell Kaplan explains why the next frontier of AI in software engineering is about more than writing code faster and what it takes to turn autonomous agents into measurable business value.",
+    "title": "了解人工智能：人工智能代理如何改变软件工程的经济学",
+    "digest": "Cognition联合创始人兼总裁Russell Kaplan解释了为什么软件工程中人工智能的下一个前沿领域不仅仅是更快地编写代码，以及如何将自主代理转化为可衡量的商业价值。",
+    "latest": "Cognition联合创始人兼总裁Russell Kaplan解释了为什么软件工程中人工智能的下一个前沿领域不仅仅是更快地编写代码，以及如何将自主代理转化为可衡量的商业价值。",
     "memberIds": [
       "src-13yrtwy"
     ],
     "facts": [
       {
-        "title": "Getting real about AI: How AI ",
+        "title": "了解人工智能：人工智能代理如何改变软件工程的经济学",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Getting real about AI: How AI agents are changing the economics of software engi",
+        "object": "了解人工智能：人工智能代理如何改变软件工程的经济学",
         "occurredAt": "2026-10-15"
       }
     ],
@@ -16084,18 +14949,18 @@
   {
     "id": "story-4kco7z",
     "rootId": "src-rgizo4",
-    "title": "What is a forward-deployed engineer?",
-    "digest": "Forward-deployed engineers work inside another company’s own systems. Three McKinsey leaders explain how FDEs help companies derive impact from AI.",
-    "latest": "Forward-deployed engineers work inside another company’s own systems. Three McKinsey leaders explain how FDEs help companies derive impact from AI.",
+    "title": "什么是前沿部署的工程师？",
+    "digest": "前沿部署的工程师在另一家公司自己的系统内工作。麦肯锡的三位领导者解释了FDE如何帮助公司从人工智能中获得影响。",
+    "latest": "前沿部署的工程师在另一家公司自己的系统内工作。麦肯锡的三位领导者解释了FDE如何帮助公司从人工智能中获得影响。",
     "memberIds": [
       "src-rgizo4"
     ],
     "facts": [
       {
-        "title": "What is a forward-deployed eng",
+        "title": "什么是前沿部署的工程师？",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "What is a forward-deployed engineer?",
+        "object": "什么是前沿部署的工程师？",
         "occurredAt": "2026-10-15"
       }
     ],
@@ -16124,18 +14989,18 @@
   {
     "id": "story-1efvwpp",
     "rootId": "src-84bcqq",
-    "title": "New speech by Kelvin Wong: Remarks at the IFAPC’s 25th anniversary and Outstanding Listed Companies Award 2026",
-    "digest": "New speech by Kelvin Wong: Remarks at the IFAPC’s 25th anniversary and Outstanding Listed Companies Award 2026",
-    "latest": "New speech by Kelvin Wong: Remarks at the IFAPC’s 25th anniversary and Outstanding Listed Companies Award 2026",
+    "title": "Kelvin Wong的新演讲：在IFAPC成立25周年和2026年杰出上市公司奖上的讲话",
+    "digest": "Kelvin Wong的新演讲：在IFAPC成立25周年和2026年杰出上市公司奖上的讲话",
+    "latest": "Kelvin Wong的新演讲：在IFAPC成立25周年和2026年杰出上市公司奖上的讲话",
     "memberIds": [
       "src-84bcqq"
     ],
     "facts": [
       {
-        "title": "New speech by Kelvin Wong: Rem",
+        "title": "Kelvin Wong的新演讲：在IFAPC成立25周年和2",
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
-        "object": "New speech by Kelvin Wong: Remarks at the IFAPC’s 25th anniversary and Outstandi",
+        "object": "Kelvin Wong的新演讲：在IFAPC成立25周年和2026年杰出上市公司奖上的讲话",
         "occurredAt": "2026-10-16"
       }
     ],
@@ -16164,18 +15029,18 @@
   {
     "id": "story-15rhig4",
     "rootId": "src-op6ejq",
-    "title": "Over 800 Companies Commit to TNFD-Aligned Nature Reporting Ahead of New ISSB, ISO Standards",
-    "digest": "The Taskforce on Nature-related Financial Disclosures (TNFD) revealed that more than 800 companies and financial",
-    "latest": "The Taskforce on Nature-related Financial Disclosures (TNFD) revealed that more than 800 companies and financial",
+    "title": "在新的ISSB、ISO标准出台之前， 800多家公司承诺遵守与TNFD相关的自然报告",
+    "digest": "自然相关财务披露工作组（TNFD）透露",
+    "latest": "自然相关财务披露工作组（TNFD）透露",
     "memberIds": [
       "src-op6ejq"
     ],
     "facts": [
       {
-        "title": "Over 800 Companies Commit to T",
+        "title": "在新的ISSB、ISO标准出台之前， 800多家公司承诺遵守",
         "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "Over 800 Companies Commit to TNFD-Aligned Nature Reporting Ahead of New ISSB, IS",
+        "action": "披露",
+        "object": "在新的ISSB、ISO标准出台之前， 800多家公司承诺遵守与TNFD相关的自然报告",
         "occurredAt": "2026-10-16"
       }
     ],
@@ -16204,18 +15069,18 @@
   {
     "id": "story-12gwogy",
     "rootId": "src-lwhf65",
-    "title": "SFC welcomes HKEX’s proposal to implement T+1 settlement in Hong Kong’s stock market",
-    "digest": "SFC welcomes HKEX’s proposal to implement T+1 settlement in Hong Kong’s stock market",
-    "latest": "SFC welcomes HKEX’s proposal to implement T+1 settlement in Hong Kong’s stock market",
+    "title": "证监会欢迎香港交易所在香港股市实施T +1结算的建议",
+    "digest": "证监会欢迎香港交易所在香港股市实施T +1结算的建议",
+    "latest": "证监会欢迎香港交易所在香港股市实施T +1结算的建议",
     "memberIds": [
       "src-lwhf65"
     ],
     "facts": [
       {
-        "title": "SFC welcomes HKEX’s proposal t",
+        "title": "证监会欢迎香港交易所在香港股市实施T +1结算的建议",
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
-        "object": "SFC welcomes HKEX’s proposal to implement T+1 settlement in Hong Kong’s stock ma",
+        "object": "证监会欢迎香港交易所在香港股市实施T +1结算的建议",
         "occurredAt": "2026-10-16"
       }
     ],
@@ -16244,18 +15109,18 @@
   {
     "id": "story-14t4xu4",
     "rootId": "src-lvmea0",
-    "title": "Google, Stripe, Shopify Sign Carbon Removal Deal with CO2-Into-Rock Startup 44.01",
-    "digest": "Carbon removal buyer coalition Frontier announced new offtake agreements with carbon sequestration technology company 44.01",
-    "latest": "Carbon removal buyer coalition Frontier announced new offtake agreements with carbon sequestration technology company 44.01",
+    "title": "谷歌、Stripe、Shopify与摇滚初创公司签署二氧化碳排放协议44.01",
+    "digest": "碳清除买家联盟Frontier宣布与碳封存技术公司44.01达成新的承购协议",
+    "latest": "碳清除买家联盟Frontier宣布与碳封存技术公司44.01达成新的承购协议",
     "memberIds": [
       "src-lvmea0"
     ],
     "facts": [
       {
-        "title": "Google, Stripe, Shopify Sign C",
+        "title": "谷歌、Stripe、Shopify与摇滚初创公司签署二氧化碳",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "Google, Stripe, Shopify Sign Carbon Removal Deal with CO2-Into-Rock Startup 44.0",
+        "object": "谷歌、Stripe、Shopify与摇滚初创公司签署二氧化碳排放协议44.01",
         "occurredAt": "2026-10-16"
       }
     ],
@@ -16284,18 +15149,18 @@
   {
     "id": "story-1dw9q71",
     "rootId": "src-v2m7nv",
-    "title": "SFC welcomes re-appointment of Non-Executive Directors",
-    "digest": "SFC welcomes re-appointment of Non-Executive Directors",
-    "latest": "SFC welcomes re-appointment of Non-Executive Directors",
+    "title": "证监会欢迎重新委任非执行董事",
+    "digest": "证监会欢迎重新委任非执行董事",
+    "latest": "证监会欢迎重新委任非执行董事",
     "memberIds": [
       "src-v2m7nv"
     ],
     "facts": [
       {
-        "title": "SFC welcomes re-appointment of",
+        "title": "证监会欢迎重新委任非执行董事",
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
-        "object": "SFC welcomes re-appointment of Non-Executive Directors",
+        "object": "证监会欢迎重新委任非执行董事",
         "occurredAt": "2026-10-16"
       }
     ],
@@ -16324,18 +15189,18 @@
   {
     "id": "story-2j5bkx",
     "rootId": "src-nmmcjm",
-    "title": "LanzaTech Boosts Stake in SAF Business LanzaJet in New Financing Round",
-    "digest": "Sustainable aviation fuel (SAF) technology and production company LanzaJet announced that it has secured at",
-    "latest": "Sustainable aviation fuel (SAF) technology and production company LanzaJet announced that it has secured at",
+    "title": "LanzaTech在新一轮融资中增加SAF Business LanzaJet的股份",
+    "digest": "可持续航空燃料（SAF）技术和生产公司LanzaJet宣布已获得",
+    "latest": "可持续航空燃料（SAF）技术和生产公司LanzaJet宣布已获得",
     "memberIds": [
       "src-nmmcjm"
     ],
     "facts": [
       {
-        "title": "LanzaTech Boosts Stake in SAF ",
+        "title": "LanzaTech在新一轮融资中增加SAF Business",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "LanzaTech Boosts Stake in SAF Business LanzaJet in New Financing Round",
+        "object": "LanzaTech在新一轮融资中增加SAF Business LanzaJet的股份",
         "occurredAt": "2026-10-16"
       }
     ],
@@ -16364,18 +15229,18 @@
   {
     "id": "story-qxynjv",
     "rootId": "src-5udi8w",
-    "title": "ESG Today: Week in Review",
-    "digest": "This week in ESG news: BNP Paribas AM launches new global sustainability strategy following AXA",
-    "latest": "This week in ESG news: BNP Paribas AM launches new global sustainability strategy following AXA",
+    "title": "今日ESG：一周回顾",
+    "digest": "本周 ESG 焦点集中在可持续金融与气候披露：法国巴黎银行资管在收购安盛资管后推出新的全球可持续投资战略，摩根大通调整可持续金融策略以平衡减排与能源安全，Amundi 与法国巴黎银行资管合计赢得 16 亿欧元可持续投资委托，英国国际投资公司拟动员 16 亿美元支持东南亚气候融资。监管端，加州敲定企业气候披露规则，ESMA 发布防漂绿指引，TNFD 与 SBTN 联合推出自然目标设定与报告框架。企业侧，谷歌、Stripe、Shopify 与 44.01 签署碳去除协议，AEP 拟投建 40 亿美元燃料电池项目，Hy24 收购 EDF 旗下氢能平台，宜家任命新首席可持续发展官。",
+    "latest": "本周 ESG 焦点集中在可持续金融与气候披露：法国巴黎银行资管在收购安盛资管后推出新的全球可持续投资战略，摩根大通调整可持续金融策略以平衡减排与能源安全，Amundi 与法国巴黎银行资管合计赢得 16 亿欧元可持续投资委托，英国国际投资公司拟动员 16 亿美元支持东南亚气候融资。监管端，加州敲定企业气候披露规则，ESMA 发布防漂绿指引，TNFD 与 SBTN 联合推出自然目标设定与报告框架。企业侧，谷歌、Stripe、Shopify 与 44.01 签署碳去除协议，AEP 拟投建 40 亿美元燃料电池项目，Hy24 收购 EDF 旗下氢能平台，宜家任命新首席可持续发展官。",
     "memberIds": [
       "src-5udi8w"
     ],
     "facts": [
       {
-        "title": "ESG Today: Week in Review",
+        "title": "今日ESG：一周回顾",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "ESG Today: Week in Review",
+        "object": "今日ESG：一周回顾",
         "occurredAt": "2026-10-18"
       }
     ],
@@ -16388,6 +15253,1086 @@
     "relations": [
       {
         "memberId": "src-5udi8w",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1bkw4or",
+    "rootId": "src-1a6xrqw",
+    "title": "缩小女性健康差距：瑞士70亿瑞士法郎的机会",
+    "digest": "解决瑞士妇女的健康差距可以为每个妇女每年提供8个额外的健康日，到2040年可能为年度国内生产总值贡献超过70亿瑞士法郎。",
+    "latest": "解决瑞士妇女的健康差距可以为每个妇女每年提供8个额外的健康日，到2040年可能为年度国内生产总值贡献超过70亿瑞士法郎。",
+    "memberIds": [
+      "src-1a6xrqw"
+    ],
+    "facts": [
+      {
+        "title": "缩小女性健康差距：瑞士70亿瑞士法郎的机会",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "缩小女性健康差距：瑞士70亿瑞士法郎的机会",
+        "occurredAt": "2026-10-18"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-18T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-18T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1a6xrqw",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-5qwhms",
+    "rootId": "src-1qjiaon",
+    "title": "美国退休的下一个时代：重新定义竞争的四种转变",
+    "digest": "美国退休行业正在进入一个新时代。从人工智能到产品创新的四个转变正在重新定义创造价值的地方。",
+    "latest": "美国退休行业正在进入一个新时代。从人工智能到产品创新的四个转变正在重新定义创造价值的地方。",
+    "memberIds": [
+      "src-1qjiaon"
+    ],
+    "facts": [
+      {
+        "title": "美国退休的下一个时代：重新定义竞争的四种转变",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "美国退休的下一个时代：重新定义竞争的四种转变",
+        "occurredAt": "2026-10-18"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-18T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-18T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1qjiaon",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-pq11qh",
+    "rootId": "src-shuna3",
+    "title": "2026年公务航空状况：尽管存在逆风，但仍具有弹性",
+    "digest": "我们的首篇公务航空文章指出，对私人航空服务的需求持续增长，给供应链和基础设施带来了巨大压力。能够迅速做出反应的企业将成为行业领导者。",
+    "latest": "我们的首篇公务航空文章指出，对私人航空服务的需求持续增长，给供应链和基础设施带来了巨大压力。能够迅速做出反应的企业将成为行业领导者。",
+    "memberIds": [
+      "src-shuna3"
+    ],
+    "facts": [
+      {
+        "title": "2026年公务航空状况：尽管存在逆风，但仍具有弹性",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "2026年公务航空状况：尽管存在逆风，但仍具有弹性",
+        "occurredAt": "2026-10-18"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-18T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-18T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-shuna3",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-h5o6cm",
+    "rootId": "src-12ay8ck",
+    "title": "未来2万亿美元美国-拉丁美洲贸易的隐藏机遇",
+    "digest": "我们的最新研究发现，美国拉丁裔企业主和消费者独有的独特能力可以在世界上最大的经济走廊之一创造显著的增长。",
+    "latest": "我们的最新研究发现，美国拉丁裔企业主和消费者独有的独特能力可以在世界上最大的经济走廊之一创造显著的增长。",
+    "memberIds": [
+      "src-12ay8ck"
+    ],
+    "facts": [
+      {
+        "title": "未来2万亿美元美国-拉丁美洲贸易的隐藏机遇",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "未来2万亿美元美国-拉丁美洲贸易的隐藏机遇",
+        "occurredAt": "2026-10-18"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-18T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-18T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-12ay8ck",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-ncmekm",
+    "rootId": "src-1k35pnq",
+    "title": "打造持久的业务",
+    "digest": "发布后会发生什么？成功的创始人和风险投资家提供了保持增长所需的经验教训。",
+    "latest": "发布后会发生什么？成功的创始人和风险投资家提供了保持增长所需的经验教训。",
+    "memberIds": [
+      "src-1k35pnq"
+    ],
+    "facts": [
+      {
+        "title": "打造持久的业务",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "打造持久的业务",
+        "occurredAt": "2026-10-18"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-18T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-18T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1k35pnq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1c1uql7",
+    "rootId": "src-8x292h",
+    "title": "量子的三个视野：未来计算经济的商业路线图",
+    "digest": "在未来十年，量子技术可以创造数万亿美元的价值，打破加密，带来机会，但也带来风险。领先的公司现在正在采取行动，以确保竞争优势。",
+    "latest": "在未来十年，量子技术可以创造数万亿美元的价值，打破加密，带来机会，但也带来风险。领先的公司现在正在采取行动，以确保竞争优势。",
+    "memberIds": [
+      "src-8x292h"
+    ],
+    "facts": [
+      {
+        "title": "量子的三个视野：未来计算经济的商业路线图",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "量子的三个视野：未来计算经济的商业路线图",
+        "occurredAt": "2026-10-19"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-19T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-19T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-8x292h",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-qcd7oz",
+    "rootId": "src-27ijc8",
+    "title": "切换轨道：为新时代重新布线机车车辆",
+    "digest": "全球铁路原始设备制造商很难进入亚洲快速增长的市场。价值可能会从新建转向维修和续约，而原始设备制造商则为未来的机会做准备。",
+    "latest": "全球铁路原始设备制造商很难进入亚洲快速增长的市场。价值可能会从新建转向维修和续约，而原始设备制造商则为未来的机会做准备。",
+    "memberIds": [
+      "src-27ijc8"
+    ],
+    "facts": [
+      {
+        "title": "切换轨道：为新时代重新布线机车车辆",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "切换轨道：为新时代重新布线机车车辆",
+        "occurredAt": "2026-10-19"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-19T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-19T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-27ijc8",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-b2enrr",
+    "rootId": "src-gjc4kr",
+    "title": "保护人工智能时代的软件：红帽首席技术官Chris Wright",
+    "digest": "开源资深人士克里斯·赖特（Chris Wright）解释了为什么人工智能驱动的漏洞发现迫使人们对软件安全进行清算，以及该行业如何因此变得更强大。",
+    "latest": "开源资深人士克里斯·赖特（Chris Wright）解释了为什么人工智能驱动的漏洞发现迫使人们对软件安全进行清算，以及该行业如何因此变得更强大。",
+    "memberIds": [
+      "src-gjc4kr"
+    ],
+    "facts": [
+      {
+        "title": "保护人工智能时代的软件：红帽首席技术官Chris Wrigh",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "保护人工智能时代的软件：红帽首席技术官Chris Wright",
+        "occurredAt": "2026-10-19"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-19T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-19T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-gjc4kr",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-35bx6q",
+    "rootId": "src-1f8bevg",
+    "title": "港交所推出绿色股权认定计划，加强对绿色经济的资本支持",
+    "digest": "港交所推出绿色股权认定计划",
+    "latest": "港交所推出绿色股权认定计划",
+    "memberIds": [
+      "src-1f8bevg"
+    ],
+    "facts": [
+      {
+        "title": "港交所推出绿色股权认定计划，加强对绿色经济的资本支持",
+        "subject": "香港交易所新闻稿",
+        "action": "发布",
+        "object": "港交所推出绿色股权认定计划，加强对绿色经济的资本支持",
+        "occurredAt": "2026-10-20"
+      }
+    ],
+    "participants": [
+      "hkex-news"
+    ],
+    "firstPublishedAt": "2026-10-20T02:06:00.000Z",
+    "latestPublishedAt": "2026-10-20T02:06:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1f8bevg",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港交易所新闻稿"
+    ]
+  },
+  {
+    "id": "story-he3yp9",
+    "rootId": "src-4u5b4l",
+    "title": "欧洲杂货零售现状：对包装商的影响",
+    "digest": "欧洲杂货零售商的持续增长压力限制了包装商的机会。在这种环境下，成本竞争力仍然至关重要。",
+    "latest": "欧洲杂货零售商的持续增长压力限制了包装商的机会。在这种环境下，成本竞争力仍然至关重要。",
+    "memberIds": [
+      "src-4u5b4l"
+    ],
+    "facts": [
+      {
+        "title": "欧洲杂货零售现状：对包装商的影响",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "欧洲杂货零售现状：对包装商的影响",
+        "occurredAt": "2026-10-21"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-21T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-21T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-4u5b4l",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-168cn1c",
+    "rootId": "src-21jlhx",
+    "title": "专注、规模、资金：缺少AI策略手册CPG领导者",
+    "digest": "小品牌是创新的巨头，购买模式正在发生变化，规模不再是过去的盾牌。以下是人工智能如何帮助为食品和饮料的下一波增长提供资金。",
+    "latest": "小品牌是创新的巨头，购买模式正在发生变化，规模不再是过去的盾牌。以下是人工智能如何帮助为食品和饮料的下一波增长提供资金。",
+    "memberIds": [
+      "src-21jlhx"
+    ],
+    "facts": [
+      {
+        "title": "专注、规模、资金：缺少AI策略手册CPG领导者",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "专注、规模、资金：缺少AI策略手册CPG领导者",
+        "occurredAt": "2026-10-21"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-21T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-21T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-21jlhx",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-15rxwxr",
+    "rootId": "src-1apv7vo",
+    "title": "亚洲的能源清算：确保能源系统以推动增长",
+    "digest": "最近的中断突出了亚洲能源系统的脆弱性。各国可以将重点放在五个优先投资领域，以支持区域增长和韧性。",
+    "latest": "最近的中断突出了亚洲能源系统的脆弱性。各国可以将重点放在五个优先投资领域，以支持区域增长和韧性。",
+    "memberIds": [
+      "src-1apv7vo"
+    ],
+    "facts": [
+      {
+        "title": "亚洲的能源清算：确保能源系统以推动增长",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "亚洲的能源清算：确保能源系统以推动增长",
+        "occurredAt": "2026-10-21"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-21T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-21T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1apv7vo",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-erfdfd",
+    "rootId": "src-wp3a30",
+    "title": "英国的区域人才陷阱及其如何限制区域增长：英国生产力系列，第2部分",
+    "digest": "英国经济的区域分布使伦敦和东南部的运营领导力人才陷入困境，并阻止全国各地的企业提高竞争力。但企业和政策制定者的行动可能会扭转这一趋势。",
+    "latest": "英国经济的区域分布使伦敦和东南部的运营领导力人才陷入困境，并阻止全国各地的企业提高竞争力。但企业和政策制定者的行动可能会扭转这一趋势。",
+    "memberIds": [
+      "src-wp3a30"
+    ],
+    "facts": [
+      {
+        "title": "英国的区域人才陷阱及其如何限制区域增长：英国生产力系列，第2",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "英国的区域人才陷阱及其如何限制区域增长：英国生产力系列，第2部分",
+        "occurredAt": "2026-10-21"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-21T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-21T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-wp3a30",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-158wtvz",
+    "rootId": "src-1bzhn74",
+    "title": "联邦许可的不均衡经济影响，以及公司可以做些什么",
+    "digest": "允许延迟在各州之间波及不均匀，这取决于它们的行业结构。在队列中有项目的公司可以采取措施来管理延误。",
+    "latest": "允许延迟在各州之间波及不均匀，这取决于它们的行业结构。在队列中有项目的公司可以采取措施来管理延误。",
+    "memberIds": [
+      "src-1bzhn74"
+    ],
+    "facts": [
+      {
+        "title": "联邦许可的不均衡经济影响，以及公司可以做些什么",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "联邦许可的不均衡经济影响，以及公司可以做些什么",
+        "occurredAt": "2026-10-21"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-21T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-21T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1bzhn74",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-67wncg",
+    "rootId": "src-1ydmtah",
+    "title": "证监会就涉嫌操纵主板转移计划对GEM上市公司Taste • Gourmet的高管和同事提起MMT诉讼",
+    "digest": "证监会就涉嫌操纵主板转移计划对GEM上市公司Taste • Gourmet的高管和同事提起MMT诉讼",
+    "latest": "证监会就涉嫌操纵主板转移计划对GEM上市公司Taste • Gourmet的高管和同事提起MMT诉讼",
+    "memberIds": [
+      "src-1ydmtah"
+    ],
+    "facts": [
+      {
+        "title": "证监会就涉嫌操纵主板转移计划对GEM上市公司Taste • ",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "证监会就涉嫌操纵主板转移计划对GEM上市公司Taste • Gourmet的高管和同事提起MMT诉讼",
+        "occurredAt": "2026-10-22"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-22T08:20:23.000Z",
+    "latestPublishedAt": "2026-10-22T08:20:23.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1ydmtah",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-1kpt8yw",
+    "rootId": "src-egu1y2",
+    "title": "GM Ventures Leads $108 Million Raise for Peak Energy to Break into Data Center Power Market",
+    "digest": "近日，园内企业韬略生物宣布完成完成超6亿元人民币Pre-IPO轮融资。",
+    "latest": "近日，园内企业韬略生物宣布完成完成超6亿元人民币Pre-IPO轮融资。",
+    "memberIds": [
+      "src-egu1y2"
+    ],
+    "facts": [
+      {
+        "title": "GM Ventures Leads $108 Million",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "GM Ventures Leads $108 Million Raise for Peak Energy to Break into Data Center P",
+        "occurredAt": "2026-10-22"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-22T11:12:50.000Z",
+    "latestPublishedAt": "2026-10-22T11:12:50.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-egu1y2",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-17n1cjb",
+    "rootId": "src-ymhwlp",
+    "title": "可口可乐、雀巢和达能同意在欧盟绿色洗涤投诉后改善回收索赔",
+    "digest": "Food and beverage giants Coca-Cola, Nestlé, and Danone have committed to change recycling claims advertised on",
+    "latest": "Food and beverage giants Coca-Cola, Nestlé, and Danone have committed to change recycling claims advertised on",
+    "memberIds": [
+      "src-ymhwlp"
+    ],
+    "facts": [
+      {
+        "title": "可口可乐、雀巢和达能同意在欧盟绿色洗涤投诉后改善回收索赔",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "可口可乐、雀巢和达能同意在欧盟绿色洗涤投诉后改善回收索赔",
+        "occurredAt": "2026-10-22"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-22T12:46:26.000Z",
+    "latestPublishedAt": "2026-10-22T12:46:26.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-ymhwlp",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1yqva29",
+    "rootId": "src-oq7969",
+    "title": "欧洲投资银行公布300亿欧元气候适应计划",
+    "digest": "欧洲投资银行集团宣布了一项新计划，旨在提供至少3000万欧元的资金。",
+    "latest": "欧洲投资银行集团宣布了一项新计划，旨在提供至少3000万欧元的资金。",
+    "memberIds": [
+      "src-oq7969"
+    ],
+    "facts": [
+      {
+        "title": "欧洲投资银行公布300亿欧元气候适应计划",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "欧洲投资银行公布300亿欧元气候适应计划",
+        "occurredAt": "2026-10-22"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-22T13:38:35.000Z",
+    "latestPublishedAt": "2026-10-22T13:38:35.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-oq7969",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1es0td3",
+    "rootId": "src-df76bu",
+    "title": "英国将石油和天然气收入投入新的20亿英镑清洁能源财富基金。",
+    "digest": "英国政府宣布设立新的能源财富基金。",
+    "latest": "英国政府宣布设立新的能源财富基金。",
+    "memberIds": [
+      "src-df76bu"
+    ],
+    "facts": [
+      {
+        "title": "英国将石油和天然气收入投入新的20亿英镑清洁能源财富基金。",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "英国将石油和天然气收入投入新的20亿英镑清洁能源财富基金。",
+        "occurredAt": "2026-10-22"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-22T14:18:42.000Z",
+    "latestPublishedAt": "2026-10-22T14:18:42.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-df76bu",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-16b7wz9",
+    "rootId": "src-1hf2o9k",
+    "title": "Optivolt融资$ 3200万，使太阳能电池板更智能",
+    "digest": "电力电子公司Optivolt宣布已在A轮融资中筹集了3200万美元",
+    "latest": "电力电子公司Optivolt宣布已在A轮融资中筹集了3200万美元",
+    "memberIds": [
+      "src-1hf2o9k"
+    ],
+    "facts": [
+      {
+        "title": "Optivolt融资$ 3200万，使太阳能电池板更智能",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Optivolt融资$ 3200万，使太阳能电池板更智能",
+        "occurredAt": "2026-10-22"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-22T15:59:33.000Z",
+    "latestPublishedAt": "2026-10-22T15:59:33.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1hf2o9k",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1rzgj0x",
+    "rootId": "src-cabqxv",
+    "title": "作者谈话：人工智能正在进步。我们的判断是否正确？",
+    "digest": "我们可以在不屈服于人类判断的情况下解锁人工智能的承诺吗？技术领导者Tiffany Xingyu Wang表示，答案不在于学习是否信任人工智能，而在于何时以及在多大程度上信任人工智能。",
+    "latest": "我们可以在不屈服于人类判断的情况下解锁人工智能的承诺吗？技术领导者Tiffany Xingyu Wang表示，答案不在于学习是否信任人工智能，而在于何时以及在多大程度上信任人工智能。",
+    "memberIds": [
+      "src-cabqxv"
+    ],
+    "facts": [
+      {
+        "title": "作者谈话：人工智能正在进步。我们的判断是否正确？",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "作者谈话：人工智能正在进步。我们的判断是否正确？",
+        "occurredAt": "2026-10-22"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-22T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-22T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-cabqxv",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-gpj2t7",
+    "rootId": "src-1r0iioz",
+    "title": "香港交易所推出人工智能和半导体指数",
+    "digest": "香港交易所推出人工智能和半导体指数",
+    "latest": "香港交易所推出人工智能和半导体指数",
+    "memberIds": [
+      "src-1r0iioz"
+    ],
+    "facts": [
+      {
+        "title": "香港交易所推出人工智能和半导体指数",
+        "subject": "香港交易所新闻稿",
+        "action": "发布",
+        "object": "香港交易所推出人工智能和半导体指数",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "hkex-news"
+    ],
+    "firstPublishedAt": "2026-10-23T08:30:00.000Z",
+    "latestPublishedAt": "2026-10-23T08:30:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1r0iioz",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港交易所新闻稿"
+    ]
+  },
+  {
+    "id": "story-1it1xit",
+    "rootId": "src-9zk7xb",
+    "title": "谷歌签署协议，建造1GW虚拟发电厂，聚集来自家庭和企业的能源",
+    "digest": "谷歌宣布与Voltus达成新协议",
+    "latest": "谷歌宣布与Voltus达成新协议",
+    "memberIds": [
+      "src-9zk7xb"
+    ],
+    "facts": [
+      {
+        "title": "谷歌签署协议，建造1GW虚拟发电厂，聚集来自家庭和企业的能源",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "谷歌签署协议，建造1GW虚拟发电厂，聚集来自家庭和企业的能源",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-23T08:45:27.000Z",
+    "latestPublishedAt": "2026-10-23T08:45:27.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-9zk7xb",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-yrvf32",
+    "rootId": "src-1drwi5v",
+    "title": "欧盟议员推动将甲烷排放规则推迟3年",
+    "digest": "欧洲议会议员以341票对225票推迟甲烷监测和报告",
+    "latest": "欧洲议会议员以341票对225票推迟甲烷监测和报告",
+    "memberIds": [
+      "src-1drwi5v"
+    ],
+    "facts": [
+      {
+        "title": "欧盟议员推动将甲烷排放规则推迟3年",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "欧盟议员推动将甲烷排放规则推迟3年",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-23T09:33:34.000Z",
+    "latestPublishedAt": "2026-10-23T09:33:34.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1drwi5v",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-7n5jtd",
+    "rootId": "src-xeioxv",
+    "title": "LRQA收购供应链监控和负责任采购平台Omega Compliance",
+    "digest": "高盛支持的风险管理解决方案提供商LRQA宣布收购供应链监控和",
+    "latest": "高盛支持的风险管理解决方案提供商LRQA宣布收购供应链监控和",
+    "memberIds": [
+      "src-xeioxv"
+    ],
+    "facts": [
+      {
+        "title": "LRQA收购供应链监控和负责任采购平台Omega Compl",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "收购",
+        "object": "LRQA收购供应链监控和负责任采购平台Omega Compliance",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-23T10:22:07.000Z",
+    "latestPublishedAt": "2026-10-23T10:22:07.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-xeioxv",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-j32se2",
+    "rootId": "src-b9fczt",
+    "title": "剑桥重工融资620万$建造小型聚变反应堆",
+    "digest": "融合技术开发商剑桥重工（CHI）宣布",
+    "latest": "融合技术开发商剑桥重工（CHI）宣布",
+    "memberIds": [
+      "src-b9fczt"
+    ],
+    "facts": [
+      {
+        "title": "剑桥重工融资620万$建造小型聚变反应堆",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "剑桥重工融资620万$建造小型聚变反应堆",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-23T12:20:03.000Z",
+    "latestPublishedAt": "2026-10-23T12:20:03.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-b9fczt",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1k0jyzv",
+    "rootId": "src-b0lhqh",
+    "title": "今日ESG：一周回顾",
+    "digest": "本周ESG新闻： ISSB发布拟议的与自然相关的公司报告要求；",
+    "latest": "本周ESG新闻： ISSB发布拟议的与自然相关的公司报告要求；",
+    "memberIds": [
+      "src-b0lhqh"
+    ],
+    "facts": [
+      {
+        "title": "今日ESG：一周回顾",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "今日ESG：一周回顾",
+        "occurredAt": "2026-10-25"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-25T08:16:49.000Z",
+    "latestPublishedAt": "2026-10-25T08:16:49.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-b0lhqh",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }

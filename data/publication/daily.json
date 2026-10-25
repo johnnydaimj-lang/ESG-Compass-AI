@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-18",
-  "generatedAt": "2026-10-18T10:31:49.112Z",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T09:16:00.101Z",
   "highlights": [
     {
-      "id": "src-5udi8w",
+      "id": "src-b0lhqh",
       "title": "今日ESG：一周回顾",
-      "summary": "本周ESG新闻：法国巴黎银行AM继安盛之后推出新的全球可持续发展战略",
+      "summary": "本周ESG新闻： ISSB发布拟议的与自然相关的公司报告要求；",
       "sourceName": "ESG Today（全球 ESG 新闻）",
       "contentType": "观点",
       "region": "全球",
-      "publishedAt": "2026-10-18T09:20:44.000Z",
-      "score": 20
+      "publishedAt": "2026-10-25T08:16:49.000Z",
+      "score": 30
     }
   ],
   "sections": [
@@ -18,14 +18,14 @@
       "label": "观点",
       "items": [
         {
-          "id": "src-5udi8w",
+          "id": "src-b0lhqh",
           "title": "今日ESG：一周回顾",
-          "summary": "本周ESG新闻：法国巴黎银行AM继安盛之后推出新的全球可持续发展战略",
+          "summary": "本周ESG新闻： ISSB发布拟议的与自然相关的公司报告要求；",
           "sourceName": "ESG Today（全球 ESG 新闻）",
           "contentType": "观点",
           "region": "全球",
-          "publishedAt": "2026-10-18T09:20:44.000Z",
-          "score": 20
+          "publishedAt": "2026-10-25T08:16:49.000Z",
+          "score": 30
         }
       ]
     }
@@ -39,15 +39,6 @@
       "contentType": "热点故事",
       "region": "",
       "publishedAt": "2026-10-11T23:00:00.000Z"
-    },
-    {
-      "id": "story-yp8duv",
-      "title": "香港证券经纪商在2026年上半年实现强劲盈利增长",
-      "summary": "美国证券交易委员会的合规外展计划今天宣布，将于2026年11月19日为投资公司和投资顾问举办虚拟全国研讨会。此次活动的目的是帮助投资咨询公司和投资公司的首席合规官和高级人员加强其合规计划，以保护投资者。 会议将包括小组讨论：查看完整的议程。要提前或在活动期间向小组提交问题，请使用议程中提供的链接。",
-      "sourceName": "2 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-10-06T14:37:55.000Z"
     },
     {
       "id": "story-1uinks5",
