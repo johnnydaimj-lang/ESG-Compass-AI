@@ -9,6 +9,9 @@ import type {
   PrefilterResult,
   PublicationBundle,
   RawMaterial,
+  ScoreAxes,
+  ScoreDecision,
+  ScoreRun,
   SourceRunStatus,
   SourceTier,
   StoryCluster,
@@ -16,6 +19,7 @@ import type {
 import { PIPELINE_VERSION } from "@/lib/contracts/pipeline";
 import { clusterMaterials, type ClusterInput } from "@/lib/pipeline/cluster";
 import { classifyContentType } from "@/lib/pipeline/classify";
+import { CURATION_FLOOR, INCREMENTAL_LOOKBACK_HOURS, UNDERSTAND_FLOOR } from "@/lib/pipeline/config";
 import { collectRssSource, collectSecInvestreports, sourceTierFor, type SourceConfig } from "@/lib/pipeline/collect";
 import { buildDailyReport } from "@/lib/pipeline/daily";
 import { calculateHeat } from "@/lib/pipeline/heat";
@@ -27,7 +31,7 @@ import { scoreMaterialWithLlm } from "@/lib/pipeline/llm";
 import { structureMaterial } from "@/lib/pipeline/structure";
 import { cleanSummaryText, stableHash } from "@/lib/pipeline/text";
 import { understandMaterial } from "@/lib/pipeline/understand";
-import { readPublishedContents, writeDaily, writeHeatHistory, writePublicationBundle } from "@/lib/publication-store";
+import { readPipelineStatus, readPublishedContents, writeDaily, writeHeatHistory, writePublicationBundle } from "@/lib/publication-store";
 
 interface SourceFile {
   sources?: SourceConfig[];
@@ -270,6 +274,27 @@ async function mapWithConcurrency<T, R>(items: T[], concurrency: number, fn: (it
   return results;
 }
 
+// 历史内容不再重复调用 LLM，直接沿用上次发布的评分与精选标记。
+function decisionFromSnapshot(material: RawMaterial): ScoreDecision {
+  const pipeline = material.content.pipeline;
+  const score = typeof pipeline?.score === "number" ? pipeline.score : 0;
+  const threshold = typeof pipeline?.scoreThreshold === "number" ? pipeline.scoreThreshold : CURATION_FLOOR;
+  const selected = Boolean(material.content.recommended);
+  const axes: ScoreAxes = { significance: 0, novelty: 0, credibility: 0, resonance: 0, actionability: 0 };
+  const runs: [ScoreRun, ScoreRun] = [
+    { score, axes },
+    { score, axes },
+  ];
+  return {
+    runs,
+    displayScore: score,
+    threshold,
+    understandFloor: UNDERSTAND_FLOOR,
+    selected,
+    reason: selected ? `沿用历史评分 ${score} 分` : `沿用历史评分 ${score} 分，未达到 ${threshold} 分门槛`,
+  };
+}
+
 async function main() {
   const startedAt = new Date();
   const sourceConfig = readJson<SourceFile>(sourcesFile, { sources: [] });
@@ -294,17 +319,39 @@ async function main() {
     prefiltered.push({ material, prefilter, sourceTier: material.sourceTier || "T2" });
   }
 
-  const scored = await mapWithConcurrency(prefiltered, mode === "llm" ? 6 : 1, async (entry) => ({
-    ...entry,
-    runs: mode === "llm"
-      ? await scoreMaterialWithLlm(entry.material)
-      : runHeuristicScores(entry.material, entry.sourceTier),
-  }));
+  const previousStatus = readPipelineStatus();
+  const previousFinishedMs = previousStatus?.finishedAt ? Date.parse(previousStatus.finishedAt) : NaN;
+  const incrementalEnabled = (mode === "llm" || mode === "live") && Number.isFinite(previousFinishedMs);
+  const incrementalCutoffMs = incrementalEnabled
+    ? previousFinishedMs - INCREMENTAL_LOOKBACK_HOURS * 3_600_000
+    : 0;
+  let incrementalScoredCount = 0;
+  let incrementalReusedCount = 0;
+
+  const scored = await mapWithConcurrency(prefiltered, mode === "llm" ? 6 : 1, async (entry) => {
+    const publishedMs = Date.parse(entry.material.publishedAt);
+    const isIncrementalNew = !incrementalEnabled || !Number.isFinite(publishedMs) || publishedMs >= incrementalCutoffMs;
+    if (!isIncrementalNew) {
+      incrementalReusedCount += 1;
+      return { ...entry, runs: null as [ScoreRun, ScoreRun] | null };
+    }
+    incrementalScoredCount += 1;
+    return {
+      ...entry,
+      runs: mode === "llm"
+        ? await scoreMaterialWithLlm(entry.material)
+        : runHeuristicScores(entry.material, entry.sourceTier),
+    };
+  });
 
   for (const entry of scored) {
-    const decision = decideSelection(entry.runs, entry.sourceTier);
+    const decision = entry.runs
+      ? decideSelection(entry.runs, entry.sourceTier)
+      : decisionFromSnapshot(entry.material);
     const understanding = understandMaterial(entry.material, entry.sourceTier);
-    understanding.editorialJudgment = recommendReasonFor(entry.material, decision);
+    understanding.editorialJudgment = entry.runs
+      ? recommendReasonFor(entry.material, decision)
+      : (entry.material.content.recommendReason || understanding.editorialJudgment);
     const fact = structureMaterial(entry.material);
     processed.push({
       material: entry.material,
@@ -378,6 +425,9 @@ async function main() {
   if (mode === "live") {
     warnings.push("实时模式仅对已实现的 RSS 适配器联网，其余信源沿用快照材料。");
   }
+  if (incrementalEnabled) {
+    warnings.push(`增量评分：新/变更内容 ${incrementalScoredCount} 条，沿用历史评分 ${incrementalReusedCount} 条（回看 ${INCREMENTAL_LOOKBACK_HOURS} 小时）。`);
+  }
 
   const finishedAt = new Date();
   const status: PipelineStatus = {
@@ -395,6 +445,9 @@ async function main() {
     storyCount: clusters.length,
     hotStoryCount: hotspots.length,
     sourceCount: sources.length,
+    incrementalCutoff: incrementalEnabled ? new Date(incrementalCutoffMs).toISOString() : undefined,
+    incrementalScoredCount,
+    incrementalReusedCount,
     warnings,
     sourceRuns,
     promptVersions: promptVersions(PROMPT_NAMES),
@@ -429,7 +482,8 @@ async function main() {
   process.stdout.write(
     `ESG Compass v2 pipeline (${mode})\n`
     + `raw=${status.rawCount} published=${contents.length} selected=${status.selectedCount} `
-    + `stories=${status.storyCount} hotspots=${status.hotStoryCount}\n`,
+    + `stories=${status.storyCount} hotspots=${status.hotStoryCount} `
+    + `incremental=${incrementalScoredCount} reused=${incrementalReusedCount}\n`,
   );
   if (warnings.length) process.stdout.write(`warnings=${warnings.join(" | ")}\n`);
 }

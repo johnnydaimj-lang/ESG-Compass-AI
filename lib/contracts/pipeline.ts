@@ -175,6 +175,9 @@ export interface PipelineStatus {
   storyCount: number;
   hotStoryCount: number;
   sourceCount: number;
+  incrementalCutoff?: string;
+  incrementalScoredCount?: number;
+  incrementalReusedCount?: number;
   warnings: string[];
   sourceRuns: SourceRunStatus[];
   promptVersions: Record<string, string>;

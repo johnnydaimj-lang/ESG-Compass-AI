@@ -2,26 +2,26 @@
   {
     "id": "story-1g8qenq",
     "rootId": "src-15x08y0",
-    "title": "HKEX Expands Integrated Fund Platform with Launch of Platform and Nominee Services",
-    "digest": "HKEX Expands Integrated Fund Platform with Launch of Platform and Nominee Services",
-    "latest": "SFC welcomes launch of Platform and Nominee Services on Integrated Fund Platform",
+    "title": "香港交易所推出平台及代名人服务，扩大综合基金平台",
+    "digest": "香港交易所推出平台及代名人服务",
+    "latest": "证监会欢迎在综合基金平台上推出平台及代名人服务",
     "memberIds": [
       "src-15x08y0",
       "src-rnikqc"
     ],
     "facts": [
       {
-        "title": "HKEX Expands Integrated Fund P",
+        "title": "香港交易所推出平台及代名人服务，扩大综合基金平台",
         "subject": "香港交易所新闻稿",
         "action": "发布",
-        "object": "HKEX Expands Integrated Fund Platform with Launch of Platform and Nominee Servic",
+        "object": "香港交易所推出平台及代名人服务，扩大综合基金平台",
         "occurredAt": "2026-10-28"
       },
       {
-        "title": "SFC welcomes launch of Platfor",
+        "title": "证监会欢迎在综合基金平台上推出平台及代名人服务",
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
-        "object": "SFC welcomes launch of Platform and Nominee Services on Integrated Fund Platform",
+        "object": "证监会欢迎在综合基金平台上推出平台及代名人服务",
         "occurredAt": "2026-10-28"
       }
     ],
@@ -44,9 +44,9 @@
         "confidence": 0.7272727272727273
       }
     ],
-    "heat6hAgo": 3.4,
+    "heat6hAgo": 3.3,
     "trend": "down",
-    "trendPct": -17.6,
+    "trendPct": -15.2,
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
