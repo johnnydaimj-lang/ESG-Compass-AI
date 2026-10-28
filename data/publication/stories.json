@@ -1256,8 +1256,8 @@
     "id": "story-61gkd3",
     "rootId": "src-ssrn-esg-esg-rating-disagreement-as-a-greenwashing-signal-3219",
     "title": "ESG 评级分歧是洗绿信号：通过披露和绩效渠道实现数字化转型的不对称效应",
-    "digest": "本研究探讨了 ESG 评级分歧是否是企业洗绿的先行指标，以及数字化转型 (DTI) 如何通过披露和绩效渠道调节这种关系。利用中国 A 股公司的 8111 家公司年度观察（2012-2022 年），我们采用双向固定效应面板回归，并辅以通过 SHAP 解释的贝叶斯优化机器学习模型。总体评级分歧是洗绿的有力预测因素。渠道分解揭示了不对称的 DTI 调节：随着数字化先进企业扩大报告能力，扩大披露与实际 ESG 绩效之间的差距，披露渠道放大了洗绿风险 (bloom_DTI: β = +0.2471, p < 0.01)，而绩效渠道则减弱了洗绿风险，因为数字化运营监控将实质性绩效转化为可测量的减少 (hua_DTI: β = -0.2804, p < 0.01) 0.01）。这种模式在所有制结构、污染强度和地区范围内都很有效。机器学习分析证实了计量经济学的发现，并揭示了面板回归看不见的非线性阈值效应。",
-    "latest": "本研究探讨了 ESG 评级分歧是否是企业洗绿的先行指标，以及数字化转型 (DTI) 如何通过披露和绩效渠道调节这种关系。利用中国 A 股公司的 8111 家公司年度观察（2012-2022 年），我们采用双向固定效应面板回归，并辅以通过 SHAP 解释的贝叶斯优化机器学习模型。总体评级分歧是洗绿的有力预测因素。渠道分解揭示了不对称的 DTI 调节：随着数字化先进企业扩大报告能力，扩大披露与实际 ESG 绩效之间的差距，披露渠道放大了洗绿风险 (bloom_DTI: β = +0.2471, p < 0.01)，而绩效渠道则减弱了洗绿风险，因为数字化运营监控将实质性绩效转化为可测量的减少 (hua_DTI: β = -0.2804, p < 0.01) 0.01）。这种模式在所有制结构、污染强度和地区范围内都很有效。机器学习分析证实了计量经济学的发现，并揭示了面板回归看不见的非线性阈值效应。",
+    "digest": "本研究基于中国 A 股 8111 家公司年度观察（2012—2022 年），考察 ESG 评级分歧能否预测企业洗绿，以及数字化转型如何通过披露与绩效渠道调节这一关系。研究发现，总体评级分歧是洗绿的有力预测因素，数字化对披露渠道与绩效渠道的影响呈现不对称性。",
+    "latest": "本研究基于中国 A 股 8111 家公司年度观察（2012—2022 年），考察 ESG 评级分歧能否预测企业洗绿，以及数字化转型如何通过披露与绩效渠道调节这一关系。研究发现，总体评级分歧是洗绿的有力预测因素，数字化对披露渠道与绩效渠道的影响呈现不对称性。",
     "memberIds": [
       "src-ssrn-esg-esg-rating-disagreement-as-a-greenwashing-signal-3219"
     ],
@@ -15671,9 +15671,10 @@
     "rootId": "src-21jlhx",
     "title": "专注、规模、资金：缺少AI策略手册CPG领导者",
     "digest": "小品牌是创新的巨头，购买模式正在发生变化，规模不再是过去的盾牌。以下是人工智能如何帮助为食品和饮料的下一波增长提供资金。",
-    "latest": "小品牌是创新的巨头，购买模式正在发生变化，规模不再是过去的盾牌。以下是人工智能如何帮助为食品和饮料的下一波增长提供资金。",
+    "latest": "Small brands are out-innovating giants, buying patterns are changing, and scale isn’t the shield it used to be. To thrive, companies will need real product innovation and focused use of AI.",
     "memberIds": [
-      "src-21jlhx"
+      "src-21jlhx",
+      "src-uvpmms"
     ],
     "facts": [
       {
@@ -15681,6 +15682,13 @@
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
         "object": "专注、规模、资金：缺少AI策略手册CPG领导者",
+        "occurredAt": "2026-10-21"
+      },
+      {
+        "title": "What trends are influencing th",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "What trends are influencing the food and beverage industry?",
         "occurredAt": "2026-10-21"
       }
     ],
@@ -15695,6 +15703,11 @@
         "memberId": "src-21jlhx",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-uvpmms",
+        "relation": "SAME_STORY",
+        "confidence": 0.6197797868009122
       }
     ],
     "heat6hAgo": 0,
@@ -15869,7 +15882,7 @@
   {
     "id": "story-1kpt8yw",
     "rootId": "src-egu1y2",
-    "title": "GM Ventures Leads $108 Million Raise for Peak Energy to Break into Data Center Power Market",
+    "title": "通用风险投资公司为Peak Energy筹集$ 1.08亿美元，以打入数据中心电力市场",
     "digest": "近日，园内企业韬略生物宣布完成完成超6亿元人民币Pre-IPO轮融资。",
     "latest": "近日，园内企业韬略生物宣布完成完成超6亿元人民币Pre-IPO轮融资。",
     "memberIds": [
@@ -15877,10 +15890,10 @@
     ],
     "facts": [
       {
-        "title": "GM Ventures Leads $108 Million",
+        "title": "通用风险投资公司为Peak Energy筹集$ 1.08亿美",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "GM Ventures Leads $108 Million Raise for Peak Energy to Break into Data Center P",
+        "object": "通用风险投资公司为Peak Energy筹集$ 1.08亿美元，以打入数据中心电力市场",
         "occurredAt": "2026-10-22"
       }
     ],
@@ -15910,8 +15923,8 @@
     "id": "story-17n1cjb",
     "rootId": "src-ymhwlp",
     "title": "可口可乐、雀巢和达能同意在欧盟绿色洗涤投诉后改善回收索赔",
-    "digest": "Food and beverage giants Coca-Cola, Nestlé, and Danone have committed to change recycling claims advertised on",
-    "latest": "Food and beverage giants Coca-Cola, Nestlé, and Danone have committed to change recycling claims advertised on",
+    "digest": "食品和饮料巨头可口可乐、雀巢和达能已承诺改变在",
+    "latest": "食品和饮料巨头可口可乐、雀巢和达能已承诺改变在",
     "memberIds": [
       "src-ymhwlp"
     ],
@@ -16333,6 +16346,861 @@
     "relations": [
       {
         "memberId": "src-b0lhqh",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1izcdw6",
+    "rootId": "src-1t1vckg",
+    "title": "Pfizer’s Alex Condoleon on medical affairs accountability",
+    "digest": "Pfizer’s chief medical affairs officer talks about measuring medical affairs’ true impact, leading change at scale, and what patient-first really means.",
+    "latest": "Pfizer’s chief medical affairs officer talks about measuring medical affairs’ true impact, leading change at scale, and what patient-first really means.",
+    "memberIds": [
+      "src-1t1vckg"
+    ],
+    "facts": [
+      {
+        "title": "Pfizer’s Alex Condoleon on med",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Pfizer’s Alex Condoleon on medical affairs accountability",
+        "occurredAt": "2026-10-25"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-25T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-25T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1t1vckg",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-18myyso",
+    "rootId": "src-14fwtni",
+    "title": "Agentic AI in financial-crime prevention: Lessons from winners",
+    "digest": "A year of delivery has confirmed much of what we expected about agentic AI in financial-crime prevention—and inspired five key questions that can help institutions scale.",
+    "latest": "A year of delivery has confirmed much of what we expected about agentic AI in financial-crime prevention—and inspired five key questions that can help institutions scale.",
+    "memberIds": [
+      "src-14fwtni"
+    ],
+    "facts": [
+      {
+        "title": "Agentic AI in financial-crime ",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Agentic AI in financial-crime prevention: Lessons from winners",
+        "occurredAt": "2026-10-25"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-25T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-25T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-14fwtni",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-365thh",
+    "rootId": "src-140rnrg",
+    "title": "The rise of the agentic coworker: A banking CIO’s guide to the next wave of AI",
+    "digest": "AI agents can increasingly make decisions, act, and collaborate across workflows. Deploying them at scale requires new approaches to governance, architecture, and accountability.",
+    "latest": "AI agents can increasingly make decisions, act, and collaborate across workflows. Deploying them at scale requires new approaches to governance, architecture, and accountability.",
+    "memberIds": [
+      "src-140rnrg"
+    ],
+    "facts": [
+      {
+        "title": "The rise of the agentic cowork",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "The rise of the agentic coworker: A banking CIO’s guide to the next wave of AI",
+        "occurredAt": "2026-10-25"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-25T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-25T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-140rnrg",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-10n2q1j",
+    "rootId": "src-b73wzs",
+    "title": "Agentic AI in transaction monitoring: How banks can scale AI in compliance",
+    "digest": "Applying AI to transaction monitoring shows how agents can transform compliance tasks and processes, turning cost centers into drivers of advantage.",
+    "latest": "Applying AI to transaction monitoring shows how agents can transform compliance tasks and processes, turning cost centers into drivers of advantage.",
+    "memberIds": [
+      "src-b73wzs"
+    ],
+    "facts": [
+      {
+        "title": "Agentic AI in transaction moni",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Agentic AI in transaction monitoring: How banks can scale AI in compliance",
+        "occurredAt": "2026-10-25"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-25T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-25T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-b73wzs",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-15f0w7p",
+    "rootId": "src-1e667of",
+    "title": "SFC approves first-ever secondary trading of tokenised public funds",
+    "digest": "SFC approves first-ever secondary trading of tokenised public funds",
+    "latest": "SFC approves first-ever secondary trading of tokenised public funds",
+    "memberIds": [
+      "src-1e667of"
+    ],
+    "facts": [
+      {
+        "title": "SFC approves first-ever second",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "approve",
+        "object": "SFC approves first-ever secondary trading of tokenised public funds",
+        "occurredAt": "2026-10-26"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-26T03:50:08.000Z",
+    "latestPublishedAt": "2026-10-26T03:50:08.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1e667of",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-ehnf5t",
+    "rootId": "src-1w8o3ba",
+    "title": "What AI can’t replace—and why it matters for value",
+    "digest": "AI may be deepening our crisis of connection, says Stanford research psychologist Jamil Zaki. Managing change with empathy helps leaders build trust, strengthen relationships, and get the most out of their AI investments.",
+    "latest": "AI may be deepening our crisis of connection, says Stanford research psychologist Jamil Zaki. Managing change with empathy helps leaders build trust, strengthen relationships, and get the most out of their AI investments.",
+    "memberIds": [
+      "src-1w8o3ba"
+    ],
+    "facts": [
+      {
+        "title": "What AI can’t replace—and why ",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "What AI can’t replace—and why it matters for value",
+        "occurredAt": "2026-10-26"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-26T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-26T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1w8o3ba",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1e6sy8q",
+    "rootId": "src-1umg026",
+    "title": "‘Hold course and adapt as you go’: An interview with Manon van Beek",
+    "digest": "As she prepares to step down, the CEO of leading European grid operator TenneT reflects on scaling energy infrastructure, navigating geopolitical shocks, and building resilience amid uncertainty.",
+    "latest": "As she prepares to step down, the CEO of leading European grid operator TenneT reflects on scaling energy infrastructure, navigating geopolitical shocks, and building resilience amid uncertainty.",
+    "memberIds": [
+      "src-1umg026"
+    ],
+    "facts": [
+      {
+        "title": "‘Hold course and adapt as you ",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "‘Hold course and adapt as you go’: An interview with Manon van Beek",
+        "occurredAt": "2026-10-26"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-26T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-26T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1umg026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-16oteaw",
+    "rootId": "src-1if3axo",
+    "title": "EU Commission Launches Climate Resilience Framework",
+    "digest": "The European Commission unveiled on Tuesday its highly-anticipated Climate Resilience Framework",
+    "latest": "The European Commission unveiled on Tuesday its highly-anticipated Climate Resilience Framework",
+    "memberIds": [
+      "src-1if3axo"
+    ],
+    "facts": [
+      {
+        "title": "EU Commission Launches Climate",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "EU Commission Launches Climate Resilience Framework",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-27T13:13:23.000Z",
+    "latestPublishedAt": "2026-10-27T13:13:23.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1if3axo",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-66vsyt",
+    "rootId": "src-9rydh8",
+    "title": "Hg Acquires Majority Stake in Renewable Energy Advisory and Software Provider 3E",
+    "digest": "Software and services-focused investment firm Hg announced the acquisition of a majority stake in renewable",
+    "latest": "Software and services-focused investment firm Hg announced the acquisition of a majority stake in renewable",
+    "memberIds": [
+      "src-9rydh8"
+    ],
+    "facts": [
+      {
+        "title": "Hg Acquires Majority Stake in ",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Hg Acquires Majority Stake in Renewable Energy Advisory and Software Provider 3E",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-27T14:06:53.000Z",
+    "latestPublishedAt": "2026-10-27T14:06:53.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-9rydh8",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-28v6y5",
+    "rootId": "src-1pkrzcf",
+    "title": "Iberdrola Returns to U.S. Debt Market with $1.6 Billion Green Bond Issuance",
+    "digest": "Spanish multinational energy company Iberdrola announced that it has raised $1.6 billion in a green",
+    "latest": "Spanish multinational energy company Iberdrola announced that it has raised $1.6 billion in a green",
+    "memberIds": [
+      "src-1pkrzcf"
+    ],
+    "facts": [
+      {
+        "title": "Iberdrola Returns to U.S. Debt",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Iberdrola Returns to U.S. Debt Market with $1.6 Billion Green Bond Issuance",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-27T15:26:53.000Z",
+    "latestPublishedAt": "2026-10-27T15:26:53.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1pkrzcf",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-uiq52z",
+    "rootId": "src-rrorf5",
+    "title": "Agentic AI in strategic sourcing: Hype or hero?",
+    "digest": "As more procurement functions invest in agentic AI to capture savings and drive efficiency, the question is increasingly: Is it worth it?",
+    "latest": "As more procurement functions invest in agentic AI to capture savings and drive efficiency, the question is increasingly: Is it worth it?",
+    "memberIds": [
+      "src-rrorf5"
+    ],
+    "facts": [
+      {
+        "title": "Agentic AI in strategic sourci",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Agentic AI in strategic sourcing: Hype or hero?",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-27T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-27T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-rrorf5",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1336kh3",
+    "rootId": "src-356c6w",
+    "title": "Who wins when AI does the shopping? New evidence on agentic commerce",
+    "digest": "Analysis of about 21,000 consumers indicates how AI shopping behavior is growing and evolving, with early evidence showing companies are not yet equipped to meet the rising demand.",
+    "latest": "Analysis of about 21,000 consumers indicates how AI shopping behavior is growing and evolving, with early evidence showing companies are not yet equipped to meet the rising demand.",
+    "memberIds": [
+      "src-356c6w"
+    ],
+    "facts": [
+      {
+        "title": "Who wins when AI does the shop",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Who wins when AI does the shopping? New evidence on agentic commerce",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-27T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-27T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-356c6w",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1t9s9xe",
+    "rootId": "src-qjjb1w",
+    "title": "Singapore Revises Clean Energy Claims Rules to Address Greenwashing Risks",
+    "digest": "Singapore’s Ministry of Energy, Trade and Industry announced the release of an updated Singapore Standard",
+    "latest": "Singapore’s Ministry of Energy, Trade and Industry announced the release of an updated Singapore Standard",
+    "memberIds": [
+      "src-qjjb1w"
+    ],
+    "facts": [
+      {
+        "title": "Singapore Revises Clean Energy",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "revise",
+        "object": "Singapore Revises Clean Energy Claims Rules to Address Greenwashing Risks",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-27T16:29:41.000Z",
+    "latestPublishedAt": "2026-10-27T16:29:41.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-qjjb1w",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1g8qenq",
+    "rootId": "src-15x08y0",
+    "title": "HKEX Expands Integrated Fund Platform with Launch of Platform and Nominee Services",
+    "digest": "HKEX Expands Integrated Fund Platform with Launch of Platform and Nominee Services",
+    "latest": "SFC welcomes launch of Platform and Nominee Services on Integrated Fund Platform",
+    "memberIds": [
+      "src-15x08y0",
+      "src-rnikqc"
+    ],
+    "facts": [
+      {
+        "title": "HKEX Expands Integrated Fund P",
+        "subject": "香港交易所新闻稿",
+        "action": "发布",
+        "object": "HKEX Expands Integrated Fund Platform with Launch of Platform and Nominee Servic",
+        "occurredAt": "2026-10-28"
+      },
+      {
+        "title": "SFC welcomes launch of Platfor",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "SFC welcomes launch of Platform and Nominee Services on Integrated Fund Platform",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "hkex-news",
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-28T04:00:00.000Z",
+    "latestPublishedAt": "2026-10-28T04:05:30.000Z",
+    "heat": 2.8,
+    "relations": [
+      {
+        "memberId": "src-15x08y0",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-rnikqc",
+        "relation": "SAME_STORY",
+        "confidence": 0.7272727272727273
+      }
+    ],
+    "heat6hAgo": 3.4,
+    "trend": "down",
+    "trendPct": -17.6,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港交易所新闻稿",
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-11aevir",
+    "rootId": "src-hdpd1f",
+    "title": "PureTerra Scores €30 Million Commitment for New Water Tech Venture Fund from EIF",
+    "digest": "Water technology-focused venture capital firm PureTerra Ventures announced that it has secured a €30 million",
+    "latest": "Water technology-focused venture capital firm PureTerra Ventures announced that it has secured a €30 million",
+    "memberIds": [
+      "src-hdpd1f"
+    ],
+    "facts": [
+      {
+        "title": "PureTerra Scores €30 Million C",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "PureTerra Scores €30 Million Commitment for New Water Tech Venture Fund from EIF",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-28T08:20:32.000Z",
+    "latestPublishedAt": "2026-10-28T08:20:32.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-hdpd1f",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-4c0hw9",
+    "rootId": "src-mlhmmq",
+    "title": "Sweep, Climatiq Partner on Supply Chain Product Carbon Footprint Solution",
+    "digest": "Enterprise sustainability data management platform Sweep and carbon intelligence solutions provider Climatiq announced a new",
+    "latest": "Enterprise sustainability data management platform Sweep and carbon intelligence solutions provider Climatiq announced a new",
+    "memberIds": [
+      "src-mlhmmq"
+    ],
+    "facts": [
+      {
+        "title": "Sweep, Climatiq Partner on Sup",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Sweep, Climatiq Partner on Supply Chain Product Carbon Footprint Solution",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-28T09:23:35.000Z",
+    "latestPublishedAt": "2026-10-28T09:23:35.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-mlhmmq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-nutgty",
+    "rootId": "src-11uqnge",
+    "title": "SFC issues guidance to support enhancements to Hong Kong’s retail fund regime",
+    "digest": "SFC issues guidance to support enhancements to Hong Kong’s retail fund regime",
+    "latest": "SFC issues guidance to support enhancements to Hong Kong’s retail fund regime",
+    "memberIds": [
+      "src-11uqnge"
+    ],
+    "facts": [
+      {
+        "title": "SFC issues guidance to support",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "SFC issues guidance to support enhancements to Hong Kong’s retail fund regime",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-28T11:18:53.000Z",
+    "latestPublishedAt": "2026-10-28T11:18:53.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-11uqnge",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-7wfwvw",
+    "rootId": "src-1nj0as1",
+    "title": "Microsoft Signs Clean Energy Deals in Japan with Macquarie’s Blueleaf",
+    "digest": "Macquarie Asset Management-owned pan-Asian renewable energy platform Blueleaf Energy announced today that it has signed",
+    "latest": "Macquarie Asset Management-owned pan-Asian renewable energy platform Blueleaf Energy announced today that it has signed",
+    "memberIds": [
+      "src-1nj0as1"
+    ],
+    "facts": [
+      {
+        "title": "Microsoft Signs Clean Energy D",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Microsoft Signs Clean Energy Deals in Japan with Macquarie’s Blueleaf",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-28T11:30:37.000Z",
+    "latestPublishedAt": "2026-10-28T11:30:37.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1nj0as1",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1swwnrz",
+    "rootId": "src-pw7yk5",
+    "title": "Deutsche Bank Reports Record €32 Billion Sustainable Finance Quarter",
+    "digest": "Deutsche Bank reported that its sustainable and transition financing volumes reached €32 billion (USD$35.6 billion)",
+    "latest": "Deutsche Bank reported that its sustainable and transition financing volumes reached €32 billion (USD$35.6 billion)",
+    "memberIds": [
+      "src-pw7yk5"
+    ],
+    "facts": [
+      {
+        "title": "Deutsche Bank Reports Record €",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Deutsche Bank Reports Record €32 Billion Sustainable Finance Quarter",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-28T11:59:07.000Z",
+    "latestPublishedAt": "2026-10-28T11:59:07.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-pw7yk5",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-m3tjci",
+    "rootId": "src-18bmxzg",
+    "title": "LEGO Group Begins Using Material Made from Hydrogen and Captured CO2 in Plastic Pieces",
+    "digest": "The LEGO Group announced that it has started using e-methanol, made from renewable electricity",
+    "latest": "The LEGO Group announced that it has started using e-methanol, made from renewable electricity",
+    "memberIds": [
+      "src-18bmxzg"
+    ],
+    "facts": [
+      {
+        "title": "LEGO Group Begins Using Materi",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "LEGO Group Begins Using Material Made from Hydrogen and Captured CO2 in Plastic ",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-28T13:40:53.000Z",
+    "latestPublishedAt": "2026-10-28T13:40:53.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-18bmxzg",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-wtoyou",
+    "rootId": "src-1bvljka",
+    "title": "Emvolon Raises $22 Million to Turn Waste Greenhouse Gas into Sustainable Fuels",
+    "digest": "Clean energy startup Emvolon announced that it has raised $22 million in a Series A",
+    "latest": "Clean energy startup Emvolon announced that it has raised $22 million in a Series A",
+    "memberIds": [
+      "src-1bvljka"
+    ],
+    "facts": [
+      {
+        "title": "Emvolon Raises $22 Million to ",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Emvolon Raises $22 Million to Turn Waste Greenhouse Gas into Sustainable Fuels",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-28T14:30:59.000Z",
+    "latestPublishedAt": "2026-10-28T14:30:59.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1bvljka",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
