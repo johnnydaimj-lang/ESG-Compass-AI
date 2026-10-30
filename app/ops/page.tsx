@@ -5,7 +5,7 @@ import Link from "next/link";
 import {
   Activity, AlertTriangle, RefreshCw, Play, ExternalLink,
   CheckCircle, XCircle, Clock, Server, FileText, Star, Globe,
-  ArrowUpRight, Wifi, WifiOff, ChevronRight, Layers, Settings2, RadioTower, Flame } from "lucide-react";
+  ArrowUpRight, Wifi, WifiOff, ChevronRight, Layers, Settings2, RadioTower, Flame, Send } from "lucide-react";
 import { ROADMAP } from "@/lib/roadmap";
 
 // ── 类型 ──────────────────────────────────────────────
@@ -169,6 +169,7 @@ export default function OpsDashboard() {
           <Link href="/ops/hotspots" className="inline-flex items-center gap-1.5 rounded-md border border-brand-line bg-brand-soft px-3 py-1.5 text-[12px] font-medium text-brand-deep transition-colors hover:bg-brand-line"><Flame size={13} />热点跟踪</Link>
           <Link href="/ops/monthly-insights" className="inline-flex items-center gap-1.5 rounded-md border border-brand-line bg-brand-soft px-3 py-1.5 text-[12px] font-medium text-brand-deep transition-colors hover:bg-brand-line"><FileText size={13} />月度洞察</Link>
           <Link href="/ops/product-map" className="inline-flex items-center gap-1.5 rounded-md border border-brand-line bg-brand-soft px-3 py-1.5 text-[12px] font-medium text-brand-deep transition-colors hover:bg-brand-line"><FileText size={13} />产品思维导图</Link>
+          <Link href="/ops/wechat" className="inline-flex items-center gap-1.5 rounded-md border border-brand-line bg-brand-soft px-3 py-1.5 text-[12px] font-medium text-brand-deep transition-colors hover:bg-brand-line"><Send size={13} />公众号发布</Link>
         </div>
       </div>
 

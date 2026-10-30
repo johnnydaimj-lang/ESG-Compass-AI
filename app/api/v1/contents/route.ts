@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { getAllContents, CONTENT_TYPES } from "@/lib/esg-data";
 import { sliceLongText, CONTENT_API_TOKEN_BUDGET, CONTENT_API_SLICE_CHARS } from "@/lib/context-slicer";
+import { queryContents, type ContentQuery } from "@/lib/publication-query";
+import type { ContentType } from "@/lib/contracts/content";
 import { getZonesByEventId, getZonesForContent } from "@/lib/zones-store";
 
 export const dynamic = "force-dynamic";
@@ -32,6 +34,7 @@ export async function GET(request: Request) {
   const page = Number.isFinite(rawPage) && rawPage >= 1 ? Math.floor(rawPage) : 1;
   const pageSize = Number.isFinite(rawPageSize) && rawPageSize >= 1 ? Math.min(50, Math.floor(rawPageSize)) : 20;
   const contentType = url.searchParams.get("contentType");
+  const q = (url.searchParams.get("q") || "").trim().slice(0, 120);
   const curated = url.searchParams.get("curated");
   const updatedAfter = url.searchParams.get("updatedAfter");
   const zoneId = url.searchParams.get("zone");
@@ -40,16 +43,19 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: `contentType 必须是 ${CONTENT_TYPES.join(" / ")}` }, { status: 400 });
   }
 
-  let items = getAllContents().filter((c) => !c.aiDraft);
-  if (contentType) items = items.filter((c) => c.contentType === contentType);
-  if (curated === "true") items = items.filter((c) => c.recommended);
-  if (curated === "false") items = items.filter((c) => !c.recommended);
-  if (updatedAfter) items = items.filter((c) => c.publishedAt >= updatedAfter);
+  const query: ContentQuery = {
+    q,
+    contentType: (contentType || undefined) as ContentType | undefined,
+    recommended: curated === "true" ? true : curated === "false" ? false : undefined,
+    updatedAfter: updatedAfter || undefined,
+    excludeDrafts: true,
+  };
+
+  let items = queryContents(getAllContents(), query);
   if (zoneId) items = items.filter((c) => zonesForItem(c).some((z) => z.id === zoneId));
 
   const total = items.length;
-  const sorted = items.slice().sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
-  const pageItems = sorted.slice((page - 1) * pageSize, page * pageSize);
+  const pageItems = items.slice((page - 1) * pageSize, page * pageSize);
 
   const payload = pageItems.map((c) => ({
     id: c.id,
@@ -76,6 +82,7 @@ export async function GET(request: Request) {
     total,
     page,
     pageSize,
+    query: q || undefined,
     tokenBudget: CONTENT_API_TOKEN_BUDGET,
     sliceChars: CONTENT_API_SLICE_CHARS,
   });

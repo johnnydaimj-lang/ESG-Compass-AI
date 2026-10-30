@@ -1,0 +1,171 @@
+{
+  "issue": 1,
+  "year": 2026,
+  "week": 43,
+  "status": "review_pending",
+  "rangeStart": "2026-10-19",
+  "rangeEnd": "2026-10-25",
+  "scheduledAt": "2026-10-26T02:00:00.000Z",
+  "timezone": "Asia/Shanghai",
+  "headline": "从自然披露到气候适应：本周（10.19-10.25） ESG 的五个关键变化",
+  "deck": "自然相关信息披露再进一步，欧盟甲烷规则出现时间表调整，气候适应资金与绿色资本市场同时提速。我们梳理 10 月 19 日至 25 日最值得持续跟踪的五条线索。",
+  "stats": {
+    "itemsScanned": 416,
+    "itemsInRange": 22,
+    "mainStories": 5,
+    "readingMinutes": 8
+  },
+  "intro": "这一周的主线并非单一政策事件，而是 ESG 议题正在从“承诺”走向更具体的会计语言、监管边界和资本配置。企业需要关注的，不只是规则是否生效，更是披露口径、供应链证据与融资条件将如何改变。",
+  "contents": [
+    "ISSB 拟把自然相关风险纳入企业披露",
+    "欧盟甲烷规则拟推迟三年实施",
+    "欧洲投资银行加码气候适应融资",
+    "港交所推出绿色股权认定计划",
+    "三大食品饮料企业调整回收相关表述"
+  ],
+  "stories": [
+    {
+      "number": "01",
+      "category": "披露规则",
+      "title": "ISSB 拟把自然相关风险纳入企业披露",
+      "originalTitle": "ISSB Releases Proposed Nature-Related Reporting Requirements",
+      "source": "ESG Today",
+      "sourceDate": "2026-10-22",
+      "url": "https://www.esgtoday.com/issb-releases-proposed-nature-related-reporting-requirements/",
+      "fact": "国际可持续准则理事会（ISSB）发布自然相关披露要求的首份征求意见稿，拟以自愿适用的《实践声明》补充 IFRS S1 和 S2。ISSB 表示，草案要求企业说明已采取及计划采取的自然相关应对如何体现在战略和决策中，披露战略与商业模式面对自然相关不确定性的韧性，以及易受自然风险影响、与自然机遇相符的资产或业务的金额和占比；企业还须说明自然相关目标的内容、地点特征、目的，以及是否及如何参考法律法规。《实践声明》不构成声明遵守 ISSB 准则的必要条件，但辖区可选择使其具有强制性。ISSB 同时就是否改为独立强制准则征求意见，咨询期至 2027 年 2 月 19 日。",
+      "interpretation": "自然议题过去常停留在项目层面的环境影响说明，未来更可能被要求映射到治理、战略、风险和财务影响。对依赖土地、淡水、森林或生物资源的行业而言，难点会从“有没有行动”转向“能否量化依赖、影响与情景韧性”。",
+      "watchpoints": [
+        "正式征求意见稿的范围、行业指引与生效路径",
+        "与 TNFD 框架及现有 ISSB 气候披露的衔接方式",
+        "企业是否具备地点级自然依赖与供应链数据"
+      ],
+      "stakeholders": ["农业与食品", "矿业与能源", "金融机构"]
+    },
+    {
+      "number": "02",
+      "category": "监管节奏",
+      "title": "欧盟甲烷规则拟推迟三年实施",
+      "originalTitle": "EU Lawmakers Push to Delay Methane Emissions Rules by 3 Years",
+      "source": "ESG Today",
+      "sourceDate": "2026-10-23",
+      "url": "https://www.esgtoday.com/eu-lawmakers-push-to-delay-methane-emissions-rules-by-3-years/",
+      "fact": "欧洲议会以 341 票赞成、225 票反对，通过关于欧盟委员会延期提案的谈判立场，拟把 2024 年欧盟甲烷规则下油气和煤炭进口商的甲烷监测、报告与核查义务从 2028 年推迟至 2031 年，明显长于委员会提出的一年延期。议会还拟给欧盟油气运营商额外三年，提交结合源头和场站测量的核查报告，运营资产期限由 2027 年延至 2030 年 2 月，非运营资产延至 2031 年 8 月。议会称，进口商担心在能源市场承压时无法获得足够合规供应。",
+      "interpretation": "这是一次执行时间表的调整，而不是规则撤销。对出口欧盟的油气企业而言，短期合规压力有所缓和，但客户尽调、合同条款和甲烷数据能力建设不会消失。更长的窗口也可能被买方用来提高对可核查数据的要求。",
+      "watchpoints": [
+        "欧洲议会、理事会与委员会后续协商的最终期限",
+        "进口合同是否提前引入甲烷强度与计量条款",
+        "卫星监测及第三方核查数据能否成为替代证据"
+      ],
+      "stakeholders": ["油气出口商", "航运与化工", "欧盟进口商"]
+    },
+    {
+      "number": "03",
+      "category": "气候适应",
+      "title": "欧洲投资银行加码气候适应融资",
+      "originalTitle": "EIB Unveils €30 Billion Climate Adaptation Plan",
+      "source": "ESG Today",
+      "sourceDate": "2026-10-22",
+      "url": "https://www.esgtoday.com/eib-unveils-e30-billion-climate-adaptation-plan/",
+      "fact": "欧洲投资银行集团公布面向 2026 至 2030 年的“气候适应计划第二阶段”，承诺到 2030 年提供至少 300 亿欧元（约 340 亿美元）融资，使投放速度较过去五年翻倍。资金将支持能源网络、公共建筑、水务和韧性农业等领域，重点包括节水灌溉、储水与再利用、湿地森林和洪泛区修复，以及抵御干旱和洪水的基础设施。计划通过项目储备、咨询、混合融资和风险分担工具动员公私资本，并借助与 Copernicus Climate Change Service 开发的 ClimateSET 工具识别气候风险；该工具预计今年晚些时候上线。",
+      "interpretation": "气候金融的重心正在从减排扩展到“如何降低已经发生的气候损失”。水务、电网、防洪、城市基础设施和韧性农业更容易获得长期资本，但项目需要更清楚地证明气候风险暴露、适应收益与可融资性。",
+      "watchpoints": [
+        "适应项目的具体准入标准与结果指标",
+        "公共资金能否有效带动私营资本共同投资",
+        "防灾收益如何被纳入项目现金流与信用评估"
+      ],
+      "stakeholders": ["基础设施", "公用事业", "保险与银行"]
+    },
+    {
+      "number": "04",
+      "category": "资本市场",
+      "title": "港交所推出绿色股权认定计划",
+      "originalTitle": "HKEX Launches Green Equity Designation Programme to Strengthen Capital Support for Green Economy",
+      "source": "香港交易所",
+      "sourceDate": "2026-10-20",
+      "url": "https://www.hkex.com.hk/News/News-Release/2026/261020news?sc_lang=en",
+      "fact": "香港交易所于 10 月 20 日推出自愿性质的“港交所绿色股权”认定计划，帮助投资者识别绿色业务活动显著的港股公司，并推动香港可持续金融分类目录在资本市场应用。申请人须由独立认可评审机构依据《港交所绿色股权框架》，评估其业务对绿色经济的贡献；通过后可获得认定标识，并须持续符合要求及接受年度重新评估。计划即日起接受申请，认可评审机构名单已在专题网页公布。",
+      "interpretation": "对亚洲发行人而言，新的识别机制可能影响投资者筛选、指数产品开发和信息披露展示，但“绿色认定”不应被直接等同于没有转型风险。市场下一步会关注认定标准、持续合规义务以及是否形成资金成本差异。",
+      "watchpoints": [
+        "最终 eligibility 标准与收入/资本开支绿色比例口径",
+        "认定后的持续披露和退出机制",
+        "资管机构与指数供应商是否采用该标识"
+      ],
+      "stakeholders": ["港股发行人", "资产管理机构", "绿色科技企业"]
+    },
+    {
+      "number": "05",
+      "category": "绿色营销",
+      "title": "三大食品饮料企业调整回收相关表述",
+      "originalTitle": "Coca-Cola, Nestlé, and Danone Agree to Improve Recycling Claims Following EU Greenwashing Complaint",
+      "source": "ESG Today",
+      "sourceDate": "2026-10-22",
+      "url": "https://www.esgtoday.com/coca-cola-nestle-and-danone-agree-to-improve-recycling-claims-following-eu-greenwashing-complaint/",
+      "fact": "欧洲消费者组织（BEUC）联合 13 国成员于 2023 年 11 月就塑料瓶可回收性与再生材料宣传发出警示后，可口可乐、雀巢和达能在与欧盟委员会及消费者保护合作网络对话后作出承诺。三家企业同意修改瓶身表述，例如将“由 100% 再生塑料制成”改为“本瓶为 100% 再生材料，瓶盖和标签除外”，并将“请再次回收我”改为“请回收我”；同时确保标签和营销的整体观感不误导消费者，并让官网和社交媒体的数字营销体现新承诺。成员国消费者保护机构将监督落实，不合规时可采取执法措施。",
+      "interpretation": "监管审查正在从年报和正式披露，延伸到包装、广告与货架沟通。企业不能只证明“包装可回收”，还要避免让消费者误以为当地一定具备回收条件。营销、包装设计和法务需要共用同一套证据。",
+      "watchpoints": [
+        "调整后的包装标识与门店/产品落地范围",
+        "欧盟绿色声明指令的最终执行要求",
+        "可回收性、实际回收率与再生材料含量三类指标如何区分"
+      ],
+      "stakeholders": ["消费品", "包装企业", "零售与电商"]
+    }
+  ],
+  "quickBriefs": [
+    {
+      "category": "能源系统",
+      "title": "Google 与 Voltus 扩大虚拟电厂合作至 1GW",
+      "fact": "双方计划聚合家庭与企业的可调节负荷，为数据中心密集区域的电力系统提供灵活性。合作规模由此前的 100MW 目标扩大至 1GW。",
+      "href": "https://www.esgtoday.com/google-signs-deal-to-build-1gw-virtual-power-plant-aggregating-energy-from-homes-businesses/"
+    },
+    {
+      "category": "转型资金",
+      "title": "英国设立 20 亿英镑能源财富基金",
+      "fact": "新基金拟使用北海油气相关税收收入支持清洁能源投资，并与 Jackdaw 气田开发决定同时公布，体现能源安全与转型融资并行的政策取向。",
+      "href": "https://www.esgtoday.com/uk-channels-oil-gas-revenues-into-new-2-billion-clean-energy-fund/"
+    }
+  ],
+  "outlook": "接下来两周，值得重点观察三件事：ISSB 自然披露提案是否给出清晰的时间表；欧盟甲烷规则延期在机构协商中是否再次变化；港交所绿色股权认定如何与现有 ESG 披露和指数体系衔接。共同点是，规则文字背后的数据能力与执行证据，正在成为真正的竞争门槛。",
+  "sources": [
+    {
+      "name": "ESG Today – ISSB nature-related reporting",
+      "date": "2026-10-22",
+      "url": "https://www.esgtoday.com/issb-releases-proposed-nature-related-reporting-requirements/"
+    },
+    {
+      "name": "ESG Today – EU methane rules",
+      "date": "2026-10-23",
+      "url": "https://www.esgtoday.com/eu-lawmakers-push-to-delay-methane-emissions-rules-by-3-years/"
+    },
+    {
+      "name": "ESG Today – EIB adaptation plan",
+      "date": "2026-10-22",
+      "url": "https://www.esgtoday.com/eib-unveils-e30-billion-climate-adaptation-plan/"
+    },
+    {
+      "name": "HKEX – Green Equity Designation Programme",
+      "date": "2026-10-20",
+      "url": "https://www.hkex.com.hk/News/News-Release/2026/261020news?sc_lang=en"
+    },
+    {
+      "name": "ESG Today – EU greenwashing complaint",
+      "date": "2026-10-22",
+      "url": "https://www.esgtoday.com/coca-cola-nestle-and-danone-agree-to-improve-recycling-claims-following-eu-greenwashing-complaint/"
+    },
+    {
+      "name": "ESG Today – Google virtual power plant",
+      "date": "2026-10-23",
+      "url": "https://www.esgtoday.com/google-signs-deal-to-build-1gw-virtual-power-plant-aggregating-energy-from-homes-businesses/"
+    },
+    {
+      "name": "ESG Today – UK Energy Wealth Fund",
+      "date": "2026-10-22",
+      "url": "https://www.esgtoday.com/uk-channels-oil-gas-revenues-into-new-2-billion-clean-energy-fund/"
+    }
+  ],
+  "editorial": {
+    "title": "观澜 ESG Compass · 第 01 期",
+    "reviewStatus": "待人工终审",
+    "note": "本页为历史预览稿。W43 原计划于 2026 年 10 月 26 日 10:00（北京时间）发布；后续周报默认于周一 08:00（北京时间）发布，需完成公众号接入与人工审阅后方可推送。",
+    "methodology": "基于观澜 ESG Compass 截至 2026 年 10 月 25 日的发布库整理。先按发布时间筛选 10 月 19 日至 25 日的 22 条内容，再结合政策层级、影响范围与后续可验证性人工选出 5 个主议题。事实与解读分栏呈现；AI 辅助整理，不替代原始信源。"
+  }
+}

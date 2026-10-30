@@ -36,7 +36,19 @@
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    }
+    },
+    "sourceRefs": [
+      {
+        "sourceName": "欧盟委员会",
+        "sourceUrl": "https://finance.ec.europa.eu/publications/platform-sustainable-finances-statement-esrs-non-eu-companies-esrs-40_en",
+        "publishedAt": "2026-10-28T15:50:23.000Z"
+      },
+      {
+        "sourceName": "Eurosif",
+        "sourceUrl": "https://www.eurosif.org/news/eurosif-responds-to-efrag-consultation-on-esrs-40a/",
+        "publishedAt": "2026-10-28T15:50:23.000Z"
+      }
+    ]
   },
   {
     "id": "src-1bvljka",

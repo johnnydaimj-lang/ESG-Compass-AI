@@ -1,19 +1,35 @@
 import { getAllContents } from "@/lib/esg-data";
 import { getAllZones } from "@/lib/zones-store";
 import { readHeatHistory, readHotspots } from "@/lib/publication-store";
-import HomeClient from "@/components/HomeClient";
+import { contentTypeFromSlug, queryContents } from "@/lib/publication-query";
+import HomeClient, { type InitialHomeFilters } from "@/components/HomeClient";
 
 export const dynamic = "force-dynamic";
 
-interface Props { searchParams: Promise<{ month?: string }> }
+interface Props {
+  searchParams: Promise<{ month?: string; q?: string; type?: string; curated?: string }>;
+}
 
 export default async function HomePage({ searchParams }: Props) {
-  const { month } = await searchParams;
-  const contents = getAllContents();
-  const sorted = [...contents].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+  const { month, q, type, curated } = await searchParams;
+  const contents = queryContents(getAllContents());
   const zones = getAllZones();
-  const initialMonth = month && /^\d{4}-\d{2}$/.test(month) ? month : undefined;
   const hotspots = readHotspots();
   const heatHistory = readHeatHistory();
-  return <HomeClient contents={sorted} zones={zones} initialMonth={initialMonth} hotspots={hotspots} heatHistory={heatHistory} />;
+  const initialFilters: InitialHomeFilters = {
+    query: (q || "").slice(0, 120),
+    type: contentTypeFromSlug(type),
+    month: month && /^\d{4}-\d{2}$/.test(month) ? month : undefined,
+    pickedOnly: curated === "1" || curated === "true",
+  };
+
+  return (
+    <HomeClient
+      contents={contents}
+      zones={zones}
+      initialFilters={initialFilters}
+      hotspots={hotspots}
+      heatHistory={heatHistory}
+    />
+  );
 }

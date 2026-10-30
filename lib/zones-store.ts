@@ -1,15 +1,22 @@
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, statSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { DEFAULT_ZONES, DEFAULT_ZONE_KEYWORDS, type Zone } from "@/lib/zones-data";
 
 const ZONES_FILE = resolve(process.cwd(), "data", "zones.json");
 
+let zoneCache: { mtimeMs: number; size: number; zones: Zone[] } | null = null;
+
 export function readZones(): Zone[] {
   try {
-    if (!existsSync(ZONES_FILE)) return DEFAULT_ZONES;
+    const stat = statSync(ZONES_FILE);
+    if (zoneCache && zoneCache.mtimeMs === stat.mtimeMs && zoneCache.size === stat.size) {
+      return zoneCache.zones;
+    }
     const raw = JSON.parse(readFileSync(ZONES_FILE, "utf-8"));
     const zones = Array.isArray(raw) ? raw : raw.zones;
-    return Array.isArray(zones) ? zones : DEFAULT_ZONES;
+    const resolved = Array.isArray(zones) ? zones : DEFAULT_ZONES;
+    zoneCache = { mtimeMs: stat.mtimeMs, size: stat.size, zones: resolved };
+    return resolved;
   } catch {
     return DEFAULT_ZONES;
   }
@@ -17,6 +24,12 @@ export function readZones(): Zone[] {
 
 export function writeZones(zones: Zone[]) {
   writeFileSync(ZONES_FILE, JSON.stringify({ zones }, null, 2) + "\n", "utf-8");
+  try {
+    const stat = statSync(ZONES_FILE);
+    zoneCache = { mtimeMs: stat.mtimeMs, size: stat.size, zones };
+  } catch {
+    zoneCache = null;
+  }
 }
 
 export function getAllZones(): Zone[] {

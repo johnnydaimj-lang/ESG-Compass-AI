@@ -1,5 +1,6 @@
 import type { ContentItem } from "@/lib/contracts/content";
 import { readPublishedContents } from "@/lib/publication-store";
+import { dedupeContents } from "@/lib/publication-query";
 
 export {
   CONTENT_TYPES,
@@ -34,12 +35,7 @@ export function loadContents(): ContentItem[] {
 }
 
 export function getAllContents(): ContentItem[] {
-  const seen = new Set<string>();
-  return loadContents().filter((item) => {
-    if (!item?.id || seen.has(item.id)) return false;
-    seen.add(item.id);
-    return true;
-  });
+  return dedupeContents(loadContents());
 }
 
 export function getContentById(id: string): ContentItem | undefined {

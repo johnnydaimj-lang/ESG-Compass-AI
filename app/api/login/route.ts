@@ -47,8 +47,7 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
     const password = String(body.password || "");
-    // 生产环境不允许默认密码；本地开发未配置 ADMIN_PASSWORD 时保留旧默认值
-    const adminPassword = process.env.ADMIN_PASSWORD || (process.env.NODE_ENV === "production" ? "" : "esgcompass2024");
+    const adminPassword = process.env.ADMIN_PASSWORD?.trim() || "";
 
     if (!adminPassword || !password || !passwordsEqual(password, adminPassword)) {
       recordFailure(ip);

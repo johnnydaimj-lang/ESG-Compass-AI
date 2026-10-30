@@ -1,0 +1,47 @@
+{
+  "candidateKey": "2026-10-29-esrs-40a-mixed-approach-pushback",
+  "status": "shortlisted",
+  "editorialLine": "research",
+  "workingTitle": "欧盟给非欧盟企业开了『简化通道』，自己的顾问机构先反对了",
+  "productItemIds": ["src-164cz0q"],
+  "storyIds": ["story-it9r0c"],
+  "sourceUrls": [
+    "https://www.esgtoday.com/eu-sustainable-finance-investor-groups-push-back-against-weaker-sustainability-reporting-rules-for-non-eu-companies/",
+    "https://finance.ec.europa.eu/publications/platform-sustainable-finance-statement-esrs-non-eu-companies-esrs-40a_en",
+    "https://www.eurosif.org/news/eurosif-responds-to-efrag-consultation-on-esrs-40a/"
+  ],
+  "eventFact": "EFRAG 于 2026 年 7 月发布针对非欧盟企业的 ESRS-40a 征求意见稿（CSRD 第三国企业条款，按计划 2029 财年即以 2028 财年数据首次报告）。该稿将非欧盟企业披露范围限定为『影响』（剔除欧盟同行需披露的风险与机遇维度），并引入争议性『混合方法』：非气候类影响可只在『欧盟相关影响』范围内披露（仅覆盖在欧盟销售的产品/服务或在欧活动的影响）。2026-10-28 前后，欧盟可持续金融平台（PSF，欧盟委员会授权的官方顾问专家组）和 Eurosif 在 EFRAG 意见征询中提交声明，反对混合方法，并指出该方法是应欧盟委员会的明确要求纳入的；EFRAG 在 Basis for Conclusions 中记录了成员对该方法可能造成信息缺失、绿色洗涤风险、可比性受损的担忧。",
+  "controversy": "欧盟一手推动简化（omnibus 方向下降低报告负担），另一手其官方顾问机构警告简化对非欧盟企业形成『双重标准』：同一市场、两套披露深度。真正的争议点是——面向非欧盟企业的『降级版』披露标准，究竟是合理减轻负担，还是系统性掩蔽欧盟以外的人权与环境影响（环境影响无法按地域切割）。EFRAG 内部反对、委员会仍要求纳入，说明这是政治决策而非技术决策。",
+  "thesis": "我们认为：欧盟把非欧盟企业的可持续报告简化成了『欧盟相关影响』的局部披露；\n真正意味着：欧盟正以立法细节的形式把『本地合规、外地豁免』制度化，且自己的官方顾问机构已经公开否认其技术正当性；\n对在欧盟经营的出海企业（含中国企业）的影响是：2029 年首报义务的范围边界尚未定稿，现在预留的披露架构可能需要重做，且『简化版』并不必然等于更低的名誉与合规风险；\n接下来最重要的观察指标是：EFRAG 对意见征询的处理结果（是否从 ESRS-40a 中删除混合方法）以及欧盟委员会对终稿的政治干预程度。",
+  "whyNow": "ESRS-40a 意见征询刚在 10 月底收到 PSF 和 Eurosif 的正式反对声明，EFRAG 修订稿尚未发布——这是欧盟气候政策整体松动背景下（与甲烷推迟同期）披露标准层面罕见出现官方机构公开分歧的窗口，定稿前的评论窗口有限。",
+  "targetReader": "在欧盟有实质性经营、将受 CSRD 第三国条款约束的出海企业（含中国企业）的合规与可持续发展负责人；关注欧盟披露政策走向的投资者和咨询机构。",
+  "evidenceAvailable": [
+    "EFRAG ESRS-40a 征求意见稿原文（2026 年 7 月发布）及 Basis for Conclusions（含成员反对意见记录）——A 级",
+    "PSF 声明原文（欧盟委员会官网发布）——A 级",
+    "Eurosif 声明原文——A 级",
+    "ESG Today 2026-10-28 报道（时间线梳理，含两份声明直链）——B 级"
+  ],
+  "evidenceGaps": [
+    "欧盟委员会要求纳入混合方法的内部理由：仅有『明确要求』的事实，无公开的理由说明，需标注为未知",
+    "EFRAG 终稿是否保留/删除混合方法：未发生，成文前必须重核",
+    "非欧盟企业（尤其中国企业）的受益/受损测算：无第三方量化研究，不能编造影响规模",
+    "支持简化的企业方或行业协会的公开立场：本轮声明中未出现，需要补一轮检索；若补不到只能如实标注"
+  ],
+  "riskLevel": "中",
+  "risks": [
+    "征求意见阶段文件，终稿可能大幅修改，时效窗口要卡在 EFRAG 修订稿发布前",
+    "涉及中国企业时须避免『中国企业被针对』的预设叙事——混合方法客观上对非欧盟企业一视同仁，应保持事实导向",
+    "简化 vs 严格是正当政策辩论，不得把欧盟委员会立场写成『倒退』或『放弃』，双方论点都要给足篇幅"
+  ],
+  "scores": {
+    "timeliness": 85,
+    "relevance": 85,
+    "informationGain": 82,
+    "originality": 80,
+    "evidenceAvailability": 85,
+    "actionability": 78,
+    "total": 83
+  },
+  "createdAt": "2026-10-29",
+  "updatedAt": "2026-10-29"
+}

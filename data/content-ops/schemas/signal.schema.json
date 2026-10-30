@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://esg-compass.local/schemas/content-signal-v1.json",
+  "title": "Content Signal v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "signalId",
+    "detectedAt",
+    "title",
+    "fact",
+    "sourceName",
+    "sourceUrl",
+    "publishedAt",
+    "category",
+    "region",
+    "sourceGrade",
+    "isPrimarySource",
+    "evidenceCompleteness",
+    "whyItMatters",
+    "potentialAngles",
+    "watchpoints",
+    "stakeholders",
+    "novelty",
+    "materiality",
+    "durability",
+    "priority",
+    "status",
+    "tags",
+    "evidence",
+    "provenance"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "content-signal/v1" },
+    "signalId": { "type": "string", "pattern": "^sig-[a-f0-9]{16}$" },
+    "detectedAt": { "type": "string", "format": "date-time" },
+    "title": { "type": "string", "minLength": 1 },
+    "fact": { "type": "string", "minLength": 1 },
+    "sourceName": { "type": "string", "minLength": 1 },
+    "sourceUrl": { "type": "string", "format": "uri", "pattern": "^https?://" },
+    "publishedAt": { "type": "string", "minLength": 10 },
+    "category": {
+      "enum": ["policy", "research", "hotspot", "market", "corporate", "other"]
+    },
+    "region": { "type": "string", "minLength": 1 },
+    "sourceGrade": { "enum": ["A", "B", "C"] },
+    "isPrimarySource": { "type": "boolean" },
+    "evidenceCompleteness": { "type": "number", "minimum": 0, "maximum": 1 },
+    "trendClusterId": { "type": "string" },
+    "whyItMatters": { "type": "string", "minLength": 1 },
+    "potentialAngles": { "type": "array", "items": { "type": "string" } },
+    "watchpoints": { "type": "array", "items": { "type": "string" } },
+    "stakeholders": { "type": "array", "items": { "type": "string" } },
+    "novelty": { "type": "number", "minimum": 0, "maximum": 1 },
+    "materiality": { "type": "number", "minimum": 0, "maximum": 1 },
+    "durability": { "type": "number", "minimum": 0, "maximum": 1 },
+    "priority": { "enum": ["P0", "P1", "P2"] },
+    "status": { "enum": ["ready", "needs_evidence", "blocked"] },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "sourceName",
+          "sourceUrl",
+          "publishedAt",
+          "sourceGrade",
+          "locator",
+          "claim",
+          "status"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "sourceName": { "type": "string" },
+          "sourceUrl": { "type": "string", "format": "uri" },
+          "publishedAt": { "type": "string" },
+          "sourceGrade": { "enum": ["A", "B", "C"] },
+          "locator": { "type": "string" },
+          "claim": { "type": "string" },
+          "status": { "enum": ["verified", "revise", "blocked"] }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["producer", "pipeline", "recordId"],
+      "properties": {
+        "producer": { "const": "employee-1-content-scout" },
+        "pipeline": { "enum": ["weekly", "publication", "manual"] },
+        "recordId": { "type": "string" },
+        "issueKey": { "type": "string" },
+        "storyId": { "type": "string" }
+      }
+    }
+  }
+}

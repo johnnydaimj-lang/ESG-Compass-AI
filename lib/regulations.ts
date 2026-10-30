@@ -4,6 +4,7 @@
 import { getAllContents, type ContentItem } from "./esg-data";
 import { getZoneKeywords, getZonesByEventId, getZonesForContent } from "./zones-store";
 import { loadFilterRules } from "./filter-rules";
+import { buildStorySourceCounts, isFeedEligible } from "./feed-policy";
 
 const rules = loadFilterRules();
 const REGULATION_TYPES = new Set(rules.regulations?.contentTypes?.length ? rules.regulations.contentTypes : ["政策"]);
@@ -23,9 +24,13 @@ function sortByDateDesc(items: ContentItem[]): ContentItem[] {
 export function getRegulationsForZone(zoneId: string, limit = 8): ContentItem[] {
   const keywords = getZoneKeywords(zoneId);
   if (!keywords.length) return [];
+  const all = getAllContents();
+  const sourceCounts = buildStorySourceCounts(all);
   return sortByDateDesc(
-    getAllContents().filter((item) =>
-      isRegulation(item) && keywords.some((k) => contentText(item).includes(k.toLowerCase()))
+    all.filter((item) =>
+      isFeedEligible(item, sourceCounts) &&
+      isRegulation(item) &&
+      keywords.some((k) => contentText(item).includes(k.toLowerCase()))
     )
   ).slice(0, limit);
 }

@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>观澜 ESG Compass · 2026 W43 封面</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 1800px;
+        height: 766px;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      body {
+        background: #f4efe5;
+        color: #172321;
+        font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", sans-serif;
+      }
+
+      .cover {
+        display: grid;
+        grid-template-columns: 1320px 480px;
+        width: 1800px;
+        height: 766px;
+      }
+
+      .paper {
+        position: relative;
+        padding: 58px 88px 52px;
+        background: #f4efe5;
+      }
+
+      .masthead {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 98px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+      }
+
+      .brand-mark {
+        width: 82px;
+        height: 82px;
+        border-radius: 16px;
+        object-fit: cover;
+      }
+
+      .brand-name {
+        margin: 0;
+        color: #0b4f47;
+        font-size: 27px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        line-height: 1.2;
+      }
+
+      .brand-en {
+        margin: 7px 0 0;
+        color: #65716d;
+        font-family: "Segoe UI", "Arial", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.16em;
+        line-height: 1;
+      }
+
+      .issue {
+        min-width: 208px;
+        padding-left: 28px;
+        border-left: 1px solid rgba(23, 35, 33, 0.24);
+        text-align: right;
+      }
+
+      .issue-week {
+        color: #d26a3a;
+        font-family: "Segoe UI", "Arial", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+      }
+
+      .issue-date {
+        margin-top: 10px;
+        color: #485652;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+      }
+
+      .rule {
+        width: 100%;
+        height: 2px;
+        margin-top: 29px;
+        background: #172321;
+      }
+
+      .kicker {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin: 42px 0 0;
+        color: #0b4f47;
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+      }
+
+      .kicker::before {
+        width: 38px;
+        height: 5px;
+        background: #d26a3a;
+        content: "";
+      }
+
+      h1 {
+        margin: 20px 0 0;
+        font-size: 82px;
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: 1.16;
+      }
+
+      h1 span {
+        color: #0b4f47;
+      }
+
+      .subhead {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        margin: 28px 0 0;
+        color: #3f4c48;
+        font-size: 31px;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+      }
+
+      .subhead strong {
+        color: #d26a3a;
+        font-family: "Segoe UI", "Arial", sans-serif;
+        font-size: 26px;
+        letter-spacing: 0.04em;
+      }
+
+      .paper-footer {
+        position: absolute;
+        right: 88px;
+        bottom: 43px;
+        left: 88px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #67736f;
+        font-size: 15px;
+        letter-spacing: 0.08em;
+      }
+
+      .paper-footer strong {
+        color: #25332f;
+        font-weight: 700;
+      }
+
+      .signals {
+        position: relative;
+        overflow: hidden;
+        padding: 61px 58px 55px;
+        background: #0b4f47;
+        color: #f4efe5;
+      }
+
+      .signals::after {
+        position: absolute;
+        top: 94px;
+        right: -82px;
+        width: 235px;
+        height: 235px;
+        border: 42px solid rgba(244, 239, 229, 0.1);
+        border-radius: 50%;
+        content: "";
+      }
+
+      .signal-top {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(244, 239, 229, 0.28);
+        padding-bottom: 30px;
+      }
+
+      .signal-label {
+        margin: 0;
+        color: #b9d5cf;
+        font-family: "Segoe UI", "Arial", sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.17em;
+        line-height: 1.5;
+        text-transform: uppercase;
+      }
+
+      .signal-number {
+        color: #f4efe5;
+        font-family: "Georgia", "Times New Roman", serif;
+        font-size: 72px;
+        line-height: 0.78;
+      }
+
+      .signal-heading {
+        margin: 28px 0 0;
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+      }
+
+      .signal-list {
+        margin: 20px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .signal-list li {
+        display: grid;
+        grid-template-columns: 43px 1fr;
+        align-items: center;
+        min-height: 55px;
+        border-top: 1px solid rgba(244, 239, 229, 0.15);
+        color: #f4efe5;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+      }
+
+      .signal-list li:first-child {
+        border-top: 0;
+      }
+
+      .signal-list em {
+        color: #e89a73;
+        font-family: "Segoe UI", "Arial", sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+      }
+
+      .signal-footer {
+        position: absolute;
+        right: 58px;
+        bottom: 38px;
+        left: 58px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: #b9d5cf;
+        font-size: 12px;
+        letter-spacing: 0.11em;
+      }
+
+      .signal-footer::before {
+        width: 20px;
+        height: 2px;
+        background: #e89a73;
+        content: "";
+      }
+    </style>
+  </head>
+  <body>
+    <main class="cover">
+      <section class="paper">
+        <header class="masthead">
+          <div class="brand">
+            <img class="brand-mark" src="../../../public/wechat-avatar.png" alt="" />
+            <div>
+              <p class="brand-name">观澜 ESG Compass</p>
+              <p class="brand-en">WEEKLY INSIGHT</p>
+            </div>
+          </div>
+          <div class="issue">
+            <div class="issue-week">ISSUE W43</div>
+            <div class="issue-date">2026.10.19—10.25</div>
+          </div>
+        </header>
+
+        <div class="rule"></div>
+        <p class="kicker">本周 ESG 深度观察</p>
+        <h1>从自然披露<br /><span>到气候适应</span></h1>
+        <p class="subhead"><strong>05</strong> 个值得持续跟踪的关键变化</p>
+
+        <footer class="paper-footer">
+          <span><strong>事实、解读与观察点</strong>　每周一更新</span>
+          <span>GUANLAN ESG COMPASS</span>
+        </footer>
+      </section>
+
+      <aside class="signals">
+        <div class="signal-top">
+          <p class="signal-label">Five signals<br />to watch</p>
+          <div class="signal-number">05</div>
+        </div>
+        <h2 class="signal-heading">本周五条线索</h2>
+        <ol class="signal-list">
+          <li><em>01</em><span>自然相关信息披露</span></li>
+          <li><em>02</em><span>欧盟甲烷规则节奏</span></li>
+          <li><em>03</em><span>气候适应融资</span></li>
+          <li><em>04</em><span>绿色股权认定</span></li>
+          <li><em>05</em><span>绿色营销边界</span></li>
+        </ol>
+        <div class="signal-footer">RULES · CAPITAL · EVIDENCE</div>
+      </aside>
+    </main>
+  </body>
+</html>

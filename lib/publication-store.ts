@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import type { ContentItem } from "@/lib/contracts/content";
 import type {
@@ -17,12 +17,26 @@ const STATUS_FILE = resolve(PUBLICATION_DIR, "status.json");
 const DAILY_FILE = resolve(PUBLICATION_DIR, "daily.json");
 const HEAT_HISTORY_FILE = resolve(PUBLICATION_DIR, "heat-history.json");
 
+interface JsonCacheEntry {
+  mtimeMs: number;
+  size: number;
+  value: unknown;
+}
+
+const jsonCache = new Map<string, JsonCacheEntry>();
+
 function readJson<T>(path: string, fallback: T): T {
   try {
-    if (!existsSync(path)) return fallback;
+    const stat = statSync(path);
+    const cached = jsonCache.get(path);
+    if (cached && cached.mtimeMs === stat.mtimeMs && cached.size === stat.size) {
+      return cached.value as T;
+    }
     const parsed = JSON.parse(readFileSync(path, "utf8"));
+    jsonCache.set(path, { mtimeMs: stat.mtimeMs, size: stat.size, value: parsed });
     return parsed as T;
   } catch {
+    jsonCache.delete(path);
     return fallback;
   }
 }
@@ -30,6 +44,12 @@ function readJson<T>(path: string, fallback: T): T {
 function writeJson(path: string, value: unknown): void {
   mkdirSync(PUBLICATION_DIR, { recursive: true });
   writeFileSync(path, JSON.stringify(value, null, 2) + "\n", "utf8");
+  try {
+    const stat = statSync(path);
+    jsonCache.set(path, { mtimeMs: stat.mtimeMs, size: stat.size, value });
+  } catch {
+    jsonCache.delete(path);
+  }
 }
 
 export function readPublishedContents(): ContentItem[] {
