@@ -16840,6 +16840,46 @@
     ]
   },
   {
+    "id": "story-1bgfdf7",
+    "rootId": "src-1jlb55w",
+    "title": "Rewiring securities services for a new era of competition and growth",
+    "digest": "Disruptive forces—from real-time settlement to agentic AI—are changing the dynamics of the securities services industry. How can leaders capture the next horizon of growth?",
+    "latest": "Disruptive forces—from real-time settlement to agentic AI—are changing the dynamics of the securities services industry. How can leaders capture the next horizon of growth?",
+    "memberIds": [
+      "src-1jlb55w"
+    ],
+    "facts": [
+      {
+        "title": "Rewiring securities services f",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Rewiring securities services for a new era of competition and growth",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-27T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-27T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1jlb55w",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
     "id": "story-1t9s9xe",
     "rootId": "src-qjjb1w",
     "title": "新加坡修订清洁能源索赔规则以应对绿色洗涤风险",
@@ -16911,7 +16951,7 @@
     ],
     "firstPublishedAt": "2026-10-28T04:00:00.000Z",
     "latestPublishedAt": "2026-10-28T04:05:30.000Z",
-    "heat": 2.8,
+    "heat": 0,
     "relations": [
       {
         "memberId": "src-15x08y0",
@@ -16924,9 +16964,9 @@
         "confidence": 0.7272727272727273
       }
     ],
-    "heat6hAgo": 3.3,
-    "trend": "down",
-    "trendPct": -15.2,
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
@@ -17217,18 +17257,18 @@
   {
     "id": "story-it9r0c",
     "rootId": "src-164cz0q",
-    "title": "EU Sustainable Finance and Investor Groups Push Back Against Weaker Sustainability Reporting Rules for Non-EU Companies",
-    "digest": "The EU Platform on Sustainable Finance (PSF), an expert group mandated by the European Commission",
-    "latest": "The EU Platform on Sustainable Finance (PSF), an expert group mandated by the European Commission",
+    "title": "欧盟可持续金融和投资者团体抵制非欧盟公司较弱的可持续发展报告规则",
+    "digest": "欧盟可持续金融平台（PSF）",
+    "latest": "欧盟可持续金融平台（PSF）",
     "memberIds": [
       "src-164cz0q"
     ],
     "facts": [
       {
-        "title": "EU Sustainable Finance and Inv",
+        "title": "欧盟可持续金融和投资者团体抵制非欧盟公司较弱的可持续发展报告",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "EU Sustainable Finance and Investor Groups Push Back Against Weaker Sustainabili",
+        "object": "欧盟可持续金融和投资者团体抵制非欧盟公司较弱的可持续发展报告规则",
         "occurredAt": "2026-10-28"
       }
     ],
@@ -17241,6 +17281,606 @@
     "relations": [
       {
         "memberId": "src-164cz0q",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-xkp9ae",
+    "rootId": "src-1k3q376",
+    "title": "Global Economics Intelligence executive summary, September 2026",
+    "digest": "Central banks move to tighten interest rate policies as energy price spikes fuel inflation; growth looks sparse in some economies, but activity indicators see manufacturing and services expanding.",
+    "latest": "Central banks move to tighten interest rate policies as energy price spikes fuel inflation; growth looks sparse in some economies, but activity indicators see manufacturing and services expanding.",
+    "memberIds": [
+      "src-1k3q376"
+    ],
+    "facts": [
+      {
+        "title": "Global Economics Intelligence ",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Global Economics Intelligence executive summary, September 2026",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-28T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-28T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1k3q376",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1isbxrl",
+    "rootId": "src-4dp7jj",
+    "title": "The algorithm isn’t the advantage–the team is",
+    "digest": "FICO CEO Will Lansing says a strong ownership culture, not a smarter computational method, will set the data analytics company apart from competitors in this AI era.",
+    "latest": "FICO CEO Will Lansing says a strong ownership culture, not a smarter computational method, will set the data analytics company apart from competitors in this AI era.",
+    "memberIds": [
+      "src-4dp7jj"
+    ],
+    "facts": [
+      {
+        "title": "The algorithm isn’t the advant",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "The algorithm isn’t the advantage–the team is",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-28T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-28T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-4dp7jj",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-9n93re",
+    "rootId": "src-jnn1b1",
+    "title": "Banking on AI: How a new operating model can transform distressed credit management",
+    "digest": "Banks increasingly deploy AI in distressed credit management. But few have adjusted their operating models to deliver distinctive customer experiences and optimize financial outcomes and recovery costs.",
+    "latest": "Banks increasingly deploy AI in distressed credit management. But few have adjusted their operating models to deliver distinctive customer experiences and optimize financial outcomes and recovery costs.",
+    "memberIds": [
+      "src-jnn1b1"
+    ],
+    "facts": [
+      {
+        "title": "Banking on AI: How a new opera",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Banking on AI: How a new operating model can transform distressed credit managem",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-28T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-28T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-jnn1b1",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-uc71e4",
+    "rootId": "src-1kdop3o",
+    "title": "Terradot Secures $34 Million from HASI to Build ERW Carbon Removal Projects",
+    "digest": "Carbon removal company Terradot announced that it has closed a senior secured term loan of",
+    "latest": "Carbon removal company Terradot announced that it has closed a senior secured term loan of",
+    "memberIds": [
+      "src-1kdop3o"
+    ],
+    "facts": [
+      {
+        "title": "Terradot Secures $34 Million f",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Terradot Secures $34 Million from HASI to Build ERW Carbon Removal Projects",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-29T09:07:21.000Z",
+    "latestPublishedAt": "2026-10-29T09:07:21.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1kdop3o",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1wbl9al",
+    "rootId": "src-dvbi6g",
+    "title": "Singapore Airlines Signs Deal to Purchase SAF Made from Waste Carbon",
+    "digest": "Singapore Airlines (SIA) announced that it has signed an agreement with Aether Fuels to purchase",
+    "latest": "Singapore Airlines (SIA) announced that it has signed an agreement with Aether Fuels to purchase",
+    "memberIds": [
+      "src-dvbi6g"
+    ],
+    "facts": [
+      {
+        "title": "Singapore Airlines Signs Deal ",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Singapore Airlines Signs Deal to Purchase SAF Made from Waste Carbon",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-29T11:49:53.000Z",
+    "latestPublishedAt": "2026-10-29T11:49:53.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-dvbi6g",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1tfvhux",
+    "rootId": "src-1lukecq",
+    "title": "Over 80% of Institutional Investors Plan to Increase Allocations to Sustainable Investments: Survey",
+    "digest": "More than four out of five institutional investors expect to increase allocations to sustainable investments",
+    "latest": "More than four out of five institutional investors expect to increase allocations to sustainable investments",
+    "memberIds": [
+      "src-1lukecq"
+    ],
+    "facts": [
+      {
+        "title": "Over 80% of Institutional Inve",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Over 80% of Institutional Investors Plan to Increase Allocations to Sustainable ",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-29T12:31:57.000Z",
+    "latestPublishedAt": "2026-10-29T12:31:57.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1lukecq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-xcffbe",
+    "rootId": "src-16qa8ua",
+    "title": "Salesforce Signs 500,000 Ton Superpollutant Carbon Credit Deal",
+    "digest": "CRM solutions provider Salesforce announced that it has signed a new agreement with agricultural methane",
+    "latest": "CRM solutions provider Salesforce announced that it has signed a new agreement with agricultural methane",
+    "memberIds": [
+      "src-16qa8ua"
+    ],
+    "facts": [
+      {
+        "title": "Salesforce Signs 500,000 Ton S",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Salesforce Signs 500,000 Ton Superpollutant Carbon Credit Deal",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-29T13:29:17.000Z",
+    "latestPublishedAt": "2026-10-29T13:29:17.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-16qa8ua",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1tf6up3",
+    "rootId": "src-aosjrc",
+    "title": "DuPont Unveils SBTi-Validated Net Zero Targets",
+    "digest": "Multinational chemicals company DuPont announced a series of new emissions reduction targets",
+    "latest": "Multinational chemicals company DuPont announced a series of new emissions reduction targets",
+    "memberIds": [
+      "src-aosjrc"
+    ],
+    "facts": [
+      {
+        "title": "DuPont Unveils SBTi-Validated ",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "DuPont Unveils SBTi-Validated Net Zero Targets",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-29T14:21:10.000Z",
+    "latestPublishedAt": "2026-10-29T14:21:10.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-aosjrc",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-v1bj4q",
+    "rootId": "src-ythz5o",
+    "title": "Clarity AI Launches New Solution to Enable Investors to Assess Companies’ Progress on Climate Goals",
+    "digest": "Sustainability data and analytics company Clarity AI announced the launch of Transition Credibility Assessment",
+    "latest": "Sustainability data and analytics company Clarity AI announced the launch of Transition Credibility Assessment",
+    "memberIds": [
+      "src-ythz5o"
+    ],
+    "facts": [
+      {
+        "title": "Clarity AI Launches New Soluti",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Clarity AI Launches New Solution to Enable Investors to Assess Companies’ Progre",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-29T15:15:29.000Z",
+    "latestPublishedAt": "2026-10-29T15:15:29.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-ythz5o",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-gc5sc7",
+    "rootId": "src-1dig02a",
+    "title": "Wärtsilä CEO Håkan Agnevall: focus, flexibility, and the next wave of growth",
+    "digest": "Industrial leaders can turn disruption into growth by sharpening their focus, scaling to meet surging data-center power demand, and putting AI and continuous improvement to work.",
+    "latest": "Industrial leaders can turn disruption into growth by sharpening their focus, scaling to meet surging data-center power demand, and putting AI and continuous improvement to work.",
+    "memberIds": [
+      "src-1dig02a"
+    ],
+    "facts": [
+      {
+        "title": "Wärtsilä CEO Håkan Agnevall: f",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Wärtsilä CEO Håkan Agnevall: focus, flexibility, and the next wave of growth",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-10-29T16:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1dig02a",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-u9chqz",
+    "rootId": "src-6ykim7",
+    "title": "New speech by Kelvin Wong: Keynote speech at HKSA’s 47th Anniversary Financial Innovation Forum",
+    "digest": "New speech by Kelvin Wong: Keynote speech at HKSA’s 47th Anniversary Financial Innovation Forum",
+    "latest": "New speech by Kelvin Wong: Keynote speech at HKSA’s 47th Anniversary Financial Innovation Forum",
+    "memberIds": [
+      "src-6ykim7"
+    ],
+    "facts": [
+      {
+        "title": "New speech by Kelvin Wong: Key",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "New speech by Kelvin Wong: Keynote speech at HKSA’s 47th Anniversary Financial I",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-30T04:12:38.000Z",
+    "latestPublishedAt": "2026-10-30T04:12:38.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-6ykim7",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-emwdbu",
+    "rootId": "src-4pgvc0",
+    "title": "SFC welcomes appointments to Process Review Panel",
+    "digest": "SFC welcomes appointments to Process Review Panel",
+    "latest": "SFC welcomes appointments to Process Review Panel",
+    "memberIds": [
+      "src-4pgvc0"
+    ],
+    "facts": [
+      {
+        "title": "SFC welcomes appointments to P",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "SFC welcomes appointments to Process Review Panel",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-30T08:15:00.000Z",
+    "latestPublishedAt": "2026-10-30T08:15:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-4pgvc0",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-perlu5",
+    "rootId": "src-1yh601i",
+    "title": "Freezing orders against Lo Kai Bong and Major Success lifted in SFC’s proceedings following payment of $146.9 million into Court",
+    "digest": "Freezing orders against Lo Kai Bong and Major Success lifted in SFC’s proceedings following payment of $146.9 million into Court",
+    "latest": "Freezing orders against Lo Kai Bong and Major Success lifted in SFC’s proceedings following payment of $146.9 million into Court",
+    "memberIds": [
+      "src-1yh601i"
+    ],
+    "facts": [
+      {
+        "title": "Freezing orders against Lo Kai",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "Freezing orders against Lo Kai Bong and Major Success lifted in SFC’s proceeding",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-10-30T08:27:55.000Z",
+    "latestPublishedAt": "2026-10-30T08:27:55.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1yh601i",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-1lnca4i",
+    "rootId": "src-1s8o131",
+    "title": "TPG Raises $10.4 Billion for Climate Funds, Including $2.5 Billion for Global South",
+    "digest": "Global alternative asset manager TPG announced the final close of its climate-focused strategies",
+    "latest": "Global alternative asset manager TPG announced the final close of its climate-focused strategies",
+    "memberIds": [
+      "src-1s8o131"
+    ],
+    "facts": [
+      {
+        "title": "TPG Raises $10.4 Billion for C",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "TPG Raises $10.4 Billion for Climate Funds, Including $2.5 Billion for Global So",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-30T10:26:07.000Z",
+    "latestPublishedAt": "2026-10-30T10:26:07.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1s8o131",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-13v6iio",
+    "rootId": "src-14ks5w0",
+    "title": "Meta Backs Low Carbon Cement Producer Fortera with Multi-year EAC Deal",
+    "digest": "Green building materials manufacturer Fortera and tech giant Meta announced today a multi-year agreement under",
+    "latest": "Green building materials manufacturer Fortera and tech giant Meta announced today a multi-year agreement under",
+    "memberIds": [
+      "src-14ks5w0"
+    ],
+    "facts": [
+      {
+        "title": "Meta Backs Low Carbon Cement P",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Meta Backs Low Carbon Cement Producer Fortera with Multi-year EAC Deal",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-10-30T12:26:22.000Z",
+    "latestPublishedAt": "2026-10-30T12:26:22.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-14ks5w0",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
