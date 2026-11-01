@@ -1,5 +1,311 @@
 [
   {
+    "id": "story-6gv9va",
+    "rootId": "src-8qttvz",
+    "title": "2021年7月16日新闻发布会",
+    "digest": "2021年7月16日新闻发布会",
+    "latest": "2021年7月23日新闻发布会",
+    "memberIds": [
+      "src-8qttvz",
+      "src-sguefn"
+    ],
+    "facts": [
+      {
+        "title": "2021年7月16日新闻发布会",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2021年7月16日新闻发布会",
+        "occurredAt": "2021-07-16"
+      },
+      {
+        "title": "2021年7月23日新闻发布会",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2021年7月23日新闻发布会",
+        "occurredAt": "2021-07-23"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2021-07-16T00:00:00.000Z",
+    "latestPublishedAt": "2021-07-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-8qttvz",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-sguefn",
+        "relation": "SAME_STORY",
+        "confidence": 0.8888888888888888
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-1k40hg6",
+    "rootId": "src-1iw6bhd",
+    "title": "2021年9月3日新闻发布会",
+    "digest": "2021年9月3日新闻发布会",
+    "latest": "2021年9月3日新闻发布会",
+    "memberIds": [
+      "src-1iw6bhd"
+    ],
+    "facts": [
+      {
+        "title": "2021年9月3日新闻发布会",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2021年9月3日新闻发布会",
+        "occurredAt": "2021-09-03"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2021-09-03T00:00:00.000Z",
+    "latestPublishedAt": "2021-09-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1iw6bhd",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-h0xhpf",
+    "rootId": "src-eo4vin",
+    "title": "2021年9月24日新闻发布会",
+    "digest": "2021年9月24日新闻发布会",
+    "latest": "2021年9月24日新闻发布会",
+    "memberIds": [
+      "src-eo4vin"
+    ],
+    "facts": [
+      {
+        "title": "2021年9月24日新闻发布会",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2021年9月24日新闻发布会",
+        "occurredAt": "2021-09-24"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2021-09-24T00:00:00.000Z",
+    "latestPublishedAt": "2021-09-24T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-eo4vin",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-c4jlrh",
+    "rootId": "src-1l3b7fz",
+    "title": "2024年1月12日新闻发布会",
+    "digest": "2024年1月12日新闻发布会",
+    "latest": "2024年1月12日新闻发布会",
+    "memberIds": [
+      "src-1l3b7fz"
+    ],
+    "facts": [
+      {
+        "title": "2024年1月12日新闻发布会",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2024年1月12日新闻发布会",
+        "occurredAt": "2024-01-12"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2024-01-12T00:00:00.000Z",
+    "latestPublishedAt": "2024-01-12T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1l3b7fz",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-1fqbtao",
+    "rootId": "src-wu10s3",
+    "title": "2024年2月23日新闻发布会",
+    "digest": "2024年2月23日新闻发布会",
+    "latest": "2024年2月23日新闻发布会",
+    "memberIds": [
+      "src-wu10s3"
+    ],
+    "facts": [
+      {
+        "title": "2024年2月23日新闻发布会",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2024年2月23日新闻发布会",
+        "occurredAt": "2024-02-23"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2024-02-23T00:00:00.000Z",
+    "latestPublishedAt": "2024-02-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-wu10s3",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-r8x121",
+    "rootId": "src-1syvpx9",
+    "title": "2024年4月12日新闻发布会",
+    "digest": "2024年4月12日新闻发布会",
+    "latest": "2024 年1月19日新闻发布会",
+    "memberIds": [
+      "src-1syvpx9",
+      "src-10dzavf"
+    ],
+    "facts": [
+      {
+        "title": "2024年4月12日新闻发布会",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2024年4月12日新闻发布会",
+        "occurredAt": "2024-04-12"
+      },
+      {
+        "title": "2024 年1月19日新闻发布会",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2024 年1月19日新闻发布会",
+        "occurredAt": "2024-04-12"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2024-04-12T00:00:00.000Z",
+    "latestPublishedAt": "2024-04-12T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1syvpx9",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-10dzavf",
+        "relation": "SAME_STORY",
+        "confidence": 0.8888888888888888
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-49e5pq",
+    "rootId": "src-yembgj",
+    "title": "超百个“硬核”科技亮相！ 工业和信息化部启动高校科技成果转化专项路演",
+    "digest": "超百个“硬核”科技亮相！ 工业和信息化部启动高校科技成果转化专项路演",
+    "latest": "超百个“硬核”科技亮相！ 工业和信息化部启动高校科技成果转化专项路演",
+    "memberIds": [
+      "src-yembgj"
+    ],
+    "facts": [
+      {
+        "title": "超百个“硬核”科技亮相！ 工业和信息化部启动高校科技成果转化",
+        "subject": "工业和信息化部新闻动态",
+        "action": "启动",
+        "object": "超百个“硬核”科技亮相！ 工业和信息化部启动高校科技成果转化专项路演",
+        "occurredAt": "2024-08-28"
+      }
+    ],
+    "participants": [
+      "miit-news"
+    ],
+    "firstPublishedAt": "2024-08-28T00:00:00.000Z",
+    "latestPublishedAt": "2024-08-28T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-yembgj",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "工业和信息化部新闻动态"
+    ]
+  },
+  {
     "id": "story-oi5pbk",
     "rootId": "src-1wny2n6",
     "title": "2005",
@@ -157,6 +463,219 @@
     "signalCount": 0,
     "sourceNames": [
       "香港交易所新闻稿"
+    ]
+  },
+  {
+    "id": "story-zh1e8y",
+    "rootId": "src-17ozveq",
+    "title": "智能化势头强劲 前三季度先进制造业支撑作用明显",
+    "digest": "智能化势头强劲 前三季度先进制造业支撑作用明显",
+    "latest": "智能化势头强劲 前三季度先进制造业支撑作用明显",
+    "memberIds": [
+      "src-17ozveq"
+    ],
+    "facts": [
+      {
+        "title": "智能化势头强劲 前三季度先进制造业支撑作用明显",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "智能化势头强劲 前三季度先进制造业支撑作用明显",
+        "occurredAt": "2026-01-08"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-01-08T00:00:00.000Z",
+    "latestPublishedAt": "2026-01-08T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-17ozveq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-10wwibb",
+    "rootId": "src-wvqeb3",
+    "title": "一图读懂《加快构建工业和信息化领域碳排放双控工作体系实施方案（2026—2030年）》",
+    "digest": "一图读懂《加快构建工业和信息化领域碳排放双控工作体系实施方案（2026—2030年）》",
+    "latest": "一图读懂《加快构建工业和信息化领域碳排放双控工作体系实施方案（2026—2030年）》",
+    "memberIds": [
+      "src-wvqeb3"
+    ],
+    "facts": [
+      {
+        "title": "一图读懂《加快构建工业和信息化领域碳排放双控工作体系实施方案",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "一图读懂《加快构建工业和信息化领域碳排放双控工作体系实施方案（2026—2030年）》",
+        "occurredAt": "2026-01-08"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-01-08T00:00:00.000Z",
+    "latestPublishedAt": "2026-01-08T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-wvqeb3",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-42qbri",
+    "rootId": "src-tdj6cl",
+    "title": "6个维度看中国经济发展绿色化底色愈加鲜明",
+    "digest": "6个维度看中国经济发展绿色化底色愈加鲜明",
+    "latest": "6个维度看中国经济发展绿色化底色愈加鲜明",
+    "memberIds": [
+      "src-tdj6cl"
+    ],
+    "facts": [
+      {
+        "title": "6个维度看中国经济发展绿色化底色愈加鲜明",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "6个维度看中国经济发展绿色化底色愈加鲜明",
+        "occurredAt": "2026-01-08"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-01-08T00:00:00.000Z",
+    "latestPublishedAt": "2026-01-08T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-tdj6cl",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-tcgfrz",
+    "rootId": "src-14b55wd",
+    "title": "图解：2026年1-8月全省工业经济运行情况",
+    "digest": "图解：2026年1-8月全省工业经济运行情况",
+    "latest": "图解：2026年1-8月全省工业经济运行情况",
+    "memberIds": [
+      "src-14b55wd"
+    ],
+    "facts": [
+      {
+        "title": "图解：2026年1-8月全省工业经济运行情况",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "图解：2026年1-8月全省工业经济运行情况",
+        "occurredAt": "2026-01-08"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-01-08T00:00:00.000Z",
+    "latestPublishedAt": "2026-01-08T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-14b55wd",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-wbgf2",
+    "rootId": "src-11guwn6",
+    "title": "《轻工纺织产业发展“十五五”规划》一图读懂",
+    "digest": "《轻工纺织产业发展“十五五”规划》一图读懂",
+    "latest": "《医药工业发展“十五五”规划》一图读懂",
+    "memberIds": [
+      "src-11guwn6",
+      "src-1ab4e91"
+    ],
+    "facts": [
+      {
+        "title": "《轻工纺织产业发展“十五五”规划》一图读懂",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "《轻工纺织产业发展“十五五”规划》一图读懂",
+        "occurredAt": "2026-01-08"
+      },
+      {
+        "title": "《医药工业发展“十五五”规划》一图读懂",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "《医药工业发展“十五五”规划》一图读懂",
+        "occurredAt": "2026-01-08"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-01-08T00:00:00.000Z",
+    "latestPublishedAt": "2026-01-08T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-11guwn6",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1ab4e91",
+        "relation": "SAME_STORY",
+        "confidence": 0.7349684152591671
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
     ]
   },
   {
@@ -1533,6 +2052,46 @@
     ]
   },
   {
+    "id": "story-13ghfm5",
+    "rootId": "src-1q5qk3u",
+    "title": "习近平出席国家科学技术奖励大会两院院士大会中国科协第十一次全国代表大会并发表重要讲话",
+    "digest": "习近平出席国家科学技术奖励大会两院院士大会中国科协第十一次全国代表大会并发表重要讲话",
+    "latest": "习近平出席国家科学技术奖励大会两院院士大会中国科协第十一次全国代表大会并发表重要讲话",
+    "memberIds": [
+      "src-1q5qk3u"
+    ],
+    "facts": [
+      {
+        "title": "习近平出席国家科学技术奖励大会两院院士大会中国科协第十一次全",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "习近平出席国家科学技术奖励大会两院院士大会中国科协第十一次全国代表大会并发表重要讲话",
+        "occurredAt": "2026-07-09"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-07-09T00:00:00.000Z",
+    "latestPublishedAt": "2026-07-09T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1q5qk3u",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
     "id": "story-y1tryk",
     "rootId": "src-sqjvjs",
     "title": "香港交易所推出18种股票期权类别，每周及每月到期",
@@ -1693,6 +2252,126 @@
     ]
   },
   {
+    "id": "story-1l4a3bd",
+    "rootId": "src-hmx1t",
+    "title": "王毅会见东盟秘书长高金洪",
+    "digest": "王毅会见东盟秘书长高金洪",
+    "latest": "王毅会见东盟秘书长高金洪",
+    "memberIds": [
+      "src-hmx1t"
+    ],
+    "facts": [
+      {
+        "title": "王毅会见东盟秘书长高金洪",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "王毅会见东盟秘书长高金洪",
+        "occurredAt": "2026-07-22"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-07-22T00:00:00.000Z",
+    "latestPublishedAt": "2026-07-22T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-hmx1t",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-pxh0bb",
+    "rootId": "src-ku51vm",
+    "title": "全国党校校长会议在京召开 蔡奇出席并讲话",
+    "digest": "全国党校校长会议在京召开 蔡奇出席并讲话",
+    "latest": "全国党校校长会议在京召开 蔡奇出席并讲话",
+    "memberIds": [
+      "src-ku51vm"
+    ],
+    "facts": [
+      {
+        "title": "全国党校校长会议在京召开 蔡奇出席并讲话",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "全国党校校长会议在京召开 蔡奇出席并讲话",
+        "occurredAt": "2026-07-23"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-07-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-07-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-ku51vm",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-dzqo5q",
+    "rootId": "src-ftbkni",
+    "title": "王沪宁在西藏调研",
+    "digest": "王沪宁在西藏调研",
+    "latest": "王沪宁在西藏调研",
+    "memberIds": [
+      "src-ftbkni"
+    ],
+    "facts": [
+      {
+        "title": "王沪宁在西藏调研",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "王沪宁在西藏调研",
+        "occurredAt": "2026-07-23"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-07-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-07-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-ftbkni",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
     "id": "story-c2h4ln",
     "rootId": "src-1oc1rm3",
     "title": "香港交易所认可马来西亚证券交易所为认可证券交易所",
@@ -1730,6 +2409,86 @@
     "signalCount": 0,
     "sourceNames": [
       "香港交易所新闻稿"
+    ]
+  },
+  {
+    "id": "story-10xfdfv",
+    "rootId": "src-knt2aj",
+    "title": "赵乐际同捷克众议长冈村富夫会谈",
+    "digest": "赵乐际同捷克众议长冈村富夫会谈",
+    "latest": "赵乐际同捷克众议长冈村富夫会谈",
+    "memberIds": [
+      "src-knt2aj"
+    ],
+    "facts": [
+      {
+        "title": "赵乐际同捷克众议长冈村富夫会谈",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "赵乐际同捷克众议长冈村富夫会谈",
+        "occurredAt": "2026-07-24"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-07-24T00:00:00.000Z",
+    "latestPublishedAt": "2026-07-24T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-knt2aj",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-14nec1j",
+    "rootId": "src-noqlyq",
+    "title": "王沪宁会见捷克众议长冈村富夫",
+    "digest": "王沪宁会见捷克众议长冈村富夫",
+    "latest": "王沪宁会见捷克众议长冈村富夫",
+    "memberIds": [
+      "src-noqlyq"
+    ],
+    "facts": [
+      {
+        "title": "王沪宁会见捷克众议长冈村富夫",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "王沪宁会见捷克众议长冈村富夫",
+        "occurredAt": "2026-07-24"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-07-24T00:00:00.000Z",
+    "latestPublishedAt": "2026-07-24T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-noqlyq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
     ]
   },
   {
@@ -3146,6 +3905,46 @@
     ]
   },
   {
+    "id": "story-i68ffs",
+    "rootId": "src-5c88pt",
+    "title": "习近平同厄瓜多尔总统诺沃亚会谈",
+    "digest": "习近平同厄瓜多尔总统诺沃亚会谈",
+    "latest": "习近平同厄瓜多尔总统诺沃亚会谈",
+    "memberIds": [
+      "src-5c88pt"
+    ],
+    "facts": [
+      {
+        "title": "习近平同厄瓜多尔总统诺沃亚会谈",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "习近平同厄瓜多尔总统诺沃亚会谈",
+        "occurredAt": "2026-08-19"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-08-19T00:00:00.000Z",
+    "latestPublishedAt": "2026-08-19T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-5c88pt",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
     "id": "story-11a1h7o",
     "rootId": "src-iieaf2",
     "title": "香港交易所2026年中期业绩",
@@ -3532,6 +4331,126 @@
     ]
   },
   {
+    "id": "story-15vrwf4",
+    "rootId": "src-1wqu2bz",
+    "title": "关于明确非应税交易等增值税有关事项的公告",
+    "digest": "关于明确非应税交易等增值税有关事项的公告",
+    "latest": "关于明确非应税交易等增值税有关事项的公告",
+    "memberIds": [
+      "src-1wqu2bz"
+    ],
+    "facts": [
+      {
+        "title": "关于明确非应税交易等增值税有关事项的公告",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "关于明确非应税交易等增值税有关事项的公告",
+        "occurredAt": "2026-08-28"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-08-28T00:00:00.000Z",
+    "latestPublishedAt": "2026-08-28T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1wqu2bz",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-sb54tz",
+    "rootId": "src-17raumh",
+    "title": "关于印发《会计师事务所职业责任保险实施办法》的通知",
+    "digest": "关于印发《会计师事务所职业责任保险实施办法》的通知",
+    "latest": "关于印发《会计师事务所职业责任保险实施办法》的通知",
+    "memberIds": [
+      "src-17raumh"
+    ],
+    "facts": [
+      {
+        "title": "关于印发《会计师事务所职业责任保险实施办法》的通知",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "关于印发《会计师事务所职业责任保险实施办法》的通知",
+        "occurredAt": "2026-08-28"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-08-28T00:00:00.000Z",
+    "latestPublishedAt": "2026-08-28T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-17raumh",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-7divbm",
+    "rootId": "src-1f4a6wa",
+    "title": "坚持党对注册会计师行业的全面领导 以高质量党建引领行业高质量发展——...",
+    "digest": "坚持党对注册会计师行业的全面领导 以高质量党建引领行业高质量发展——...",
+    "latest": "坚持党对注册会计师行业的全面领导 以高质量党建引领行业高质量发展——...",
+    "memberIds": [
+      "src-1f4a6wa"
+    ],
+    "facts": [
+      {
+        "title": "坚持党对注册会计师行业的全面领导 以高质量党建引领行业高质量",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "坚持党对注册会计师行业的全面领导 以高质量党建引领行业高质量发展——...",
+        "occurredAt": "2026-08-28"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-08-28T00:00:00.000Z",
+    "latestPublishedAt": "2026-08-28T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1f4a6wa",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
     "id": "story-ka4660",
     "rootId": "src-e73cum",
     "title": "香港交易所首次亮相 SHEIN 增强产品供应",
@@ -3692,6 +4611,46 @@
     ]
   },
   {
+    "id": "story-mrqq1e",
+    "rootId": "src-zhsjhu",
+    "title": "多部门联合部署做好稳投资工作",
+    "digest": "多部门联合部署做好稳投资工作",
+    "latest": "多部门联合部署做好稳投资工作",
+    "memberIds": [
+      "src-zhsjhu"
+    ],
+    "facts": [
+      {
+        "title": "多部门联合部署做好稳投资工作",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "多部门联合部署做好稳投资工作",
+        "occurredAt": "2026-08-31"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-08-31T00:00:00.000Z",
+    "latestPublishedAt": "2026-08-31T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-zhsjhu",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
+    ]
+  },
+  {
     "id": "story-jg6qqg",
     "rootId": "src-ifrs-issb-iasb-seeks-investor-views-on-cash-flow-informati-e876",
     "title": "国际会计准则理事会征求投资者对金融机构报告的现金流量信息的看法",
@@ -3729,6 +4688,46 @@
     "signalCount": 0,
     "sourceNames": [
       "IFRS / ISSB 新闻"
+    ]
+  },
+  {
+    "id": "story-18x6eyd",
+    "rootId": "src-1jo2ow5",
+    "title": "关于印发《改善普通高中学校办学条件补助资金管理办法》的通知",
+    "digest": "关于印发《改善普通高中学校办学条件补助资金管理办法》的通知",
+    "latest": "关于印发《改善普通高中学校办学条件补助资金管理办法》的通知",
+    "memberIds": [
+      "src-1jo2ow5"
+    ],
+    "facts": [
+      {
+        "title": "关于印发《改善普通高中学校办学条件补助资金管理办法》的通知",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "关于印发《改善普通高中学校办学条件补助资金管理办法》的通知",
+        "occurredAt": "2026-09-01"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-09-01T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-01T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1jo2ow5",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
     ]
   },
   {
@@ -3772,6 +4771,46 @@
     ]
   },
   {
+    "id": "story-82aipb",
+    "rootId": "src-62x7rh",
+    "title": "国家发展改革委开放司主要负责同志拜会塔吉克斯坦驻华大使",
+    "digest": "国家发展改革委开放司主要负责同志拜会塔吉克斯坦驻华大使",
+    "latest": "国家发展改革委开放司主要负责同志拜会塔吉克斯坦驻华大使",
+    "memberIds": [
+      "src-62x7rh"
+    ],
+    "facts": [
+      {
+        "title": "国家发展改革委开放司主要负责同志拜会塔吉克斯坦驻华大使",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委开放司主要负责同志拜会塔吉克斯坦驻华大使",
+        "occurredAt": "2026-09-03"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-09-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-62x7rh",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
     "id": "story-qbdzu5",
     "rootId": "src-unfccc-news-unfccc-climate-week-in-baku-to-step-up-action-an-7b33",
     "title": "《气候公约》气候周在巴库举行，以加强气候透明度方面的行动和支持",
@@ -3809,6 +4848,46 @@
     "signalCount": 0,
     "sourceNames": [
       "联合国气候变化框架公约（UNFCCC）新闻"
+    ]
+  },
+  {
+    "id": "story-1r8m3vu",
+    "rootId": "src-5hgukc",
+    "title": "坚守诚信底线 提升注册会计师行业审计质量——新注册会计师法系列解读之三",
+    "digest": "坚守诚信底线 提升注册会计师行业审计质量——新注册会计师法系列解读之三",
+    "latest": "坚守诚信底线 提升注册会计师行业审计质量——新注册会计师法系列解读之三",
+    "memberIds": [
+      "src-5hgukc"
+    ],
+    "facts": [
+      {
+        "title": "坚守诚信底线 提升注册会计师行业审计质量——新注册会计师法系",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "坚守诚信底线 提升注册会计师行业审计质量——新注册会计师法系列解读之三",
+        "occurredAt": "2026-09-04"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-09-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-5hgukc",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
     ]
   },
   {
@@ -3929,6 +5008,46 @@
     "signalCount": 0,
     "sourceNames": [
       "联合国环境规划署（UNEP）新闻与观点"
+    ]
+  },
+  {
+    "id": "story-pl8km4",
+    "rootId": "src-11m3xy3",
+    "title": "国家发展改革委运行局组织安排提高疆煤外运规模",
+    "digest": "国家发展改革委运行局组织安排提高疆煤外运规模",
+    "latest": "国家发展改革委运行局组织安排提高疆煤外运规模",
+    "memberIds": [
+      "src-11m3xy3"
+    ],
+    "facts": [
+      {
+        "title": "国家发展改革委运行局组织安排提高疆煤外运规模",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委运行局组织安排提高疆煤外运规模",
+        "occurredAt": "2026-09-07"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-09-07T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-07T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-11m3xy3",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
     ]
   },
   {
@@ -4142,6 +5261,86 @@
     "signalCount": 0,
     "sourceNames": [
       "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-1rus3fa",
+    "rootId": "src-1jb1cxe",
+    "title": "关于重要工业品低价无序竞争成本核算有关事项的通知",
+    "digest": "关于重要工业品低价无序竞争成本核算有关事项的通知",
+    "latest": "关于重要工业品低价无序竞争成本核算有关事项的通知",
+    "memberIds": [
+      "src-1jb1cxe"
+    ],
+    "facts": [
+      {
+        "title": "关于重要工业品低价无序竞争成本核算有关事项的通知",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "关于重要工业品低价无序竞争成本核算有关事项的通知",
+        "occurredAt": "2026-09-10"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-09-10T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-10T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1jb1cxe",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-gi27ey",
+    "rootId": "src-6hzdsm",
+    "title": "国家发展改革委民营局向民营企业公开推介交通、物流、水利、能源等领域一批投资项目",
+    "digest": "国家发展改革委民营局向民营企业公开推介交通、物流、水利、能源等领域一批投资项目",
+    "latest": "国家发展改革委民营局向民营企业公开推介交通、物流、水利、能源等领域一批投资项目",
+    "memberIds": [
+      "src-6hzdsm"
+    ],
+    "facts": [
+      {
+        "title": "国家发展改革委民营局向民营企业公开推介交通、物流、水利、能源",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委民营局向民营企业公开推介交通、物流、水利、能源等领域一批投资项目",
+        "occurredAt": "2026-09-10"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-09-10T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-10T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-6hzdsm",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
     ]
   },
   {
@@ -4545,6 +5744,99 @@
     ]
   },
   {
+    "id": "story-a8ktsn",
+    "rootId": "src-1m28zw1",
+    "title": "关于印发《关于加快农业保险高质量发展的实施方案》的通知",
+    "digest": "关于印发《关于加快农业保险高质量发展的实施方案》的通知",
+    "latest": "财政部有关负责人就《关于加快农业保险高质量发展的实施方案》答记者问",
+    "memberIds": [
+      "src-1m28zw1",
+      "src-ot2q6a"
+    ],
+    "facts": [
+      {
+        "title": "关于印发《关于加快农业保险高质量发展的实施方案》的通知",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "关于印发《关于加快农业保险高质量发展的实施方案》的通知",
+        "occurredAt": "2026-09-11"
+      },
+      {
+        "title": "财政部有关负责人就《关于加快农业保险高质量发展的实施方案》答",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部有关负责人就《关于加快农业保险高质量发展的实施方案》答记者问",
+        "occurredAt": "2026-09-16"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-09-11T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-16T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1m28zw1",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-ot2q6a",
+        "relation": "SAME_STORY",
+        "confidence": 0.6582426287630115
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-1knt110",
+    "rootId": "src-dtfp6u",
+    "title": "需求保持扩张 我国物流市场预期呈现积极变化",
+    "digest": "需求保持扩张 我国物流市场预期呈现积极变化",
+    "latest": "需求保持扩张 我国物流市场预期呈现积极变化",
+    "memberIds": [
+      "src-dtfp6u"
+    ],
+    "facts": [
+      {
+        "title": "需求保持扩张 我国物流市场预期呈现积极变化",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "需求保持扩张 我国物流市场预期呈现积极变化",
+        "occurredAt": "2026-09-11"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-09-11T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-11T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-dtfp6u",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
+    ]
+  },
+  {
     "id": "story-1a5rovf",
     "rootId": "src-jft71i",
     "title": "叠加可能性：成功扩展代理人工智能的蓝图",
@@ -4905,6 +6197,86 @@
     ]
   },
   {
+    "id": "story-15ktbgj",
+    "rootId": "src-ewv2c8",
+    "title": "关于印发《紧急采购管理暂行办法》的通知",
+    "digest": "关于印发《紧急采购管理暂行办法》的通知",
+    "latest": "关于印发《紧急采购管理暂行办法》的通知",
+    "memberIds": [
+      "src-ewv2c8"
+    ],
+    "facts": [
+      {
+        "title": "关于印发《紧急采购管理暂行办法》的通知",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "关于印发《紧急采购管理暂行办法》的通知",
+        "occurredAt": "2026-09-14"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-09-14T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-14T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-ewv2c8",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-163gsfn",
+    "rootId": "src-hl6coq",
+    "title": "国家发展改革委发展战略和规划司研究课题入选公告",
+    "digest": "国家发展改革委发展战略和规划司研究课题入选公告",
+    "latest": "国家发展改革委发展战略和规划司研究课题入选公告",
+    "memberIds": [
+      "src-hl6coq"
+    ],
+    "facts": [
+      {
+        "title": "国家发展改革委发展战略和规划司研究课题入选公告",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委发展战略和规划司研究课题入选公告",
+        "occurredAt": "2026-09-14"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-09-14T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-14T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-hl6coq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
     "id": "story-7o27ex",
     "rootId": "src-1mtlkpg",
     "title": "重塑保险业的战略新领域",
@@ -5142,6 +6514,46 @@
     "signalCount": 0,
     "sourceNames": [
       "Sustainalytics ESG 评级（候选）"
+    ]
+  },
+  {
+    "id": "story-1x59rjz",
+    "rootId": "src-w93379",
+    "title": "郑栅洁主任主持召开民营企业座谈会 围绕优化发展环境、拓展投资空间听取意见建议",
+    "digest": "郑栅洁主任主持召开民营企业座谈会 围绕优化发展环境、拓展投资空间听取意见建议",
+    "latest": "郑栅洁主任主持召开民营企业座谈会 围绕优化发展环境、拓展投资空间听取意见建议",
+    "memberIds": [
+      "src-w93379"
+    ],
+    "facts": [
+      {
+        "title": "郑栅洁主任主持召开民营企业座谈会 围绕优化发展环境、拓展投资",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "郑栅洁主任主持召开民营企业座谈会 围绕优化发展环境、拓展投资空间听取意见建议",
+        "occurredAt": "2026-09-15"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-09-15T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-15T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-w93379",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
     ]
   },
   {
@@ -6118,6 +7530,46 @@
     ]
   },
   {
+    "id": "story-6738x1",
+    "rootId": "src-1b92wdx",
+    "title": "郑栅洁主任会见印尼国家经济委员会主席卢胡特",
+    "digest": "郑栅洁主任会见印尼国家经济委员会主席卢胡特",
+    "latest": "郑栅洁主任会见印尼国家经济委员会主席卢胡特",
+    "memberIds": [
+      "src-1b92wdx"
+    ],
+    "facts": [
+      {
+        "title": "郑栅洁主任会见印尼国家经济委员会主席卢胡特",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "郑栅洁主任会见印尼国家经济委员会主席卢胡特",
+        "occurredAt": "2026-09-18"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-09-18T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-18T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1b92wdx",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
     "id": "story-4bw1o",
     "rootId": "src-mee-china-生态环境部党组与驻部纪检监察组召开2026年第一次专题会商会-9918",
     "title": "生态环境部党组与驻部纪检监察组召开2026年第一次专题会商会",
@@ -6675,6 +8127,166 @@
     "signalCount": 0,
     "sourceNames": [
       "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-zyoaqd",
+    "rootId": "src-19bx6kt",
+    "title": "完善行业管理制度 持续强化注册会计师行业行政监管——新注册会计师法系...",
+    "digest": "完善行业管理制度 持续强化注册会计师行业行政监管——新注册会计师法系...",
+    "latest": "完善行业管理制度 持续强化注册会计师行业行政监管——新注册会计师法系...",
+    "memberIds": [
+      "src-19bx6kt"
+    ],
+    "facts": [
+      {
+        "title": "完善行业管理制度 持续强化注册会计师行业行政监管——新注册会",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "完善行业管理制度 持续强化注册会计师行业行政监管——新注册会计师法系...",
+        "occurredAt": "2026-09-21"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-09-21T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-21T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-19bx6kt",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-1f4c7fd",
+    "rootId": "src-1leoeex",
+    "title": "关于印发浙江高质量发展建设共同富裕示范区经验做法(第三批)的通知",
+    "digest": "关于印发浙江高质量发展建设共同富裕示范区经验做法(第三批)的通知",
+    "latest": "关于印发浙江高质量发展建设共同富裕示范区经验做法(第三批)的通知",
+    "memberIds": [
+      "src-1leoeex"
+    ],
+    "facts": [
+      {
+        "title": "关于印发浙江高质量发展建设共同富裕示范区经验做法(第三批)的",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "关于印发浙江高质量发展建设共同富裕示范区经验做法(第三批)的通知",
+        "occurredAt": "2026-09-21"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-09-21T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-21T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1leoeex",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-12lb7q5",
+    "rootId": "src-1tm6yph",
+    "title": "中共中央政治局召开会议 讨论拟提请二十届五中全会审议的文件 中共中央总书记习近平主持会议",
+    "digest": "中共中央政治局召开会议 讨论拟提请二十届五中全会审议的文件 中共中央总书记习近平主持会议",
+    "latest": "中共中央政治局召开会议 讨论拟提请二十届五中全会审议的文件 中共中央总书记习近平主持会议",
+    "memberIds": [
+      "src-1tm6yph"
+    ],
+    "facts": [
+      {
+        "title": "中共中央政治局召开会议 讨论拟提请二十届五中全会审议的文件 ",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "中共中央政治局召开会议 讨论拟提请二十届五中全会审议的文件 中共中央总书记习近平主持会议",
+        "occurredAt": "2026-09-21"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-09-21T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-21T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1tm6yph",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-9gl1yz",
+    "rootId": "src-15zk141",
+    "title": "2026世界航海装备大会新闻发布会",
+    "digest": "2026世界航海装备大会新闻发布会",
+    "latest": "2026世界航海装备大会新闻发布会",
+    "memberIds": [
+      "src-15zk141"
+    ],
+    "facts": [
+      {
+        "title": "2026世界航海装备大会新闻发布会",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "2026世界航海装备大会新闻发布会",
+        "occurredAt": "2026-09-21"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-09-21T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-21T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-15zk141",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
     ]
   },
   {
@@ -8518,6 +10130,46 @@
     ]
   },
   {
+    "id": "story-1p51itf",
+    "rootId": "src-c55grm",
+    "title": "习近平向第48届世界技能大赛致贺信",
+    "digest": "习近平向第48届世界技能大赛致贺信",
+    "latest": "习近平向第48届世界技能大赛致贺信",
+    "memberIds": [
+      "src-c55grm"
+    ],
+    "facts": [
+      {
+        "title": "习近平向第48届世界技能大赛致贺信",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "习近平向第48届世界技能大赛致贺信",
+        "occurredAt": "2026-09-23"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-09-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-c55grm",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
     "id": "story-yriujd",
     "rootId": "src-zbqgbz",
     "title": "价值十亿美元的美丽：突破品牌的成功几率",
@@ -8838,6 +10490,86 @@
     ]
   },
   {
+    "id": "story-ia9y3w",
+    "rootId": "src-ru7xm0",
+    "title": "习近平主席贺信激励青年走技能成才之路并为世界技能运动发展指明方向",
+    "digest": "习近平主席贺信激励青年走技能成才之路并为世界技能运动发展指明方向",
+    "latest": "习近平主席贺信激励青年走技能成才之路并为世界技能运动发展指明方向",
+    "memberIds": [
+      "src-ru7xm0"
+    ],
+    "facts": [
+      {
+        "title": "习近平主席贺信激励青年走技能成才之路并为世界技能运动发展指明",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "习近平主席贺信激励青年走技能成才之路并为世界技能运动发展指明方向",
+        "occurredAt": "2026-09-24"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-09-24T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-24T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-ru7xm0",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-v9941c",
+    "rootId": "src-4o4cnk",
+    "title": "习近平抵达华盛顿对美国进行国事访问",
+    "digest": "习近平抵达华盛顿对美国进行国事访问",
+    "latest": "习近平抵达华盛顿对美国进行国事访问",
+    "memberIds": [
+      "src-4o4cnk"
+    ],
+    "facts": [
+      {
+        "title": "习近平抵达华盛顿对美国进行国事访问",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "习近平抵达华盛顿对美国进行国事访问",
+        "occurredAt": "2026-09-24"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-09-24T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-24T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-4o4cnk",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
     "id": "story-uj8qi6",
     "rootId": "src-sv7d45",
     "title": "Michael Duignan 的新演讲：第十届亚洲公司与证券法年度研究所的主题演讲",
@@ -8875,6 +10607,46 @@
     "signalCount": 0,
     "sourceNames": [
       "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-1y0k9p8",
+    "rootId": "src-77g5h4",
+    "title": "李强在上海调研时强调 加快培育壮大新兴产业和未来产业 持续做大做强先进制造业",
+    "digest": "李强在上海调研时强调 加快培育壮大新兴产业和未来产业 持续做大做强先进制造业",
+    "latest": "李强在上海调研时强调 加快培育壮大新兴产业和未来产业 持续做大做强先进制造业",
+    "memberIds": [
+      "src-77g5h4"
+    ],
+    "facts": [
+      {
+        "title": "李强在上海调研时强调 加快培育壮大新兴产业和未来产业 持续做",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "李强在上海调研时强调 加快培育壮大新兴产业和未来产业 持续做大做强先进制造业",
+        "occurredAt": "2026-09-25"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-09-25T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-25T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-77g5h4",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
     ]
   },
   {
@@ -9558,6 +11330,46 @@
     "signalCount": 0,
     "sourceNames": [
       "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-chrha2",
+    "rootId": "src-78cr1v",
+    "title": "强化协会职能作用 创新推动行业高质量发展 ——新注册会计师法系列解读...",
+    "digest": "强化协会职能作用 创新推动行业高质量发展 ——新注册会计师法系列解读...",
+    "latest": "强化协会职能作用 创新推动行业高质量发展 ——新注册会计师法系列解读...",
+    "memberIds": [
+      "src-78cr1v"
+    ],
+    "facts": [
+      {
+        "title": "强化协会职能作用 创新推动行业高质量发展 ——新注册会计师法",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "强化协会职能作用 创新推动行业高质量发展 ——新注册会计师法系列解读...",
+        "occurredAt": "2026-09-28"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-09-28T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-28T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-78cr1v",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
     ]
   },
   {
@@ -10321,6 +12133,126 @@
     ]
   },
   {
+    "id": "story-1o088b1",
+    "rootId": "src-1d0cq5e",
+    "title": "关于实施居民购房贷款贴息政策的通知",
+    "digest": "关于实施居民购房贷款贴息政策的通知",
+    "latest": "关于实施居民购房贷款贴息政策的通知",
+    "memberIds": [
+      "src-1d0cq5e"
+    ],
+    "facts": [
+      {
+        "title": "关于实施居民购房贷款贴息政策的通知",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "关于实施居民购房贷款贴息政策的通知",
+        "occurredAt": "2026-09-29"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-09-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1d0cq5e",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-1uodowg",
+    "rootId": "src-1x4qgva",
+    "title": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息...",
+    "digest": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息...",
+    "latest": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息...",
+    "memberIds": [
+      "src-1x4qgva"
+    ],
+    "facts": [
+      {
+        "title": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息...",
+        "occurredAt": "2026-09-29"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-09-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1x4qgva",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-af6ozk",
+    "rootId": "src-yq4oyt",
+    "title": "民营企业参与东盟合作交流对接会在广西南宁举办",
+    "digest": "民营企业参与东盟合作交流对接会在广西南宁举办",
+    "latest": "民营企业参与东盟合作交流对接会在广西南宁举办",
+    "memberIds": [
+      "src-yq4oyt"
+    ],
+    "facts": [
+      {
+        "title": "民营企业参与东盟合作交流对接会在广西南宁举办",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "民营企业参与东盟合作交流对接会在广西南宁举办",
+        "occurredAt": "2026-09-29"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-09-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-yq4oyt",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
     "id": "story-qesep",
     "rootId": "src-78s4ov",
     "title": "为了取得真正的 ESG 进展，我们必须改革与可持续发展挂钩的高管薪酬",
@@ -10758,6 +12690,46 @@
     "signalCount": 0,
     "sourceNames": [
       "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-q3a961",
+    "rootId": "src-1l8jfcm",
+    "title": "国家发展改革委举行升国旗仪式庆祝中华人民共和国成立77周年",
+    "digest": "国家发展改革委举行升国旗仪式庆祝中华人民共和国成立77周年",
+    "latest": "国家发展改革委举行升国旗仪式庆祝中华人民共和国成立77周年",
+    "memberIds": [
+      "src-1l8jfcm"
+    ],
+    "facts": [
+      {
+        "title": "国家发展改革委举行升国旗仪式庆祝中华人民共和国成立77周年",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委举行升国旗仪式庆祝中华人民共和国成立77周年",
+        "occurredAt": "2026-09-30"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-09-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1l8jfcm",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
     ]
   },
   {
@@ -12214,6 +14186,72 @@
     ]
   },
   {
+    "id": "story-1lx8suv",
+    "rootId": "src-100tq6p",
+    "title": "2026年10月8日-2026年10月9日证券市场快报",
+    "digest": "2026年10月8日-2026年10月9日证券市场快报",
+    "latest": "2026年10月19日-2026年10月23日证券市场快报",
+    "memberIds": [
+      "src-100tq6p",
+      "src-14y2vgg",
+      "src-1tx5rp7"
+    ],
+    "facts": [
+      {
+        "title": "2026年10月8日-2026年10月9日证券市场快报",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2026年10月8日-2026年10月9日证券市场快报",
+        "occurredAt": "2026-10-08"
+      },
+      {
+        "title": "2026年10月12日-2026年10月16日证券市场快报",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2026年10月12日-2026年10月16日证券市场快报",
+        "occurredAt": "2026-10-12"
+      },
+      {
+        "title": "2026年10月19日-2026年10月23日证券市场快报",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2026年10月19日-2026年10月23日证券市场快报",
+        "occurredAt": "2026-10-19"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2026-10-08T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-19T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-100tq6p",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-14y2vgg",
+        "relation": "SAME_STORY",
+        "confidence": 0.9198662110078
+      },
+      {
+        "memberId": "src-1tx5rp7",
+        "relation": "SAME_STORY",
+        "confidence": 0.9198662110078
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
     "id": "story-veqd2c",
     "rootId": "src-15swhdy",
     "title": "CIP投资佛得角，进军意大利生物甲烷市场",
@@ -12654,6 +14692,46 @@
     ]
   },
   {
+    "id": "story-vxhryv",
+    "rootId": "src-18m5ccl",
+    "title": "只争朝夕、攻坚突破、全力冲刺 市委季度工作会议举行 陈吉宁作工作点评",
+    "digest": "只争朝夕、攻坚突破、全力冲刺 市委季度工作会议举行 陈吉宁作工作点评",
+    "latest": "只争朝夕、攻坚突破、全力冲刺 市委季度工作会议举行 陈吉宁作工作点评",
+    "memberIds": [
+      "src-18m5ccl"
+    ],
+    "facts": [
+      {
+        "title": "只争朝夕、攻坚突破、全力冲刺 市委季度工作会议举行 陈吉宁作",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "只争朝夕、攻坚突破、全力冲刺 市委季度工作会议举行 陈吉宁作工作点评",
+        "occurredAt": "2026-10-09"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-10-09T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-09T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-18m5ccl",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
+    ]
+  },
+  {
     "id": "story-1e4dewl",
     "rootId": "src-19wwbmc",
     "title": "Julia Leung的新演讲：在ASIFMA亚太资本市场未来流动性大会上的主旨演讲",
@@ -12731,6 +14809,46 @@
     "signalCount": 0,
     "sourceNames": [
       "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-5d2ihy",
+    "rootId": "src-1du8lpi",
+    "title": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...",
+    "digest": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...",
+    "latest": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...",
+    "memberIds": [
+      "src-1du8lpi"
+    ],
+    "facts": [
+      {
+        "title": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...",
+        "occurredAt": "2026-10-11"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-10-11T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-11T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1du8lpi",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
     ]
   },
   {
@@ -13747,6 +15865,99 @@
     ]
   },
   {
+    "id": "story-4esrsr",
+    "rootId": "src-lxpkq2",
+    "title": "国家能源局开展党的二十届五中全会保电工作调研",
+    "digest": "国家能源局开展党的二十届五中全会保电工作调研",
+    "latest": "国家能源局开展APEC峰会保电工作督导调研",
+    "memberIds": [
+      "src-lxpkq2",
+      "src-kvg6zx"
+    ],
+    "facts": [
+      {
+        "title": "国家能源局开展党的二十届五中全会保电工作调研",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "国家能源局开展党的二十届五中全会保电工作调研",
+        "occurredAt": "2026-10-13"
+      },
+      {
+        "title": "国家能源局开展APEC峰会保电工作督导调研",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "国家能源局开展APEC峰会保电工作督导调研",
+        "occurredAt": "2026-10-22"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-13T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-22T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-lxpkq2",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-kvg6zx",
+        "relation": "SAME_STORY",
+        "confidence": 0.600099198148979
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-15aj5dm",
+    "rootId": "src-pksn1x",
+    "title": "国家能源局召开2026年第三次能源监管工作例会",
+    "digest": "国家能源局召开2026年第三次能源监管工作例会",
+    "latest": "国家能源局召开2026年第三次能源监管工作例会",
+    "memberIds": [
+      "src-pksn1x"
+    ],
+    "facts": [
+      {
+        "title": "国家能源局召开2026年第三次能源监管工作例会",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "国家能源局召开2026年第三次能源监管工作例会",
+        "occurredAt": "2026-10-13"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-13T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-13T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-pksn1x",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
     "id": "story-snnpcs",
     "rootId": "src-u2duuc",
     "title": "黄凯文新演讲：2026年国际证监会组织世界投资者周主旨演讲——金融知识敲响锣鼓",
@@ -14347,6 +16558,46 @@
     ]
   },
   {
+    "id": "story-w8cydq",
+    "rootId": "src-s6zz3t",
+    "title": "国家能源局负责人出席东盟能源部长系列会议",
+    "digest": "国家能源局负责人出席东盟能源部长系列会议",
+    "latest": "国家能源局负责人出席东盟能源部长系列会议",
+    "memberIds": [
+      "src-s6zz3t"
+    ],
+    "facts": [
+      {
+        "title": "国家能源局负责人出席东盟能源部长系列会议",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "国家能源局负责人出席东盟能源部长系列会议",
+        "occurredAt": "2026-10-14"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-14T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-14T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-s6zz3t",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
     "id": "story-5ikeqj",
     "rootId": "src-1f94eio",
     "title": "香港交易所核心气候项目完成首个绿色电力证书和碳排放配额跨境试点",
@@ -14667,6 +16918,86 @@
     ]
   },
   {
+    "id": "story-1xt74ra",
+    "rootId": "src-1x2wh3n",
+    "title": "关于印发《城乡义务教育补助经费管理办法》的通知",
+    "digest": "关于印发《城乡义务教育补助经费管理办法》的通知",
+    "latest": "关于印发《城乡义务教育补助经费管理办法》的通知",
+    "memberIds": [
+      "src-1x2wh3n"
+    ],
+    "facts": [
+      {
+        "title": "关于印发《城乡义务教育补助经费管理办法》的通知",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "关于印发《城乡义务教育补助经费管理办法》的通知",
+        "occurredAt": "2026-10-15"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-10-15T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-15T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1x2wh3n",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-uh8tsm",
+    "rootId": "src-1q53aqu",
+    "title": "2026年10月15日国内成品油价格不作调整",
+    "digest": "2026年10月15日国内成品油价格不作调整",
+    "latest": "2026年10月15日国内成品油价格不作调整",
+    "memberIds": [
+      "src-1q53aqu"
+    ],
+    "facts": [
+      {
+        "title": "2026年10月15日国内成品油价格不作调整",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "2026年10月15日国内成品油价格不作调整",
+        "occurredAt": "2026-10-15"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-10-15T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-15T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1q53aqu",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
     "id": "story-1ah5l6s",
     "rootId": "src-vtsa4r",
     "title": "Engie、CMA CGM将建造新的清洁燃料工厂，以推动车队脱碳",
@@ -14984,6 +17315,126 @@
     "signalCount": 0,
     "sourceNames": [
       "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1hvptq",
+    "rootId": "src-1tfxndy",
+    "title": "关于进一步完善价格形成机制 推动普惠养老服务提质扩面的指导意见",
+    "digest": "关于进一步完善价格形成机制 推动普惠养老服务提质扩面的指导意见",
+    "latest": "关于进一步完善价格形成机制 推动普惠养老服务提质扩面的指导意见",
+    "memberIds": [
+      "src-1tfxndy"
+    ],
+    "facts": [
+      {
+        "title": "关于进一步完善价格形成机制 推动普惠养老服务提质扩面的指导意",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "关于进一步完善价格形成机制 推动普惠养老服务提质扩面的指导意见",
+        "occurredAt": "2026-10-16"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-10-16T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-16T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1tfxndy",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-pl7tfb",
+    "rootId": "src-1s7nl9c",
+    "title": "国家发展改革委运行局在新疆组织召开煤炭清洁高效利用及经济运行监测分析工作推进会",
+    "digest": "国家发展改革委运行局在新疆组织召开煤炭清洁高效利用及经济运行监测分析工作推进会",
+    "latest": "国家发展改革委运行局在新疆组织召开煤炭清洁高效利用及经济运行监测分析工作推进会",
+    "memberIds": [
+      "src-1s7nl9c"
+    ],
+    "facts": [
+      {
+        "title": "国家发展改革委运行局在新疆组织召开煤炭清洁高效利用及经济运行",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委运行局在新疆组织召开煤炭清洁高效利用及经济运行监测分析工作推进会",
+        "occurredAt": "2026-10-16"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-10-16T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-16T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1s7nl9c",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-13l1hdi",
+    "rootId": "src-1g5fygg",
+    "title": "国家发展改革委、国家能源局等部门在山西召开加快煤矿复产增产保供工作推进会",
+    "digest": "国家发展改革委、国家能源局等部门在山西召开加快煤矿复产增产保供工作推进会",
+    "latest": "国家发展改革委、国家能源局等部门在山西召开加快煤矿复产增产保供工作推进会",
+    "memberIds": [
+      "src-1g5fygg"
+    ],
+    "facts": [
+      {
+        "title": "国家发展改革委、国家能源局等部门在山西召开加快煤矿复产增产保",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委、国家能源局等部门在山西召开加快煤矿复产增产保供工作推进会",
+        "occurredAt": "2026-10-16"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-16T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-16T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1g5fygg",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
     ]
   },
   {
@@ -15467,6 +17918,126 @@
     ]
   },
   {
+    "id": "story-153eotm",
+    "rootId": "src-k7ptn1",
+    "title": "中国人民银行行长潘功胜在2026金融街论坛年会上的主题演讲",
+    "digest": "中国人民银行行长潘功胜在2026金融街论坛年会上的主题演讲",
+    "latest": "中国人民银行行长潘功胜在2026金融街论坛年会上的主题演讲",
+    "memberIds": [
+      "src-k7ptn1"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行行长潘功胜在2026金融街论坛年会上的主题演讲",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行行长潘功胜在2026金融街论坛年会上的主题演讲",
+        "occurredAt": "2026-10-19"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-10-19T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-19T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-k7ptn1",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-gtk4p4",
+    "rootId": "src-4mzffd",
+    "title": "国家能源局举办“能源青年论坛”活动",
+    "digest": "国家能源局举办“能源青年论坛”活动",
+    "latest": "国家能源局举办“能源青年论坛”活动",
+    "memberIds": [
+      "src-4mzffd"
+    ],
+    "facts": [
+      {
+        "title": "国家能源局举办“能源青年论坛”活动",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "国家能源局举办“能源青年论坛”活动",
+        "occurredAt": "2026-10-19"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-19T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-19T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-4mzffd",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-12m0ryi",
+    "rootId": "src-cwoc2s",
+    "title": "国家能源局负责人会见壳牌集团执行委员会委员",
+    "digest": "国家能源局负责人会见壳牌集团执行委员会委员",
+    "latest": "国家能源局负责人会见壳牌集团执行委员会委员",
+    "memberIds": [
+      "src-cwoc2s"
+    ],
+    "facts": [
+      {
+        "title": "国家能源局负责人会见壳牌集团执行委员会委员",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "国家能源局负责人会见壳牌集团执行委员会委员",
+        "occurredAt": "2026-10-19"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-19T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-19T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-cwoc2s",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
     "id": "story-1c1uql7",
     "rootId": "src-8x292h",
     "title": "量子的三个视野：未来计算经济的商业路线图",
@@ -15587,6 +18158,166 @@
     ]
   },
   {
+    "id": "story-3f7as6",
+    "rootId": "src-ruc79g",
+    "title": "中国人民银行副行长宣昌能会见巴西国库秘书丹尼尔·莱亚尔",
+    "digest": "中国人民银行副行长宣昌能会见巴西国库秘书丹尼尔·莱亚尔",
+    "latest": "中国人民银行副行长宣昌能会见巴西国库秘书丹尼尔·莱亚尔",
+    "memberIds": [
+      "src-ruc79g"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行副行长宣昌能会见巴西国库秘书丹尼尔·莱亚尔",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行副行长宣昌能会见巴西国库秘书丹尼尔·莱亚尔",
+        "occurredAt": "2026-10-20"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-10-20T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-20T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-ruc79g",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-1pqi2hk",
+    "rootId": "src-ecnev",
+    "title": "中国人民银行行长潘功胜会见桥水投资公司创始人瑞·达利欧",
+    "digest": "中国人民银行行长潘功胜会见桥水投资公司创始人瑞·达利欧",
+    "latest": "中国人民银行行长潘功胜会见桥水投资公司创始人瑞·达利欧",
+    "memberIds": [
+      "src-ecnev"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行行长潘功胜会见桥水投资公司创始人瑞·达利欧",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行行长潘功胜会见桥水投资公司创始人瑞·达利欧",
+        "occurredAt": "2026-10-20"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-10-20T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-20T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-ecnev",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-11g8kyu",
+    "rootId": "src-1dcbdan",
+    "title": "国家发展改革委举行10月份新闻发布会",
+    "digest": "国家发展改革委举行10月份新闻发布会",
+    "latest": "国家发展改革委举行10月份新闻发布会",
+    "memberIds": [
+      "src-1dcbdan"
+    ],
+    "facts": [
+      {
+        "title": "国家发展改革委举行10月份新闻发布会",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委举行10月份新闻发布会",
+        "occurredAt": "2026-10-20"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-10-20T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-20T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1dcbdan",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-uj9kdp",
+    "rootId": "src-kua801",
+    "title": "国家能源局举办“走进核电媒体调研行”活动",
+    "digest": "国家能源局举办“走进核电媒体调研行”活动",
+    "latest": "国家能源局举办“走进核电媒体调研行”活动",
+    "memberIds": [
+      "src-kua801"
+    ],
+    "facts": [
+      {
+        "title": "国家能源局举办“走进核电媒体调研行”活动",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "国家能源局举办“走进核电媒体调研行”活动",
+        "occurredAt": "2026-10-20"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-20T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-20T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-kua801",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
     "id": "story-35bx6q",
     "rootId": "src-1f8bevg",
     "title": "港交所推出绿色股权认定计划，加强对绿色经济的资本支持",
@@ -15624,6 +18355,112 @@
     "signalCount": 0,
     "sourceNames": [
       "香港交易所新闻稿"
+    ]
+  },
+  {
+    "id": "story-c92yni",
+    "rootId": "src-10kaxmx",
+    "title": "中国人民银行公告﹝2026﹞第27号",
+    "digest": "中国人民银行公告﹝2026﹞第27号",
+    "latest": "中国人民银行公告﹝2026﹞第28号",
+    "memberIds": [
+      "src-10kaxmx",
+      "src-1b7fdsa",
+      "src-1en6vyt"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行公告﹝2026﹞第27号",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行公告﹝2026﹞第27号",
+        "occurredAt": "2026-10-21"
+      },
+      {
+        "title": "中国人民银行公告﹝2026﹞第26号",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行公告﹝2026﹞第26号",
+        "occurredAt": "2026-10-23"
+      },
+      {
+        "title": "中国人民银行公告﹝2026﹞第28号",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行公告﹝2026﹞第28号",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-10-21T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-10kaxmx",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1b7fdsa",
+        "relation": "SAME_STORY",
+        "confidence": 0.9090909090909091
+      },
+      {
+        "memberId": "src-1en6vyt",
+        "relation": "SAME_STORY",
+        "confidence": 0.9090909090909091
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-nd898b",
+    "rootId": "src-1twcxe3",
+    "title": "习近平致信祝贺中央社会主义学院建院70周年",
+    "digest": "习近平致信祝贺中央社会主义学院建院70周年",
+    "latest": "习近平致信祝贺中央社会主义学院建院70周年",
+    "memberIds": [
+      "src-1twcxe3"
+    ],
+    "facts": [
+      {
+        "title": "习近平致信祝贺中央社会主义学院建院70周年",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "习近平致信祝贺中央社会主义学院建院70周年",
+        "occurredAt": "2026-10-21"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-21T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-21T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1twcxe3",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
     ]
   },
   {
@@ -15837,6 +18674,126 @@
     "signalCount": 0,
     "sourceNames": [
       "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-2xwtw8",
+    "rootId": "src-1j6b4y1",
+    "title": "国家能源局负责人会见克罗地亚经济部部长",
+    "digest": "国家能源局负责人会见克罗地亚经济部部长",
+    "latest": "国家能源局负责人会见克罗地亚经济部部长",
+    "memberIds": [
+      "src-1j6b4y1"
+    ],
+    "facts": [
+      {
+        "title": "国家能源局负责人会见克罗地亚经济部部长",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "国家能源局负责人会见克罗地亚经济部部长",
+        "occurredAt": "2026-10-22"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-22T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-22T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1j6b4y1",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-1q8dilb",
+    "rootId": "src-zegt4l",
+    "title": "国家能源局召开长三角电力市场建设推进会",
+    "digest": "国家能源局召开长三角电力市场建设推进会",
+    "latest": "国家能源局召开长三角电力市场建设推进会",
+    "memberIds": [
+      "src-zegt4l"
+    ],
+    "facts": [
+      {
+        "title": "国家能源局召开长三角电力市场建设推进会",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "国家能源局召开长三角电力市场建设推进会",
+        "occurredAt": "2026-10-22"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-22T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-22T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-zegt4l",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-1y5h2l9",
+    "rootId": "src-13feu4x",
+    "title": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+    "digest": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+    "latest": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+    "memberIds": [
+      "src-13feu4x"
+    ],
+    "facts": [
+      {
+        "title": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+        "occurredAt": "2026-10-22"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-22T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-22T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-13feu4x",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
     ]
   },
   {
@@ -16120,6 +19077,406 @@
     ]
   },
   {
+    "id": "story-bv4p8b",
+    "rootId": "src-1vyf3os",
+    "title": "吴清主席会见香港特区政府财政司司长陈茂波一行",
+    "digest": "吴清主席会见香港特区政府财政司司长陈茂波一行",
+    "latest": "吴清主席会见香港特区政府财政司司长陈茂波一行",
+    "memberIds": [
+      "src-1vyf3os"
+    ],
+    "facts": [
+      {
+        "title": "吴清主席会见香港特区政府财政司司长陈茂波一行",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "吴清主席会见香港特区政府财政司司长陈茂波一行",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2026-10-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1vyf3os",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-kdeqqd",
+    "rootId": "src-70wnu",
+    "title": "中国证监会党委传达贯彻党的二十届五中全会精神",
+    "digest": "中国证监会党委传达贯彻党的二十届五中全会精神",
+    "latest": "中国证监会党委传达贯彻党的二十届五中全会精神",
+    "memberIds": [
+      "src-70wnu"
+    ],
+    "facts": [
+      {
+        "title": "中国证监会党委传达贯彻党的二十届五中全会精神",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "中国证监会党委传达贯彻党的二十届五中全会精神",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2026-10-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-70wnu",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-1gdird0",
+    "rootId": "src-is5dm6",
+    "title": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
+    "digest": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
+    "latest": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
+    "memberIds": [
+      "src-is5dm6"
+    ],
+    "facts": [
+      {
+        "title": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2026-10-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-is5dm6",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-12oki3n",
+    "rootId": "src-1o5gzxs",
+    "title": "吴清主席与财政部副部长郭婷婷共同会见美国公众公司会计监督委员会主席洛戈泰斯",
+    "digest": "吴清主席与财政部副部长郭婷婷共同会见美国公众公司会计监督委员会主席洛戈泰斯",
+    "latest": "吴清主席与财政部副部长郭婷婷共同会见美国公众公司会计监督委员会主席洛戈泰斯",
+    "memberIds": [
+      "src-1o5gzxs"
+    ],
+    "facts": [
+      {
+        "title": "吴清主席与财政部副部长郭婷婷共同会见美国公众公司会计监督委员",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "吴清主席与财政部副部长郭婷婷共同会见美国公众公司会计监督委员会主席洛戈泰斯",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2026-10-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1o5gzxs",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-1fvhvax",
+    "rootId": "src-rflkj6",
+    "title": "统筹发展和安全 坚持开放与合作 奋力谱写资本市场“十五五”高质量发展新篇章——吴清主席在2026金融街论坛年会上的主题演讲",
+    "digest": "统筹发展和安全 坚持开放与合作 奋力谱写资本市场“十五五”高质量发展新篇章——吴清主席在2026金融街论坛年会上的主题演讲",
+    "latest": "统筹发展和安全 坚持开放与合作 奋力谱写资本市场“十五五”高质量发展新篇章——吴清主席在2026金融街论坛年会上的主题演讲",
+    "memberIds": [
+      "src-rflkj6"
+    ],
+    "facts": [
+      {
+        "title": "统筹发展和安全 坚持开放与合作 奋力谱写资本市场“十五五”高",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "统筹发展和安全 坚持开放与合作 奋力谱写资本市场“十五五”高质量发展新篇章——吴清主席在2026金融街论坛年会上的主题演讲",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2026-10-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-rflkj6",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-13r5xaf",
+    "rootId": "src-5dvwzu",
+    "title": "中国人民银行行长潘功胜会见意大利前总理、欧央行前行长马里奥·德拉吉一行",
+    "digest": "中国人民银行行长潘功胜会见意大利前总理、欧央行前行长马里奥·德拉吉一行",
+    "latest": "中国人民银行行长潘功胜会见意大利前总理、欧央行前行长马里奥·德拉吉一行",
+    "memberIds": [
+      "src-5dvwzu"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行行长潘功胜会见意大利前总理、欧央行前行长马里奥·",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行行长潘功胜会见意大利前总理、欧央行前行长马里奥·德拉吉一行",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-10-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-5dvwzu",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-e7yuii",
+    "rootId": "src-140hshn",
+    "title": "中国人民银行副行长宣昌能会见法国财政总署署长杜蒙",
+    "digest": "中国人民银行副行长宣昌能会见法国财政总署署长杜蒙",
+    "latest": "中国人民银行副行长宣昌能会见法国财政总署署长杜蒙",
+    "memberIds": [
+      "src-140hshn"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行副行长宣昌能会见法国财政总署署长杜蒙",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行副行长宣昌能会见法国财政总署署长杜蒙",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-10-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-140hshn",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-6lfpib",
+    "rootId": "src-1q8pxm0",
+    "title": "中国人民银行行长潘功胜会见彼得森国际经济研究所代表团",
+    "digest": "中国人民银行行长潘功胜会见彼得森国际经济研究所代表团",
+    "latest": "中国人民银行行长潘功胜会见彼得森国际经济研究所代表团",
+    "memberIds": [
+      "src-1q8pxm0"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行行长潘功胜会见彼得森国际经济研究所代表团",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行行长潘功胜会见彼得森国际经济研究所代表团",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-10-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1q8pxm0",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-6wjyfl",
+    "rootId": "src-13nisjw",
+    "title": "中共中央政治局召开会议 中共中央总书记习近平主持会议",
+    "digest": "中共中央政治局召开会议 中共中央总书记习近平主持会议",
+    "latest": "中共中央政治局召开会议 中共中央总书记习近平主持会议",
+    "memberIds": [
+      "src-13nisjw"
+    ],
+    "facts": [
+      {
+        "title": "中共中央政治局召开会议 中共中央总书记习近平主持会议",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "中共中央政治局召开会议 中共中央总书记习近平主持会议",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-13nisjw",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-19udg2b",
+    "rootId": "src-4kpucj",
+    "title": "前三季度上海GDP增长5.5% 三大先导产业制造业产值同比增长17.1%",
+    "digest": "前三季度上海GDP增长5.5% 三大先导产业制造业产值同比增长17.1%",
+    "latest": "前三季度上海GDP增长5.5% 三大先导产业制造业产值同比增长17.1%",
+    "memberIds": [
+      "src-4kpucj"
+    ],
+    "facts": [
+      {
+        "title": "前三季度上海GDP增长5.5% 三大先导产业制造业产值同比增",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "前三季度上海GDP增长5.5% 三大先导产业制造业产值同比增长17.1%",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-10-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-4kpucj",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
+    ]
+  },
+  {
     "id": "story-gpj2t7",
     "rootId": "src-1r0iioz",
     "title": "香港交易所推出人工智能和半导体指数",
@@ -16317,6 +19674,46 @@
     "signalCount": 0,
     "sourceNames": [
       "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-4g1db1",
+    "rootId": "src-finance-biodiversity-issb-2026",
+    "title": "15家金融机构呼吁ISSB制定独立的自然信息披露准则",
+    "digest": "Finance for Biodiversity Foundation披露，15家金融机构联合呼吁ISSB制定独立的自然相关信息披露准则，以提升自然相关风险的透明度。",
+    "latest": "Finance for Biodiversity Foundation披露，15家金融机构联合呼吁ISSB制定独立的自然相关信息披露准则，以提升自然相关风险的透明度。",
+    "memberIds": [
+      "src-finance-biodiversity-issb-2026"
+    ],
+    "facts": [
+      {
+        "title": "15家金融机构呼吁ISSB制定独立的自然信息披露准则",
+        "subject": "Finance for Biodiversity Foundation",
+        "action": "披露",
+        "object": "15家金融机构呼吁ISSB制定独立的自然信息披露准则",
+        "occurredAt": "2026-10-25"
+      }
+    ],
+    "participants": [
+      "finance-biodiversity"
+    ],
+    "firstPublishedAt": "2026-10-25T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-25T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-finance-biodiversity-issb-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Finance for Biodiversity Foundation"
     ]
   },
   {
@@ -16520,6 +19917,86 @@
     ]
   },
   {
+    "id": "story-yo929v",
+    "rootId": "src-1hfb8cj",
+    "title": "2026年9月金融市场运行情况",
+    "digest": "2026年9月金融市场运行情况",
+    "latest": "2026年9月金融市场运行情况",
+    "memberIds": [
+      "src-1hfb8cj"
+    ],
+    "facts": [
+      {
+        "title": "2026年9月金融市场运行情况",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "2026年9月金融市场运行情况",
+        "occurredAt": "2026-10-26"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-10-26T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-26T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1hfb8cj",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-bc84zy",
+    "rootId": "src-iy73cz",
+    "title": "中国人民银行设立债市非银大额赎回互换便利（中国人民银行公开市场业务...",
+    "digest": "中国人民银行设立债市非银大额赎回互换便利（中国人民银行公开市场业务...",
+    "latest": "中国人民银行设立债市非银大额赎回互换便利（中国人民银行公开市场业务...",
+    "memberIds": [
+      "src-iy73cz"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行设立债市非银大额赎回互换便利（中国人民银行公开市",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行设立债市非银大额赎回互换便利（中国人民银行公开市场业务...",
+        "occurredAt": "2026-10-26"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-10-26T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-26T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-iy73cz",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
     "id": "story-15f0w7p",
     "rootId": "src-1e667of",
     "title": "证监会批准代币化公募基金的首次二级交易",
@@ -16637,6 +20114,99 @@
     "signalCount": 0,
     "sourceNames": [
       "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-2yjqgt",
+    "rootId": "src-china-power-market-grec-2026",
+    "title": "中国电力市场扩容，绿证交易分化",
+    "digest": "国家能源局公布，前三季度全国电力市场累计交易电量58536亿千瓦时，同比增长18.9%，其中绿电交易2492亿千瓦时，同比增长6.1%。",
+    "latest": "国家能源局公布，前三季度全国电力市场累计交易电量58536亿千瓦时，同比增长18.9%，其中绿电交易2492亿千瓦时，同比增长6.1%。",
+    "memberIds": [
+      "src-china-power-market-grec-2026"
+    ],
+    "facts": [
+      {
+        "title": "中国电力市场扩容，绿证交易分化",
+        "subject": "国家能源局",
+        "action": "发布",
+        "object": "中国电力市场扩容，绿证交易分化",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "unmatched-1hqcysj"
+    ],
+    "firstPublishedAt": "2026-10-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-china-power-market-grec-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局"
+    ]
+  },
+  {
+    "id": "story-yewmvx",
+    "rootId": "src-1rj0p7g",
+    "title": "周海兵副主任会见法国财政总署署长杜蒙",
+    "digest": "周海兵副主任会见法国财政总署署长杜蒙",
+    "latest": "周海兵副主任会见法国财政总署署长杜蒙",
+    "memberIds": [
+      "src-1rj0p7g",
+      "src-147vgwf"
+    ],
+    "facts": [
+      {
+        "title": "周海兵副主任会见法国财政总署署长杜蒙",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "周海兵副主任会见法国财政总署署长杜蒙",
+        "occurredAt": "2026-10-27"
+      },
+      {
+        "title": "周海兵副主任会见法国财政总署署长杜蒙",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "周海兵副主任会见法国财政总署署长杜蒙",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-10-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1rj0p7g",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-147vgwf",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
     ]
   },
   {
@@ -16917,6 +20487,86 @@
     "signalCount": 0,
     "sourceNames": [
       "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-jvntjd",
+    "rootId": "src-w17k3u",
+    "title": "2026年三季度金融机构贷款投向统计报告",
+    "digest": "2026年三季度金融机构贷款投向统计报告",
+    "latest": "2026年三季度金融机构贷款投向统计报告",
+    "memberIds": [
+      "src-w17k3u"
+    ],
+    "facts": [
+      {
+        "title": "2026年三季度金融机构贷款投向统计报告",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "2026年三季度金融机构贷款投向统计报告",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-10-28T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-28T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-w17k3u",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-z284b1",
+    "rootId": "src-89g6mo",
+    "title": "关于同意南方区域电力市场转入正式运行的复函",
+    "digest": "关于同意南方区域电力市场转入正式运行的复函",
+    "latest": "关于同意南方区域电力市场转入正式运行的复函",
+    "memberIds": [
+      "src-89g6mo"
+    ],
+    "facts": [
+      {
+        "title": "关于同意南方区域电力市场转入正式运行的复函",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "关于同意南方区域电力市场转入正式运行的复函",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-10-28T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-28T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-89g6mo",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
     ]
   },
   {
@@ -17412,6 +21062,392 @@
     "signalCount": 0,
     "sourceNames": [
       "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1wfp0az",
+    "rootId": "src-gcf-46th-board-2026",
+    "title": "绿色气候基金第46次董事会批准近20亿美元项目",
+    "digest": "绿色气候基金（GCF）宣布，第46次董事会会议批准21个项目，新增融资约19.7亿美元，创单次会议批准规模纪录，其中约6.82亿美元支持六项私人部门项目。",
+    "latest": "绿色气候基金（GCF）宣布，第46次董事会会议批准21个项目，新增融资约19.7亿美元，创单次会议批准规模纪录，其中约6.82亿美元支持六项私人部门项目。",
+    "memberIds": [
+      "src-gcf-46th-board-2026"
+    ],
+    "facts": [
+      {
+        "title": "绿色气候基金第46次董事会批准近20亿美元项目",
+        "subject": "绿色气候基金（GCF）",
+        "action": "批准",
+        "object": "绿色气候基金第46次董事会批准近20亿美元项目",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "gcf-news"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-gcf-46th-board-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "绿色气候基金（GCF）"
+    ]
+  },
+  {
+    "id": "story-lz6clu",
+    "rootId": "src-google-finland-data-center-2026",
+    "title": "芬兰警方调查谷歌数据中心涉嫌环境违法",
+    "digest": "芬兰警方宣布，对谷歌子公司在北部Muhos地区建设数据中心期间涉嫌违反环境法规的行为展开刑事调查。",
+    "latest": "芬兰警方宣布，对谷歌子公司在北部Muhos地区建设数据中心期间涉嫌违反环境法规的行为展开刑事调查。",
+    "memberIds": [
+      "src-google-finland-data-center-2026"
+    ],
+    "facts": [
+      {
+        "title": "芬兰警方调查谷歌数据中心涉嫌环境违法",
+        "subject": "芬兰警方",
+        "action": "调查",
+        "object": "芬兰警方调查谷歌数据中心涉嫌环境违法",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "finnish-police"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-google-finland-data-center-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "芬兰警方"
+    ]
+  },
+  {
+    "id": "story-15ts3xg",
+    "rootId": "src-1bzuzc9",
+    "title": "生态环境部部长黄润秋出席2026年联合国中国青少年环境大会",
+    "digest": "生态环境部部长黄润秋出席2026年联合国中国青少年环境大会",
+    "latest": "生态环境部部长黄润秋出席2026年联合国中国青少年环境大会",
+    "memberIds": [
+      "src-1bzuzc9"
+    ],
+    "facts": [
+      {
+        "title": "生态环境部部长黄润秋出席2026年联合国中国青少年环境大会",
+        "subject": "中国生态环境部新闻",
+        "action": "发布",
+        "object": "生态环境部部长黄润秋出席2026年联合国中国青少年环境大会",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "mee-china"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1bzuzc9",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国生态环境部新闻"
+    ]
+  },
+  {
+    "id": "story-1sdvrfz",
+    "rootId": "src-1341bim",
+    "title": "生态环境部部长黄润秋出席香港第二十一届国际环保博览会",
+    "digest": "生态环境部部长黄润秋出席香港第二十一届国际环保博览会",
+    "latest": "生态环境部部长黄润秋出席香港第二十一届国际环保博览会",
+    "memberIds": [
+      "src-1341bim"
+    ],
+    "facts": [
+      {
+        "title": "生态环境部部长黄润秋出席香港第二十一届国际环保博览会",
+        "subject": "中国生态环境部新闻",
+        "action": "发布",
+        "object": "生态环境部部长黄润秋出席香港第二十一届国际环保博览会",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "mee-china"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1341bim",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国生态环境部新闻"
+    ]
+  },
+  {
+    "id": "story-x2zd9w",
+    "rootId": "src-s8bmbp",
+    "title": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
+    "digest": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
+    "latest": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
+    "memberIds": [
+      "src-s8bmbp"
+    ],
+    "facts": [
+      {
+        "title": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-s8bmbp",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-16mthcn",
+    "rootId": "src-1iet9z7",
+    "title": "中智（利）两国央行续签双边本币互换协议",
+    "digest": "中智（利）两国央行续签双边本币互换协议",
+    "latest": "中南（非）两国央行续签双边本币互换协议",
+    "memberIds": [
+      "src-1iet9z7",
+      "src-fp8ub8"
+    ],
+    "facts": [
+      {
+        "title": "中智（利）两国央行续签双边本币互换协议",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中智（利）两国央行续签双边本币互换协议",
+        "occurredAt": "2026-10-29"
+      },
+      {
+        "title": "中南（非）两国央行续签双边本币互换协议",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中南（非）两国央行续签双边本币互换协议",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1iet9z7",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-fp8ub8",
+        "relation": "SAME_STORY",
+        "confidence": 0.8666666666666666
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-1lpyqy0",
+    "rootId": "src-hz6ycd",
+    "title": "2026年10月29日国家再次实施调控，成品油价格适当调整",
+    "digest": "2026年10月29日国家再次实施调控，成品油价格适当调整",
+    "latest": "2026年10月29日国家再次实施调控，成品油价格适当调整",
+    "memberIds": [
+      "src-hz6ycd"
+    ],
+    "facts": [
+      {
+        "title": "2026年10月29日国家再次实施调控，成品油价格适当调整",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "2026年10月29日国家再次实施调控，成品油价格适当调整",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-hz6ycd",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-1x6vf13",
+    "rootId": "src-13xl8ut",
+    "title": "上海市发展和改革委员会关于车用汽、柴油价格的通知（2026年10月29日）",
+    "digest": "上海市发展和改革委员会关于车用汽、柴油价格的通知（2026年10月29日）",
+    "latest": "上海市发展和改革委员会关于车用汽、柴油价格的通知（2026年10月29日）",
+    "memberIds": [
+      "src-13xl8ut"
+    ],
+    "facts": [
+      {
+        "title": "上海市发展和改革委员会关于车用汽、柴油价格的通知（2026年",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "上海市发展和改革委员会关于车用汽、柴油价格的通知（2026年10月29日）",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-13xl8ut",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
+    ]
+  },
+  {
+    "id": "story-xchz3g",
+    "rootId": "src-1230ffd",
+    "title": "上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知",
+    "digest": "上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知",
+    "latest": "【图解】上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知",
+    "memberIds": [
+      "src-1230ffd",
+      "src-14orjbe"
+    ],
+    "facts": [
+      {
+        "title": "上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知",
+        "occurredAt": "2026-10-29"
+      },
+      {
+        "title": "【图解】上海市人民政府办公厅关于印发《上海市推动中小企业高质",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "【图解】上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1230ffd",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-14orjbe",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 0.9842509842514764
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
     ]
   },
   {
@@ -17935,6 +21971,1211 @@
     ]
   },
   {
+    "id": "story-1h5t3wq",
+    "rootId": "src-un-warming-15c-2026",
+    "title": "联合国确认全球升温将超过1.5°C",
+    "digest": "联合国最新评估确认，全球平均气温升幅将超过《巴黎协定》设定的1.5°C目标，呼吁各国加快减排与适应行动。",
+    "latest": "联合国最新评估确认，全球平均气温升幅将超过《巴黎协定》设定的1.5°C目标，呼吁各国加快减排与适应行动。",
+    "memberIds": [
+      "src-un-warming-15c-2026"
+    ],
+    "facts": [
+      {
+        "title": "联合国确认全球升温将超过1.5°C",
+        "subject": "联合国",
+        "action": "发布",
+        "object": "联合国确认全球升温将超过1.5°C",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "un-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-un-warming-15c-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "联合国"
+    ]
+  },
+  {
+    "id": "story-o2libv",
+    "rootId": "src-issb-nature-framework-2026",
+    "title": "ISSB推出自然相关披露新框架",
+    "digest": "国际可持续发展准则理事会（ISSB）发布自然相关披露新框架，推动企业系统披露自然依赖、影响、风险与机遇。",
+    "latest": "国际可持续发展准则理事会（ISSB）发布自然相关披露新框架，推动企业系统披露自然依赖、影响、风险与机遇。",
+    "memberIds": [
+      "src-issb-nature-framework-2026"
+    ],
+    "facts": [
+      {
+        "title": "ISSB推出自然相关披露新框架",
+        "subject": "IFRS / ISSB",
+        "action": "发布",
+        "object": "ISSB推出自然相关披露新框架",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "unmatched-15x86yg"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-issb-nature-framework-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "IFRS / ISSB"
+    ]
+  },
+  {
+    "id": "story-12dik34",
+    "rootId": "src-hkex-green-stock-2026",
+    "title": "港交所推出绿色股票认定机制",
+    "digest": "香港交易所推出绿色股票认定机制，为符合绿色标准的上市公司提供标识，提升绿色资本配置的透明度。",
+    "latest": "香港交易所推出绿色股票认定机制，为符合绿色标准的上市公司提供标识，提升绿色资本配置的透明度。",
+    "memberIds": [
+      "src-hkex-green-stock-2026"
+    ],
+    "facts": [
+      {
+        "title": "港交所推出绿色股票认定机制",
+        "subject": "香港交易所新闻稿",
+        "action": "发布",
+        "object": "港交所推出绿色股票认定机制",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "hkex-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-hkex-green-stock-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港交易所新闻稿"
+    ]
+  },
+  {
+    "id": "story-1vwxhuz",
+    "rootId": "src-china-carbon-market-expansion-2026",
+    "title": "中国碳市场交易扩容提速",
+    "digest": "中国全国碳市场交易扩容提速，覆盖行业与交易主体进一步扩大，市场流动性与价格发现功能持续增强。",
+    "latest": "中国全国碳市场交易扩容提速，覆盖行业与交易主体进一步扩大，市场流动性与价格发现功能持续增强。",
+    "memberIds": [
+      "src-china-carbon-market-expansion-2026"
+    ],
+    "facts": [
+      {
+        "title": "中国碳市场交易扩容提速",
+        "subject": "中国生态环境部",
+        "action": "发布",
+        "object": "中国碳市场交易扩容提速",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "unmatched-zmjo"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-china-carbon-market-expansion-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国生态环境部"
+    ]
+  },
+  {
+    "id": "story-1uoyccv",
+    "rootId": "src-eu-clean-energy-finance-2026",
+    "title": "欧洲加码清洁能源转型融资",
+    "digest": "欧盟宣布加大清洁能源转型融资力度，支持可再生能源、电网升级与工业脱碳项目。",
+    "latest": "欧盟宣布加大清洁能源转型融资力度，支持可再生能源、电网升级与工业脱碳项目。",
+    "memberIds": [
+      "src-eu-clean-energy-finance-2026"
+    ],
+    "facts": [
+      {
+        "title": "欧洲加码清洁能源转型融资",
+        "subject": "欧盟委员会",
+        "action": "发布",
+        "object": "欧洲加码清洁能源转型融资",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "eu-commission"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-eu-clean-energy-finance-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "欧盟委员会"
+    ]
+  },
+  {
+    "id": "story-1tweunj",
+    "rootId": "src-state-grid-investment-2026",
+    "title": "国家电网前三季度投资超4500亿元",
+    "digest": "国家电网公布，前三季度电网投资超过4500亿元，重点投向特高压、配电网与新能源消纳工程。",
+    "latest": "国家电网公布，前三季度电网投资超过4500亿元，重点投向特高压、配电网与新能源消纳工程。",
+    "memberIds": [
+      "src-state-grid-investment-2026"
+    ],
+    "facts": [
+      {
+        "title": "国家电网前三季度投资超4500亿元",
+        "subject": "国家电网",
+        "action": "发布",
+        "object": "国家电网前三季度投资超4500亿元",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "state-grid-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-state-grid-investment-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家电网"
+    ]
+  },
+  {
+    "id": "story-1pg3lap",
+    "rootId": "src-citi-carbon-removal-bond-2026",
+    "title": "花旗推出7200万美元碳移除债券",
+    "digest": "花旗推出规模7200万美元的碳移除债券，为高质量碳移除项目提供融资，探索碳信用与债券市场的结合。",
+    "latest": "花旗推出规模7200万美元的碳移除债券，为高质量碳移除项目提供融资，探索碳信用与债券市场的结合。",
+    "memberIds": [
+      "src-citi-carbon-removal-bond-2026"
+    ],
+    "facts": [
+      {
+        "title": "花旗推出7200万美元碳移除债券",
+        "subject": "花旗集团",
+        "action": "发布",
+        "object": "花旗推出7200万美元碳移除债券",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "citi-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-citi-carbon-removal-bond-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "花旗集团"
+    ]
+  },
+  {
+    "id": "story-75peoh",
+    "rootId": "src-google-vpp-1gw-2026",
+    "title": "谷歌将建设1GW虚拟电厂",
+    "digest": "谷歌宣布建设1GW虚拟电厂，整合数据中心负荷、储能与可再生能源资源，提升电网灵活性与清洁电力消纳能力。",
+    "latest": "谷歌宣布建设1GW虚拟电厂，整合数据中心负荷、储能与可再生能源资源，提升电网灵活性与清洁电力消纳能力。",
+    "memberIds": [
+      "src-google-vpp-1gw-2026"
+    ],
+    "facts": [
+      {
+        "title": "谷歌将建设1GW虚拟电厂",
+        "subject": "谷歌",
+        "action": "发布",
+        "object": "谷歌将建设1GW虚拟电厂",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "unmatched-1aj3v4z"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-google-vpp-1gw-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "谷歌"
+    ]
+  },
+  {
+    "id": "story-14mcv1l",
+    "rootId": "src-aiib-climate-100m-2026",
+    "title": "亚投行投资1亿美元支持全球南方气候项目",
+    "digest": "亚洲基础设施投资银行宣布投资1亿美元，支持全球南方国家的气候适应与清洁能源项目。",
+    "latest": "亚洲基础设施投资银行宣布投资1亿美元，支持全球南方国家的气候适应与清洁能源项目。",
+    "memberIds": [
+      "src-aiib-climate-100m-2026"
+    ],
+    "facts": [
+      {
+        "title": "亚投行投资1亿美元支持全球南方气候项目",
+        "subject": "亚洲基础设施投资银行（AIIB）",
+        "action": "发布",
+        "object": "亚投行投资1亿美元支持全球南方气候项目",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "aiib-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-aiib-climate-100m-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "亚洲基础设施投资银行（AIIB）"
+    ]
+  },
+  {
+    "id": "story-1agmb4u",
+    "rootId": "src-wmo-ghg-bulletin-22-2026",
+    "title": "世界气象组织发布第22期《温室气体公报》：全球二氧化碳浓度再创新高",
+    "digest": "世界气象组织发布第22期《温室气体公报》，全球二氧化碳浓度再创新高，温室气体累积对气候系统的影响持续加剧。",
+    "latest": "世界气象组织发布第22期《温室气体公报》，全球二氧化碳浓度再创新高，温室气体累积对气候系统的影响持续加剧。",
+    "memberIds": [
+      "src-wmo-ghg-bulletin-22-2026"
+    ],
+    "facts": [
+      {
+        "title": "世界气象组织发布第22期《温室气体公报》：全球二氧化碳浓度再",
+        "subject": "世界气象组织（WMO）",
+        "action": "发布",
+        "object": "世界气象组织发布第22期《温室气体公报》：全球二氧化碳浓度再创新高",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "wmo-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-wmo-ghg-bulletin-22-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "世界气象组织（WMO）"
+    ]
+  },
+  {
+    "id": "story-1jl8uu2",
+    "rootId": "src-carbon-brief-crea-clean-tech-2026",
+    "title": "Carbon Brief：中国清洁技术出口每年可避免约4.5亿吨二氧化碳",
+    "digest": "Carbon Brief发表CREA最新分析，预计中国2026年出口的光伏、风电、电动车及电池等技术在海外投入使用后，每年可避免约4.5亿吨二氧化碳排放，相当于中国以外全球年排放量的近2%。",
+    "latest": "Carbon Brief发表CREA最新分析，预计中国2026年出口的光伏、风电、电动车及电池等技术在海外投入使用后，每年可避免约4.5亿吨二氧化碳排放，相当于中国以外全球年排放量的近2%。",
+    "memberIds": [
+      "src-carbon-brief-crea-clean-tech-2026"
+    ],
+    "facts": [
+      {
+        "title": "Carbon Brief：中国清洁技术出口每年可避免约4.5",
+        "subject": "Carbon Brief",
+        "action": "发布",
+        "object": "Carbon Brief：中国清洁技术出口每年可避免约4.5亿吨二氧化碳",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "carbon-brief"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-carbon-brief-crea-clean-tech-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Carbon Brief"
+    ]
+  },
+  {
+    "id": "story-18eeqhg",
+    "rootId": "src-3qb0gm",
+    "title": "财政部党组召开会议传达学习党的二十届五中全会精神",
+    "digest": "财政部党组召开会议传达学习党的二十届五中全会精神",
+    "latest": "生态环境部党组召开会议 传达学习贯彻党的二十届五中全会精神",
+    "memberIds": [
+      "src-3qb0gm",
+      "src-ie856w",
+      "src-ygm5d9",
+      "src-xg0a4f"
+    ],
+    "facts": [
+      {
+        "title": "财政部党组召开会议传达学习党的二十届五中全会精神",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部党组召开会议传达学习党的二十届五中全会精神",
+        "occurredAt": "2026-10-30"
+      },
+      {
+        "title": "中国人民银行党委召开会议 传达学习党的二十届五中全会精神",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行党委召开会议 传达学习党的二十届五中全会精神",
+        "occurredAt": "2026-10-30"
+      },
+      {
+        "title": "中共国家发展改革委党组召开扩大会议传达学习贯彻党的二十届五中",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "中共国家发展改革委党组召开扩大会议传达学习贯彻党的二十届五中全会精神",
+        "occurredAt": "2026-10-30"
+      },
+      {
+        "title": "生态环境部党组召开会议 传达学习贯彻党的二十届五中全会精神",
+        "subject": "中国生态环境部新闻",
+        "action": "发布",
+        "object": "生态环境部党组召开会议 传达学习贯彻党的二十届五中全会精神",
+        "occurredAt": "2026-10-31"
+      }
+    ],
+    "participants": [
+      "mof-policy",
+      "pbc-policy",
+      "ndrc-news",
+      "mee-china"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-31T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-3qb0gm",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-ie856w",
+        "relation": "SAME_STORY",
+        "confidence": 0.7089490077940542
+      },
+      {
+        "memberId": "src-ygm5d9",
+        "relation": "SAME_STORY",
+        "confidence": 0.653358607776565
+      },
+      {
+        "memberId": "src-xg0a4f",
+        "relation": "SAME_STORY",
+        "confidence": 0.7769677791040542
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布",
+      "中国人民银行公告",
+      "国家发改委新闻动态",
+      "中国生态环境部新闻"
+    ]
+  },
+  {
+    "id": "story-1jcqw09",
+    "rootId": "src-nx3m6s",
+    "title": "财政部云南监管局：立足属地监管职能抓实财政金融监管激活云岭大地消费动能",
+    "digest": "财政部云南监管局：立足属地监管职能抓实财政金融监管激活云岭大地消费动能",
+    "latest": "财政部云南监管局：立足属地监管职能抓实财政金融监管激活云岭大地消费动能",
+    "memberIds": [
+      "src-nx3m6s"
+    ],
+    "facts": [
+      {
+        "title": "财政部云南监管局：立足属地监管职能抓实财政金融监管激活云岭大",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部云南监管局：立足属地监管职能抓实财政金融监管激活云岭大地消费动能",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-nx3m6s",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-11rgga2",
+    "rootId": "src-1rbtzzi",
+    "title": "财政部宁波监管局：抓重点 强主业 夯基础 助力财政科学管理提质增效",
+    "digest": "财政部宁波监管局：抓重点 强主业 夯基础 助力财政科学管理提质增效",
+    "latest": "财政部宁波监管局：抓重点 强主业 夯基础 助力财政科学管理提质增效",
+    "memberIds": [
+      "src-1rbtzzi"
+    ],
+    "facts": [
+      {
+        "title": "财政部宁波监管局：抓重点 强主业 夯基础 助力财政科学管理提",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部宁波监管局：抓重点 强主业 夯基础 助力财政科学管理提质增效",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1rbtzzi",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-8doyhp",
+    "rootId": "src-5p9yqm",
+    "title": "财政部江苏监管局：“三个强化”提升地方财政运行分析评估工作质效",
+    "digest": "财政部江苏监管局：“三个强化”提升地方财政运行分析评估工作质效",
+    "latest": "财政部江苏监管局：“三个强化”提升地方财政运行分析评估工作质效",
+    "memberIds": [
+      "src-5p9yqm"
+    ],
+    "facts": [
+      {
+        "title": "财政部江苏监管局：“三个强化”提升地方财政运行分析评估工作质",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部江苏监管局：“三个强化”提升地方财政运行分析评估工作质效",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-5p9yqm",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-6vhpl7",
+    "rootId": "src-1gli3ab",
+    "title": "财政部吉林监管局：“四维发力”强化地方财政运行分析调研",
+    "digest": "财政部吉林监管局：“四维发力”强化地方财政运行分析调研",
+    "latest": "财政部吉林监管局：“四维发力”强化地方财政运行分析调研",
+    "memberIds": [
+      "src-1gli3ab"
+    ],
+    "facts": [
+      {
+        "title": "财政部吉林监管局：“四维发力”强化地方财政运行分析调研",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部吉林监管局：“四维发力”强化地方财政运行分析调研",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1gli3ab",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-2vfjw9",
+    "rootId": "src-1js7vmg",
+    "title": "完善监督制度 提升监督效能——新注册会计师法系列解读之六",
+    "digest": "完善监督制度 提升监督效能——新注册会计师法系列解读之六",
+    "latest": "完善监督制度 提升监督效能——新注册会计师法系列解读之六",
+    "memberIds": [
+      "src-1js7vmg"
+    ],
+    "facts": [
+      {
+        "title": "完善监督制度 提升监督效能——新注册会计师法系列解读之六",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "完善监督制度 提升监督效能——新注册会计师法系列解读之六",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1js7vmg",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-1ubr7en",
+    "rootId": "src-1f3js6",
+    "title": "甘肃证监局组织开展“2026年世界投资者周”宣传活动",
+    "digest": "甘肃证监局组织开展“2026年世界投资者周”宣传活动",
+    "latest": "甘肃证监局组织开展“2026年世界投资者周”宣传活动",
+    "memberIds": [
+      "src-1f3js6"
+    ],
+    "facts": [
+      {
+        "title": "甘肃证监局组织开展“2026年世界投资者周”宣传活动",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "甘肃证监局组织开展“2026年世界投资者周”宣传活动",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1f3js6",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-9kknmu",
+    "rootId": "src-14zmbpz",
+    "title": "天津局举办期货公司监管座谈会暨监管例会",
+    "digest": "天津局举办期货公司监管座谈会暨监管例会",
+    "latest": "天津局举办期货公司监管座谈会暨监管例会",
+    "memberIds": [
+      "src-14zmbpz"
+    ],
+    "facts": [
+      {
+        "title": "天津局举办期货公司监管座谈会暨监管例会",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "天津局举办期货公司监管座谈会暨监管例会",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-14zmbpz",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-1in6ftp",
+    "rootId": "src-eb3cll",
+    "title": "内蒙古辖区资本市场月度统计（2026年6月）",
+    "digest": "内蒙古辖区资本市场月度统计（2026年6月）",
+    "latest": "内蒙古辖区资本市场月度统计（2026年6月）",
+    "memberIds": [
+      "src-eb3cll"
+    ],
+    "facts": [
+      {
+        "title": "内蒙古辖区资本市场月度统计（2026年6月）",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "内蒙古辖区资本市场月度统计（2026年6月）",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-eb3cll",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-2a6ixg",
+    "rootId": "src-od1r9e",
+    "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-10-30",
+    "digest": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-10-30",
+    "latest": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-10-30",
+    "memberIds": [
+      "src-od1r9e"
+    ],
+    "facts": [
+      {
+        "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-10-30",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-od1r9e",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-c0n8gr",
+    "rootId": "src-j73hpy",
+    "title": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
+    "digest": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
+    "latest": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
+    "memberIds": [
+      "src-j73hpy"
+    ],
+    "facts": [
+      {
+        "title": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-j73hpy",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-164ts09",
+    "rootId": "src-1u58gr5",
+    "title": "我国风光累计装机容量突破20亿千瓦",
+    "digest": "我国风光累计装机容量突破20亿千瓦",
+    "latest": "我国风光累计装机容量突破20亿千瓦",
+    "memberIds": [
+      "src-1u58gr5"
+    ],
+    "facts": [
+      {
+        "title": "我国风光累计装机容量突破20亿千瓦",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "我国风光累计装机容量突破20亿千瓦",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1u58gr5",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-1fpsn2m",
+    "rootId": "src-fahm3s",
+    "title": "绿色燃料商业化进程提速",
+    "digest": "绿色燃料商业化进程提速",
+    "latest": "绿色燃料商业化进程提速",
+    "memberIds": [
+      "src-fahm3s"
+    ],
+    "facts": [
+      {
+        "title": "绿色燃料商业化进程提速",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "绿色燃料商业化进程提速",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-fahm3s",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-mojw04",
+    "rootId": "src-2j7zqj",
+    "title": "前三季度新疆外送电量超1300亿千瓦时",
+    "digest": "前三季度新疆外送电量超1300亿千瓦时",
+    "latest": "前三季度新疆外送电量超1300亿千瓦时",
+    "memberIds": [
+      "src-2j7zqj"
+    ],
+    "facts": [
+      {
+        "title": "前三季度新疆外送电量超1300亿千瓦时",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "前三季度新疆外送电量超1300亿千瓦时",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-2j7zqj",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-zbwed7",
+    "rootId": "src-1kebwy",
+    "title": "全国最大海上光伏项目并网发电超百万千瓦",
+    "digest": "全国最大海上光伏项目并网发电超百万千瓦",
+    "latest": "全国最大海上光伏项目并网发电超百万千瓦",
+    "memberIds": [
+      "src-1kebwy"
+    ],
+    "facts": [
+      {
+        "title": "全国最大海上光伏项目并网发电超百万千瓦",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "全国最大海上光伏项目并网发电超百万千瓦",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1kebwy",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-8bb7q7",
+    "rootId": "src-1xhpwxs",
+    "title": "让煤电与新能源“融”起来",
+    "digest": "让煤电与新能源“融”起来",
+    "latest": "让煤电与新能源“融”起来",
+    "memberIds": [
+      "src-1xhpwxs"
+    ],
+    "facts": [
+      {
+        "title": "让煤电与新能源“融”起来",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "让煤电与新能源“融”起来",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1xhpwxs",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-1sr9e73",
+    "rootId": "src-yxyy04",
+    "title": "上海市汽车置换更新补贴政策（新能源）补充名单公示",
+    "digest": "上海市汽车置换更新补贴政策（新能源）补充名单公示",
+    "latest": "上海市汽车置换更新补贴政策（新能源）补充名单公示",
+    "memberIds": [
+      "src-yxyy04"
+    ],
+    "facts": [
+      {
+        "title": "上海市汽车置换更新补贴政策（新能源）补充名单公示",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "上海市汽车置换更新补贴政策（新能源）补充名单公示",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-yxyy04",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
+    ]
+  },
+  {
+    "id": "story-lk3he6",
+    "rootId": "src-xo4uyq",
+    "title": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
+    "digest": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
+    "latest": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
+    "memberIds": [
+      "src-xo4uyq"
+    ],
+    "facts": [
+      {
+        "title": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-xo4uyq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
+    ]
+  },
+  {
     "id": "story-u9chqz",
     "rootId": "src-6ykim7",
     "title": "Kelvin Wong的新演讲：在香港证券交易所成立47周年金融创新论坛上的主旨演讲",
@@ -18132,6 +23373,166 @@
     "signalCount": 0,
     "sourceNames": [
       "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1r081qa",
+    "rootId": "src-cop17-biodiversity-2026",
+    "title": "COP17达成自然保护加速协议",
+    "digest": "联合国生物多样性大会COP17在亚美尼亚埃里温经过加时谈判，就加快落实《昆明—蒙特利尔全球生物多样性框架》达成新的行动安排，包括全球进展审查与后续实施推动。",
+    "latest": "联合国生物多样性大会COP17在亚美尼亚埃里温经过加时谈判，就加快落实《昆明—蒙特利尔全球生物多样性框架》达成新的行动安排，包括全球进展审查与后续实施推动。",
+    "memberIds": [
+      "src-cop17-biodiversity-2026"
+    ],
+    "facts": [
+      {
+        "title": "COP17达成自然保护加速协议",
+        "subject": "联合国生物多样性公约（CBD）",
+        "action": "发布",
+        "object": "COP17达成自然保护加速协议",
+        "occurredAt": "2026-10-31"
+      }
+    ],
+    "participants": [
+      "cbd-news"
+    ],
+    "firstPublishedAt": "2026-10-31T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-31T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-cop17-biodiversity-2026",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "联合国生物多样性公约（CBD）"
+    ]
+  },
+  {
+    "id": "story-qspq90",
+    "rootId": "src-v8jzja",
+    "title": "生态环境部召开部常务会议",
+    "digest": "生态环境部召开部常务会议",
+    "latest": "生态环境部召开部常务会议",
+    "memberIds": [
+      "src-v8jzja"
+    ],
+    "facts": [
+      {
+        "title": "生态环境部召开部常务会议",
+        "subject": "中国生态环境部新闻",
+        "action": "发布",
+        "object": "生态环境部召开部常务会议",
+        "occurredAt": "2026-10-31"
+      }
+    ],
+    "participants": [
+      "mee-china"
+    ],
+    "firstPublishedAt": "2026-10-31T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-31T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-v8jzja",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国生态环境部新闻"
+    ]
+  },
+  {
+    "id": "story-pf32is",
+    "rootId": "src-ie2k2h",
+    "title": "生态环境部出席《生物多样性公约》第十七次缔约方大会高级别会议等活动",
+    "digest": "生态环境部出席《生物多样性公约》第十七次缔约方大会高级别会议等活动",
+    "latest": "生态环境部出席《生物多样性公约》第十七次缔约方大会高级别会议等活动",
+    "memberIds": [
+      "src-ie2k2h"
+    ],
+    "facts": [
+      {
+        "title": "生态环境部出席《生物多样性公约》第十七次缔约方大会高级别会议",
+        "subject": "中国生态环境部新闻",
+        "action": "发布",
+        "object": "生态环境部出席《生物多样性公约》第十七次缔约方大会高级别会议等活动",
+        "occurredAt": "2026-10-31"
+      }
+    ],
+    "participants": [
+      "mee-china"
+    ],
+    "firstPublishedAt": "2026-10-31T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-31T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-ie2k2h",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国生态环境部新闻"
+    ]
+  },
+  {
+    "id": "story-12utgrc",
+    "rootId": "src-18qrtgx",
+    "title": "生态环境部一周要闻（10.25—10.31）",
+    "digest": "生态环境部一周要闻（10.25—10.31）",
+    "latest": "生态环境部一周要闻（10.25—10.31）",
+    "memberIds": [
+      "src-18qrtgx"
+    ],
+    "facts": [
+      {
+        "title": "生态环境部一周要闻（10.25—10.31）",
+        "subject": "中国生态环境部新闻",
+        "action": "发布",
+        "object": "生态环境部一周要闻（10.25—10.31）",
+        "occurredAt": "2026-11-01"
+      }
+    ],
+    "participants": [
+      "mee-china"
+    ],
+    "firstPublishedAt": "2026-11-01T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-01T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-18qrtgx",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国生态环境部新闻"
     ]
   },
   {

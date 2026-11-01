@@ -1,4 +1,5 @@
 import Parser from "rss-parser";
+import { load } from "cheerio";
 import type { RawMaterial, SourceTier } from "@/lib/contracts/pipeline";
 import type { ContentItem } from "@/lib/contracts/content";
 import { cleanSummaryText, compactText, stableHash } from "./text";
@@ -17,6 +18,15 @@ export interface SourceConfig {
   fallbacks?: unknown[];
   keywords?: string[];
   recencyDays?: number;
+  limit?: number;
+  timeoutMs?: number;
+  selectors?: {
+    item?: string;
+    title?: string;
+    link?: string;
+    date?: string;
+    summary?: string;
+  };
 }
 
 export function sourceTierFor(source: SourceConfig): SourceTier {
@@ -101,6 +111,121 @@ export async function collectRssSource(source: SourceConfig): Promise<RawMateria
     }
     return true;
   });
+}
+
+const DATE_PATTERN = /(20\d{2})[-/.年](\d{1,2})[-/.月](\d{1,2})/;
+const SKIP_LINK_TEXT = /^(更多|详情|首页|上一页|下一页|末页|English|登录|注册|搜索|网站地图|联系我们|关于我们|版权声明|查看全部|View all|Read more|Learn more|Contact Us|Login|Register|Search|Careers|Privacy|Terms|Accessibility|Who We Are|Directories|Subscription|Profile|My Saved Content|Manage Subscriptions|Edit Profile|Submit RFP|Log error)$/i;
+const NAV_PATH = /^\/(about|contact|login|account|privacy|terms|careers|search|sitemap|rss|feed|subscription|userprofile|accessibility|directories|who-we-are)(\/|$)/i;
+
+function extractDate(text: string): string | null {
+  const match = String(text || "").match(DATE_PATTERN);
+  if (!match) return null;
+  const [, year, month, day] = match;
+  return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
+}
+
+function resolveUrl(href: string, baseUrl: string): string {
+  try {
+    return new URL(href, baseUrl).toString();
+  } catch {
+    return "";
+  }
+}
+
+export async function collectWebpageSource(source: SourceConfig): Promise<RawMaterial[]> {
+  const res = await fetch(source.url, {
+    headers: {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+      Accept: "text/html,application/xhtml+xml",
+    },
+    signal: AbortSignal.timeout(source.timeoutMs ?? 20_000),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const html = await res.text();
+  const $ = load(html);
+  const tier = sourceTierFor(source);
+  const limit = source.limit ?? 20;
+  const selectors = source.selectors;
+  const candidates: Array<{ title: string; href: string; date: string | null; summary: string }> = [];
+
+  if (selectors?.item) {
+    $(selectors.item).each((_, node) => {
+      const $node = $(node);
+      const $link = $node.find(selectors.link || "a").first();
+      const $title = $node.find(selectors.title || "a,h1,h2,h3,h4").first();
+      const $date = $node.find(selectors.date || "time,[datetime],.date,.time").first();
+      const $summary = $node.find(selectors.summary || "p").first();
+      const title = compactText($title.text() || $link.text());
+      const href = $link.attr("href") || $title.attr("href") || "";
+      const date = extractDate(`${$date.attr("datetime") || ""} ${$date.text()} ${$node.text()}`);
+      const summary = compactText($summary.text());
+      if (title && href) candidates.push({ title, href, date, summary });
+    });
+  }
+
+  if (candidates.length === 0) {
+    $("a").each((_, node) => {
+      const $a = $(node);
+      const title = compactText($a.text());
+      const href = $a.attr("href") || "";
+      if (!title || title.length < 6 || title.length > 200) return;
+      if (SKIP_LINK_TEXT.test(title)) return;
+      if (!href || /^(#|javascript:|mailto:|tel:)/i.test(href)) return;
+      const absolute = resolveUrl(href, source.url);
+      if (!absolute.startsWith("http")) return;
+      try {
+        if (NAV_PATH.test(new URL(absolute).pathname)) return;
+      } catch {
+        return;
+      }
+      const contextText = `${$a.parent().text()} ${$a.parent().parent().text()}`;
+      const date = extractDate(contextText);
+      candidates.push({ title, href: absolute, date, summary: "" });
+    });
+  }
+
+  // 通用回退只接受带日期的链接，避免把导航栏、登录入口等当作新闻。
+  const chosen = candidates.filter((candidate) => candidate.date).slice(0, limit * 2);
+  const seen = new Set<string>();
+  const items: RawMaterial[] = [];
+  for (const candidate of chosen) {
+    if (seen.has(candidate.href)) continue;
+    seen.add(candidate.href);
+    const publishedAt = candidate.date ? `${candidate.date}T00:00:00.000Z` : new Date().toISOString();
+    const id = `src-${stableHash(`${source.id}:${candidate.href}:${publishedAt}`)}`;
+    const summary = candidate.summary || candidate.title;
+    const content: ContentItem = {
+      id,
+      title: candidate.title,
+      summary,
+      contentType: source.contentType,
+      region: source.region,
+      publishedAt,
+      importanceLevel: "中",
+      sourceName: source.name,
+      sourceUrl: source.url,
+      articleUrl: candidate.href,
+      esgTopic: "合规与监管",
+    };
+    items.push({
+      id,
+      sourceId: source.id,
+      title: candidate.title,
+      summary,
+      sourceName: source.name,
+      sourceUrl: source.url,
+      articleUrl: candidate.href,
+      publishedAt,
+      contentType: source.contentType,
+      region: source.region,
+      language: source.language,
+      sourceTier: tier,
+      editorialSource: isEditorialSource(source),
+      content,
+    });
+    if (items.length >= limit) break;
+  }
+  return items;
 }
 
 const SEC_BASE = "https://www.sec.gov";

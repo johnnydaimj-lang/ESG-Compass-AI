@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "generatedAt": "2026-11-01T12:31:39.554Z",
+  "generatedAt": "2026-11-01T15:13:09.901Z",
   "highlights": [
     {
       "id": "src-89oe69",
@@ -10,7 +10,17 @@
       "contentType": "观点",
       "region": "全球",
       "publishedAt": "2026-11-01T10:24:42.000Z",
-      "score": 28
+      "score": 20
+    },
+    {
+      "id": "src-18qrtgx",
+      "title": "生态环境部一周要闻（10.25—10.31）",
+      "summary": "生态环境部一周要闻（10.25—10.31）",
+      "sourceName": "中国生态环境部新闻",
+      "contentType": "政策",
+      "region": "中国",
+      "publishedAt": "2026-11-01T00:00:00.000Z",
+      "score": 11
     }
   ],
   "sections": [
@@ -25,12 +35,54 @@
           "contentType": "观点",
           "region": "全球",
           "publishedAt": "2026-11-01T10:24:42.000Z",
-          "score": 28
+          "score": 20
+        }
+      ]
+    },
+    {
+      "label": "政策",
+      "items": [
+        {
+          "id": "src-18qrtgx",
+          "title": "生态环境部一周要闻（10.25—10.31）",
+          "summary": "生态环境部一周要闻（10.25—10.31）",
+          "sourceName": "中国生态环境部新闻",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-01T00:00:00.000Z",
+          "score": 11
         }
       ]
     }
   ],
   "stories": [
+    {
+      "id": "story-18eeqhg",
+      "title": "财政部党组召开会议传达学习党的二十届五中全会精神",
+      "summary": "财政部党组召开会议传达学习党的二十届五中全会精神",
+      "sourceName": "4 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-10-31T00:00:00.000Z"
+    },
+    {
+      "id": "story-16mthcn",
+      "title": "中智（利）两国央行续签双边本币互换协议",
+      "summary": "中智（利）两国央行续签双边本币互换协议",
+      "sourceName": "1 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-10-30T00:00:00.000Z"
+    },
+    {
+      "id": "story-xchz3g",
+      "title": "上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知",
+      "summary": "上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知",
+      "sourceName": "1 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-10-29T00:00:00.000Z"
+    },
     {
       "id": "story-1g8qenq",
       "title": "香港交易所推出平台及代名人服务，扩大综合基金平台",
@@ -39,6 +91,33 @@
       "contentType": "热点故事",
       "region": "",
       "publishedAt": "2026-10-28T04:05:30.000Z"
+    },
+    {
+      "id": "story-c92yni",
+      "title": "中国人民银行公告﹝2026﹞第27号",
+      "summary": "中国人民银行公告﹝2026﹞第27号",
+      "sourceName": "1 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-10-27T00:00:00.000Z"
+    },
+    {
+      "id": "story-yewmvx",
+      "title": "周海兵副主任会见法国财政总署署长杜蒙",
+      "summary": "周海兵副主任会见法国财政总署署长杜蒙",
+      "sourceName": "1 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-10-27T00:00:00.000Z"
+    },
+    {
+      "id": "story-4esrsr",
+      "title": "国家能源局开展党的二十届五中全会保电工作调研",
+      "summary": "国家能源局开展党的二十届五中全会保电工作调研",
+      "sourceName": "1 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-10-22T00:00:00.000Z"
     },
     {
       "id": "story-168cn1c",
@@ -50,6 +129,15 @@
       "publishedAt": "2026-10-21T16:00:00.000Z"
     },
     {
+      "id": "story-1lx8suv",
+      "title": "2026年10月8日-2026年10月9日证券市场快报",
+      "summary": "2026年10月8日-2026年10月9日证券市场快报",
+      "sourceName": "1 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-10-19T00:00:00.000Z"
+    },
+    {
       "id": "story-1df26g",
       "title": "关于所谓缓慢补救措施的Lucky Unique无响应重新透明报告",
       "summary": "Lucky Unique 未回复透明报告涉嫌补救缓慢",
@@ -57,69 +145,6 @@
       "contentType": "热点故事",
       "region": "",
       "publishedAt": "2026-10-11T23:00:00.000Z"
-    },
-    {
-      "id": "story-1uinks5",
-      "title": "Pretensados y Materiales Ku 未回应有关 Umán 社会环境影响的指控",
-      "summary": "该公司未回应有关其在墨西哥 Umán 造成社会环境影响的指控。",
-      "sourceName": "1 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-10-05T23:00:00.000Z"
-    },
-    {
-      "id": "story-17c9ghq",
-      "title": "白花能源未回应",
-      "summary": "纽约市审计长马克·莱文 (Mark Levine) 宣布，他建议该市的三个公共养老基金战略性扩大私募市场气候解决方案投资，并计划提供 50 亿美元的新私募市场投资机会。",
-      "sourceName": "3 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-09-28T16:05:08.000Z"
-    },
-    {
-      "id": "story-1cdl44h",
-      "title": "东盟零碳园区产融对话会新加坡落幕：千亿级市场待挖掘，正式启动东盟零碳园区产业项目储备库 - 上海市人民政府",
-      "summary": "东盟零碳园区产融对话会新加坡落幕：千亿级市场待挖掘",
-      "sourceName": "1 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-09-17"
-    },
-    {
-      "id": "story-1ui526q",
-      "title": "零排放卡车：加速欧洲转型",
-      "summary": "整个生态系统的挑战推迟了向零排放卡车的过渡，由于潜在的二氧化碳罚款和日益激烈的竞争，导致欧洲原始设备制造商面临的压力不断增加。",
-      "sourceName": "1 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-09-10T16:00:00.000Z"
-    },
-    {
-      "id": "story-1ft4rnc",
-      "title": "第十次中澳气候变化部长级对话成功召开",
-      "summary": "第十次中澳气候变化部长级对话成功召开",
-      "sourceName": "1 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-08-30"
-    },
-    {
-      "id": "story-1v9da4g",
-      "title": "绿色与灰色基础设施：协同推进更具韧性",
-      "summary": "联合国环境规划署讨论绿色与灰色基础设施如何协同提升气候韧性和可持续发展成效。",
-      "sourceName": "1 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-08-25"
-    },
-    {
-      "id": "story-14kvmeu",
-      "title": "委员会对要求罗马尼亚向十名能源投资者支付赔偿的仲裁裁决展开深入调查",
-      "summary": "欧盟委员会新闻稿，布鲁塞尔，2026 年 7 月 29 日 欧盟委员会已展开深入调查，以评估一项仲裁裁决，该裁决要求罗马尼亚因可再生电力支持措施的变更而向 10 名投资者支付赔偿，该裁决是否符合欧盟国家援助规则。",
-      "sourceName": "1 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-08-04"
     }
   ]
 }

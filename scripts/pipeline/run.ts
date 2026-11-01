@@ -20,7 +20,7 @@ import { PIPELINE_VERSION } from "@/lib/contracts/pipeline";
 import { clusterMaterials, type ClusterInput } from "@/lib/pipeline/cluster";
 import { classifyContentType } from "@/lib/pipeline/classify";
 import { CURATION_FLOOR, INCREMENTAL_LOOKBACK_HOURS, UNDERSTAND_FLOOR } from "@/lib/pipeline/config";
-import { collectRssSource, collectSecInvestreports, sourceTierFor, type SourceConfig } from "@/lib/pipeline/collect";
+import { collectRssSource, collectSecInvestreports, collectWebpageSource, sourceTierFor, type SourceConfig } from "@/lib/pipeline/collect";
 import { buildDailyReport } from "@/lib/pipeline/daily";
 import { calculateHeat } from "@/lib/pipeline/heat";
 import { prefilterMaterial } from "@/lib/pipeline/prefilter";
@@ -209,6 +209,23 @@ async function liveSourceRuns(
       continue;
     }
 
+    if (source.type.toLowerCase() === "webpage") {
+      try {
+        const items = await collectWebpageSource(source);
+        collected.push(...items);
+        const warning = items.length === 0
+          ? "网页适配器未解析到条目，可能需要配置 selectors 或改用 browser-render"
+          : "";
+        runs.push({ ...base, state: "ok", count: items.length, rawCount: items.length, error: "", warning, channel: "webpage", fallbackUsed: false });
+        if (warning) warnings.push(`${source.name}：${warning}`);
+      } catch (error) {
+        const message = error instanceof Error ? error.message : String(error);
+        runs.push({ ...base, state: "failed", count: 0, rawCount: 0, error: message, warning: "", channel: "webpage", fallbackUsed: false });
+        warnings.push(`${source.name} 抓取失败：${message}`);
+      }
+      continue;
+    }
+
     if (source.type.toLowerCase() !== "rss") {
       const warning = `实时模式尚未实现 ${source.type} 适配器，本次沿用快照材料`;
       runs.push({ ...base, state: "skipped", count: 0, rawCount: 0, error: "", warning, channel: "live", fallbackUsed: false });
@@ -330,7 +347,9 @@ async function main() {
 
   const scored = await mapWithConcurrency(prefiltered, mode === "llm" ? 6 : 1, async (entry) => {
     const publishedMs = Date.parse(entry.material.publishedAt);
-    const isIncrementalNew = !incrementalEnabled || !Number.isFinite(publishedMs) || publishedMs >= incrementalCutoffMs;
+    // 新进入系统的材料即使发布日期较早，也必须评分；不能因为增量窗口而拿到 0 分。
+    const isNewToSystem = !entry.material.content.pipeline;
+    const isIncrementalNew = isNewToSystem || !incrementalEnabled || !Number.isFinite(publishedMs) || publishedMs >= incrementalCutoffMs;
     if (!isIncrementalNew) {
       incrementalReusedCount += 1;
       return { ...entry, runs: null as [ScoreRun, ScoreRun] | null };
