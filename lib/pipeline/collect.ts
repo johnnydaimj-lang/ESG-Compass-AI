@@ -1,5 +1,7 @@
 import Parser from "rss-parser";
 import { load } from "cheerio";
+import { execFile } from "node:child_process";
+import { existsSync } from "node:fs";
 import type { RawMaterial, SourceTier } from "@/lib/contracts/pipeline";
 import type { ContentItem } from "@/lib/contracts/content";
 import { cleanSummaryText, compactText, stableHash } from "./text";
@@ -20,6 +22,7 @@ export interface SourceConfig {
   recencyDays?: number;
   limit?: number;
   timeoutMs?: number;
+  renderWaitMs?: number;
   selectors?: {
     item?: string;
     title?: string;
@@ -152,16 +155,7 @@ function resolveUrl(href: string, baseUrl: string): string {
   }
 }
 
-export async function collectWebpageSource(source: SourceConfig): Promise<RawMaterial[]> {
-  const res = await fetch(source.url, {
-    headers: {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-      Accept: "text/html,application/xhtml+xml",
-    },
-    signal: AbortSignal.timeout(source.timeoutMs ?? 20_000),
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const html = await res.text();
+function extractWebpageMaterials(html: string, source: SourceConfig): RawMaterial[] {
   const $ = load(html);
   const tier = sourceTierFor(source);
   const limit = source.limit ?? 20;
@@ -246,6 +240,53 @@ export async function collectWebpageSource(source: SourceConfig): Promise<RawMat
     if (items.length >= limit) break;
   }
   return items;
+}
+
+export async function collectWebpageSource(source: SourceConfig): Promise<RawMaterial[]> {
+  const res = await fetch(source.url, {
+    headers: {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+      Accept: "text/html,application/xhtml+xml",
+    },
+    signal: AbortSignal.timeout(source.timeoutMs ?? 20_000),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return extractWebpageMaterials(await res.text(), source);
+}
+
+const EDGE_PATHS = [
+  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe",
+];
+
+function renderWithEdge(url: string, waitMs: number, timeoutMs: number): Promise<string> {
+  const edge = EDGE_PATHS.find((path) => existsSync(path));
+  if (!edge) return Promise.reject(new Error("未找到 Microsoft Edge，无法执行 browser-render"));
+  return new Promise((resolve, reject) => {
+    execFile(
+      edge,
+      [
+        "--headless=new",
+        "--disable-gpu",
+        "--no-first-run",
+        "--dump-dom",
+        `--virtual-time-budget=${waitMs}`,
+        url,
+      ],
+      { encoding: "utf8", maxBuffer: 40 * 1024 * 1024, timeout: timeoutMs },
+      (error, stdout) => {
+        // Edge 在部分页面会以非零退出码结束，但仍已输出 DOM；有 HTML 就优先使用。
+        if (stdout && /<html[\s>]/i.test(stdout)) resolve(stdout);
+        else if (error) reject(error);
+        else resolve(stdout || "");
+      }
+    );
+  });
+}
+
+export async function collectBrowserRenderSource(source: SourceConfig): Promise<RawMaterial[]> {
+  const html = await renderWithEdge(source.url, source.renderWaitMs ?? 8_000, source.timeoutMs ?? 60_000);
+  return extractWebpageMaterials(html, source);
 }
 
 const SEC_BASE = "https://www.sec.gov";

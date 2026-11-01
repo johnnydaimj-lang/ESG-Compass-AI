@@ -20,7 +20,7 @@ import { PIPELINE_VERSION } from "@/lib/contracts/pipeline";
 import { clusterMaterials, type ClusterInput } from "@/lib/pipeline/cluster";
 import { classifyContentType } from "@/lib/pipeline/classify";
 import { CURATION_FLOOR, INCREMENTAL_LOOKBACK_HOURS, UNDERSTAND_FLOOR } from "@/lib/pipeline/config";
-import { collectRssSource, collectSecInvestreports, collectWebpageSource, sourceTierFor, type SourceConfig } from "@/lib/pipeline/collect";
+import { collectBrowserRenderSource, collectRssSource, collectSecInvestreports, collectWebpageSource, sourceTierFor, type SourceConfig } from "@/lib/pipeline/collect";
 import { buildDailyReport } from "@/lib/pipeline/daily";
 import { calculateHeat } from "@/lib/pipeline/heat";
 import { prefilterMaterial } from "@/lib/pipeline/prefilter";
@@ -221,6 +221,23 @@ async function liveSourceRuns(
       } catch (error) {
         const message = error instanceof Error ? error.message : String(error);
         runs.push({ ...base, state: "failed", count: 0, rawCount: 0, error: message, warning: "", channel: "webpage", fallbackUsed: false });
+        warnings.push(`${source.name} 抓取失败：${message}`);
+      }
+      continue;
+    }
+
+    if (source.type.toLowerCase() === "browser-render") {
+      try {
+        const items = await collectBrowserRenderSource(source);
+        collected.push(...items);
+        const warning = items.length === 0
+          ? "浏览器渲染后仍未解析到条目，可能需要配置 selectors"
+          : "";
+        runs.push({ ...base, state: "ok", count: items.length, rawCount: items.length, error: "", warning, channel: "browser-render", fallbackUsed: false });
+        if (warning) warnings.push(`${source.name}：${warning}`);
+      } catch (error) {
+        const message = error instanceof Error ? error.message : String(error);
+        runs.push({ ...base, state: "failed", count: 0, rawCount: 0, error: message, warning: "", channel: "browser-render", fallbackUsed: false });
         warnings.push(`${source.name} 抓取失败：${message}`);
       }
       continue;
