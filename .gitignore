@@ -13,6 +13,7 @@ dev-server.err.log
 *.log
 .codex-artifacts/
 .workbuddy/
+console.log*
 data/private-kb/
 data/harness/
 data/seen_hashes.json

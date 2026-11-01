@@ -10,6 +10,7 @@
     "check": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts",
     "pipeline": "tsx scripts/pipeline/run.ts",
+    "source:health": "tsx scripts/check-source-health.ts",
     "backfill:zh": "tsx scripts/backfill-zh.ts",
     "enrich:leads": "tsx scripts/enrich-leads.ts",
     "enrich:bodies": "tsx scripts/enrich-bodies.ts",
