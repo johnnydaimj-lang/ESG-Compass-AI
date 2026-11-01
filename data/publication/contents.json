@@ -1,5 +1,44 @@
 [
   {
+    "id": "src-89oe69",
+    "title": "ESG Today: Week in Review",
+    "summary": "This week in ESG news: EU Commission launches climate resilience framework;",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-11-01T10:24:42.000Z",
+    "importanceLevel": "中",
+    "sourceName": "ESG Today（全球 ESG 新闻）",
+    "sourceUrl": "https://www.esgtoday.com/",
+    "articleUrl": "https://www.esgtoday.com/esg-today-week-in-review-281/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-281",
+    "esgTopic": "合规与监管",
+    "titleZh": "今日ESG：一周回顾",
+    "summaryZh": "本周ESG新闻：欧盟委员会推出气候适应力框架；",
+    "recommended": false,
+    "recommendReason": "This week in ESG news: EU Commission launches climate resilience framework。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 22,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1lnrwgu",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "ESG Today: Week in Review",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "ESG Today: Week in Review",
+        "occurredAt": "2026-11-01"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
     "id": "src-14ks5w0",
     "title": "Meta Backs Low Carbon Cement Producer Fortera with Multi-year EAC Deal",
     "summary": "Green building materials manufacturer Fortera and tech giant Meta announced today a multi-year agreement under",
@@ -12,11 +51,11 @@
     "articleUrl": "https://www.esgtoday.com/meta-backs-low-carbon-cement-producer-fortera-with-long-term-eac-deal/?utm_source=rss&utm_medium=rss&utm_campaign=meta-backs-low-carbon-cement-producer-fortera-with-long-term-eac-deal",
     "esgTopic": "合规与监管",
     "titleZh": "Meta以多年EAC协议支持低碳水泥生产商Fortera",
-    "summaryZh": "绿色建筑材料制造商Fortera和科技巨头Meta今天宣布达成一项为期多年的协议，",
+    "summaryZh": "绿色建筑材料制造商Fortera和科技巨头Meta今天宣布达成一项为期多年的协议",
     "recommended": false,
-    "recommendReason": "Green building materials manufacturer Fortera and tech giant Meta announced today a multi-year agreement under。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "绿色建筑材料制造商Fortera和科技巨头Meta今天宣布达成一项为期多年的协议。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 26,
+      "score": 28,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -28,10 +67,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Meta Backs Low Carbon Cement P",
+        "title": "Meta以多年EAC协议支持低碳水泥生产商Fortera",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "Meta Backs Low Carbon Cement Producer Fortera with Multi-year EAC Deal",
+        "object": "Meta以多年EAC协议支持低碳水泥生产商Fortera",
         "occurredAt": "2026-10-30"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -53,9 +92,9 @@
     "titleZh": "TPG为气候基金筹集了104亿美元，其中包括为全球南方筹集的25亿美元",
     "summaryZh": "全球另类资产管理公司TPG宣布其以气候为重点的战略最终收盘",
     "recommended": false,
-    "recommendReason": "Global alternative asset manager TPG announced the final close of its climate-focused strategies。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "全球另类资产管理公司TPG宣布其以气候为重点的战略最终收盘。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 40,
+      "score": 48,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -67,10 +106,10 @@
         "全球"
       ],
       "fact": {
-        "title": "TPG Raises $10.4 Billion for C",
+        "title": "TPG为气候基金筹集了104亿美元，其中包括为全球南方筹集的",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "TPG Raises $10.4 Billion for Climate Funds, Including $2.5 Billion for Global So",
+        "object": "TPG为气候基金筹集了104亿美元，其中包括为全球南方筹集的25亿美元",
         "occurredAt": "2026-10-30"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -90,11 +129,11 @@
     "articleUrl": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR179",
     "esgTopic": "合规与监管",
     "titleZh": "在向法院支付1.469亿$后，对罗启邦的冻结令和证监会诉讼程序中的重大成功被撤销",
-    "summaryZh": "在向法院支付1.469亿$后，对罗启邦的冻结令和证监会诉讼程序中的重大成功被撤销",
+    "summaryZh": "在向法院支付1.469亿$后",
     "recommended": false,
-    "recommendReason": "Freezing orders against Lo Kai Bong and Major Success lifted in SFC’s proceedings following payment of $146.9 million into Court。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "在向法院支付1.469亿$后。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 21,
+      "score": 31,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -106,10 +145,10 @@
         "香港"
       ],
       "fact": {
-        "title": "Freezing orders against Lo Kai",
+        "title": "在向法院支付1.469亿$后，对罗启邦的冻结令和证监会诉讼程",
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
-        "object": "Freezing orders against Lo Kai Bong and Major Success lifted in SFC’s proceeding",
+        "object": "在向法院支付1.469亿$后，对罗启邦的冻结令和证监会诉讼程序中的重大成功被撤销",
         "occurredAt": "2026-10-30"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -131,9 +170,9 @@
     "titleZh": "证监会欢迎委任流程审核小组成员",
     "summaryZh": "证监会欢迎委任流程审核小组成员",
     "recommended": false,
-    "recommendReason": "SFC welcomes appointments to Process Review Panel。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "证监会欢迎委任流程审核小组成员。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 2,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -145,10 +184,10 @@
         "香港"
       ],
       "fact": {
-        "title": "SFC welcomes appointments to P",
+        "title": "证监会欢迎委任流程审核小组成员",
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
-        "object": "SFC welcomes appointments to Process Review Panel",
+        "object": "证监会欢迎委任流程审核小组成员",
         "occurredAt": "2026-10-30"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -170,9 +209,9 @@
     "titleZh": "Kelvin Wong的新演讲：在香港证券交易所成立47周年金融创新论坛上的主旨演讲",
     "summaryZh": "Kelvin Wong的新演讲：在香港证券交易所成立47周年金融创新论坛上的主旨演讲",
     "recommended": false,
-    "recommendReason": "New speech by Kelvin Wong: Keynote speech at HKSA’s 47th Anniversary Financial Innovation Forum。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "Kelvin Wong的新演讲：在香港证券交易所成立47周年金融创新论坛上的主旨演讲。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -184,10 +223,10 @@
         "香港"
       ],
       "fact": {
-        "title": "New speech by Kelvin Wong: Key",
+        "title": "Kelvin Wong的新演讲：在香港证券交易所成立47周年",
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
-        "object": "New speech by Kelvin Wong: Keynote speech at HKSA’s 47th Anniversary Financial I",
+        "object": "Kelvin Wong的新演讲：在香港证券交易所成立47周年金融创新论坛上的主旨演讲",
         "occurredAt": "2026-10-30"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -196,7 +235,7 @@
   },
   {
     "id": "src-1dig02a",
-    "title": "Wärtsilä CEO Håkan Agnevall: focus, flexibility, and the next wave of growth",
+    "title": "Wärtsilä CEO Håkan Agnevall: Focus, flexibility, and the next wave of growth",
     "summary": "Industrial leaders can turn disruption into growth by sharpening their focus, scaling to meet surging data-center power demand, and putting AI and continuous improvement to work.",
     "contentType": "观点",
     "region": "全球",
@@ -209,7 +248,7 @@
     "titleZh": "瓦锡兰首席执行官Håkan Agnevall：专注、灵活和下一波增长",
     "summaryZh": "行业领导者可以通过集中精力，扩大规模以满足激增的数据中心电力需求，并将人工智能和持续改进发挥作用，将颠覆性转化为增长。",
     "recommended": false,
-    "recommendReason": "Industrial leaders can turn disruption into growth by sharpening their focus, scaling to meet surging data-center power demand, and putting AI and continuous improvement to work.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "行业领导者可以通过集中精力，扩大规模以满足激增的数据中心电力需求，并将人工智能和持续改进发挥作用，将颠覆性转化为增长。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
       "score": 15,
       "scoreThreshold": 75,
@@ -223,10 +262,244 @@
         "全球"
       ],
       "fact": {
-        "title": "Wärtsilä CEO Håkan Agnevall: f",
+        "title": "瓦锡兰首席执行官Håkan Agnevall：专注、灵活和下",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "通过",
+        "object": "瓦锡兰首席执行官Håkan Agnevall：专注、灵活和下一波增长",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1bws788",
+    "title": "Shapers and Founders: Scaling without losing soul",
+    "summary": "A closer look at Asia’s successful founder-CEOs reveals how they have scaled their businesses without sacrificing their entrepreneurial spirit.",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-29T16:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "麦肯锡可持续发展洞察",
+    "sourceUrl": "https://www.mckinsey.com/rss",
+    "articleUrl": "https://www.mckinsey.com/featured-insights/future-of-asia/future-of-asia-podcasts/shapers-and-founders-scaling-without-losing-soul",
+    "esgTopic": "合规与监管",
+    "titleZh": "塑造者和创始人：在不失去灵魂的情况下扩展",
+    "summaryZh": "仔细研究亚洲成功的创始人兼首席执行官揭示了他们如何在不牺牲企业家精神的情况下扩展业务。",
+    "recommended": false,
+    "recommendReason": "A closer look at Asia’s successful founder-CEOs reveals how they have scaled their businesses without sacrificing their entrepreneurial spirit.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 10,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1kiqlwn",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Shapers and Founders: Scaling ",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Wärtsilä CEO Håkan Agnevall: focus, flexibility, and the next wave of growth",
+        "object": "Shapers and Founders: Scaling without losing soul",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-4g9nnj",
+    "title": "Closing banking’s AI value gap: A CEO guide",
+    "summary": "As AI adoption races ahead, great value is being left behind. Leaders need an operating model that turns investment into AI capital that can be deployed again and again.",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-29T16:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "麦肯锡可持续发展洞察",
+    "sourceUrl": "https://www.mckinsey.com/rss",
+    "articleUrl": "https://www.mckinsey.com/industries/financial-services/our-insights/closing-bankings-ai-value-gap-a-ceo-guide",
+    "esgTopic": "合规与监管",
+    "titleZh": "缩小银行业的人工智能价值差距：首席执行官指南",
+    "summaryZh": "随着人工智能的采用，巨大的价值正在被抛在后面。领导者需要一种运营模式，将投资转化为可以反复部署的人工智能资本。",
+    "recommended": false,
+    "recommendReason": "As AI adoption races ahead, great value is being left behind. Leaders need an operating model that turns investment into AI capital that can be deployed again and again.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 9,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-er4gpf",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Closing banking’s AI value gap",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "adopt",
+        "object": "Closing banking’s AI value gap: A CEO guide",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1h3jt6e",
+    "title": "Overcoming the R&D bottleneck: Building a causal decision system",
+    "summary": "Tackling stalled development productivity requires sharp decision making. Leading biopharma are replacing fragmented analysis with connected, causal decision systems to optimize speed, cost, and success rates.",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-29T16:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "麦肯锡可持续发展洞察",
+    "sourceUrl": "https://www.mckinsey.com/rss",
+    "articleUrl": "https://www.mckinsey.com/industries/life-sciences/our-insights/overcoming-the-r-and-d-bottleneck-building-a-causal-decision-system",
+    "esgTopic": "合规与监管",
+    "titleZh": "克服研发瓶颈：建立因果决策系统",
+    "summaryZh": "解决停滞不前的开发生产力需要敏锐的决策。领先的生物制药公司正在用互联的因果决策系统取代碎片化分析，以优化速度、成本和成功率。",
+    "recommended": false,
+    "recommendReason": "Tackling stalled development productivity requires sharp decision making. Leading biopharma are replacing fragmented analysis with connected, causal decision systems to optimize speed, cost, and success rates.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 12,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-ptzsou",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Overcoming the R&D bottleneck:",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Overcoming the R&D bottleneck: Building a causal decision system",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-gy6iuo",
+    "title": "Waniwani’s CEO on the agentic future of insurance distribution",
+    "summary": "AI agents could fundamentally change the economics of insurance distribution. Waniwani CEO Robin Diligent explains the opportunities, risks, and implications for insurers.",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-29T16:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "麦肯锡可持续发展洞察",
+    "sourceUrl": "https://www.mckinsey.com/rss",
+    "articleUrl": "https://www.mckinsey.com/industries/financial-services/our-insights/waniwanis-ceo-on-the-agentic-future-of-insurance-distribution",
+    "esgTopic": "合规与监管",
+    "titleZh": "Waniwani的首席执行官就保险分销的代理未来发表讲话",
+    "summaryZh": "人工智能代理可以从根本上改变保险分配的经济学。Waniwani首席执行官Robin Diligent解释了保险公司的机遇、风险和影响。",
+    "recommended": false,
+    "recommendReason": "AI agents could fundamentally change the economics of insurance distribution. Waniwani CEO Robin Diligent explains the opportunities, risks, and implications for insurers.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 13,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1dfueni",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Waniwani’s CEO on the agentic ",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Waniwani’s CEO on the agentic future of insurance distribution",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-ex0g22",
+    "title": "Bob Bowman on winning: Show up and do your work",
+    "summary": "The coach who guided Michael Phelps to 23 Olympic gold medals explains why consistency beats motivation and what leaders can borrow from how he builds championship teams.",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-29T16:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "麦肯锡可持续发展洞察",
+    "sourceUrl": "https://www.mckinsey.com/rss",
+    "articleUrl": "https://www.mckinsey.com/featured-insights/bob-bowman-on-winning-show-up-and-do-your-work",
+    "esgTopic": "合规与监管",
+    "titleZh": "鲍勃·鲍曼（Bob Bowman）谈胜利：出现并完成你的工作",
+    "summaryZh": "这位指导迈克尔·菲尔普斯（Michael Phelps）获得23枚奥运金牌的教练解释了为什么一致性胜过动力，以及领导者可以从他建立冠军球队的方式中借鉴什么。",
+    "recommended": false,
+    "recommendReason": "The coach who guided Michael Phelps to 23 Olympic gold medals explains why consistency beats motivation and what leaders can borrow from how he builds championship teams.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 2,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1ew4ntd",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Bob Bowman on winning: Show up",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Bob Bowman on winning: Show up and do your work",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1ipkm5y",
+    "title": "Author Talks: Why you can’t separate strategy from value—and vice versa",
+    "summary": "Three McKinsey experts in strategy and corporate finance explore the four foundational principles that underpin all successful value-creating strategies.",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-29T16:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "麦肯锡可持续发展洞察",
+    "sourceUrl": "https://www.mckinsey.com/rss",
+    "articleUrl": "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-why-you-cant-separate-strategy-from-value-and-vice-versa",
+    "esgTopic": "合规与监管",
+    "titleZh": "作者谈话：为什么你不能将战略与价值分开，反之亦然",
+    "summaryZh": "麦肯锡在战略和企业融资领域的三位专家探讨了支撑所有成功价值创造战略的四项基本原则。",
+    "recommended": false,
+    "recommendReason": "Three McKinsey experts in strategy and corporate finance explore the four foundational principles that underpin all successful value-creating strategies.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 12,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-vfx4oh",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Author Talks: Why you can’t se",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Author Talks: Why you can’t separate strategy from value—and vice versa",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -248,9 +521,9 @@
     "titleZh": "Clarity AI推出新解决方案，使投资者能够评估公司在气候目标方面取得的进展",
     "summaryZh": "可持续发展数据和分析公司Clarity AI宣布推出过渡可信度评估",
     "recommended": false,
-    "recommendReason": "Sustainability data and analytics company Clarity AI announced the launch of Transition Credibility Assessment。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "可持续发展数据和分析公司Clarity AI宣布推出过渡可信度评估。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 26,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -262,10 +535,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Clarity AI Launches New Soluti",
+        "title": "Clarity AI推出新解决方案，使投资者能够评估公司在气",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "Clarity AI Launches New Solution to Enable Investors to Assess Companies’ Progre",
+        "object": "Clarity AI推出新解决方案，使投资者能够评估公司在气候目标方面取得的进展",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -287,9 +560,9 @@
     "titleZh": "杜邦推出SBTi-Validated净零目标",
     "summaryZh": "跨国化学品公司杜邦宣布了一系列新的减排目标",
     "recommended": false,
-    "recommendReason": "Multinational chemicals company DuPont announced a series of new emissions reduction targets。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "跨国化学品公司杜邦宣布了一系列新的减排目标。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 43,
+      "score": 42,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -301,10 +574,10 @@
         "全球"
       ],
       "fact": {
-        "title": "DuPont Unveils SBTi-Validated ",
+        "title": "杜邦推出SBTi-Validated净零目标",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "DuPont Unveils SBTi-Validated Net Zero Targets",
+        "object": "杜邦推出SBTi-Validated净零目标",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -326,9 +599,9 @@
     "titleZh": "Salesforce签署50万吨超级污染物碳信用协议",
     "summaryZh": "CRM解决方案提供商Salesforce宣布已与农业甲烷签署新协议",
     "recommended": false,
-    "recommendReason": "CRM solutions provider Salesforce announced that it has signed a new agreement with agricultural methane。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "CRM解决方案提供商Salesforce宣布已与农业甲烷签署新协议。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 26,
+      "score": 30,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -340,10 +613,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Salesforce Signs 500,000 Ton S",
+        "title": "Salesforce签署50万吨超级污染物碳信用协议",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "Salesforce Signs 500,000 Ton Superpollutant Carbon Credit Deal",
+        "object": "Salesforce签署50万吨超级污染物碳信用协议",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -365,9 +638,9 @@
     "titleZh": "超过80%的机构投资者计划增加对可持续投资的配置：调查",
     "summaryZh": "超过五分之四的机构投资者希望增加对可持续投资的配置",
     "recommended": false,
-    "recommendReason": "More than four out of five institutional investors expect to increase allocations to sustainable investments。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "超过五分之四的机构投资者希望增加对可持续投资的配置。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 33,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -379,10 +652,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Over 80% of Institutional Inve",
+        "title": "超过80%的机构投资者计划增加对可持续投资的配置：调查",
         "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "Over 80% of Institutional Investors Plan to Increase Allocations to Sustainable ",
+        "action": "调查",
+        "object": "超过80%的机构投资者计划增加对可持续投资的配置：调查",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -402,11 +675,11 @@
     "articleUrl": "https://www.esgtoday.com/singapore-airlines-signs-deal-to-purchase-saf-made-from-waste-carbon/?utm_source=rss&utm_medium=rss&utm_campaign=singapore-airlines-signs-deal-to-purchase-saf-made-from-waste-carbon",
     "esgTopic": "合规与监管",
     "titleZh": "新加坡航空公司签署协议，购买由废碳制成的SAF",
-    "summaryZh": "新加坡航空公司（SIA）宣布已与Aether Fuels签署协议，收购",
+    "summaryZh": "新加坡航空公司（SIA）宣布已与Aether Fuels签署协议",
     "recommended": false,
-    "recommendReason": "Singapore Airlines (SIA) announced that it has signed an agreement with Aether Fuels to purchase。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "新加坡航空公司（SIA）宣布已与Aether Fuels签署协议。",
     "pipeline": {
-      "score": 47,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -418,10 +691,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Singapore Airlines Signs Deal ",
+        "title": "新加坡航空公司签署协议，购买由废碳制成的SAF",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "Singapore Airlines Signs Deal to Purchase SAF Made from Waste Carbon",
+        "object": "新加坡航空公司签署协议，购买由废碳制成的SAF",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -441,11 +714,11 @@
     "articleUrl": "https://www.esgtoday.com/terradot-secures-34-million-from-hasi-to-build-erw-carbon-removal-projects/?utm_source=rss&utm_medium=rss&utm_campaign=terradot-secures-34-million-from-hasi-to-build-erw-carbon-removal-projects",
     "esgTopic": "合规与监管",
     "titleZh": "Terradot从HASI获得3400万美元$用于建设战争遗留爆炸物碳清除项目",
-    "summaryZh": "碳去除公司Terradot宣布，它已经完成了一项高级担保定期贷款，",
+    "summaryZh": "碳去除公司Terradot宣布",
     "recommended": false,
-    "recommendReason": "Carbon removal company Terradot announced that it has closed a senior secured term loan of。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "碳去除公司Terradot宣布。",
     "pipeline": {
-      "score": 25,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -457,10 +730,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Terradot Secures $34 Million f",
+        "title": "Terradot从HASI获得3400万美元$用于建设战争遗",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "Terradot Secures $34 Million from HASI to Build ERW Carbon Removal Projects",
+        "object": "Terradot从HASI获得3400万美元$用于建设战争遗留爆炸物碳清除项目",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -482,9 +755,9 @@
     "titleZh": "全球经济情报执行摘要， 2026年9月",
     "summaryZh": "随着能源价格飙升推动通胀，各国央行开始收紧利率政策；一些经济体的增长看起来很少，但活动指标显示制造业和服务业正在扩张。",
     "recommended": false,
-    "recommendReason": "Central banks move to tighten interest rate policies as energy price spikes fuel inflation。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "随着能源价格飙升推动通胀，各国央行开始收紧利率政策。",
     "pipeline": {
-      "score": 15,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -496,10 +769,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Global Economics Intelligence ",
+        "title": "全球经济情报执行摘要， 2026年9月",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Global Economics Intelligence executive summary, September 2026",
+        "object": "全球经济情报执行摘要， 2026年9月",
         "occurredAt": "2026-10-28"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -521,9 +794,9 @@
     "titleZh": "算法不是优势--团队",
     "summaryZh": "FICO首席执行官威尔·兰辛（Will Lansing）表示，强大的所有权文化，而不是更智能的计算方法，将使数据分析公司在人工智能时代与竞争对手区分开来。",
     "recommended": false,
-    "recommendReason": "FICO CEO Will Lansing says a strong ownership culture, not a smarter computational method, will set the data analytics company apart from competitors in this AI era.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "FICO首席执行官威尔·兰辛（Will Lansing）表示，强大的所有权文化，而不是更智能的计算方法，将使数据分析公司在人工智能时代与竞争对手区分开来。",
     "pipeline": {
-      "score": 10,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -535,10 +808,10 @@
         "全球"
       ],
       "fact": {
-        "title": "The algorithm isn’t the advant",
+        "title": "算法不是优势--团队",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "The algorithm isn’t the advantage–the team is",
+        "object": "算法不是优势--团队",
         "occurredAt": "2026-10-28"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -560,9 +833,9 @@
     "titleZh": "基于人工智能的银行业务：新的运营模式如何改变不良信用管理",
     "summaryZh": "银行越来越多地在不良信用管理中部署人工智能。但很少有人调整其运营模式，以提供独特的客户体验，并优化财务结果和恢复成本。",
     "recommended": false,
-    "recommendReason": "Banks increasingly deploy AI in distressed credit management. But few have adjusted their operating models to deliver distinctive customer experiences and optimize financial outcomes and recovery costs.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "银行越来越多地在不良信用管理中部署人工智能。",
     "pipeline": {
-      "score": 15,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -574,10 +847,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Banking on AI: How a new opera",
+        "title": "基于人工智能的银行业务：新的运营模式如何改变不良信用管理",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Banking on AI: How a new operating model can transform distressed credit managem",
+        "object": "基于人工智能的银行业务：新的运营模式如何改变不良信用管理",
         "occurredAt": "2026-10-28"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -586,7 +859,7 @@
   },
   {
     "id": "src-164cz0q",
-    "title": "EU Sustainable Finance and Investor Groups Push Back Against Weaker Sustainability Reporting Rules for Non-EU Companies",
+    "title": "Sustainable Finance and Investor Groups Push Back Against Weaker CSRD Sustainability Reporting Rules for Non-EU Companies",
     "summary": "The EU Platform on Sustainable Finance (PSF), an expert group mandated by the European Commission",
     "contentType": "观点",
     "region": "全球",
@@ -599,9 +872,9 @@
     "titleZh": "欧盟可持续金融和投资者团体抵制非欧盟公司较弱的可持续发展报告规则",
     "summaryZh": "欧盟可持续金融平台（PSF）",
     "recommended": false,
-    "recommendReason": "欧盟可持续金融平台（PSF）。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "欧盟可持续金融平台（PSF）。",
     "pipeline": {
-      "score": 75,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -639,7 +912,7 @@
     "id": "src-1bvljka",
     "title": "Emvolon Raises $22 Million to Turn Waste Greenhouse Gas into Sustainable Fuels",
     "summary": "Clean energy startup Emvolon announced that it has raised $22 million in a Series A",
-    "contentType": "观点",
+    "contentType": "行业",
     "region": "全球",
     "publishedAt": "2026-10-28T14:30:59.000Z",
     "importanceLevel": "中",
@@ -659,7 +932,7 @@
       "storyId": "story-wtoyou",
       "heat": 0,
       "tags": [
-        "观点",
+        "行业",
         "合规与监管",
         "全球"
       ],
@@ -806,9 +1079,8 @@
     "titleZh": "证监会发布指引，支持加强香港零售基金制度",
     "summaryZh": "证监会发布指引",
     "recommended": false,
-    "recommendReason": "证监会发布指引。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 55,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -923,9 +1195,9 @@
     "titleZh": "证监会欢迎在综合基金平台上推出平台及代名人服务",
     "summaryZh": "证监会欢迎在综合基金平台上推出平台及代名人服务",
     "recommended": false,
-    "recommendReason": "证监会欢迎在综合基金平台上推出平台及代名人服务。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "证监会欢迎在综合基金平台上推出平台及代名人服务。",
     "pipeline": {
-      "score": 20,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -962,9 +1234,9 @@
     "titleZh": "香港交易所推出平台及代名人服务，扩大综合基金平台",
     "summaryZh": "香港交易所推出平台及代名人服务",
     "recommended": false,
-    "recommendReason": "香港交易所推出平台及代名人服务。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "香港交易所推出平台及代名人服务。",
     "pipeline": {
-      "score": 20,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -1040,9 +1312,9 @@
     "titleZh": "战略采购中的代理人工智能：炒作还是英雄？",
     "summaryZh": "随着越来越多的采购职能部门投资于代理人工智能，以节省成本并提高效率，问题越来越多：值得吗？",
     "recommended": false,
-    "recommendReason": "随着越来越多的采购职能部门投资于代理人工智能，以节省成本并提高效率，问题越来越多：值得吗？。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "随着越来越多的采购职能部门投资于代理人工智能，以节省成本并提高效率，问题越来越多：值得吗？。",
     "pipeline": {
-      "score": 18,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -1079,9 +1351,9 @@
     "titleZh": "当人工智能进行购物时，谁会赢？代理商的新证据",
     "summaryZh": "对约21,000名消费者的分析表明，人工智能购物行为是如何增长和发展的，早期的证据表明，公司还没有做好满足不断增长的需求的准备。",
     "recommended": false,
-    "recommendReason": "对约21,000名消费者的分析表明，人工智能购物行为是如何增长和发展的，早期的证据表明，公司还没有做好满足不断增长的需求的准备。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "对约21,000名消费者的分析表明，人工智能购物行为是如何增长和发展的，早期的证据表明，公司还没有做好满足不断增长的需求的准备。",
     "pipeline": {
-      "score": 23,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -1118,9 +1390,9 @@
     "titleZh": "为竞争和增长的新时代重新布线证券服务",
     "summaryZh": "从实时结算到代理AI的颠覆性力量正在改变证券服务行业的动态。领导者如何抓住下一个增长地平线？",
     "recommended": false,
-    "recommendReason": "Disruptive forces—from real-time settlement to agentic AI—are changing the dynamics of the securities services industry. How can leaders capture the next horizon of growth?。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "从实时结算到代理AI的颠覆性力量正在改变证券服务行业的动态。",
     "pipeline": {
-      "score": 12,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -1132,10 +1404,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Rewiring securities services f",
+        "title": "为竞争和增长的新时代重新布线证券服务",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Rewiring securities services for a new era of competition and growth",
+        "object": "为竞争和增长的新时代重新布线证券服务",
         "occurredAt": "2026-10-27"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1274,9 +1546,9 @@
     "titleZh": "人工智能无法取代的东西以及它对价值的重要性",
     "summaryZh": "斯坦福大学研究心理学家贾米尔·扎基（Jamil Zaki）说，人工智能可能会加深我们的联系危机。以同理心管理变革有助于领导者建立信任，加强关系，并充分利用他们的人工智能投资。",
     "recommended": false,
-    "recommendReason": "斯坦福大学研究心理学家贾米尔·扎基（Jamil Zaki）说，人工智能可能会加深我们的联系危机。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "斯坦福大学研究心理学家贾米尔·扎基（Jamil Zaki）说，人工智能可能会加深我们的联系危机。",
     "pipeline": {
-      "score": 13,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -1313,9 +1585,9 @@
     "titleZh": "“坚持课程，随时适应”：对Manon van Beek的采访",
     "summaryZh": "在她准备下台时，欧洲领先的电网运营商TenneT的首席执行官反思了扩大能源基础设施、应对地缘政治冲击以及在不确定性中建立弹性。",
     "recommended": false,
-    "recommendReason": "在她准备下台时，欧洲领先的电网运营商TenneT的首席执行官反思了扩大能源基础设施、应对地缘政治冲击以及在不确定性中建立弹性。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "在她准备下台时，欧洲领先的电网运营商TenneT的首席执行官反思了扩大能源基础设施、应对地缘政治冲击以及在不确定性中建立弹性。",
     "pipeline": {
-      "score": 18,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -1352,9 +1624,9 @@
     "titleZh": "证监会批准代币化公募基金的首次二级交易",
     "summaryZh": "证监会批准代币化公募基金的首次二级交易",
     "recommended": false,
-    "recommendReason": "证监会批准代币化公募基金的首次二级交易。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "证监会批准代币化公募基金的首次二级交易。",
     "pipeline": {
-      "score": 48,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -6546,7 +6818,7 @@
     "id": "src-84e386",
     "title": "Medtech needs more than a market rotation to win back investors",
     "summary": "With industry performance plateauing, medtech leaders must earn back investor trust with fresh strategies and better execution.",
-    "contentType": "观点",
+    "contentType": "行业",
     "region": "全球",
     "publishedAt": "2026-10-05T16:00:00.000Z",
     "importanceLevel": "中",
@@ -6566,7 +6838,7 @@
       "storyId": "story-85upk5",
       "heat": 0,
       "tags": [
-        "观点",
+        "行业",
         "合规与监管",
         "全球"
       ],
