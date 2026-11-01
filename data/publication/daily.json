@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "generatedAt": "2026-11-01T12:09:33.427Z",
+  "generatedAt": "2026-11-01T12:31:39.554Z",
   "highlights": [
     {
       "id": "src-89oe69",
@@ -10,7 +10,7 @@
       "contentType": "观点",
       "region": "全球",
       "publishedAt": "2026-11-01T10:24:42.000Z",
-      "score": 22
+      "score": 28
     }
   ],
   "sections": [
@@ -25,7 +25,7 @@
           "contentType": "观点",
           "region": "全球",
           "publishedAt": "2026-11-01T10:24:42.000Z",
-          "score": 22
+          "score": 28
         }
       ]
     }

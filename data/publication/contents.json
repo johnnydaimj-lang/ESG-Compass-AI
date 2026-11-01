@@ -14,9 +14,9 @@
     "titleZh": "今日ESG：一周回顾",
     "summaryZh": "本周ESG新闻：欧盟委员会推出气候适应力框架；",
     "recommended": false,
-    "recommendReason": "This week in ESG news: EU Commission launches climate resilience framework。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "本周ESG新闻：欧盟委员会推出气候适应力框架。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 28,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -28,10 +28,10 @@
         "全球"
       ],
       "fact": {
-        "title": "ESG Today: Week in Review",
+        "title": "今日ESG：一周回顾",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "ESG Today: Week in Review",
+        "object": "今日ESG：一周回顾",
         "occurredAt": "2026-11-01"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -55,7 +55,7 @@
     "recommended": false,
     "recommendReason": "绿色建筑材料制造商Fortera和科技巨头Meta今天宣布达成一项为期多年的协议。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 28,
+      "score": 26,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -94,7 +94,7 @@
     "recommended": false,
     "recommendReason": "全球另类资产管理公司TPG宣布其以气候为重点的战略最终收盘。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 48,
+      "score": 50,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -133,7 +133,7 @@
     "recommended": false,
     "recommendReason": "在向法院支付1.469亿$后。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 31,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -172,7 +172,7 @@
     "recommended": false,
     "recommendReason": "证监会欢迎委任流程审核小组成员。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -211,7 +211,7 @@
     "recommended": false,
     "recommendReason": "Kelvin Wong的新演讲：在香港证券交易所成立47周年金融创新论坛上的主旨演讲。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -250,7 +250,7 @@
     "recommended": false,
     "recommendReason": "行业领导者可以通过集中精力，扩大规模以满足激增的数据中心电力需求，并将人工智能和持续改进发挥作用，将颠覆性转化为增长。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -287,9 +287,9 @@
     "titleZh": "塑造者和创始人：在不失去灵魂的情况下扩展",
     "summaryZh": "仔细研究亚洲成功的创始人兼首席执行官揭示了他们如何在不牺牲企业家精神的情况下扩展业务。",
     "recommended": false,
-    "recommendReason": "A closer look at Asia’s successful founder-CEOs reveals how they have scaled their businesses without sacrificing their entrepreneurial spirit.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "仔细研究亚洲成功的创始人兼首席执行官揭示了他们如何在不牺牲企业家精神的情况下扩展业务。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -301,10 +301,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Shapers and Founders: Scaling ",
+        "title": "塑造者和创始人：在不失去灵魂的情况下扩展",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Shapers and Founders: Scaling without losing soul",
+        "object": "塑造者和创始人：在不失去灵魂的情况下扩展",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -326,9 +326,9 @@
     "titleZh": "缩小银行业的人工智能价值差距：首席执行官指南",
     "summaryZh": "随着人工智能的采用，巨大的价值正在被抛在后面。领导者需要一种运营模式，将投资转化为可以反复部署的人工智能资本。",
     "recommended": false,
-    "recommendReason": "As AI adoption races ahead, great value is being left behind. Leaders need an operating model that turns investment into AI capital that can be deployed again and again.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "随着人工智能的采用，巨大的价值正在被抛在后面。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 9,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -340,10 +340,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Closing banking’s AI value gap",
+        "title": "缩小银行业的人工智能价值差距：首席执行官指南",
         "subject": "麦肯锡可持续发展洞察",
-        "action": "adopt",
-        "object": "Closing banking’s AI value gap: A CEO guide",
+        "action": "发布",
+        "object": "缩小银行业的人工智能价值差距：首席执行官指南",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -365,9 +365,9 @@
     "titleZh": "克服研发瓶颈：建立因果决策系统",
     "summaryZh": "解决停滞不前的开发生产力需要敏锐的决策。领先的生物制药公司正在用互联的因果决策系统取代碎片化分析，以优化速度、成本和成功率。",
     "recommended": false,
-    "recommendReason": "Tackling stalled development productivity requires sharp decision making. Leading biopharma are replacing fragmented analysis with connected, causal decision systems to optimize speed, cost, and success rates.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "解决停滞不前的开发生产力需要敏锐的决策。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -379,10 +379,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Overcoming the R&D bottleneck:",
+        "title": "克服研发瓶颈：建立因果决策系统",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Overcoming the R&D bottleneck: Building a causal decision system",
+        "object": "克服研发瓶颈：建立因果决策系统",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -404,9 +404,9 @@
     "titleZh": "Waniwani的首席执行官就保险分销的代理未来发表讲话",
     "summaryZh": "人工智能代理可以从根本上改变保险分配的经济学。Waniwani首席执行官Robin Diligent解释了保险公司的机遇、风险和影响。",
     "recommended": false,
-    "recommendReason": "AI agents could fundamentally change the economics of insurance distribution. Waniwani CEO Robin Diligent explains the opportunities, risks, and implications for insurers.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "人工智能代理可以从根本上改变保险分配的经济学。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -418,10 +418,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Waniwani’s CEO on the agentic ",
+        "title": "Waniwani的首席执行官就保险分销的代理未来发表讲话",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Waniwani’s CEO on the agentic future of insurance distribution",
+        "object": "Waniwani的首席执行官就保险分销的代理未来发表讲话",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -443,9 +443,9 @@
     "titleZh": "鲍勃·鲍曼（Bob Bowman）谈胜利：出现并完成你的工作",
     "summaryZh": "这位指导迈克尔·菲尔普斯（Michael Phelps）获得23枚奥运金牌的教练解释了为什么一致性胜过动力，以及领导者可以从他建立冠军球队的方式中借鉴什么。",
     "recommended": false,
-    "recommendReason": "The coach who guided Michael Phelps to 23 Olympic gold medals explains why consistency beats motivation and what leaders can borrow from how he builds championship teams.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "这位指导迈克尔·菲尔普斯（Michael Phelps）获得23枚奥运金牌的教练解释了为什么一致性胜过动力，以及领导者可以从他建立冠军球队的方式中借鉴什么。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 2,
+      "score": 1,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -457,10 +457,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Bob Bowman on winning: Show up",
+        "title": "鲍勃·鲍曼（Bob Bowman）谈胜利：出现并完成你的工作",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Bob Bowman on winning: Show up and do your work",
+        "object": "鲍勃·鲍曼（Bob Bowman）谈胜利：出现并完成你的工作",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -482,9 +482,9 @@
     "titleZh": "作者谈话：为什么你不能将战略与价值分开，反之亦然",
     "summaryZh": "麦肯锡在战略和企业融资领域的三位专家探讨了支撑所有成功价值创造战略的四项基本原则。",
     "recommended": false,
-    "recommendReason": "Three McKinsey experts in strategy and corporate finance explore the four foundational principles that underpin all successful value-creating strategies.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "麦肯锡在战略和企业融资领域的三位专家探讨了支撑所有成功价值创造战略的四项基本原则。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -496,10 +496,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Author Talks: Why you can’t se",
+        "title": "作者谈话：为什么你不能将战略与价值分开，反之亦然",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Author Talks: Why you can’t separate strategy from value—and vice versa",
+        "object": "作者谈话：为什么你不能将战略与价值分开，反之亦然",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -523,7 +523,7 @@
     "recommended": false,
     "recommendReason": "可持续发展数据和分析公司Clarity AI宣布推出过渡可信度评估。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 26,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -562,7 +562,7 @@
     "recommended": false,
     "recommendReason": "跨国化学品公司杜邦宣布了一系列新的减排目标。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 42,
+      "score": 48,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -601,7 +601,7 @@
     "recommended": false,
     "recommendReason": "CRM解决方案提供商Salesforce宣布已与农业甲烷签署新协议。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 30,
+      "score": 33,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -640,7 +640,7 @@
     "recommended": false,
     "recommendReason": "超过五分之四的机构投资者希望增加对可持续投资的配置。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 33,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
