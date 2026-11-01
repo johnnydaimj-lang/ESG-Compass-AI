@@ -1,5 +1,45 @@
 [
   {
+    "id": "story-pdc82d",
+    "rootId": "src-chr6du",
+    "title": "国务院研究室",
+    "digest": "国务院研究室",
+    "latest": "国务院研究室",
+    "memberIds": [
+      "src-chr6du"
+    ],
+    "facts": [
+      {
+        "title": "国务院研究室",
+        "subject": "中国生态环境部新闻",
+        "action": "发布",
+        "object": "国务院研究室",
+        "occurredAt": "2018-06-22"
+      }
+    ],
+    "participants": [
+      "mee-china"
+    ],
+    "firstPublishedAt": "2018-06-22T00:00:00.000Z",
+    "latestPublishedAt": "2018-06-22T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-chr6du",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国生态环境部新闻"
+    ]
+  },
+  {
     "id": "story-6gv9va",
     "rootId": "src-8qttvz",
     "title": "2021年7月16日新闻发布会",
@@ -130,6 +170,46 @@
     "signalCount": 0,
     "sourceNames": [
       "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-198y6pi",
+    "rootId": "src-h7aqci",
+    "title": "国务院部门网站",
+    "digest": "国务院部门网站",
+    "latest": "国务院部门网站",
+    "memberIds": [
+      "src-h7aqci"
+    ],
+    "facts": [
+      {
+        "title": "国务院部门网站",
+        "subject": "国务院国资委政策发布",
+        "action": "发布",
+        "object": "国务院部门网站",
+        "occurredAt": "2023-03-29"
+      }
+    ],
+    "participants": [
+      "sasac-policy"
+    ],
+    "firstPublishedAt": "2023-03-29T00:00:00.000Z",
+    "latestPublishedAt": "2023-03-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-h7aqci",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国务院国资委政策发布"
     ]
   },
   {
@@ -266,11 +346,91 @@
     ]
   },
   {
+    "id": "story-1agyk7g",
+    "rootId": "src-agfvbk",
+    "title": "Morningstar Sustainalytics Introduces Significant Enhancements to its ESG Risk Ratings",
+    "digest": "Morningstar Sustainalytics Introduces Significant Enhancements to its ESG Risk Ratings",
+    "latest": "Morningstar Sustainalytics Introduces Significant Enhancements to its ESG Risk Ratings",
+    "memberIds": [
+      "src-agfvbk"
+    ],
+    "facts": [
+      {
+        "title": "Morningstar Sustainalytics Int",
+        "subject": "Sustainalytics ESG 评级（候选）",
+        "action": "发布",
+        "object": "Morningstar Sustainalytics Introduces Significant Enhancements to its ESG Risk R",
+        "occurredAt": "2024-05-31"
+      }
+    ],
+    "participants": [
+      "sustainalytics-esg-ratings"
+    ],
+    "firstPublishedAt": "2024-05-31T00:00:00.000Z",
+    "latestPublishedAt": "2024-05-31T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-agfvbk",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Sustainalytics ESG 评级（候选）"
+    ]
+  },
+  {
+    "id": "story-2coc6s",
+    "rootId": "src-7h2knd",
+    "title": "ICMA owned Code of Conduct for ESG Ratings and Data Products Providers (the “Code”)",
+    "digest": "ICMA owned Code of Conduct for ESG Ratings and Data Products Providers (the “Code”)",
+    "latest": "ICMA owned Code of Conduct for ESG Ratings and Data Products Providers (the “Code”)",
+    "memberIds": [
+      "src-7h2knd"
+    ],
+    "facts": [
+      {
+        "title": "ICMA owned Code of Conduct for",
+        "subject": "Sustainalytics ESG 评级（候选）",
+        "action": "发布",
+        "object": "ICMA owned Code of Conduct for ESG Ratings and Data Products Providers (the “Cod",
+        "occurredAt": "2024-06-13"
+      }
+    ],
+    "participants": [
+      "sustainalytics-esg-ratings"
+    ],
+    "firstPublishedAt": "2024-06-13T00:00:00.000Z",
+    "latestPublishedAt": "2024-06-13T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-7h2knd",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Sustainalytics ESG 评级（候选）"
+    ]
+  },
+  {
     "id": "story-49e5pq",
     "rootId": "src-yembgj",
     "title": "超百个“硬核”科技亮相！ 工业和信息化部启动高校科技成果转化专项路演",
-    "digest": "超百个“硬核”科技亮相！ 工业和信息化部启动高校科技成果转化专项路演",
-    "latest": "超百个“硬核”科技亮相！ 工业和信息化部启动高校科技成果转化专项路演",
+    "digest": "超百个“硬核”科技亮相！",
+    "latest": "超百个“硬核”科技亮相！",
     "memberIds": [
       "src-yembgj"
     ],
@@ -303,6 +463,46 @@
     "signalCount": 0,
     "sourceNames": [
       "工业和信息化部新闻动态"
+    ]
+  },
+  {
+    "id": "story-117ut2h",
+    "rootId": "src-phrpu",
+    "title": "Morningstar Sustainalytics Issues Statement of Application in Relation to the ICMA Code of Conduct for ESG Ratings and Data Products Providers (the “ICMA Code”)",
+    "digest": "Morningstar Sustainalytics Issues Statement of Application in Relation to the ICMA Code of Conduct for ESG Ratings and Data Products Providers (the “ICMA Code”)",
+    "latest": "Morningstar Sustainalytics Issues Statement of Application in Relation to the ICMA Code of Conduct for ESG Ratings and Data Products Providers (the “ICMA Code”)",
+    "memberIds": [
+      "src-phrpu"
+    ],
+    "facts": [
+      {
+        "title": "Morningstar Sustainalytics Iss",
+        "subject": "Sustainalytics ESG 评级（候选）",
+        "action": "发布",
+        "object": "Morningstar Sustainalytics Issues Statement of Application in Relation to the IC",
+        "occurredAt": "2024-12-12"
+      }
+    ],
+    "participants": [
+      "sustainalytics-esg-ratings"
+    ],
+    "firstPublishedAt": "2024-12-12T00:00:00.000Z",
+    "latestPublishedAt": "2024-12-12T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-phrpu",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Sustainalytics ESG 评级（候选）"
     ]
   },
   {
@@ -1729,6 +1929,46 @@
     "signalCount": 0,
     "sourceNames": [
       "IFRS / ISSB 新闻"
+    ]
+  },
+  {
+    "id": "story-rn09v0",
+    "rootId": "src-wenia8",
+    "title": "Morningstar Sustainalytics Submits ESMA Filing",
+    "digest": "Morningstar Sustainalytics Submits ESMA Filing",
+    "latest": "Morningstar Sustainalytics Submits ESMA Filing",
+    "memberIds": [
+      "src-wenia8"
+    ],
+    "facts": [
+      {
+        "title": "Morningstar Sustainalytics Sub",
+        "subject": "Sustainalytics ESG 评级（候选）",
+        "action": "发布",
+        "object": "Morningstar Sustainalytics Submits ESMA Filing",
+        "occurredAt": "2026-07-03"
+      }
+    ],
+    "participants": [
+      "sustainalytics-esg-ratings"
+    ],
+    "firstPublishedAt": "2026-07-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-07-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-wenia8",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Sustainalytics ESG 评级（候选）"
     ]
   },
   {
@@ -3825,6 +4065,46 @@
     ]
   },
   {
+    "id": "story-yu5gfx",
+    "rootId": "src-caxsjv",
+    "title": "厚植中国式现代化的绿色底色，2026年全国生态日上海主场活动精彩纷呈",
+    "digest": "厚植中国式现代化的绿色底色，2026年全国生态日上海主场活动精彩纷呈",
+    "latest": "厚植中国式现代化的绿色底色，2026年全国生态日上海主场活动精彩纷呈",
+    "memberIds": [
+      "src-caxsjv"
+    ],
+    "facts": [
+      {
+        "title": "厚植中国式现代化的绿色底色，2026年全国生态日上海主场活动",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "厚植中国式现代化的绿色底色，2026年全国生态日上海主场活动精彩纷呈",
+        "occurredAt": "2026-08-17"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-08-17T00:00:00.000Z",
+    "latestPublishedAt": "2026-08-17T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-caxsjv",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
+    ]
+  },
+  {
     "id": "story-k25vf4",
     "rootId": "src-1yksvmh",
     "title": "香港交易所行政总裁续约",
@@ -3942,6 +4222,46 @@
     "signalCount": 0,
     "sourceNames": [
       "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-1lj8qys",
+    "rootId": "src-1yir8fw",
+    "title": "双向奔赴·共建共营！第三届营商环境“媒体观察员”共建项目集中发布",
+    "digest": "双向奔赴·共建共营！第三届营商环境“媒体观察员”共建项目集中发布",
+    "latest": "双向奔赴·共建共营！第三届营商环境“媒体观察员”共建项目集中发布",
+    "memberIds": [
+      "src-1yir8fw"
+    ],
+    "facts": [
+      {
+        "title": "双向奔赴·共建共营！第三届营商环境“媒体观察员”共建项目集中",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "双向奔赴·共建共营！第三届营商环境“媒体观察员”共建项目集中发布",
+        "occurredAt": "2026-08-19"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-08-19T00:00:00.000Z",
+    "latestPublishedAt": "2026-08-19T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1yir8fw",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
     ]
   },
   {
@@ -4102,6 +4422,46 @@
     "signalCount": 0,
     "sourceNames": [
       "ISO 标准动态"
+    ]
+  },
+  {
+    "id": "story-iccf2t",
+    "rootId": "src-17u98oe",
+    "title": "陈石燕副主任参加解读《上海市妇女儿童发展 “十五五”规划》市政府新闻发布会",
+    "digest": "陈石燕副主任参加解读《上海市妇女儿童发展 “十五五”规划》市政府新闻发布会",
+    "latest": "陈石燕副主任参加解读《上海市妇女儿童发展 “十五五”规划》市政府新闻发布会",
+    "memberIds": [
+      "src-17u98oe"
+    ],
+    "facts": [
+      {
+        "title": "陈石燕副主任参加解读《上海市妇女儿童发展 “十五五”规划》市",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "陈石燕副主任参加解读《上海市妇女儿童发展 “十五五”规划》市政府新闻发布会",
+        "occurredAt": "2026-08-21"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-08-21T00:00:00.000Z",
+    "latestPublishedAt": "2026-08-21T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-17u98oe",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
     ]
   },
   {
@@ -4331,6 +4691,46 @@
     ]
   },
   {
+    "id": "story-ob9q83",
+    "rootId": "src-dxixt1",
+    "title": "减量提质不扰企！全市涉企行政检查工作交流会召开",
+    "digest": "减量提质不扰企！全市涉企行政检查工作交流会召开",
+    "latest": "减量提质不扰企！全市涉企行政检查工作交流会召开",
+    "memberIds": [
+      "src-dxixt1"
+    ],
+    "facts": [
+      {
+        "title": "减量提质不扰企！全市涉企行政检查工作交流会召开",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "减量提质不扰企！全市涉企行政检查工作交流会召开",
+        "occurredAt": "2026-08-27"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-08-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-08-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-dxixt1",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
+    ]
+  },
+  {
     "id": "story-15vrwf4",
     "rootId": "src-1wqu2bz",
     "title": "关于明确非应税交易等增值税有关事项的公告",
@@ -4414,8 +4814,8 @@
     "id": "story-7divbm",
     "rootId": "src-1f4a6wa",
     "title": "坚持党对注册会计师行业的全面领导 以高质量党建引领行业高质量发展——...",
-    "digest": "坚持党对注册会计师行业的全面领导 以高质量党建引领行业高质量发展——...",
-    "latest": "坚持党对注册会计师行业的全面领导 以高质量党建引领行业高质量发展——...",
+    "digest": "坚持党对注册会计师行业的全面领导 以高质量党建引领行业高质量发展——",
+    "latest": "坚持党对注册会计师行业的全面领导 以高质量党建引领行业高质量发展——",
     "memberIds": [
       "src-1f4a6wa"
     ],
@@ -4728,6 +5128,46 @@
     "signalCount": 0,
     "sourceNames": [
       "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-1m9n9ns",
+    "rootId": "src-163w77j",
+    "title": "陈国忠同志参加解读《虹桥国际中央商务区建设“十五五”规划》市政府新闻发布会",
+    "digest": "陈国忠同志参加解读《虹桥国际中央商务区建设“十五五”规划》市政府新闻发布会",
+    "latest": "陈国忠同志参加解读《虹桥国际中央商务区建设“十五五”规划》市政府新闻发布会",
+    "memberIds": [
+      "src-163w77j"
+    ],
+    "facts": [
+      {
+        "title": "陈国忠同志参加解读《虹桥国际中央商务区建设“十五五”规划》市",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "陈国忠同志参加解读《虹桥国际中央商务区建设“十五五”规划》市政府新闻发布会",
+        "occurredAt": "2026-09-02"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-09-02T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-02T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-163w77j",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
     ]
   },
   {
@@ -6557,6 +6997,46 @@
     ]
   },
   {
+    "id": "story-19iyzm7",
+    "rootId": "src-my0tk9",
+    "title": "Morningstar Sustainalytics Submits ESMA Application",
+    "digest": "Morningstar Sustainalytics Submits ESMA Application",
+    "latest": "Morningstar Sustainalytics Submits ESMA Application",
+    "memberIds": [
+      "src-my0tk9"
+    ],
+    "facts": [
+      {
+        "title": "Morningstar Sustainalytics Sub",
+        "subject": "Sustainalytics ESG 评级（候选）",
+        "action": "发布",
+        "object": "Morningstar Sustainalytics Submits ESMA Application",
+        "occurredAt": "2026-09-15"
+      }
+    ],
+    "participants": [
+      "sustainalytics-esg-ratings"
+    ],
+    "firstPublishedAt": "2026-09-15T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-15T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-my0tk9",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Sustainalytics ESG 评级（候选）"
+    ]
+  },
+  {
     "id": "story-uooc7k",
     "rootId": "src-wef-cso-outlook-2026",
     "title": "世界经济论坛发布首份《首席可持续发展官展望》",
@@ -6874,6 +7354,46 @@
     "signalCount": 0,
     "sourceNames": [
       "联合国环境规划署（UNEP）新闻与观点"
+    ]
+  },
+  {
+    "id": "story-qs365y",
+    "rootId": "src-1bjuqxm",
+    "title": "Morningstar Survey: Asset Owners Increase U.S. and Private Market Exposure as AI Risks Rise",
+    "digest": "Morningstar Survey: Asset Owners Increase U.S. and Private Market Exposure as AI Risks Rise",
+    "latest": "Morningstar Survey: Asset Owners Increase U.S. and Private Market Exposure as AI Risks Rise",
+    "memberIds": [
+      "src-1bjuqxm"
+    ],
+    "facts": [
+      {
+        "title": "Morningstar Survey: Asset Owne",
+        "subject": "Sustainalytics ESG 评级（候选）",
+        "action": "发布",
+        "object": "Morningstar Survey: Asset Owners Increase U.S. and Private Market Exposure as AI",
+        "occurredAt": "2026-09-16"
+      }
+    ],
+    "participants": [
+      "sustainalytics-esg-ratings"
+    ],
+    "firstPublishedAt": "2026-09-16T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-16T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1bjuqxm",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Sustainalytics ESG 评级（候选）"
     ]
   },
   {
@@ -8133,8 +8653,8 @@
     "id": "story-zyoaqd",
     "rootId": "src-19bx6kt",
     "title": "完善行业管理制度 持续强化注册会计师行业行政监管——新注册会计师法系...",
-    "digest": "完善行业管理制度 持续强化注册会计师行业行政监管——新注册会计师法系...",
-    "latest": "完善行业管理制度 持续强化注册会计师行业行政监管——新注册会计师法系...",
+    "digest": "完善行业管理制度 持续强化注册会计师行业行政监管——新注册会计师法系",
+    "latest": "完善行业管理制度 持续强化注册会计师行业行政监管——新注册会计师法系",
     "memberIds": [
       "src-19bx6kt"
     ],
@@ -11336,8 +11856,8 @@
     "id": "story-chrha2",
     "rootId": "src-78cr1v",
     "title": "强化协会职能作用 创新推动行业高质量发展 ——新注册会计师法系列解读...",
-    "digest": "强化协会职能作用 创新推动行业高质量发展 ——新注册会计师法系列解读...",
-    "latest": "强化协会职能作用 创新推动行业高质量发展 ——新注册会计师法系列解读...",
+    "digest": "强化协会职能作用 创新推动行业高质量发展 ——新注册会计师法系列解读",
+    "latest": "强化协会职能作用 创新推动行业高质量发展 ——新注册会计师法系列解读",
     "memberIds": [
       "src-78cr1v"
     ],
@@ -12176,8 +12696,8 @@
     "id": "story-1uodowg",
     "rootId": "src-1x4qgva",
     "title": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息...",
-    "digest": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息...",
-    "latest": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息...",
+    "digest": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息",
+    "latest": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息",
     "memberIds": [
       "src-1x4qgva"
     ],
@@ -14815,8 +15335,8 @@
     "id": "story-5d2ihy",
     "rootId": "src-1du8lpi",
     "title": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...",
-    "digest": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...",
-    "latest": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...",
+    "digest": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听",
+    "latest": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听",
     "memberIds": [
       "src-1du8lpi"
     ],
@@ -17438,6 +17958,86 @@
     ]
   },
   {
+    "id": "story-ecbtxu",
+    "rootId": "src-12c5w9o",
+    "title": "蓝佛安会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲...",
+    "digest": "蓝佛安会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲...",
+    "latest": "蓝佛安会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲...",
+    "memberIds": [
+      "src-12c5w9o"
+    ],
+    "facts": [
+      {
+        "title": "蓝佛安会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲..",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "蓝佛安会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲...",
+        "occurredAt": "2026-10-16"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-10-16T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-16T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-12c5w9o",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-28suhu",
+    "rootId": "src-1f9tmne",
+    "title": "蓝佛安出席2026年世界银行发展委员会第114次会议",
+    "digest": "蓝佛安出席2026年世界银行发展委员会第114次会议",
+    "latest": "蓝佛安出席2026年世界银行发展委员会第114次会议",
+    "memberIds": [
+      "src-1f9tmne"
+    ],
+    "facts": [
+      {
+        "title": "蓝佛安出席2026年世界银行发展委员会第114次会议",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "蓝佛安出席2026年世界银行发展委员会第114次会议",
+        "occurredAt": "2026-10-16"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-10-16T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-16T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1f9tmne",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
     "id": "story-1efvwpp",
     "rootId": "src-84bcqq",
     "title": "Kelvin Wong的新演讲：在IFAPC成立25周年和2026年杰出上市公司奖上的讲话",
@@ -18038,6 +18638,46 @@
     ]
   },
   {
+    "id": "story-12ijga0",
+    "rootId": "src-1oi527f",
+    "title": "“氢”装上阵，碳“锁”新能",
+    "digest": "“氢”装上阵，碳“锁”新能",
+    "latest": "“氢”装上阵，碳“锁”新能",
+    "memberIds": [
+      "src-1oi527f"
+    ],
+    "facts": [
+      {
+        "title": "“氢”装上阵，碳“锁”新能",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "“氢”装上阵，碳“锁”新能",
+        "occurredAt": "2026-10-19"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-19T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-19T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1oi527f",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
     "id": "story-1c1uql7",
     "rootId": "src-8x292h",
     "title": "量子的三个视野：未来计算经济的商业路线图",
@@ -18318,6 +18958,86 @@
     ]
   },
   {
+    "id": "story-12kp42o",
+    "rootId": "src-1s7d8kq",
+    "title": "Bountiful to Work with Morningstar Sustainalytics and Morningstar Indexes to Support Faith-Based Investment Offerings",
+    "digest": "Bountiful to Work with Morningstar Sustainalytics and Morningstar Indexes to Support Faith-Based Investment Offerings",
+    "latest": "Bountiful to Work with Morningstar Sustainalytics and Morningstar Indexes to Support Faith-Based Investment Offerings",
+    "memberIds": [
+      "src-1s7d8kq"
+    ],
+    "facts": [
+      {
+        "title": "Bountiful to Work with Morning",
+        "subject": "Sustainalytics ESG 评级（候选）",
+        "action": "发布",
+        "object": "Bountiful to Work with Morningstar Sustainalytics and Morningstar Indexes to Sup",
+        "occurredAt": "2026-10-20"
+      }
+    ],
+    "participants": [
+      "sustainalytics-esg-ratings"
+    ],
+    "firstPublishedAt": "2026-10-20T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-20T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1s7d8kq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Sustainalytics ESG 评级（候选）"
+    ]
+  },
+  {
+    "id": "story-10d0gif",
+    "rootId": "src-xmtwmq",
+    "title": "2026 Report on Hong Kong-Listed Specialist Technology Companies",
+    "digest": "2026 Report on Hong Kong-Listed Specialist Technology Companies",
+    "latest": "2026 Report on Hong Kong-Listed Specialist Technology Companies",
+    "memberIds": [
+      "src-xmtwmq"
+    ],
+    "facts": [
+      {
+        "title": "2026 Report on Hong Kong-Liste",
+        "subject": "世达（Skadden）洞察",
+        "action": "发布",
+        "object": "2026 Report on Hong Kong-Listed Specialist Technology Companies",
+        "occurredAt": "2026-10-20"
+      }
+    ],
+    "participants": [
+      "skadden-esg"
+    ],
+    "firstPublishedAt": "2026-10-20T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-20T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-xmtwmq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "世达（Skadden）洞察"
+    ]
+  },
+  {
     "id": "story-35bx6q",
     "rootId": "src-1f8bevg",
     "title": "港交所推出绿色股权认定计划，加强对绿色经济的资本支持",
@@ -18461,6 +19181,286 @@
     "signalCount": 0,
     "sourceNames": [
       "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-2b4fcq",
+    "rootId": "src-1tubnwg",
+    "title": "APEC财长会新闻发布会文字实录",
+    "digest": "APEC财长会新闻发布会文字实录",
+    "latest": "APEC财长会新闻发布会文字实录",
+    "memberIds": [
+      "src-1tubnwg"
+    ],
+    "facts": [
+      {
+        "title": "APEC财长会新闻发布会文字实录",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "APEC财长会新闻发布会文字实录",
+        "occurredAt": "2026-10-21"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-10-21T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-21T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1tubnwg",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-1egagg6",
+    "rootId": "src-y8jh3f",
+    "title": "2026年亚太经合组织财长会在香港举行",
+    "digest": "2026年亚太经合组织财长会在香港举行",
+    "latest": "2026年亚太经合组织财长会在香港举行",
+    "memberIds": [
+      "src-y8jh3f"
+    ],
+    "facts": [
+      {
+        "title": "2026年亚太经合组织财长会在香港举行",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "2026年亚太经合组织财长会在香港举行",
+        "occurredAt": "2026-10-21"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-10-21T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-21T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-y8jh3f",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-1crjln0",
+    "rootId": "src-1xqh3ml",
+    "title": "坚守，甘以实业筑长基",
+    "digest": "坚守，甘以实业筑长基",
+    "latest": "坚守，甘以实业筑长基",
+    "memberIds": [
+      "src-1xqh3ml"
+    ],
+    "facts": [
+      {
+        "title": "坚守，甘以实业筑长基",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "坚守，甘以实业筑长基",
+        "occurredAt": "2026-10-21"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-21T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-21T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1xqh3ml",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-1svd7vk",
+    "rootId": "src-1fksfxg",
+    "title": "速成车≠新能源汽车",
+    "digest": "速成车≠新能源汽车",
+    "latest": "速成车≠新能源汽车",
+    "memberIds": [
+      "src-1fksfxg"
+    ],
+    "facts": [
+      {
+        "title": "速成车≠新能源汽车",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "速成车≠新能源汽车",
+        "occurredAt": "2026-10-21"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-21T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-21T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1fksfxg",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-ie97qx",
+    "rootId": "src-1brugtd",
+    "title": "AI乌镇 科创桐乡｜1米88“大个子”！濮院街头有了“机器人交警”",
+    "digest": "AI乌镇 科创桐乡｜1米88“大个子”！濮院街头有了“机器人交警”",
+    "latest": "AI乌镇 科创桐乡｜1米88“大个子”！濮院街头有了“机器人交警”",
+    "memberIds": [
+      "src-1brugtd"
+    ],
+    "facts": [
+      {
+        "title": "AI乌镇 科创桐乡｜1米88“大个子”！濮院街头有了“机器人",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "AI乌镇 科创桐乡｜1米88“大个子”！濮院街头有了“机器人交警”",
+        "occurredAt": "2026-10-21"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-21T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-21T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1brugtd",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-3aswqe",
+    "rootId": "src-65slbv",
+    "title": "2026年世界互联网大会乌镇峰会11月2日启幕，浙江“一展一会一赛一论坛”有何亮点",
+    "digest": "2026年世界互联网大会乌镇峰会11月2日启幕，浙江“一展一会一赛一论坛”有何亮点",
+    "latest": "2026年世界互联网大会乌镇峰会11月2日启幕，浙江“一展一会一赛一论坛”有何亮点",
+    "memberIds": [
+      "src-65slbv"
+    ],
+    "facts": [
+      {
+        "title": "2026年世界互联网大会乌镇峰会11月2日启幕，浙江“一展一",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "2026年世界互联网大会乌镇峰会11月2日启幕，浙江“一展一会一赛一论坛”有何亮点",
+        "occurredAt": "2026-10-21"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-21T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-21T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-65slbv",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-oa93dr",
+    "rootId": "src-gb8vwk",
+    "title": "“剧透”未来生活！2026年“互联网之光”博览会有啥好看好玩的？都帮你打听好了",
+    "digest": "“剧透”未来生活！2026年“互联网之光”博览会有啥好看好玩的？都帮你打听好了",
+    "latest": "“剧透”未来生活！2026年“互联网之光”博览会有啥好看好玩的？都帮你打听好了",
+    "memberIds": [
+      "src-gb8vwk"
+    ],
+    "facts": [
+      {
+        "title": "“剧透”未来生活！2026年“互联网之光”博览会有啥好看好玩",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "“剧透”未来生活！2026年“互联网之光”博览会有啥好看好玩的？都帮你打听好了",
+        "occurredAt": "2026-10-21"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-21T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-21T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-gb8vwk",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
     ]
   },
   {
@@ -18761,9 +19761,11 @@
     "rootId": "src-13feu4x",
     "title": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
     "digest": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
-    "latest": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+    "latest": "纪念中国工农红军长征胜利90周年大会在京隆重举行 习近平发表重要讲话",
     "memberIds": [
-      "src-13feu4x"
+      "src-13feu4x",
+      "src-v591nx",
+      "src-e7g327"
     ],
     "facts": [
       {
@@ -18771,6 +19773,72 @@
         "subject": "国家能源局新闻动态",
         "action": "发布",
         "object": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+        "occurredAt": "2026-10-22"
+      },
+      {
+        "title": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+        "occurredAt": "2026-10-26"
+      },
+      {
+        "title": "纪念中国工农红军长征胜利90周年大会在京隆重举行 习近平发表",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "纪念中国工农红军长征胜利90周年大会在京隆重举行 习近平发表重要讲话",
+        "occurredAt": "2026-10-26"
+      }
+    ],
+    "participants": [
+      "nea-news",
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-22T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-26T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-13feu4x",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-v591nx",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-e7g327",
+        "relation": "SAME_STORY",
+        "confidence": 0.7862158588810496
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态",
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-436gl7",
+    "rootId": "src-1uy4nm8",
+    "title": "第16次亚太经合组织能源部长会议在北京召开",
+    "digest": "第16次亚太经合组织能源部长会议在北京召开",
+    "latest": "第16次亚太经合组织能源部长会议在北京召开",
+    "memberIds": [
+      "src-1uy4nm8"
+    ],
+    "facts": [
+      {
+        "title": "第16次亚太经合组织能源部长会议在北京召开",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "第16次亚太经合组织能源部长会议在北京召开",
         "occurredAt": "2026-10-22"
       }
     ],
@@ -18782,7 +19850,7 @@
     "heat": 0,
     "relations": [
       {
-        "memberId": "src-13feu4x",
+        "memberId": "src-1uy4nm8",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -18794,6 +19862,86 @@
     "signalCount": 0,
     "sourceNames": [
       "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-1e7j0dy",
+    "rootId": "src-1i74jwa",
+    "title": "前三季度我省对其他金砖成员国进出口超3000亿元",
+    "digest": "前三季度我省对其他金砖成员国进出口超3000亿元",
+    "latest": "前三季度我省对其他金砖成员国进出口超3000亿元",
+    "memberIds": [
+      "src-1i74jwa"
+    ],
+    "facts": [
+      {
+        "title": "前三季度我省对其他金砖成员国进出口超3000亿元",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "前三季度我省对其他金砖成员国进出口超3000亿元",
+        "occurredAt": "2026-10-22"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-22T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-22T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1i74jwa",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-kxs3cb",
+    "rootId": "src-61q55l",
+    "title": "前三季度我省民营企业进出口近9600亿元",
+    "digest": "前三季度我省民营企业进出口近9600亿元",
+    "latest": "前三季度我省民营企业进出口近9600亿元",
+    "memberIds": [
+      "src-61q55l"
+    ],
+    "facts": [
+      {
+        "title": "前三季度我省民营企业进出口近9600亿元",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "前三季度我省民营企业进出口近9600亿元",
+        "occurredAt": "2026-10-22"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-22T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-22T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-61q55l",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
     ]
   },
   {
@@ -19477,6 +20625,46 @@
     ]
   },
   {
+    "id": "story-54zxjr",
+    "rootId": "src-14apnyl",
+    "title": "2026年未成年人网络保护国际研讨会在北京举行",
+    "digest": "2026年未成年人网络保护国际研讨会在北京举行",
+    "latest": "2026年未成年人网络保护国际研讨会在北京举行",
+    "memberIds": [
+      "src-14apnyl"
+    ],
+    "facts": [
+      {
+        "title": "2026年未成年人网络保护国际研讨会在北京举行",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "2026年未成年人网络保护国际研讨会在北京举行",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-14apnyl",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
     "id": "story-gpj2t7",
     "rootId": "src-1r0iioz",
     "title": "香港交易所推出人工智能和半导体指数",
@@ -19960,8 +21148,8 @@
     "id": "story-bc84zy",
     "rootId": "src-iy73cz",
     "title": "中国人民银行设立债市非银大额赎回互换便利（中国人民银行公开市场业务...",
-    "digest": "中国人民银行设立债市非银大额赎回互换便利（中国人民银行公开市场业务...",
-    "latest": "中国人民银行设立债市非银大额赎回互换便利（中国人民银行公开市场业务...",
+    "digest": "中国人民银行设立债市非银大额赎回互换便利（中国人民银行公开市场业务",
+    "latest": "中国人民银行设立债市非银大额赎回互换便利（中国人民银行公开市场业务",
     "memberIds": [
       "src-iy73cz"
     ],
@@ -19994,6 +21182,59 @@
     "signalCount": 0,
     "sourceNames": [
       "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-1rkazje",
+    "rootId": "src-18hd61g",
+    "title": "拼实干 强产业 促转型",
+    "digest": "拼实干 强产业 促转型",
+    "latest": "拼实干 强产业 促转型",
+    "memberIds": [
+      "src-18hd61g",
+      "src-l2exbr"
+    ],
+    "facts": [
+      {
+        "title": "拼实干 强产业 促转型",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "拼实干 强产业 促转型",
+        "occurredAt": "2026-10-26"
+      },
+      {
+        "title": "拼实干 强产业 促转型",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "拼实干 强产业 促转型",
+        "occurredAt": "2026-10-26"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-26T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-26T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-18hd61g",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-l2exbr",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
     ]
   },
   {
@@ -20207,6 +21448,394 @@
     "signalCount": 0,
     "sourceNames": [
       "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-kuhau3",
+    "rootId": "src-qcmegb",
+    "title": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
+    "digest": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
+    "latest": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
+    "memberIds": [
+      "src-qcmegb"
+    ],
+    "facts": [
+      {
+        "title": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-qcmegb",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-lhkqgh",
+    "rootId": "src-1wznj5",
+    "title": "坚持党的全面领导，不断提高党的长期执政能力——习近平党建思想引领新时代全面从严治党系列述评之一",
+    "digest": "坚持党的全面领导，不断提高党的长期执政能力——习近平党建思想引领新时代全面从严治党系列述评之一",
+    "latest": "不断实现党的自我净化、自我完善、自我革新、自我提高——习近平党建思想引领新时代全面从严治党系列述评之三",
+    "memberIds": [
+      "src-1wznj5",
+      "src-9r72s0"
+    ],
+    "facts": [
+      {
+        "title": "坚持党的全面领导，不断提高党的长期执政能力——习近平党建思想",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "坚持党的全面领导，不断提高党的长期执政能力——习近平党建思想引领新时代全面从严治党系列述评之一",
+        "occurredAt": "2026-10-27"
+      },
+      {
+        "title": "不断实现党的自我净化、自我完善、自我革新、自我提高——习近平",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "不断实现党的自我净化、自我完善、自我革新、自我提高——习近平党建思想引领新时代全面从严治党系列述评之三",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-28T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1wznj5",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-9r72s0",
+        "relation": "SAME_STORY",
+        "confidence": 0.6251954041004443
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-10zeog6",
+    "rootId": "src-o7jrlr",
+    "title": "福建省工业和信息化厅等八部门关于公布通过复核化工园区名单（第二批）的通知",
+    "digest": "福建省工业和信息化厅等八部门关于公布通过复核化工园区名单（第二批）的通知",
+    "latest": "福建省工业和信息化厅等八部门关于公布通过复核化工园区名单（第二批）的通知",
+    "memberIds": [
+      "src-o7jrlr"
+    ],
+    "facts": [
+      {
+        "title": "福建省工业和信息化厅等八部门关于公布通过复核化工园区名单（第",
+        "subject": "福建省工业和信息化厅",
+        "action": "通过",
+        "object": "福建省工业和信息化厅等八部门关于公布通过复核化工园区名单（第二批）的通知",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-o7jrlr",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-ge4afc",
+    "rootId": "src-jkbjds",
+    "title": "福建省工业和信息化厅等八部门关于印发《福建省医药储备管理办法（2026年修订）》的通知",
+    "digest": "福建省工业和信息化厅等八部门关于印发《福建省医药储备管理办法（2026年修订）》的通知",
+    "latest": "福建省工业和信息化厅等八部门关于印发《福建省医药储备管理办法（2026年修订）》的通知",
+    "memberIds": [
+      "src-jkbjds"
+    ],
+    "facts": [
+      {
+        "title": "福建省工业和信息化厅等八部门关于印发《福建省医药储备管理办法",
+        "subject": "福建省工业和信息化厅",
+        "action": "修订",
+        "object": "福建省工业和信息化厅等八部门关于印发《福建省医药储备管理办法（2026年修订）》的通知",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-jkbjds",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-10mxyw6",
+    "rootId": "src-x7jktb",
+    "title": "福建省工业和信息化厅关于取消部分企业省级专精特新中小企业认定的通知",
+    "digest": "福建省工业和信息化厅关于取消部分企业省级专精特新中小企业认定的通知",
+    "latest": "福建省工业和信息化厅关于取消部分企业省级专精特新中小企业认定的通知",
+    "memberIds": [
+      "src-x7jktb"
+    ],
+    "facts": [
+      {
+        "title": "福建省工业和信息化厅关于取消部分企业省级专精特新中小企业认定",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "福建省工业和信息化厅关于取消部分企业省级专精特新中小企业认定的通知",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-x7jktb",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-141h1jt",
+    "rootId": "src-1504sjh",
+    "title": "福建省工业和信息化厅关于公布福建福旅先行智慧科技有限公司等964家创新型中小企业名单的通知",
+    "digest": "福建省工业和信息化厅关于公布福建福旅先行智慧科技有限公司等964家创新型中小企业名单的通知",
+    "latest": "福建省工业和信息化厅关于公布福建福旅先行智慧科技有限公司等964家创新型中小企业名单的通知",
+    "memberIds": [
+      "src-1504sjh"
+    ],
+    "facts": [
+      {
+        "title": "福建省工业和信息化厅关于公布福建福旅先行智慧科技有限公司等9",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "福建省工业和信息化厅关于公布福建福旅先行智慧科技有限公司等964家创新型中小企业名单的通知",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1504sjh",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-wt7l3u",
+    "rootId": "src-1er1v9n",
+    "title": "习近平致电祝贺卢拉当选连任巴西总统",
+    "digest": "习近平致电祝贺卢拉当选连任巴西总统",
+    "latest": "习近平致电祝贺卢拉当选连任巴西总统",
+    "memberIds": [
+      "src-1er1v9n",
+      "src-18lhws2"
+    ],
+    "facts": [
+      {
+        "title": "习近平致电祝贺卢拉当选连任巴西总统",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "习近平致电祝贺卢拉当选连任巴西总统",
+        "occurredAt": "2026-10-27"
+      },
+      {
+        "title": "习近平致电祝贺卢拉当选连任巴西总统",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "习近平致电祝贺卢拉当选连任巴西总统",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "cac-policy",
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-28T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1er1v9n",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-18lhws2",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻",
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-17lep5l",
+    "rootId": "src-ts11n4",
+    "title": "第一观察｜长征的路在不断延伸",
+    "digest": "第一观察｜长征的路在不断延伸",
+    "latest": "第一观察｜长征的路在不断延伸",
+    "memberIds": [
+      "src-ts11n4"
+    ],
+    "facts": [
+      {
+        "title": "第一观察｜长征的路在不断延伸",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "第一观察｜长征的路在不断延伸",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-ts11n4",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-1ybxxju",
+    "rootId": "src-1x2wbjz",
+    "title": "热解读｜小切口立大规矩",
+    "digest": "热解读｜小切口立大规矩",
+    "latest": "热解读｜小切口立大规矩",
+    "memberIds": [
+      "src-1x2wbjz"
+    ],
+    "facts": [
+      {
+        "title": "热解读｜小切口立大规矩",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "热解读｜小切口立大规矩",
+        "occurredAt": "2026-10-27"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1x2wbjz",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
     ]
   },
   {
@@ -20567,6 +22196,234 @@
     "signalCount": 0,
     "sourceNames": [
       "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-rcaah3",
+    "rootId": "src-4ini55",
+    "title": "“我将无我，不负人民”的时代答卷",
+    "digest": "“我将无我，不负人民”的时代答卷",
+    "latest": "“我将无我，不负人民”的时代答卷",
+    "memberIds": [
+      "src-4ini55",
+      "src-1n9p1vx",
+      "src-1g09ung"
+    ],
+    "facts": [
+      {
+        "title": "“我将无我，不负人民”的时代答卷",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "“我将无我，不负人民”的时代答卷",
+        "occurredAt": "2026-10-28"
+      },
+      {
+        "title": "“我将无我，不负人民”的时代答卷",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "“我将无我，不负人民”的时代答卷",
+        "occurredAt": "2026-10-28"
+      },
+      {
+        "title": "“我将无我，不负人民”的时代答卷",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "“我将无我，不负人民”的时代答卷",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "fujian-gxt",
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-28T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-4ini55",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1n9p1vx",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
+      },
+      {
+        "memberId": "src-1g09ung",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅",
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-dhrvl5",
+    "rootId": "src-1tmxprl",
+    "title": "千亿汽车城如何炼成？",
+    "digest": "千亿汽车城如何炼成？",
+    "latest": "千亿汽车城如何炼成？",
+    "memberIds": [
+      "src-1tmxprl"
+    ],
+    "facts": [
+      {
+        "title": "千亿汽车城如何炼成？",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "千亿汽车城如何炼成？",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-28T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-28T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1tmxprl",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-10zu9qs",
+    "rootId": "src-12jozqb",
+    "title": "习近平向日本前首相福田康夫遗属致唁电",
+    "digest": "习近平向日本前首相福田康夫遗属致唁电",
+    "latest": "习近平向日本前首相福田康夫遗属致唁电",
+    "memberIds": [
+      "src-12jozqb"
+    ],
+    "facts": [
+      {
+        "title": "习近平向日本前首相福田康夫遗属致唁电",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "习近平向日本前首相福田康夫遗属致唁电",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-28T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-28T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-12jozqb",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-o5ta2y",
+    "rootId": "src-1t0lkmt",
+    "title": "福建省工业和信息化厅关于公布2026年省级工业领域重点用能企业能效“领跑者”（第一批）名单的通知",
+    "digest": "福建省工业和信息化厅关于公布2026年省级工业领域重点用能企业能效“领跑者”（第一批）名单的通知",
+    "latest": "福建省工业和信息化厅关于公布2026年省级工业领域重点用能企业能效“领跑者”（第一批）名单的通知",
+    "memberIds": [
+      "src-1t0lkmt"
+    ],
+    "facts": [
+      {
+        "title": "福建省工业和信息化厅关于公布2026年省级工业领域重点用能企",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "福建省工业和信息化厅关于公布2026年省级工业领域重点用能企业能效“领跑者”（第一批）名单的通知",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-28T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-28T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1t0lkmt",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-23kaal",
+    "rootId": "src-2fdcsd",
+    "title": "思想如炬，照亮新的赶考路——习近平党建思想书写马克思主义建党学说中国化时代化新篇章",
+    "digest": "思想如炬，照亮新的赶考路——习近平党建思想书写马克思主义建党学说中国化时代化新篇章",
+    "latest": "思想如炬，照亮新的赶考路——习近平党建思想书写马克思主义建党学说中国化时代化新篇章",
+    "memberIds": [
+      "src-2fdcsd"
+    ],
+    "facts": [
+      {
+        "title": "思想如炬，照亮新的赶考路——习近平党建思想书写马克思主义建党",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "思想如炬，照亮新的赶考路——习近平党建思想书写马克思主义建党学说中国化时代化新篇章",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-28T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-28T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-2fdcsd",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
     ]
   },
   {
@@ -21231,9 +23088,17 @@
     "digest": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
     "latest": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
     "memberIds": [
-      "src-s8bmbp"
+      "src-s8bmbp",
+      "src-1jj7uf5"
     ],
     "facts": [
+      {
+        "title": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
+        "occurredAt": "2026-10-29"
+      },
       {
         "title": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
         "subject": "财政部政策发布",
@@ -21251,6 +23116,11 @@
     "relations": [
       {
         "memberId": "src-s8bmbp",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1jj7uf5",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -21321,8 +23191,8 @@
     "id": "story-1lpyqy0",
     "rootId": "src-hz6ycd",
     "title": "2026年10月29日国家再次实施调控，成品油价格适当调整",
-    "digest": "2026年10月29日国家再次实施调控，成品油价格适当调整",
-    "latest": "2026年10月29日国家再次实施调控，成品油价格适当调整",
+    "digest": "2026年10月29日国家再次实施调控",
+    "latest": "2026年10月29日国家再次实施调控",
     "memberIds": [
       "src-hz6ycd"
     ],
@@ -21448,6 +23318,366 @@
     "signalCount": 0,
     "sourceNames": [
       "上海市发展和改革委员会"
+    ]
+  },
+  {
+    "id": "story-1i2fova",
+    "rootId": "src-1b56e8g",
+    "title": "蓝佛安会见世界银行常务副行长兼首席行政官张文才",
+    "digest": "蓝佛安会见世界银行常务副行长兼首席行政官张文才",
+    "latest": "蓝佛安会见世界银行常务副行长兼首席行政官张文才",
+    "memberIds": [
+      "src-1b56e8g"
+    ],
+    "facts": [
+      {
+        "title": "蓝佛安会见世界银行常务副行长兼首席行政官张文才",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "蓝佛安会见世界银行常务副行长兼首席行政官张文才",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1b56e8g",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-tt1gzc",
+    "rootId": "src-iq3766",
+    "title": "强创新 破壁垒 增动能",
+    "digest": "强创新 破壁垒 增动能",
+    "latest": "强创新 破壁垒 增动能",
+    "memberIds": [
+      "src-iq3766"
+    ],
+    "facts": [
+      {
+        "title": "强创新 破壁垒 增动能",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "强创新 破壁垒 增动能",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-iq3766",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-45rh20",
+    "rootId": "src-jzx67o",
+    "title": "福建省工业和信息化厅关于公布2026年第三批省工业重点节能改造和通用设备更新提标项目的通知",
+    "digest": "福建省工业和信息化厅关于公布2026年第三批省工业重点节能改造和通用设备更新提标项目的通知",
+    "latest": "福建省工业和信息化厅关于公布2026年第三批省工业重点节能改造和通用设备更新提标项目的通知",
+    "memberIds": [
+      "src-jzx67o"
+    ],
+    "facts": [
+      {
+        "title": "福建省工业和信息化厅关于公布2026年第三批省工业重点节能改",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "福建省工业和信息化厅关于公布2026年第三批省工业重点节能改造和通用设备更新提标项目的通知",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-jzx67o",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-lz6h0w",
+    "rootId": "src-1v4n8eb",
+    "title": "福建省工业和信息化厅关于组织征集2026年度中国消费名品的通知",
+    "digest": "福建省工业和信息化厅关于组织征集2026年度中国消费名品的通知",
+    "latest": "福建省工业和信息化厅关于组织征集2026年度中国消费名品的通知",
+    "memberIds": [
+      "src-1v4n8eb"
+    ],
+    "facts": [
+      {
+        "title": "福建省工业和信息化厅关于组织征集2026年度中国消费名品的通",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "福建省工业和信息化厅关于组织征集2026年度中国消费名品的通知",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1v4n8eb",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-3vl13v",
+    "rootId": "src-1vi486c",
+    "title": "习近平就西班牙高速列车追尾脱轨事故向西班牙国王费利佩六世致慰问电",
+    "digest": "习近平就西班牙高速列车追尾脱轨事故向西班牙国王费利佩六世致慰问电",
+    "latest": "习近平就西班牙高速列车追尾脱轨事故向西班牙国王费利佩六世致慰问电",
+    "memberIds": [
+      "src-1vi486c"
+    ],
+    "facts": [
+      {
+        "title": "习近平就西班牙高速列车追尾脱轨事故向西班牙国王费利佩六世致慰",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "习近平就西班牙高速列车追尾脱轨事故向西班牙国王费利佩六世致慰问电",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1vi486c",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-5ushad",
+    "rootId": "src-1aw7b8o",
+    "title": "杨建文出席中国—阿拉伯国家网络安全研修班结业式",
+    "digest": "杨建文出席中国—阿拉伯国家网络安全研修班结业式",
+    "latest": "杨建文出席中国—阿拉伯国家网络安全研修班结业式",
+    "memberIds": [
+      "src-1aw7b8o"
+    ],
+    "facts": [
+      {
+        "title": "杨建文出席中国—阿拉伯国家网络安全研修班结业式",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "杨建文出席中国—阿拉伯国家网络安全研修班结业式",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1aw7b8o",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-10i1aml",
+    "rootId": "src-6unj6l",
+    "title": "国家互联网信息办公室关于发布第二十五批境内区块链信息服务备案编号的公告",
+    "digest": "国家互联网信息办公室关于发布第二十五批境内区块链信息服务备案编号的公告",
+    "latest": "国家互联网信息办公室关于发布第二十五批境内区块链信息服务备案编号的公告",
+    "memberIds": [
+      "src-6unj6l"
+    ],
+    "facts": [
+      {
+        "title": "国家互联网信息办公室关于发布第二十五批境内区块链信息服务备案",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "国家互联网信息办公室关于发布第二十五批境内区块链信息服务备案编号的公告",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-6unj6l",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-13lk34l",
+    "rootId": "src-4ibizq",
+    "title": "视频丨算力网加速织就 八大枢纽各展所长",
+    "digest": "视频丨算力网加速织就 八大枢纽各展所长",
+    "latest": "视频丨算力网加速织就 八大枢纽各展所长",
+    "memberIds": [
+      "src-4ibizq"
+    ],
+    "facts": [
+      {
+        "title": "视频丨算力网加速织就 八大枢纽各展所长",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "视频丨算力网加速织就 八大枢纽各展所长",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-4ibizq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-c1hf4f",
+    "rootId": "src-1jqbllc",
+    "title": "乌镇峰会黑科技！桐乡自动驾驶“宝宝巴士”升级亮相",
+    "digest": "乌镇峰会黑科技！桐乡自动驾驶“宝宝巴士”升级亮相",
+    "latest": "乌镇峰会黑科技！桐乡自动驾驶“宝宝巴士”升级亮相",
+    "memberIds": [
+      "src-1jqbllc"
+    ],
+    "facts": [
+      {
+        "title": "乌镇峰会黑科技！桐乡自动驾驶“宝宝巴士”升级亮相",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "乌镇峰会黑科技！桐乡自动驾驶“宝宝巴士”升级亮相",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1jqbllc",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
     ]
   },
   {
@@ -22420,6 +24650,7 @@
       "src-3qb0gm",
       "src-ie856w",
       "src-ygm5d9",
+      "src-8go8rm",
       "src-xg0a4f"
     ],
     "facts": [
@@ -22445,6 +24676,13 @@
         "occurredAt": "2026-10-30"
       },
       {
+        "title": "中央网信办召开网信系统传达学习党的二十届五中全会精神视频会议",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "中央网信办召开网信系统传达学习党的二十届五中全会精神视频会议",
+        "occurredAt": "2026-10-30"
+      },
+      {
         "title": "生态环境部党组召开会议 传达学习贯彻党的二十届五中全会精神",
         "subject": "中国生态环境部新闻",
         "action": "发布",
@@ -22456,6 +24694,7 @@
       "mof-policy",
       "pbc-policy",
       "ndrc-news",
+      "cac-policy",
       "mee-china"
     ],
     "firstPublishedAt": "2026-10-30T00:00:00.000Z",
@@ -22478,9 +24717,14 @@
         "confidence": 0.653358607776565
       },
       {
+        "memberId": "src-8go8rm",
+        "relation": "SAME_STORY",
+        "confidence": 0.6304883249912805
+      },
+      {
         "memberId": "src-xg0a4f",
         "relation": "SAME_STORY",
-        "confidence": 0.7769677791040542
+        "confidence": 0.7356829380292481
       }
     ],
     "heat6hAgo": 0,
@@ -22492,6 +24736,7 @@
       "财政部政策发布",
       "中国人民银行公告",
       "国家发改委新闻动态",
+      "中央网信办政策与要闻",
       "中国生态环境部新闻"
     ]
   },
@@ -22862,7 +25107,8 @@
     "digest": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
     "latest": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
     "memberIds": [
-      "src-j73hpy"
+      "src-j73hpy",
+      "src-gedshc"
     ],
     "facts": [
       {
@@ -22871,10 +25117,18 @@
         "action": "发布",
         "object": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
         "occurredAt": "2026-10-30"
+      },
+      {
+        "title": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
+        "occurredAt": "2026-10-30"
       }
     ],
     "participants": [
-      "nea-news"
+      "nea-news",
+      "cac-policy"
     ],
     "firstPublishedAt": "2026-10-30T00:00:00.000Z",
     "latestPublishedAt": "2026-10-30T00:00:00.000Z",
@@ -22884,6 +25138,11 @@
         "memberId": "src-j73hpy",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-gedshc",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
       }
     ],
     "heat6hAgo": 0,
@@ -22892,7 +25151,8 @@
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
-      "国家能源局新闻动态"
+      "国家能源局新闻动态",
+      "中央网信办政策与要闻"
     ]
   },
   {
@@ -23173,6 +25433,246 @@
     "signalCount": 0,
     "sourceNames": [
       "上海市发展和改革委员会"
+    ]
+  },
+  {
+    "id": "story-3ckewy",
+    "rootId": "src-1gh85p5",
+    "title": "习近平同德国总统施泰因迈尔会谈",
+    "digest": "习近平同德国总统施泰因迈尔会谈",
+    "latest": "习近平同德国总统施泰因迈尔会谈",
+    "memberIds": [
+      "src-1gh85p5"
+    ],
+    "facts": [
+      {
+        "title": "习近平同德国总统施泰因迈尔会谈",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "习近平同德国总统施泰因迈尔会谈",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1gh85p5",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-szseyh",
+    "rootId": "src-10wjsrj",
+    "title": "习近平会见瑞士联邦主席帕姆兰",
+    "digest": "习近平会见瑞士联邦主席帕姆兰",
+    "latest": "习近平会见瑞士联邦主席帕姆兰",
+    "memberIds": [
+      "src-10wjsrj"
+    ],
+    "facts": [
+      {
+        "title": "习近平会见瑞士联邦主席帕姆兰",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "习近平会见瑞士联邦主席帕姆兰",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-10wjsrj",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-1xwuewy",
+    "rootId": "src-1lzxs2v",
+    "title": "国家互联网信息办公室关于发布第十九批深度合成服务算法备案信息的公告",
+    "digest": "国家互联网信息办公室关于发布第十九批深度合成服务算法备案信息的公告",
+    "latest": "国家互联网信息办公室关于发布第十九批深度合成服务算法备案信息的公告",
+    "memberIds": [
+      "src-1lzxs2v"
+    ],
+    "facts": [
+      {
+        "title": "国家互联网信息办公室关于发布第十九批深度合成服务算法备案信息",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "国家互联网信息办公室关于发布第十九批深度合成服务算法备案信息的公告",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1lzxs2v",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-fggrw3",
+    "rootId": "src-1jop8wh",
+    "title": "一图读懂｜2026乌镇峰会逛会全攻略",
+    "digest": "一图读懂｜2026乌镇峰会逛会全攻略",
+    "latest": "一图读懂｜2026乌镇峰会逛会全攻略",
+    "memberIds": [
+      "src-1jop8wh"
+    ],
+    "facts": [
+      {
+        "title": "一图读懂｜2026乌镇峰会逛会全攻略",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "一图读懂｜2026乌镇峰会逛会全攻略",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1jop8wh",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-1e4jpyu",
+    "rootId": "src-1p3dh1y",
+    "title": "向长征致敬｜一根根遗留的行军拐棍，为何在这里立起一座丰碑？",
+    "digest": "向长征致敬｜一根根遗留的行军拐棍，为何在这里立起一座丰碑？",
+    "latest": "向长征致敬｜一根根遗留的行军拐棍，为何在这里立起一座丰碑？",
+    "memberIds": [
+      "src-1p3dh1y"
+    ],
+    "facts": [
+      {
+        "title": "向长征致敬｜一根根遗留的行军拐棍，为何在这里立起一座丰碑？",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "向长征致敬｜一根根遗留的行军拐棍，为何在这里立起一座丰碑？",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1p3dh1y",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-1ajiiw3",
+    "rootId": "src-1j2wluv",
+    "title": "向长征致敬｜湘江战役中，敌人到了眼前，他为何把枪口转向自己",
+    "digest": "向长征致敬｜湘江战役中，敌人到了眼前，他为何把枪口转向自己",
+    "latest": "向长征致敬｜湘江战役中，敌人到了眼前，他为何把枪口转向自己",
+    "memberIds": [
+      "src-1j2wluv"
+    ],
+    "facts": [
+      {
+        "title": "向长征致敬｜湘江战役中，敌人到了眼前，他为何把枪口转向自己",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "向长征致敬｜湘江战役中，敌人到了眼前，他为何把枪口转向自己",
+        "occurredAt": "2026-10-30"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1j2wluv",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
     ]
   },
   {
@@ -23533,6 +26033,99 @@
     "signalCount": 0,
     "sourceNames": [
       "中国生态环境部新闻"
+    ]
+  },
+  {
+    "id": "story-1t0655e",
+    "rootId": "src-cnsflu",
+    "title": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
+    "digest": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
+    "latest": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+    "memberIds": [
+      "src-cnsflu",
+      "src-1mxajcn"
+    ],
+    "facts": [
+      {
+        "title": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
+        "occurredAt": "2026-11-01"
+      },
+      {
+        "title": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+        "occurredAt": "2026-11-01"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-11-01T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-01T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-cnsflu",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1mxajcn",
+        "relation": "SAME_STORY",
+        "confidence": 0.9013878188659974
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-2maf9s",
+    "rootId": "src-1jep1lp",
+    "title": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评",
+    "digest": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评",
+    "latest": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评",
+    "memberIds": [
+      "src-1jep1lp"
+    ],
+    "facts": [
+      {
+        "title": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评",
+        "occurredAt": "2026-11-01"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-11-01T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-01T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1jep1lp",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
     ]
   },
   {

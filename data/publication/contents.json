@@ -55,7 +55,7 @@
     "recommended": false,
     "recommendReason": "生态环境部一周要闻（10.25—10.31）。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -71,6 +71,123 @@
         "subject": "中国生态环境部新闻",
         "action": "发布",
         "object": "生态环境部一周要闻（10.25—10.31）",
+        "occurredAt": "2026-11-01"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-cnsflu",
+    "title": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
+    "summary": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-01T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-11/01/c_1795308908183011.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
+    "summaryZh": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
+    "recommended": false,
+    "recommendReason": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 10,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1t0655e",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
+        "occurredAt": "2026-11-01"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1mxajcn",
+    "title": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+    "summary": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-01T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-11/01/c_1795308908373679.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+    "summaryZh": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+    "recommended": false,
+    "recommendReason": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 18,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1t0655e",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+        "occurredAt": "2026-11-01"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1jep1lp",
+    "title": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评",
+    "summary": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-01T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-11/01/c_1795308902266568.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评",
+    "summaryZh": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评",
+    "recommended": false,
+    "recommendReason": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 8,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-2maf9s",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评",
         "occurredAt": "2026-11-01"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -94,7 +211,7 @@
     "esgTopic": "气候风险",
     "recommended": false,
     "pipeline": {
-      "score": 40,
+      "score": 42,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -119,8 +236,8 @@
   },
   {
     "id": "src-v8jzja",
-    "title": "生态环境部召开部常务会议",
-    "summary": "生态环境部召开部常务会议",
+    "title": "生态环境部召开部常务会议2026-10-31",
+    "summary": "生态环境部召开部常务会议2026-10-31",
     "contentType": "政策",
     "region": "中国",
     "publishedAt": "2026-10-31T00:00:00.000Z",
@@ -134,7 +251,7 @@
     "recommended": false,
     "recommendReason": "生态环境部召开部常务会议。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -158,8 +275,8 @@
   },
   {
     "id": "src-xg0a4f",
-    "title": "生态环境部党组召开会议 传达学习贯彻党的二十届五中全会精神",
-    "summary": "生态环境部党组召开会议 传达学习贯彻党的二十届五中全会精神",
+    "title": "生态环境部党组召开会议 传达学习贯彻党的二十届五中全会精神2026-10-31",
+    "summary": "生态环境部党组召开会议 传达学习贯彻党的二十届五中全会精神2026-10-31",
     "contentType": "政策",
     "region": "中国",
     "publishedAt": "2026-10-31T00:00:00.000Z",
@@ -212,7 +329,7 @@
     "recommended": false,
     "recommendReason": "生态环境部出席《生物多样性公约》第十七次缔约方大会高级别会议等活动。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -251,7 +368,7 @@
     "recommended": false,
     "recommendReason": "绿色建筑材料制造商Fortera和科技巨头Meta今天宣布达成一项为期多年的协议。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 32,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -290,7 +407,7 @@
     "recommended": false,
     "recommendReason": "全球另类资产管理公司TPG宣布其以气候为重点的战略最终收盘。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 44,
+      "score": 48,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -329,7 +446,7 @@
     "recommended": false,
     "recommendReason": "在向法院支付1.469亿$后。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 45,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -368,7 +485,7 @@
     "recommended": false,
     "recommendReason": "证监会欢迎委任流程审核小组成员。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 11,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -407,7 +524,7 @@
     "recommended": false,
     "recommendReason": "Kelvin Wong的新演讲：在香港证券交易所成立47周年金融创新论坛上的主旨演讲。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -446,7 +563,7 @@
     "esgTopic": "气候风险",
     "recommended": false,
     "pipeline": {
-      "score": 38,
+      "score": 58,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -486,7 +603,7 @@
     "esgTopic": "气候风险",
     "recommended": false,
     "pipeline": {
-      "score": 58,
+      "score": 67,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -526,7 +643,7 @@
     "esgTopic": "合规与监管",
     "recommended": false,
     "pipeline": {
-      "score": 21,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -566,7 +683,7 @@
     "esgTopic": "温室气体排放",
     "recommended": false,
     "pipeline": {
-      "score": 18,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -646,7 +763,7 @@
     "esgTopic": "气候风险",
     "recommended": false,
     "pipeline": {
-      "score": 22,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -686,7 +803,7 @@
     "esgTopic": "气候风险",
     "recommended": false,
     "pipeline": {
-      "score": 38,
+      "score": 33,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -726,7 +843,7 @@
     "esgTopic": "气候风险",
     "recommended": false,
     "pipeline": {
-      "score": 21,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -766,7 +883,7 @@
     "esgTopic": "气候风险",
     "recommended": false,
     "pipeline": {
-      "score": 30,
+      "score": 31,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -806,7 +923,7 @@
     "esgTopic": "温室气体排放",
     "recommended": false,
     "pipeline": {
-      "score": 58,
+      "score": 50,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -846,7 +963,7 @@
     "esgTopic": "温室气体排放",
     "recommended": false,
     "pipeline": {
-      "score": 33,
+      "score": 36,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -925,7 +1042,7 @@
     "recommended": false,
     "recommendReason": "财政部云南监管局：立足属地监管职能抓实财政金融监管激活云岭大地消费动能。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -964,7 +1081,7 @@
     "recommended": false,
     "recommendReason": "财政部宁波监管局：抓重点 强主业 夯基础 助力财政科学管理提质增效。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1003,7 +1120,7 @@
     "recommended": false,
     "recommendReason": "财政部江苏监管局：“三个强化”提升地方财政运行分析评估工作质效。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1042,7 +1159,7 @@
     "recommended": false,
     "recommendReason": "财政部吉林监管局：“四维发力”强化地方财政运行分析调研。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1120,7 +1237,7 @@
     "recommended": false,
     "recommendReason": "甘肃证监局组织开展“2026年世界投资者周”宣传活动。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1198,7 +1315,7 @@
     "recommended": false,
     "recommendReason": "内蒙古辖区资本市场月度统计（2026年6月）。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1237,7 +1354,7 @@
     "recommended": false,
     "recommendReason": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-10-30。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 4,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1276,7 +1393,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行党委召开会议 传达学习党的二十届五中全会精神。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 9,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1315,7 +1432,7 @@
     "recommended": false,
     "recommendReason": "中南（非）两国央行续签双边本币互换协议。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 26,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1354,7 +1471,7 @@
     "recommended": false,
     "recommendReason": "中共国家发展改革委党组召开扩大会议传达学习贯彻党的二十届五中全会精神。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1393,7 +1510,7 @@
     "recommended": false,
     "recommendReason": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1432,7 +1549,7 @@
     "recommended": false,
     "recommendReason": "我国风光累计装机容量突破20亿千瓦。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1471,7 +1588,7 @@
     "recommended": false,
     "recommendReason": "绿色燃料商业化进程提速。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1510,7 +1627,7 @@
     "recommended": false,
     "recommendReason": "前三季度新疆外送电量超1300亿千瓦时。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1549,7 +1666,7 @@
     "recommended": false,
     "recommendReason": "全国最大海上光伏项目并网发电超百万千瓦。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 31,
+      "score": 40,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1586,9 +1703,9 @@
     "titleZh": "让煤电与新能源“融”起来",
     "summaryZh": "让煤电与新能源“融”起来",
     "recommended": false,
-    "recommendReason": "让煤电与新能源“融”起来。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "让煤电与新能源“融”起来。信息价值较高，涉及合规与监管的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1627,7 +1744,7 @@
     "recommended": false,
     "recommendReason": "上海市汽车置换更新补贴政策（新能源）补充名单公示。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1666,7 +1783,7 @@
     "recommended": false,
     "recommendReason": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 58,
+      "score": 45,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1682,6 +1799,357 @@
         "subject": "上海市发展和改革委员会",
         "action": "发布",
         "object": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
+        "occurredAt": "2026-10-30"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1gh85p5",
+    "title": "习近平同德国总统施泰因迈尔会谈",
+    "summary": "习近平同德国总统施泰因迈尔会谈",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/30/c_1795114324778266.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "习近平同德国总统施泰因迈尔会谈",
+    "summaryZh": "习近平同德国总统施泰因迈尔会谈",
+    "recommended": false,
+    "recommendReason": "习近平同德国总统施泰因迈尔会谈。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 10,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-3ckewy",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "习近平同德国总统施泰因迈尔会谈",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "习近平同德国总统施泰因迈尔会谈",
+        "occurredAt": "2026-10-30"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-10wjsrj",
+    "title": "习近平会见瑞士联邦主席帕姆兰",
+    "summary": "习近平会见瑞士联邦主席帕姆兰",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/30/c_1795114324650395.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "习近平会见瑞士联邦主席帕姆兰",
+    "summaryZh": "习近平会见瑞士联邦主席帕姆兰",
+    "recommended": false,
+    "recommendReason": "习近平会见瑞士联邦主席帕姆兰。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 8,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-szseyh",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "习近平会见瑞士联邦主席帕姆兰",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "习近平会见瑞士联邦主席帕姆兰",
+        "occurredAt": "2026-10-30"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-gedshc",
+    "title": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
+    "summary": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/30/c_1795113257323953.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
+    "summaryZh": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
+    "recommended": false,
+    "recommendReason": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 10,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-c0n8gr",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
+        "occurredAt": "2026-10-30"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-8go8rm",
+    "title": "中央网信办召开网信系统传达学习党的二十届五中全会精神视频会议",
+    "summary": "中央网信办召开网信系统传达学习党的二十届五中全会精神视频会议",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/30/c_1795114315653856.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "中央网信办召开网信系统传达学习党的二十届五中全会精神视频会议",
+    "summaryZh": "中央网信办召开网信系统传达学习党的二十届五中全会精神视频会议",
+    "recommended": false,
+    "recommendReason": "中央网信办召开网信系统传达学习党的二十届五中全会精神视频会议。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 8,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-18eeqhg",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "中央网信办召开网信系统传达学习党的二十届五中全会精神视频会议",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "中央网信办召开网信系统传达学习党的二十届五中全会精神视频会议",
+        "occurredAt": "2026-10-30"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1lzxs2v",
+    "title": "国家互联网信息办公室关于发布第十九批深度合成服务算法备案信息的公告",
+    "summary": "国家互联网信息办公室关于发布第十九批深度合成服务算法备案信息的公告",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/30/c_1795114304542687.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "国家互联网信息办公室关于发布第十九批深度合成服务算法备案信息的公告",
+    "summaryZh": "国家互联网信息办公室关于发布第十九批深度合成服务算法备案信息的公告",
+    "recommended": false,
+    "recommendReason": "国家互联网信息办公室关于发布第十九批深度合成服务算法备案信息的公告。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 23,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1xwuewy",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "国家互联网信息办公室关于发布第十九批深度合成服务算法备案信息",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "国家互联网信息办公室关于发布第十九批深度合成服务算法备案信息的公告",
+        "occurredAt": "2026-10-30"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1g09ung",
+    "title": "“我将无我，不负人民”的时代答卷",
+    "summary": "“我将无我",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/30/c_1795113235892530.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "“我将无我，不负人民”的时代答卷",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "“我将无我，不负人民”的时代答卷。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 5,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-rcaah3",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "“我将无我，不负人民”的时代答卷",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "“我将无我，不负人民”的时代答卷",
+        "occurredAt": "2026-10-30"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1jop8wh",
+    "title": "一图读懂｜2026乌镇峰会逛会全攻略",
+    "summary": "一图读懂｜2026乌镇峰会逛会全攻略",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/30/c_1795113237743484.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "一图读懂｜2026乌镇峰会逛会全攻略",
+    "summaryZh": "一图读懂｜2026乌镇峰会逛会全攻略",
+    "recommended": false,
+    "recommendReason": "一图读懂｜2026乌镇峰会逛会全攻略。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 2,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-fggrw3",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "一图读懂｜2026乌镇峰会逛会全攻略",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "一图读懂｜2026乌镇峰会逛会全攻略",
+        "occurredAt": "2026-10-30"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1p3dh1y",
+    "title": "向长征致敬｜一根根遗留的行军拐棍，为何在这里立起一座丰碑？",
+    "summary": "向长征致敬｜一根根遗留的行军拐棍，为何在这里立起一座丰碑？",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/30/c_1795113237003172.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "向长征致敬｜一根根遗留的行军拐棍，为何在这里立起一座丰碑？",
+    "summaryZh": "向长征致敬｜一根根遗留的行军拐棍，为何在这里立起一座丰碑？",
+    "recommended": false,
+    "recommendReason": "向长征致敬｜一根根遗留的行军拐棍，为何在这里立起一座丰碑？。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 6,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1e4jpyu",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "向长征致敬｜一根根遗留的行军拐棍，为何在这里立起一座丰碑？",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "向长征致敬｜一根根遗留的行军拐棍，为何在这里立起一座丰碑？",
+        "occurredAt": "2026-10-30"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1j2wluv",
+    "title": "向长征致敬｜湘江战役中，敌人到了眼前，他为何把枪口转向自己",
+    "summary": "向长征致敬｜湘江战役中，敌人到了眼前",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/30/c_1795113236292802.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "向长征致敬｜湘江战役中，敌人到了眼前，他为何把枪口转向自己",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "向长征致敬｜湘江战役中，敌人到了眼前，他为何把枪口转向自己。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 3,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1ajiiw3",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "向长征致敬｜湘江战役中，敌人到了眼前，他为何把枪口转向自己",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "向长征致敬｜湘江战役中，敌人到了眼前，他为何把枪口转向自己",
         "occurredAt": "2026-10-30"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1705,7 +2173,7 @@
     "recommended": false,
     "recommendReason": "行业领导者可以通过集中精力，扩大规模以满足激增的数据中心电力需求，并将人工智能和持续改进发挥作用，将颠覆性转化为增长。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 16,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -1744,7 +2212,7 @@
     "recommended": false,
     "recommendReason": "仔细研究亚洲成功的创始人兼首席执行官揭示了他们如何在不牺牲企业家精神的情况下扩展业务。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -1783,7 +2251,7 @@
     "recommended": false,
     "recommendReason": "随着人工智能的采用，巨大的价值正在被抛在后面。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -1822,7 +2290,7 @@
     "recommended": false,
     "recommendReason": "解决停滞不前的开发生产力需要敏锐的决策。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -1861,7 +2329,7 @@
     "recommended": false,
     "recommendReason": "人工智能代理可以从根本上改变保险分配的经济学。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 14,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -1900,7 +2368,7 @@
     "recommended": false,
     "recommendReason": "这位指导迈克尔·菲尔普斯（Michael Phelps）获得23枚奥运金牌的教练解释了为什么一致性胜过动力，以及领导者可以从他建立冠军球队的方式中借鉴什么。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 0,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -1939,7 +2407,7 @@
     "recommended": false,
     "recommendReason": "麦肯锡在战略和企业融资领域的三位专家探讨了支撑所有成功价值创造战略的四项基本原则。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -1978,7 +2446,7 @@
     "recommended": false,
     "recommendReason": "可持续发展数据和分析公司Clarity AI宣布推出过渡可信度评估。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 31,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2017,7 +2485,7 @@
     "recommended": false,
     "recommendReason": "跨国化学品公司杜邦宣布了一系列新的减排目标。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 42,
+      "score": 32,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2056,7 +2524,7 @@
     "recommended": false,
     "recommendReason": "CRM解决方案提供商Salesforce宣布已与农业甲烷签署新协议。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 28,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2095,7 +2563,7 @@
     "recommended": false,
     "recommendReason": "超过五分之四的机构投资者希望增加对可持续投资的配置。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 32,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2277,8 +2745,8 @@
   },
   {
     "id": "src-1bzuzc9",
-    "title": "生态环境部部长黄润秋出席2026年联合国中国青少年环境大会",
-    "summary": "生态环境部部长黄润秋出席2026年联合国中国青少年环境大会",
+    "title": "生态环境部部长黄润秋出席2026年联合国中国青少年环境大会2026-10-29",
+    "summary": "生态环境部部长黄润秋出席2026年联合国中国青少年环境大会2026-10-29",
     "contentType": "政策",
     "region": "中国",
     "publishedAt": "2026-10-29T00:00:00.000Z",
@@ -2292,7 +2760,7 @@
     "recommended": false,
     "recommendReason": "生态环境部部长黄润秋出席2026年联合国中国青少年环境大会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2316,8 +2784,8 @@
   },
   {
     "id": "src-1341bim",
-    "title": "生态环境部部长黄润秋出席香港第二十一届国际环保博览会",
-    "summary": "生态环境部部长黄润秋出席香港第二十一届国际环保博览会",
+    "title": "生态环境部部长黄润秋出席香港第二十一届国际环保博览会2026-10-29",
+    "summary": "生态环境部部长黄润秋出席香港第二十一届国际环保博览会2026-10-29",
     "contentType": "政策",
     "region": "中国",
     "publishedAt": "2026-10-29T00:00:00.000Z",
@@ -2331,7 +2799,7 @@
     "recommended": false,
     "recommendReason": "生态环境部部长黄润秋出席香港第二十一届国际环保博览会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2370,7 +2838,7 @@
     "recommended": false,
     "recommendReason": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 3,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2409,7 +2877,7 @@
     "recommended": false,
     "recommendReason": "中智（利）两国央行续签双边本币互换协议。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2446,9 +2914,9 @@
     "titleZh": "2026年10月29日国家再次实施调控，成品油价格适当调整",
     "summaryZh": "",
     "recommended": false,
-    "recommendReason": "2026年10月29日国家再次实施调控，成品油价格适当调整。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "2026年10月29日国家再次实施调控。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2487,7 +2955,7 @@
     "recommended": false,
     "recommendReason": "上海市发展和改革委员会关于车用汽、柴油价格的通知（2026年10月29日）。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 7,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2526,7 +2994,7 @@
     "recommended": false,
     "recommendReason": "上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 45,
+      "score": 40,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2565,7 +3033,7 @@
     "recommended": false,
     "recommendReason": "【图解】上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2581,6 +3049,396 @@
         "subject": "上海市发展和改革委员会",
         "action": "发布",
         "object": "【图解】上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1b56e8g",
+    "title": "蓝佛安会见世界银行常务副行长兼首席行政官张文才",
+    "summary": "蓝佛安会见世界银行常务副行长兼首席行政官张文才",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "财政部政策发布",
+    "sourceUrl": "https://www.mof.gov.cn/zhengwuxinxi/",
+    "articleUrl": "https://www.mof.gov.cn/zhengwuxinxi/tupianxinwen1/202610/t20261029_4003703.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "蓝佛安会见世界银行常务副行长兼首席行政官张文才",
+    "summaryZh": "蓝佛安会见世界银行常务副行长兼首席行政官张文才",
+    "recommended": false,
+    "recommendReason": "蓝佛安会见世界银行常务副行长兼首席行政官张文才。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 10,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1i2fova",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "蓝佛安会见世界银行常务副行长兼首席行政官张文才",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "蓝佛安会见世界银行常务副行长兼首席行政官张文才",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1jj7uf5",
+    "title": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
+    "summary": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "财政部政策发布",
+    "sourceUrl": "https://www.mof.gov.cn/zhengwuxinxi/",
+    "articleUrl": "https://www.mof.gov.cn/zhengwuxinxi/tupianxinwen1/202610/t20261029_4003720.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
+    "summaryZh": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
+    "recommended": false,
+    "recommendReason": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 3,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-x2zd9w",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-iq3766",
+    "title": "强创新 破壁垒 增动能",
+    "summary": "强创新 破壁垒 增动能",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/xw/jxyw/202610/t20261029_7242036.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "强创新 破壁垒 增动能",
+    "summaryZh": "强创新 破壁垒 增动能",
+    "recommended": false,
+    "recommendReason": "强创新 破壁垒 增动能。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 5,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-tt1gzc",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "强创新 破壁垒 增动能",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "强创新 破壁垒 增动能",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-jzx67o",
+    "title": "福建省工业和信息化厅关于公布2026年第三批省工业重点节能改造和通用设备更新提标项目的通知",
+    "summary": "福建省工业和信息化厅关于公布2026年第三批省工业重点节能改造和通用设备更新提标项目的通知",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/zfxxgk/fdzdgknr/gzdt/202610/t20261029_7241993.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "福建省工业和信息化厅关于公布2026年第三批省工业重点节能改造和通用设备更新提标项目的通知",
+    "summaryZh": "福建省工业和信息化厅关于公布2026年第三批省工业重点节能改造和通用设备更新提标项目的通知",
+    "recommended": false,
+    "recommendReason": "福建省工业和信息化厅关于公布2026年第三批省工业重点节能改造和通用设备更新提标项目的通知。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 31,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-45rh20",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "福建省工业和信息化厅关于公布2026年第三批省工业重点节能改",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "福建省工业和信息化厅关于公布2026年第三批省工业重点节能改造和通用设备更新提标项目的通知",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1v4n8eb",
+    "title": "福建省工业和信息化厅关于组织征集2026年度中国消费名品的通知",
+    "summary": "福建省工业和信息化厅关于组织征集2026年度中国消费名品的通知",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/zfxxgk/fdzdgknr/gzdt/202610/t20261029_7241943.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "福建省工业和信息化厅关于组织征集2026年度中国消费名品的通知",
+    "summaryZh": "福建省工业和信息化厅关于组织征集2026年度中国消费名品的通知",
+    "recommended": false,
+    "recommendReason": "福建省工业和信息化厅关于组织征集2026年度中国消费名品的通知。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 20,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-lz6h0w",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "福建省工业和信息化厅关于组织征集2026年度中国消费名品的通",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "福建省工业和信息化厅关于组织征集2026年度中国消费名品的通知",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1vi486c",
+    "title": "习近平就西班牙高速列车追尾脱轨事故向西班牙国王费利佩六世致慰问电",
+    "summary": "习近平就西班牙高速列车追尾脱轨事故向西班牙国王费利佩六世致慰问电",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/29/c_1795027529114038.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "习近平就西班牙高速列车追尾脱轨事故向西班牙国王费利佩六世致慰问电",
+    "summaryZh": "习近平就西班牙高速列车追尾脱轨事故向西班牙国王费利佩六世致慰问电",
+    "recommended": false,
+    "recommendReason": "习近平就西班牙高速列车追尾脱轨事故向西班牙国王费利佩六世致慰问电。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 5,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-3vl13v",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "习近平就西班牙高速列车追尾脱轨事故向西班牙国王费利佩六世致慰",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "习近平就西班牙高速列车追尾脱轨事故向西班牙国王费利佩六世致慰问电",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1aw7b8o",
+    "title": "杨建文出席中国—阿拉伯国家网络安全研修班结业式",
+    "summary": "杨建文出席中国—阿拉伯国家网络安全研修班结业式",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/29/c_1795027526532305.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "杨建文出席中国—阿拉伯国家网络安全研修班结业式",
+    "summaryZh": "杨建文出席中国—阿拉伯国家网络安全研修班结业式",
+    "recommended": false,
+    "recommendReason": "杨建文出席中国—阿拉伯国家网络安全研修班结业式。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 4,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-5ushad",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "杨建文出席中国—阿拉伯国家网络安全研修班结业式",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "杨建文出席中国—阿拉伯国家网络安全研修班结业式",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-6unj6l",
+    "title": "国家互联网信息办公室关于发布第二十五批境内区块链信息服务备案编号的公告",
+    "summary": "国家互联网信息办公室关于发布第二十五批境内区块链信息服务备案编号的公告",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/29/c_1795027496346051.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "国家互联网信息办公室关于发布第二十五批境内区块链信息服务备案编号的公告",
+    "summaryZh": "国家互联网信息办公室关于发布第二十五批境内区块链信息服务备案编号的公告",
+    "recommended": false,
+    "recommendReason": "国家互联网信息办公室关于发布第二十五批境内区块链信息服务备案编号的公告。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 22,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-10i1aml",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "国家互联网信息办公室关于发布第二十五批境内区块链信息服务备案",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "国家互联网信息办公室关于发布第二十五批境内区块链信息服务备案编号的公告",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-4ibizq",
+    "title": "视频丨算力网加速织就 八大枢纽各展所长",
+    "summary": "视频丨算力网加速织就 八大枢纽各展所长",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/29/c_1795030509973521.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "视频丨算力网加速织就 八大枢纽各展所长",
+    "summaryZh": "视频丨算力网加速织就 八大枢纽各展所长",
+    "recommended": false,
+    "recommendReason": "视频丨算力网加速织就 八大枢纽各展所长。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 8,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-13lk34l",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "视频丨算力网加速织就 八大枢纽各展所长",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "视频丨算力网加速织就 八大枢纽各展所长",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1jqbllc",
+    "title": "乌镇峰会黑科技！桐乡自动驾驶“宝宝巴士”升级亮相",
+    "summary": "乌镇峰会黑科技！",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/29/c_1795027516425277.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "乌镇峰会黑科技！桐乡自动驾驶“宝宝巴士”升级亮相",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "乌镇峰会黑科技！桐乡自动驾驶“宝宝巴士”升级亮相。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 8,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-c1hf4f",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "乌镇峰会黑科技！桐乡自动驾驶“宝宝巴士”升级亮相",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "乌镇峰会黑科技！桐乡自动驾驶“宝宝巴士”升级亮相",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -2604,7 +3462,7 @@
     "recommended": false,
     "recommendReason": "随着能源价格飙升推动通胀，各国央行开始收紧利率政策。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2643,7 +3501,7 @@
     "recommended": false,
     "recommendReason": "FICO首席执行官威尔·兰辛（Will Lansing）表示，强大的所有权文化，而不是更智能的计算方法，将使数据分析公司在人工智能时代与竞争对手区分开来。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2682,7 +3540,7 @@
     "recommended": false,
     "recommendReason": "银行越来越多地在不良信用管理中部署人工智能。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2721,7 +3579,7 @@
     "recommended": false,
     "recommendReason": "欧盟可持续金融平台（PSF）。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 65,
+      "score": 60,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2916,7 +3774,7 @@
     "recommended": false,
     "recommendReason": "证监会发布指引。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 42,
+      "score": 50,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -3033,7 +3891,7 @@
     "recommended": false,
     "recommendReason": "证监会欢迎在综合基金平台上推出平台及代名人服务。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -3072,7 +3930,7 @@
     "recommended": false,
     "recommendReason": "香港交易所推出平台及代名人服务。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 21,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -3111,7 +3969,7 @@
     "recommended": false,
     "recommendReason": "2026年三季度金融机构贷款投向统计报告。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 14,
+      "score": 16,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -3147,12 +4005,12 @@
     "esgTopic": "合规与监管",
     "titleZh": "关于同意南方区域电力市场转入正式运行的复函",
     "summaryZh": "关于同意南方区域电力市场转入正式运行的复函",
-    "recommended": true,
+    "recommended": false,
     "recommendReason": "关于同意南方区域电力市场转入正式运行的复函。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 80,
+      "score": 60,
       "scoreThreshold": 75,
-      "scorePass": true,
+      "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-z284b1",
       "heat": 0,
@@ -3166,6 +4024,318 @@
         "subject": "国家发改委新闻动态",
         "action": "发布",
         "object": "关于同意南方区域电力市场转入正式运行的复函",
+        "occurredAt": "2026-10-28"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-4ini55",
+    "title": "“我将无我，不负人民”的时代答卷",
+    "summary": "“我将无我",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/gnllm/tt/202610/t20261028_7241677.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "“我将无我，不负人民”的时代答卷",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "“我将无我，不负人民”的时代答卷。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 5,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-rcaah3",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "“我将无我，不负人民”的时代答卷",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "“我将无我，不负人民”的时代答卷",
+        "occurredAt": "2026-10-28"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1tmxprl",
+    "title": "千亿汽车城如何炼成？",
+    "summary": "千亿汽车城如何炼成？",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/xw/jxyw/202610/t20261028_7241678.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "千亿汽车城如何炼成？",
+    "summaryZh": "千亿汽车城如何炼成？",
+    "recommended": false,
+    "recommendReason": "千亿汽车城如何炼成？。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 8,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-dhrvl5",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "千亿汽车城如何炼成？",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "千亿汽车城如何炼成？",
+        "occurredAt": "2026-10-28"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1n9p1vx",
+    "title": "“我将无我，不负人民”的时代答卷",
+    "summary": "“我将无我",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/xw/gjdt/202610/t20261028_7241677.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "“我将无我，不负人民”的时代答卷",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "“我将无我，不负人民”的时代答卷。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 6,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-rcaah3",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "“我将无我，不负人民”的时代答卷",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "“我将无我，不负人民”的时代答卷",
+        "occurredAt": "2026-10-28"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-9r72s0",
+    "title": "不断实现党的自我净化、自我完善、自我革新、自我提高——习近平党建思想引领新时代全面从严治党系列述评之三",
+    "summary": "不断实现党的自我净化、自我完善、自我革新、自我提高——习近平党建思想引领新时代全面从严治党系列述评之三",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/xw/gjdt/202610/t20261028_7241672.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "不断实现党的自我净化、自我完善、自我革新、自我提高——习近平党建思想引领新时代全面从严治党系列述评之三",
+    "summaryZh": "不断实现党的自我净化、自我完善、自我革新、自我提高——习近平党建思想引领新时代全面从严治党系列述评之三",
+    "recommended": false,
+    "recommendReason": "不断实现党的自我净化、自我完善、自我革新、自我提高——习近平党建思想引领新时代全面从严治党系列述评之三。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 5,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-lhkqgh",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "不断实现党的自我净化、自我完善、自我革新、自我提高——习近平",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "不断实现党的自我净化、自我完善、自我革新、自我提高——习近平党建思想引领新时代全面从严治党系列述评之三",
+        "occurredAt": "2026-10-28"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-12jozqb",
+    "title": "习近平向日本前首相福田康夫遗属致唁电",
+    "summary": "习近平向日本前首相福田康夫遗属致唁电",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/xw/gjdt/202610/t20261028_7241671.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "习近平向日本前首相福田康夫遗属致唁电",
+    "summaryZh": "习近平向日本前首相福田康夫遗属致唁电",
+    "recommended": false,
+    "recommendReason": "习近平向日本前首相福田康夫遗属致唁电。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 3,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-10zu9qs",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "习近平向日本前首相福田康夫遗属致唁电",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "习近平向日本前首相福田康夫遗属致唁电",
+        "occurredAt": "2026-10-28"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-18lhws2",
+    "title": "习近平致电祝贺卢拉当选连任巴西总统",
+    "summary": "习近平致电祝贺卢拉当选连任巴西总统",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/xw/gjdt/202610/t20261028_7241670.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "习近平致电祝贺卢拉当选连任巴西总统",
+    "summaryZh": "习近平致电祝贺卢拉当选连任巴西总统",
+    "recommended": false,
+    "recommendReason": "习近平致电祝贺卢拉当选连任巴西总统。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 3,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-wt7l3u",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "习近平致电祝贺卢拉当选连任巴西总统",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "习近平致电祝贺卢拉当选连任巴西总统",
+        "occurredAt": "2026-10-28"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1t0lkmt",
+    "title": "福建省工业和信息化厅关于公布2026年省级工业领域重点用能企业能效“领跑者”（第一批）名单的通知",
+    "summary": "福建省工业和信息化厅关于公布2026年省级工业领域重点用能企业能效“领跑者”（第一批）名单的通知",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/zfxxgk/fdzdgknr/gzdt/202610/t20261028_7241622.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "福建省工业和信息化厅关于公布2026年省级工业领域重点用能企业能效“领跑者”（第一批）名单的通知",
+    "summaryZh": "福建省工业和信息化厅关于公布2026年省级工业领域重点用能企业能效“领跑者”（第一批）名单的通知",
+    "recommended": false,
+    "recommendReason": "福建省工业和信息化厅关于公布2026年省级工业领域重点用能企业能效“领跑者”（第一批）名单的通知。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 33,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-o5ta2y",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "福建省工业和信息化厅关于公布2026年省级工业领域重点用能企",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "福建省工业和信息化厅关于公布2026年省级工业领域重点用能企业能效“领跑者”（第一批）名单的通知",
+        "occurredAt": "2026-10-28"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-2fdcsd",
+    "title": "思想如炬，照亮新的赶考路——习近平党建思想书写马克思主义建党学说中国化时代化新篇章",
+    "summary": "思想如炬，照亮新的赶考路——习近平党建思想书写马克思主义建党学说中国化时代化新篇章",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/28/c_1794941697910419.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "思想如炬，照亮新的赶考路——习近平党建思想书写马克思主义建党学说中国化时代化新篇章",
+    "summaryZh": "思想如炬，照亮新的赶考路——习近平党建思想书写马克思主义建党学说中国化时代化新篇章",
+    "recommended": false,
+    "recommendReason": "思想如炬，照亮新的赶考路——习近平党建思想书写马克思主义建党学说中国化时代化新篇章。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 2,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-23kaal",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "思想如炬，照亮新的赶考路——习近平党建思想书写马克思主义建党",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "思想如炬，照亮新的赶考路——习近平党建思想书写马克思主义建党学说中国化时代化新篇章",
         "occurredAt": "2026-10-28"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -3228,7 +4398,7 @@
     "recommended": false,
     "recommendReason": "随着越来越多的采购职能部门投资于代理人工智能，以节省成本并提高效率，问题越来越多：值得吗？。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 17,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -3267,7 +4437,7 @@
     "recommended": false,
     "recommendReason": "对约21,000名消费者的分析表明，人工智能购物行为是如何增长和发展的，早期的证据表明，公司还没有做好满足不断增长的需求的准备。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -3306,7 +4476,7 @@
     "recommended": false,
     "recommendReason": "从实时结算到代理AI的颠覆性力量正在改变证券服务行业的动态。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -3502,7 +4672,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行公告﹝2026﹞第28号。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -3541,7 +4711,7 @@
     "recommended": false,
     "recommendReason": "周海兵副主任会见法国财政总署署长杜蒙。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -3580,7 +4750,7 @@
     "recommended": false,
     "recommendReason": "周海兵副主任会见法国财政总署署长杜蒙。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 17,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -3596,6 +4766,357 @@
         "subject": "国家发改委新闻动态",
         "action": "发布",
         "object": "周海兵副主任会见法国财政总署署长杜蒙",
+        "occurredAt": "2026-10-27"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-qcmegb",
+    "title": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
+    "summary": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/gnllm/tt/202610/t20261027_7241062.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
+    "summaryZh": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
+    "recommended": false,
+    "recommendReason": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 17,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-kuhau3",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
+        "occurredAt": "2026-10-27"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1wznj5",
+    "title": "坚持党的全面领导，不断提高党的长期执政能力——习近平党建思想引领新时代全面从严治党系列述评之一",
+    "summary": "坚持党的全面领导，不断提高党的长期执政能力——习近平党建思想引领新时代全面从严治党系列述评之一",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/xw/gjdt/202610/t20261027_7241073.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "坚持党的全面领导，不断提高党的长期执政能力——习近平党建思想引领新时代全面从严治党系列述评之一",
+    "summaryZh": "坚持党的全面领导，不断提高党的长期执政能力——习近平党建思想引领新时代全面从严治党系列述评之一",
+    "recommended": false,
+    "recommendReason": "坚持党的全面领导，不断提高党的长期执政能力——习近平党建思想引领新时代全面从严治党系列述评之一。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 3,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-lhkqgh",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "坚持党的全面领导，不断提高党的长期执政能力——习近平党建思想",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "坚持党的全面领导，不断提高党的长期执政能力——习近平党建思想引领新时代全面从严治党系列述评之一",
+        "occurredAt": "2026-10-27"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-o7jrlr",
+    "title": "福建省工业和信息化厅等八部门关于公布通过复核化工园区名单（第二批）的通知",
+    "summary": "福建省工业和信息化厅等八部门关于公布通过复核化工园区名单（第二批）的通知",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/zfxxgk/fdzdgknr/gzdt/202610/t20261027_7240922.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "福建省工业和信息化厅等八部门关于公布通过复核化工园区名单（第二批）的通知",
+    "summaryZh": "福建省工业和信息化厅等八部门关于公布通过复核化工园区名单（第二批）的通知",
+    "recommended": false,
+    "recommendReason": "福建省工业和信息化厅等八部门关于公布通过复核化工园区名单（第二批）的通知。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 20,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-10zeog6",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "福建省工业和信息化厅等八部门关于公布通过复核化工园区名单（第",
+        "subject": "福建省工业和信息化厅",
+        "action": "通过",
+        "object": "福建省工业和信息化厅等八部门关于公布通过复核化工园区名单（第二批）的通知",
+        "occurredAt": "2026-10-27"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-jkbjds",
+    "title": "福建省工业和信息化厅等八部门关于印发《福建省医药储备管理办法（2026年修订）》的通知",
+    "summary": "福建省工业和信息化厅等八部门关于印发《福建省医药储备管理办法（2026年修订）》的通知",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/zfxxgk/fdzdgknr/gfxwj/202610/t20261027_7240906.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "福建省工业和信息化厅等八部门关于印发《福建省医药储备管理办法（2026年修订）》的通知",
+    "summaryZh": "福建省工业和信息化厅等八部门关于印发《福建省医药储备管理办法（2026年修订）》的通知",
+    "recommended": false,
+    "recommendReason": "福建省工业和信息化厅等八部门关于印发《福建省医药储备管理办法（2026年修订）》的通知。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 38,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-ge4afc",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "福建省工业和信息化厅等八部门关于印发《福建省医药储备管理办法",
+        "subject": "福建省工业和信息化厅",
+        "action": "修订",
+        "object": "福建省工业和信息化厅等八部门关于印发《福建省医药储备管理办法（2026年修订）》的通知",
+        "occurredAt": "2026-10-27"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-x7jktb",
+    "title": "福建省工业和信息化厅关于取消部分企业省级专精特新中小企业认定的通知",
+    "summary": "福建省工业和信息化厅关于取消部分企业省级专精特新中小企业认定的通知",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/zfxxgk/fdzdgknr/gzdt/202610/t20261027_7240904.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "福建省工业和信息化厅关于取消部分企业省级专精特新中小企业认定的通知",
+    "summaryZh": "福建省工业和信息化厅关于取消部分企业省级专精特新中小企业认定的通知",
+    "recommended": false,
+    "recommendReason": "福建省工业和信息化厅关于取消部分企业省级专精特新中小企业认定的通知。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 20,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-10mxyw6",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "福建省工业和信息化厅关于取消部分企业省级专精特新中小企业认定",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "福建省工业和信息化厅关于取消部分企业省级专精特新中小企业认定的通知",
+        "occurredAt": "2026-10-27"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1504sjh",
+    "title": "福建省工业和信息化厅关于公布福建福旅先行智慧科技有限公司等964家创新型中小企业名单的通知",
+    "summary": "福建省工业和信息化厅关于公布福建福旅先行智慧科技有限公司等964家创新型中小企业名单的通知",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/zfxxgk/fdzdgknr/gzdt/202610/t20261027_7240902.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "福建省工业和信息化厅关于公布福建福旅先行智慧科技有限公司等964家创新型中小企业名单的通知",
+    "summaryZh": "福建省工业和信息化厅关于公布福建福旅先行智慧科技有限公司等964家创新型中小企业名单的通知",
+    "recommended": false,
+    "recommendReason": "福建省工业和信息化厅关于公布福建福旅先行智慧科技有限公司等964家创新型中小企业名单的通知。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 18,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-141h1jt",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "福建省工业和信息化厅关于公布福建福旅先行智慧科技有限公司等9",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "福建省工业和信息化厅关于公布福建福旅先行智慧科技有限公司等964家创新型中小企业名单的通知",
+        "occurredAt": "2026-10-27"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1er1v9n",
+    "title": "习近平致电祝贺卢拉当选连任巴西总统",
+    "summary": "习近平致电祝贺卢拉当选连任巴西总统",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/27/c_1794854651494888.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "习近平致电祝贺卢拉当选连任巴西总统",
+    "summaryZh": "习近平致电祝贺卢拉当选连任巴西总统",
+    "recommended": false,
+    "recommendReason": "习近平致电祝贺卢拉当选连任巴西总统。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 6,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-wt7l3u",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "习近平致电祝贺卢拉当选连任巴西总统",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "习近平致电祝贺卢拉当选连任巴西总统",
+        "occurredAt": "2026-10-27"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-ts11n4",
+    "title": "第一观察｜长征的路在不断延伸",
+    "summary": "第一观察｜长征的路在不断延伸",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/27/c_1794855329813892.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "第一观察｜长征的路在不断延伸",
+    "summaryZh": "第一观察｜长征的路在不断延伸",
+    "recommended": false,
+    "recommendReason": "第一观察｜长征的路在不断延伸。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 2,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-17lep5l",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "第一观察｜长征的路在不断延伸",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "第一观察｜长征的路在不断延伸",
+        "occurredAt": "2026-10-27"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1x2wbjz",
+    "title": "热解读｜小切口立大规矩",
+    "summary": "热解读｜小切口立大规矩",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/27/c_1794855329675646.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "热解读｜小切口立大规矩",
+    "summaryZh": "热解读｜小切口立大规矩",
+    "recommended": false,
+    "recommendReason": "热解读｜小切口立大规矩。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 12,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1ybxxju",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "热解读｜小切口立大规矩",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "热解读｜小切口立大规矩",
         "occurredAt": "2026-10-27"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -3619,7 +5140,7 @@
     "recommended": false,
     "recommendReason": "斯坦福大学研究心理学家贾米尔·扎基（Jamil Zaki）说，人工智能可能会加深我们的联系危机。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -3658,7 +5179,7 @@
     "recommended": false,
     "recommendReason": "在她准备下台时，欧洲领先的电网运营商TenneT的首席执行官反思了扩大能源基础设施、应对地缘政治冲击以及在不确定性中建立弹性。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -3697,7 +5218,7 @@
     "recommended": false,
     "recommendReason": "证监会批准代币化公募基金的首次二级交易。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 48,
+      "score": 62,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -3736,7 +5257,7 @@
     "recommended": false,
     "recommendReason": "2026年9月金融市场运行情况。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 7,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -3773,9 +5294,9 @@
     "titleZh": "中国人民银行设立债市非银大额赎回互换便利（中国人民银行公开市场业务...",
     "summaryZh": "",
     "recommended": false,
-    "recommendReason": "中国人民银行设立债市非银大额赎回互换便利（中国人民银行公开市场业务...。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "中国人民银行设立债市非银大额赎回互换便利（中国人民银行公开市场业务。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 65,
+      "score": 70,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -3791,6 +5312,162 @@
         "subject": "中国人民银行公告",
         "action": "发布",
         "object": "中国人民银行设立债市非银大额赎回互换便利（中国人民银行公开市场业务...",
+        "occurredAt": "2026-10-26"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-v591nx",
+    "title": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+    "summary": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/gnllm/tt/202610/t20261026_7240595.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+    "summaryZh": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+    "recommended": false,
+    "recommendReason": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 0,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1y5h2l9",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+        "occurredAt": "2026-10-26"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-e7g327",
+    "title": "纪念中国工农红军长征胜利90周年大会在京隆重举行 习近平发表重要讲话",
+    "summary": "纪念中国工农红军长征胜利90周年大会在京隆重举行 习近平发表重要讲话",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/xw/tpxw/202610/t20261026_7240597.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "纪念中国工农红军长征胜利90周年大会在京隆重举行 习近平发表重要讲话",
+    "summaryZh": "纪念中国工农红军长征胜利90周年大会在京隆重举行 习近平发表重要讲话",
+    "recommended": false,
+    "recommendReason": "纪念中国工农红军长征胜利90周年大会在京隆重举行 习近平发表重要讲话。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 2,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1y5h2l9",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "纪念中国工农红军长征胜利90周年大会在京隆重举行 习近平发表",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "纪念中国工农红军长征胜利90周年大会在京隆重举行 习近平发表重要讲话",
+        "occurredAt": "2026-10-26"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-18hd61g",
+    "title": "拼实干 强产业 促转型",
+    "summary": "拼实干 强产业 促转型",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/xw/tpxw/202610/t20261026_7240622.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "拼实干 强产业 促转型",
+    "summaryZh": "拼实干 强产业 促转型",
+    "recommended": false,
+    "recommendReason": "拼实干 强产业 促转型。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 8,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1rkazje",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "拼实干 强产业 促转型",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "拼实干 强产业 促转型",
+        "occurredAt": "2026-10-26"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-l2exbr",
+    "title": "拼实干 强产业 促转型",
+    "summary": "拼实干 强产业 促转型",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/xw/jxyw/202610/t20261026_7240622.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "拼实干 强产业 促转型",
+    "summaryZh": "拼实干 强产业 促转型",
+    "recommended": false,
+    "recommendReason": "拼实干 强产业 促转型。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 5,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1rkazje",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "拼实干 强产业 促转型",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "拼实干 强产业 促转型",
         "occurredAt": "2026-10-26"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -3814,7 +5491,7 @@
     "recommended": false,
     "recommendReason": "辉瑞首席医疗事务官谈到衡量医疗事务的真正影响，引领大规模变革，以及患者至上的真正含义。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -3853,7 +5530,7 @@
     "recommended": false,
     "recommendReason": "一年的交付证实了我们对代理人工智能在金融犯罪预防方面的预期，并激发了五个可以帮助机构扩大规模的关键问题。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -3931,7 +5608,7 @@
     "recommended": false,
     "recommendReason": "将人工智能应用于交易监控展示了代理商如何转变合规任务和流程，将成本中心转化为优势驱动因素。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 17,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -4244,7 +5921,7 @@
     "recommended": false,
     "recommendReason": "吴清主席会见香港特区政府财政司司长陈茂波一行。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4283,7 +5960,7 @@
     "recommended": false,
     "recommendReason": "中国证监会党委传达贯彻党的二十届五中全会精神。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4322,7 +5999,7 @@
     "recommended": false,
     "recommendReason": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 45,
+      "score": 48,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4361,7 +6038,7 @@
     "recommended": false,
     "recommendReason": "吴清主席与财政部副部长郭婷婷共同会见美国公众公司会计监督委员会主席洛戈泰斯。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 33,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4400,7 +6077,7 @@
     "recommended": false,
     "recommendReason": "统筹发展和安全 坚持开放与合作 奋力谱写资本市场“十五五”高质量发展新篇章——吴清主席在2026金融街论坛年会上的主题演讲。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 26,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4439,7 +6116,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行行长潘功胜会见意大利前总理、欧央行前行长马里奥·德拉吉一行。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4478,7 +6155,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行公告﹝2026﹞第26号。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 17,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4517,7 +6194,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行副行长宣昌能会见法国财政总署署长杜蒙。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4595,7 +6272,7 @@
     "recommended": false,
     "recommendReason": "中共中央政治局召开会议 中共中央总书记习近平主持会议。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 21,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4634,7 +6311,7 @@
     "recommended": false,
     "recommendReason": "前三季度上海GDP增长5.5% 三大先导产业制造业产值同比增长17.1%。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4650,6 +6327,45 @@
         "subject": "上海市发展和改革委员会",
         "action": "发布",
         "object": "前三季度上海GDP增长5.5% 三大先导产业制造业产值同比增长17.1%",
+        "occurredAt": "2026-10-23"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-14apnyl",
+    "title": "2026年未成年人网络保护国际研讨会在北京举行",
+    "summary": "2026年未成年人网络保护国际研讨会在北京举行",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/23/c_1794509594997937.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "2026年未成年人网络保护国际研讨会在北京举行",
+    "summaryZh": "2026年未成年人网络保护国际研讨会在北京举行",
+    "recommended": false,
+    "recommendReason": "2026年未成年人网络保护国际研讨会在北京举行。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 4,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-54zxjr",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "2026年未成年人网络保护国际研讨会在北京举行",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "2026年未成年人网络保护国际研讨会在北京举行",
         "occurredAt": "2026-10-23"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -4673,7 +6389,7 @@
     "recommended": false,
     "recommendReason": "我们可以在不屈服于人类判断的情况下解锁人工智能的承诺吗？技术领导者Tiffany Xingyu Wang表示，答案不在于学习是否信任人工智能，而在于何时以及在多大程度上信任人工智能。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -4907,7 +6623,7 @@
     "recommended": false,
     "recommendReason": "证监会就涉嫌操纵主板转移计划对GEM上市公司Taste • Gourmet的高管和同事提起MMT诉讼。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 48,
+      "score": 58,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -4946,7 +6662,7 @@
     "recommended": false,
     "recommendReason": "国家能源局负责人会见克罗地亚经济部部长。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 11,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4985,7 +6701,7 @@
     "recommended": false,
     "recommendReason": "国家能源局召开长三角电力市场建设推进会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5063,7 +6779,7 @@
     "recommended": false,
     "recommendReason": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 0,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5079,6 +6795,123 @@
         "subject": "国家能源局新闻动态",
         "action": "发布",
         "object": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+        "occurredAt": "2026-10-22"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1uy4nm8",
+    "title": "第16次亚太经合组织能源部长会议在北京召开",
+    "summary": "第16次亚太经合组织能源部长会议在北京召开",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "国家能源局新闻动态",
+    "sourceUrl": "https://www.nea.gov.cn/xwzx/",
+    "articleUrl": "https://www.nea.gov.cn/20260913/9dc0d216f91b44ca8073a8ffe47a438c/c.html",
+    "esgTopic": "合规与监管",
+    "titleZh": "第16次亚太经合组织能源部长会议在北京召开",
+    "summaryZh": "第16次亚太经合组织能源部长会议在北京召开",
+    "recommended": false,
+    "recommendReason": "第16次亚太经合组织能源部长会议在北京召开。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 17,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-436gl7",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "第16次亚太经合组织能源部长会议在北京召开",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "第16次亚太经合组织能源部长会议在北京召开",
+        "occurredAt": "2026-10-22"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1i74jwa",
+    "title": "前三季度我省对其他金砖成员国进出口超3000亿元",
+    "summary": "前三季度我省对其他金砖成员国进出口超3000亿元",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/xw/jxyw/202610/t20261022_7240285.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "前三季度我省对其他金砖成员国进出口超3000亿元",
+    "summaryZh": "前三季度我省对其他金砖成员国进出口超3000亿元",
+    "recommended": false,
+    "recommendReason": "前三季度我省对其他金砖成员国进出口超3000亿元。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 10,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1e7j0dy",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "前三季度我省对其他金砖成员国进出口超3000亿元",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "前三季度我省对其他金砖成员国进出口超3000亿元",
+        "occurredAt": "2026-10-22"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-61q55l",
+    "title": "前三季度我省民营企业进出口近9600亿元",
+    "summary": "前三季度我省民营企业进出口近9600亿元",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/xw/jxyw/202610/t20261022_7240303.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "前三季度我省民营企业进出口近9600亿元",
+    "summaryZh": "前三季度我省民营企业进出口近9600亿元",
+    "recommended": false,
+    "recommendReason": "前三季度我省民营企业进出口近9600亿元。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 10,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-kxs3cb",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "前三季度我省民营企业进出口近9600亿元",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "前三季度我省民营企业进出口近9600亿元",
         "occurredAt": "2026-10-22"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -5102,7 +6935,7 @@
     "recommended": false,
     "recommendReason": "欧洲杂货零售商的持续增长压力限制了包装商的机会。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5180,7 +7013,7 @@
     "recommended": false,
     "recommendReason": "最近的中断突出了亚洲能源系统的脆弱性。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5219,7 +7052,7 @@
     "recommended": false,
     "recommendReason": "英国经济的区域分布使伦敦和东南部的运营领导力人才陷入困境，并阻止全国各地的企业提高竞争力。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5258,7 +7091,7 @@
     "recommended": false,
     "recommendReason": "允许延迟在各州之间波及不均匀，这取决于它们的行业结构。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5297,7 +7130,7 @@
     "recommended": false,
     "recommendReason": "小品牌是创新的巨头，购买模式正在发生变化，规模不再是过去的盾牌。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5336,7 +7169,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行公告﹝2026﹞第27号。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5398,6 +7231,279 @@
     }
   },
   {
+    "id": "src-1tubnwg",
+    "title": "APEC财长会新闻发布会文字实录",
+    "summary": "APEC财长会新闻发布会文字实录",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "财政部政策发布",
+    "sourceUrl": "https://www.mof.gov.cn/zhengwuxinxi/",
+    "articleUrl": "https://www.mof.gov.cn/zhengwuxinxi/tupianxinwen1/202610/t20261021_4003211.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "APEC财长会新闻发布会文字实录",
+    "summaryZh": "APEC财长会新闻发布会文字实录",
+    "recommended": false,
+    "recommendReason": "APEC财长会新闻发布会文字实录。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 13,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-2b4fcq",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "APEC财长会新闻发布会文字实录",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "APEC财长会新闻发布会文字实录",
+        "occurredAt": "2026-10-21"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-y8jh3f",
+    "title": "2026年亚太经合组织财长会在香港举行",
+    "summary": "2026年亚太经合组织财长会在香港举行",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "财政部政策发布",
+    "sourceUrl": "https://www.mof.gov.cn/zhengwuxinxi/",
+    "articleUrl": "https://www.mof.gov.cn/zhengwuxinxi/tupianxinwen1/202610/t20261021_4003164.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "2026年亚太经合组织财长会在香港举行",
+    "summaryZh": "2026年亚太经合组织财长会在香港举行",
+    "recommended": false,
+    "recommendReason": "2026年亚太经合组织财长会在香港举行。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 10,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1egagg6",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "2026年亚太经合组织财长会在香港举行",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "2026年亚太经合组织财长会在香港举行",
+        "occurredAt": "2026-10-21"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1xqh3ml",
+    "title": "坚守，甘以实业筑长基",
+    "summary": "坚守",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/xw/jxyw/202610/t20261021_7238870.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "坚守，甘以实业筑长基",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "坚守，甘以实业筑长基。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 6,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1crjln0",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "坚守，甘以实业筑长基",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "坚守，甘以实业筑长基",
+        "occurredAt": "2026-10-21"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1fksfxg",
+    "title": "速成车≠新能源汽车",
+    "summary": "速成车≠新能源汽车",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/xw/jxyw/202610/t20261021_7238761.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "速成车≠新能源汽车",
+    "summaryZh": "速成车≠新能源汽车",
+    "recommended": false,
+    "recommendReason": "速成车≠新能源汽车。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 5,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1svd7vk",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "速成车≠新能源汽车",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "速成车≠新能源汽车",
+        "occurredAt": "2026-10-21"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1brugtd",
+    "title": "AI乌镇 科创桐乡｜1米88“大个子”！濮院街头有了“机器人交警”",
+    "summary": "AI乌镇 科创桐乡｜1米88“大个子”！",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/21/c_1794335730262814.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "AI乌镇 科创桐乡｜1米88“大个子”！濮院街头有了“机器人交警”",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "AI乌镇 科创桐乡｜1米88“大个子”！濮院街头有了“机器人交警”。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 5,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-ie97qx",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "AI乌镇 科创桐乡｜1米88“大个子”！濮院街头有了“机器人",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "AI乌镇 科创桐乡｜1米88“大个子”！濮院街头有了“机器人交警”",
+        "occurredAt": "2026-10-21"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-65slbv",
+    "title": "2026年世界互联网大会乌镇峰会11月2日启幕，浙江“一展一会一赛一论坛”有何亮点",
+    "summary": "2026年世界互联网大会乌镇峰会11月2日启幕",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/21/c_1794335237063244.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "2026年世界互联网大会乌镇峰会11月2日启幕，浙江“一展一会一赛一论坛”有何亮点",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "2026年世界互联网大会乌镇峰会11月2日启幕，浙江“一展一会一赛一论坛”有何亮点。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 10,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-3aswqe",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "2026年世界互联网大会乌镇峰会11月2日启幕，浙江“一展一",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "2026年世界互联网大会乌镇峰会11月2日启幕，浙江“一展一会一赛一论坛”有何亮点",
+        "occurredAt": "2026-10-21"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-gb8vwk",
+    "title": "“剧透”未来生活！2026年“互联网之光”博览会有啥好看好玩的？都帮你打听好了",
+    "summary": "“剧透”未来生活！2026年“互联网之光”博览会有啥好看好玩的？",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中央网信办政策与要闻",
+    "sourceUrl": "https://www.cac.gov.cn/",
+    "articleUrl": "https://www.cac.gov.cn/2026-10/21/c_1794335237056290.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "“剧透”未来生活！2026年“互联网之光”博览会有啥好看好玩的？都帮你打听好了",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "“剧透”未来生活！2026年“互联网之光”博览会有啥好看好玩的？都帮你打听好了。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 4,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-oa93dr",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "“剧透”未来生活！2026年“互联网之光”博览会有啥好看好玩",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "“剧透”未来生活！2026年“互联网之光”博览会有啥好看好玩的？都帮你打听好了",
+        "occurredAt": "2026-10-21"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
     "id": "src-1f8bevg",
     "title": "HKEX Launches Green Equity Designation Programme to Strengthen Capital Support for Green Economy",
     "summary": "HKEX Launches Green Equity Designation Programme to Strengthen Capital Support for Green Economy",
@@ -5414,7 +7520,7 @@
     "recommended": false,
     "recommendReason": "港交所推出绿色股权认定计划。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 55,
+      "score": 50,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5492,7 +7598,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行行长潘功胜会见桥水投资公司创始人瑞·达利欧。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 11,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5531,7 +7637,7 @@
     "recommended": false,
     "recommendReason": "国家发展改革委举行10月份新闻发布会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5570,7 +7676,7 @@
     "recommended": false,
     "recommendReason": "国家能源局举办“走进核电媒体调研行”活动。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5586,6 +7692,84 @@
         "subject": "国家能源局新闻动态",
         "action": "发布",
         "object": "国家能源局举办“走进核电媒体调研行”活动",
+        "occurredAt": "2026-10-20"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1s7d8kq",
+    "title": "Bountiful to Work with Morningstar Sustainalytics and Morningstar Indexes to Support Faith-Based Investment Offerings",
+    "summary": "Bountiful to Work with Morningstar Sustainalytics and Morningstar Indexes to Support Faith-Based Investment Offerings",
+    "contentType": "评级",
+    "region": "全球",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "Sustainalytics ESG 评级（候选）",
+    "sourceUrl": "https://www.sustainalytics.com/esg-news",
+    "articleUrl": "https://www.sustainalytics.com/esg-news/news-details/2026/10/20/bountiful-to-work-with-morningstar-sustainalytics-and-morningstar-indexes-to-support-faith-based-investment-offerings",
+    "esgTopic": "合规与监管",
+    "titleZh": "Bountiful与Morningstar Sustainalytics和Morningstar指数合作，支持基于信仰的投资产品",
+    "summaryZh": "Bountiful与Morningstar Sustainalytics和Morningstar指数合作，支持基于信仰的投资产品",
+    "recommended": false,
+    "recommendReason": "Bountiful to Work with Morningstar Sustainalytics and Morningstar Indexes to Support Faith-Based Investment Offerings。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 18,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-12kp42o",
+      "heat": 0,
+      "tags": [
+        "评级",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Bountiful to Work with Morning",
+        "subject": "Sustainalytics ESG 评级（候选）",
+        "action": "发布",
+        "object": "Bountiful to Work with Morningstar Sustainalytics and Morningstar Indexes to Sup",
+        "occurredAt": "2026-10-20"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-xmtwmq",
+    "title": "2026 Report on Hong Kong-Listed Specialist Technology Companies",
+    "summary": "2026 Report on Hong Kong-Listed Specialist Technology Companies",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "世达（Skadden）洞察",
+    "sourceUrl": "https://www.skadden.com/insights",
+    "articleUrl": "https://www.skadden.com/insights/publications/2026/10/2026-report-on-hong-kong-listed-specialist-technology-companies",
+    "esgTopic": "合规与监管",
+    "titleZh": "2026年香港上市专业技术公司报告",
+    "summaryZh": "2026年香港上市专业技术公司报告",
+    "recommended": false,
+    "recommendReason": "2026 Report on Hong Kong-Listed Specialist Technology Companies。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 12,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-10d0gif",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "2026 Report on Hong Kong-Liste",
+        "subject": "世达（Skadden）洞察",
+        "action": "发布",
+        "object": "2026 Report on Hong Kong-Listed Specialist Technology Companies",
         "occurredAt": "2026-10-20"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -5648,7 +7832,7 @@
     "recommended": false,
     "recommendReason": "全球铁路原始设备制造商很难进入亚洲快速增长的市场。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 19,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5687,7 +7871,7 @@
     "recommended": false,
     "recommendReason": "开源资深人士克里斯·赖特（Chris Wright）解释了为什么人工智能驱动的漏洞发现迫使人们对软件安全进行清算，以及该行业如何因此变得更强大。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 17,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5765,7 +7949,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行行长潘功胜在2026金融街论坛年会上的主题演讲。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5804,7 +7988,7 @@
     "recommended": false,
     "recommendReason": "国家能源局举办“能源青年论坛”活动。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 3,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5843,7 +8027,7 @@
     "recommended": false,
     "recommendReason": "国家能源局负责人会见壳牌集团执行委员会委员。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5859,6 +8043,45 @@
         "subject": "国家能源局新闻动态",
         "action": "发布",
         "object": "国家能源局负责人会见壳牌集团执行委员会委员",
+        "occurredAt": "2026-10-19"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1oi527f",
+    "title": "“氢”装上阵，碳“锁”新能",
+    "summary": "“氢”装上阵",
+    "contentType": "政策",
+    "region": "中国福建",
+    "publishedAt": "2026-10-19T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "福建省工业和信息化厅",
+    "sourceUrl": "https://gxt.fujian.gov.cn/",
+    "articleUrl": "https://gxt.fujian.gov.cn/zwgk/xw/tpxw/202610/t20261019_7237890.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "“氢”装上阵，碳“锁”新能",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "“氢”装上阵，碳“锁”新能。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 6,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-12ijga0",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国福建"
+      ],
+      "fact": {
+        "title": "“氢”装上阵，碳“锁”新能",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "“氢”装上阵，碳“锁”新能",
         "occurredAt": "2026-10-19"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -5882,7 +8105,7 @@
     "recommended": false,
     "recommendReason": "解决瑞士妇女的健康差距可以为每个妇女每年提供8个额外的健康日，到2040年可能为年度国内生产总值贡献超过70亿瑞士法郎。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5921,7 +8144,7 @@
     "recommended": false,
     "recommendReason": "美国退休行业正在进入一个新时代。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5960,7 +8183,7 @@
     "recommended": false,
     "recommendReason": "我们的首篇公务航空文章指出，对私人航空服务的需求持续增长，给供应链和基础设施带来了巨大压力。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5999,7 +8222,7 @@
     "recommended": false,
     "recommendReason": "我们的最新研究发现，美国拉丁裔企业主和消费者独有的独特能力可以在世界上最大的经济走廊之一创造显著的增长。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -6038,7 +8261,7 @@
     "recommended": false,
     "recommendReason": "发布后会发生什么？成功的创始人和风险投资家提供了保持增长所需的经验教训。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 9,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -6351,7 +8574,7 @@
     "recommended": false,
     "recommendReason": "关于进一步完善价格形成机制 推动普惠养老服务提质扩面的指导意见。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 55,
+      "score": 45,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -6390,7 +8613,7 @@
     "recommended": false,
     "recommendReason": "国家发展改革委运行局在新疆组织召开煤炭清洁高效利用及经济运行监测分析工作推进会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -6452,6 +8675,84 @@
     }
   },
   {
+    "id": "src-12c5w9o",
+    "title": "蓝佛安会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲...",
+    "summary": "蓝佛安会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-16T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "财政部政策发布",
+    "sourceUrl": "https://www.mof.gov.cn/zhengwuxinxi/",
+    "articleUrl": "https://www.mof.gov.cn/zhengwuxinxi/tupianxinwen1/202610/t20261016_4002942.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "蓝佛安会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲...",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "蓝佛安会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲...。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 8,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-ecbtxu",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "蓝佛安会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲..",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "蓝佛安会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲...",
+        "occurredAt": "2026-10-16"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-1f9tmne",
+    "title": "蓝佛安出席2026年世界银行发展委员会第114次会议",
+    "summary": "蓝佛安出席2026年世界银行发展委员会第114次会议",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-16T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "财政部政策发布",
+    "sourceUrl": "https://www.mof.gov.cn/zhengwuxinxi/",
+    "articleUrl": "https://www.mof.gov.cn/zhengwuxinxi/tupianxinwen1/202610/t20261016_4002913.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "蓝佛安出席2026年世界银行发展委员会第114次会议",
+    "summaryZh": "蓝佛安出席2026年世界银行发展委员会第114次会议",
+    "recommended": false,
+    "recommendReason": "蓝佛安出席2026年世界银行发展委员会第114次会议。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 15,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-28suhu",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "蓝佛安出席2026年世界银行发展委员会第114次会议",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "蓝佛安出席2026年世界银行发展委员会第114次会议",
+        "occurredAt": "2026-10-16"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
     "id": "src-13yrtwy",
     "title": "Getting real about AI: How AI agents are changing the economics of software engineering",
     "summary": "Cognition co-founder and President Russell Kaplan explains why the next frontier of AI in software engineering is about more than writing code faster and what it takes to turn autonomous agents into measurable business value.",
@@ -6468,7 +8769,7 @@
     "recommended": false,
     "recommendReason": "Cognition联合创始人兼总裁Russell Kaplan解释了为什么软件工程中人工智能的下一个前沿领域不仅仅是更快地编写代码，以及如何将自主代理转化为可衡量的商业价值。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -6507,7 +8808,7 @@
     "recommended": false,
     "recommendReason": "前沿部署的工程师在另一家公司自己的系统内工作。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -6940,7 +9241,7 @@
     "recommended": false,
     "recommendReason": "关于印发《城乡义务教育补助经费管理办法》的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 26,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -6979,7 +9280,7 @@
     "recommended": false,
     "recommendReason": "2026年10月15日国内成品油价格不作调整。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -7018,7 +9319,7 @@
     "recommended": false,
     "recommendReason": "你住的地方的形状比你想象的要多得多。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -7057,7 +9358,7 @@
     "recommended": false,
     "recommendReason": "新的研究绘制了美国半导体供应链中隐藏的上游依赖关系，并概述了使生态系统更具弹性的潜在缓解策略。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 38,
+      "score": 36,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -7096,7 +9397,7 @@
     "recommended": false,
     "recommendReason": "分析现在运行在人工智能时间上，但判断仍然运行在人类时间上。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -7135,7 +9436,7 @@
     "recommended": false,
     "recommendReason": "10月14日，全国首批跨境绿色电力证书集中交易在广州达成，成交绿证约10万张，对应近1亿千瓦时可再生能源电量。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 26,
+      "score": 32,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -7292,7 +9593,7 @@
     "recommended": false,
     "recommendReason": "从软件即服务到支持人工智能的规划的转变可能会使决策从固定周期转向实时，但成功将需要正确的治理、专业知识和运营模式。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 21,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -7331,7 +9632,7 @@
     "recommended": false,
     "recommendReason": "许多组织仍在衡量人工智能的采用而不是价值。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -7370,7 +9671,7 @@
     "recommended": false,
     "recommendReason": "麦肯锡的资本卓越专家讨论了人工智能和技术如何提高建筑生产力，解决劳动力短缺问题，并加快复杂资本项目的交付。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -7409,7 +9710,7 @@
     "recommended": false,
     "recommendReason": "将人工智能工具从试点转移到生产可以使其成本几乎翻两番。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -7840,7 +10141,7 @@
     "recommended": false,
     "recommendReason": "国家能源局开展党的二十届五中全会保电工作调研。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -8269,7 +10570,7 @@
     "recommended": false,
     "recommendReason": "数字和人工智能正在改变资本项目的选择、设计、采购、建造和引导方式。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -8308,7 +10609,7 @@
     "recommended": false,
     "recommendReason": "客户体验是医疗技术公司的竞争要素。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -8503,7 +10804,7 @@
     "recommended": false,
     "recommendReason": "香港交易所与标普道琼斯指数合作推出标普 500 指数及香港交易所科技 100 指数。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 26,
+      "score": 28,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -8542,7 +10843,7 @@
     "recommended": false,
     "recommendReason": "香港交易所推出12种股票期权类别。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -8621,7 +10922,7 @@
     "recommended": false,
     "recommendReason": "2026年10月12日-2026年10月16日证券市场快报。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 4,
+      "score": 3,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -8855,7 +11156,7 @@
     "recommended": false,
     "recommendReason": "在印度分散的市场中扩大电子商务初创企业的规模具有挑战性，但创新、耐心和热情解决难题使 Meesho 的创始人取得了成功。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 9,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -8894,7 +11195,7 @@
     "recommended": false,
     "recommendReason": "该行业的黄金时代正在成为一小部分资产管理公司的黄金时代。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -8931,9 +11232,9 @@
     "titleZh": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...",
     "summaryZh": "",
     "recommended": false,
-    "recommendReason": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -8972,7 +11273,7 @@
     "recommended": false,
     "recommendReason": "Eric Kutcher和Tanguy Catlin在《财富》杂志上写道，虽然关于人工智能对劳动力的影响的辩论占据了头条新闻，但未来最大的挑战将是帮助工人找到最直接的就业途径。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 28,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -9050,7 +11351,7 @@
     "recommended": false,
     "recommendReason": "只争朝夕、攻坚突破、全力冲刺 市委季度工作会议举行 陈吉宁作工作点评。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -9089,7 +11390,7 @@
     "recommended": false,
     "recommendReason": "战略是一项团队运动，但它创造的价值最终取决于首席执行官的参与。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -9128,7 +11429,7 @@
     "recommended": false,
     "recommendReason": "领先的公司正在跟踪地缘政治变化的六种新兴模式，并重新调整其业务，以实现弹性、抓住增长并建立竞争优势。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -9526,7 +11827,7 @@
     "recommended": false,
     "recommendReason": "2026年10月8日-2026年10月9日证券市场快报。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 3,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -9838,7 +12139,7 @@
     "recommended": false,
     "recommendReason": "根据1934年《证券交易法》第21 (a)条进行调查的报告：埃克森美孚公司2021年5月年会上的气候行动100 +和董事选举。信息价值较高，涉及ESG的美国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 75,
+      "score": 65,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -11009,7 +13310,7 @@
     "recommended": false,
     "recommendReason": "国家发展改革委举行升国旗仪式庆祝中华人民共和国成立77周年。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 2,
+      "score": 1,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -11489,7 +13790,7 @@
     "recommended": false,
     "recommendReason": "关于实施居民购房贷款贴息政策的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 16,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -11524,7 +13825,7 @@
     "articleUrl": "http://jrs.mof.gov.cn/zhengcejiedu/202609/t20260929_3998314.htm",
     "esgTopic": "合规与监管",
     "titleZh": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息...",
-    "summaryZh": "",
+    "summaryZh": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息",
     "recommended": false,
     "recommendReason": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息...。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
@@ -12318,7 +14619,7 @@
     "recommended": false,
     "recommendReason": "港交所推出「汇聚之地」展览，庆祝香港现代证券交易所成立 40 周年。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -12435,7 +14736,7 @@
     "recommended": false,
     "recommendReason": "港交所迎来四只追踪港交所跨市场指数的新 ETF。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -12470,7 +14771,7 @@
     "articleUrl": "http://kjs.mof.gov.cn/zhengcejiedu/202609/t20260924_3998130.htm",
     "esgTopic": "合规与监管",
     "titleZh": "强化协会职能作用 创新推动行业高质量发展 ——新注册会计师法系列解读...",
-    "summaryZh": "",
+    "summaryZh": "强化协会职能作用 创新推动行业高质量发展 ——新注册会计师法系列解读",
     "recommended": false,
     "recommendReason": "强化协会职能作用 创新推动行业高质量发展 ——新注册会计师法系列解读...。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
@@ -13137,7 +15438,7 @@
     "recommended": false,
     "recommendReason": "李强在上海调研时强调 加快培育壮大新兴产业和未来产业 持续做大做强先进制造业。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -13215,7 +15516,7 @@
     "recommended": false,
     "recommendReason": "习近平主席贺信激励青年走技能成才之路并为世界技能运动发展指明方向。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -13254,7 +15555,7 @@
     "recommended": false,
     "recommendReason": "习近平抵达华盛顿对美国进行国事访问。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -15498,7 +17799,7 @@
     "articleUrl": "http://kjs.mof.gov.cn/zhengcejiedu/202609/t20260918_3997654.htm",
     "esgTopic": "合规与监管",
     "titleZh": "完善行业管理制度 持续强化注册会计师行业行政监管——新注册会计师法系...",
-    "summaryZh": "",
+    "summaryZh": "完善行业管理制度 持续强化注册会计师行业行政监管——新注册会计师法系",
     "recommended": false,
     "recommendReason": "完善行业管理制度 持续强化注册会计师行业行政监管——新注册会计师法系...。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
@@ -15541,7 +17842,7 @@
     "recommended": false,
     "recommendReason": "关于印发浙江高质量发展建设共同富裕示范区经验做法(第三批)的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 21,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -16214,7 +18515,7 @@
     "recommended": false,
     "recommendReason": "郑栅洁主任会见印尼国家经济委员会主席卢胡特。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -16946,6 +19247,45 @@
     }
   },
   {
+    "id": "src-1bjuqxm",
+    "title": "Morningstar Survey: Asset Owners Increase U.S. and Private Market Exposure as AI Risks Rise",
+    "summary": "Morningstar Survey: Asset Owners Increase U.S.",
+    "contentType": "评级",
+    "region": "全球",
+    "publishedAt": "2026-09-16T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "Sustainalytics ESG 评级（候选）",
+    "sourceUrl": "https://www.sustainalytics.com/esg-news",
+    "articleUrl": "https://www.sustainalytics.com/esg-news/news-details/2026/09/16/morningstar-survey--asset-owners-increase-u.s.-and-private-market-exposure-as-ai-risks-rise",
+    "esgTopic": "合规与监管",
+    "titleZh": "晨星调查：随着人工智能风险上升，资产所有者增加美国和私人市场的风险敞口",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "Morningstar Survey: Asset Owners Increase U.S. and Private Market Exposure as AI Risks Rise。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 23,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-qs365y",
+      "heat": 0,
+      "tags": [
+        "评级",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Morningstar Survey: Asset Owne",
+        "subject": "Sustainalytics ESG 评级（候选）",
+        "action": "发布",
+        "object": "Morningstar Survey: Asset Owners Increase U.S. and Private Market Exposure as AI",
+        "occurredAt": "2026-09-16"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
     "id": "src-eu-commission-commission-sends-statement-of-objections-over-th-ce92",
     "title": "Commission sends Statement of Objections over the proposed acquisition of Anglo American's nickel business by MMG",
     "contentType": "行业",
@@ -17199,7 +19539,7 @@
     "recommended": false,
     "recommendReason": "没收无人认领的2020年第一期中期股息。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 7,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -17286,7 +19626,7 @@
     "recommended": false,
     "recommendReason": "郑栅洁主任主持召开民营企业座谈会 围绕优化发展环境、拓展投资空间听取意见建议。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 16,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -17302,6 +19642,45 @@
         "subject": "国家发改委新闻动态",
         "action": "发布",
         "object": "郑栅洁主任主持召开民营企业座谈会 围绕优化发展环境、拓展投资空间听取意见建议",
+        "occurredAt": "2026-09-15"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-my0tk9",
+    "title": "Morningstar Sustainalytics Submits ESMA Application",
+    "summary": "Morningstar Sustainalytics Submits ESMA Application",
+    "contentType": "评级",
+    "region": "全球",
+    "publishedAt": "2026-09-15T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "Sustainalytics ESG 评级（候选）",
+    "sourceUrl": "https://www.sustainalytics.com/esg-news",
+    "articleUrl": "https://www.sustainalytics.com/esg-news/news-details/2026/09/15/morningstar-sustainalytics-submits-esma-application",
+    "esgTopic": "合规与监管",
+    "titleZh": "Morningstar Sustainalytics提交ESMA申请",
+    "summaryZh": "Morningstar Sustainalytics提交ESMA申请",
+    "recommended": false,
+    "recommendReason": "Morningstar Sustainalytics Submits ESMA Application。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 20,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-19iyzm7",
+      "heat": 0,
+      "tags": [
+        "评级",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Morningstar Sustainalytics Sub",
+        "subject": "Sustainalytics ESG 评级（候选）",
+        "action": "发布",
+        "object": "Morningstar Sustainalytics Submits ESMA Application",
         "occurredAt": "2026-09-15"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -17560,7 +19939,7 @@
     "recommended": false,
     "recommendReason": "关于印发《紧急采购管理暂行办法》的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -17599,7 +19978,7 @@
     "recommended": false,
     "recommendReason": "国家发展改革委发展战略和规划司研究课题入选公告。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18008,7 +20387,7 @@
     "recommended": false,
     "recommendReason": "关于印发《关于加快农业保险高质量发展的实施方案》的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 65,
+      "score": 42,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18047,7 +20426,7 @@
     "recommended": false,
     "recommendReason": "需求保持扩张 我国物流市场预期呈现积极变化。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18477,7 +20856,7 @@
     "recommended": false,
     "recommendReason": "香港交易所、金管局、DFSA及迪拜纳斯达克成立战略工作小组加强香港与迪拜金融市场互联互通。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 40,
+      "score": 31,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -18516,7 +20895,7 @@
     "recommended": false,
     "recommendReason": "关于重要工业品低价无序竞争成本核算有关事项的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 35,
+      "score": 44,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18555,7 +20934,7 @@
     "recommended": false,
     "recommendReason": "国家发展改革委民营局向民营企业公开推介交通、物流、水利、能源等领域一批投资项目。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18794,7 +21173,7 @@
     "recommended": false,
     "recommendReason": "国家发展改革委运行局组织安排提高疆煤外运规模。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 21,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -19032,7 +21411,7 @@
     "recommended": false,
     "recommendReason": "国家发展改革委开放司主要负责同志拜会塔吉克斯坦驻华大使。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -19089,6 +21468,45 @@
         "action": "发布",
         "object": "生态环境部召开部务会议",
         "occurredAt": "2026-09-03"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-163w77j",
+    "title": "陈国忠同志参加解读《虹桥国际中央商务区建设“十五五”规划》市政府新闻发布会",
+    "summary": "陈国忠同志参加解读《虹桥国际中央商务区建设“十五五”规划》市政府新闻发布会",
+    "contentType": "政策",
+    "region": "中国上海",
+    "publishedAt": "2026-09-02T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "上海市发展和改革委员会",
+    "sourceUrl": "https://fgw.sh.gov.cn/",
+    "articleUrl": "https://fgw.sh.gov.cn/fgw_gzdt/20260902/d04533673c7c4392aae3cb6ac08f0a1d.html",
+    "esgTopic": "合规与监管",
+    "titleZh": "陈国忠同志参加解读《虹桥国际中央商务区建设“十五五”规划》市政府新闻发布会",
+    "summaryZh": "陈国忠同志参加解读《虹桥国际中央商务区建设“十五五”规划》市政府新闻发布会",
+    "recommended": false,
+    "recommendReason": "陈国忠同志参加解读《虹桥国际中央商务区建设“十五五”规划》市政府新闻发布会。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 15,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1m9n9ns",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国上海"
+      ],
+      "fact": {
+        "title": "陈国忠同志参加解读《虹桥国际中央商务区建设“十五五”规划》市",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "陈国忠同志参加解读《虹桥国际中央商务区建设“十五五”规划》市政府新闻发布会",
+        "occurredAt": "2026-09-02"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
@@ -19190,7 +21608,7 @@
     "recommended": false,
     "recommendReason": "多部门联合部署做好稳投资工作。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -19389,7 +21807,7 @@
     "recommended": false,
     "recommendReason": "香港交易所首次亮相 SHEIN 增强产品供应。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 16,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -19428,7 +21846,7 @@
     "recommended": false,
     "recommendReason": "关于明确非应税交易等增值税有关事项的公告。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -19467,7 +21885,7 @@
     "recommended": false,
     "recommendReason": "关于印发《会计师事务所职业责任保险实施办法》的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 50,
+      "score": 42,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -19502,7 +21920,7 @@
     "articleUrl": "http://kjs.mof.gov.cn/zhengcejiedu/202608/t20260828_3996312.htm",
     "esgTopic": "合规与监管",
     "titleZh": "坚持党对注册会计师行业的全面领导 以高质量党建引领行业高质量发展——...",
-    "summaryZh": "",
+    "summaryZh": "坚持党对注册会计师行业的全面领导 以高质量党建引领行业高质量发展——",
     "recommended": false,
     "recommendReason": "坚持党对注册会计师行业的全面领导 以高质量党建引领行业高质量发展——...。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
@@ -19523,6 +21941,45 @@
         "action": "发布",
         "object": "坚持党对注册会计师行业的全面领导 以高质量党建引领行业高质量发展——...",
         "occurredAt": "2026-08-28"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-dxixt1",
+    "title": "减量提质不扰企！全市涉企行政检查工作交流会召开",
+    "summary": "减量提质不扰企！",
+    "contentType": "政策",
+    "region": "中国上海",
+    "publishedAt": "2026-08-27T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "上海市发展和改革委员会",
+    "sourceUrl": "https://fgw.sh.gov.cn/",
+    "articleUrl": "https://fgw.sh.gov.cn/fgw_gzdt/20260827/aed401f9c55446abac322f3e0802f659.html",
+    "esgTopic": "合规与监管",
+    "titleZh": "减量提质不扰企！全市涉企行政检查工作交流会召开",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "减量提质不扰企！全市涉企行政检查工作交流会召开。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 15,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-ob9q83",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国上海"
+      ],
+      "fact": {
+        "title": "减量提质不扰企！全市涉企行政检查工作交流会召开",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "减量提质不扰企！全市涉企行政检查工作交流会召开",
+        "occurredAt": "2026-08-27"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
@@ -19745,7 +22202,7 @@
     "recommended": false,
     "recommendReason": "香港交易所任命对外传讯主管。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -19762,6 +22219,45 @@
         "action": "发布",
         "object": "香港交易所任命对外传讯主管",
         "occurredAt": "2026-08-24"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-17u98oe",
+    "title": "陈石燕副主任参加解读《上海市妇女儿童发展 “十五五”规划》市政府新闻发布会",
+    "summary": "陈石燕副主任参加解读《上海市妇女儿童发展 “十五五”规划》市政府新闻发布会",
+    "contentType": "政策",
+    "region": "中国上海",
+    "publishedAt": "2026-08-21T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "上海市发展和改革委员会",
+    "sourceUrl": "https://fgw.sh.gov.cn/",
+    "articleUrl": "https://fgw.sh.gov.cn/fgw_gzdt/20260821/78ffea6a2c4f48518719bccadf1487f3.html",
+    "esgTopic": "合规与监管",
+    "titleZh": "陈石燕副主任参加解读《上海市妇女儿童发展 “十五五”规划》市政府新闻发布会",
+    "summaryZh": "陈石燕副主任参加解读《上海市妇女儿童发展 “十五五”规划》市政府新闻发布会",
+    "recommended": false,
+    "recommendReason": "陈石燕副主任参加解读《上海市妇女儿童发展 “十五五”规划》市政府新闻发布会。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 20,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-iccf2t",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国上海"
+      ],
+      "fact": {
+        "title": "陈石燕副主任参加解读《上海市妇女儿童发展 “十五五”规划》市",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "陈石燕副主任参加解读《上海市妇女儿童发展 “十五五”规划》市政府新闻发布会",
+        "occurredAt": "2026-08-21"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
@@ -19864,7 +22360,7 @@
     "recommended": false,
     "recommendReason": "截至2026年6月30日止六个月的简明合并财务报表（未经审计）。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -19903,7 +22399,7 @@
     "recommended": false,
     "recommendReason": "香港交易所2026年中期业绩。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 4,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -19965,6 +22461,45 @@
     }
   },
   {
+    "id": "src-1yir8fw",
+    "title": "双向奔赴·共建共营！第三届营商环境“媒体观察员”共建项目集中发布",
+    "summary": "双向奔赴·共建共营！",
+    "contentType": "政策",
+    "region": "中国上海",
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "上海市发展和改革委员会",
+    "sourceUrl": "https://fgw.sh.gov.cn/",
+    "articleUrl": "https://fgw.sh.gov.cn/fgw_gzdt/20260819/28bbd295697b49ea9d0d0ab936935d28.html",
+    "esgTopic": "合规与监管",
+    "titleZh": "双向奔赴·共建共营！第三届营商环境“媒体观察员”共建项目集中发布",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "双向奔赴·共建共营！第三届营商环境“媒体观察员”共建项目集中发布。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 8,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1lj8qys",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国上海"
+      ],
+      "fact": {
+        "title": "双向奔赴·共建共营！第三届营商环境“媒体观察员”共建项目集中",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "双向奔赴·共建共营！第三届营商环境“媒体观察员”共建项目集中发布",
+        "occurredAt": "2026-08-19"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
     "id": "src-ip6ox2",
     "title": "HKEX Welcomes Mainland Insurance Funds to Invest in Hong Kong ETFs",
     "summary": "HKEX Welcomes Mainland Insurance Funds to Invest in Hong Kong ETFs",
@@ -19981,7 +22516,7 @@
     "recommended": false,
     "recommendReason": "香港交易所欢迎内地保险资金投资香港ETF。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 32,
+      "score": 45,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -20020,7 +22555,7 @@
     "recommended": false,
     "recommendReason": "香港交易所行政总裁续约。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -20036,6 +22571,45 @@
         "subject": "香港交易所新闻稿",
         "action": "发布",
         "object": "香港交易所行政总裁续约",
+        "occurredAt": "2026-08-17"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-caxsjv",
+    "title": "厚植中国式现代化的绿色底色，2026年全国生态日上海主场活动精彩纷呈",
+    "summary": "厚植中国式现代化的绿色底色",
+    "contentType": "政策",
+    "region": "中国上海",
+    "publishedAt": "2026-08-17T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "上海市发展和改革委员会",
+    "sourceUrl": "https://fgw.sh.gov.cn/",
+    "articleUrl": "https://fgw.sh.gov.cn/fgw_gzdt/20260817/4a9e5314f7c5432c8278d8e057cd4b21.html",
+    "esgTopic": "合规与监管",
+    "titleZh": "厚植中国式现代化的绿色底色，2026年全国生态日上海主场活动精彩纷呈",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "厚植中国式现代化的绿色底色，2026年全国生态日上海主场活动精彩纷呈。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 12,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-yu5gfx",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国上海"
+      ],
+      "fact": {
+        "title": "厚植中国式现代化的绿色底色，2026年全国生态日上海主场活动",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "厚植中国式现代化的绿色底色，2026年全国生态日上海主场活动精彩纷呈",
         "occurredAt": "2026-08-17"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -20379,7 +22953,7 @@
     "recommended": false,
     "recommendReason": "香港交易所宣布高层任命。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -21415,7 +23989,7 @@
     "recommended": false,
     "recommendReason": "中际旭创首次亮相香港交易所加强产品供应。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -21493,7 +24067,7 @@
     "recommended": false,
     "recommendReason": "王沪宁会见捷克众议长冈村富夫。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 1,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -21532,7 +24106,7 @@
     "recommended": false,
     "recommendReason": "港交所将马来西亚交易所纳入认可证券交易所名单。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 48,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -21610,7 +24184,7 @@
     "recommended": false,
     "recommendReason": "王沪宁在西藏调研。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -21649,7 +24223,7 @@
     "recommended": false,
     "recommendReason": "王毅会见东盟秘书长高金洪。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -21688,7 +24262,7 @@
     "recommended": false,
     "recommendReason": "香港交易所与上交所及深交所签署谅解备忘录 促进沪港通信息交换。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 30,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -21828,7 +24402,7 @@
     "recommended": false,
     "recommendReason": "香港交易所推出18种股票期权类别。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -21867,7 +24441,7 @@
     "recommended": false,
     "recommendReason": "习近平出席国家科学技术奖励大会两院院士大会中国科协第十一次全国代表大会并发表重要讲话。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -21906,7 +24480,7 @@
     "recommended": false,
     "recommendReason": "港交所迎来立讯精密上市，丰富产品供给。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -21996,7 +24570,7 @@
     "recommended": false,
     "recommendReason": "行业领袖齐聚一堂。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -22074,7 +24648,7 @@
     "recommended": false,
     "recommendReason": "委任香港交易所风险管理委员会（法定）成员。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -22215,7 +24789,7 @@
     "recommended": false,
     "recommendReason": "港交所与中债估值中心签订数据许可协议，以支持国债期货推出。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 40,
+      "score": 35,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -22231,6 +24805,45 @@
         "subject": "香港交易所新闻稿",
         "action": "发布",
         "object": "香港交易所与中债定价中心签订数据授权协议 支持广发银行期货推出",
+        "occurredAt": "2026-07-03"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-wenia8",
+    "title": "Morningstar Sustainalytics Submits ESMA Filing",
+    "summary": "Morningstar Sustainalytics Submits ESMA Filing",
+    "contentType": "评级",
+    "region": "全球",
+    "publishedAt": "2026-07-03T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "Sustainalytics ESG 评级（候选）",
+    "sourceUrl": "https://www.sustainalytics.com/esg-news",
+    "articleUrl": "https://www.sustainalytics.com/esg-news/news-details/2026/07/03/morningstar-sustainalytics-submits-esma-filing",
+    "esgTopic": "合规与监管",
+    "titleZh": "Morningstar Sustainalytics提交ESMA文件",
+    "summaryZh": "Morningstar Sustainalytics提交ESMA文件",
+    "recommended": false,
+    "recommendReason": "Morningstar Sustainalytics Submits ESMA Filing。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 18,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-rn09v0",
+      "heat": 0,
+      "tags": [
+        "评级",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Morningstar Sustainalytics Sub",
+        "subject": "Sustainalytics ESG 评级（候选）",
+        "action": "发布",
+        "object": "Morningstar Sustainalytics Submits ESMA Filing",
         "occurredAt": "2026-07-03"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -22415,7 +25028,7 @@
     "recommended": false,
     "recommendReason": "香港交易所与中国金融期货交易所续签谅解备忘录。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -22493,7 +25106,7 @@
     "recommended": false,
     "recommendReason": "香港交易所与金管局推出试点项目。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 28,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -22532,7 +25145,7 @@
     "recommended": false,
     "recommendReason": "香港交易所与 AIFC 及阿斯塔纳国际交易所签署谅解备忘录加强中亚市场互联互通。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -22610,7 +25223,7 @@
     "recommended": false,
     "recommendReason": "香港交易所于交易广场举办“互联互通”活动庆祝成立40周年。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -22649,7 +25262,7 @@
     "recommended": false,
     "recommendReason": "香港交易所新任命组建大宗商品团队。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 16,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -22688,7 +25301,7 @@
     "recommended": false,
     "recommendReason": "2026年股东周年大会投票结果及香港交易所董事会新任命。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -22727,7 +25340,7 @@
     "recommended": false,
     "recommendReason": "香港交易所2026年第一季度业绩。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -22766,7 +25379,7 @@
     "recommended": false,
     "recommendReason": "香港交易所将推出 17 个股票期权类别的每周到期日。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -22805,7 +25418,7 @@
     "recommended": false,
     "recommendReason": "香港交易所主办第40届亚洲及大洋洲证券交易所联合会大会。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -22844,7 +25457,7 @@
     "recommended": false,
     "recommendReason": "港交所通过新任命组建固定收益与货币业务领导团队。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -22883,7 +25496,7 @@
     "recommended": false,
     "recommendReason": "2019 年未认领的第二次中期股息被没收。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 9,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -22922,7 +25535,7 @@
     "recommended": false,
     "recommendReason": "香港交易所以两个以科技为中心的基准推进指数生态系统。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 21,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -22961,7 +25574,7 @@
     "recommended": false,
     "recommendReason": "香港交易所与马来西亚交易所推出联合品牌指数并签署谅解备忘录加强市场互联互通。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 21,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -23000,7 +25613,7 @@
     "recommended": false,
     "recommendReason": "港交所基金会推出关爱照顾者计划。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -23039,7 +25652,7 @@
     "recommended": false,
     "recommendReason": "香港交易所欢迎香港政府任命其董事会成员。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 14,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -23078,7 +25691,7 @@
     "recommended": false,
     "recommendReason": "没收无人认领的2019年第二次中期股息。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -23117,7 +25730,7 @@
     "recommended": false,
     "recommendReason": "香港交易所2025年综合财务报表。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -23156,7 +25769,7 @@
     "recommended": false,
     "recommendReason": "香港交易所2025年全年业绩。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 16,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -23195,7 +25808,7 @@
     "recommended": false,
     "recommendReason": "香港交易所任命中东首席区域代表。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -23686,6 +26299,45 @@
     }
   },
   {
+    "id": "src-phrpu",
+    "title": "Morningstar Sustainalytics Issues Statement of Application in Relation to the ICMA Code of Conduct for ESG Ratings and Data Products Providers (the “ICMA Code”)",
+    "summary": "Morningstar Sustainalytics Issues Statement of Application in Relation to the ICMA Code of Conduct for ESG Ratings and Data Products Providers (the “ICMA Code”)",
+    "contentType": "评级",
+    "region": "全球",
+    "publishedAt": "2024-12-12T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "Sustainalytics ESG 评级（候选）",
+    "sourceUrl": "https://www.sustainalytics.com/esg-news",
+    "articleUrl": "https://www.sustainalytics.com/esg-news/news-details/2024/12/12/morningstar-sustainalytics-issues-statement-of-application-in-relation-to-the-icma-code-of-conduct-for-esg-ratings-and-data-products-providers-(the--icma-code-)",
+    "esgTopic": "合规与监管",
+    "titleZh": "晨星可持续分析发布与ESG评级和数据产品提供商ICMA行为准则（“ICMA准则”）相关的应用声明",
+    "summaryZh": "晨星可持续分析发布与ESG评级和数据产品提供商ICMA行为准则（“ICMA准则”）相关的应用声明",
+    "recommended": false,
+    "recommendReason": "Morningstar Sustainalytics Issues Statement of Application in Relation to the ICMA Code of Conduct for ESG Ratings and Data Products Providers (the “ICMA Code”)。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 36,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-117ut2h",
+      "heat": 0,
+      "tags": [
+        "评级",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Morningstar Sustainalytics Iss",
+        "subject": "Sustainalytics ESG 评级（候选）",
+        "action": "发布",
+        "object": "Morningstar Sustainalytics Issues Statement of Application in Relation to the IC",
+        "occurredAt": "2024-12-12"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
     "id": "src-yembgj",
     "title": "超百个“硬核”科技亮相！ 工业和信息化部启动高校科技成果转化专项路演",
     "summary": "超百个“硬核”科技亮相！",
@@ -23700,9 +26352,9 @@
     "titleZh": "超百个“硬核”科技亮相！ 工业和信息化部启动高校科技成果转化专项路演",
     "summaryZh": "",
     "recommended": false,
-    "recommendReason": "超百个“硬核”科技亮相！ 工业和信息化部启动高校科技成果转化专项路演。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "超百个“硬核”科技亮相！。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -23725,6 +26377,84 @@
     }
   },
   {
+    "id": "src-7h2knd",
+    "title": "ICMA owned Code of Conduct for ESG Ratings and Data Products Providers (the “Code”)",
+    "summary": "ICMA owned Code of Conduct for ESG Ratings and Data Products Providers (the “Code”)",
+    "contentType": "评级",
+    "region": "全球",
+    "publishedAt": "2024-06-13T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "Sustainalytics ESG 评级（候选）",
+    "sourceUrl": "https://www.sustainalytics.com/esg-news",
+    "articleUrl": "https://www.sustainalytics.com/esg-news/news-details/2024/06/13/uk-code-of-conduct-for-esg-ratings-and-data-products-providers-(the--uk-code-)",
+    "esgTopic": "合规与监管",
+    "titleZh": "ICMA拥有的ESG评级和数据产品提供商行为准则（“准则”）",
+    "summaryZh": "ICMA拥有的ESG评级和数据产品提供商行为准则（“准则”）",
+    "recommended": false,
+    "recommendReason": "ICMA owned Code of Conduct for ESG Ratings and Data Products Providers (the “Code”)。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 23,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-2coc6s",
+      "heat": 0,
+      "tags": [
+        "评级",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "ICMA owned Code of Conduct for",
+        "subject": "Sustainalytics ESG 评级（候选）",
+        "action": "发布",
+        "object": "ICMA owned Code of Conduct for ESG Ratings and Data Products Providers (the “Cod",
+        "occurredAt": "2024-06-13"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-agfvbk",
+    "title": "Morningstar Sustainalytics Introduces Significant Enhancements to its ESG Risk Ratings",
+    "summary": "Morningstar Sustainalytics Introduces Significant Enhancements to its ESG Risk Ratings",
+    "contentType": "评级",
+    "region": "全球",
+    "publishedAt": "2024-05-31T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "Sustainalytics ESG 评级（候选）",
+    "sourceUrl": "https://www.sustainalytics.com/esg-news",
+    "articleUrl": "https://www.sustainalytics.com/esg-news/news-details/2024/05/31/morningstar-sustainalytics-introduces-significant-enhancements-to-its-esg-risk-ratings",
+    "esgTopic": "合规与监管",
+    "titleZh": "Morningstar Sustainalytics大幅提升其ESG风险评级",
+    "summaryZh": "Morningstar Sustainalytics大幅提升其ESG风险评级",
+    "recommended": false,
+    "recommendReason": "Morningstar Sustainalytics Introduces Significant Enhancements to its ESG Risk Ratings。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 45,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1agyk7g",
+      "heat": 0,
+      "tags": [
+        "评级",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Morningstar Sustainalytics Int",
+        "subject": "Sustainalytics ESG 评级（候选）",
+        "action": "发布",
+        "object": "Morningstar Sustainalytics Introduces Significant Enhancements to its ESG Risk R",
+        "occurredAt": "2024-05-31"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
     "id": "src-1syvpx9",
     "title": "2024年4月12日新闻发布会",
     "summary": "2024年4月12日新闻发布会",
@@ -23741,7 +26471,7 @@
     "recommended": false,
     "recommendReason": "2024年4月12日新闻发布会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -23780,7 +26510,7 @@
     "recommended": false,
     "recommendReason": "2024 年1月19日新闻发布会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 4,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -23819,7 +26549,7 @@
     "recommended": false,
     "recommendReason": "2024年2月23日新闻发布会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 7,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -23858,7 +26588,7 @@
     "recommended": false,
     "recommendReason": "2024年1月12日新闻发布会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 2,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -23881,6 +26611,45 @@
     }
   },
   {
+    "id": "src-h7aqci",
+    "title": "国务院部门网站",
+    "summary": "国务院部门网站",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2023-03-29T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "国务院国资委政策发布",
+    "sourceUrl": "http://www.sasac.gov.cn/n2588035/n2588320/index.html",
+    "articleUrl": "https://www.gov.cn/home/2023-03/29/content_5748953.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "国务院部门网站",
+    "summaryZh": "国务院部门网站",
+    "recommended": false,
+    "recommendReason": "国务院部门网站。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 5,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-198y6pi",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "国务院部门网站",
+        "subject": "国务院国资委政策发布",
+        "action": "发布",
+        "object": "国务院部门网站",
+        "occurredAt": "2023-03-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
     "id": "src-eo4vin",
     "title": "2021年9月24日新闻发布会",
     "summary": "2021年9月24日新闻发布会",
@@ -23897,7 +26666,7 @@
     "recommended": false,
     "recommendReason": "2021年9月24日新闻发布会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -23936,7 +26705,7 @@
     "recommended": false,
     "recommendReason": "2021年9月3日新闻发布会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 2,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -24014,7 +26783,7 @@
     "recommended": false,
     "recommendReason": "2021年7月16日新闻发布会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 4,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -24031,6 +26800,45 @@
         "action": "发布",
         "object": "2021年7月16日新闻发布会",
         "occurredAt": "2021-07-16"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
+    }
+  },
+  {
+    "id": "src-chr6du",
+    "title": "国务院研究室",
+    "summary": "国务院研究室",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2018-06-22T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "中国生态环境部新闻",
+    "sourceUrl": "https://www.mee.gov.cn/ywdt/hjywnews/",
+    "articleUrl": "https://www.gov.cn/guoqing/2018-06/22/content_5300522.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "国务院研究室",
+    "summaryZh": "国务院研究室",
+    "recommended": false,
+    "recommendReason": "国务院研究室。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "pipeline": {
+      "score": 2,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-pdc82d",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "国务院研究室",
+        "subject": "中国生态环境部新闻",
+        "action": "发布",
+        "object": "国务院研究室",
+        "occurredAt": "2018-06-22"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"

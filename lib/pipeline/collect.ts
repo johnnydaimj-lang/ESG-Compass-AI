@@ -124,6 +124,26 @@ function extractDate(text: string): string | null {
   return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
 }
 
+function extractDateFromUrl(url: string): string | null {
+  const match = String(url || "").match(/(20\d{2})[-/](\d{1,2})[-/](\d{1,2})/);
+  if (match) {
+    const month = Number(match[2]);
+    const day = Number(match[3]);
+    if (month >= 1 && month <= 12 && day >= 1 && day <= 31) {
+      return `${match[1]}-${match[2].padStart(2, "0")}-${match[3].padStart(2, "0")}`;
+    }
+  }
+  const compact = String(url || "").match(/(?:^|[^\d])(20\d{2})(\d{2})(\d{2})(?:[^\d]|$)/);
+  if (compact) {
+    const month = Number(compact[2]);
+    const day = Number(compact[3]);
+    if (month >= 1 && month <= 12 && day >= 1 && day <= 31) {
+      return `${compact[1]}-${compact[2]}-${compact[3]}`;
+    }
+  }
+  return null;
+}
+
 function resolveUrl(href: string, baseUrl: string): string {
   try {
     return new URL(href, baseUrl).toString();
@@ -166,7 +186,7 @@ export async function collectWebpageSource(source: SourceConfig): Promise<RawMat
   if (candidates.length === 0) {
     $("a").each((_, node) => {
       const $a = $(node);
-      const title = compactText($a.text());
+      const title = compactText($a.text() || $a.parent().text());
       const href = $a.attr("href") || "";
       if (!title || title.length < 6 || title.length > 200) return;
       if (SKIP_LINK_TEXT.test(title)) return;
@@ -179,7 +199,7 @@ export async function collectWebpageSource(source: SourceConfig): Promise<RawMat
         return;
       }
       const contextText = `${$a.parent().text()} ${$a.parent().parent().text()}`;
-      const date = extractDate(contextText);
+      const date = extractDate(contextText) || extractDateFromUrl(absolute);
       candidates.push({ title, href: absolute, date, summary: "" });
     });
   }
