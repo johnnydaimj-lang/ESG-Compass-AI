@@ -20,7 +20,7 @@ import { PIPELINE_VERSION } from "@/lib/contracts/pipeline";
 import { clusterMaterials, type ClusterInput } from "@/lib/pipeline/cluster";
 import { classifyContentType } from "@/lib/pipeline/classify";
 import { CURATION_FLOOR, INCREMENTAL_LOOKBACK_HOURS, UNDERSTAND_FLOOR } from "@/lib/pipeline/config";
-import { collectBrowserRenderSource, collectRssSource, collectSecInvestreports, collectWebpageSource, sourceTierFor, type SourceConfig } from "@/lib/pipeline/collect";
+import { closeBrowserRender, collectBrowserRenderSource, collectRssSource, collectSecInvestreports, collectWebpageSource, sourceTierFor, type SourceConfig } from "@/lib/pipeline/collect";
 import { buildDailyReport } from "@/lib/pipeline/daily";
 import { calculateHeat } from "@/lib/pipeline/heat";
 import { prefilterMaterial } from "@/lib/pipeline/prefilter";
@@ -514,6 +514,7 @@ async function main() {
   writePublicationBundle(bundle);
   writeDaily(buildDailyReport(contents, clusters, finishedAt));
   writeHeatHistory({ generatedAt: finishedAt.toISOString(), stories: heatHistoryStories });
+  await closeBrowserRender();
 
   process.stdout.write(
     `ESG Compass v2 pipeline (${mode})\n`
@@ -524,7 +525,8 @@ async function main() {
   if (warnings.length) process.stdout.write(`warnings=${warnings.join(" | ")}\n`);
 }
 
-main().catch((error) => {
+main().catch(async (error) => {
   process.stderr.write(`[pipeline] failed: ${error instanceof Error ? error.stack || error.message : String(error)}\n`);
+  await closeBrowserRender();
   process.exitCode = 1;
 });

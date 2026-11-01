@@ -1,9 +1,7 @@
 import Parser from "rss-parser";
 import { load } from "cheerio";
-import { execFileSync } from "node:child_process";
-import { existsSync, mkdtempSync } from "node:fs";
-import { tmpdir } from "node:os";
-import { join } from "node:path";
+import { existsSync } from "node:fs";
+import { chromium, type Browser } from "playwright-core";
 import type { RawMaterial, SourceTier } from "@/lib/contracts/pipeline";
 import type { ContentItem } from "@/lib/contracts/content";
 import { cleanSummaryText, compactText, stableHash } from "./text";
@@ -261,36 +259,58 @@ const EDGE_PATHS = [
   "C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe",
 ];
 
-function renderWithEdge(url: string, waitMs: number, timeoutMs: number): Promise<string> {
+let sharedBrowser: Browser | null = null;
+
+async function getBrowser(): Promise<Browser> {
+  if (sharedBrowser && sharedBrowser.isConnected()) return sharedBrowser;
   const edge = EDGE_PATHS.find((path) => existsSync(path));
-  if (!edge) return Promise.reject(new Error("未找到 Microsoft Edge，无法执行 browser-render"));
-  const profile = mkdtempSync(join(tmpdir(), "esg-edge-"));
+  if (!edge) throw new Error("未找到 Microsoft Edge，无法执行 browser-render");
+  sharedBrowser = await chromium.launch({
+    executablePath: edge,
+    headless: true,
+    args: ["--no-sandbox", "--disable-gpu"],
+  });
+  return sharedBrowser;
+}
+
+export async function closeBrowserRender(): Promise<void> {
+  if (!sharedBrowser) return;
+  const browser = sharedBrowser;
+  sharedBrowser = null;
+  await browser.close().catch(() => undefined);
+}
+
+async function renderWithPlaywright(
+  url: string,
+  waitMs: number,
+  timeoutMs: number,
+  itemSelector?: string
+): Promise<string> {
+  const browser = await getBrowser();
+  const context = await browser.newContext({
+    userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  });
+  const page = await context.newPage();
   try {
-    const stdout = execFileSync(
-      edge,
-      [
-        "--headless=new",
-        "--disable-gpu",
-        "--no-first-run",
-        "--no-sandbox",
-        `--user-data-dir=${profile}`,
-        "--dump-dom",
-        `--virtual-time-budget=${waitMs}`,
-        url,
-      ],
-      { encoding: "utf8", maxBuffer: 40 * 1024 * 1024, timeout: timeoutMs }
-    );
-    return Promise.resolve(stdout);
-  } catch (error) {
-    // Edge 在部分页面会以非零退出码结束，但仍已输出 DOM；有 HTML 就优先使用。
-    const stdout = (error as { stdout?: string }).stdout;
-    if (stdout && /<html[\s>]/i.test(stdout)) return Promise.resolve(stdout);
-    return Promise.reject(error);
+    await page.goto(url, { waitUntil: "domcontentloaded", timeout: timeoutMs });
+    if (itemSelector) {
+      await page.waitForSelector(itemSelector, { timeout: 15_000 }).catch(() => undefined);
+    }
+    await page.waitForTimeout(waitMs);
+    return await page.content();
+  } finally {
+    await page.close().catch(() => undefined);
+    await context.close().catch(() => undefined);
   }
 }
 
 export async function collectBrowserRenderSource(source: SourceConfig): Promise<RawMaterial[]> {
-  const html = await renderWithEdge(source.url, source.renderWaitMs ?? 8_000, source.timeoutMs ?? 60_000);
+  const html = await renderWithPlaywright(
+    source.url,
+    source.renderWaitMs ?? 5_000,
+    source.timeoutMs ?? 60_000,
+    source.selectors?.item
+  );
   return extractWebpageMaterials(html, source);
 }
 
