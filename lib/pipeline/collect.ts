@@ -1,7 +1,9 @@
 import Parser from "rss-parser";
 import { load } from "cheerio";
-import { execFile } from "node:child_process";
-import { existsSync } from "node:fs";
+import { execFileSync } from "node:child_process";
+import { existsSync, mkdtempSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 import type { RawMaterial, SourceTier } from "@/lib/contracts/pipeline";
 import type { ContentItem } from "@/lib/contracts/content";
 import { cleanSummaryText, compactText, stableHash } from "./text";
@@ -262,26 +264,29 @@ const EDGE_PATHS = [
 function renderWithEdge(url: string, waitMs: number, timeoutMs: number): Promise<string> {
   const edge = EDGE_PATHS.find((path) => existsSync(path));
   if (!edge) return Promise.reject(new Error("未找到 Microsoft Edge，无法执行 browser-render"));
-  return new Promise((resolve, reject) => {
-    execFile(
+  const profile = mkdtempSync(join(tmpdir(), "esg-edge-"));
+  try {
+    const stdout = execFileSync(
       edge,
       [
         "--headless=new",
         "--disable-gpu",
         "--no-first-run",
+        "--no-sandbox",
+        `--user-data-dir=${profile}`,
         "--dump-dom",
         `--virtual-time-budget=${waitMs}`,
         url,
       ],
-      { encoding: "utf8", maxBuffer: 40 * 1024 * 1024, timeout: timeoutMs },
-      (error, stdout) => {
-        // Edge 在部分页面会以非零退出码结束，但仍已输出 DOM；有 HTML 就优先使用。
-        if (stdout && /<html[\s>]/i.test(stdout)) resolve(stdout);
-        else if (error) reject(error);
-        else resolve(stdout || "");
-      }
+      { encoding: "utf8", maxBuffer: 40 * 1024 * 1024, timeout: timeoutMs }
     );
-  });
+    return Promise.resolve(stdout);
+  } catch (error) {
+    // Edge 在部分页面会以非零退出码结束，但仍已输出 DOM；有 HTML 就优先使用。
+    const stdout = (error as { stdout?: string }).stdout;
+    if (stdout && /<html[\s>]/i.test(stdout)) return Promise.resolve(stdout);
+    return Promise.reject(error);
+  }
 }
 
 export async function collectBrowserRenderSource(source: SourceConfig): Promise<RawMaterial[]> {

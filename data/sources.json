@@ -180,7 +180,14 @@
       "enabled": true,
       "notes": "RSS 被屏蔽，改用网页抓取（需浏览器 UA + 重试）",
       "limit": 20,
-      "timeoutMs": 30000
+      "timeoutMs": 30000,
+      "selectors": {
+        "item": "div.display-insights-teaser.teaser-item",
+        "title": "h3.teaser-title a",
+        "link": "h3.teaser-title a",
+        "date": "span.date-region.date",
+        "summary": ".card-teaser-text p"
+      }
     },
     {
       "id": "ssrn-esg",
