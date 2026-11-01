@@ -173,7 +173,7 @@
       "id": "wri-insights",
       "name": "世界资源研究所（WRI）Insights",
       "url": "https://www.wri.org/insights",
-      "type": "webpage",
+      "type": "browser-render",
       "contentType": "观点",
       "region": "全球",
       "language": "en",
@@ -187,7 +187,8 @@
         "link": "h3.teaser-title a",
         "date": "span.date-region.date",
         "summary": ".card-teaser-text p"
-      }
+      },
+      "renderWaitMs": 5000
     },
     {
       "id": "ssrn-esg",

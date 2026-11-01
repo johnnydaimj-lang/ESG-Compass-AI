@@ -119,12 +119,31 @@ export async function collectRssSource(source: SourceConfig): Promise<RawMateria
 const DATE_PATTERN = /(20\d{2})[-/.年](\d{1,2})[-/.月](\d{1,2})/;
 const SKIP_LINK_TEXT = /^(更多|详情|首页|上一页|下一页|末页|English|登录|注册|搜索|网站地图|联系我们|关于我们|版权声明|查看全部|View all|Read more|Learn more|Contact Us|Login|Register|Search|Careers|Privacy|Terms|Accessibility|Who We Are|Directories|Subscription|Profile|My Saved Content|Manage Subscriptions|Edit Profile|Submit RFP|Log error)$/i;
 const NAV_PATH = /^\/(about|contact|login|account|privacy|terms|careers|search|sitemap|rss|feed|subscription|userprofile|accessibility|directories|who-we-are)(\/|$)/i;
+const ENGLISH_MONTHS: Record<string, number> = {
+  january: 1, jan: 1, february: 2, feb: 2, march: 3, mar: 3, april: 4, apr: 4,
+  may: 5, june: 6, jun: 6, july: 7, jul: 7, august: 8, aug: 8,
+  september: 9, sep: 9, sept: 9, october: 10, oct: 10, november: 11, nov: 11,
+  december: 12, dec: 12,
+};
 
 function extractDate(text: string): string | null {
-  const match = String(text || "").match(DATE_PATTERN);
-  if (!match) return null;
-  const [, year, month, day] = match;
-  return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
+  const value = String(text || "");
+  const numeric = value.match(DATE_PATTERN);
+  if (numeric) {
+    const [, year, month, day] = numeric;
+    return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
+  }
+  const english = value.match(
+    /\b(January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\s+(\d{1,2}),?\s+(20\d{2})/i
+  );
+  if (english) {
+    const month = ENGLISH_MONTHS[english[1].toLowerCase()];
+    const day = Number(english[2]);
+    if (month && day >= 1 && day <= 31) {
+      return `${english[3]}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+    }
+  }
+  return null;
 }
 
 function extractDateFromUrl(url: string): string | null {
@@ -171,9 +190,10 @@ function extractWebpageMaterials(html: string, source: SourceConfig): RawMateria
       const $summary = $node.find(selectors.summary || "p").first();
       const title = compactText($title.text() || $link.text());
       const href = $link.attr("href") || $title.attr("href") || "";
+      const absolute = resolveUrl(href, source.url);
       const date = extractDate(`${$date.attr("datetime") || ""} ${$date.text()} ${$node.text()}`);
       const summary = compactText($summary.text());
-      if (title && href) candidates.push({ title, href, date, summary });
+      if (title && absolute.startsWith("http")) candidates.push({ title, href: absolute, date, summary });
     });
   }
 
@@ -289,13 +309,32 @@ async function renderWithPlaywright(
   const browser = await getBrowser();
   const context = await browser.newContext({
     userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    viewport: { width: 1440, height: 900 },
+    locale: "en-US",
   });
   const page = await context.newPage();
   try {
     await page.goto(url, { waitUntil: "domcontentloaded", timeout: timeoutMs });
-    if (itemSelector) {
-      await page.waitForSelector(itemSelector, { timeout: 15_000 }).catch(() => undefined);
+    await page.waitForTimeout(1_000);
+    const consentSelectors = [
+      "#onetrust-accept-btn-handler",
+      "button:has-text('Accept all')",
+      "button:has-text('Accept All')",
+      "button:has-text('Accept')",
+      "button:has-text('同意')",
+      ".cookie-accept",
+    ];
+    for (const selector of consentSelectors) {
+      const button = page.locator(selector).first();
+      if (await button.isVisible().catch(() => false)) {
+        await button.click({ timeout: 2_000 }).catch(() => undefined);
+        break;
+      }
     }
+    if (itemSelector) {
+      await page.waitForSelector(itemSelector, { timeout: 20_000 }).catch(() => undefined);
+    }
+    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight)).catch(() => undefined);
     await page.waitForTimeout(waitMs);
     return await page.content();
   } finally {
