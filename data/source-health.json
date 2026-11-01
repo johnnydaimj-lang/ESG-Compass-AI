@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-01T12:24:17.774Z",
-  "pipelineFinishedAt": "2026-11-01T12:03:29.458Z",
+  "generatedAt": "2026-11-01T14:00:25.395Z",
+  "pipelineFinishedAt": "2026-11-01T12:29:01.082Z",
   "summary": {
-    "total": 65,
+    "total": 77,
     "enabled": 51,
     "healthy": 5,
     "idle": 1,
@@ -10,7 +10,7 @@
     "skipped": 44,
     "unrun": 0,
     "stale": 0,
-    "disabled": 14
+    "disabled": 26
   },
   "sources": [
     {
@@ -21,7 +21,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 eu-presscorner 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -32,7 +32,7 @@
       "health": "idle",
       "reason": "已正常抓取，当前无更新",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "rss"
     },
     {
@@ -43,7 +43,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 sitemap 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -54,7 +54,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -65,7 +65,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -76,7 +76,7 @@
       "health": "degraded",
       "reason": "Request timed out after 20000ms",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "rss"
     },
     {
@@ -87,7 +87,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -98,7 +98,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -109,7 +109,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 10,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "rss"
     },
     {
@@ -120,7 +120,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -131,7 +131,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 api 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -142,7 +142,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 markdown 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -153,7 +153,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -164,7 +164,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -175,7 +175,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -186,7 +186,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -197,7 +197,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -208,7 +208,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -219,7 +219,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 browser-render 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -230,7 +230,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 browser-render 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -241,7 +241,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -252,7 +252,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 worldbank 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -263,7 +263,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 browser-render 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -274,7 +274,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 sitemap 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -285,7 +285,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 50,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "rss"
     },
     {
@@ -296,7 +296,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -307,7 +307,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -318,7 +318,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -329,7 +329,7 @@
       "health": "skipped",
       "reason": "缺少环境变量：SOGOU_COOKIE",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -340,7 +340,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -351,7 +351,7 @@
       "health": "skipped",
       "reason": "缺少环境变量：SOGOU_COOKIE",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -362,7 +362,7 @@
       "health": "skipped",
       "reason": "缺少环境变量：SOGOU_COOKIE",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -373,7 +373,7 @@
       "health": "skipped",
       "reason": "缺少环境变量：SOGOU_COOKIE",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -384,7 +384,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -395,7 +395,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -406,7 +406,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -417,7 +417,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -428,7 +428,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -439,7 +439,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 mofcom 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -450,7 +450,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -461,7 +461,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 7,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "rss"
     },
     {
@@ -472,7 +472,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -483,7 +483,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 50,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "rss"
     },
     {
@@ -494,7 +494,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -505,7 +505,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -516,7 +516,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -527,7 +527,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -538,7 +538,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -549,7 +549,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -560,7 +560,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -571,7 +571,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -582,7 +582,7 @@
       "health": "skipped",
       "reason": "实时模式尚未实现 webpage 适配器，本次沿用快照材料",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -593,7 +593,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -604,7 +604,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -615,7 +615,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -626,7 +626,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -637,7 +637,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -648,7 +648,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -659,7 +659,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -670,7 +670,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -681,7 +681,7 @@
       "health": "skipped",
       "reason": "缺少环境变量：MAILBOX_HOST, MAILBOX_USER, MAILBOX_PASSWORD",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -692,7 +692,7 @@
       "health": "skipped",
       "reason": "缺少环境变量：SOGOU_COOKIE",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -703,7 +703,7 @@
       "health": "skipped",
       "reason": "缺少环境变量：SOGOU_COOKIE",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -714,7 +714,7 @@
       "health": "skipped",
       "reason": "缺少环境变量：SOGOU_COOKIE",
       "count": 0,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "live"
     },
     {
@@ -725,8 +725,140 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 1,
-      "lastFetchAt": "2026-11-01T12:02:50.939Z",
+      "lastFetchAt": "2026-11-01T12:28:25.233Z",
       "channel": "sec-investreport"
+    },
+    {
+      "id": "un-news",
+      "name": "联合国新闻",
+      "type": "webpage",
+      "enabled": false,
+      "health": "disabled",
+      "reason": "信源已停用",
+      "count": 0,
+      "lastFetchAt": null,
+      "channel": ""
+    },
+    {
+      "id": "wmo-news",
+      "name": "世界气象组织（WMO）新闻",
+      "type": "webpage",
+      "enabled": false,
+      "health": "disabled",
+      "reason": "信源已停用",
+      "count": 0,
+      "lastFetchAt": null,
+      "channel": ""
+    },
+    {
+      "id": "gcf-news",
+      "name": "绿色气候基金（GCF）新闻",
+      "type": "webpage",
+      "enabled": false,
+      "health": "disabled",
+      "reason": "信源已停用",
+      "count": 0,
+      "lastFetchAt": null,
+      "channel": ""
+    },
+    {
+      "id": "aiib-news",
+      "name": "亚洲基础设施投资银行（AIIB）新闻",
+      "type": "webpage",
+      "enabled": false,
+      "health": "disabled",
+      "reason": "信源已停用",
+      "count": 0,
+      "lastFetchAt": null,
+      "channel": ""
+    },
+    {
+      "id": "cbd-news",
+      "name": "联合国生物多样性公约（CBD）新闻",
+      "type": "webpage",
+      "enabled": false,
+      "health": "disabled",
+      "reason": "信源已停用",
+      "count": 0,
+      "lastFetchAt": null,
+      "channel": ""
+    },
+    {
+      "id": "carbon-brief",
+      "name": "Carbon Brief",
+      "type": "rss",
+      "enabled": false,
+      "health": "disabled",
+      "reason": "信源已停用",
+      "count": 0,
+      "lastFetchAt": null,
+      "channel": ""
+    },
+    {
+      "id": "state-grid-news",
+      "name": "国家电网新闻",
+      "type": "webpage",
+      "enabled": false,
+      "health": "disabled",
+      "reason": "信源已停用",
+      "count": 0,
+      "lastFetchAt": null,
+      "channel": ""
+    },
+    {
+      "id": "finance-biodiversity",
+      "name": "Finance for Biodiversity Foundation",
+      "type": "webpage",
+      "enabled": false,
+      "health": "disabled",
+      "reason": "信源已停用",
+      "count": 0,
+      "lastFetchAt": null,
+      "channel": ""
+    },
+    {
+      "id": "citi-news",
+      "name": "花旗集团新闻",
+      "type": "webpage",
+      "enabled": false,
+      "health": "disabled",
+      "reason": "信源已停用",
+      "count": 0,
+      "lastFetchAt": null,
+      "channel": ""
+    },
+    {
+      "id": "google-blog",
+      "name": "Google 官方博客",
+      "type": "rss",
+      "enabled": false,
+      "health": "disabled",
+      "reason": "信源已停用",
+      "count": 0,
+      "lastFetchAt": null,
+      "channel": ""
+    },
+    {
+      "id": "terradot-news",
+      "name": "Terradot 新闻",
+      "type": "webpage",
+      "enabled": false,
+      "health": "disabled",
+      "reason": "信源已停用",
+      "count": 0,
+      "lastFetchAt": null,
+      "channel": ""
+    },
+    {
+      "id": "finnish-police",
+      "name": "芬兰警方新闻",
+      "type": "webpage",
+      "enabled": false,
+      "health": "disabled",
+      "reason": "信源已停用",
+      "count": 0,
+      "lastFetchAt": null,
+      "channel": ""
     }
   ]
 }
