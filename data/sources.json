@@ -817,6 +817,34 @@
       "recoveryPlan": "已按官方网页列表接入"
     },
     {
+      "id": "csrc-announcements",
+      "name": "中国证监会公告",
+      "url": "https://www.csrc.gov.cn/",
+      "type": "webpage",
+      "contentType": "政策",
+      "region": "中国",
+      "language": "zh",
+      "enabled": true,
+      "selectors": {
+        "item": ".tab-list li",
+        "title": "a",
+        "link": "a",
+        "date": ".time",
+        "summary": "a"
+      },
+      "linkPatterns": [
+        "^https://www\\.csrc\\.gov\\.cn/csrc/c101954/c\\d+/content\\.shtml$"
+      ],
+      "followArticleMetadata": true,
+      "preferBodyDate": true,
+      "maxArticleFetches": 10,
+      "recencyDays": 90,
+      "limit": 20,
+      "notes": "证监会公告栏目；进入公告正文读取落款日期，避免把网站转载日期当作政策发布日期。",
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "已按证监会公告正文接入"
+    },
+    {
       "id": "hkex-news",
       "name": "香港交易所新闻稿",
       "url": "https://www.hkex.com.hk/Services/RSS-Feeds/News-Releases?sc_lang=en",

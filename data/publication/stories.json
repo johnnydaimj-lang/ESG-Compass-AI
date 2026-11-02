@@ -8920,6 +8920,46 @@
     ]
   },
   {
+    "id": "story-18ys216",
+    "rootId": "src-18v6xbx",
+    "title": "【第11号公告】《关于实施〈期货公司监督管理办法〉有关事项的公告》",
+    "digest": "中国证券监督管理委员会公告 〔2026〕11号 现公布《关于实施〈期货公司监督管理办法〉有关事项的公告》，",
+    "latest": "中国证券监督管理委员会公告 〔2026〕11号 现公布《关于实施〈期货公司监督管理办法〉有关事项的公告》，",
+    "memberIds": [
+      "src-18v6xbx"
+    ],
+    "facts": [
+      {
+        "title": "【第11号公告】《关于实施〈期货公司监督管理办法〉有关事项的",
+        "subject": "中国证监会公告",
+        "action": "发布",
+        "object": "【第11号公告】《关于实施〈期货公司监督管理办法〉有关事项的公告》",
+        "occurredAt": "2026-09-11"
+      }
+    ],
+    "participants": [
+      "csrc-announcements"
+    ],
+    "firstPublishedAt": "2026-09-11T00:00:00.000Z",
+    "latestPublishedAt": "2026-09-11T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-18v6xbx",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会公告"
+    ]
+  },
+  {
     "id": "story-1a5rovf",
     "rootId": "src-jft71i",
     "title": "叠加可能性：成功扩展代理人工智能的蓝图",
@@ -24139,6 +24179,46 @@
     ]
   },
   {
+    "id": "story-u8t89k",
+    "rootId": "src-1lntt05",
+    "title": "【第12号公告】《违规转让证券案件行政处罚实施规则》",
+    "digest": "中国证券监督管理委员会公告 〔2026〕12号 现公布《违规转让证券案件行政处罚实施规则》，自2026年12月1日",
+    "latest": "中国证券监督管理委员会公告 〔2026〕12号 现公布《违规转让证券案件行政处罚实施规则》，自2026年12月1日",
+    "memberIds": [
+      "src-1lntt05"
+    ],
+    "facts": [
+      {
+        "title": "【第12号公告】《违规转让证券案件行政处罚实施规则》",
+        "subject": "中国证监会公告",
+        "action": "处罚",
+        "object": "【第12号公告】《违规转让证券案件行政处罚实施规则》",
+        "occurredAt": "2026-12-01"
+      }
+    ],
+    "participants": [
+      "csrc-announcements"
+    ],
+    "firstPublishedAt": "2026-10-16T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-16T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1lntt05",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会公告"
+    ]
+  },
+  {
     "id": "story-1efvwpp",
     "rootId": "src-84bcqq",
     "title": "Kelvin Wong的新演讲：在IFAPC成立25周年和2026年杰出上市公司奖上的讲话",
@@ -28946,6 +29026,46 @@
     "signalCount": 0,
     "sourceNames": [
       "联合国生物多样性公约（CBD）新闻"
+    ]
+  },
+  {
+    "id": "story-50ei48",
+    "rootId": "src-pfg5ip",
+    "title": "证监会发布《上市公司可持续发展报告电子化规范》等3项行业标准",
+    "digest": "中国证监会发布公告〔2026〕13号，公布《上市公司可持续发展报告电子化规范》（JR/T 0356—2026）等3项金融行业推荐性标准，自2026年10月26日公布之日起施行。该规范对上市公司可持续发展报告的数据元素、分类编码、实例文档生成和文件格式作出统一规定，为ESG报告数据的机器读取、采集和比较提供标准基础。",
+    "latest": "中国证监会发布公告〔2026〕13号，公布《上市公司可持续发展报告电子化规范》（JR/T 0356—2026）等3项金融行业推荐性标准，自2026年10月26日公布之日起施行。该规范对上市公司可持续发展报告的数据元素、分类编码、实例文档生成和文件格式作出统一规定，为ESG报告数据的机器读取、采集和比较提供标准基础。",
+    "memberIds": [
+      "src-pfg5ip"
+    ],
+    "facts": [
+      {
+        "title": "【第13号公告】《〈上市公司可持续发展报告电子化规范〉等3项",
+        "subject": "中国证监会公告",
+        "action": "发布",
+        "object": "【第13号公告】《〈上市公司可持续发展报告电子化规范〉等3项行业标准》",
+        "occurredAt": "2026-10-26"
+      }
+    ],
+    "participants": [
+      "csrc-announcements"
+    ],
+    "firstPublishedAt": "2026-10-26T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-26T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-pfg5ip",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会公告"
     ]
   },
   {
@@ -39033,6 +39153,46 @@
     "signalCount": 0,
     "sourceNames": [
       "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-7i9dni",
+    "rootId": "src-15v02k6",
+    "title": "Interactive: Who wants what at the COP31 climate change summit",
+    "digest": "Delegates will soon gather in the Turkish resort city of Antalya for UN climate negotiations, against a backdrop of war,… The post Interactive: Who wants what at the COP31 climate change summit appeared first on Carbon Brief .",
+    "latest": "Delegates will soon gather in the Turkish resort city of Antalya for UN climate negotiations, against a backdrop of war,… The post Interactive: Who wants what at the COP31 climate change summit appeared first on Carbon Brief .",
+    "memberIds": [
+      "src-15v02k6"
+    ],
+    "facts": [
+      {
+        "title": "Interactive: Who wants what at",
+        "subject": "Carbon Brief",
+        "action": "发布",
+        "object": "Interactive: Who wants what at the COP31 climate change summit",
+        "occurredAt": "2026-11-02"
+      }
+    ],
+    "participants": [
+      "carbon-brief"
+    ],
+    "firstPublishedAt": "2026-11-02T16:57:31.000Z",
+    "latestPublishedAt": "2026-11-02T16:57:31.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-15v02k6",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Carbon Brief"
     ]
   }
 ]

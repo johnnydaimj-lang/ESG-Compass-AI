@@ -59,3 +59,11 @@ test("article metadata reads embedded CMS publishing dates", () => {
   `;
   assert.equal(extractArticleMetadata(html, NOW).publishedAt, "2025-10-01T00:00:00.000Z");
 });
+
+test("article metadata can prefer the document signing date in the body", () => {
+  const html = `
+    <html><head><meta property="og:title" content="CSRC notice"></head>
+    <body><p>中国证监会</p><p>2026年10月26日</p></body></html>
+  `;
+  assert.equal(extractArticleMetadata(html, NOW, true).publishedAt, "2026-10-26T00:00:00.000Z");
+});

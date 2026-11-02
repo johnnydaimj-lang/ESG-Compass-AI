@@ -93,6 +93,10 @@ export function writePublishedContents(contents: ContentItem[]): void {
   writeJson(CONTENTS_FILE, contents);
 }
 
+export function writeStories(stories: StoryCluster[]): void {
+  writeJson(STORIES_FILE, stories);
+}
+
 export function writeDaily(report: DailyReport): void {
   writeJson(DAILY_FILE, report);
 }

@@ -29,6 +29,7 @@ export interface SourceConfig {
   followArticleMetadata?: boolean;
   maxArticleFetches?: number;
   useDefaultUserAgent?: boolean;
+  preferBodyDate?: boolean;
   selectors?: {
     item?: string;
     title?: string;
@@ -365,14 +366,16 @@ export function extractWebpageMaterials(html: string, source: SourceConfig, allo
     });
     if (items.length >= limit) break;
   }
-  if (source.recencyDays && source.recencyDays > 0) {
-    const cutoff = Date.now() - source.recencyDays * 24 * 3_600_000;
-    return items.filter((item) => {
-      const published = Date.parse(item.publishedAt);
-      return Number.isFinite(published) && published >= cutoff;
-    });
-  }
   return items;
+}
+
+function filterByRecency(items: RawMaterial[], source: SourceConfig): RawMaterial[] {
+  if (!source.recencyDays || source.recencyDays <= 0) return items;
+  const cutoff = Date.now() - source.recencyDays * 24 * 3_600_000;
+  return items.filter((item) => {
+    const published = Date.parse(item.publishedAt);
+    return Number.isFinite(published) && published >= cutoff;
+  });
 }
 
 export interface ArticleMetadata {
@@ -388,7 +391,11 @@ function jsonLdNodes(value: unknown): Record<string, unknown>[] {
   return [node, ...jsonLdNodes(node["@graph"])];
 }
 
-export function extractArticleMetadata(html: string, now = Date.now()): ArticleMetadata {
+export function extractArticleMetadata(
+  html: string,
+  now = Date.now(),
+  preferBodyDate = false,
+): ArticleMetadata {
   const $ = load(html);
   let jsonLdTitle = "";
   let jsonLdSummary = "";
@@ -410,7 +417,13 @@ export function extractArticleMetadata(html: string, now = Date.now()): ArticleM
   const meta = (selectors: string[]) => selectors
     .map((selector) => $(selector).attr("content") || $(selector).attr("datetime") || "")
     .find(Boolean) || "";
-  const rawDate = jsonLdDate
+  const bodyDates = preferBodyDate
+    ? [...html.matchAll(/(20\d{2})年(\d{1,2})月(\d{1,2})日/g)]
+      .map((match) => `${match[1]}-${match[2].padStart(2, "0")}-${match[3].padStart(2, "0")}`)
+      .filter((date) => isPlausiblePublishedDate(`${date}T00:00:00.000Z`, now))
+    : [];
+  const rawDate = bodyDates.at(-1)
+    || jsonLdDate
     || html.match(/"datePublished"\s*:\s*"([^"]+)"/i)?.[1]
     || html.match(/"publishDate"\s*:\s*"([^"]+)"/i)?.[1]
     || meta(['meta[property="article:published_time"]', 'meta[name="pubdate"]', 'meta[itemprop="datePublished"]'])
@@ -425,13 +438,22 @@ export function extractArticleMetadata(html: string, now = Date.now()): ArticleM
   const title = cleanSummaryText(
     jsonLdTitle
     || meta(['meta[property="og:title"]', 'meta[name="twitter:title"]'])
+    || meta(['meta[name="ArticleTitle"]'])
     || $("h1").first().text()
   );
-  const summary = cleanSummaryText(
+  const metaSummary = cleanSummaryText(
     jsonLdSummary
     || meta(['meta[name="description"]', 'meta[property="og:description"]'])
-    || $("main p, article p, p").first().text()
+    || meta(['meta[name="Description"]'])
   );
+  const bodySummary = cleanSummaryText(
+    $(".detail-news p, main p, article p, p")
+      .slice(0, 5)
+      .map((_, node) => $(node).text())
+      .get()
+      .join(" "),
+  );
+  const summary = bodySummary.length > metaSummary.length ? bodySummary : metaSummary;
   return { title, summary, publishedAt };
 }
 
@@ -448,8 +470,16 @@ async function enrichArticleMetadata(items: RawMaterial[], source: SourceConfig)
         },
         signal: AbortSignal.timeout(source.timeoutMs ?? 25_000),
       });
-      if (!res.ok) continue;
-      const metadata = extractArticleMetadata(await res.text());
+      if (!res.ok) {
+        if (process.env.DEBUG_SOURCE === source.id) {
+          process.stderr.write(`[article:${source.id}] ${res.status} ${item.articleUrl}\n`);
+        }
+        continue;
+      }
+      const metadata = extractArticleMetadata(await res.text(), Date.now(), Boolean(source.preferBodyDate));
+      if (process.env.DEBUG_SOURCE === source.id) {
+        process.stderr.write(`[article:${source.id}] ${metadata.publishedAt || "no-date"} ${item.articleUrl}\n`);
+      }
       if (!metadata.publishedAt || !isPlausiblePublishedDate(metadata.publishedAt)) continue;
       item.publishedAt = metadata.publishedAt;
       item.title = metadata.title || item.title;
@@ -478,7 +508,8 @@ export async function collectWebpageSource(source: SourceConfig): Promise<RawMat
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const items = extractWebpageMaterials(await res.text(), source, Boolean(source.followArticleMetadata));
-  return source.followArticleMetadata ? enrichArticleMetadata(items, source) : items;
+  const result = source.followArticleMetadata ? await enrichArticleMetadata(items, source) : items;
+  return filterByRecency(result, source);
 }
 
 const EDGE_PATHS = [
@@ -576,7 +607,8 @@ export async function collectBrowserRenderSource(source: SourceConfig): Promise<
   if (process.env.DEBUG_SOURCE === source.id) {
     process.stderr.write(`[render:${source.id}] html=${html.length} teaser=${html.includes("news-teaser")} date=${html.includes("info-container")} sample=${html.slice(0, 240).replace(/\s+/g, " ")}\n`);
   }
-  return source.followArticleMetadata ? enrichArticleMetadata(items, source) : items;
+  const result = source.followArticleMetadata ? await enrichArticleMetadata(items, source) : items;
+  return filterByRecency(result, source);
 }
 
 const SEC_BASE = "https://www.sec.gov";
