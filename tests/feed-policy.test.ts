@@ -2,7 +2,8 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import type { ContentItem } from "../lib/contracts/content";
-import { buildStorySourceCounts, collapseByStory, isFeedEligible } from "../lib/feed-policy";
+import { collapseByStory, isFeedEligible } from "../lib/feed-policy";
+import { buildDailyReport } from "../lib/pipeline/daily";
 
 function item(
   id: string,
@@ -36,15 +37,16 @@ function item(
   };
 }
 
-test("低分内容默认不可见，但多源报道的故事可重新进入", () => {
+test("低分内容即使多源聚类也不进入公开列表", () => {
   const single = item("low-single", 20, "Source A");
   const multiA = item("low-a", 20, "Source A", "story-multi");
   const multiB = item("low-b", 22, "Source B", "story-multi", "2026-10-28T01:00:00.000Z");
-  const counts = buildStorySourceCounts([single, multiA, multiB]);
 
-  assert.equal(isFeedEligible(single, counts), false);
-  assert.equal(isFeedEligible(multiA, counts), true);
-  assert.equal(isFeedEligible(multiB, counts), true);
+  assert.equal(isFeedEligible(single), false);
+  assert.equal(isFeedEligible(multiA), false);
+  assert.equal(isFeedEligible(multiB), false);
+  assert.equal(isFeedEligible(item("threshold", 30, "Source A")), true);
+  assert.equal(isFeedEligible({ ...single, pipeline: undefined }), false);
 });
 
 test("同一故事簇只保留一个代表条目，优先最早发布", () => {
@@ -54,5 +56,14 @@ test("同一故事簇只保留一个代表条目，优先最早发布", () => {
 
   assert.equal(collapsed.length, 1);
   assert.equal(collapsed[0].id, "earliest");
+});
+
+test("日报只保留达到公开门槛的内容", () => {
+  const low = item("low", 20, "Source A");
+  const high = item("high", 80, "Source B");
+  const report = buildDailyReport([low, high], [], new Date("2026-10-28T12:00:00.000Z"));
+
+  assert.deepEqual(report.highlights.map((entry) => entry.id), ["high"]);
+  assert.deepEqual(report.sections.flatMap((section) => section.items).map((entry) => entry.id), ["high"]);
 });
 

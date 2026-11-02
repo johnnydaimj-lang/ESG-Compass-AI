@@ -1,5 +1,6 @@
 import type { ContentItem } from "@/lib/contracts/content";
 import type { DailyReport, DailyReportItem, DailyReportSection, StoryCluster } from "@/lib/contracts/pipeline";
+import { isFeedEligible } from "@/lib/feed-policy";
 
 const SECTION_LABELS: Record<string, string> = {
   政策: "政策",
@@ -31,10 +32,12 @@ export function buildDailyReport(
   stories: StoryCluster[],
   generatedAt: Date,
 ): DailyReport {
-  const dates = contents.map((item) => item.publishedAt.slice(0, 10)).sort();
+  const eligibleContents = contents.filter((item) => isFeedEligible(item));
+  const eligibleIds = new Set(eligibleContents.map((item) => item.id));
+  const dates = eligibleContents.map((item) => item.publishedAt.slice(0, 10)).sort();
   const date = dates[dates.length - 1] || "";
-  const dayItems = contents.filter((item) => item.publishedAt.slice(0, 10) === date);
-  const pool = dayItems.length > 0 ? dayItems : contents;
+  const dayItems = eligibleContents.filter((item) => item.publishedAt.slice(0, 10) === date);
+  const pool = dayItems.length > 0 ? dayItems : eligibleContents;
 
   const grouped = new Map<string, ContentItem[]>();
   for (const item of pool) {
@@ -54,7 +57,7 @@ export function buildDailyReport(
   const highlights = pool.slice().sort(byScoreDesc).slice(0, 5).map(toItem);
 
   const storyClusters = stories
-    .filter((story) => story.memberIds.length >= 2)
+    .filter((story) => story.memberIds.length >= 2 && story.memberIds.some((id) => eligibleIds.has(id)))
     .sort((a, b) => b.heat - a.heat || b.latestPublishedAt.localeCompare(a.latestPublishedAt))
     .slice(0, 10);
 

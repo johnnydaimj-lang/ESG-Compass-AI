@@ -3,7 +3,7 @@ import { ArrowRight, BookOpen } from "lucide-react";
 import { getAllZones } from "@/lib/zones-store";
 import { getRegulationsForZone } from "@/lib/regulations";
 import { getAllContents } from "@/lib/esg-data";
-import { buildStorySourceCounts, isFeedEligible } from "@/lib/feed-policy";
+import { isFeedEligible } from "@/lib/feed-policy";
 import { recentCutoffDate, zoneMatches } from "@/lib/zones-data";
 
 export const dynamic = "force-dynamic";
@@ -11,7 +11,6 @@ export const dynamic = "force-dynamic";
 export default function ZonesPage() {
   const zones = getAllZones();
   const allContents = getAllContents();
-  const sourceCounts = buildStorySourceCounts(allContents);
   const cutoff = recentCutoffDate(30);
 
   return (
@@ -25,7 +24,7 @@ export default function ZonesPage() {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {zones.map((zone) => {
           const recentEvents = allContents.filter(
-            (c) => c.publishedAt >= cutoff && isFeedEligible(c, sourceCounts) && zoneMatches(zone, c)
+            (c) => c.publishedAt >= cutoff && isFeedEligible(c) && zoneMatches(zone, c)
           );
           const regCount = getRegulationsForZone(zone.id, 50).filter((r) => r.publishedAt >= cutoff).length;
           return (

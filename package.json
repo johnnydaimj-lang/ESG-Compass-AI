@@ -17,6 +17,7 @@
     "enrich:leads": "tsx scripts/enrich-leads.ts",
     "enrich:bodies": "tsx scripts/enrich-bodies.ts",
     "fix:summaries": "tsx scripts/fix-summaries.ts",
+    "daily:rebuild": "tsx scripts/rebuild-daily.ts",
     "trace:upstream": "tsx scripts/trace-upstream.ts",
     "wechat:check": "tsx scripts/wechat/check-config.ts",
     "wechat:status": "tsx scripts/wechat/status.ts",

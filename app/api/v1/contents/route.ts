@@ -4,6 +4,7 @@ import { sliceLongText, CONTENT_API_TOKEN_BUDGET, CONTENT_API_SLICE_CHARS } from
 import { queryContents, type ContentQuery } from "@/lib/publication-query";
 import type { ContentType } from "@/lib/contracts/content";
 import { getZonesByEventId, getZonesForContent } from "@/lib/zones-store";
+import { isFeedEligible } from "@/lib/feed-policy";
 
 export const dynamic = "force-dynamic";
 
@@ -51,7 +52,7 @@ export async function GET(request: Request) {
     excludeDrafts: true,
   };
 
-  let items = queryContents(getAllContents(), query);
+  let items = queryContents(getAllContents().filter((item) => isFeedEligible(item)), query);
   if (zoneId) items = items.filter((c) => zonesForItem(c).some((z) => z.id === zoneId));
 
   const total = items.length;

@@ -365,9 +365,21 @@ export default function HomeClient({
   const [showAll, setShowAll] = useState(false);
   const CUTOFF = 20;
 
+  const eligibleContentIds = useMemo(
+    () => new Set(contents.filter((item) => isFeedEligible(item)).map((item) => item.id)),
+    [contents],
+  );
+
   const hotspotIds = useMemo(
-    () => [...new Set((hotspots || []).flatMap((story) => story.memberIds))],
-    [hotspots]
+    () => [...new Set((hotspots || [])
+      .filter((story) => story.memberIds.some((id) => eligibleContentIds.has(id)))
+      .flatMap((story) => story.memberIds))],
+    [eligibleContentIds, hotspots]
+  );
+
+  const visibleHotspots = useMemo(
+    () => (hotspots || []).filter((story) => story.memberIds.some((id) => eligibleContentIds.has(id))),
+    [eligibleContentIds, hotspots],
   );
 
   const months = useMemo(
@@ -385,8 +397,8 @@ export default function HomeClient({
       recommended: pickedOnly ? true : undefined,
       month: month || undefined,
     });
-    return collapseByStory(items.filter((item) => isFeedEligible(item, sourceCounts)));
-  }, [contents, deferredQuery, month, pickedOnly, sourceCounts, type]);
+    return collapseByStory(items.filter((item) => isFeedEligible(item)));
+  }, [contents, deferredQuery, month, pickedOnly, type]);
 
   const cappedPool = useMemo(() => {
     const pool = visible.filter((item) => item.academicExcluded !== true);
@@ -529,7 +541,7 @@ export default function HomeClient({
         )}
       </header>
 
-      <HotTopics hotspots={hotspots} heatHistory={heatHistory} />
+      <HotTopics hotspots={visibleHotspots} heatHistory={heatHistory} />
 
       <section
         aria-label="内容筛选"
