@@ -1,56 +1,56 @@
 {
-  "date": "2026-11-01",
-  "generatedAt": "2026-11-01T15:26:03.320Z",
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T16:36:05.594Z",
   "highlights": [
     {
-      "id": "src-89oe69",
-      "title": "今日ESG：一周回顾",
-      "summary": "本周ESG新闻：欧盟委员会推出气候适应力框架；",
+      "id": "src-n8jukm",
+      "title": "绿色气候基金批准创纪录的 33 亿美元气候投资",
+      "summary": "联合国支持的绿色气候基金（GCF）在董事会会议上批准为21个项目提供近20亿美元气候融资，使其2026年批准总额达到创纪录的33亿美元。",
       "sourceName": "ESG Today（全球 ESG 新闻）",
       "contentType": "观点",
       "region": "全球",
-      "publishedAt": "2026-11-01T10:24:42.000Z",
-      "score": 20
+      "publishedAt": "2026-11-02T10:25:47.000Z",
+      "score": 70
     },
     {
-      "id": "src-1mxajcn",
-      "title": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
-      "summary": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+      "id": "src-140fzjh",
+      "title": "巴西在取消强制要求仅数月后重新考虑强制性可持续发展报告",
+      "summary": "巴西证券交易委员会（CVM）启动新一轮公众咨询，讨论其即将实施的可持续与气候相关报告制度，并征求对强制披露、逐步设定义务或仅强制气候报告等方案的意见。",
+      "sourceName": "ESG Today（全球 ESG 新闻）",
+      "contentType": "观点",
+      "region": "全球",
+      "publishedAt": "2026-11-02T14:42:16.000Z",
+      "score": 58
+    },
+    {
+      "id": "src-11jja",
+      "title": "习近平对进一步做好黄河保护治理工作作出重要指示",
+      "summary": "习近平对进一步做好黄河保护治理工作作出重要指示",
       "sourceName": "中央网信办政策与要闻",
       "contentType": "政策",
       "region": "中国",
-      "publishedAt": "2026-11-01T00:00:00.000Z",
-      "score": 18
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "score": 57
     },
     {
-      "id": "src-18qrtgx",
-      "title": "生态环境部一周要闻（10.25—10.31）",
-      "summary": "生态环境部一周要闻（10.25—10.31）",
-      "sourceName": "中国生态环境部新闻",
-      "contentType": "政策",
-      "region": "中国",
-      "publishedAt": "2026-11-01T00:00:00.000Z",
-      "score": 13
+      "id": "src-c3h4u",
+      "title": "土壤排放大量温室气体。其背后原因何在",
+      "summary": "土壤所储存的碳超过全球所有树木与大气层的总和。新研究表明，由于土地利用变化和扰动，2016年至2024年间土壤每年排放约39亿公吨温室气体。",
+      "sourceName": "世界资源研究所（WRI）Insights",
+      "contentType": "观点",
+      "region": "全球",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "score": 51
     },
     {
-      "id": "src-cnsflu",
-      "title": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
-      "summary": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
-      "sourceName": "中央网信办政策与要闻",
+      "id": "src-isy10r",
+      "title": "香港交易所的上市衍生产品结算所开始接受中国政府债券、政策性银行债券和财政部债券作为抵押品",
+      "summary": "香港交易所的上市衍生产品结算所开始接受中国政府债券、政策性银行债券和财政部债券作为抵押品",
+      "sourceName": "香港交易所新闻稿",
       "contentType": "政策",
-      "region": "中国",
-      "publishedAt": "2026-11-01T00:00:00.000Z",
-      "score": 10
-    },
-    {
-      "id": "src-1jep1lp",
-      "title": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评",
-      "summary": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评",
-      "sourceName": "中央网信办政策与要闻",
-      "contentType": "政策",
-      "region": "中国",
-      "publishedAt": "2026-11-01T00:00:00.000Z",
-      "score": 8
+      "region": "香港",
+      "publishedAt": "2026-11-02T09:17:00.000Z",
+      "score": 50
     }
   ],
   "sections": [
@@ -58,44 +58,434 @@
       "label": "政策",
       "items": [
         {
-          "id": "src-1mxajcn",
-          "title": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
-          "summary": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+          "id": "src-11jja",
+          "title": "习近平对进一步做好黄河保护治理工作作出重要指示",
+          "summary": "习近平对进一步做好黄河保护治理工作作出重要指示",
           "sourceName": "中央网信办政策与要闻",
           "contentType": "政策",
           "region": "中国",
-          "publishedAt": "2026-11-01T00:00:00.000Z",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 57
+        },
+        {
+          "id": "src-isy10r",
+          "title": "香港交易所的上市衍生产品结算所开始接受中国政府债券、政策性银行债券和财政部债券作为抵押品",
+          "summary": "香港交易所的上市衍生产品结算所开始接受中国政府债券、政策性银行债券和财政部债券作为抵押品",
+          "sourceName": "香港交易所新闻稿",
+          "contentType": "政策",
+          "region": "香港",
+          "publishedAt": "2026-11-02T09:17:00.000Z",
+          "score": 50
+        },
+        {
+          "id": "src-kymlc",
+          "title": "福建省工业和信息化厅 福建省发展和改革委员会 福建省通信管理局关于组织开展2026年度国家绿色算力设施推荐工作的通知",
+          "summary": "福建省工业和信息化厅 福建省发展和改革委员会 福建省通信管理局关于组织开展2026年度国家绿色算力设施推荐工作的通知",
+          "sourceName": "福建省工业和信息化厅",
+          "contentType": "政策",
+          "region": "中国福建",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 48
+        },
+        {
+          "id": "src-1gfd1ir",
+          "title": "证监会欢迎香港交易所扩大中国政府债券作为保证金抵押品的使用范围",
+          "summary": "证监会欢迎香港交易所扩大中国政府债券作为保证金抵押品的使用范围",
+          "sourceName": "香港证监会（SFC）新闻稿",
+          "contentType": "政策",
+          "region": "香港",
+          "publishedAt": "2026-11-02T00:40:00.000Z",
+          "score": 45
+        },
+        {
+          "id": "src-y6v16q",
+          "title": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
+          "summary": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
+          "sourceName": "上海市发展和改革委员会",
+          "contentType": "政策",
+          "region": "中国上海",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 40
+        },
+        {
+          "id": "src-1hnpeo",
+          "title": "国家发展改革委与阿曼有关部门签署北斗卫星等合作文件",
+          "summary": "国家发展改革委与阿曼有关部门签署北斗卫星等合作文件",
+          "sourceName": "国家发改委新闻动态",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 22
+        },
+        {
+          "id": "src-y00k0k",
+          "title": "证监会调查显示人工智能应用更广泛，负责任扩展面临挑战",
+          "summary": "证监会调查显示人工智能应用更广泛",
+          "sourceName": "香港证监会（SFC）新闻稿",
+          "contentType": "政策",
+          "region": "香港",
+          "publishedAt": "2026-11-02T04:07:53.000Z",
+          "score": 21
+        },
+        {
+          "id": "src-ig6hfk",
+          "title": "省属国企如何再造“增长曲线”？",
+          "summary": "省属国企如何再造“增长曲线”？",
+          "sourceName": "福建省工业和信息化厅",
+          "contentType": "政策",
+          "region": "中国福建",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 20
+        },
+        {
+          "id": "src-c3snqf",
+          "title": "数智赋能信息化监管 提升注册会计师行业监管效率和水平——新注册会计师...",
+          "summary": "数智赋能信息化监管 提升注册会计师行业监管效率和水平——新注册会计师...",
+          "sourceName": "财政部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 19
+        },
+        {
+          "id": "src-1hmcztw",
+          "title": "香港交易所将延长衍生产品收市后交易时段",
+          "summary": "香港交易所将延长衍生产品收市后交易时段",
+          "sourceName": "香港交易所新闻稿",
+          "contentType": "政策",
+          "region": "香港",
+          "publishedAt": "2026-11-02T08:55:00.000Z",
           "score": 18
         },
         {
-          "id": "src-18qrtgx",
-          "title": "生态环境部一周要闻（10.25—10.31）",
-          "summary": "生态环境部一周要闻（10.25—10.31）",
-          "sourceName": "中国生态环境部新闻",
+          "id": "src-pawsyu",
+          "title": "中国人民银行 金融监管总局 中国证监会召开支持资本市场两项工具座谈会",
+          "summary": "中国人民银行 金融监管总局 中国证监会召开支持资本市场两项工具座谈会",
+          "sourceName": "中国人民银行公告",
           "contentType": "政策",
           "region": "中国",
-          "publishedAt": "2026-11-01T00:00:00.000Z",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 18
+        },
+        {
+          "id": "src-17xmhl6",
+          "title": "刘健主任、陈彦峰副主任出席解读《上海市推动中小企业高质量发展行动方案》新闻发布会",
+          "summary": "刘健主任、陈彦峰副主任出席解读《上海市推动中小企业高质量发展行动方案》新闻发布会",
+          "sourceName": "上海市发展和改革委员会",
+          "contentType": "政策",
+          "region": "中国上海",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 18
+        },
+        {
+          "id": "src-wv2ult",
+          "title": "郑栅洁主任会见澳大利亚西澳州州长库克并签署合作文件",
+          "summary": "郑栅洁主任会见澳大利亚西澳州州长库克并签署合作文件",
+          "sourceName": "国家发改委新闻动态",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 15
+        },
+        {
+          "id": "src-1h77i2c",
+          "title": "上海市汽车置换更新补贴政策（新能源）补充名单公示",
+          "summary": "上海市汽车置换更新补贴政策（新能源）补充名单公示",
+          "sourceName": "上海市发展和改革委员会",
+          "contentType": "政策",
+          "region": "中国上海",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 15
+        },
+        {
+          "id": "src-1jr015t",
+          "title": "蓝佛安出席2026年中亚经济合作天山论坛开幕式",
+          "summary": "蓝佛安出席2026年中亚经济合作天山论坛开幕式",
+          "sourceName": "财政部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 15
+        },
+        {
+          "id": "src-swnjs1",
+          "title": "财政部天津监管局：坚持高位统筹 精准发力 推动过紧日子监督加力提效",
+          "summary": "财政部天津监管局：坚持高位统筹 精准发力 推动过紧日子监督加力提效",
+          "sourceName": "财政部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
           "score": 13
         },
         {
-          "id": "src-cnsflu",
-          "title": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
-          "summary": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
-          "sourceName": "中央网信办政策与要闻",
+          "id": "src-vg5k4k",
+          "title": "财政部云南监管局：立足属地监管职能抓实财政金融监管激活云岭大地消费动能",
+          "summary": "财政部云南监管局：立足属地监管职能抓实财政金融监管激活云岭大地消费动能",
+          "sourceName": "财政部政策发布",
           "contentType": "政策",
           "region": "中国",
-          "publishedAt": "2026-11-01T00:00:00.000Z",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 13
+        },
+        {
+          "id": "src-1hwdls1",
+          "title": "中共国家发展改革委党组召开扩大会议传达学习贯彻党的二十届五中全会精神",
+          "summary": "中共国家发展改革委党组召开扩大会议传达学习贯彻党的二十届五中全会精神",
+          "sourceName": "国家发改委新闻动态",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 13
+        },
+        {
+          "id": "src-gnub3z",
+          "title": "Elisa Ng 新演讲：在香港金融科技周 x StartmeupHK 2026 上的主题演讲",
+          "summary": "Elisa Ng 新演讲：在香港金融科技周 x StartmeupHK 2026 上的主题演讲",
+          "sourceName": "香港证监会（SFC）新闻稿",
+          "contentType": "政策",
+          "region": "香港",
+          "publishedAt": "2026-11-02T07:51:37.000Z",
+          "score": 12
+        },
+        {
+          "id": "src-o90odj",
+          "title": "Julia Leung 新摘要：在香港金融科技周 2026 上的小组讨论发言",
+          "summary": "Julia Leung 新摘要：在香港金融科技周 2026 上的小组讨论发言",
+          "sourceName": "香港证监会（SFC）新闻稿",
+          "contentType": "政策",
+          "region": "香港",
+          "publishedAt": "2026-11-02T03:58:32.000Z",
+          "score": 12
+        },
+        {
+          "id": "src-1mbtrl4",
+          "title": "周海兵副主任会见法国财政总署署长杜蒙",
+          "summary": "周海兵副主任会见法国财政总署署长杜蒙",
+          "sourceName": "国家发改委新闻动态",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 12
+        },
+        {
+          "id": "src-1l9s70f",
+          "title": "上海市发展和改革委员会关于车用汽、柴油价格的通知（2026年10月29日）",
+          "summary": "上海市发展和改革委员会关于车用汽、柴油价格的通知（2026年10月29日）",
+          "sourceName": "上海市发展和改革委员会",
+          "contentType": "政策",
+          "region": "中国上海",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 11
+        },
+        {
+          "id": "src-gwvbp2",
+          "title": "财政部党组召开会议传达学习党的二十届五中全会精神",
+          "summary": "财政部党组召开会议传达学习党的二十届五中全会精神",
+          "sourceName": "财政部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
           "score": 10
         },
         {
-          "id": "src-1jep1lp",
-          "title": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评",
-          "summary": "执大象而天下往——推动构建网络空间命运共同体迈向新阶段述评",
+          "id": "src-b47afi",
+          "title": "财政部宁波监管局：抓重点 强主业 夯基础 助力财政科学管理提质增效",
+          "summary": "财政部宁波监管局：抓重点 强主业 夯基础 助力财政科学管理提质增效",
+          "sourceName": "财政部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 10
+        },
+        {
+          "id": "src-1wgta6y",
+          "title": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+          "summary": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+          "sourceName": "福建省工业和信息化厅",
+          "contentType": "政策",
+          "region": "中国福建",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 10
+        },
+        {
+          "id": "src-tvjii8",
+          "title": "习近平会见瑞士联邦主席帕姆兰",
+          "summary": "习近平会见瑞士联邦主席帕姆兰",
+          "sourceName": "福建省工业和信息化厅",
+          "contentType": "政策",
+          "region": "中国福建",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 10
+        },
+        {
+          "id": "src-8qqqnf",
+          "title": "勇担历史使命 在新的赶考之路上交出更加优异答卷——与会同志谈贯彻落实党的二十届五中全会精神",
+          "summary": "勇担历史使命 在新的赶考之路上交出更加优异答卷——与会同志谈贯彻落实党的二十届五中全会精神",
+          "sourceName": "福建省工业和信息化厅",
+          "contentType": "政策",
+          "region": "中国福建",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 10
+        },
+        {
+          "id": "src-ul4wp0",
+          "title": "习近平同秘鲁总统藤森庆子就中秘建交55周年互致贺电",
+          "summary": "习近平同秘鲁总统藤森庆子就中秘建交55周年互致贺电",
           "sourceName": "中央网信办政策与要闻",
           "contentType": "政策",
           "region": "中国",
-          "publishedAt": "2026-11-01T00:00:00.000Z",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 10
+        },
+        {
+          "id": "src-bf0ord",
+          "title": "庄荣文：把握数智发展时代潮流 促进网络空间命运与共",
+          "summary": "庄荣文：把握数智发展时代潮流 促进网络空间命运与共",
+          "sourceName": "中央网信办政策与要闻",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 10
+        },
+        {
+          "id": "src-ur22nq",
+          "title": "蓝佛安出席2026年中亚经济合作天山论坛开幕式",
+          "summary": "蓝佛安出席2026年中亚经济合作天山论坛开幕式",
+          "sourceName": "财政部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 10
+        },
+        {
+          "id": "src-1nsetgx",
+          "title": "开源开放结硕果，共建共享启新程：2026年“携手构建网络空间命运共同体”精品案例在乌镇发布",
+          "summary": "开源开放结硕果，共建共享启新程：2026年“携手构建网络空间命运共同体”精品案例在乌镇发布",
+          "sourceName": "中央网信办政策与要闻",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 10
+        },
+        {
+          "id": "src-j9t8g4",
+          "title": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
+          "summary": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
+          "sourceName": "福建省工业和信息化厅",
+          "contentType": "政策",
+          "region": "中国福建",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 9
+        },
+        {
+          "id": "src-1gnbcpa",
+          "title": "全力以赴拼经济 攻坚克难促发展",
+          "summary": "全力以赴拼经济 攻坚克难促发展",
+          "sourceName": "福建省工业和信息化厅",
+          "contentType": "政策",
+          "region": "中国福建",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
           "score": 8
+        },
+        {
+          "id": "src-rm5pio",
+          "title": "2026年世界互联网大会乌镇峰会数字赋能共同富裕示范区建设展示活动在乌镇举行",
+          "summary": "2026年世界互联网大会乌镇峰会数字赋能共同富裕示范区建设展示活动在乌镇举行",
+          "sourceName": "中央网信办政策与要闻",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 8
+        },
+        {
+          "id": "src-qvrqd3",
+          "title": "2026年10月29日国家再次实施调控，成品油价格适当调整",
+          "summary": "2026年10月29日国家再次实施调控，成品油价格适当调整",
+          "sourceName": "国家发改委新闻动态",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 6
+        },
+        {
+          "id": "src-g0fz3i",
+          "title": "习近平同阿曼苏丹海赛姆会谈",
+          "summary": "习近平同阿曼苏丹海赛姆会谈",
+          "sourceName": "中央网信办政策与要闻",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 6
+        },
+        {
+          "id": "src-1um89h1",
+          "title": "走在前作表率 深入推进新时代党的建设新的伟大工程——中央和国家机关、人民团体广大党员干部深入学习贯彻党的二十届五中全会精神坚定走好“第一方阵”",
+          "summary": "走在前作表率 深入推进新时代党的建设新的伟大工程——中央和国家机关、人民团体广大党员干部深入学习贯彻党的二十届五中全会精神坚定走好“第一方阵”",
+          "sourceName": "福建省工业和信息化厅",
+          "contentType": "政策",
+          "region": "中国福建",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 5
+        },
+        {
+          "id": "src-4m9rz2",
+          "title": "2026年世界互联网大会领先科技奖颁奖典礼举行",
+          "summary": "2026年世界互联网大会领先科技奖颁奖典礼举行",
+          "sourceName": "中央网信办政策与要闻",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 5
+        },
+        {
+          "id": "src-5o2788",
+          "title": "关于2026年记账式贴现（七十期）国债发行工作有关事宜的通知",
+          "summary": "关于2026年记账式贴现（七十期）国债发行工作有关事宜的通知",
+          "sourceName": "财政部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 4
+        },
+        {
+          "id": "src-cups1t",
+          "title": "10月下旬，我市蔬菜价格延续降势",
+          "summary": "10月下旬，我市蔬菜价格延续降势",
+          "sourceName": "上海市发展和改革委员会",
+          "contentType": "政策",
+          "region": "中国上海",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 4
+        },
+        {
+          "id": "src-1xe17vh",
+          "title": "关于2026年记账式贴现（七十一期）国债发行工作有关事宜的通知",
+          "summary": "关于2026年记账式贴现（七十一期）国债发行工作有关事宜的通知",
+          "sourceName": "财政部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 3
+        },
+        {
+          "id": "src-1ac37uj",
+          "title": "2026年世界互联网大会“互联网之光”博览会在浙江乌镇开幕",
+          "summary": "2026年世界互联网大会“互联网之光”博览会在浙江乌镇开幕",
+          "sourceName": "中央网信办政策与要闻",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 2
+        },
+        {
+          "id": "src-1brilrj",
+          "title": "订阅更新 每当本网站发布新闻和更新时获取通知。",
+          "summary": "订阅更新 每当本网站发布新闻和更新时获取通知。",
+          "sourceName": "新加坡金管局（MAS）可持续金融",
+          "contentType": "政策",
+          "region": "新加坡",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 0
         }
       ]
     },
@@ -103,28 +493,149 @@
       "label": "观点",
       "items": [
         {
-          "id": "src-89oe69",
-          "title": "今日ESG：一周回顾",
-          "summary": "本周ESG新闻：欧盟委员会推出气候适应力框架；",
+          "id": "src-n8jukm",
+          "title": "绿色气候基金批准创纪录的 33 亿美元气候投资",
+          "summary": "联合国支持的绿色气候基金（GCF）在董事会会议上批准为21个项目提供近20亿美元气候融资，使其2026年批准总额达到创纪录的33亿美元。",
           "sourceName": "ESG Today（全球 ESG 新闻）",
           "contentType": "观点",
           "region": "全球",
-          "publishedAt": "2026-11-01T10:24:42.000Z",
-          "score": 20
+          "publishedAt": "2026-11-02T10:25:47.000Z",
+          "score": 70
+        },
+        {
+          "id": "src-140fzjh",
+          "title": "巴西在取消强制要求仅数月后重新考虑强制性可持续发展报告",
+          "summary": "巴西证券交易委员会（CVM）启动新一轮公众咨询，讨论其即将实施的可持续与气候相关报告制度，并征求对强制披露、逐步设定义务或仅强制气候报告等方案的意见。",
+          "sourceName": "ESG Today（全球 ESG 新闻）",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-11-02T14:42:16.000Z",
+          "score": 58
+        },
+        {
+          "id": "src-c3h4u",
+          "title": "土壤排放大量温室气体。其背后原因何在",
+          "summary": "土壤所储存的碳超过全球所有树木与大气层的总和。新研究表明，由于土地利用变化和扰动，2016年至2024年间土壤每年排放约39亿公吨温室气体。",
+          "sourceName": "世界资源研究所（WRI）Insights",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 51
+        },
+        {
+          "id": "src-tcly9h",
+          "title": "美国银行、SMI、Eurazeo 推出新的生物多样性解决方案基金",
+          "summary": "美国银行、可持续市场倡议（SMI）与法国投资公司Eurazeo共同推出“灯塔倡议”，旨在为自然修复和生物多样性保护项目融资，基金初始承诺规模为4000万美元。",
+          "sourceName": "ESG Today（全球 ESG 新闻）",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-11-02T12:14:13.000Z",
+          "score": 30
+        },
+        {
+          "id": "src-1y39dqu",
+          "title": "APG与Equitix共同向可持续欧洲基础设施投资5亿欧元",
+          "summary": "荷兰养老基金管理公司APG，代表其养老基金客户ABP",
+          "sourceName": "ESG Today（全球 ESG 新闻）",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-11-02T14:06:15.000Z",
+          "score": 22
+        },
+        {
+          "id": "src-9dkqc7",
+          "title": "ESG Playbook推出解决方案，用于量化房地产的气候与能源风险",
+          "summary": "可持续发展与商业风险软件公司ESG Playbook宣布推出其新的房地产",
+          "sourceName": "ESG Today（全球 ESG 新闻）",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-11-02T15:30:47.000Z",
+          "score": 18
+        },
+        {
+          "id": "src-1jh3pr1",
+          "title": "汹涌的海面挤压印度尼西亚东部的渔业生计",
+          "summary": "汹涌的海面挤压印度尼西亚东部的渔业生计",
+          "sourceName": "Eco-Business（亚洲 ESG 新闻）",
+          "contentType": "观点",
+          "region": "亚洲",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 13
+        },
+        {
+          "id": "src-1vh7hxt",
+          "title": "绘制海运燃料转型蓝图",
+          "summary": "绘制海运燃料转型蓝图",
+          "sourceName": "BCG 可持续发展洞察",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 12
+        },
+        {
+          "id": "src-ieuzst",
+          "title": "Osapiens 任命 Stephan de Barse 为总裁",
+          "summary": "总部位于德国的可持续发展软件公司 osapiens 宣布任命 Stephan de Barse 担任新设立的",
+          "sourceName": "ESG Today（全球 ESG 新闻）",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-11-02T11:01:16.000Z",
+          "score": 10
+        },
+        {
+          "id": "src-12567rz",
+          "title": "超越送奶工：人工智能助力医疗科技商业卓越的新攻略",
+          "summary": "超越送奶工：人工智能助力医疗科技商业卓越的新攻略",
+          "sourceName": "BCG 可持续发展洞察",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 6
+        },
+        {
+          "id": "src-uz7d48",
+          "title": "航运业与海港",
+          "summary": "航运业与海港",
+          "sourceName": "BCG 可持续发展洞察",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 5
+        },
+        {
+          "id": "src-nehibg",
+          "title": "编排的艺术：每一次成功整合背后的节奏",
+          "summary": "编排的艺术：每一次成功整合背后的节奏",
+          "sourceName": "BCG 可持续发展洞察",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 4
+        },
+        {
+          "id": "src-1d60twt",
+          "title": "医疗器械与技术",
+          "summary": "医疗器械与技术",
+          "sourceName": "BCG 可持续发展洞察",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 4
+        },
+        {
+          "id": "src-f5akf0",
+          "title": "并购后整合",
+          "summary": "并购后整合",
+          "sourceName": "BCG 可持续发展洞察",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "score": 2
         }
       ]
     }
   ],
   "stories": [
-    {
-      "id": "story-1t0655e",
-      "title": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
-      "summary": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
-      "sourceName": "1 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-11-01T00:00:00.000Z"
-    },
     {
       "id": "story-18eeqhg",
       "title": "财政部党组召开会议传达学习党的二十届五中全会精神",
@@ -132,79 +643,88 @@
       "sourceName": "5 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-10-31T00:00:00.000Z"
+      "publishedAt": "2026-11-02T00:00:00.000Z"
     },
     {
-      "id": "story-rcaah3",
-      "title": "“我将无我，不负人民”的时代答卷",
-      "summary": "“我将无我，不负人民”的时代答卷",
+      "id": "story-1t0655e",
+      "title": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
+      "summary": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
       "sourceName": "2 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-10-30T00:00:00.000Z"
+      "publishedAt": "2026-11-02T00:00:00.000Z"
     },
     {
-      "id": "story-16mthcn",
-      "title": "中智（利）两国央行续签双边本币互换协议",
-      "summary": "中智（利）两国央行续签双边本币互换协议",
+      "id": "story-y9223m",
+      "title": "Julia Leung 新摘要：在香港金融科技周 2026 上的小组讨论发言",
+      "summary": "Julia Leung 新摘要：在香港金融科技周 2026 上的小组讨论发言",
       "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-10-30T00:00:00.000Z"
+      "publishedAt": "2026-11-02T07:51:37.000Z"
     },
     {
-      "id": "story-c0n8gr",
-      "title": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
-      "summary": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
-      "sourceName": "2 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-10-30T00:00:00.000Z"
-    },
-    {
-      "id": "story-x2zd9w",
-      "title": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
-      "summary": "财政部党校召开校委会会议暨第83期处级干部进修班开学典礼",
+      "id": "story-yewmvx",
+      "title": "周海兵副主任会见法国财政总署署长杜蒙",
+      "summary": "周海兵副主任会见法国财政总署署长杜蒙",
       "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-10-29T00:00:00.000Z"
+      "publishedAt": "2026-11-02T00:00:00.000Z"
     },
     {
-      "id": "story-xchz3g",
-      "title": "上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知",
-      "summary": "上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知",
+      "id": "story-1lpyqy0",
+      "title": "2026年10月29日国家再次实施调控，成品油价格适当调整",
+      "summary": "2026年10月29日国家再次实施调控",
       "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-10-29T00:00:00.000Z"
+      "publishedAt": "2026-11-02T00:00:00.000Z"
     },
     {
-      "id": "story-1g8qenq",
-      "title": "香港交易所推出平台及代名人服务，扩大综合基金平台",
-      "summary": "香港交易所推出平台及代名人服务",
-      "sourceName": "2 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-10-28T04:05:30.000Z"
-    },
-    {
-      "id": "story-lhkqgh",
-      "title": "坚持党的全面领导，不断提高党的长期执政能力——习近平党建思想引领新时代全面从严治党系列述评之一",
-      "summary": "坚持党的全面领导，不断提高党的长期执政能力——习近平党建思想引领新时代全面从严治党系列述评之一",
+      "id": "story-1x6vf13",
+      "title": "上海市发展和改革委员会关于车用汽、柴油价格的通知（2026年10月29日）",
+      "summary": "上海市发展和改革委员会关于车用汽、柴油价格的通知（2026年10月29日）",
       "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-10-28T00:00:00.000Z"
+      "publishedAt": "2026-11-02T00:00:00.000Z"
     },
     {
-      "id": "story-wt7l3u",
-      "title": "习近平致电祝贺卢拉当选连任巴西总统",
-      "summary": "习近平致电祝贺卢拉当选连任巴西总统",
-      "sourceName": "2 家独立来源",
+      "id": "story-sshg8d",
+      "title": "订阅更新 每当本网站发布新闻和更新时获取通知。",
+      "summary": "订阅更新 每当本网站发布新闻和更新时获取通知。",
+      "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-10-28T00:00:00.000Z"
+      "publishedAt": "2026-11-02T00:00:00.000Z"
+    },
+    {
+      "id": "story-1jcqw09",
+      "title": "财政部云南监管局：立足属地监管职能抓实财政金融监管激活云岭大地消费动能",
+      "summary": "财政部云南监管局：立足属地监管职能抓实财政金融监管激活云岭大地消费动能",
+      "sourceName": "1 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-11-02T00:00:00.000Z"
+    },
+    {
+      "id": "story-11rgga2",
+      "title": "财政部宁波监管局：抓重点 强主业 夯基础 助力财政科学管理提质增效",
+      "summary": "财政部宁波监管局：抓重点 强主业 夯基础 助力财政科学管理提质增效",
+      "sourceName": "1 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-11-02T00:00:00.000Z"
+    },
+    {
+      "id": "story-1sr9e73",
+      "title": "上海市汽车置换更新补贴政策（新能源）补充名单公示",
+      "summary": "上海市汽车置换更新补贴政策（新能源）补充名单公示",
+      "sourceName": "1 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-11-02T00:00:00.000Z"
     }
   ]
 }

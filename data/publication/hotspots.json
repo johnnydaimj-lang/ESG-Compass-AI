@@ -1,1 +1,209 @@
-[]
+[
+  {
+    "id": "story-18eeqhg",
+    "rootId": "src-3qb0gm",
+    "title": "财政部党组召开会议传达学习党的二十届五中全会精神",
+    "digest": "财政部党组召开会议传达学习党的二十届五中全会精神",
+    "latest": "中共国家发展改革委党组召开扩大会议传达学习贯彻党的二十届五中全会精神",
+    "memberIds": [
+      "src-3qb0gm",
+      "src-ie856w",
+      "src-ygm5d9",
+      "src-8go8rm",
+      "src-xg0a4f",
+      "src-gwvbp2",
+      "src-1hwdls1"
+    ],
+    "facts": [
+      {
+        "title": "财政部党组召开会议传达学习党的二十届五中全会精神",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部党组召开会议传达学习党的二十届五中全会精神",
+        "occurredAt": "2026-10-30"
+      },
+      {
+        "title": "中国人民银行党委召开会议 传达学习党的二十届五中全会精神",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行党委召开会议 传达学习党的二十届五中全会精神",
+        "occurredAt": "2026-10-30"
+      },
+      {
+        "title": "中共国家发展改革委党组召开扩大会议传达学习贯彻党的二十届五中",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "中共国家发展改革委党组召开扩大会议传达学习贯彻党的二十届五中全会精神",
+        "occurredAt": "2026-10-30"
+      },
+      {
+        "title": "中央网信办召开网信系统传达学习党的二十届五中全会精神视频会议",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "中央网信办召开网信系统传达学习党的二十届五中全会精神视频会议",
+        "occurredAt": "2026-10-30"
+      },
+      {
+        "title": "生态环境部党组召开会议 传达学习贯彻党的二十届五中全会精神",
+        "subject": "中国生态环境部新闻",
+        "action": "发布",
+        "object": "生态环境部党组召开会议 传达学习贯彻党的二十届五中全会精神",
+        "occurredAt": "2026-10-31"
+      },
+      {
+        "title": "财政部党组召开会议传达学习党的二十届五中全会精神",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部党组召开会议传达学习党的二十届五中全会精神",
+        "occurredAt": "2026-11-02"
+      },
+      {
+        "title": "中共国家发展改革委党组召开扩大会议传达学习贯彻党的二十届五中",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "中共国家发展改革委党组召开扩大会议传达学习贯彻党的二十届五中全会精神",
+        "occurredAt": "2026-11-02"
+      }
+    ],
+    "participants": [
+      "mof-policy",
+      "pbc-policy",
+      "ndrc-news",
+      "cac-policy",
+      "mee-china"
+    ],
+    "firstPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
+    "heat": 1.9,
+    "relations": [
+      {
+        "memberId": "src-3qb0gm",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-ie856w",
+        "relation": "SAME_STORY",
+        "confidence": 0.7089490077940542
+      },
+      {
+        "memberId": "src-ygm5d9",
+        "relation": "SAME_STORY",
+        "confidence": 0.653358607776565
+      },
+      {
+        "memberId": "src-8go8rm",
+        "relation": "SAME_STORY",
+        "confidence": 0.6304883249912805
+      },
+      {
+        "memberId": "src-xg0a4f",
+        "relation": "SAME_STORY",
+        "confidence": 0.7356829380292481
+      },
+      {
+        "memberId": "src-gwvbp2",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
+      },
+      {
+        "memberId": "src-1hwdls1",
+        "relation": "SAME_STORY",
+        "confidence": 0.653358607776565
+      }
+    ],
+    "heat6hAgo": 2.2,
+    "trend": "down",
+    "trendPct": -13.6,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布",
+      "中国人民银行公告",
+      "国家发改委新闻动态",
+      "中央网信办政策与要闻",
+      "中国生态环境部新闻"
+    ]
+  },
+  {
+    "id": "story-1t0655e",
+    "rootId": "src-cnsflu",
+    "title": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
+    "digest": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
+    "latest": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+    "memberIds": [
+      "src-cnsflu",
+      "src-1mxajcn",
+      "src-j9t8g4",
+      "src-1wgta6y"
+    ],
+    "facts": [
+      {
+        "title": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
+        "occurredAt": "2026-11-01"
+      },
+      {
+        "title": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+        "occurredAt": "2026-11-01"
+      },
+      {
+        "title": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
+        "occurredAt": "2026-11-02"
+      },
+      {
+        "title": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+        "occurredAt": "2026-11-02"
+      }
+    ],
+    "participants": [
+      "cac-policy",
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-01T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
+    "heat": 1.4,
+    "relations": [
+      {
+        "memberId": "src-cnsflu",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1mxajcn",
+        "relation": "SAME_STORY",
+        "confidence": 0.9013878188659974
+      },
+      {
+        "memberId": "src-j9t8g4",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 0.9999999999999998
+      },
+      {
+        "memberId": "src-1wgta6y",
+        "relation": "SAME_STORY",
+        "confidence": 0.9013878188659974
+      }
+    ],
+    "heat6hAgo": 1.7,
+    "trend": "down",
+    "trendPct": -17.6,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻",
+      "福建省工业和信息化厅"
+    ]
+  }
+]

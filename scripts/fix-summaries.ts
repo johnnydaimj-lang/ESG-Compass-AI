@@ -1,33 +1,103 @@
-// 一次性修复：把结尾被截断的英文摘要收束到完整句子，并清空对应中文摘要以便重新翻译。
+// 一次性修复：补全正文可核实的截断摘要，并规范精选摘要的句末标点。
 
+import type { ContentItem } from "@/lib/contracts/content";
+import { buildDailyReport } from "@/lib/pipeline/daily";
 import { cleanSummaryText } from "@/lib/pipeline/text";
-import { readPublishedContents, writePublishedContents } from "@/lib/publication-store";
+import {
+  readPublishedContents,
+  readStories,
+  writeDaily,
+  writePublishedContents,
+} from "@/lib/publication-store";
+
+const REPAIRS: Record<string, Partial<ContentItem>> = {
+  "src-140fzjh": {
+    summary:
+      "Brazil's Securities and Exchange Commission (CVM) launched a new public consultation on its upcoming sustainability and climate-related reporting regime, seeking feedback on mandatory disclosure, phasing in mandatory obligations over time, or requiring only climate reporting.",
+    summaryZh:
+      "巴西证券交易委员会（CVM）启动新一轮公众咨询，讨论其即将实施的可持续与气候相关报告制度，并征求对强制披露、逐步设定义务或仅强制气候报告等方案的意见。",
+  },
+  "src-tcly9h": {
+    summary:
+      "Bank of America, the Sustainable Markets Initiative (SMI), and Eurazeo launched the Lighthouse Initiative to finance nature restoration and biodiversity protection projects, with $40 million in initial commitments.",
+    summaryZh:
+      "美国银行、可持续市场倡议（SMI）与法国投资公司Eurazeo共同推出“灯塔倡议”，旨在为自然修复和生物多样性保护项目融资，基金初始承诺规模为4000万美元。",
+  },
+  "src-n8jukm": {
+    summary:
+      "The UN-backed Green Climate Fund (GCF) approved nearly $2 billion in climate finance for 21 projects at its board meeting, bringing its 2026 approvals to a record $3.3 billion.",
+    summaryZh:
+      "联合国支持的绿色气候基金（GCF）在董事会会议上批准为21个项目提供近20亿美元气候融资，使其2026年批准总额达到创纪录的33亿美元。",
+  },
+  "src-qvlbt2": {
+    summary:
+      "The California Office of Administrative Law (OAL) approved the state's new corporate greenhouse gas and climate risk disclosure regulations, setting November 10, 2026 as the deadline for the first greenhouse gas emissions reports.",
+    summaryZh:
+      "加利福尼亚州行政法办公室（OAL）已批准该州新的企业温室气体与气候风险披露法规，并将2026年11月10日定为首次温室气体排放报告的截止日期。",
+  },
+  "src-esgtoday-eu-publishes-final-revised-european-sustainabili-7ffa": {
+    summary:
+      "The European Commission published the finalized revised European Sustainability Reporting Standards (ESRS) for companies covered by the Corporate Sustainability Reporting Directive (CSRD) and its voluntary reporting standard for smaller companies in the Official Journal of the EU.",
+    summaryZh:
+      "欧盟委员会已在欧盟官方公报发布最终修订版欧洲可持续发展报告标准（ESRS），适用于《企业可持续发展报告指令》（CSRD）覆盖的企业，并同时发布面向较小企业的自愿报告标准。",
+  },
+  "src-bhrrc-latest-from-invisibility-to-protection-ilo-adopts-landm-074a": {
+    title: "From invisibility to protection: ILO adopts landmark protections for platform workers",
+    titleZh: "从隐形到保护：国际劳工组织通过具有里程碑意义的平台工人保护措施",
+    summary: "The International Labour Organization (ILO) adopted landmark protections for platform workers.",
+    summaryZh: "国际劳工组织（ILO）通过了针对平台工人的里程碑式保护措施。",
+  },
+};
+
+function ensureSentenceEnding(value: string): string {
+  const text = String(value || "").trim();
+  if (!text || /[。！？.!?]$/.test(text)) return text;
+  return text + (/[\u3400-\u9fff]/.test(text) ? "。" : ".");
+}
+
+function syncRecommendReason(item: ContentItem): void {
+  const reason = String(item.recommendReason || "");
+  const marker = reason.indexOf("信息价值较高");
+  if (!item.summaryZh || marker < 0) return;
+  item.recommendReason = ensureSentenceEnding(item.summaryZh) + reason.slice(marker);
+}
 
 function main() {
   const contents = readPublishedContents();
   let fixed = 0;
+  let repaired = 0;
   for (const item of contents) {
+    const repair = REPAIRS[item.id];
+    if (repair) {
+      Object.assign(item, repair);
+      syncRecommendReason(item);
+      repaired += 1;
+    }
     const raw = String(item.summary || "").trim();
     const cleaned = cleanSummaryText(raw);
     if (cleaned !== raw) {
       item.summary = cleaned;
       item.summaryZh = "";
       fixed += 1;
-      continue;
-    }
-    if (!raw && item.title) {
+    } else if (!raw && item.title) {
       item.summary = item.title;
       item.summaryZh = "";
       fixed += 1;
-      continue;
     }
     if (!String(item.summaryZh || "").trim() && item.titleZh) {
       item.summaryZh = item.titleZh;
       fixed += 1;
     }
+    if (item.recommended) {
+      item.summary = ensureSentenceEnding(item.summary);
+      item.summaryZh = ensureSentenceEnding(item.summaryZh || "");
+    }
   }
   writePublishedContents(contents);
-  process.stdout.write(`summaries fixed: fixed=${fixed} items=${contents.length}\n`);
+  writeDaily(buildDailyReport(contents, readStories(), new Date()));
+  process.stdout.write(
+    `summaries fixed: repaired=${repaired} fixed=${fixed} items=${contents.length}\n`,
+  );
 }
 
 main();
