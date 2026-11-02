@@ -74,7 +74,7 @@
     ],
     "firstPublishedAt": "2026-10-30T00:00:00.000Z",
     "latestPublishedAt": "2026-11-02T00:00:00.000Z",
-    "heat": 1.9,
+    "heat": 1.8,
     "relations": [
       {
         "memberId": "src-3qb0gm",
@@ -114,7 +114,7 @@
     ],
     "heat6hAgo": 2.2,
     "trend": "down",
-    "trendPct": -13.6,
+    "trendPct": -18.2,
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
@@ -196,9 +196,9 @@
         "confidence": 0.9013878188659974
       }
     ],
-    "heat6hAgo": 1.7,
+    "heat6hAgo": 1.6,
     "trend": "down",
-    "trendPct": -17.6,
+    "trendPct": -12.5,
     "badges": [],
     "signalCount": 0,
     "sourceNames": [

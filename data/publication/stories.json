@@ -7257,18 +7257,18 @@
   {
     "id": "story-fxkld9",
     "rootId": "src-13szgo3",
-    "title": "Unstoppable Africa 2026 to bring African and global CEOs and leaders to New York to drive investment, ownership and growth across the continent",
-    "digest": "More than 2,000 African and global business leaders plus heads of state will gather in New York on September 20–21 for Unstoppable Africa, flagship event of the Global Africa Business Initiative (GABI). Convened by UN Secretary-General António Guterres and H.E. Mahmoud Ali Youssouf, Chairperson of the African Union Commission, and organized and coordinated by the UN Global Compact, the fifth edition of Unstoppable Africa will convene under the theme “Powering Business, Scaling Economies, Shaping the Future”. Held on the sidelines of the opening of the 81st session of the United Nations General",
-    "latest": "More than 2,000 African and global business leaders plus heads of state will gather in New York on September 20–21 for Unstoppable Africa, flagship event of the Global Africa Business Initiative (GABI). Convened by UN Secretary-General António Guterres and H.E. Mahmoud Ali Youssouf, Chairperson of the African Union Commission, and organized and coordinated by the UN Global Compact, the fifth edition of Unstoppable Africa will convene under the theme “Powering Business, Scaling Economies, Shaping the Future”. Held on the sidelines of the opening of the 81st session of the United Nations General",
+    "title": "“不可阻挡的非洲2026”将把非洲和全球首席执行官及领导人带到纽约，以推动整个非洲大陆的投资、所有权和增长",
+    "digest": "“不可阻挡的非洲2026”将把非洲和全球首席执行官及领导人带到纽约",
+    "latest": "“不可阻挡的非洲2026”将把非洲和全球首席执行官及领导人带到纽约",
     "memberIds": [
       "src-13szgo3"
     ],
     "facts": [
       {
-        "title": "Unstoppable Africa 2026 to bri",
+        "title": "“不可阻挡的非洲2026”将把非洲和全球首席执行官及领导人带",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "Unstoppable Africa 2026 to bring African and global CEOs and leaders to New York",
+        "object": "“不可阻挡的非洲2026”将把非洲和全球首席执行官及领导人带到纽约，以推动整个非洲大陆的投资、所有权和增长",
         "occurredAt": "2026-09-02"
       }
     ],
@@ -7734,8 +7734,8 @@
       },
       {
         "memberId": "src-1viy10g",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
+        "relation": "SAME_STORY",
+        "confidence": 0.840168050416806
       }
     ],
     "heat6hAgo": 0,
@@ -7987,8 +7987,8 @@
       },
       {
         "memberId": "src-10360yf",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1.0000000000000002
+        "relation": "SAME_STORY",
+        "confidence": 0.8416254115301732
       }
     ],
     "heat6hAgo": 0,
@@ -8040,8 +8040,8 @@
       },
       {
         "memberId": "src-1sot03p",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 0.9999999999999998
+        "relation": "SAME_STORY",
+        "confidence": 0.7745966692414834
       }
     ],
     "heat6hAgo": 0,
@@ -8349,18 +8349,18 @@
   {
     "id": "story-musd1l",
     "rootId": "src-tv13ti",
-    "title": "New North American Survey Reveals Only One in Ten Sustainability Professionals Expect Their Organization's Ambition to Decrease",
-    "digest": "Research from UN Global Compact Networks in Canada, Mexico, and the USA and GlobeScan reveals companies are becoming more selective and strategic as pressure on corporate sustainability commitments grows Despite mounting economic, political and regulatory pressure on corporate sustainability, ambition among sustainability professionals across North America is proving more resilient than widely assumed. A new tri-national study finds that only 10 percent of respondents expect their organization’s sustainability ambition to decrease, while most expect it to increase, remain stable, or become",
-    "latest": "Research from UN Global Compact Networks in Canada, Mexico, and the USA and GlobeScan reveals companies are becoming more selective and strategic as pressure on corporate sustainability commitments grows Despite mounting economic, political and regulatory pressure on corporate sustainability, ambition among sustainability professionals across North America is proving more resilient than widely assumed. A new tri-national study finds that only 10 percent of respondents expect their organization’s sustainability ambition to decrease, while most expect it to increase, remain stable, or become",
+    "title": "新的北美调查显示，仅十分之一的可持续发展专业人士预计其组织的雄心将会下降",
+    "digest": "新的北美调查显示",
+    "latest": "新的北美调查显示",
     "memberIds": [
       "src-tv13ti"
     ],
     "facts": [
       {
-        "title": "New North American Survey Reve",
+        "title": "新的北美调查显示，仅十分之一的可持续发展专业人士预计其组织的",
         "subject": "联合国全球契约（UNGC）新闻",
-        "action": "发布",
-        "object": "New North American Survey Reveals Only One in Ten Sustainability Professionals E",
+        "action": "调查",
+        "object": "新的北美调查显示，仅十分之一的可持续发展专业人士预计其组织的雄心将会下降",
         "occurredAt": "2026-09-10"
       }
     ],
@@ -8389,18 +8389,18 @@
   {
     "id": "story-1hhzfic",
     "rootId": "src-1j5k0w",
-    "title": "Global Business Summit in Singapore Launches 12 Private-Sector Initiatives to Advance Sustainable Infrastructure and the SDGs",
-    "digest": "More than 400 leaders convene to accelerate cross-border cooperation on sustainable infrastructure, clean energy, responsible AI and resilient supply chains More than 400 business leaders and representatives from international organizations, civil society, academia and think tanks convened in Singapore for the Second Global Business Summit on Belt and Road Infrastructure Investment to Accelerate the SDGs, launching a series of new private-sector initiatives and partnerships aimed at advancing sustainable infrastructure and accelerating progress towards the 2030 Agenda for Sustainable",
-    "latest": "More than 400 leaders convene to accelerate cross-border cooperation on sustainable infrastructure, clean energy, responsible AI and resilient supply chains More than 400 business leaders and representatives from international organizations, civil society, academia and think tanks convened in Singapore for the Second Global Business Summit on Belt and Road Infrastructure Investment to Accelerate the SDGs, launching a series of new private-sector initiatives and partnerships aimed at advancing sustainable infrastructure and accelerating progress towards the 2030 Agenda for Sustainable",
+    "title": "新加坡全球商业峰会启动12项私营部门倡议，以推进可持续基础设施和可持续发展目标",
+    "digest": "400多位领导人齐聚一堂，加速在可持续基础设施、清洁能源、负责任的人工智能和韧性供应链方面的跨境合作。",
+    "latest": "400多位领导人齐聚一堂，加速在可持续基础设施、清洁能源、负责任的人工智能和韧性供应链方面的跨境合作。",
     "memberIds": [
       "src-1j5k0w"
     ],
     "facts": [
       {
-        "title": "Global Business Summit in Sing",
+        "title": "新加坡全球商业峰会启动12项私营部门倡议，以推进可持续基础设",
         "subject": "联合国全球契约（UNGC）新闻",
-        "action": "发布",
-        "object": "Global Business Summit in Singapore Launches 12 Private-Sector Initiatives to Ad",
+        "action": "启动",
+        "object": "新加坡全球商业峰会启动12项私营部门倡议，以推进可持续基础设施和可持续发展目标",
         "occurredAt": "2026-09-10"
       }
     ],
@@ -10359,8 +10359,8 @@
       },
       {
         "memberId": "src-yhw4a7",
-        "relation": "SAME_STORY",
-        "confidence": 0.894427190999916
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 0.9574271077563381
       }
     ],
     "heat6hAgo": 0,
@@ -10588,18 +10588,18 @@
   {
     "id": "story-11ff462",
     "rootId": "src-11miceu",
-    "title": "World’s Most Influential Leaders Converge for Unstoppable Africa 2026",
-    "digest": "Aliko Dangote, Massad Boulos, Mahmoud Ali Youssouf and UN Secretary-General António Guterres headline the Global Africa Business Initiative's flagship convening as global leaders gather in New York to shape Africa’s economic future At a time when global trade routes are being redrawn, competition for critical minerals is intensifying and businesses are reassessing where growth and investment will come from, some of the most influential figures shaping Africa’s economic future will gather in New York next week for Unstoppable Africa 2026, the flagship annual event of the Global Africa Business",
-    "latest": "Aliko Dangote, Massad Boulos, Mahmoud Ali Youssouf and UN Secretary-General António Guterres headline the Global Africa Business Initiative's flagship convening as global leaders gather in New York to shape Africa’s economic future At a time when global trade routes are being redrawn, competition for critical minerals is intensifying and businesses are reassessing where growth and investment will come from, some of the most influential figures shaping Africa’s economic future will gather in New York next week for Unstoppable Africa 2026, the flagship annual event of the Global Africa Business",
+    "title": "全球最具影响力的领导人齐聚“不可阻挡的非洲2026”",
+    "digest": "阿利科·丹格特、马萨德·布洛斯、马哈茂德·阿里·优素福和联合国秘书长安东尼奥·古特雷斯领衔全球非洲商业倡议的旗舰会议，全球领导人齐聚纽约，共同塑造非洲的经济未来。",
+    "latest": "阿利科·丹格特、马萨德·布洛斯、马哈茂德·阿里·优素福和联合国秘书长安东尼奥·古特雷斯领衔全球非洲商业倡议的旗舰会议，全球领导人齐聚纽约，共同塑造非洲的经济未来。",
     "memberIds": [
       "src-11miceu"
     ],
     "facts": [
       {
-        "title": "World’s Most Influential Leade",
+        "title": "全球最具影响力的领导人齐聚“不可阻挡的非洲2026”",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "World’s Most Influential Leaders Converge for Unstoppable Africa 2026",
+        "object": "全球最具影响力的领导人齐聚“不可阻挡的非洲2026”",
         "occurredAt": "2026-09-17"
       }
     ],
@@ -10948,18 +10948,18 @@
   {
     "id": "story-1cmscuo",
     "rootId": "src-bhrrc-latest-from-invisibility-to-protection-ilo-adopts-landm-074a",
-    "title": "从隐形到保护：国际劳工组织对平台工人采取具有里程碑意义的保护 - Business-Humanrights.org",
-    "digest": "从隐形到保护：国际劳工组织对平台工人采取具有里程碑意义的保护 Business- humanrights.org",
-    "latest": "从隐形到保护：国际劳工组织对平台工人采取具有里程碑意义的保护 Business- humanrights.org",
+    "title": "从隐形到保护：国际劳工组织通过具有里程碑意义的平台工人保护措施",
+    "digest": "国际劳工组织（ILO）通过了针对平台工人的里程碑式保护措施。",
+    "latest": "国际劳工组织（ILO）通过了针对平台工人的里程碑式保护措施。",
     "memberIds": [
       "src-bhrrc-latest-from-invisibility-to-protection-ilo-adopts-landm-074a"
     ],
     "facts": [
       {
-        "title": "从隐形到保护：国际劳工组织对平台工人采取具有里程碑意义的保护",
+        "title": "从隐形到保护：国际劳工组织通过具有里程碑意义的平台工人保护措",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
-        "action": "发布",
-        "object": "从隐形到保护：国际劳工组织对平台工人采取具有里程碑意义的保护 - Business-Humanrights.org",
+        "action": "通过",
+        "object": "从隐形到保护：国际劳工组织通过具有里程碑意义的平台工人保护措施",
         "occurredAt": "2026-09-19"
       }
     ],
@@ -11108,18 +11108,18 @@
   {
     "id": "story-1oorzb8",
     "rootId": "src-1mzcbrl",
-    "title": "Africa Makes its Case for a Bigger Role on the Global Stage",
-    "digest": "GABI’s Unstoppable Africa 2026 brings global leaders together on Africa’s push to capture more value from its resources, accelerate investment and strengthen its influence in global trade and decision-making. Africa is pushing for a bigger role in shaping the global economy, as business leaders, heads of state, investors, policymakers, and global partners converged in New York today to articulate the continent’s ambition in global trade, investment, and value creation. Held alongside the 81st session of the United Nations General Assembly, Unstoppable Africa 2026 put Africa’s business agenda",
-    "latest": "GABI’s Unstoppable Africa 2026 brings global leaders together on Africa’s push to capture more value from its resources, accelerate investment and strengthen its influence in global trade and decision-making. Africa is pushing for a bigger role in shaping the global economy, as business leaders, heads of state, investors, policymakers, and global partners converged in New York today to articulate the continent’s ambition in global trade, investment, and value creation. Held alongside the 81st session of the United Nations General Assembly, Unstoppable Africa 2026 put Africa’s business agenda",
+    "title": "非洲为其在全球舞台上发挥更大作用提出主张",
+    "digest": "非洲为其在全球舞台上发挥更大作用提出主张",
+    "latest": "非洲为其在全球舞台上发挥更大作用提出主张",
     "memberIds": [
       "src-1mzcbrl"
     ],
     "facts": [
       {
-        "title": "Africa Makes its Case for a Bi",
+        "title": "非洲为其在全球舞台上发挥更大作用提出主张",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "Africa Makes its Case for a Bigger Role on the Global Stage",
+        "object": "非洲为其在全球舞台上发挥更大作用提出主张",
         "occurredAt": "2026-09-20"
       }
     ],
@@ -11148,18 +11148,18 @@
   {
     "id": "story-16ihyz3",
     "rootId": "src-1kjbrx4",
-    "title": "UN Private Sector Forum calls for faster public-private action to deliver a clean, just and secure energy future",
-    "digest": "CEOs, Heads of State and Government and United Nations leaders identify investment, infrastructure and policy priorities needed to accelerate the global energy transition Business, Government and UN leaders today called for stronger public-private cooperation to accelerate investment in clean energy, strengthen energy security and expand access to affordable power, as the 2026 United Nations Private Sector Forum concluded at UN Headquarters in New York. Hosted by the UN Global Compact on behalf of UN Secretary-General António Guterres, the invitation-only Forum brought together more than 100",
-    "latest": "CEOs, Heads of State and Government and United Nations leaders identify investment, infrastructure and policy priorities needed to accelerate the global energy transition Business, Government and UN leaders today called for stronger public-private cooperation to accelerate investment in clean energy, strengthen energy security and expand access to affordable power, as the 2026 United Nations Private Sector Forum concluded at UN Headquarters in New York. Hosted by the UN Global Compact on behalf of UN Secretary-General António Guterres, the invitation-only Forum brought together more than 100",
+    "title": "联合国私营部门论坛呼吁加快公私行动，以实现清洁、公正和安全的能源未来",
+    "digest": "联合国私营部门论坛呼吁加快公私行动",
+    "latest": "联合国私营部门论坛呼吁加快公私行动",
     "memberIds": [
       "src-1kjbrx4"
     ],
     "facts": [
       {
-        "title": "UN Private Sector Forum calls ",
+        "title": "联合国私营部门论坛呼吁加快公私行动，以实现清洁、公正和安全的",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "UN Private Sector Forum calls for faster public-private action to deliver a clea",
+        "object": "联合国私营部门论坛呼吁加快公私行动，以实现清洁、公正和安全的能源未来",
         "occurredAt": "2026-09-20"
       }
     ],
@@ -11425,8 +11425,8 @@
       },
       {
         "memberId": "src-1m7o7s",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
+        "relation": "SAME_STORY",
+        "confidence": 0.90267093384844
       }
     ],
     "heat6hAgo": 0,
@@ -11774,18 +11774,18 @@
   {
     "id": "story-60l1fv",
     "rootId": "src-2vxzy8",
-    "title": "Dangote Calls on Africa to Keep its Capital at Home as Industrialization Takes Center Stage at Unstoppable Africa",
-    "digest": "African business leaders call for a bigger share of the continent’s growth, with investment and local value creation high on the agenda. Africa must stop sending its capital abroad and start investing in its own industrial future, Aliko Dangote, President and CEO of Dangote Group, told global business leaders at Unstoppable Africa 2026, as he set out an ambitious vision for African industrialization backed by billions of dollars in investment, new refining capacity, and broader public ownership. Pointing to Asia’s economic rise, he argued that Africa cannot build comparable industrial strength",
-    "latest": "African business leaders call for a bigger share of the continent’s growth, with investment and local value creation high on the agenda. Africa must stop sending its capital abroad and start investing in its own industrial future, Aliko Dangote, President and CEO of Dangote Group, told global business leaders at Unstoppable Africa 2026, as he set out an ambitious vision for African industrialization backed by billions of dollars in investment, new refining capacity, and broader public ownership. Pointing to Asia’s economic rise, he argued that Africa cannot build comparable industrial strength",
+    "title": "丹格特呼吁非洲将资本留在本土，工业化成为“不可阻挡的非洲”活动焦点",
+    "digest": "丹格特呼吁非洲将资本留在本土",
+    "latest": "丹格特呼吁非洲将资本留在本土",
     "memberIds": [
       "src-2vxzy8"
     ],
     "facts": [
       {
-        "title": "Dangote Calls on Africa to Kee",
+        "title": "丹格特呼吁非洲将资本留在本土，工业化成为“不可阻挡的非洲”活",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "Dangote Calls on Africa to Keep its Capital at Home as Industrialization Takes C",
+        "object": "丹格特呼吁非洲将资本留在本土，工业化成为“不可阻挡的非洲”活动焦点",
         "occurredAt": "2026-09-21"
       }
     ],
@@ -11814,18 +11814,18 @@
   {
     "id": "story-18x6v37",
     "rootId": "src-fg5ibh",
-    "title": "UN Global Compact Launches Sustainable Procurement Implementation Framework to Help Companies Turn Commitments into Action",
-    "digest": "The United Nations Global Compact today launched the Sustainable Procurement Implementation Framework, a practical global resource designed to help companies place sustainability at the core of procurement and translate sustainability commitments and requirements into day-to-day business practice. Launched during the High-Level Forum on Sustainable Procurement, held on the margins of the United Nations General Assembly, the Framework responds to a critical implementation challenge for companies operating across increasingly complex global value chains. While governments around the world are",
-    "latest": "The United Nations Global Compact today launched the Sustainable Procurement Implementation Framework, a practical global resource designed to help companies place sustainability at the core of procurement and translate sustainability commitments and requirements into day-to-day business practice. Launched during the High-Level Forum on Sustainable Procurement, held on the margins of the United Nations General Assembly, the Framework responds to a critical implementation challenge for companies operating across increasingly complex global value chains. While governments around the world are",
+    "title": "联合国全球契约组织推出可持续采购实施框架，帮助企业将承诺转化为行动",
+    "digest": "联合国全球契约组织推出可持续采购实施框架",
+    "latest": "联合国全球契约组织推出可持续采购实施框架",
     "memberIds": [
       "src-fg5ibh"
     ],
     "facts": [
       {
-        "title": "UN Global Compact Launches Sus",
+        "title": "联合国全球契约组织推出可持续采购实施框架，帮助企业将承诺转化",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "UN Global Compact Launches Sustainable Procurement Implementation Framework to H",
+        "object": "联合国全球契约组织推出可持续采购实施框架，帮助企业将承诺转化为行动",
         "occurredAt": "2026-09-21"
       }
     ],
@@ -11854,18 +11854,18 @@
   {
     "id": "story-1w3rc5z",
     "rootId": "src-v99grt",
-    "title": "UN Global Compact, UNEP FI and WWF Strengthen Ocean Investment Protocol to Address Financial Risks and Unlock Sustainable Ocean Finance",
-    "digest": "The United Nations Global Compact and the Sustainable Blue Economy Finance Initiative, hosted by the United Nations Environment Programme Finance Initiative (UNEP FI), in collaboration with the World Wide Fund for Nature’s Greening Financial Regulation Initiative (WWF GFRI), today published a revised edition of the Ocean Investment Protocol (OIP). The updated Protocol strengthens guidance for financial actors and, for the first time, introduces recommendations for central banks, financial regulators and supervisors. Originally launched in May 2025, the Ocean Investment Protocol is a",
-    "latest": "The United Nations Global Compact and the Sustainable Blue Economy Finance Initiative, hosted by the United Nations Environment Programme Finance Initiative (UNEP FI), in collaboration with the World Wide Fund for Nature’s Greening Financial Regulation Initiative (WWF GFRI), today published a revised edition of the Ocean Investment Protocol (OIP). The updated Protocol strengthens guidance for financial actors and, for the first time, introduces recommendations for central banks, financial regulators and supervisors. Originally launched in May 2025, the Ocean Investment Protocol is a",
+    "title": "联合国全球契约组织、UNEP FI和WWF加强海洋投资协议，以应对金融风险并释放可持续海洋金融",
+    "digest": "联合国全球契约组织、UNEP FI和WWF加强海洋投资协议",
+    "latest": "联合国全球契约组织、UNEP FI和WWF加强海洋投资协议",
     "memberIds": [
       "src-v99grt"
     ],
     "facts": [
       {
-        "title": "UN Global Compact, UNEP FI and",
+        "title": "联合国全球契约组织、UNEP FI和WWF加强海洋投资协议，",
         "subject": "联合国全球契约（UNGC）新闻",
-        "action": "publish",
-        "object": "UN Global Compact, UNEP FI and WWF Strengthen Ocean Investment Protocol to Addre",
+        "action": "发布",
+        "object": "联合国全球契约组织、UNEP FI和WWF加强海洋投资协议，以应对金融风险并释放可持续海洋金融",
         "occurredAt": "2026-09-21"
       }
     ],
@@ -12175,8 +12175,8 @@
     "id": "story-9d3g1c",
     "rootId": "src-esgtoday-eu-publishes-final-revised-european-sustainabili-7ffa",
     "title": "欧盟在官方公报上发布最终修订版欧洲可持续发展报告标准",
-    "digest": "欧盟委员会已发布最终修订的公司欧洲可持续发展报告标准（ESRS）",
-    "latest": "欧盟委员会已发布最终修订的公司欧洲可持续发展报告标准（ESRS）",
+    "digest": "欧盟委员会已在欧盟官方公报发布最终修订版欧洲可持续发展报告标准（ESRS），适用于《企业可持续发展报告指令》（CSRD）覆盖的企业，并同时发布面向较小企业的自愿报告标准。",
+    "latest": "欧盟委员会已在欧盟官方公报发布最终修订版欧洲可持续发展报告标准（ESRS），适用于《企业可持续发展报告指令》（CSRD）覆盖的企业，并同时发布面向较小企业的自愿报告标准。",
     "memberIds": [
       "src-esgtoday-eu-publishes-final-revised-european-sustainabili-7ffa"
     ],
@@ -13827,18 +13827,18 @@
   {
     "id": "story-1i5w147",
     "rootId": "src-1o1mntw",
-    "title": "UN Global Compact Leaders Summit calls on business leaders to turn sustainability ambition into action at scale",
-    "digest": "Global leaders gather in New York to advance practical action on business resilience, climate and nature, human rights, sustainable finance and more resilient global markets The UN Global Compact today concluded its 2026 Leaders Summit, bringing together more than 750 business leaders, investors, policymakers, United Nations representatives and sustainability experts for a two-day summit focused on turning corporate sustainability commitments into measurable action and building the systems needed to deliver long-term sustainable growth. Held during the high-level week of the United Nations",
-    "latest": "Global leaders gather in New York to advance practical action on business resilience, climate and nature, human rights, sustainable finance and more resilient global markets The UN Global Compact today concluded its 2026 Leaders Summit, bringing together more than 750 business leaders, investors, policymakers, United Nations representatives and sustainability experts for a two-day summit focused on turning corporate sustainability commitments into measurable action and building the systems needed to deliver long-term sustainable growth. Held during the high-level week of the United Nations",
+    "title": "联合国全球契约组织领导人峰会呼吁商界领袖将可持续发展雄心转化为大规模行动",
+    "digest": "联合国全球契约组织领导人峰会呼吁商界领袖将可持续发展雄心转化为大规模行动",
+    "latest": "联合国全球契约组织领导人峰会呼吁商界领袖将可持续发展雄心转化为大规模行动",
     "memberIds": [
       "src-1o1mntw"
     ],
     "facts": [
       {
-        "title": "UN Global Compact Leaders Summ",
+        "title": "联合国全球契约组织领导人峰会呼吁商界领袖将可持续发展雄心转化",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "UN Global Compact Leaders Summit calls on business leaders to turn sustainabilit",
+        "object": "联合国全球契约组织领导人峰会呼吁商界领袖将可持续发展雄心转化为大规模行动",
         "occurredAt": "2026-09-23"
       }
     ],
@@ -14627,18 +14627,18 @@
   {
     "id": "story-183aso6",
     "rootId": "src-19p7knv",
-    "title": "Companies of the UN Global Compact across Europe make tangible contributions to the Sustainable Development Goals but still lack operational actions to advance environmental goals",
-    "digest": "Release of the first comprehensive analysis of the private sector’s contribution to the 2030 agenda On the occasion of the United Nations General Assembly, UN Global Compact Networks Bulgaria, Finland, France, Germany, Italy, the United Kingdom and Türkiye are releasing the second edition of the European Private Sector SDGs Stocktake. Drawing on 136 data points from 5,793 UN Global Compact participant companies across 21 European countries, the study makes it possible, for the first time, to estimate the private sector’s level of contribution to the Sustainable Development Goals. The overall",
-    "latest": "Release of the first comprehensive analysis of the private sector’s contribution to the 2030 agenda On the occasion of the United Nations General Assembly, UN Global Compact Networks Bulgaria, Finland, France, Germany, Italy, the United Kingdom and Türkiye are releasing the second edition of the European Private Sector SDGs Stocktake. Drawing on 136 data points from 5,793 UN Global Compact participant companies across 21 European countries, the study makes it possible, for the first time, to estimate the private sector’s level of contribution to the Sustainable Development Goals. The overall",
+    "title": "欧洲各地的联合国全球契约组织企业在可持续发展目标方面作出了切实贡献，但仍缺乏推进环境目标的运营层面行动",
+    "digest": "欧洲各地的联合国全球契约组织企业在可持续发展目标方面作出了切实贡献",
+    "latest": "欧洲各地的联合国全球契约组织企业在可持续发展目标方面作出了切实贡献",
     "memberIds": [
       "src-19p7knv"
     ],
     "facts": [
       {
-        "title": "Companies of the UN Global Com",
+        "title": "欧洲各地的联合国全球契约组织企业在可持续发展目标方面作出了切",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "Companies of the UN Global Compact across Europe make tangible contributions to ",
+        "object": "欧洲各地的联合国全球契约组织企业在可持续发展目标方面作出了切实贡献，但仍缺乏推进环境目标的运营层面行动",
         "occurredAt": "2026-09-25"
       }
     ],
@@ -17842,18 +17842,18 @@
   {
     "id": "story-tn7m6u",
     "rootId": "src-t6t5q5",
-    "title": "Africa Business and Human Rights Forum Concludes in Dakar with Call for Stronger Action on Human Rights and the Environment",
-    "digest": "Fifth regional forum brings together governments, business, civil society and the UN to advance responsible business conduct across Africa. The fifth Africa Business and Human Rights (BHR) Forum concluded today in Dakar, Senegal, bringing together governments, businesses, the UN, civil society, workers’ representatives, human rights experts and indigenous communities to accelerate responsible business conduct and strengthen the protection of human rights across the continent. Held from 29 September to 1 October under the theme “Realizing the Right to a Clean, Healthy and Sustainable",
-    "latest": "Fifth regional forum brings together governments, business, civil society and the UN to advance responsible business conduct across Africa. The fifth Africa Business and Human Rights (BHR) Forum concluded today in Dakar, Senegal, bringing together governments, businesses, the UN, civil society, workers’ representatives, human rights experts and indigenous communities to accelerate responsible business conduct and strengthen the protection of human rights across the continent. Held from 29 September to 1 October under the theme “Realizing the Right to a Clean, Healthy and Sustainable",
+    "title": "非洲商业与人权论坛在达喀尔闭幕，呼吁在人权与环境方面采取更有力行动",
+    "digest": "非洲商业与人权论坛在达喀尔闭幕",
+    "latest": "非洲商业与人权论坛在达喀尔闭幕",
     "memberIds": [
       "src-t6t5q5"
     ],
     "facts": [
       {
-        "title": "Africa Business and Human Righ",
+        "title": "非洲商业与人权论坛在达喀尔闭幕，呼吁在人权与环境方面采取更有",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "Africa Business and Human Rights Forum Concludes in Dakar with Call for Stronger",
+        "object": "非洲商业与人权论坛在达喀尔闭幕，呼吁在人权与环境方面采取更有力行动",
         "occurredAt": "2026-10-02"
       }
     ],
@@ -23383,8 +23383,8 @@
     "id": "story-18a89es",
     "rootId": "src-qvlbt2",
     "title": "加利福尼亚锁定11月第一份企业气候报告的截止日期",
-    "digest": "加利福尼亚州行政法办公室（OAL）已批准该州新的企业温室气体",
-    "latest": "加利福尼亚州行政法办公室（OAL）已批准该州新的企业温室气体",
+    "digest": "加利福尼亚州行政法办公室（OAL）已批准该州新的企业温室气体与气候风险披露法规，并将2026年11月10日定为首次温室气体排放报告的截止日期。",
+    "latest": "加利福尼亚州行政法办公室（OAL）已批准该州新的企业温室气体与气候风险披露法规，并将2026年11月10日定为首次温室气体排放报告的截止日期。",
     "memberIds": [
       "src-qvlbt2"
     ],
@@ -23394,7 +23394,7 @@
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "批准",
         "object": "加利福尼亚锁定11月第一份企业气候报告的截止日期",
-        "occurredAt": "2026-10-15"
+        "occurredAt": "2026-11-10"
       }
     ],
     "participants": [
@@ -29992,8 +29992,8 @@
     "id": "story-rwqe1c",
     "rootId": "src-ldg2n1",
     "title": "客座文章：格陵兰冰盖连续第30年萎缩",
-    "digest": "格陵兰现已连续第30年出现冰量损失大于增加的情况。在12个月期间……文章《客座文章：格陵兰冰盖连续第30年萎缩》首发于Carbon Brief。",
-    "latest": "格陵兰现已连续第30年出现冰量损失大于增加的情况。在12个月期间……文章《客座文章：格陵兰冰盖连续第30年萎缩》首发于Carbon Brief。",
+    "digest": "客座文章：格陵兰冰盖连续第30年萎缩",
+    "latest": "客座文章：格陵兰冰盖连续第30年萎缩",
     "memberIds": [
       "src-ldg2n1"
     ],
@@ -33139,7 +33139,7 @@
     "rootId": "src-1qw7j5m",
     "title": "商务部 海关总署公告2026年第51号 公布优化调整挖泥船相关物项出口管制措施的决定",
     "digest": "商务部 海关总署公告2026年第51号 公布优化调整挖泥船相关物项出口管制措施的决定",
-    "latest": "商务部 海关总署 中央军委装备发展部公告2026年第49号 公布优化调整无人机相关物项出口管制措施的决定",
+    "latest": "商务部 海关总署 中央军委装备发展部公告2026年第49号 公布优化调整无人机相关物项出口管制措施的决定。",
     "memberIds": [
       "src-1qw7j5m",
       "src-1x4epm1"
@@ -33191,8 +33191,8 @@
     "id": "story-1ykvcuu",
     "rootId": "src-1yrpv3a",
     "title": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定",
-    "digest": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定",
-    "latest": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定",
+    "digest": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定。",
+    "latest": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定。",
     "memberIds": [
       "src-1yrpv3a"
     ],
@@ -33271,8 +33271,8 @@
     "id": "story-1sqde9a",
     "rootId": "src-142qola",
     "title": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理",
-    "digest": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理",
-    "latest": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理",
+    "digest": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理。",
+    "latest": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理。",
     "memberIds": [
       "src-142qola"
     ],
@@ -34942,7 +34942,7 @@
     ],
     "firstPublishedAt": "2026-10-30T00:00:00.000Z",
     "latestPublishedAt": "2026-11-02T00:00:00.000Z",
-    "heat": 1.9,
+    "heat": 1.8,
     "relations": [
       {
         "memberId": "src-3qb0gm",
@@ -34982,7 +34982,7 @@
     ],
     "heat6hAgo": 2.2,
     "trend": "down",
-    "trendPct": -13.6,
+    "trendPct": -18.2,
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
@@ -37146,9 +37146,9 @@
         "confidence": 0.9013878188659974
       }
     ],
-    "heat6hAgo": 1.7,
+    "heat6hAgo": 1.6,
     "trend": "down",
-    "trendPct": -17.6,
+    "trendPct": -12.5,
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
@@ -38799,8 +38799,8 @@
     "id": "story-1wmardm",
     "rootId": "src-n8jukm",
     "title": "绿色气候基金批准创纪录的 33 亿美元气候投资",
-    "digest": "联合国支持的绿色气候基金（GCF）",
-    "latest": "联合国支持的绿色气候基金（GCF）",
+    "digest": "联合国支持的绿色气候基金（GCF）在董事会会议上批准为21个项目提供近20亿美元气候融资，使其2026年批准总额达到创纪录的33亿美元。",
+    "latest": "联合国支持的绿色气候基金（GCF）在董事会会议上批准为21个项目提供近20亿美元气候融资，使其2026年批准总额达到创纪录的33亿美元。",
     "memberIds": [
       "src-n8jukm"
     ],
@@ -38879,8 +38879,8 @@
     "id": "story-lc99wz",
     "rootId": "src-tcly9h",
     "title": "美国银行、SMI、Eurazeo 推出新的生物多样性解决方案基金",
-    "digest": "美国银行、可持续市场倡议（SMI）",
-    "latest": "美国银行、可持续市场倡议（SMI）",
+    "digest": "美国银行、可持续市场倡议（SMI）与法国投资公司Eurazeo共同推出“灯塔倡议”，旨在为自然修复和生物多样性保护项目融资，基金初始承诺规模为4000万美元。",
+    "latest": "美国银行、可持续市场倡议（SMI）与法国投资公司Eurazeo共同推出“灯塔倡议”，旨在为自然修复和生物多样性保护项目融资，基金初始承诺规模为4000万美元。",
     "memberIds": [
       "src-tcly9h"
     ],
@@ -38918,18 +38918,18 @@
   {
     "id": "story-1elx99x",
     "rootId": "src-1y39dqu",
-    "title": "APG Invests €500 Million in Sustainable European Infrastructure with Equitix",
-    "digest": "Dutch pension fund manager APG, on behalf of its pension fund client ABP",
-    "latest": "Dutch pension fund manager APG, on behalf of its pension fund client ABP",
+    "title": "APG与Equitix共同向可持续欧洲基础设施投资5亿欧元",
+    "digest": "荷兰养老基金管理公司APG",
+    "latest": "荷兰养老基金管理公司APG",
     "memberIds": [
       "src-1y39dqu"
     ],
     "facts": [
       {
-        "title": "APG Invests €500 Million in Su",
+        "title": "APG与Equitix共同向可持续欧洲基础设施投资5亿欧元",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "APG Invests €500 Million in Sustainable European Infrastructure with Equitix",
+        "object": "APG与Equitix共同向可持续欧洲基础设施投资5亿欧元",
         "occurredAt": "2026-11-02"
       }
     ],
@@ -38958,18 +38958,18 @@
   {
     "id": "story-ruhtq5",
     "rootId": "src-140fzjh",
-    "title": "Brazil Reconsiders Mandatory Sustainability Reporting Just Months After Scrapping Requirement",
-    "digest": "Brazil’s Securities and Exchange Commission (CVM) announced the launch of a new public consultation into",
-    "latest": "Brazil’s Securities and Exchange Commission (CVM) announced the launch of a new public consultation into",
+    "title": "巴西在取消强制要求仅数月后重新考虑强制性可持续发展报告",
+    "digest": "巴西证券交易委员会（CVM）启动新一轮公众咨询，讨论其即将实施的可持续与气候相关报告制度，并征求对强制披露、逐步设定义务或仅强制气候报告等方案的意见。",
+    "latest": "巴西证券交易委员会（CVM）启动新一轮公众咨询，讨论其即将实施的可持续与气候相关报告制度，并征求对强制披露、逐步设定义务或仅强制气候报告等方案的意见。",
     "memberIds": [
       "src-140fzjh"
     ],
     "facts": [
       {
-        "title": "Brazil Reconsiders Mandatory S",
+        "title": "巴西在取消强制要求仅数月后重新考虑强制性可持续发展报告",
         "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "Brazil Reconsiders Mandatory Sustainability Reporting Just Months After Scrappin",
+        "action": "启动",
+        "object": "巴西在取消强制要求仅数月后重新考虑强制性可持续发展报告",
         "occurredAt": "2026-11-02"
       }
     ],
@@ -38998,18 +38998,18 @@
   {
     "id": "story-180srdl",
     "rootId": "src-9dkqc7",
-    "title": "ESG Playbook Launches Solution to Quantify Climate and Energy Risk for Real Estate",
-    "digest": "Sustainability and business risk software company ESG Playbook announced the launch of its new real estate",
-    "latest": "Sustainability and business risk software company ESG Playbook announced the launch of its new real estate",
+    "title": "ESG Playbook推出解决方案，用于量化房地产的气候与能源风险",
+    "digest": "可持续发展与商业风险软件公司ESG Playbook宣布推出其新的房地产",
+    "latest": "可持续发展与商业风险软件公司ESG Playbook宣布推出其新的房地产",
     "memberIds": [
       "src-9dkqc7"
     ],
     "facts": [
       {
-        "title": "ESG Playbook Launches Solution",
+        "title": "ESG Playbook推出解决方案，用于量化房地产的气候与",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "ESG Playbook Launches Solution to Quantify Climate and Energy Risk for Real Esta",
+        "object": "ESG Playbook推出解决方案，用于量化房地产的气候与能源风险",
         "occurredAt": "2026-11-02"
       }
     ],

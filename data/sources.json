@@ -43,19 +43,23 @@
     {
       "id": "ifrs-issb",
       "name": "IFRS / ISSB 新闻",
-      "url": "https://www.ifrs.org/sitemap.xml",
-      "type": "sitemap",
-      "urlPrefix": "/news-and-events/news/",
-      "excludeUrlPatterns": [
-        "^https://www.ifrs.org/news-and-events/news/$",
-        "^https://www.ifrs.org/content/ifrs/home/news-and-events/news/$"
-      ],
-      "limit": 10,
+      "url": "https://www.ifrs.org/news-and-events/news/",
+      "type": "browser-render",
+      "selectors": {
+        "item": "#news_table tbody tr",
+        "title": "td:nth-child(3) a",
+        "link": "td:nth-child(3) a",
+        "date": "td:nth-child(1)",
+        "summary": "td:nth-child(3)"
+      },
+      "renderWaitMs": 7000,
+      "timeoutMs": 60000,
+      "limit": 20,
       "contentType": "政策",
       "region": "全球",
       "language": "en",
       "enabled": true,
-      "notes": "RSS 路径已失效，改用 sitemap 解析近期新闻文章；已支持按 URL 日期排序",
+      "notes": "RSS 路径已失效，改用浏览器渲染新闻表格并读取日期、类型和标题。",
       "backfillLimit": 20
     },
     {
@@ -207,13 +211,16 @@
     {
       "id": "cdp-articles",
       "name": "CDP 新闻与文章",
-      "url": "https://www.cdp.net/en/insights.md",
-      "type": "markdown",
+      "url": "https://www.cdp.net/en/insights",
+      "type": "browser-render",
       "contentType": "评级",
       "region": "全球",
       "language": "en",
-      "enabled": true,
-      "notes": "旧文章专区 404，改用 CDP Insights Markdown 列表"
+      "enabled": false,
+      "notes": "CDP Insights 页面只返回导航，文章卡片未进入无障碍 DOM；暂停自动采集，待接入 CDP 内容 API。",
+      "renderWaitMs": 7000,
+      "timeoutMs": 60000,
+      "limit": 20
     },
     {
       "id": "msci-esg-ratings",
@@ -316,6 +323,7 @@
       "name": "联合国环境规划署（UNEP）新闻与观点",
       "url": "https://www.unep.org/news-and-stories",
       "type": "browser-render",
+      "useDefaultUserAgent": true,
       "linkPatterns": [
         "^https://www\\.unep\\.org/news-and-stories/(story|press-release|statement|speech|opinion|media)/"
       ],
@@ -326,7 +334,7 @@
       "contentType": "政策",
       "region": "全球",
       "language": "en",
-      "enabled": true,
+      "enabled": false,
       "notes": "UNEP 官网被 Cloudflare 拦截，普通抓取不可用；已接入浏览器渲染抓取，自动失败时读取人工快照 data/manual/unep-news.html（应用内浏览器打开官方页面后保存）",
       "recoveryCategory": "需人工验证",
       "recoveryPlan": "在应用内浏览器打开 https://www.unep.org/news-and-stories 完成验证后保存快照，管道会优先浏览器渲染、失败时用快照兜底"
@@ -336,6 +344,7 @@
       "name": "联合国气候变化框架公约（UNFCCC）新闻",
       "url": "https://unfccc.int/news",
       "type": "browser-render",
+      "useDefaultUserAgent": true,
       "linkPatterns": [
         "^https://unfccc\\.int/(?:en/)?news/[^?#]+$"
       ],
@@ -348,6 +357,15 @@
       "language": "en",
       "enabled": true,
       "notes": "UNFCCC 直连被 WAF 拦截，官方 RSS 为空；改用浏览器渲染官方新闻列表，可解析日期与原文链接",
+      "selectors": {
+        "item": ".views-row",
+        "title": "a.news-teaser",
+        "link": "a.news-teaser",
+        "date": ".date",
+        "summary": ".info-container span"
+      },
+      "renderWaitMs": 7000,
+      "timeoutMs": 60000,
       "recoveryCategory": "可自动实现",
       "recoveryPlan": "浏览器渲染已实测可用；如失效可改走 sitemap.xml 解析"
     },
@@ -360,11 +378,14 @@
       "region": "全球",
       "language": "en",
       "enabled": true,
-      "notes": "已核验启用：联合国全球契约新闻（article.article--teaser 卡片）",
-      "selectors": [
-        "article.article--teaser",
-        ".views-row"
-      ],
+      "notes": "联合国全球契约新闻；使用文章卡片标题、描述和发布日期。",
+      "selectors": {
+        "item": ".article.article--teaser",
+        "title": ".article__title a",
+        "link": ".article__title a",
+        "date": ".article__info .date",
+        "summary": ".article__description"
+      },
       "limit": 15,
       "backfillLimit": 20
     },
@@ -402,15 +423,21 @@
     {
       "id": "sbti-news",
       "name": "SBTi 科学碳目标动态",
-      "url": "https://sciencebasedtargets.org/sitemap.xml",
-      "type": "sitemap",
+      "url": "https://sciencebasedtargets.org/news",
+      "type": "webpage",
       "contentType": "观点",
       "region": "全球",
       "language": "en",
       "enabled": true,
-      "notes": "已核验启用：SBTi sitemap 索引，子地图按 /news/ 过滤",
-      "urlPrefix": "/news/",
-      "limit": 10,
+      "notes": "SBTi 官方新闻列表；使用新闻卡片自身的日期、标题和摘要。",
+      "selectors": {
+        "item": "a.c-listing-item",
+        "title": ".c-news__listing-title",
+        "link": ":scope",
+        "date": ".c-listing-item__meta-cont",
+        "summary": ".c-news__listing-desc"
+      },
+      "limit": 20,
       "backfillLimit": 20,
       "sitemapLimit": 18
     },
@@ -450,9 +477,12 @@
       "name": "德勤可持续发展洞察",
       "url": "https://www2.deloitte.com/global/en/issues/climate/sustainability-and-climate.html",
       "type": "webpage",
-      "selectors": [
-        "a[href*=\"/global/en/issues/climate/\"]"
-      ],
+      "selectors": {
+        "item": "a.cmp-promo-tracking[href*=\"/global/en/issues/climate/\"]",
+        "title": ".cmp-promo__content__title",
+        "link": ":scope",
+        "summary": ".cmp-promo__content__desc"
+      },
       "urlPatterns": [
         "^https://www2\\.deloitte\\.com/global/en/issues/climate/[a-z0-9-]+\\.html$"
       ],
@@ -468,7 +498,10 @@
       "enabled": true,
       "limit": 20,
       "backfillLimit": 30,
-      "notes": "德勤官网可持续与气候洞察页，按 climate 文章链接抓取",
+      "recencyDays": 90,
+      "followArticleMetadata": true,
+      "maxArticleFetches": 10,
+      "notes": "德勤官网可持续与气候洞察页；列表卡片通过文章页元数据回填发布日期与摘要。",
       "recoveryCategory": "可自动实现",
       "recoveryPlan": "已接入官网页面抓取"
     },
@@ -523,16 +556,25 @@
     {
       "id": "kpmg-esg",
       "name": "毕马威（KPMG）ESG 洞察",
-      "url": "https://kpmg.com/xx/en/home/insights.html",
+      "url": "https://kpmg.com/xx/en/our-insights.html",
       "type": "webpage",
       "contentType": "观点",
       "region": "全球",
       "language": "en",
-      "selectors": [
-        ".cmp-teaser a"
+      "selectors": {
+        "item": ".cmp-filterlist__tile",
+        "title": ".cmp-filterlist__tile--title",
+        "link": "a.cmp-filterlist__tile--action-link",
+        "summary": ".cmp-filterlist__tile--description"
+      },
+      "linkPatterns": [
+        "^https://kpmg\\.com/xx/en/our-insights/sustainability/.+"
       ],
-      "enabled": true,
-      "notes": "已核验：导航项与文章卡混用 .cmp-teaser，需更精确选择器后启用",
+      "followArticleMetadata": true,
+      "maxArticleFetches": 10,
+      "limit": 20,
+      "enabled": false,
+      "notes": "从 KPMG 洞察列表筛选可持续发展文章，并通过文章页元数据回填日期与摘要。",
       "recoveryCategory": "可自动实现",
       "recoveryPlan": ".cmp-teaser 混用导航与文章卡，细化选择器后启用"
     },
@@ -641,10 +683,14 @@
       "region": "全球",
       "language": "en",
       "enabled": true,
-      "notes": "已核验启用：世达洞察文章（.insightful-cards__grid-cell 外层卡片，含标题与原文链接）",
-      "selectors": [
-        ".insightful-cards__grid-cell"
-      ],
+      "notes": "已核验启用：仅采集最新洞察卡片，日期使用卡片自身的 .tile-insight__date，避免把正文中的截止日期当作发布日期",
+      "selectors": {
+        "item": "a.tile-insight",
+        "title": ".tile-insight__title",
+        "link": ":scope",
+        "date": ".tile-insight__date",
+        "summary": ".tile-insight__summary"
+      },
       "urlPatterns": [
         "/insights/"
       ],
@@ -658,11 +704,20 @@
       "contentType": "观点",
       "region": "全球",
       "language": "en",
-      "enabled": true,
-      "notes": "已核验启用：高伟绅洞察文章，标题需 LLM 二次清洗",
-      "selectors": [
-        "article"
-      ]
+      "enabled": false,
+      "notes": "高伟绅洞察文章页未提供可靠发布日期；暂停自动采集，待接入站点 sitemap lastmod。",
+      "selectors": {
+        "item": "a.a_standardlink[href*=\"/insights/thought_leadership/\"]",
+        "title": ":scope",
+        "link": ":scope",
+        "summary": ":scope"
+      },
+      "linkPatterns": [
+        "^https://www\\.cliffordchance\\.com/insights/thought_leadership/(?!.*(?:seminars-training-and-events|esg\\.html)).+\\.html$"
+      ],
+      "followArticleMetadata": true,
+      "maxArticleFetches": 10,
+      "limit": 20
     },
     {
       "id": "x-esg-experts",
@@ -698,13 +753,15 @@
       "name": "中国商务部政策发布",
       "url": "https://www.mofcom.gov.cn/zwgk/zcfb/",
       "apiUrl": "https://www.mofcom.gov.cn/api-gateway/jpaas-publish-server/front/page/build/unit?parseType=bulidstatic&webId=8f43c7ad3afc411fb56f281724b73708&tplSetId=52551ea0e2c14bca8c84792f7aa37ead&pageType=column&tagId=%E5%88%86%E9%A1%B5%E5%88%97%E8%A1%A8&editType=null&pageId=fc8bdff48fa345a48b651c1285b70b8f",
-      "type": "mofcom",
+      "type": "browser-render",
       "contentType": "政策",
       "region": "中国",
       "language": "zh",
       "enabled": true,
-      "notes": "已核验启用：商务部政策发布官方 API（异步列表），聚焦反制清单、出口管制、两用物项、涉疆强迫劳动等贸易合规政策",
-      "limit": 20,
+      "notes": "商务部政策发布列表由前端异步加载；使用浏览器渲染后解析政策文章链接与日期。",
+      "renderWaitMs": 7000,
+      "timeoutMs": 60000,
+      "limit": 30,
       "backfillLimit": 40
     },
     {
@@ -788,10 +845,10 @@
       "language": "zh",
       "limit": 20,
       "backfillLimit": 30,
-      "enabled": true,
-      "notes": "深交所规则页服务端渲染，HTML 可抓",
+      "enabled": false,
+      "notes": "深交所规则列表由前端异步接口加载，静态 HTML 不含最新规则；待实现专用接口适配器。",
       "recoveryCategory": "可自动实现",
-      "recoveryPlan": "已按官方规则页接入"
+      "recoveryPlan": "定位官方规则列表 JSON 接口后启用"
     },
     {
       "id": "sasac-policy",
@@ -1216,12 +1273,30 @@
       "id": "un-news",
       "name": "联合国新闻",
       "url": "https://news.un.org/en/",
-      "type": "webpage",
+      "rssUrl": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "type": "rss",
       "contentType": "政策",
       "region": "全球",
       "language": "en",
-      "notes": "联合国官方新闻；建议实现 webpage/rss 适配器后启用。",
-      "enabled": false,
+      "notes": "联合国官方新闻 RSS；仅保留气候、自然、环境与可持续发展和能源转型相关条目。",
+      "keywords": [
+        "climate",
+        "sustainab",
+        "environment",
+        "biodiversity",
+        "nature",
+        "emission",
+        "carbon",
+        "renewable",
+        "green",
+        "energy transition",
+        "net zero",
+        "pollution",
+        "adaptation",
+        "water"
+      ],
+      "limit": 30,
+      "enabled": true,
       "fallbacks": []
     },
     {
@@ -1232,8 +1307,16 @@
       "contentType": "政策",
       "region": "全球",
       "language": "en",
-      "notes": "WMO 官方新闻与温室气体公报；建议实现 webpage 适配器后启用。",
-      "enabled": false,
+      "notes": "WMO 官方新闻与温室气体公报；使用新闻卡片标题和发布日期。",
+      "selectors": {
+        "item": ".views-row",
+        "title": "h2",
+        "link": "a",
+        "date": "span.text-sm",
+        "summary": "h2"
+      },
+      "limit": 20,
+      "enabled": true,
       "fallbacks": []
     },
     {
@@ -1244,20 +1327,36 @@
       "contentType": "行业",
       "region": "全球",
       "language": "en",
-      "notes": "GCF 官方新闻与董事会项目；建议实现 webpage 适配器后启用。",
-      "enabled": false,
+      "notes": "GCF 官方新闻与董事会项目；仅采集站内新闻卡片，排除二手媒体链接。",
+      "selectors": {
+        "item": "a.group[href^=\"/about/news-and-updates/\"]",
+        "title": "p.f-body-bold",
+        "link": ":scope",
+        "date": "li:last-child span",
+        "summary": "p.f-body-bold"
+      },
+      "limit": 20,
+      "enabled": true,
       "fallbacks": []
     },
     {
       "id": "aiib-news",
       "name": "亚洲基础设施投资银行（AIIB）新闻",
-      "url": "https://www.aiib.org/en/news-events/news/",
+      "url": "https://www.aiib.org/en/news-events/media-center/news/2026.html",
       "type": "webpage",
       "contentType": "行业",
       "region": "全球",
       "language": "en",
-      "notes": "AIIB 官方新闻与项目；建议实现 webpage 适配器后启用。",
-      "enabled": false,
+      "notes": "AIIB 官方新闻与项目；使用 2026 新闻列表的标题、发布日期和摘要。",
+      "selectors": {
+        "item": "a.new-item",
+        "title": "h3",
+        "link": ":scope",
+        "date": "p.font-copy-14-black",
+        "summary": "p.copy-desc"
+      },
+      "limit": 20,
+      "enabled": true,
       "fallbacks": []
     },
     {
@@ -1268,8 +1367,16 @@
       "contentType": "政策",
       "region": "全球",
       "language": "en",
-      "notes": "CBD/COP 官方新闻与会议成果；建议实现 webpage 适配器后启用。",
-      "enabled": false,
+      "notes": "CBD/COP 官方新闻稿；仅采集 Secretariat 新闻卡片，标题取自 post-content。",
+      "selectors": {
+        "item": "div.post-wrapper.secretariat",
+        "title": "a.post-content",
+        "link": "a.post-content",
+        "date": "a.post-header span:last-child",
+        "summary": "a.post-content"
+      },
+      "limit": 20,
+      "enabled": true,
       "fallbacks": []
     },
     {
@@ -1280,8 +1387,9 @@
       "contentType": "观点",
       "region": "全球",
       "language": "en",
-      "notes": "气候政策与能源分析；RSS 待验证后启用。",
-      "enabled": false,
+      "notes": "气候政策与能源分析；已验证 RSS 返回有效文章。",
+      "limit": 30,
+      "enabled": true,
       "fallbacks": []
     },
     {
@@ -1300,12 +1408,14 @@
       "id": "finance-biodiversity",
       "name": "Finance for Biodiversity Foundation",
       "url": "https://www.financeforbiodiversity.org/",
-      "type": "webpage",
+      "rssUrl": "https://www.financeforbiodiversity.org/feed/",
+      "type": "rss",
       "contentType": "政策",
       "region": "全球",
       "language": "en",
-      "notes": "自然相关金融披露与金融机构倡议；建议实现 webpage 适配器后启用。",
-      "enabled": false,
+      "notes": "自然相关金融披露与金融机构倡议；已验证官方 WordPress RSS。",
+      "limit": 20,
+      "enabled": true,
       "fallbacks": []
     },
     {

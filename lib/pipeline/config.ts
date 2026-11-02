@@ -20,6 +20,8 @@ export const SELECTION_THRESHOLDS: Record<SourceTier, number> = {
 export const CURATION_FLOOR = 75;
 
 export const UNDERSTAND_FLOOR = 45;
+// 当前产品窗口从 2026 年 9 月开始；用于 API 型信源的增量抓取起点。
+export const CONTENT_WINDOW_START = "2026-09-01";
 // 增量评分回看窗口：以上次成功运行的 finishedAt 为基准，向前多回看 72 小时，
 // 避免 RSS 延迟或跨时区导致新内容漏评。更早的内容沿用上次评分。
 export const INCREMENTAL_LOOKBACK_HOURS = 72;

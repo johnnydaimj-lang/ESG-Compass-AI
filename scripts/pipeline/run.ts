@@ -20,7 +20,7 @@ import { PIPELINE_VERSION } from "@/lib/contracts/pipeline";
 import { clusterMaterials, type ClusterInput } from "@/lib/pipeline/cluster";
 import { classifyContentType } from "@/lib/pipeline/classify";
 import { CURATION_FLOOR, INCREMENTAL_LOOKBACK_HOURS, UNDERSTAND_FLOOR } from "@/lib/pipeline/config";
-import { closeBrowserRender, collectBrowserRenderSource, collectRssSource, collectSecInvestreports, collectWebpageSource, sourceTierFor, type SourceConfig } from "@/lib/pipeline/collect";
+import { closeBrowserRender, collectBrowserRenderSource, collectCrossrefSource, collectEuPressCornerSource, collectRssSource, collectSecInvestreports, collectWebpageSource, collectWorldBankSource, isExcludedArticleUrl, isPlausiblePublishedDate, sourceTierFor, type SourceConfig } from "@/lib/pipeline/collect";
 import { buildDailyReport } from "@/lib/pipeline/daily";
 import { calculateHeat } from "@/lib/pipeline/heat";
 import { prefilterMaterial } from "@/lib/pipeline/prefilter";
@@ -72,7 +72,18 @@ function readJson<T>(path: string, fallback: T): T {
 function findSource(item: ContentItem, sources: SourceConfig[]): SourceConfig | undefined {
   const byName = sources.find((source) => source.name === item.sourceName);
   if (byName) return byName;
-  return sources.find((source) => source.url === item.sourceUrl);
+  const byUrl = sources.find((source) => source.url === item.sourceUrl);
+  if (byUrl) return byUrl;
+  const normalizedName = normalizeSourceName(item.sourceName);
+  return sources.find((source) => normalizeSourceName(source.name) === normalizedName);
+}
+
+function normalizeSourceName(value: string): string {
+  return value
+    .toLowerCase()
+    .replace(/（[^）]*）|\([^)]*\)/g, "")
+    .replace(/新闻与观点|新闻动态|政策发布|新闻|动态|发布/g, "")
+    .replace(/[^\p{L}\p{N}]+/gu, "");
 }
 
 // 未匹配到信源配置的材料仍需一个稳定来源标识，避免把材料 ID 当作信源 ID。
@@ -209,6 +220,23 @@ async function liveSourceRuns(
       continue;
     }
 
+    if (["api", "worldbank", "eu-presscorner"].includes(source.type.toLowerCase())) {
+      try {
+        const items = source.type.toLowerCase() === "api"
+          ? await collectCrossrefSource(source)
+          : source.type.toLowerCase() === "worldbank"
+            ? await collectWorldBankSource(source)
+            : await collectEuPressCornerSource(source);
+        collected.push(...items);
+        runs.push({ ...base, state: "ok", count: items.length, rawCount: items.length, error: "", warning: "", channel: source.type.toLowerCase(), fallbackUsed: false });
+      } catch (error) {
+        const message = error instanceof Error ? error.message : String(error);
+        runs.push({ ...base, state: "failed", count: 0, rawCount: 0, error: message, warning: "", channel: source.type.toLowerCase(), fallbackUsed: false });
+        warnings.push(`${source.name} 抓取失败：${message}`);
+      }
+      continue;
+    }
+
     if (source.type.toLowerCase() === "webpage") {
       try {
         const items = await collectWebpageSource(source);
@@ -336,7 +364,16 @@ async function main() {
   const warnings: string[] = [];
   const sourceRuns: SourceRunStatus[] = [];
 
-  const rawMaterials = await acquireMaterials(sources, sourceRuns, warnings, startedAt);
+  const acquiredMaterials = await acquireMaterials(sources, sourceRuns, warnings, startedAt);
+  const rawMaterials = acquiredMaterials.filter((material) => {
+    const excluded = isExcludedArticleUrl(material.articleUrl || "", material.title);
+    const future = !isPlausiblePublishedDate(material.publishedAt, startedAt.getTime());
+    return !excluded && !future;
+  });
+  const droppedMaterials = acquiredMaterials.length - rawMaterials.length;
+  if (droppedMaterials > 0) {
+    warnings.push(`已过滤 ${droppedMaterials} 条活动页、无效日期或未来日期的材料。`);
+  }
 
   const processed: ProcessedMaterial[] = [];
   let blocked = 0;
@@ -525,8 +562,11 @@ async function main() {
   if (warnings.length) process.stdout.write(`warnings=${warnings.join(" | ")}\n`);
 }
 
-main().catch(async (error) => {
-  process.stderr.write(`[pipeline] failed: ${error instanceof Error ? error.stack || error.message : String(error)}\n`);
-  await closeBrowserRender();
-  process.exitCode = 1;
-});
+main()
+  // 某些 HTTP 客户端会保留 keep-alive 句柄；数据已落盘后显式退出，避免自动化任务悬挂。
+  .then(() => process.exit(0))
+  .catch(async (error) => {
+    process.stderr.write(`[pipeline] failed: ${error instanceof Error ? error.stack || error.message : String(error)}\n`);
+    await closeBrowserRender();
+    process.exit(1);
+  });

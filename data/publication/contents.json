@@ -14,9 +14,9 @@
     "titleZh": "ESG Playbook推出解决方案，用于量化房地产的气候与能源风险",
     "summaryZh": "可持续发展与商业风险软件公司ESG Playbook宣布推出其新的房地产",
     "recommended": false,
-    "recommendReason": "Sustainability and business risk software company ESG Playbook announced the launch of its new real estate。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "可持续发展与商业风险软件公司ESG Playbook宣布推出其新的房地产。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -28,10 +28,10 @@
         "全球"
       ],
       "fact": {
-        "title": "ESG Playbook Launches Solution",
+        "title": "ESG Playbook推出解决方案，用于量化房地产的气候与",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "ESG Playbook Launches Solution to Quantify Climate and Energy Risk for Real Esta",
+        "object": "ESG Playbook推出解决方案，用于量化房地产的气候与能源风险",
         "occurredAt": "2026-11-02"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -40,7 +40,7 @@
   },
   {
     "id": "src-140fzjh",
-    "title": "Brazil Reconsiders Mandatory Sustainability Reporting Just Months After Scrapping Requirement",
+    "title": "Brazil Reconsiders Mandatory Sustainability Reporting Just Months After Switch to Voluntary",
     "summary": "Brazil's Securities and Exchange Commission (CVM) launched a new public consultation on its upcoming sustainability and climate-related reporting regime, seeking feedback on mandatory disclosure, phasing in mandatory obligations over time, or requiring only climate reporting.",
     "contentType": "观点",
     "region": "全球",
@@ -55,7 +55,7 @@
     "recommended": false,
     "recommendReason": "巴西证券交易委员会（CVM）启动新一轮公众咨询，讨论其即将实施的可持续与气候相关报告制度，并征求对强制披露、逐步设定义务或仅强制气候报告等方案的意见。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 58,
+      "score": 61,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -67,23 +67,15 @@
         "全球"
       ],
       "fact": {
-        "title": "Brazil Reconsiders Mandatory S",
+        "title": "巴西在取消强制要求仅数月后重新考虑强制性可持续发展报告",
         "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "Brazil Reconsiders Mandatory Sustainability Reporting Just Months After Scrappin",
+        "action": "启动",
+        "object": "巴西在取消强制要求仅数月后重新考虑强制性可持续发展报告",
         "occurredAt": "2026-11-02"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
-    },
-    "sourceRefs": [
-      {
-        "sourceName": "gov.br",
-        "sourceUrl": "https://www.gov.br/cvm/pt-br/assuntos/noticias/2026/cvm-lanca-edital-de-tomada-publica-de-subsidios-sobre-informacoes-financeiras-relacionadas-a-sustentabilidade",
-        "title": "Click here",
-        "publishedAt": "2026-11-02T14:42:16.000Z"
-      }
-    ]
+    }
   },
   {
     "id": "src-1y39dqu",
@@ -98,11 +90,11 @@
     "articleUrl": "https://www.esgtoday.com/apg-invests-e500-million-in-sustainable-european-infrastructure-with-equitix/?utm_source=rss&utm_medium=rss&utm_campaign=apg-invests-e500-million-in-sustainable-european-infrastructure-with-equitix",
     "esgTopic": "合规与监管",
     "titleZh": "APG与Equitix共同向可持续欧洲基础设施投资5亿欧元",
-    "summaryZh": "荷兰养老基金管理公司APG，代表其养老基金客户ABP",
+    "summaryZh": "荷兰养老基金管理公司APG",
     "recommended": false,
-    "recommendReason": "Dutch pension fund manager APG, on behalf of its pension fund client ABP。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "荷兰养老基金管理公司APG。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 33,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -114,10 +106,10 @@
         "全球"
       ],
       "fact": {
-        "title": "APG Invests €500 Million in Su",
+        "title": "APG与Equitix共同向可持续欧洲基础设施投资5亿欧元",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "APG Invests €500 Million in Sustainable European Infrastructure with Equitix",
+        "object": "APG与Equitix共同向可持续欧洲基础设施投资5亿欧元",
         "occurredAt": "2026-11-02"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -141,7 +133,7 @@
     "recommended": false,
     "recommendReason": "美国银行、可持续市场倡议（SMI）与法国投资公司Eurazeo共同推出“灯塔倡议”，旨在为自然修复和生物多样性保护项目融资，基金初始承诺规模为4000万美元。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 30,
+      "score": 32,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -219,7 +211,7 @@
     "recommended": false,
     "recommendReason": "联合国支持的绿色气候基金（GCF）在董事会会议上批准为21个项目提供近20亿美元气候融资，使其2026年批准总额达到创纪录的33亿美元。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 70,
+      "score": 50,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -258,7 +250,7 @@
     "recommended": false,
     "recommendReason": "香港交易所的上市衍生产品结算所开始接受中国政府债券、政策性银行债券和财政部债券作为抵押品。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 50,
+      "score": 62,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -336,7 +328,7 @@
     "recommended": false,
     "recommendReason": "Elisa Ng 新演讲：在香港金融科技周 x StartmeupHK 2026 上的主题演讲。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -375,7 +367,7 @@
     "recommended": false,
     "recommendReason": "证监会调查显示人工智能应用更广泛。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 21,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -414,7 +406,7 @@
     "recommended": false,
     "recommendReason": "Julia Leung 新摘要：在香港金融科技周 2026 上的小组讨论发言。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -453,7 +445,7 @@
     "recommended": false,
     "recommendReason": "证监会欢迎香港交易所扩大中国政府债券作为保证金抵押品的使用范围。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 45,
+      "score": 28,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -531,7 +523,7 @@
     "recommended": false,
     "recommendReason": "汹涌的海面挤压印度尼西亚东部的渔业生计。信息价值较高，涉及ESG的亚洲动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -570,7 +562,7 @@
     "recommended": false,
     "recommendReason": "土壤所储存的碳超过全球所有树木与大气层的总和。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 51,
+      "score": 58,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -648,7 +640,7 @@
     "recommended": false,
     "recommendReason": "编排的艺术：每一次成功整合背后的节奏。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 4,
+      "score": 7,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -765,7 +757,7 @@
     "recommended": false,
     "recommendReason": "航运业与海港。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -804,7 +796,7 @@
     "recommended": false,
     "recommendReason": "绘制海运燃料转型蓝图。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -843,7 +835,7 @@
     "recommended": false,
     "recommendReason": "关于2026年记账式贴现（七十一期）国债发行工作有关事宜的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 3,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -882,7 +874,7 @@
     "recommended": false,
     "recommendReason": "关于2026年记账式贴现（七十期）国债发行工作有关事宜的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 4,
+      "score": 3,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -921,7 +913,7 @@
     "recommended": false,
     "recommendReason": "数智赋能信息化监管 提升注册会计师行业监管效率和水平——新注册会计师。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 19,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -960,7 +952,7 @@
     "recommended": false,
     "recommendReason": "财政部天津监管局：坚持高位统筹 精准发力 推动过紧日子监督加力提效。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1004,7 +996,7 @@
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-18eeqhg",
-      "heat": 1.9,
+      "heat": 1.8,
       "tags": [
         "政策",
         "合规与监管",
@@ -1038,7 +1030,7 @@
     "recommended": false,
     "recommendReason": "财政部云南监管局：立足属地监管职能抓实财政金融监管激活云岭大地消费动能。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1077,7 +1069,7 @@
     "recommended": false,
     "recommendReason": "财政部宁波监管局：抓重点 强主业 夯基础 助力财政科学管理提质增效。信息价值较高，涉及合规与监管的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1116,7 +1108,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行 金融监管总局 中国证监会召开支持资本市场两项工具座谈会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1194,7 +1186,7 @@
     "recommended": false,
     "recommendReason": "国家发展改革委与阿曼有关部门签署北斗卫星等合作文件。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1233,12 +1225,12 @@
     "recommended": false,
     "recommendReason": "中共国家发展改革委党组召开扩大会议传达学习贯彻党的二十届五中全会精神。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-18eeqhg",
-      "heat": 1.9,
+      "heat": 1.8,
       "tags": [
         "政策",
         "合规与监管",
@@ -1311,7 +1303,7 @@
     "recommended": false,
     "recommendReason": "周海兵副主任会见法国财政总署署长杜蒙。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1350,7 +1342,7 @@
     "recommended": false,
     "recommendReason": "刘健主任、陈彦峰副主任出席解读《上海市推动中小企业高质量发展行动方案》新闻发布会。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 28,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1389,7 +1381,7 @@
     "recommended": false,
     "recommendReason": "10月下旬。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 4,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1467,7 +1459,7 @@
     "recommended": false,
     "recommendReason": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 40,
+      "score": 60,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1506,7 +1498,7 @@
     "recommended": false,
     "recommendReason": "上海市发展和改革委员会关于车用汽、柴油价格的通知（2026年10月29日）。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1545,7 +1537,7 @@
     "recommended": false,
     "recommendReason": "省属国企如何再造“增长曲线”？。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1584,7 +1576,7 @@
     "recommended": false,
     "recommendReason": "全力以赴拼经济 攻坚克难促发展。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1623,7 +1615,7 @@
     "recommended": false,
     "recommendReason": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 9,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1662,7 +1654,7 @@
     "recommended": false,
     "recommendReason": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1701,7 +1693,7 @@
     "recommended": false,
     "recommendReason": "走在前作表率 深入推进新时代党的建设新的伟大工程——中央和国家机关、人民团体广大党员干部深入学习贯彻党的二十届五中全会精神坚定走好“第一方阵”。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1740,7 +1732,7 @@
     "recommended": false,
     "recommendReason": "习近平会见瑞士联邦主席帕姆兰。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1779,7 +1771,7 @@
     "recommended": false,
     "recommendReason": "勇担历史使命 在新的赶考之路上交出更加优异答卷——与会同志谈贯彻落实党的二十届五中全会精神。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1818,7 +1810,7 @@
     "recommended": false,
     "recommendReason": "福建省工业和信息化厅 福建省发展和改革委员会 福建省通信管理局关于组织开展2026年度国家绿色算力设施推荐工作的通知。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 48,
+      "score": 50,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1857,7 +1849,7 @@
     "recommended": false,
     "recommendReason": "习近平对进一步做好黄河保护治理工作作出重要指示。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 57,
+      "score": 50,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1896,7 +1888,7 @@
     "recommended": false,
     "recommendReason": "习近平同阿曼苏丹海赛姆会谈。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -1935,7 +1927,7 @@
     "recommended": false,
     "recommendReason": "习近平同秘鲁总统藤森庆子就中秘建交55周年互致贺电。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2013,7 +2005,7 @@
     "recommended": false,
     "recommendReason": "2026年世界互联网大会“互联网之光”博览会在浙江乌镇开幕。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 2,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2052,7 +2044,7 @@
     "recommended": false,
     "recommendReason": "蓝佛安出席2026年中亚经济合作天山论坛开幕式。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2091,7 +2083,7 @@
     "recommended": false,
     "recommendReason": "蓝佛安出席2026年中亚经济合作天山论坛开幕式。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2169,7 +2161,7 @@
     "recommended": false,
     "recommendReason": "2026年世界互联网大会领先科技奖颁奖典礼举行。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2208,7 +2200,7 @@
     "recommended": false,
     "recommendReason": "2026年世界互联网大会乌镇峰会数字赋能共同富裕示范区建设展示活动在乌镇举行。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2247,7 +2239,7 @@
     "recommended": false,
     "recommendReason": "在发生中断之前，各组织可能并未意识到自身面临常规、网络和混合风险。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2286,7 +2278,7 @@
     "recommended": false,
     "recommendReason": "首席执行官和高层领导者的判断是组织中最有价值的知识来源之一。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2323,9 +2315,9 @@
     "titleZh": "COP17：各国绘制“埃里温路径”，以加快自然行动",
     "summaryZh": "在通往2030年的进程过半之际，齐聚亚美尼亚的各国在一项全球评估发现世界偏离实现生物多样性目标的轨道后，商定了一份路线图，以加快自然行动。",
     "recommended": false,
-    "recommendReason": "在通往2030年的进程过半之际，齐聚亚美尼亚的各国在一项全球评估发现世界偏离实现生物多样性目标的轨道后，商定了一份路线图，以加快自然行动。信息价值较高，涉及合规与监管动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "在通往2030年的进程过半之际，齐聚亚美尼亚的各国在一项全球评估发现世界偏离实现生物多样性目标的轨道后，商定了一份路线图，以加快自然行动。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 45,
+      "score": 48,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2364,7 +2356,7 @@
     "recommended": false,
     "recommendReason": "本周ESG新闻：欧盟委员会推出气候适应力框架。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 28,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2442,7 +2434,7 @@
     "recommended": false,
     "recommendReason": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2481,7 +2473,7 @@
     "recommended": false,
     "recommendReason": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 16,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2559,7 +2551,7 @@
     "recommended": false,
     "recommendReason": "各国在COP17生物多样性大会上完成了对到2030年扭转自然丧失进展的首次“全球审查”……文章《COP17：在埃里温举行的联合国生物多样性大会上达成的主要成果》首发于Carbon Brief。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 60,
+      "score": 50,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2585,7 +2577,7 @@
     "id": "src-pnj7xo",
     "title": "Somalia looks to the future as the UN's political mission closes",
     "summary": "“The story of the UN's political engagement in Somalia has been one of persistence, partnership and adaptation,” Raisedon Zenenga, the UN Secretary-General's Deputy Special Representative for Somalia has said, as three decades of UN political missions in the Horn of Africa country comes to an end on 31 October.",
-    "contentType": "行业",
+    "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-31T12:00:00.000Z",
     "importanceLevel": "中",
@@ -2596,16 +2588,16 @@
     "titleZh": "联合国政治特派团结束之际，索马里展望未来",
     "summaryZh": "联合国秘书长索马里副特别代表拉伊塞东·泽嫩加表示：“联合国在索马里的政治参与历程是一部坚持不懈、伙伴合作与不断适应的历史。”随着联合国在非洲之角国家索马里长达三十年的政治特派团于10月31日结束。",
     "recommended": false,
-    "recommendReason": "联合国秘书长索马里副特别代表拉伊塞东·泽嫩加表示：“联合国在索马里的政治参与历程是一部坚持不懈、伙伴合作与不断适应的历史。信息价值较高，涉及合规与监管动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "联合国秘书长索马里副特别代表拉伊塞东·泽嫩加表示：“联合国在索马里的政治参与历程是一部坚持不懈、伙伴合作与不断适应的历史。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-15ga9o4",
       "heat": 0,
       "tags": [
-        "行业",
+        "政策",
         "合规与监管",
         "全球"
       ],
@@ -2637,7 +2629,7 @@
     "esgTopic": "气候风险",
     "recommended": false,
     "pipeline": {
-      "score": 50,
+      "score": 47,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2716,12 +2708,12 @@
     "recommended": false,
     "recommendReason": "生态环境部党组召开会议 传达学习贯彻党的二十届五中全会精神。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-18eeqhg",
-      "heat": 1.9,
+      "heat": 1.8,
       "tags": [
         "政策",
         "合规与监管",
@@ -2755,7 +2747,7 @@
     "recommended": false,
     "recommendReason": "生态环境部出席《生物多样性公约》第十七次缔约方大会高级别会议等活动。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 17,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2794,7 +2786,7 @@
     "recommended": false,
     "recommendReason": "联合国生物多样性大会绘制“埃里温路径”。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -2833,7 +2825,7 @@
     "recommended": false,
     "recommendReason": "绿色建筑材料制造商Fortera和科技巨头Meta今天宣布达成一项为期多年的协议。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 32,
+      "score": 26,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2870,9 +2862,9 @@
     "titleZh": "刚果民主共和国：冲突、埃博拉和气候冲击之下，数百万人的饥饿状况加剧",
     "summaryZh": "根据IPC全球粮食安全监测机构的最新警报，刚果民主共和国超过2800万人吃不饱饭，预计未来几个月这一数字还将上升。",
     "recommended": false,
-    "recommendReason": "More than 28 million people in the Democratic Republic of the Congo (DRC) are not getting enough to eat and the number is expected to tick up in the coming months, according to the latest alert from the IPC global food security monitor.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "根据IPC全球粮食安全监测机构的最新警报，刚果民主共和国超过2800万人吃不饱饭，预计未来几个月这一数字还将上升。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 48,
+      "score": 32,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2911,7 +2903,7 @@
     "recommended": false,
     "recommendReason": "全球另类资产管理公司TPG宣布其以气候为重点的战略最终收盘。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 40,
+      "score": 33,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2950,7 +2942,7 @@
     "recommended": false,
     "recommendReason": "在向法院支付1.469亿$后。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 30,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -2989,7 +2981,7 @@
     "recommended": false,
     "recommendReason": "证监会欢迎委任流程审核小组成员。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -3028,7 +3020,7 @@
     "recommended": false,
     "recommendReason": "Kelvin Wong的新演讲：在香港证券交易所成立47周年金融创新论坛上的主旨演讲。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -3512,7 +3504,7 @@
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-18eeqhg",
-      "heat": 1.9,
+      "heat": 1.8,
       "tags": [
         "政策",
         "合规与监管",
@@ -3897,12 +3889,12 @@
     "recommended": false,
     "recommendReason": "中国人民银行党委召开会议 传达学习党的二十届五中全会精神。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-18eeqhg",
-      "heat": 1.9,
+      "heat": 1.8,
       "tags": [
         "政策",
         "合规与监管",
@@ -3936,7 +3928,7 @@
     "recommended": false,
     "recommendReason": "中南（非）两国央行续签双边本币互换协议。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -3980,7 +3972,7 @@
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-18eeqhg",
-      "heat": 1.9,
+      "heat": 1.8,
       "tags": [
         "政策",
         "合规与监管",
@@ -4092,7 +4084,7 @@
     "recommended": false,
     "recommendReason": "绿色燃料商业化进程提速。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4131,7 +4123,7 @@
     "recommended": false,
     "recommendReason": "前三季度新疆外送电量超1300亿千瓦时。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4170,7 +4162,7 @@
     "recommended": false,
     "recommendReason": "全国最大海上光伏项目并网发电超百万千瓦。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 40,
+      "score": 24,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4326,7 +4318,7 @@
     "recommended": false,
     "recommendReason": "习近平同德国总统施泰因迈尔会谈。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4404,7 +4396,7 @@
     "recommended": false,
     "recommendReason": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 7,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4448,7 +4440,7 @@
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-18eeqhg",
-      "heat": 1.9,
+      "heat": 1.8,
       "tags": [
         "政策",
         "合规与监管",
@@ -4482,7 +4474,7 @@
     "recommended": false,
     "recommendReason": "国家互联网信息办公室关于发布第十九批深度合成服务算法备案信息的公告。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 19,
+      "score": 31,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4521,7 +4513,7 @@
     "recommended": false,
     "recommendReason": "“我将无我。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 4,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4599,7 +4591,7 @@
     "recommended": false,
     "recommendReason": "向长征致敬｜一根根遗留的行军拐棍，为何在这里立起一座丰碑？。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 4,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4624,7 +4616,7 @@
   {
     "id": "src-1j2wluv",
     "title": "向长征致敬｜湘江战役中，敌人到了眼前，他为何把枪口转向自己",
-    "summary": "向长征致敬｜湘江战役中",
+    "summary": "向长征致敬｜湘江战役中，敌人到了眼前",
     "contentType": "政策",
     "region": "中国",
     "publishedAt": "2026-10-30T00:00:00.000Z",
@@ -4638,7 +4630,7 @@
     "recommended": false,
     "recommendReason": "向长征致敬｜湘江战役中，敌人到了眼前。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 1,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4716,7 +4708,7 @@
     "recommended": false,
     "recommendReason": "科技行业。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 2,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4755,7 +4747,7 @@
     "recommended": false,
     "recommendReason": "随着人工智能重塑SaaS。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4794,7 +4786,7 @@
     "recommended": false,
     "recommendReason": "消费品行业。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -4872,7 +4864,7 @@
     "recommended": false,
     "recommendReason": "财政部提议根据2026年10月30日《COINS法》适度扩展境外投资规则。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 47,
+      "score": 38,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5106,7 +5098,7 @@
     "recommended": false,
     "recommendReason": "中共中央政治局召开会议 中共中央总书记习近平主持会议。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 14,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5223,7 +5215,7 @@
     "recommended": false,
     "recommendReason": "习近平主席贺信激励青年走技能成才之路并为世界技能运动发展指明方向。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5379,7 +5371,7 @@
     "recommended": false,
     "recommendReason": "2026年11月IFRS咨询委员会议程和会议文件现已发布。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5457,7 +5449,7 @@
     "recommended": false,
     "recommendReason": "IFRS基金会受托人宣布ISSB两项连任任命。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 31,
+      "score": 17,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5520,8 +5512,8 @@
   },
   {
     "id": "src-1jjr6qt",
-    "title": "UN Climate Change 30 Oct 2026 Panama consolidates national roadmap for carbon markets after years of building the foundations Article",
-    "summary": "UN Climate Change 30 Oct 2026 Panama consolidates national roadmap for carbon markets after years of building the foundations Article",
+    "title": "Panama consolidates national roadmap for carbon markets after years of building the foundations",
+    "summary": "Panama consolidates national roadmap for carbon markets after years of building the foundations",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-30T00:00:00.000Z",
@@ -5533,9 +5525,9 @@
     "titleZh": "联合国气候变化 2026年10月30日 巴拿马在多年奠定基础后巩固国家碳市场路线图 文章",
     "summaryZh": "联合国气候变化 2026年10月30日 巴拿马在多年奠定基础后巩固国家碳市场路线图 文章",
     "recommended": false,
-    "recommendReason": "UN Climate Change 30 Oct 2026 Panama consolidates national roadmap for carbon markets after years of building the foundations Article。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "联合国气候变化 2026年10月30日 巴拿马在多年奠定基础后巩固国家碳市场路线图 文章。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 32,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5574,7 +5566,7 @@
     "recommended": false,
     "recommendReason": "亚洲基础设施投资银行（亚投行）已与国际自然保护联盟（IUCN）和世界自然基金会（WWF）签署意向书，以促进在生物多样性保护、自然和可持续基础设施方面的知识交流与技术合作。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5613,7 +5605,7 @@
     "recommended": false,
     "recommendReason": "中国共产党第二十届中央委员会第五次全体会议公报。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 29,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -5691,7 +5683,7 @@
     "recommended": false,
     "recommendReason": "行业领导者可以通过集中精力，扩大规模以满足激增的数据中心电力需求，并将人工智能和持续改进发挥作用，将颠覆性转化为增长。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5730,7 +5722,7 @@
     "recommended": false,
     "recommendReason": "仔细研究亚洲成功的创始人兼首席执行官揭示了他们如何在不牺牲企业家精神的情况下扩展业务。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5769,7 +5761,7 @@
     "recommended": false,
     "recommendReason": "随着人工智能的采用，巨大的价值正在被抛在后面。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5808,7 +5800,7 @@
     "recommended": false,
     "recommendReason": "解决停滞不前的开发生产力需要敏锐的决策。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5847,7 +5839,7 @@
     "recommended": false,
     "recommendReason": "人工智能代理可以从根本上改变保险分配的经济学。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5886,7 +5878,7 @@
     "recommended": false,
     "recommendReason": "这位指导迈克尔·菲尔普斯（Michael Phelps）获得23枚奥运金牌的教练解释了为什么一致性胜过动力，以及领导者可以从他建立冠军球队的方式中借鉴什么。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 1,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5925,7 +5917,7 @@
     "recommended": false,
     "recommendReason": "麦肯锡在战略和企业融资领域的三位专家探讨了支撑所有成功价值创造战略的四项基本原则。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -5964,7 +5956,7 @@
     "recommended": false,
     "recommendReason": "可持续发展数据和分析公司Clarity AI宣布推出过渡可信度评估。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 24,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -6003,7 +5995,7 @@
     "recommended": false,
     "recommendReason": "随着COP31气候峰会在土耳其临近，所有目光都聚焦于中国，看该国将推动什么…… 文章《专家：中国希望从COP31气候谈判中获得什么》首先发表于Carbon Brief。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 36,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -6146,7 +6138,7 @@
     "id": "src-1e05as2",
     "title": "Nature is making a comeback – now restoration funding must quadruple",
     "summary": "From salmon spawning grounds in Canada to coral reefs in Indonesia, ecosystems around the world are being restored at an unprecedented rate.",
-    "contentType": "行业",
+    "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-29T12:00:00.000Z",
     "importanceLevel": "中",
@@ -6157,16 +6149,16 @@
     "titleZh": "自然正在回归——现在恢复资金必须翻两番",
     "summaryZh": "从加拿大的鲑鱼产卵场到印度尼西亚的珊瑚礁，世界各地的生态系统正以前所未有的速度得到恢复。",
     "recommended": false,
-    "recommendReason": "From salmon spawning grounds in Canada to coral reefs in Indonesia, ecosystems around the world are being restored at an unprecedented rate.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "从加拿大的鲑鱼产卵场到印度尼西亚的珊瑚礁，世界各地的生态系统正以前所未有的速度得到恢复。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 19,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-h60py6",
       "heat": 0,
       "tags": [
-        "行业",
+        "政策",
         "合规与监管",
         "全球"
       ],
@@ -6276,7 +6268,7 @@
     "recommended": false,
     "recommendReason": "中国2026年太阳能电池板、电池和电动汽车等清洁能源技术的出口有望减少…… 文章《分析：中国2026年清洁技术出口将避免的二氧化碳排放量相当于巴西一年的排放量》首先发表于Carbon Brief。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 47,
+      "score": 41,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -6395,7 +6387,7 @@
     "recommended": false,
     "recommendReason": "生态环境部部长黄润秋出席2026年联合国中国青少年环境大会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -6434,7 +6426,7 @@
     "recommended": false,
     "recommendReason": "生态环境部部长黄润秋出席香港第二十一届国际环保博览会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -6512,7 +6504,7 @@
     "recommended": false,
     "recommendReason": "中智（利）两国央行续签双边本币互换协议。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -6707,7 +6699,7 @@
     "recommended": false,
     "recommendReason": "蓝佛安会见世界银行常务副行长兼首席行政官张文才。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -6824,7 +6816,7 @@
     "recommended": false,
     "recommendReason": "福建省工业和信息化厅关于公布2026年第三批省工业重点节能改造和通用设备更新提标项目的通知。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 40,
+      "score": 35,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -6863,7 +6855,7 @@
     "recommended": false,
     "recommendReason": "福建省工业和信息化厅关于组织征集2026年度中国消费名品的通知。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -7058,7 +7050,7 @@
     "recommended": false,
     "recommendReason": "乌镇峰会黑科技！。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 9,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -7136,7 +7128,7 @@
     "recommended": false,
     "recommendReason": "能源。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 2,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -7175,7 +7167,7 @@
     "recommended": false,
     "recommendReason": "领先公司如何在政策不确定性时代保持弹性。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -7331,7 +7323,7 @@
     "recommended": false,
     "recommendReason": "2026年香港上市专业技术公司报告。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -7409,7 +7401,7 @@
     "recommended": false,
     "recommendReason": "IFRS基金会受托人批准2027年预算并推进五年计划的落实。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 30,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -7487,7 +7479,7 @@
     "recommended": false,
     "recommendReason": "商务部公告2026年第53号 公布2027年货物出口配额总量。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 40,
+      "score": 55,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -7526,7 +7518,7 @@
     "recommended": false,
     "recommendReason": "商务部 国家发展改革委 生态环境部 海关总署关于进一步提高海南自由贸易港贸易自由化便利化水平的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 55,
+      "score": 56,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -7565,7 +7557,7 @@
     "recommended": false,
     "recommendReason": "关于公示2026年羊毛、毛条进口关税配额再分配拟分配企业名单的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -7643,7 +7635,7 @@
     "recommended": false,
     "recommendReason": "商务部 海关总署公告2026年第51号 公布优化调整挖泥船相关物项出口管制措施的决定。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 55,
+      "score": 60,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -7668,7 +7660,7 @@
   {
     "id": "src-1yrpv3a",
     "title": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定",
-    "summary": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定。",
+    "summary": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定",
     "contentType": "政策",
     "region": "中国",
     "publishedAt": "2026-10-29T00:00:00.000Z",
@@ -7679,12 +7671,12 @@
     "esgTopic": "合规与监管",
     "titleZh": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定",
     "summaryZh": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定。",
-    "recommended": true,
+    "recommended": false,
     "recommendReason": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 80,
+      "score": 74,
       "scoreThreshold": 75,
-      "scorePass": true,
+      "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1ykvcuu",
       "heat": 0,
@@ -7721,7 +7713,7 @@
     "recommended": true,
     "recommendReason": "商务部 海关总署 中央军委装备发展部公告2026年第49号 公布优化调整无人机相关物项出口管制措施的决定。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 78,
+      "score": 77,
       "scoreThreshold": 75,
       "scorePass": true,
       "sourceTier": "T2",
@@ -7760,7 +7752,7 @@
     "recommended": false,
     "recommendReason": "商务部等9部门关于加快推进科技兴商的意见。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 28,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -7785,7 +7777,7 @@
   {
     "id": "src-142qola",
     "title": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理",
-    "summary": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理。",
+    "summary": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理",
     "contentType": "政策",
     "region": "中国",
     "publishedAt": "2026-10-29T00:00:00.000Z",
@@ -7796,12 +7788,12 @@
     "esgTopic": "合规与监管",
     "titleZh": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理",
     "summaryZh": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理。",
-    "recommended": true,
+    "recommended": false,
     "recommendReason": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 78,
+      "score": 73,
       "scoreThreshold": 75,
-      "scorePass": true,
+      "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-1sqde9a",
       "heat": 0,
@@ -7838,7 +7830,7 @@
     "recommended": false,
     "recommendReason": "公布2027年化肥进口关税配额总量、分配原则及相关程序。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 45,
+      "score": 40,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -7877,7 +7869,7 @@
     "recommended": false,
     "recommendReason": "商务部公告2026年第46号 2027年食糖、羊毛、毛条进口关税配额实施细则。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 45,
+      "score": 28,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -7916,7 +7908,7 @@
     "recommended": false,
     "recommendReason": "公布2027年原油非国营贸易进口允许量总量、申请条件和申请程序。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 30,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -7955,7 +7947,7 @@
     "recommended": false,
     "recommendReason": "商务部公告2026年第44号 公布对原产于欧盟的进口对硝基甲苯发起反倾销立案调查。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -8033,7 +8025,7 @@
     "recommended": false,
     "recommendReason": "国家金融监督管理总局 商务部关于加强商务和保险协同 做好内贸险有关工作的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 65,
+      "score": 72,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -8150,7 +8142,7 @@
     "recommended": false,
     "recommendReason": "GCF融资连续创纪录年份超过30亿美元。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -8189,7 +8181,7 @@
     "recommended": false,
     "recommendReason": "亚洲基础设施投资银行（亚投行，AAA/Aaa/AAA）已以6.88亿美元5年期浮动利率票据（FRN）完成其2026年公开融资计划，使该年度融资总额达到110亿美元，为该行迄今最大的年度融资计划。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 28,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -8228,7 +8220,7 @@
     "recommended": false,
     "recommendReason": "高级别会议在生物多样性大会进入决定性最后几天之际带来新的势头和新的承诺。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 26,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -8306,7 +8298,7 @@
     "recommended": false,
     "recommendReason": "财政大臣约翰·希利宣布英国将推行“能源新方针”，重点是在……之际保持账单低廉。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 36,
+      "score": 52,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -8345,7 +8337,7 @@
     "recommended": false,
     "recommendReason": "随着能源价格飙升推动通胀，各国央行开始收紧利率政策。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -8384,7 +8376,7 @@
     "recommended": false,
     "recommendReason": "FICO首席执行官威尔·兰辛（Will Lansing）表示，强大的所有权文化，而不是更智能的计算方法，将使数据分析公司在人工智能时代与竞争对手区分开来。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -8423,7 +8415,7 @@
     "recommended": false,
     "recommendReason": "银行越来越多地在不良信用管理中部署人工智能。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -8566,7 +8558,7 @@
     "id": "src-12qqe9o",
     "title": "Record heat-related deaths in 2023, WHO-partnered report finds",
     "summary": "Climate inaction continues to harm and kill people in all countries with a record 710,000 estimated deaths globally from heat in 2023, a UN-partnered report warned on Wednesday. For the first time, more than seven in 10 fatalities were attributable to human-caused climate change.",
-    "contentType": "行业",
+    "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-28T12:00:00.000Z",
     "importanceLevel": "中",
@@ -8577,16 +8569,16 @@
     "titleZh": "与世界卫生组织合作发布的报告发现，2023年与高温相关的死亡人数创下纪录",
     "summaryZh": "一份与联合国合作发布的报告周三警告称，气候不作为继续在所有国家伤害并致死民众，2023年全球估计有创纪录的71万人死于高温。首次有超过十分之七的死亡可归因于人为气候变化。",
     "recommended": false,
-    "recommendReason": "Climate inaction continues to harm and kill people in all countries with a record 710,000 estimated deaths globally from heat in 2023, a UN-partnered report warned on Wednesday. For the first time, more than seven in 10 fatalities were attributable to human-caused climate change.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "一份与联合国合作发布的报告周三警告称，气候不作为继续在所有国家伤害并致死民众，2023年全球估计有创纪录的71万人死于高温。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 67,
+      "score": 58,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
       "storyId": "story-33coci",
       "heat": 0,
       "tags": [
-        "行业",
+        "政策",
         "合规与监管",
         "全球"
       ],
@@ -8616,9 +8608,9 @@
     "titleZh": "联合国警告：随着气候变化加剧，海洋吸收碳的能力正在减弱",
     "summaryZh": "海洋吸收了约30%的人为二氧化碳（CO₂）排放，以及温室气体截留的90%的多余热量。但一份新的联合国报告在11月COP31气候大会召开前警告称，气候变化已使其吸收碳的能力下降约6%。",
     "recommended": false,
-    "recommendReason": "The ocean absorbs around 30 per cent of human-caused carbon dioxide (CO₂) emissions and 90 per cent of excess heat trapped by greenhouse gases. But climate change has already reduced its capacity to absorb carbon by approximately six per cent, a new UN report warns ahead of the COP31 climate conference in November.。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "海洋吸收了约30%的人为二氧化碳（CO₂）排放，以及温室气体截留的90%的多余热量。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 68,
+      "score": 60,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -8852,7 +8844,7 @@
     "recommended": false,
     "recommendReason": "英国已超额完成到2026年向发展中国家提供116亿英镑气候援助的目标——但只是……文章《披露：英国依赖20亿英镑“可疑会计”来实现其气候援助目标》首发于Carbon Brief。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 60,
+      "score": 56,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -8969,7 +8961,7 @@
     "recommended": false,
     "recommendReason": "香港交易所推出平台及代名人服务。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 21,
+      "score": 28,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -9008,7 +9000,7 @@
     "recommended": false,
     "recommendReason": "2026年三季度金融机构贷款投向统计报告。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -9047,7 +9039,7 @@
     "recommended": false,
     "recommendReason": "关于同意南方区域电力市场转入正式运行的复函。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 75,
+      "score": 70,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -9086,7 +9078,7 @@
     "recommended": false,
     "recommendReason": "“我将无我。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 3,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -9125,7 +9117,7 @@
     "recommended": false,
     "recommendReason": "千亿汽车城如何炼成？。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 4,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -9320,7 +9312,7 @@
     "recommended": false,
     "recommendReason": "福建省工业和信息化厅关于公布2026年省级工业领域重点用能企业能效“领跑者”（第一批）名单的通知。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 40,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -9554,7 +9546,7 @@
     "recommended": false,
     "recommendReason": "关于进一步完善价格形成机制 推动普惠养老服务提质扩面的指导意见。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 32,
+      "score": 48,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -9593,7 +9585,7 @@
     "recommended": false,
     "recommendReason": "关于印发浙江高质量发展建设共同富裕示范区经验做法(第三批)的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 28,
+      "score": 30,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -9632,7 +9624,7 @@
     "recommended": false,
     "recommendReason": "国家发展改革委发展战略和规划司研究课题入选公告。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -9671,7 +9663,7 @@
     "recommended": false,
     "recommendReason": "关于重要工业品低价无序竞争成本核算有关事项的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 44,
+      "score": 55,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -9734,8 +9726,8 @@
   },
   {
     "id": "src-nzly3k",
-    "title": "Ömer Haktan Bulut / Unsplash 28 Oct 2026 Türkiye becomes second country to submit second Biennial Transparency Report Article",
-    "summary": "Ömer Haktan Bulut / Unsplash 28 Oct 2026 Türkiye becomes second country to submit second Biennial Transparency Report Article",
+    "title": "Türkiye becomes second country to submit second Biennial Transparency Report",
+    "summary": "Türkiye becomes second country to submit second Biennial Transparency Report",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-28T00:00:00.000Z",
@@ -9747,9 +9739,9 @@
     "titleZh": "Ömer Haktan Bulut / Unsplash 2026年10月28日 土耳其成为第二个提交第二份双年透明度报告的国家 文章",
     "summaryZh": "Ömer Haktan Bulut / Unsplash 2026年10月28日 土耳其成为第二个提交第二份双年透明度报告的国家 文章",
     "recommended": false,
-    "recommendReason": "Ömer Haktan Bulut / Unsplash 28 Oct 2026 Türkiye becomes second country to submit second Biennial Transparency Report Article。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "Ömer Haktan Bulut / Unsplash 2026年10月28日 土耳其成为第二个提交第二份双年透明度报告的国家 文章。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 34,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -9788,7 +9780,7 @@
     "recommended": false,
     "recommendReason": "乍得湖流域项目旨在更早预警洪水和干旱。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -9827,7 +9819,7 @@
     "recommended": false,
     "recommendReason": "亚洲基础设施投资银行（AIIB）正在向蔚来资本Eve ONE Fund III投资1000万美元，以支持开发交通和能源行业数字化与脱碳技术的早期阶段公司。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 38,
+      "score": 37,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -9866,7 +9858,7 @@
     "recommended": false,
     "recommendReason": "亚洲基础设施投资银行（AIIB）与德国复兴信贷银行（KfW Development Bank）已同意加强合作，以支持印度尼西亚的气候适应与绿色韧性计划子计划1。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 31,
+      "score": 32,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -9905,7 +9897,7 @@
     "recommended": false,
     "recommendReason": "2026年英国能源账单持续飙升，围绕如何降低账单的激烈辩论持续升温……文章《问答：为什么英国能源账单如此之高——以及如何才能降低？》首发于Carbon Brief。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 21,
+      "score": 30,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -9983,7 +9975,7 @@
     "recommended": false,
     "recommendReason": "随着越来越多的采购职能部门投资于代理人工智能，以节省成本并提高效率，问题越来越多：值得吗？。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -10022,7 +10014,7 @@
     "recommended": false,
     "recommendReason": "对约21,000名消费者的分析表明，人工智能购物行为是如何增长和发展的，早期的证据表明，公司还没有做好满足不断增长的需求的准备。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -10061,7 +10053,7 @@
     "recommended": false,
     "recommendReason": "从实时结算到代理AI的颠覆性力量正在改变证券服务行业的动态。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -10137,9 +10129,9 @@
     "titleZh": "客座文章：格陵兰冰盖连续第30年萎缩",
     "summaryZh": "客座文章：格陵兰冰盖连续第30年萎缩",
     "recommended": false,
-    "recommendReason": "格陵兰现已连续第30年出现冰量损失大于增加的情况。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "客座文章：格陵兰冰盖连续第30年萎缩。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 48,
+      "score": 38,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -10296,7 +10288,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行公告﹝2026﹞第28号。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 16,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -10491,7 +10483,7 @@
     "recommended": false,
     "recommendReason": "福建省工业和信息化厅等八部门关于公布通过复核化工园区名单（第二批）的通知。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 21,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -10530,7 +10522,7 @@
     "recommended": false,
     "recommendReason": "福建省工业和信息化厅等八部门关于印发《福建省医药储备管理办法（2026年修订）》的通知。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 48,
+      "score": 43,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -10569,7 +10561,7 @@
     "recommended": false,
     "recommendReason": "福建省工业和信息化厅关于取消部分企业省级专精特新中小企业认定的通知。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -10686,7 +10678,7 @@
     "recommended": false,
     "recommendReason": "第一观察｜长征的路在不断延伸。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -10725,7 +10717,7 @@
     "recommended": false,
     "recommendReason": "热解读｜小切口立大规矩。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 9,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -10881,7 +10873,7 @@
     "recommended": false,
     "recommendReason": "国家发展改革委举行升国旗仪式庆祝中华人民共和国成立77周年。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 1,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -10959,7 +10951,7 @@
     "recommended": false,
     "recommendReason": "郑栅洁主任主持召开民营企业座谈会 围绕优化发展环境、拓展投资空间听取意见建议。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -10998,7 +10990,7 @@
     "recommended": false,
     "recommendReason": "欧盟委员会今日提出欧盟气候韧性框架，以增强欧洲预判、准备和管理气候风险的能力。信息价值较高，涉及ESG的欧盟动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 58,
+      "score": 62,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -11037,7 +11029,7 @@
     "recommended": false,
     "recommendReason": "温室气体水平再次创下历史新高。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 29,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -11076,7 +11068,7 @@
     "recommended": false,
     "recommendReason": "斯坦福大学研究心理学家贾米尔·扎基（Jamil Zaki）说，人工智能可能会加深我们的联系危机。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -11115,7 +11107,7 @@
     "recommended": false,
     "recommendReason": "在她准备下台时，欧洲领先的电网运营商TenneT的首席执行官反思了扩大能源基础设施、应对地缘政治冲击以及在不确定性中建立弹性。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -11193,7 +11185,7 @@
     "recommended": false,
     "recommendReason": "2026年9月金融市场运行情况。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -11232,7 +11224,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行设立债市非银大额赎回互换便利（中国人民银行公开市场业务。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 50,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -11310,7 +11302,7 @@
     "recommended": false,
     "recommendReason": "纪念中国工农红军长征胜利90周年大会在京隆重举行 习近平发表重要讲话。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 2,
+      "score": 3,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -11349,7 +11341,7 @@
     "recommended": false,
     "recommendReason": "拼实干 强产业 促转型。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -11388,7 +11380,7 @@
     "recommended": false,
     "recommendReason": "拼实干 强产业 促转型。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 7,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -11427,7 +11419,7 @@
     "recommended": false,
     "recommendReason": "2026年10月国家准则制定机构通讯现已发布。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -11451,8 +11443,8 @@
   },
   {
     "id": "src-qbqvrn",
-    "title": "UNDP Malawi 26 Oct 2026 Malawi puts delivery at the heart of its new climate plan Article",
-    "summary": "UNDP Malawi 26 Oct 2026 Malawi puts delivery at the heart of its new climate plan Article",
+    "title": "Malawi puts delivery at the heart of its new climate plan",
+    "summary": "Malawi puts delivery at the heart of its new climate plan",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-26T00:00:00.000Z",
@@ -11464,9 +11456,9 @@
     "titleZh": "联合国开发计划署马拉维 2026年10月26日 马拉维将落实置于其新气候计划的核心 文章",
     "summaryZh": "联合国开发计划署马拉维 2026年10月26日 马拉维将落实置于其新气候计划的核心 文章",
     "recommended": false,
-    "recommendReason": "UNDP Malawi 26 Oct 2026 Malawi puts delivery at the heart of its new climate plan Article。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "联合国开发计划署马拉维 2026年10月26日 马拉维将落实置于其新气候计划的核心 文章。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -11583,7 +11575,7 @@
     "recommended": false,
     "recommendReason": "联合国生物多样性峰会进入决定性的最后一周。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 27,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -11622,7 +11614,7 @@
     "recommended": false,
     "recommendReason": "辉瑞首席医疗事务官谈到衡量医疗事务的真正影响，引领大规模变革，以及患者至上的真正含义。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 14,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -11661,7 +11653,7 @@
     "recommended": false,
     "recommendReason": "一年的交付证实了我们对代理人工智能在金融犯罪预防方面的预期，并激发了五个可以帮助机构扩大规模的关键问题。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -11700,7 +11692,7 @@
     "recommended": false,
     "recommendReason": "人工智能代理可以越来越多地跨工作流程做出决策、采取行动和进行协作。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 16,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -11739,7 +11731,7 @@
     "recommended": false,
     "recommendReason": "将人工智能应用于交易监控展示了代理商如何转变合规任务和流程，将成本中心转化为优势驱动因素。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -11857,7 +11849,7 @@
     "recommended": false,
     "recommendReason": "根据……，9月份中国新车销量中新能源汽车（NEV）占比首次达到67%。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 51,
+      "score": 47,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -12052,7 +12044,7 @@
     "recommended": false,
     "recommendReason": "香港交易所推出人工智能和半导体指数。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -12091,7 +12083,7 @@
     "recommended": false,
     "recommendReason": "吴清主席会见香港特区政府财政司司长陈茂波一行。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12130,7 +12122,7 @@
     "recommended": false,
     "recommendReason": "中国证监会党委传达贯彻党的二十届五中全会精神。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 16,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12169,7 +12161,7 @@
     "recommended": false,
     "recommendReason": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 56,
+      "score": 60,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12208,7 +12200,7 @@
     "recommended": false,
     "recommendReason": "吴清主席与财政部副部长郭婷婷共同会见美国公众公司会计监督委员会主席洛戈泰斯。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 24,
+      "score": 21,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12325,7 +12317,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行公告﹝2026﹞第26号。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 14,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12403,7 +12395,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行行长潘功胜会见彼得森国际经济研究所代表团。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 9,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12481,7 +12473,7 @@
     "recommended": false,
     "recommendReason": "前三季度上海GDP增长5.5% 三大先导产业制造业产值同比增长17.1%。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12559,7 +12551,7 @@
     "recommended": false,
     "recommendReason": "2026年10月19日-2026年10月23日证券市场快报。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 7,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12598,7 +12590,7 @@
     "recommended": false,
     "recommendReason": "2026年10月12日-2026年10月16日证券市场快报。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12637,7 +12629,7 @@
     "recommended": false,
     "recommendReason": "2026年10月8日-2026年10月9日证券市场快报。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 7,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12676,7 +12668,7 @@
     "recommended": false,
     "recommendReason": "只争朝夕、攻坚突破、全力冲刺 市委季度工作会议举行 陈吉宁作工作点评。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12754,7 +12746,7 @@
     "recommended": false,
     "recommendReason": "需求保持扩张 我国物流市场预期呈现积极变化。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12793,7 +12785,7 @@
     "recommended": false,
     "recommendReason": "多部门联合部署做好稳投资工作。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12832,7 +12824,7 @@
     "recommended": false,
     "recommendReason": "2026年11月议程和会议文件现已发布：CMAC和EEG。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12856,8 +12848,8 @@
   },
   {
     "id": "src-1kckts4",
-    "title": "Anastasiia Tiurmenko | CTCN 23 Oct 2026 Shaping the next phase of climate technology action Article",
-    "summary": "Anastasiia Tiurmenko | CTCN 23 Oct 2026 Shaping the next phase of climate technology action Article",
+    "title": "Shaping the next phase of climate technology action",
+    "summary": "Shaping the next phase of climate technology action",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-23T00:00:00.000Z",
@@ -12869,7 +12861,7 @@
     "titleZh": "Anastasiia Tiurmenko | CTCN 2026年10月23日 塑造气候技术行动的下一阶段 文章",
     "summaryZh": "Anastasiia Tiurmenko | CTCN 2026年10月23日 塑造气候技术行动的下一阶段 文章",
     "recommended": false,
-    "recommendReason": "Anastasiia Tiurmenko | CTCN 23 Oct 2026 Shaping the next phase of climate technology action Article。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "Anastasiia Tiurmenko | CTCN 2026年10月23日 塑造气候技术行动的下一阶段 文章。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
       "score": 8,
       "scoreThreshold": 75,
@@ -12910,7 +12902,7 @@
     "recommended": false,
     "recommendReason": "水文气象发展联盟推进可持续投资。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 16,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12949,7 +12941,7 @@
     "recommended": false,
     "recommendReason": "亚洲基础设施投资银行（AIIB）与汗银行股份公司（Khan Bank）签署了一项五年期高级无抵押绿色贷款，以扩大蒙古长期绿色融资的可及性。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 48,
+      "score": 38,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -12988,7 +12980,7 @@
     "recommended": false,
     "recommendReason": "2026年9月28日-2026年9月30日证券市场快报。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -13105,7 +13097,7 @@
     "recommended": false,
     "recommendReason": "2026年9月7日-2026年9月11日证券市场快报。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 4,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -13144,7 +13136,7 @@
     "recommended": false,
     "recommendReason": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -13183,7 +13175,7 @@
     "recommended": false,
     "recommendReason": "我们可以在不屈服于人类判断的情况下解锁人工智能的承诺吗？技术领导者Tiffany Xingyu Wang表示，答案不在于学习是否信任人工智能，而在于何时以及在多大程度上信任人工智能。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -13417,7 +13409,7 @@
     "recommended": false,
     "recommendReason": "人工智能（AI）正快速发展，并越来越多地被科学家用于更好地理解气候……文章《专家：气候科学家如何使用人工智能？》首发于Carbon Brief。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -13495,7 +13487,7 @@
     "recommended": false,
     "recommendReason": "国家能源局负责人会见克罗地亚经济部部长。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -13534,7 +13526,7 @@
     "recommended": false,
     "recommendReason": "国家能源局召开长三角电力市场建设推进会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 32,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -13573,7 +13565,7 @@
     "recommended": false,
     "recommendReason": "国家能源局开展APEC峰会保电工作督导调研。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -13651,7 +13643,7 @@
     "recommended": false,
     "recommendReason": "第16次亚太经合组织能源部长会议在北京召开。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -13690,7 +13682,7 @@
     "recommended": false,
     "recommendReason": "前三季度我省对其他金砖成员国进出口超3000亿元。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -13768,7 +13760,7 @@
     "recommended": false,
     "recommendReason": "RBA宣布对全球供应链进行新的和改进的现场评估。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 30,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -13846,7 +13838,7 @@
     "recommended": false,
     "recommendReason": "出版物Ørsted Decision：英国转让定价争议解决的里程碑时刻| 2026年10月19日税务。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -13885,7 +13877,7 @@
     "recommended": false,
     "recommendReason": "Publication Global Affairs Canada发布加拿大“视为所有权”指南| 2026年10月19日国际贸易。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -13924,7 +13916,7 @@
     "recommended": false,
     "recommendReason": "博客Evolution, not revolution: England's insolvency rules under review United Kingdom | 2026年10月16日重组。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -13963,7 +13955,7 @@
     "recommended": false,
     "recommendReason": "播客Uptime Now第17集：从人工智能效率到全球人工智能能力| 2026年10月15日数据中心和数字基础设施。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -14002,7 +13994,7 @@
     "recommended": false,
     "recommendReason": "博客IFR的游戏状况报告草案：主要发现和全球影响| 2026年10月15日体育法。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -14041,7 +14033,7 @@
     "recommended": false,
     "recommendReason": "播客Currents Ep369：商业太空太阳能全球之路| 2026年10月15日项目。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -14080,7 +14072,7 @@
     "recommended": false,
     "recommendReason": "播客稳定币成为英国主流| 2026年10月6日银行。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -14119,7 +14111,7 @@
     "recommended": false,
     "recommendReason": "国家能源局举办“走进核电媒体调研行”活动。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -14236,7 +14228,7 @@
     "recommended": false,
     "recommendReason": "WMO在刚果民主共和国发展气候服务能力。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 17,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -14275,7 +14267,7 @@
     "recommended": false,
     "recommendReason": "厄尔尼诺使人道主义气象服务成为关注焦点。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 16,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -14314,7 +14306,7 @@
     "recommended": false,
     "recommendReason": "GCF董事会在COP31召开前寻求加快气候融资的落实。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -14353,7 +14345,7 @@
     "recommended": false,
     "recommendReason": "欧洲杂货零售商的持续增长压力限制了包装商的机会。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -14431,7 +14423,7 @@
     "recommended": false,
     "recommendReason": "最近的中断突出了亚洲能源系统的脆弱性。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 21,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -14470,7 +14462,7 @@
     "recommended": false,
     "recommendReason": "英国经济的区域分布使伦敦和东南部的运营领导力人才陷入困境，并阻止全国各地的企业提高竞争力。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 24,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -14509,7 +14501,7 @@
     "recommended": false,
     "recommendReason": "允许延迟在各州之间波及不均匀，这取决于它们的行业结构。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 21,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -14548,7 +14540,7 @@
     "recommended": false,
     "recommendReason": "小品牌是创新的巨头，购买模式正在发生变化，规模不再是过去的盾牌。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -14587,7 +14579,7 @@
     "recommended": false,
     "recommendReason": "由昂贵天然气推动的批发电价飙升，是英国家庭电费上涨近90%的原因…… 文章《揭秘：昂贵天然气是英国电费上涨“近90%”背后的原因》首发于 Carbon Brief。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 51,
+      "score": 40,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -14626,7 +14618,7 @@
     "recommended": false,
     "recommendReason": "联合国表示，在“数十年的气候行动不足”之后，暂时突破1.5C全球升温限值如今已“不可避免”…… 文章《联合国环境规划署：在不“超调”的情况下实现1.5C升温限值的机会“已经错失”》首发于 Carbon Brief。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 48,
+      "score": 38,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -14665,7 +14657,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行公告﹝2026﹞第27号。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 19,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -14743,7 +14735,7 @@
     "recommended": false,
     "recommendReason": "APEC财长会新闻发布会文字实录。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -14899,7 +14891,7 @@
     "recommended": false,
     "recommendReason": "AI乌镇 科创桐乡｜1米88“大个子”！。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -14938,7 +14930,7 @@
     "recommended": false,
     "recommendReason": "2026年世界互联网大会乌镇峰会11月2日启幕。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -15016,7 +15008,7 @@
     "recommended": false,
     "recommendReason": "数字创新正在从根本上重塑企业将可持续金融资源转化为长期环境、社会和治理（ESG）价值的方式。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -15055,7 +15047,7 @@
     "recommended": false,
     "recommendReason": "港交所推出绿色股权认定计划。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 46,
+      "score": 49,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -15094,7 +15086,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行副行长宣昌能会见巴西国库秘书丹尼尔·莱亚尔。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -15250,7 +15242,7 @@
     "recommended": false,
     "recommendReason": "Bountiful与Morningstar Sustainalytics和Morningstar指数合作。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -15328,7 +15320,7 @@
     "recommended": false,
     "recommendReason": "今天，欧盟委员会提出了面向2040年的渔业和水产养殖业愿景，为未来15年指明方向，以增强该行业的环境和经济可持续性。信息价值较高，涉及ESG的欧盟动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 35,
+      "score": 38,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -15367,7 +15359,7 @@
     "recommended": false,
     "recommendReason": "可持续金融市场将碳定价、环境基础设施、低碳技术、固定收益融资以及广泛的环境、社会和治理投资联系起来。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 31,
+      "score": 30,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -15391,8 +15383,8 @@
   },
   {
     "id": "src-jet3uv",
-    "title": "20 Oct 2026 2026 Adaptation Forum highlights practical approaches to scaling adaptation implementation From the Podium",
-    "summary": "20 Oct 2026 2026 Adaptation Forum highlights practical approaches to scaling adaptation implementation From the Podium",
+    "title": "2026 Adaptation Forum highlights practical approaches to scaling adaptation implementation",
+    "summary": "2026 Adaptation Forum highlights practical approaches to scaling adaptation implementation",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-20T00:00:00.000Z",
@@ -15404,9 +15396,9 @@
     "titleZh": "2026年10月20日 2026年适应论坛重点介绍扩大适应实施规模的实践方法 来自讲台",
     "summaryZh": "2026年10月20日 2026年适应论坛重点介绍扩大适应实施规模的实践方法 来自讲台",
     "recommended": false,
-    "recommendReason": "20 Oct 2026 2026 Adaptation Forum highlights practical approaches to scaling adaptation implementation From the Podium。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "2026年10月20日 2026年适应论坛重点介绍扩大适应实施规模的实践方法 来自讲台。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -15445,7 +15437,7 @@
     "recommended": false,
     "recommendReason": "世界气象组织表彰越南关于厄尔尼诺响应的倡议。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -15484,7 +15476,7 @@
     "recommended": false,
     "recommendReason": "在未来十年，量子技术可以创造数万亿美元的价值，打破加密，带来机会，但也带来风险。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -15523,7 +15515,7 @@
     "recommended": false,
     "recommendReason": "全球铁路原始设备制造商很难进入亚洲快速增长的市场。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -15562,7 +15554,7 @@
     "recommended": false,
     "recommendReason": "开源资深人士克里斯·赖特（Chris Wright）解释了为什么人工智能驱动的漏洞发现迫使人们对软件安全进行清算，以及该行业如何因此变得更强大。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -15640,7 +15632,7 @@
     "recommended": false,
     "recommendReason": "中国人民银行行长潘功胜在2026金融街论坛年会上的主题演讲。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 11,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -15718,7 +15710,7 @@
     "recommended": false,
     "recommendReason": "国家能源局负责人会见壳牌集团执行委员会委员。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -15757,7 +15749,7 @@
     "recommended": false,
     "recommendReason": "“氢”装上阵。信息价值较高，涉及ESG的中国福建动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -15874,7 +15866,7 @@
     "recommended": false,
     "recommendReason": "国家发展改革委、国家能源局等部门在山西召开加快煤矿复产增产保供工作推进会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 27,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -15952,7 +15944,7 @@
     "recommended": false,
     "recommendReason": "国家能源局开展党的二十届五中全会保电工作调研。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -15991,7 +15983,7 @@
     "recommended": false,
     "recommendReason": "国家能源局召开2026年第三次能源监管工作例会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -16030,7 +16022,7 @@
     "recommended": false,
     "recommendReason": "欧盟委员会今天在LIFE环境与气候行动计划下，向欧洲各地135个新项目拨款超过3.9亿欧元。信息价值较高，涉及ESG的欧盟动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 42,
+      "score": 33,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -16069,7 +16061,7 @@
     "recommended": false,
     "recommendReason": "2026年10月国际可持续准则理事会会议议程和会议文件现已发布。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 17,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -16108,7 +16100,7 @@
     "recommended": false,
     "recommendReason": "可信的预报比以往任何时候都更加重要。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -16147,7 +16139,7 @@
     "recommended": false,
     "recommendReason": "世界气象组织欢迎格林纳达成为第194个成员。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -16186,7 +16178,7 @@
     "recommended": false,
     "recommendReason": "生物多样性公约执行秘书在缔约方大会第十七次会议开幕式上的发言。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 17,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -16225,7 +16217,7 @@
     "recommended": false,
     "recommendReason": "随着全球自然承诺迎来 halftime 检查点。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 33,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -16264,7 +16256,7 @@
     "recommended": false,
     "recommendReason": "解决瑞士妇女的健康差距可以为每个妇女每年提供8个额外的健康日，到2040年可能为年度国内生产总值贡献超过70亿瑞士法郎。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 26,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -16381,7 +16373,7 @@
     "recommended": false,
     "recommendReason": "我们的最新研究发现，美国拉丁裔企业主和消费者独有的独特能力可以在世界上最大的经济走廊之一创造显著的增长。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -16420,7 +16412,7 @@
     "recommended": false,
     "recommendReason": "发布后会发生什么？成功的创始人和风险投资家提供了保持增长所需的经验教训。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 7,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -16499,7 +16491,7 @@
     "recommended": false,
     "recommendReason": "多边开发银行负责人在马尼拉会晤，以加强联合行动、动员私人资本并提供更多融资和更大发展影响。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -16811,7 +16803,7 @@
     "recommended": false,
     "recommendReason": "国家发展改革委运行局在新疆组织召开煤炭清洁高效利用及经济运行监测分析工作推进会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -16889,7 +16881,7 @@
     "recommended": false,
     "recommendReason": "蓝佛安会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -17006,7 +16998,7 @@
     "recommended": false,
     "recommendReason": "民营企业参与东盟合作交流对接会在广西南宁举办。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -17045,7 +17037,7 @@
     "recommended": false,
     "recommendReason": "国家发展改革委民营局向民营企业公开推介交通、物流、水利、能源等领域一批投资项目。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -17084,7 +17076,7 @@
     "recommended": false,
     "recommendReason": "国家发展改革委运行局组织安排提高疆煤外运规模。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -17123,7 +17115,7 @@
     "recommended": false,
     "recommendReason": "国家发展改革委开放司主要负责同志拜会塔吉克斯坦驻华大使。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 11,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -17162,7 +17154,7 @@
     "recommended": false,
     "recommendReason": "2026年10月国际财务报告准则分类标准咨询小组议程和会议文件现已发布。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 17,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -17201,7 +17193,7 @@
     "recommended": false,
     "recommendReason": "2026年10月国际会计准则理事会会议议程和会议文件现已发布。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 24,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -17240,7 +17232,7 @@
     "recommended": false,
     "recommendReason": "厄尔尼诺在世界粮食日备受关注。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -17279,7 +17271,7 @@
     "recommended": false,
     "recommendReason": "Cognition联合创始人兼总裁Russell Kaplan解释了为什么软件工程中人工智能的下一个前沿领域不仅仅是更快地编写代码，以及如何将自主代理转化为可衡量的商业价值。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -17318,7 +17310,7 @@
     "recommended": false,
     "recommendReason": "前沿部署的工程师在另一家公司自己的系统内工作。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 11,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -17500,7 +17492,7 @@
     "id": "src-qvlbt2",
     "title": "California Locks in November Deadline for First Corporate Climate Reports",
     "summary": "The California Office of Administrative Law (OAL) approved the state's new corporate greenhouse gas and climate risk disclosure regulations, setting November 10, 2026 as the deadline for the first greenhouse gas emissions reports.",
-    "contentType": "观点",
+    "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-15T09:55:45.000Z",
     "importanceLevel": "中",
@@ -17520,7 +17512,7 @@
       "storyId": "story-18a89es",
       "heat": 0,
       "tags": [
-        "观点",
+        "政策",
         "合规与监管",
         "全球"
       ],
@@ -17529,7 +17521,7 @@
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "批准",
         "object": "加利福尼亚锁定11月第一份企业气候报告的截止日期",
-        "occurredAt": "2026-10-15"
+        "occurredAt": "2026-11-10"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score@2004ec958b84"
@@ -17751,7 +17743,7 @@
     "recommended": false,
     "recommendReason": "关于印发《城乡义务教育补助经费管理办法》的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -17946,7 +17938,7 @@
     "recommended": false,
     "recommendReason": "关于实施居民购房贷款贴息政策的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 28,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -17985,7 +17977,7 @@
     "recommended": false,
     "recommendReason": "关于印发《紧急采购管理暂行办法》的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 33,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18024,7 +18016,7 @@
     "recommended": false,
     "recommendReason": "关于印发《关于加快农业保险高质量发展的实施方案》的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 65,
+      "score": 58,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18063,7 +18055,7 @@
     "recommended": false,
     "recommendReason": "关于印发《改善普通高中学校办学条件补助资金管理办法》的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18102,7 +18094,7 @@
     "recommended": false,
     "recommendReason": "关于明确非应税交易等增值税有关事项的公告。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 26,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18141,7 +18133,7 @@
     "recommended": false,
     "recommendReason": "关于印发《会计师事务所职业责任保险实施办法》的通知。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 37,
+      "score": 58,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18180,7 +18172,7 @@
     "recommended": false,
     "recommendReason": "新的国际财务报告准则第20号网络研讨会。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18258,7 +18250,7 @@
     "recommended": false,
     "recommendReason": "亚洲基础设施投资银行（AIIB）与世界银行集团签署了更新后的谅解备忘录（MOU），以深化业务协作并应对不断变化的发展优先事项。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 40,
+      "score": 36,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18297,7 +18289,7 @@
     "recommended": false,
     "recommendReason": "联合国报告发现全球对生物多样性目标的承诺不断增强。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18336,7 +18328,7 @@
     "recommended": false,
     "recommendReason": "你住的地方的形状比你想象的要多得多。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -18375,7 +18367,7 @@
     "recommended": false,
     "recommendReason": "新的研究绘制了美国半导体供应链中隐藏的上游依赖关系，并概述了使生态系统更具弹性的潜在缓解策略。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 33,
+      "score": 36,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -18414,7 +18406,7 @@
     "recommended": false,
     "recommendReason": "分析现在运行在人工智能时间上，但判断仍然运行在人类时间上。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -18453,7 +18445,7 @@
     "recommended": false,
     "recommendReason": "10月14日，全国首批跨境绿色电力证书集中交易在广州达成，成交绿证约10万张，对应近1亿千瓦时可再生能源电量。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 33,
+      "score": 30,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -18556,8 +18548,8 @@
   },
   {
     "id": "src-45wdpd",
-    "title": "Ministry of Environment, Government of Cambodia 14 Oct 2026 Tanzanian innovator wins UN Climate Change AI for Climate Action Award 2026 Article",
-    "summary": "Ministry of Environment, Government of Cambodia 14 Oct 2026 Tanzanian innovator wins UN Climate Change AI for Climate Action Award 2026 Article",
+    "title": "Tanzanian innovator wins UN Climate Change AI for Climate Action Award 2026",
+    "summary": "Tanzanian innovator wins UN Climate Change AI for Climate Action Award 2026",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-14T00:00:00.000Z",
@@ -18569,9 +18561,9 @@
     "titleZh": "柬埔寨王国政府环境部 2026年10月14日 坦桑尼亚创新者荣获2026年联合国气候变化“气候行动人工智能奖” 文章",
     "summaryZh": "柬埔寨王国政府环境部 2026年10月14日 坦桑尼亚创新者荣获2026年联合国气候变化“气候行动人工智能奖” 文章",
     "recommended": false,
-    "recommendReason": "Ministry of Environment, Government of Cambodia 14 Oct 2026 Tanzanian innovator wins UN Climate Change AI for Climate Action Award 2026 Article。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "柬埔寨王国政府环境部 2026年10月14日 坦桑尼亚创新者荣获2026年联合国气候变化“气候行动人工智能奖” 文章。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 16,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18610,7 +18602,7 @@
     "recommended": false,
     "recommendReason": "绿色气候基金与科威特基金签署谅解备忘录。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 19,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18649,7 +18641,7 @@
     "recommended": false,
     "recommendReason": "亚洲基础设施投资银行（亚投行）已承诺向TPG Rise Climate全球南方倡议基金投入5000万美元，并承诺至多5000万美元用于共同投资，以促进亚洲、中东和非洲亚投行成员的气候投资及气候融资市场发展。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 47,
+      "score": 48,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -18727,7 +18719,7 @@
     "recommended": false,
     "recommendReason": "从软件即服务到支持人工智能的规划的转变可能会使决策从固定周期转向实时，但成功将需要正确的治理、专业知识和运营模式。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 27,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -18766,7 +18758,7 @@
     "recommended": false,
     "recommendReason": "许多组织仍在衡量人工智能的采用而不是价值。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -18805,7 +18797,7 @@
     "recommended": false,
     "recommendReason": "麦肯锡的资本卓越专家讨论了人工智能和技术如何提高建筑生产力，解决劳动力短缺问题，并加快复杂资本项目的交付。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -18844,7 +18836,7 @@
     "recommended": false,
     "recommendReason": "将人工智能工具从试点转移到生产可以使其成本几乎翻两番。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -19353,7 +19345,7 @@
     "recommended": false,
     "recommendReason": "在“双碳”目标和可持续发展目标的背景下，微观层面企业环境、社会与治理（ESG）改善能否以及如何汇聚为区域新质生产力（RNQP）的提升，仍缺乏充分探讨。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 30,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -19392,7 +19384,7 @@
     "recommended": false,
     "recommendReason": "亚洲基础设施投资银行（亚投行）已获得EDGE Move认证，这是全球公认的EDGE标准的第二级别，以表彰其在性别平等和职场包容方面取得的可衡量进展。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -19743,7 +19735,7 @@
     "recommended": false,
     "recommendReason": "人工智能操作系统可以成为企业的“第二大脑”，但前提是首席执行官重新思考管理本身的发展方式。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -19782,7 +19774,7 @@
     "recommended": false,
     "recommendReason": "数字和人工智能正在改变资本项目的选择、设计、采购、建造和引导方式。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -19821,7 +19813,7 @@
     "recommended": false,
     "recommendReason": "客户体验是医疗技术公司的竞争要素。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -20016,7 +20008,7 @@
     "recommended": false,
     "recommendReason": "香港交易所与标普道琼斯指数合作推出标普 500 指数及香港交易所科技 100 指数。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 28,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -20173,7 +20165,7 @@
     "recommended": false,
     "recommendReason": "正当程序监督委员会2026年10月议程和会议文件现已发布。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -20212,7 +20204,7 @@
     "recommended": false,
     "recommendReason": "《中小企业国际财务报告准则》会计准则播客：第6集。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -20236,8 +20228,8 @@
   },
   {
     "id": "src-28irti",
-    "title": "UNDP 12 Oct 2026 First 100 transparency report reviews conducted under the Paris Agreement Article",
-    "summary": "UNDP 12 Oct 2026 First 100 transparency report reviews conducted under the Paris Agreement Article",
+    "title": "First 100 transparency report reviews conducted under the Paris Agreement",
+    "summary": "First 100 transparency report reviews conducted under the Paris Agreement",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-12T00:00:00.000Z",
@@ -20249,9 +20241,9 @@
     "titleZh": "联合国开发计划署 2026年10月12日 根据《巴黎协定》进行的首批100份透明度报告审评 文章",
     "summaryZh": "联合国开发计划署 2026年10月12日 根据《巴黎协定》进行的首批100份透明度报告审评 文章",
     "recommended": false,
-    "recommendReason": "UNDP 12 Oct 2026 First 100 transparency report reviews conducted under the Paris Agreement Article。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "联合国开发计划署 2026年10月12日 根据《巴黎协定》进行的首批100份透明度报告审评 文章。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 56,
+      "score": 60,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -20290,7 +20282,7 @@
     "recommended": false,
     "recommendReason": "联合国秘书长安东尼奥·古特雷斯将正式发布关于2022年全球生物多样性承诺进展情况的报告：《生物多样性状况……》。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 31,
+      "score": 43,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -20524,7 +20516,7 @@
     "recommended": false,
     "recommendReason": "在印度分散的市场中扩大电子商务初创企业的规模具有挑战性，但创新、耐心和热情解决难题使 Meesho 的创始人取得了成功。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -20563,7 +20555,7 @@
     "recommended": false,
     "recommendReason": "该行业的黄金时代正在成为一小部分资产管理公司的黄金时代。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -20641,7 +20633,7 @@
     "recommended": false,
     "recommendReason": "Eric Kutcher和Tanguy Catlin在《财富》杂志上写道，虽然关于人工智能对劳动力的影响的辩论占据了头条新闻，但未来最大的挑战将是帮助工人找到最直接的就业途径。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -20758,7 +20750,7 @@
     "recommended": false,
     "recommendReason": "将可持续投资和利益相关者参与转化为ESG绩效：绿色文化与绿色管理创新的中介作用。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 30,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -20782,8 +20774,8 @@
   },
   {
     "id": "src-24tgw7",
-    "title": "09 Oct 2026 Clean cooking projects gain access to UN carbon market Article",
-    "summary": "09 Oct 2026 Clean cooking projects gain access to UN carbon market Article",
+    "title": "Clean cooking projects gain access to UN carbon market",
+    "summary": "Clean cooking projects gain access to UN carbon market",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-09T00:00:00.000Z",
@@ -20795,9 +20787,9 @@
     "titleZh": "2026年10月9日 清洁烹饪项目获得进入联合国碳市场的渠道 文章",
     "summaryZh": "2026年10月9日 清洁烹饪项目获得进入联合国碳市场的渠道 文章",
     "recommended": false,
-    "recommendReason": "09 Oct 2026 Clean cooking projects gain access to UN carbon market Article。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "2026年10月9日 清洁烹饪项目获得进入联合国碳市场的渠道 文章。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 50,
+      "score": 39,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -20821,8 +20813,8 @@
   },
   {
     "id": "src-1l36cjg",
-    "title": "UN Climate Change | Lara Murillo 09 Oct 2026 COP31 Host Country Agreement enters into force Article",
-    "summary": "UN Climate Change | Lara Murillo 09 Oct 2026 COP31 Host Country Agreement enters into force Article",
+    "title": "COP31 Host Country Agreement enters into force",
+    "summary": "COP31 Host Country Agreement enters into force",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-09T00:00:00.000Z",
@@ -20834,9 +20826,9 @@
     "titleZh": "联合国气候变化 | Lara Murillo 2026年10月9日 COP31东道国协议生效 文章",
     "summaryZh": "联合国气候变化 | Lara Murillo 2026年10月9日 COP31东道国协议生效 文章",
     "recommended": false,
-    "recommendReason": "UN Climate Change | Lara Murillo 09 Oct 2026 COP31 Host Country Agreement enters into force Article。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "联合国气候变化 | Lara Murillo 2026年10月9日 COP31东道国协议生效 文章。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 31,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -21351,7 +21343,7 @@
     "recommended": false,
     "recommendReason": "为了在升温超过1.5度后降低全球气温，世界需要超越净零，从大气中去除的二氧化碳要多于排放的二氧化碳。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -21390,7 +21382,7 @@
     "recommended": false,
     "recommendReason": "最新一期IFRS解释委员会播客讨论IFRS 18、IAS 16和IFRS 9的暂定议程决定。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -21414,8 +21406,8 @@
   },
   {
     "id": "src-1x8zabn",
-    "title": "Government of Australia 08 Oct 2026 Pre-COP closing day wrap External Press Release",
-    "summary": "Government of Australia 08 Oct 2026 Pre-COP closing day wrap External Press Release",
+    "title": "Pre-COP closing day wrap",
+    "summary": "Pre-COP closing day wrap",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-08T00:00:00.000Z",
@@ -21427,9 +21419,9 @@
     "titleZh": "澳大利亚政府 2026年10月8日 Pre-COP闭幕日综述 外部新闻稿",
     "summaryZh": "澳大利亚政府 2026年10月8日 Pre-COP闭幕日综述 外部新闻稿",
     "recommended": false,
-    "recommendReason": "Government of Australia 08 Oct 2026 Pre-COP closing day wrap External Press Release。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "澳大利亚政府 2026年10月8日 Pre-COP闭幕日综述 外部新闻稿。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 7,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -21453,8 +21445,8 @@
   },
   {
     "id": "src-f4z0q",
-    "title": "UN Climate Change 08 Oct 2026 Sharpening transparency support for developing countries Article",
-    "summary": "UN Climate Change 08 Oct 2026 Sharpening transparency support for developing countries Article",
+    "title": "Sharpening transparency support for developing countries",
+    "summary": "Sharpening transparency support for developing countries",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-08T00:00:00.000Z",
@@ -21466,9 +21458,9 @@
     "titleZh": "联合国气候变化 2026年10月8日 加强对发展中国家的透明度支持 文章",
     "summaryZh": "联合国气候变化 2026年10月8日 加强对发展中国家的透明度支持 文章",
     "recommended": false,
-    "recommendReason": "UN Climate Change 08 Oct 2026 Sharpening transparency support for developing countries Article。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "联合国气候变化 2026年10月8日 加强对发展中国家的透明度支持 文章。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -21507,7 +21499,7 @@
     "recommended": false,
     "recommendReason": "为回应企业反馈并与更广泛的SBTi框架保持一致，金融机构净零标准和近期标准都将向金融机构开放，不设具体终止日期。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 42,
+      "score": 43,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -21546,7 +21538,7 @@
     "recommended": false,
     "recommendReason": "GCF在格鲁吉亚举行的区域对话推动东欧和中亚的气候融资。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -21585,7 +21577,7 @@
     "recommended": false,
     "recommendReason": "由MDB和DFI联盟发布的新GEMs数据提供了关于新兴市场信用风险、违约、回收和贷款表现的最新证据，帮助投资者做出更明智的融资决策。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 30,
+      "score": 35,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -21936,7 +21928,7 @@
     "recommended": false,
     "recommendReason": "根据1934年《证券交易法》第21 (a)条进行调查的报告：埃克森美孚公司2021年5月年会上的气候行动100 +和董事选举。信息价值较高，涉及ESG的美国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 70,
+      "score": 56,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -22288,7 +22280,7 @@
     "recommended": false,
     "recommendReason": "COP17现场：ISSB自然相关披露咨询。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 21,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -22327,7 +22319,7 @@
     "recommended": false,
     "recommendReason": "GCF支持的图瓦卢土地恢复项目在太平洋pre-COP开幕之际成为焦点。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -22741,8 +22733,8 @@
   },
   {
     "id": "src-10c4e2r",
-    "title": "Wellcome 05 Oct 2026 UN Climate Chief on new data: “As extreme heat worsens, pregnancy and birth are a new faultline in the global climate crisis” UN Climate Speech",
-    "summary": "Wellcome 05 Oct 2026 UN Climate Chief on new data: “As extreme heat worsens, pregnancy and birth are a new faultline in the global climate crisis” UN Climate Speech",
+    "title": "UN Climate Chief on new data: “As extreme heat worsens, pregnancy and birth are a new faultline in the global climate crisis”",
+    "summary": "UN Climate Chief on new data: “As extreme heat worsens, pregnancy and birth are a new faultline in the global climate crisis”",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-05T00:00:00.000Z",
@@ -22754,9 +22746,9 @@
     "titleZh": "Wellcome 2026年10月5日 联合国气候事务负责人就新数据表示：“随着极端高温加剧，怀孕和分娩正成为全球气候危机中的新断层线” 联合国气候演讲",
     "summaryZh": "Wellcome 2026年10月5日 联合国气候事务负责人就新数据表示：“随着极端高温加剧",
     "recommended": false,
-    "recommendReason": "Wellcome 05 Oct 2026 UN Climate Chief on new data: “As extreme heat worsens, pregnancy and birth are a new faultline in the global climate crisis” UN Climate Speech。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "Wellcome 2026年10月5日 联合国气候事务负责人就新数据表示：“随着极端高温加剧。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 33,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -22873,7 +22865,7 @@
     "recommended": false,
     "recommendReason": "2026年10月中小企业实施小组议程和会议文件现已发布。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -22910,9 +22902,9 @@
     "titleZh": "非洲商业与人权论坛在达喀尔闭幕，呼吁在人权与环境方面采取更有力行动",
     "summaryZh": "非洲商业与人权论坛在达喀尔闭幕，呼吁在人权与环境方面采取更有力行动",
     "recommended": false,
-    "recommendReason": "Fifth regional forum brings together governments, business, civil society and the UN to advance responsible business conduct across Africa. The fifth Africa Business and Human Rights (BHR) Forum concluded today in Dakar, Senegal, bringing together governments, businesses, the UN, civil society, workers’ representatives, human rights experts and indigenous communities to accelerate responsible business conduct and strengthen the protection of human rights across the continent. Held from 29 September to 1 October under the theme “Realizing the Right to a Clean, Healthy and Sustainable。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "非洲商业与人权论坛在达喀尔闭幕。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 28,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -22924,10 +22916,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Africa Business and Human Righ",
+        "title": "非洲商业与人权论坛在达喀尔闭幕，呼吁在人权与环境方面采取更有",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "Africa Business and Human Rights Forum Concludes in Dakar with Call for Stronger",
+        "object": "非洲商业与人权论坛在达喀尔闭幕，呼吁在人权与环境方面采取更有力行动",
         "occurredAt": "2026-10-02"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -23146,7 +23138,7 @@
     "recommended": false,
     "recommendReason": "前ISSB副主席华敬东和ISSB成员Hiroshi Komori被任命为高级顾问。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 21,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -23185,7 +23177,7 @@
     "recommended": false,
     "recommendReason": "AI专利、绿色创新与ESG评级：区分实质与AI洗白。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 27,
+      "score": 21,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -23224,7 +23216,7 @@
     "recommended": false,
     "recommendReason": "眼见为实？。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 26,
+      "score": 21,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -23248,8 +23240,8 @@
   },
   {
     "id": "src-1e4o34e",
-    "title": "Rufat Jafarli 01 Oct 2026 Stepping up climate action through transparency Article",
-    "summary": "Rufat Jafarli 01 Oct 2026 Stepping up climate action through transparency Article",
+    "title": "Stepping up climate action through transparency",
+    "summary": "Stepping up climate action through transparency",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-10-01T00:00:00.000Z",
@@ -23261,9 +23253,9 @@
     "titleZh": "Rufat Jafarli 2026年10月1日 通过透明度加大气候行动 文章",
     "summaryZh": "Rufat Jafarli 2026年10月1日 通过透明度加大气候行动 文章",
     "recommended": false,
-    "recommendReason": "Rufat Jafarli 01 Oct 2026 Stepping up climate action through transparency Article。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "Rufat Jafarli 2026年10月1日 通过透明度加大气候行动 文章。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -23302,7 +23294,7 @@
     "recommended": false,
     "recommendReason": "ISO通过《巴黎声明》以加强全球气候适应和韧性行动。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -23419,7 +23411,7 @@
     "recommended": false,
     "recommendReason": "作为多边开发银行（MDB）和发展金融机构（DFI），我们拥有一个共同目标：支持新兴市场和发展中经济体的发展。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 63,
+      "score": 59,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -23692,7 +23684,7 @@
     "recommended": false,
     "recommendReason": "海洋正以惊人的速度发生变化，对全球海洋生物、海岸线和社区产生直接影响。信息价值较高，涉及ESG的欧盟动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 38,
+      "score": 27,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -23731,7 +23723,7 @@
     "recommended": false,
     "recommendReason": "2026年9月IASB更新和播客现已发布。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 7,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -24313,8 +24305,8 @@
   },
   {
     "id": "src-1q1dg1z",
-    "title": "Phil Kabuje | UNDP Tanzania 29 Sep 2026 Tanzania’s adaptation plan charts a path to protect lives and livelihoods Article",
-    "summary": "Phil Kabuje | UNDP Tanzania 29 Sep 2026 Tanzania’s adaptation plan charts a path to protect lives and livelihoods Article",
+    "title": "Tanzania’s adaptation plan charts a path to protect lives and livelihoods",
+    "summary": "Tanzania’s adaptation plan charts a path to protect lives and livelihoods",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-09-29T00:00:00.000Z",
@@ -24326,9 +24318,9 @@
     "titleZh": "Phil Kabuje | 联合国开发计划署坦桑尼亚 2026年9月29日 坦桑尼亚的适应计划为保护生命和生计规划出一条路径 文章",
     "summaryZh": "Phil Kabuje | 联合国开发计划署坦桑尼亚 2026年9月29日 坦桑尼亚的适应计划为保护生命和生计规划出一条路径 文章",
     "recommended": false,
-    "recommendReason": "Phil Kabuje | UNDP Tanzania 29 Sep 2026 Tanzania’s adaptation plan charts a path to protect lives and livelihoods Article。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "Phil Kabuje | 联合国开发计划署坦桑尼亚 2026年9月29日 坦桑尼亚的适应计划为保护生命和生计规划出一条路径 文章。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -24367,7 +24359,7 @@
     "recommended": false,
     "recommendReason": "亚洲基础设施投资银行（AIIB）第12届理事会年会将于2027年7月14日至15日在阿塞拜疆巴库举行，这一决定由理事会在卡塔尔多哈举行的亚投行第11届年会期间作出。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -25235,7 +25227,7 @@
     "recommended": false,
     "recommendReason": "港交所迎来四只追踪港交所跨市场指数的新 ETF。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 19,
+      "score": 21,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -25313,7 +25305,7 @@
     "recommended": false,
     "recommendReason": "ESG实践作为新兴市场银行业可持续融资的能力架构。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -25352,7 +25344,7 @@
     "recommended": false,
     "recommendReason": "ISO与联合国开发计划署推出全球首个国际标准以推进可持续发展目标行动。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 38,
+      "score": 41,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -25391,7 +25383,7 @@
     "recommended": false,
     "recommendReason": "亚投行在多哈开幕第11届年会，汇聚全球领导人和合作伙伴，推进可持续基础设施、多边合作以及应对发展挑战的创新解决方案。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 14,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -26093,7 +26085,7 @@
     "recommended": false,
     "recommendReason": "可持续金融和绿色银行转型与新兴经济体银行的财务绩效相关联。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 28,
+      "score": 29,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -26132,7 +26124,7 @@
     "recommended": false,
     "recommendReason": "道路车辆委员会荣获ISO最高奖项。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -26169,9 +26161,9 @@
     "titleZh": "欧洲各地的联合国全球契约组织企业在可持续发展目标方面作出了切实贡献，但仍缺乏推进环境目标的运营层面行动",
     "summaryZh": "欧洲各地的联合国全球契约组织企业在可持续发展目标方面作出了切实贡献，但仍缺乏推进环境目标的运营层面行动",
     "recommended": false,
-    "recommendReason": "Release of the first comprehensive analysis of the private sector’s contribution to the 2030 agenda On the occasion of the United Nations General Assembly, UN Global Compact Networks Bulgaria, Finland, France, Germany, Italy, the United Kingdom and Türkiye are releasing the second edition of the European Private Sector SDGs Stocktake. Drawing on 136 data points from 5,793 UN Global Compact participant companies across 21 European countries, the study makes it possible, for the first time, to estimate the private sector’s level of contribution to the Sustainable Development Goals. The overall。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "欧洲各地的联合国全球契约组织企业在可持续发展目标方面作出了切实贡献。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 60,
+      "score": 48,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -26183,10 +26175,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Companies of the UN Global Com",
+        "title": "欧洲各地的联合国全球契约组织企业在可持续发展目标方面作出了切",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "Companies of the UN Global Compact across Europe make tangible contributions to ",
+        "object": "欧洲各地的联合国全球契约组织企业在可持续发展目标方面作出了切实贡献，但仍缺乏推进环境目标的运营层面行动",
         "occurredAt": "2026-09-25"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -26288,7 +26280,7 @@
     "recommended": false,
     "recommendReason": "习近平抵达华盛顿对美国进行国事访问。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -26327,7 +26319,7 @@
     "recommended": false,
     "recommendReason": "习近平向第48届世界技能大赛致贺信。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -26366,7 +26358,7 @@
     "recommended": false,
     "recommendReason": "中共中央政治局召开会议 讨论拟提请二十届五中全会审议的文件 中共中央总书记习近平主持会议。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 16,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -26405,7 +26397,7 @@
     "recommended": false,
     "recommendReason": "习近平同厄瓜多尔总统诺沃亚会谈。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -26444,7 +26436,7 @@
     "recommended": false,
     "recommendReason": "赵乐际同捷克众议长冈村富夫会谈。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 3,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -26468,8 +26460,8 @@
   },
   {
     "id": "src-12l5mcq",
-    "title": "Rezwan Shahriar Sumit 24 Sep 2026 New strategy for UN Climate Change's Entertainment and Culture for Climate Action initiative unveiled at Climate Week NYC Announcement",
-    "summary": "Rezwan Shahriar Sumit 24 Sep 2026 New strategy for UN Climate Change's Entertainment and Culture for Climate Action initiative unveiled at Climate Week NYC Announcement",
+    "title": "New strategy for UN Climate Change's Entertainment and Culture for Climate Action initiative unveiled at Climate Week NYC Announcement",
+    "summary": "New strategy for UN Climate Change's Entertainment and Culture for Climate Action initiative unveiled at Climate Week NYC Announcement",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-09-24T00:00:00.000Z",
@@ -26481,9 +26473,9 @@
     "titleZh": "Rezwan Shahriar Sumit 2026年9月24日 联合国气候变化组织“娱乐与文化促进气候行动”倡议的新战略在纽约气候周上发布 公告",
     "summaryZh": "Rezwan Shahriar Sumit 2026年9月24日 联合国气候变化组织“娱乐与文化促进气候行动”倡议的新战略在纽约气候周上发布 公告",
     "recommended": false,
-    "recommendReason": "Rezwan Shahriar Sumit 24 Sep 2026 New strategy for UN Climate Change's Entertainment and Culture for Climate Action initiative unveiled at Climate Week NYC Announcement。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "Rezwan Shahriar Sumit 2026年9月24日 联合国气候变化组织“娱乐与文化促进气候行动”倡议的新战略在纽约气候周上发布 公告。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -26522,7 +26514,7 @@
     "recommended": false,
     "recommendReason": "亚洲基础设施投资银行（亚投行）与贝宁政府已就一项7.3亿美元、多年期滚动项目管道达成一致，为优先基础设施投资合作提供战略框架。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 30,
+      "score": 38,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -26966,7 +26958,7 @@
     "recommended": false,
     "recommendReason": "在中国不断演变的绿色政策环境中，企业战略导向与ESG（环境、社会和治理）表现有何关联？我们使用12998个公司-年度观测值，涵盖2010至2023年中国A股上市公司，并结合彭博ESG评分，在公司固定效应和年份固定效应设定下比较利润导向型与增长导向型企业，该设定支持关联性而非因果性解释。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 50,
+      "score": 41,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -27003,9 +26995,9 @@
     "titleZh": "联合国全球契约组织领导人峰会呼吁商界领袖将可持续发展雄心转化为大规模行动",
     "summaryZh": "联合国全球契约组织领导人峰会呼吁商界领袖将可持续发展雄心转化为大规模行动",
     "recommended": false,
-    "recommendReason": "Global leaders gather in New York to advance practical action on business resilience, climate and nature, human rights, sustainable finance and more resilient global markets The UN Global Compact today concluded its 2026 Leaders Summit, bringing together more than 750 business leaders, investors, policymakers, United Nations representatives and sustainability experts for a two-day summit focused on turning corporate sustainability commitments into measurable action and building the systems needed to deliver long-term sustainable growth. Held during the high-level week of the United Nations。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "联合国全球契约组织领导人峰会呼吁商界领袖将可持续发展雄心转化为大规模行动。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -27017,10 +27009,10 @@
         "全球"
       ],
       "fact": {
-        "title": "UN Global Compact Leaders Summ",
+        "title": "联合国全球契约组织领导人峰会呼吁商界领袖将可持续发展雄心转化",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "UN Global Compact Leaders Summit calls on business leaders to turn sustainabilit",
+        "object": "联合国全球契约组织领导人峰会呼吁商界领袖将可持续发展雄心转化为大规模行动",
         "occurredAt": "2026-09-23"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -29028,8 +29020,8 @@
   },
   {
     "id": "src-1m7o7s",
-    "title": "ITA 21 Sep 2026 UN Climate Chief major keynote: thanks to global renewables, humanity avoided almost half a trillion US dollars in fossil fuel costs last year UN Climate Speech",
-    "summary": "ITA 21 Sep 2026 UN Climate Chief major keynote: thanks to global renewables, humanity avoided almost half a trillion US dollars in fossil fuel costs last year UN Climate Speech",
+    "title": "UN Climate Chief major keynote: thanks to global renewables, humanity avoided almost half a trillion US dollars in fossil fuel costs last year",
+    "summary": "UN Climate Chief major keynote: thanks to global renewables, humanity avoided almost half a trillion US dollars in fossil fuel costs last year",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-09-21T00:00:00.000Z",
@@ -29041,9 +29033,9 @@
     "titleZh": "ITA 2026年9月21日 联合国气候事务负责人重要主旨演讲：得益于全球可再生能源，人类去年避免了近5000亿美元的化石燃料成本 联合国气候演讲",
     "summaryZh": "ITA 2026年9月21日 联合国气候事务负责人重要主旨演讲：得益于全球可再生能源",
     "recommended": false,
-    "recommendReason": "ITA 21 Sep 2026 UN Climate Chief major keynote: thanks to global renewables, humanity avoided almost half a trillion US dollars in fossil fuel costs last year UN Climate Speech。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "ITA 2026年9月21日 联合国气候事务负责人重要主旨演讲：得益于全球可再生能源。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 28,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -29080,7 +29072,7 @@
     "titleZh": "丹格特呼吁非洲将资本留在本土，工业化成为“不可阻挡的非洲”活动焦点",
     "summaryZh": "丹格特呼吁非洲将资本留在本土，工业化成为“不可阻挡的非洲”活动焦点",
     "recommended": false,
-    "recommendReason": "African business leaders call for a bigger share of the continent’s growth, with investment and local value creation high on the agenda. Africa must stop sending its capital abroad and start investing in its own industrial future, Aliko Dangote, President and CEO of Dangote Group, told global business leaders at Unstoppable Africa 2026, as he set out an ambitious vision for African industrialization backed by billions of dollars in investment, new refining capacity, and broader public ownership. Pointing to Asia’s economic rise, he argued that Africa cannot build comparable industrial strength。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "丹格特呼吁非洲将资本留在本土。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
       "score": 18,
       "scoreThreshold": 75,
@@ -29094,10 +29086,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Dangote Calls on Africa to Kee",
+        "title": "丹格特呼吁非洲将资本留在本土，工业化成为“不可阻挡的非洲”活",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "Dangote Calls on Africa to Keep its Capital at Home as Industrialization Takes C",
+        "object": "丹格特呼吁非洲将资本留在本土，工业化成为“不可阻挡的非洲”活动焦点",
         "occurredAt": "2026-09-21"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -29119,9 +29111,9 @@
     "titleZh": "联合国全球契约组织推出可持续采购实施框架，帮助企业将承诺转化为行动",
     "summaryZh": "联合国全球契约组织推出可持续采购实施框架，帮助企业将承诺转化为行动",
     "recommended": false,
-    "recommendReason": "The United Nations Global Compact today launched the Sustainable Procurement Implementation Framework, a practical global resource designed to help companies place sustainability at the core of procurement and translate sustainability commitments and requirements into day-to-day business practice. Launched during the High-Level Forum on Sustainable Procurement, held on the margins of the United Nations General Assembly, the Framework responds to a critical implementation challenge for companies operating across increasingly complex global value chains. While governments around the world are。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "联合国全球契约组织推出可持续采购实施框架。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 55,
+      "score": 44,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -29133,10 +29125,10 @@
         "全球"
       ],
       "fact": {
-        "title": "UN Global Compact Launches Sus",
+        "title": "联合国全球契约组织推出可持续采购实施框架，帮助企业将承诺转化",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "UN Global Compact Launches Sustainable Procurement Implementation Framework to H",
+        "object": "联合国全球契约组织推出可持续采购实施框架，帮助企业将承诺转化为行动",
         "occurredAt": "2026-09-21"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -29158,7 +29150,7 @@
     "titleZh": "联合国全球契约组织、UNEP FI和WWF加强海洋投资协议，以应对金融风险并释放可持续海洋金融",
     "summaryZh": "联合国全球契约组织、UNEP FI和WWF加强海洋投资协议，以应对金融风险并释放可持续海洋金融",
     "recommended": false,
-    "recommendReason": "The United Nations Global Compact and the Sustainable Blue Economy Finance Initiative, hosted by the United Nations Environment Programme Finance Initiative (UNEP FI), in collaboration with the World Wide Fund for Nature’s Greening Financial Regulation Initiative (WWF GFRI), today published a revised edition of the Ocean Investment Protocol (OIP). The updated Protocol strengthens guidance for financial actors and, for the first time, introduces recommendations for central banks, financial regulators and supervisors. Originally launched in May 2025, the Ocean Investment Protocol is a。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "联合国全球契约组织、UNEP FI和WWF加强海洋投资协议。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
       "score": 58,
       "scoreThreshold": 75,
@@ -29172,10 +29164,10 @@
         "全球"
       ],
       "fact": {
-        "title": "UN Global Compact, UNEP FI and",
+        "title": "联合国全球契约组织、UNEP FI和WWF加强海洋投资协议，",
         "subject": "联合国全球契约（UNGC）新闻",
-        "action": "publish",
-        "object": "UN Global Compact, UNEP FI and WWF Strengthen Ocean Investment Protocol to Addre",
+        "action": "发布",
+        "object": "联合国全球契约组织、UNEP FI和WWF加强海洋投资协议，以应对金融风险并释放可持续海洋金融",
         "occurredAt": "2026-09-21"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -29593,9 +29585,9 @@
     "titleZh": "非洲为其在全球舞台上发挥更大作用提出主张",
     "summaryZh": "非洲为其在全球舞台上发挥更大作用提出主张",
     "recommended": false,
-    "recommendReason": "GABI’s Unstoppable Africa 2026 brings global leaders together on Africa’s push to capture more value from its resources, accelerate investment and strengthen its influence in global trade and decision-making. Africa is pushing for a bigger role in shaping the global economy, as business leaders, heads of state, investors, policymakers, and global partners converged in New York today to articulate the continent’s ambition in global trade, investment, and value creation. Held alongside the 81st session of the United Nations General Assembly, Unstoppable Africa 2026 put Africa’s business agenda。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "非洲为其在全球舞台上发挥更大作用提出主张。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -29607,10 +29599,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Africa Makes its Case for a Bi",
+        "title": "非洲为其在全球舞台上发挥更大作用提出主张",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "Africa Makes its Case for a Bigger Role on the Global Stage",
+        "object": "非洲为其在全球舞台上发挥更大作用提出主张",
         "occurredAt": "2026-09-20"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -29632,9 +29624,9 @@
     "titleZh": "联合国私营部门论坛呼吁加快公私行动，以实现清洁、公正和安全的能源未来",
     "summaryZh": "联合国私营部门论坛呼吁加快公私行动，以实现清洁、公正和安全的能源未来",
     "recommended": false,
-    "recommendReason": "CEOs, Heads of State and Government and United Nations leaders identify investment, infrastructure and policy priorities needed to accelerate the global energy transition Business, Government and UN leaders today called for stronger public-private cooperation to accelerate investment in clean energy, strengthen energy security and expand access to affordable power, as the 2026 United Nations Private Sector Forum concluded at UN Headquarters in New York. Hosted by the UN Global Compact on behalf of UN Secretary-General António Guterres, the invitation-only Forum brought together more than 100。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "联合国私营部门论坛呼吁加快公私行动。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -29646,10 +29638,10 @@
         "全球"
       ],
       "fact": {
-        "title": "UN Private Sector Forum calls ",
+        "title": "联合国私营部门论坛呼吁加快公私行动，以实现清洁、公正和安全的",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "UN Private Sector Forum calls for faster public-private action to deliver a clea",
+        "object": "联合国私营部门论坛呼吁加快公私行动，以实现清洁、公正和安全的能源未来",
         "occurredAt": "2026-09-20"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -29713,7 +29705,7 @@
     "recommended": false,
     "recommendReason": "数字能力与绿色债券在全球气候金融市场的条件有效性。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 27,
+      "score": 26,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -29805,10 +29797,10 @@
         "全球"
       ],
       "fact": {
-        "title": "从隐形到保护：国际劳工组织对平台工人采取具有里程碑意义的保护",
+        "title": "从隐形到保护：国际劳工组织通过具有里程碑意义的平台工人保护措",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
-        "action": "发布",
-        "object": "从隐形到保护：国际劳工组织对平台工人采取具有里程碑意义的保护 - Business-Humanrights.org",
+        "action": "通过",
+        "object": "从隐形到保护：国际劳工组织通过具有里程碑意义的平台工人保护措施",
         "occurredAt": "2026-09-19"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -30170,8 +30162,8 @@
   },
   {
     "id": "src-yhw4a7",
-    "title": "17 Sep 2026 New UN Climate Change tool strengthens tracking of non-Party climate action Article",
-    "summary": "17 Sep 2026 New UN Climate Change tool strengthens tracking of non-Party climate action Article",
+    "title": "New UN Climate Change tool strengthens tracking of non-Party climate action",
+    "summary": "New UN Climate Change tool strengthens tracking of non-Party climate action",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-09-17T00:00:00.000Z",
@@ -30183,9 +30175,9 @@
     "titleZh": "2026年9月17日 联合国气候变化新工具加强对非缔约方气候行动的跟踪 文章",
     "summaryZh": "2026年9月17日 联合国气候变化新工具加强对非缔约方气候行动的跟踪 文章",
     "recommended": false,
-    "recommendReason": "17 Sep 2026 New UN Climate Change tool strengthens tracking of non-Party climate action Article。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "2026年9月17日 联合国气候变化新工具加强对非缔约方气候行动的跟踪 文章。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 45,
+      "score": 27,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -30220,11 +30212,11 @@
     "articleUrl": "https://unglobalcompact.org/news/worlds-most-influential-leaders-converge-unstoppable-africa-2026",
     "esgTopic": "合规与监管",
     "titleZh": "全球最具影响力的领导人齐聚“不可阻挡的非洲2026”",
-    "summaryZh": "阿利科·丹格特、马萨德·布洛斯、马哈茂德·阿里·优素福和联合国秘书长安东尼奥·古特雷斯领衔全球非洲商业倡议的旗舰会议，全球领导人齐聚纽约，共同塑造非洲的经济未来。在全球贸易路线正被重新划定、关键矿产竞争日益激烈、企业正在重新评估增长和投资将来自何方的当下，一些塑造非洲经济未来的最具影响力人物将于下周齐聚纽约，参加“不可阻挡的非洲2026”——全球非洲商业倡议的旗舰年度活动",
+    "summaryZh": "阿利科·丹格特、马萨德·布洛斯、马哈茂德·阿里·优素福和联合国秘书长安东尼奥·古特雷斯领衔全球非洲商业倡议的旗舰会议，全球领导人齐聚纽约，共同塑造非洲的经济未来。",
     "recommended": false,
-    "recommendReason": "Aliko Dangote, Massad Boulos, Mahmoud Ali Youssouf and UN Secretary-General António Guterres headline the Global Africa Business Initiative's flagship convening as global leaders gather in New York to shape Africa’s economic future At a time when global trade routes are being redrawn, competition for critical minerals is intensifying and businesses are reassessing where growth and investment will come from, some of the most influential figures shaping Africa’s economic future will gather in New York next week for Unstoppable Africa 2026, the flagship annual event of the Global Africa Business。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "阿利科·丹格特、马萨德·布洛斯、马哈茂德·阿里·优素福和联合国秘书长安东尼奥·古特雷斯领衔全球非洲商业倡议的旗舰会议，全球领导人齐聚纽约，共同塑造非洲的经济未来。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -30236,10 +30228,10 @@
         "全球"
       ],
       "fact": {
-        "title": "World’s Most Influential Leade",
+        "title": "全球最具影响力的领导人齐聚“不可阻挡的非洲2026”",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "World’s Most Influential Leaders Converge for Unstoppable Africa 2026",
+        "object": "全球最具影响力的领导人齐聚“不可阻挡的非洲2026”",
         "occurredAt": "2026-09-17"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -30737,7 +30729,7 @@
     "recommended": false,
     "recommendReason": "晨星调查：随着人工智能风险上升。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 21,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -30776,7 +30768,7 @@
     "recommended": false,
     "recommendReason": "可持续性理论在实证上成立吗？。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -30815,7 +30807,7 @@
     "recommended": false,
     "recommendReason": "ISO发布全球使用最广泛质量管理标准的更新版。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -31091,7 +31083,7 @@
     "recommended": false,
     "recommendReason": "没收无人认领的2020年第一期中期股息。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 11,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -31217,7 +31209,7 @@
     "recommended": false,
     "recommendReason": "Morningstar Sustainalytics提交ESMA申请。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -32408,7 +32400,7 @@
     "recommended": false,
     "recommendReason": "香港交易所、金管局、DFSA及迪拜纳斯达克成立战略工作小组加强香港与迪拜金融市场互联互通。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 31,
+      "score": 33,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -32525,7 +32517,7 @@
     "recommended": false,
     "recommendReason": "随着美国的退缩，在政府超越自愿市场的政策和框架的推动下，二氧化碳去除的势头正在其他地方形成。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 31,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -32549,8 +32541,8 @@
   },
   {
     "id": "src-1sot03p",
-    "title": "Alexis Haulot | European Union 10 Sep 2026 UN Climate Chief: “the climate crisis is now a continent-wide economic security emergency” UN Climate Speech",
-    "summary": "Alexis Haulot | European Union 10 Sep 2026 UN Climate Chief: “the climate crisis is now a continent-wide economic security emergency” UN Climate Speech",
+    "title": "UN Climate Chief: “the climate crisis is now a continent-wide economic security emergency”",
+    "summary": "UN Climate Chief: “the climate crisis is now a continent-wide economic security emergency”",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-09-10T00:00:00.000Z",
@@ -32562,9 +32554,9 @@
     "titleZh": "Alexis Haulot | 欧盟 2026年9月10日 联合国气候事务负责人：“气候危机如今已成为全大陆性的经济安全紧急事件” 联合国气候演讲",
     "summaryZh": "Alexis Haulot | 欧盟 2026年9月10日 联合国气候事务负责人：“气候危机如今已成为全大陆性的经济安全紧急事件” 联合国气候演讲",
     "recommended": false,
-    "recommendReason": "Alexis Haulot | European Union 10 Sep 2026 UN Climate Chief: “the climate crisis is now a continent-wide economic security emergency” UN Climate Speech。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "Alexis Haulot | 欧盟 2026年9月10日 联合国气候事务负责人：“气候危机如今已成为全大陆性的经济安全紧急事件” 联合国气候演讲。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -32603,7 +32595,7 @@
     "recommended": false,
     "recommendReason": "亚洲基础设施投资银行（AIIB）已向DenizBank A.Ş.发行的绿色债券投资1亿美元，以支持土耳其的气候减缓努力。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 47,
+      "score": 34,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -32642,7 +32634,7 @@
     "recommended": false,
     "recommendReason": "昆明对话闭幕。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -32679,9 +32671,9 @@
     "titleZh": "新的北美调查显示，仅十分之一的可持续发展专业人士预计其组织的雄心将会下降",
     "summaryZh": "新的北美调查显示，仅十分之一的可持续发展专业人士预计其组织的雄心将会下降",
     "recommended": false,
-    "recommendReason": "Research from UN Global Compact Networks in Canada, Mexico, and the USA and GlobeScan reveals companies are becoming more selective and strategic as pressure on corporate sustainability commitments grows Despite mounting economic, political and regulatory pressure on corporate sustainability, ambition among sustainability professionals across North America is proving more resilient than widely assumed. A new tri-national study finds that only 10 percent of respondents expect their organization’s sustainability ambition to decrease, while most expect it to increase, remain stable, or become。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "新的北美调查显示。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 31,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -32693,10 +32685,10 @@
         "全球"
       ],
       "fact": {
-        "title": "New North American Survey Reve",
+        "title": "新的北美调查显示，仅十分之一的可持续发展专业人士预计其组织的",
         "subject": "联合国全球契约（UNGC）新闻",
-        "action": "发布",
-        "object": "New North American Survey Reveals Only One in Ten Sustainability Professionals E",
+        "action": "调查",
+        "object": "新的北美调查显示，仅十分之一的可持续发展专业人士预计其组织的雄心将会下降",
         "occurredAt": "2026-09-10"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -32716,11 +32708,11 @@
     "articleUrl": "https://unglobalcompact.org/news/global-business-summit-singapore-launches-12-private-sector-initiatives-advance-sustainable",
     "esgTopic": "合规与监管",
     "titleZh": "新加坡全球商业峰会启动12项私营部门倡议，以推进可持续基础设施和可持续发展目标",
-    "summaryZh": "400多位领导人齐聚一堂，加速在可持续基础设施、清洁能源、负责任的人工智能和韧性供应链方面的跨境合作。400多位商界领袖以及来自国际组织、民间社会、学术界和智库的代表齐聚新加坡，参加第二届“一带一路”基础设施投资促进可持续发展目标全球商业峰会，启动了一系列新的私营部门倡议和伙伴关系，旨在推进可持续基础设施并加速实现2030年可持续发展议程",
+    "summaryZh": "400多位领导人齐聚一堂，加速在可持续基础设施、清洁能源、负责任的人工智能和韧性供应链方面的跨境合作。",
     "recommended": false,
-    "recommendReason": "More than 400 leaders convene to accelerate cross-border cooperation on sustainable infrastructure, clean energy, responsible AI and resilient supply chains More than 400 business leaders and representatives from international organizations, civil society, academia and think tanks convened in Singapore for the Second Global Business Summit on Belt and Road Infrastructure Investment to Accelerate the SDGs, launching a series of new private-sector initiatives and partnerships aimed at advancing sustainable infrastructure and accelerating progress towards the 2030 Agenda for Sustainable。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "400多位领导人齐聚一堂，加速在可持续基础设施、清洁能源、负责任的人工智能和韧性供应链方面的跨境合作。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -32732,10 +32724,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Global Business Summit in Sing",
+        "title": "新加坡全球商业峰会启动12项私营部门倡议，以推进可持续基础设",
         "subject": "联合国全球契约（UNGC）新闻",
-        "action": "发布",
-        "object": "Global Business Summit in Singapore Launches 12 Private-Sector Initiatives to Ad",
+        "action": "启动",
+        "object": "新加坡全球商业峰会启动12项私营部门倡议，以推进可持续基础设施和可持续发展目标",
         "occurredAt": "2026-09-10"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -32864,8 +32856,8 @@
   },
   {
     "id": "src-10360yf",
-    "title": "UNFCCC - Aitaj Almammadova 09 Sep 2026 UN Climate Chief at the opening of Climate Week in Baku: \"Showing that the world chooses delivery over delay\" UN Climate Speech",
-    "summary": "UNFCCC - Aitaj Almammadova 09 Sep 2026 UN Climate Chief at the opening of Climate Week in Baku: \"Showing that the world chooses delivery over delay\" UN Climate Speech",
+    "title": "UN Climate Chief at the opening of Climate Week in Baku: \"Showing that the world chooses delivery over delay\"",
+    "summary": "UN Climate Chief at the opening of Climate Week in Baku: \"Showing that the world chooses delivery over delay\"",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-09-09T00:00:00.000Z",
@@ -32877,9 +32869,9 @@
     "titleZh": "UNFCCC - Aitaj Almammadova 2026年9月9日 联合国气候事务负责人在巴库气候周开幕式上：“表明世界选择落实而非拖延” 联合国气候演讲",
     "summaryZh": "UNFCCC - Aitaj Almammadova 2026年9月9日 联合国气候事务负责人在巴库气候周开幕式上：“表明世界选择落实而非拖延” 联合国气候演讲",
     "recommended": false,
-    "recommendReason": "UNFCCC - Aitaj Almammadova 09 Sep 2026 UN Climate Chief at the opening of Climate Week in Baku: \"Showing that the world chooses delivery over delay\" UN Climate Speech。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "UNFCCC - Aitaj Almammadova 2026年9月9日 联合国气候事务负责人在巴库气候周开幕式上：“表明世界选择落实而非拖延” 联合国气候演讲。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -33037,7 +33029,7 @@
     "recommended": false,
     "recommendReason": "随着企业日益面临可持续发展压力和数字颠覆，理解数字化转型如何促进长期竞争力已成为一项重要的研究和管理挑战。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 26,
+      "score": 19,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -33061,8 +33053,8 @@
   },
   {
     "id": "src-1viy10g",
-    "title": "Lara Murillo 07 Sep 2026 From Yeosu to Baku, translating 2026 climate commitments into real-world solutions Article",
-    "summary": "Lara Murillo 07 Sep 2026 From Yeosu to Baku, translating 2026 climate commitments into real-world solutions Article",
+    "title": "From Yeosu to Baku, translating 2026 climate commitments into real-world solutions",
+    "summary": "From Yeosu to Baku, translating 2026 climate commitments into real-world solutions",
     "contentType": "政策",
     "region": "全球",
     "publishedAt": "2026-09-07T00:00:00.000Z",
@@ -33074,9 +33066,9 @@
     "titleZh": "Lara Murillo 2026年9月7日 从丽水到巴库，将2026年气候承诺转化为现实世界解决方案 文章",
     "summaryZh": "Lara Murillo 2026年9月7日 从丽水到巴库",
     "recommended": false,
-    "recommendReason": "Lara Murillo 07 Sep 2026 From Yeosu to Baku, translating 2026 climate commitments into real-world solutions Article。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "Lara Murillo 2026年9月7日 从丽水到巴库。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 14,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -33235,7 +33227,7 @@
     "recommended": false,
     "recommendReason": "数字—绿色政策协同能否增强城市气候韧性？。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 21,
+      "score": 31,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -33313,7 +33305,7 @@
     "recommended": false,
     "recommendReason": "近期气候变化的挑战已成为国际社会的重大关切。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 21,
+      "score": 34,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -33352,7 +33344,7 @@
     "recommended": false,
     "recommendReason": "本研究考察绿色技术创新与企业生产率和ESG表现是否存在不同的关联。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 27,
+      "score": 24,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -33391,7 +33383,7 @@
     "recommended": false,
     "recommendReason": "支持瓦努阿图增强农业体系的雄心与韧性。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -33509,7 +33501,7 @@
     "recommended": false,
     "recommendReason": "绿色信贷已成为将资本引导至对环境负责的经济活动的核心金融工具，金融机构越来越多地使用企业ESG表现来评估交易对手风险。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 30,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -33548,7 +33540,7 @@
     "recommended": false,
     "recommendReason": "亚洲基础设施投资银行（亚投行）正在向Glory Ventures Investments Fund III进行500万美元的股权投资，以支持新兴亚洲地区开发绿色及技术赋能基础设施技术的早期公司。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 29,
+      "score": 41,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -33627,7 +33619,7 @@
     "recommended": false,
     "recommendReason": "陈国忠同志参加解读《虹桥国际中央商务区建设“十五五”规划》市政府新闻发布会。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 16,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -33666,7 +33658,7 @@
     "recommended": false,
     "recommendReason": "外部基于ESG的可持续性不确定性与企业投资：来自越南的证据。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 24,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -33705,7 +33697,7 @@
     "recommended": false,
     "recommendReason": "亚洲基础设施投资银行（亚投行）已签署一笔最高相当于7500万美元的人民币计价贷款，以支持Great Rich Technology Co. Ltd（GRT）在土耳其建立先进制造设施。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 42,
+      "score": 40,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -33742,9 +33734,9 @@
     "titleZh": "“不可阻挡的非洲2026”将把非洲和全球首席执行官及领导人带到纽约，以推动整个非洲大陆的投资、所有权和增长",
     "summaryZh": "“不可阻挡的非洲2026”将把非洲和全球首席执行官及领导人带到纽约，以推动整个非洲大陆的投资、所有权和增长",
     "recommended": false,
-    "recommendReason": "More than 2,000 African and global business leaders plus heads of state will gather in New York on September 20–21 for Unstoppable Africa, flagship event of the Global Africa Business Initiative (GABI). Convened by UN Secretary-General António Guterres and H.E. Mahmoud Ali Youssouf, Chairperson of the African Union Commission, and organized and coordinated by the UN Global Compact, the fifth edition of Unstoppable Africa will convene under the theme “Powering Business, Scaling Economies, Shaping the Future”. Held on the sidelines of the opening of the 81st session of the United Nations General。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
+    "recommendReason": "“不可阻挡的非洲2026”将把非洲和全球首席执行官及领导人带到纽约。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 14,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -33756,10 +33748,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Unstoppable Africa 2026 to bri",
+        "title": "“不可阻挡的非洲2026”将把非洲和全球首席执行官及领导人带",
         "subject": "联合国全球契约（UNGC）新闻",
         "action": "发布",
-        "object": "Unstoppable Africa 2026 to bring African and global CEOs and leaders to New York",
+        "object": "“不可阻挡的非洲2026”将把非洲和全球首席执行官及领导人带到纽约，以推动整个非洲大陆的投资、所有权和增长",
         "occurredAt": "2026-09-02"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -33861,7 +33853,7 @@
     "recommended": false,
     "recommendReason": "投资者对可持续债券中生物多样性保护和灾害风险降低的偏好：来自日本的证据。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 38,
+      "score": 33,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -33900,7 +33892,7 @@
     "recommended": false,
     "recommendReason": "将ESG标准和可持续发展目标纳入影响力投资：框架与视角综述。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -33939,7 +33931,7 @@
     "recommended": false,
     "recommendReason": "绿色共同基金中的漂绿：象征性ESG与。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 37,
+      "score": 52,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -33978,7 +33970,7 @@
     "recommended": false,
     "recommendReason": "气候金融是否激发绿色创新？。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 33,
+      "score": 58,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -34017,7 +34009,7 @@
     "recommended": false,
     "recommendReason": "可持续性中过度报告与报告不足的信号传递：基于ESG评级分歧的方法论框架。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 41,
+      "score": 48,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -34056,7 +34048,7 @@
     "recommended": false,
     "recommendReason": "绿色金融发展、能源创新与气候变化对美国可再生能源消费的非对称影响。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 30,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1",
@@ -34174,7 +34166,7 @@
     "recommended": false,
     "recommendReason": "关于可再生能源及其成本、效益和可靠性的信息和错误信息层出不穷。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -34213,7 +34205,7 @@
     "recommended": false,
     "recommendReason": "亚洲基础设施投资银行（亚投行）已任命古斯塔沃·德罗萨为首席财务官，即日生效。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -34412,7 +34404,7 @@
     "recommended": false,
     "recommendReason": "香港交易所首次亮相 SHEIN 增强产品供应。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 14,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -34568,7 +34560,7 @@
     "recommended": false,
     "recommendReason": "减量提质不扰企！。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 16,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -34607,7 +34599,7 @@
     "recommended": false,
     "recommendReason": "对于太平洋小岛屿发展中国家而言。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -34846,7 +34838,7 @@
     "recommended": false,
     "recommendReason": "香港交易所任命对外传讯主管。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -34885,7 +34877,7 @@
     "recommended": false,
     "recommendReason": "陈石燕副主任参加解读《上海市妇女儿童发展 “十五五”规划》市政府新闻发布会。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -34924,7 +34916,7 @@
     "recommended": false,
     "recommendReason": "绿色气候基金支持新国家平台以扩大蒙古的绿色投资。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 26,
+      "score": 30,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -35043,7 +35035,7 @@
     "recommended": false,
     "recommendReason": "截至2026年6月30日止六个月的简明合并财务报表（未经审计）。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 4,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -35082,7 +35074,7 @@
     "recommended": false,
     "recommendReason": "香港交易所2026年中期业绩。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -35160,7 +35152,7 @@
     "recommended": false,
     "recommendReason": "双向奔赴·共建共营！。信息价值较高，涉及ESG的中国上海动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 7,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -35199,7 +35191,7 @@
     "recommended": false,
     "recommendReason": "香港交易所欢迎内地保险资金投资香港ETF。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 33,
+      "score": 28,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -35238,7 +35230,7 @@
     "recommended": false,
     "recommendReason": "香港交易所行政总裁续约。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 7,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -35316,7 +35308,7 @@
     "recommended": false,
     "recommendReason": "澳大利亚央行关于中国商务部决定的声明。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 13,
+      "score": 7,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -35475,7 +35467,7 @@
     "recommended": false,
     "recommendReason": "RECLIMA：萨尔瓦多干旱走廊在韧性、水资源保护和景观恢复方面的遗产。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -35594,7 +35586,7 @@
     "recommended": false,
     "recommendReason": "厄瓜多尔如何实现气候目标。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 16,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -36140,7 +36132,7 @@
     "recommended": false,
     "recommendReason": "香港交易所推出五年期中国国债期货。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 25,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -36419,7 +36411,7 @@
     "recommended": false,
     "recommendReason": "没收无人认领的2020年第一期中期股息。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 7,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -36498,7 +36490,7 @@
     "recommended": false,
     "recommendReason": "森林、土地和农业（FLAG）企业应继续按照现行指南设定目标，利用《企业净零标准》V2中提供的创新方法，例如更新的绝对收缩法和最佳努力框架。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 50,
+      "score": 45,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -36906,7 +36898,7 @@
     "recommended": false,
     "recommendReason": "王沪宁会见捷克众议长冈村富夫。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 4,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -36945,7 +36937,7 @@
     "recommended": false,
     "recommendReason": "全国党校校长会议在京召开 蔡奇出席并讲话。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -37062,7 +37054,7 @@
     "recommended": false,
     "recommendReason": "习近平出席国家科学技术奖励大会两院院士大会中国科协第十一次全国代表大会并发表重要讲话。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -37101,7 +37093,7 @@
     "recommended": false,
     "recommendReason": "港交所将马来西亚交易所纳入认可证券交易所名单。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 45,
+      "score": 38,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -37257,7 +37249,7 @@
     "recommended": false,
     "recommendReason": "科学碳目标倡议（SBTi）已完成下一届独立技术委员会的任命程序，该程序依据其治理框架、内部政策和既定治理最佳实践，以公开、透明和择优的方式进行。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -37296,7 +37288,7 @@
     "recommended": false,
     "recommendReason": "B.45为何重要：来自杜尚别的三点思考。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -37335,7 +37327,7 @@
     "recommended": false,
     "recommendReason": "香港交易所与上交所及深交所签署谅解备忘录 促进沪港通信息交换。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 32,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -37475,7 +37467,7 @@
     "recommended": false,
     "recommendReason": "科学碳目标倡议（SBTi）已发布其《电力行业净零标准》更新版草案，启动第二轮公开咨询，邀请企业和其他利益相关方提供意见。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 54,
+      "score": 58,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -37514,7 +37506,7 @@
     "recommended": false,
     "recommendReason": "绿色气候基金的资产负债表效率为新增投资释放超过40亿美元。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 52,
+      "score": 56,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -37553,7 +37545,7 @@
     "recommended": false,
     "recommendReason": "准备情况评估服务将提供结构化、基于证据的评估和报告，为每家公司准确概述其现状以及根据新标准提交目标以供验证所需的步骤。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 38,
+      "score": 34,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -37592,7 +37584,7 @@
     "recommended": false,
     "recommendReason": "香港交易所推出18种股票期权类别。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -37670,7 +37662,7 @@
     "recommended": false,
     "recommendReason": "港交所迎来立讯精密上市，丰富产品供给。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 16,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -37799,7 +37791,7 @@
     "recommended": false,
     "recommendReason": "香港交易所与CIPS签署谅解备忘录加强香港离岸人民币结算基础设施。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 37,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -37838,7 +37830,7 @@
     "recommended": false,
     "recommendReason": "委任香港交易所风险管理委员会（法定）成员。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -37979,7 +37971,7 @@
     "recommended": false,
     "recommendReason": "港交所与中债估值中心签订数据许可协议，以支持国债期货推出。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 42,
+      "score": 38,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38018,7 +38010,7 @@
     "recommended": false,
     "recommendReason": "Morningstar Sustainalytics提交ESMA文件。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -38057,7 +38049,7 @@
     "recommended": false,
     "recommendReason": "GCF董事会在区域模式下推动中亚投资翻倍。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -38218,7 +38210,7 @@
     "recommended": false,
     "recommendReason": "香港交易所欢迎首只追踪香港交易所科技 100 指数的 ETF 上市。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38257,7 +38249,7 @@
     "recommended": false,
     "recommendReason": "香港交易所与中国金融期货交易所续签谅解备忘录。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 21,
+      "score": 25,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38335,7 +38327,7 @@
     "recommended": false,
     "recommendReason": "香港交易所与金管局推出试点项目。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38371,12 +38363,12 @@
     "esgTopic": "合规与监管",
     "titleZh": "SBTi发布《企业净零标准》V2.0，以加速企业气候行动",
     "summaryZh": "这一旗舰框架推出一系列选项，以反映商业现实，同时保持科学严谨性为其核心。",
-    "recommended": true,
+    "recommended": false,
     "recommendReason": "这一旗舰框架推出一系列选项，以反映商业现实，同时保持科学严谨性为其核心。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 82,
+      "score": 75,
       "scoreThreshold": 75,
-      "scorePass": true,
+      "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-dlgxf7",
       "heat": 0,
@@ -38413,7 +38405,7 @@
     "recommended": false,
     "recommendReason": "香港交易所与 AIFC 及阿斯塔纳国际交易所签署谅解备忘录加强中亚市场互联互通。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 22,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38452,7 +38444,7 @@
     "recommended": false,
     "recommendReason": "港交所委任新的咨询小组成员。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38530,7 +38522,7 @@
     "recommended": false,
     "recommendReason": "香港交易所于交易广场举办“互联互通”活动庆祝成立40周年。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 4,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38569,7 +38561,7 @@
     "recommended": false,
     "recommendReason": "香港交易所新任命组建大宗商品团队。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 18,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38608,7 +38600,7 @@
     "recommended": false,
     "recommendReason": "2026年股东周年大会投票结果及香港交易所董事会新任命。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 12,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38647,7 +38639,7 @@
     "recommended": false,
     "recommendReason": "香港交易所2026年第一季度业绩。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 4,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38686,7 +38678,7 @@
     "recommended": false,
     "recommendReason": "香港交易所将推出 17 个股票期权类别的每周到期日。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38725,7 +38717,7 @@
     "recommended": false,
     "recommendReason": "香港交易所主办第40届亚洲及大洋洲证券交易所联合会大会。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38764,7 +38756,7 @@
     "recommended": false,
     "recommendReason": "港交所通过新任命组建固定收益与货币业务领导团队。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38803,7 +38795,7 @@
     "recommended": false,
     "recommendReason": "2019 年未认领的第二次中期股息被没收。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38842,7 +38834,7 @@
     "recommended": false,
     "recommendReason": "责任商业联盟和全球电子协会发布温室气体排放报告指南。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 48,
+      "score": 35,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -38881,7 +38873,7 @@
     "recommended": false,
     "recommendReason": "香港交易所以两个以科技为中心的基准推进指数生态系统。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 12,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38959,7 +38951,7 @@
     "recommended": false,
     "recommendReason": "香港交易所与马来西亚交易所推出联合品牌指数并签署谅解备忘录加强市场互联互通。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -38998,7 +38990,7 @@
     "recommended": false,
     "recommendReason": "新的ISO标准为监管链带来清晰度。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 20,
+      "score": 21,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -39037,7 +39029,7 @@
     "recommended": false,
     "recommendReason": "港交所基金会推出关爱照顾者计划。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 16,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -39076,7 +39068,7 @@
     "recommended": false,
     "recommendReason": "从气候风险到地方层面的长期韧性。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -39115,7 +39107,7 @@
     "recommended": false,
     "recommendReason": "香港交易所欢迎香港政府任命其董事会成员。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 10,
+      "score": 15,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -39154,7 +39146,7 @@
     "recommended": false,
     "recommendReason": "没收无人认领的2019年第二次中期股息。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 6,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -39193,7 +39185,7 @@
     "recommended": false,
     "recommendReason": "香港交易所2025年综合财务报表。信息价值较高，涉及ESG的香港动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 11,
+      "score": 9,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
@@ -39310,7 +39302,7 @@
     "recommended": false,
     "recommendReason": "RBA为全球供应链部署新的和改进的排放管理工具。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 30,
+      "score": 35,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -39856,7 +39848,7 @@
     "recommended": false,
     "recommendReason": "RBA推出可互操作的供应链透明度数据交换。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 23,
+      "score": 22,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -39895,7 +39887,7 @@
     "recommended": false,
     "recommendReason": "通过综合方案I确保简化。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 21,
+      "score": 23,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -39934,7 +39926,7 @@
     "recommended": false,
     "recommendReason": "RMI RMAP是欧盟委员会认可的首个冲突矿产法规合规计划。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 75,
+      "score": 62,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -39973,7 +39965,7 @@
     "recommended": false,
     "recommendReason": "社会保护：投资于改革与韧性。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40012,7 +40004,7 @@
     "recommended": false,
     "recommendReason": "草籽如何改变肯尼亚的生活。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 10,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40051,7 +40043,7 @@
     "recommended": false,
     "recommendReason": "不列颠哥伦比亚省、Catena-X和负责任的商业联盟携手开展联合国透明度协议的互操作性测试。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 50,
+      "score": 38,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40090,7 +40082,7 @@
     "recommended": false,
     "recommendReason": "RBA推出化学品平台。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 28,
+      "score": 33,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40115,7 +40107,7 @@
   {
     "id": "src-vb3bvn",
     "title": "RMI Releases New Standard Suite for Social, Environmental, OHS and Governance Risks",
-    "summary": "RMI Releases New Standard Suite for Social",
+    "summary": "RMI Releases New Standard Suite for Social, Environmental",
     "contentType": "观点",
     "region": "全球",
     "publishedAt": "2025-04-30T00:00:00.000Z",
@@ -40129,7 +40121,7 @@
     "recommended": false,
     "recommendReason": "RMI发布新的社会、环境、职业健康安全与治理风险标准套件。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 33,
+      "score": 41,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40207,7 +40199,7 @@
     "recommended": false,
     "recommendReason": "超百个“硬核”科技亮相！。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 15,
+      "score": 13,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40246,7 +40238,7 @@
     "recommended": false,
     "recommendReason": "澳大利亚皇家银行发布化学品管理尽职调查指南。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 58,
+      "score": 53,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40285,7 +40277,7 @@
     "recommended": false,
     "recommendReason": "ICMA拥有的ESG评级和数据产品提供商行为准则（“准则”）。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 30,
+      "score": 18,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40324,7 +40316,7 @@
     "recommended": false,
     "recommendReason": "Morningstar Sustainalytics大幅提升其ESG风险评级。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 35,
+      "score": 26,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40363,7 +40355,7 @@
     "recommended": false,
     "recommendReason": "2024年4月12日新闻发布会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 2,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40402,7 +40394,7 @@
     "recommended": false,
     "recommendReason": "2024 年1月19日新闻发布会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 8,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40441,7 +40433,7 @@
     "recommended": false,
     "recommendReason": "2024年2月23日新闻发布会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 16,
+      "score": 8,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40558,7 +40550,7 @@
     "recommended": false,
     "recommendReason": "2021年9月3日新闻发布会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 6,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40597,7 +40589,7 @@
     "recommended": false,
     "recommendReason": "2021年7月23日新闻发布会。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 0,
+      "score": 5,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40870,7 +40862,7 @@
     "recommended": false,
     "recommendReason": "观看视频。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 0,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40909,7 +40901,7 @@
     "recommended": false,
     "recommendReason": "观看视频。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 0,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -40948,7 +40940,7 @@
     "recommended": false,
     "recommendReason": "关注ECOVADIS。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 1,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -41065,7 +41057,7 @@
     "recommended": false,
     "recommendReason": "读取项目。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 0,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -41143,7 +41135,7 @@
     "recommended": false,
     "recommendReason": "读取项目。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 0,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -41299,7 +41291,7 @@
     "recommended": false,
     "recommendReason": "关注@ EcoVadis。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 0,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -41377,7 +41369,7 @@
     "recommended": false,
     "recommendReason": "读取项目。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 2,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -41416,7 +41408,7 @@
     "recommended": false,
     "recommendReason": "读取项目。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 2,
+      "score": 0,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -41533,7 +41525,7 @@
     "recommended": false,
     "recommendReason": "财务报告委员会续签Morningstar Sustainalytics 2023年英国管理签约地位。信息价值较高，涉及ESG动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 17,
+      "score": 20,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -41767,7 +41759,7 @@
     "recommended": false,
     "recommendReason": "国务院研究室。信息价值较高，涉及ESG的中国动向，对相关企业的战略、合规与风险管理具有参考价值。",
     "pipeline": {
-      "score": 5,
+      "score": 2,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
