@@ -245,7 +245,7 @@ function FeedItem({
 
   return (
     <article className="group relative bg-surface transition-colors hover:bg-brand-soft/20">
-      <Link href={`/events/${item.id}`} className="block px-3 py-4 pr-11 sm:px-5 sm:py-5">
+      <Link href={`/events/${item.id}`} className="block px-3 py-4 pr-14 sm:px-5 sm:py-5 sm:pr-16">
         <div className="mb-2 flex flex-wrap items-center gap-1.5 text-[11px] font-medium">
           <span className={`rounded px-1.5 py-0.5 ${TYPE_COLORS[item.contentType]}`}>
             {item.contentType}
@@ -280,16 +280,6 @@ function FeedItem({
           {sourceCount > 1 && (
             <span className="hidden rounded bg-paper px-1.5 py-0.5 text-ink-soft lg:inline">
               {sourceCount} 家独立来源
-            </span>
-          )}
-          {typeof item.pipeline?.score === "number" && (
-            <span
-              className={`ml-auto rounded px-1.5 py-0.5 font-mono text-[10px] font-semibold ${
-                item.recommended ? "bg-brand-soft text-brand-deep" : "bg-paper text-ink-soft"
-              }`}
-              title={`综合评分（精选门槛 ${item.pipeline.scoreThreshold ?? 75}）`}
-            >
-              {item.pipeline.score} 分
             </span>
           )}
         </div>
@@ -335,16 +325,28 @@ function FeedItem({
           )}
         </div>
       </Link>
-      <a
-        href={getContentLink(item)}
-        target="_blank"
-        rel="noreferrer"
-        aria-label={`查看原文：${item.sourceName}`}
-        title={`查看原文：${item.sourceName}`}
-        className="absolute right-2.5 top-2.5 inline-flex h-7 w-7 items-center justify-center rounded-md text-ink-faint transition-colors hover:bg-brand-soft hover:text-brand-deep sm:right-4 sm:top-4"
-      >
-        <ArrowUpRight size={14} aria-hidden />
-      </a>
+      <div className="absolute right-2.5 top-2.5 z-10 flex flex-col items-end gap-1.5 sm:right-4 sm:top-4">
+        {typeof item.pipeline?.score === "number" && (
+          <span
+            className={`rounded px-1.5 py-0.5 font-mono text-[10px] font-semibold ${
+              item.recommended ? "bg-brand-soft text-brand-deep" : "bg-paper text-ink-soft"
+            }`}
+            title={`综合评分（精选门槛 ${item.pipeline.scoreThreshold ?? 75}）`}
+          >
+            {item.pipeline.score} 分
+          </span>
+        )}
+        <a
+          href={getContentLink(item)}
+          target="_blank"
+          rel="noreferrer"
+          aria-label={`查看原文：${item.sourceName}`}
+          title={`查看原文：${item.sourceName}`}
+          className="inline-flex h-7 w-7 items-center justify-center rounded-md text-ink-faint transition-colors hover:bg-brand-soft hover:text-brand-deep"
+        >
+          <ArrowUpRight size={14} aria-hidden />
+        </a>
+      </div>
     </article>
   );
 }
