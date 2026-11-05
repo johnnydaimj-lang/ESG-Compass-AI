@@ -1,56 +1,46 @@
 {
-  "date": "2026-11-02",
-  "generatedAt": "2026-11-02T17:36:18.326Z",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T15:38:09.096Z",
   "highlights": [
     {
-      "id": "src-140fzjh",
-      "title": "巴西在取消强制要求仅数月后重新考虑强制性可持续发展报告",
-      "summary": "巴西证券交易委员会（CVM）启动新一轮公众咨询，讨论其即将实施的可持续与气候相关报告制度，并征求对强制披露、逐步设定义务或仅强制气候报告等方案的意见。",
+      "id": "src-cmh3ot",
+      "title": "欧盟议员采取行动，弱化对汽车的二氧化碳减排要求",
+      "summary": "欧洲议会环境委员会（ENVI）以48票赞成、30票反对通过一项立场，旨在弱化对汽车的二氧化碳减排要求。",
       "sourceName": "ESG Today（全球 ESG 新闻）",
       "contentType": "观点",
       "region": "全球",
-      "publishedAt": "2026-11-02T14:42:16.000Z",
-      "score": 65
+      "publishedAt": "2026-11-05T15:10:51.000Z",
+      "score": 74
     },
     {
-      "id": "src-n8jukm",
-      "title": "绿色气候基金批准创纪录的 33 亿美元气候投资",
-      "summary": "联合国支持的绿色气候基金（GCF）在董事会会议上批准为21个项目提供近20亿美元气候融资，使其2026年批准总额达到创纪录的33亿美元。",
+      "id": "src-16m6rll",
+      "title": "英国将出台强制性供应链人权尽职调查法",
+      "summary": "英国政府宣布新承诺，将引入一项新的强制性供应链人权尽职调查法。",
       "sourceName": "ESG Today（全球 ESG 新闻）",
       "contentType": "观点",
       "region": "全球",
-      "publishedAt": "2026-11-02T10:25:47.000Z",
-      "score": 63
+      "publishedAt": "2026-11-05T11:22:07.000Z",
+      "score": 68
     },
     {
-      "id": "src-y6v16q",
-      "title": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
-      "summary": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
-      "sourceName": "上海市发展和改革委员会",
+      "id": "src-ro9d2u",
+      "title": "财政部将在加拿大发行人民币绿色主权债券",
+      "summary": "财政部将在加拿大发行人民币绿色主权债券。",
+      "sourceName": "财政部政策发布",
       "contentType": "政策",
-      "region": "中国上海",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "score": 60
+      "region": "中国",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "score": 53
     },
     {
-      "id": "src-isy10r",
-      "title": "香港交易所的上市衍生产品结算所开始接受中国政府债券、政策性银行债券和财政部债券作为抵押品",
-      "summary": "香港交易所的上市衍生产品结算所开始接受中国政府债券、政策性银行债券和财政部债券作为抵押品",
-      "sourceName": "香港交易所新闻稿",
-      "contentType": "政策",
-      "region": "香港",
-      "publishedAt": "2026-11-02T09:17:00.000Z",
-      "score": 58
-    },
-    {
-      "id": "src-c3h4u",
-      "title": "土壤排放大量温室气体。其背后原因何在",
-      "summary": "土壤所储存的碳超过全球所有树木与大气层的总和。新研究表明，由于土地利用变化和扰动，2016年至2024年间土壤每年排放约39亿公吨温室气体。",
-      "sourceName": "世界资源研究所（WRI）Insights",
+      "id": "src-wziuo7",
+      "title": "Ahold Delhaize 借助新的清洁能源协议实现100%可再生能源里程碑",
+      "summary": "总部位于荷兰的国际食品零售商Ahold Delhaize宣布签署一份为期10年的虚拟清洁能源协议，从而实现100%可再生能源里程碑。",
+      "sourceName": "ESG Today（全球 ESG 新闻）",
       "contentType": "观点",
       "region": "全球",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "score": 55
+      "publishedAt": "2026-11-05T12:09:54.000Z",
+      "score": 31
     }
   ],
   "sections": [
@@ -58,54 +48,34 @@
       "label": "观点",
       "items": [
         {
-          "id": "src-140fzjh",
-          "title": "巴西在取消强制要求仅数月后重新考虑强制性可持续发展报告",
-          "summary": "巴西证券交易委员会（CVM）启动新一轮公众咨询，讨论其即将实施的可持续与气候相关报告制度，并征求对强制披露、逐步设定义务或仅强制气候报告等方案的意见。",
+          "id": "src-cmh3ot",
+          "title": "欧盟议员采取行动，弱化对汽车的二氧化碳减排要求",
+          "summary": "欧洲议会环境委员会（ENVI）以48票赞成、30票反对通过一项立场，旨在弱化对汽车的二氧化碳减排要求。",
           "sourceName": "ESG Today（全球 ESG 新闻）",
           "contentType": "观点",
           "region": "全球",
-          "publishedAt": "2026-11-02T14:42:16.000Z",
-          "score": 65
+          "publishedAt": "2026-11-05T15:10:51.000Z",
+          "score": 74
         },
         {
-          "id": "src-n8jukm",
-          "title": "绿色气候基金批准创纪录的 33 亿美元气候投资",
-          "summary": "联合国支持的绿色气候基金（GCF）在董事会会议上批准为21个项目提供近20亿美元气候融资，使其2026年批准总额达到创纪录的33亿美元。",
+          "id": "src-16m6rll",
+          "title": "英国将出台强制性供应链人权尽职调查法",
+          "summary": "英国政府宣布新承诺，将引入一项新的强制性供应链人权尽职调查法。",
           "sourceName": "ESG Today（全球 ESG 新闻）",
           "contentType": "观点",
           "region": "全球",
-          "publishedAt": "2026-11-02T10:25:47.000Z",
-          "score": 63
+          "publishedAt": "2026-11-05T11:22:07.000Z",
+          "score": 68
         },
         {
-          "id": "src-c3h4u",
-          "title": "土壤排放大量温室气体。其背后原因何在",
-          "summary": "土壤所储存的碳超过全球所有树木与大气层的总和。新研究表明，由于土地利用变化和扰动，2016年至2024年间土壤每年排放约39亿公吨温室气体。",
-          "sourceName": "世界资源研究所（WRI）Insights",
-          "contentType": "观点",
-          "region": "全球",
-          "publishedAt": "2026-11-02T00:00:00.000Z",
-          "score": 55
-        },
-        {
-          "id": "src-1y39dqu",
-          "title": "APG与Equitix共同向可持续欧洲基础设施投资5亿欧元",
-          "summary": "荷兰养老基金管理公司APG",
+          "id": "src-wziuo7",
+          "title": "Ahold Delhaize 借助新的清洁能源协议实现100%可再生能源里程碑",
+          "summary": "总部位于荷兰的国际食品零售商Ahold Delhaize宣布签署一份为期10年的虚拟清洁能源协议，从而实现100%可再生能源里程碑。",
           "sourceName": "ESG Today（全球 ESG 新闻）",
           "contentType": "观点",
           "region": "全球",
-          "publishedAt": "2026-11-02T14:06:15.000Z",
-          "score": 33
-        },
-        {
-          "id": "src-tcly9h",
-          "title": "美国银行、SMI、Eurazeo 推出新的生物多样性解决方案基金",
-          "summary": "美国银行、可持续市场倡议（SMI）与法国投资公司Eurazeo共同推出“灯塔倡议”，旨在为自然修复和生物多样性保护项目融资，基金初始承诺规模为4000万美元。",
-          "sourceName": "ESG Today（全球 ESG 新闻）",
-          "contentType": "观点",
-          "region": "全球",
-          "publishedAt": "2026-11-02T12:14:13.000Z",
-          "score": 32
+          "publishedAt": "2026-11-05T12:09:54.000Z",
+          "score": 31
         }
       ]
     },
@@ -113,59 +83,28 @@
       "label": "政策",
       "items": [
         {
-          "id": "src-y6v16q",
-          "title": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
-          "summary": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
-          "sourceName": "上海市发展和改革委员会",
-          "contentType": "政策",
-          "region": "中国上海",
-          "publishedAt": "2026-11-02T00:00:00.000Z",
-          "score": 60
-        },
-        {
-          "id": "src-isy10r",
-          "title": "香港交易所的上市衍生产品结算所开始接受中国政府债券、政策性银行债券和财政部债券作为抵押品",
-          "summary": "香港交易所的上市衍生产品结算所开始接受中国政府债券、政策性银行债券和财政部债券作为抵押品",
-          "sourceName": "香港交易所新闻稿",
-          "contentType": "政策",
-          "region": "香港",
-          "publishedAt": "2026-11-02T09:17:00.000Z",
-          "score": 58
-        },
-        {
-          "id": "src-kymlc",
-          "title": "福建省工业和信息化厅 福建省发展和改革委员会 福建省通信管理局关于组织开展2026年度国家绿色算力设施推荐工作的通知",
-          "summary": "福建省工业和信息化厅 福建省发展和改革委员会 福建省通信管理局关于组织开展2026年度国家绿色算力设施推荐工作的通知",
-          "sourceName": "福建省工业和信息化厅",
-          "contentType": "政策",
-          "region": "中国福建",
-          "publishedAt": "2026-11-02T00:00:00.000Z",
-          "score": 50
-        },
-        {
-          "id": "src-1gfd1ir",
-          "title": "证监会欢迎香港交易所扩大中国政府债券作为保证金抵押品的使用范围",
-          "summary": "证监会欢迎香港交易所扩大中国政府债券作为保证金抵押品的使用范围",
-          "sourceName": "香港证监会（SFC）新闻稿",
-          "contentType": "政策",
-          "region": "香港",
-          "publishedAt": "2026-11-02T00:40:00.000Z",
-          "score": 37
-        },
-        {
-          "id": "src-11jja",
-          "title": "习近平对进一步做好黄河保护治理工作作出重要指示",
-          "summary": "习近平对进一步做好黄河保护治理工作作出重要指示",
-          "sourceName": "中央网信办政策与要闻",
+          "id": "src-ro9d2u",
+          "title": "财政部将在加拿大发行人民币绿色主权债券",
+          "summary": "财政部将在加拿大发行人民币绿色主权债券。",
+          "sourceName": "财政部政策发布",
           "contentType": "政策",
           "region": "中国",
-          "publishedAt": "2026-11-02T00:00:00.000Z",
-          "score": 31
+          "publishedAt": "2026-11-05T00:00:00.000Z",
+          "score": 53
         }
       ]
     }
   ],
   "stories": [
+    {
+      "id": "story-z284b1",
+      "title": "关于同意南方区域电力市场转入正式运行的复函",
+      "summary": "关于同意南方区域电力市场转入正式运行的复函",
+      "sourceName": "1 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-11-04T00:00:00.000Z"
+    },
     {
       "id": "story-lk3he6",
       "title": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
@@ -173,7 +112,16 @@
       "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-11-02T00:00:00.000Z"
+      "publishedAt": "2026-11-04T00:00:00.000Z"
+    },
+    {
+      "id": "story-5h55id",
+      "title": "习近平对进一步做好黄河保护治理工作作出重要指示",
+      "summary": "习近平对进一步做好黄河保护治理工作作出重要指示",
+      "sourceName": "2 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-11-03T00:00:00.000Z"
     },
     {
       "id": "story-xchz3g",
@@ -237,24 +185,6 @@
       "contentType": "热点故事",
       "region": "",
       "publishedAt": "2026-09-28T16:05:08.000Z"
-    },
-    {
-      "id": "story-yu381v",
-      "title": "联合国气候变化新工具加强对非缔约方气候行动的跟踪",
-      "summary": "联合国气候变化框架公约推出一项新工具，用于加强对非缔约方气候行动的跟踪与透明度。",
-      "sourceName": "1 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-09-17T00:00:00.000Z"
-    },
-    {
-      "id": "story-a8ktsn",
-      "title": "关于印发《关于加快农业保险高质量发展的实施方案》的通知",
-      "summary": "关于印发《关于加快农业保险高质量发展的实施方案》的通知",
-      "sourceName": "1 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-09-16T00:00:00.000Z"
     }
   ]
 }

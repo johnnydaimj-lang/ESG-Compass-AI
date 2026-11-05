@@ -2,6 +2,7 @@
 
 import type { ContentItem } from "@/lib/contracts/content";
 import { buildDailyReport } from "@/lib/pipeline/daily";
+import { getLlmConfig } from "@/lib/pipeline/llm";
 import { cleanSummaryText } from "@/lib/pipeline/text";
 import {
   readPublishedContents,
@@ -55,6 +56,82 @@ function ensureSentenceEnding(value: string): string {
   return text + (/[\u3400-\u9fff]/.test(text) ? "。" : ".");
 }
 
+interface SummaryRepair {
+  item: ContentItem;
+}
+
+function needsSummaryRewrite(item: ContentItem): boolean {
+  const summary = String(item.summaryZh || "").trim();
+  if (!summary) return false;
+  const hasEllipsis = summary.includes("……") || /\.{3,}/.test(summary);
+  if (summary === item.titleZh && !hasEllipsis) return false;
+  return !/[。！？.!?]$/.test(summary) || hasEllipsis;
+}
+
+async function rewriteSummaries(items: SummaryRepair[]): Promise<Map<string, string>> {
+  const output = new Map<string, string>();
+  const config = getLlmConfig();
+  if (!config || items.length === 0) return output;
+  const llmConfig = config;
+  const batches: SummaryRepair[][] = [];
+  for (let index = 0; index < items.length; index += 16) {
+    batches.push(items.slice(index, index + 16));
+  }
+  let cursor = 0;
+  async function worker() {
+    while (cursor < batches.length) {
+      const batch = batches[cursor++];
+      try {
+        const res = await fetch(`${llmConfig.baseUrl.replace(/\/+$/, "")}/chat/completions`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Authorization: `Bearer ${llmConfig.apiKey}` },
+          body: JSON.stringify({
+            model: llmConfig.model,
+            temperature: 0,
+            response_format: { type: "json_object" },
+            messages: [
+              {
+                role: "system",
+                content: "你是中文 ESG 编辑。根据标题、英文摘要和已有中文片段，为每条内容写 1-2 句完整、准确、简洁的中文摘要，不超过 180 字。不得编造未提供的数字、日期、机构或结论，不得用逗号或半句结尾。只输出合法 JSON：{\"items\":[{\"id\":\"原 id\",\"summary\":\"完整中文摘要\"}]}。",
+              },
+              {
+                role: "user",
+                content: JSON.stringify({
+                  items: batch.map(({ item }) => ({
+                    id: item.id,
+                    title: item.title,
+                    titleZh: item.titleZh,
+                    summary: item.summary,
+                    partialSummaryZh: item.summaryZh,
+                  })),
+                }),
+              },
+            ],
+          }),
+          signal: AbortSignal.timeout(120_000),
+        });
+        if (!res.ok) continue;
+        const data = await res.json() as { choices?: Array<{ message?: { content?: string } }> };
+        const text = data.choices?.[0]?.message?.content || "";
+        const json = text.match(/\{[\s\S]*\}/)?.[0];
+        if (!json) continue;
+        const parsed = JSON.parse(json) as { items?: Array<{ id?: unknown; summary?: unknown }> };
+        for (const entry of parsed.items || []) {
+          const id = String(entry.id || "");
+          const summary = ensureSentenceEnding(String(entry.summary || "").trim());
+          if (id && summary.length >= 10 && summary.length <= 300 && /[\u3400-\u9fff]/.test(summary)) {
+            output.set(id, summary);
+          }
+        }
+      } catch {
+        // 单批失败时保留原文，后续由标题兜底。
+      }
+    }
+  }
+  await Promise.all([worker(), worker()]);
+  return output;
+}
+
 function syncRecommendReason(item: ContentItem): void {
   const reason = String(item.recommendReason || "");
   const marker = reason.indexOf("信息价值较高");
@@ -62,10 +139,11 @@ function syncRecommendReason(item: ContentItem): void {
   item.recommendReason = ensureSentenceEnding(item.summaryZh) + reason.slice(marker);
 }
 
-function main() {
+async function main() {
   const contents = readPublishedContents();
   let fixed = 0;
   let repaired = 0;
+  const rewriteCandidates: SummaryRepair[] = [];
   for (const item of contents) {
     const repair = REPAIRS[item.id];
     if (repair) {
@@ -88,10 +166,25 @@ function main() {
       item.summaryZh = item.titleZh;
       fixed += 1;
     }
+    const titleOnly = Boolean(item.summaryZh && item.titleZh && item.summaryZh.trim() === item.titleZh.trim());
+    if (titleOnly && !needsSummaryRewrite(item)) {
+      item.summaryZh = ensureSentenceEnding(item.summaryZh || "");
+    } else if (needsSummaryRewrite(item)) {
+      rewriteCandidates.push({
+        item,
+      });
+    }
     if (item.recommended) {
       item.summary = ensureSentenceEnding(item.summary);
       item.summaryZh = ensureSentenceEnding(item.summaryZh || "");
     }
+  }
+  const rewritten = await rewriteSummaries(rewriteCandidates);
+  for (const { item } of rewriteCandidates) {
+    item.summaryZh = rewritten.get(item.id)
+      || ensureSentenceEnding(item.titleZh || item.title);
+    syncRecommendReason(item);
+    fixed += 1;
   }
   writePublishedContents(contents);
   writeDaily(buildDailyReport(contents, readStories(), new Date()));
@@ -100,4 +193,7 @@ function main() {
   );
 }
 
-main();
+main().catch((error) => {
+  process.stderr.write(`[fix-summaries] failed: ${error instanceof Error ? error.message : String(error)}\n`);
+  process.exitCode = 1;
+});

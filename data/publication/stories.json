@@ -8923,8 +8923,8 @@
     "id": "story-18ys216",
     "rootId": "src-18v6xbx",
     "title": "【第11号公告】《关于实施〈期货公司监督管理办法〉有关事项的公告》",
-    "digest": "中国证券监督管理委员会公告 〔2026〕11号 现公布《关于实施〈期货公司监督管理办法〉有关事项的公告》，",
-    "latest": "中国证券监督管理委员会公告 〔2026〕11号 现公布《关于实施〈期货公司监督管理办法〉有关事项的公告》，",
+    "digest": "中国证券监督管理委员会公告 〔2026〕11号 现公布《关于实施〈期货公司监督管理办法〉有关事项的公告》",
+    "latest": "中国证券监督管理委员会公告 〔2026〕11号 现公布《关于实施〈期货公司监督管理办法〉有关事项的公告》",
     "memberIds": [
       "src-18v6xbx"
     ],
@@ -19177,7 +19177,7 @@
     "rootId": "src-100tq6p",
     "title": "2026年10月8日-2026年10月9日证券市场快报",
     "digest": "2026年10月8日-2026年10月9日证券市场快报",
-    "latest": "2026年9月7日-2026年9月11日证券市场快报",
+    "latest": "2026年9月14日-2026年9月18日证券市场快报",
     "memberIds": [
       "src-100tq6p",
       "src-14y2vgg",
@@ -19188,7 +19188,14 @@
       "src-1hb6pul",
       "src-1axjija",
       "src-o44fc6",
-      "src-rx5p7t"
+      "src-rx5p7t",
+      "src-1tr55hw",
+      "src-1357ee6",
+      "src-16re3ys",
+      "src-5l1cvi",
+      "src-ufj5u5",
+      "src-1qy1vve",
+      "src-ddw696"
     ],
     "facts": [
       {
@@ -19260,13 +19267,62 @@
         "action": "发布",
         "object": "2026年9月7日-2026年9月11日证券市场快报",
         "occurredAt": "2026-09-07"
+      },
+      {
+        "title": "2026年10月26日-2026年10月30日证券市场快报",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2026年10月26日-2026年10月30日证券市场快报",
+        "occurredAt": "2026-10-26"
+      },
+      {
+        "title": "2026年10月19日-2026年10月23日证券市场快报",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2026年10月19日-2026年10月23日证券市场快报",
+        "occurredAt": "2026-10-19"
+      },
+      {
+        "title": "2026年10月12日-2026年10月16日证券市场快报",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2026年10月12日-2026年10月16日证券市场快报",
+        "occurredAt": "2026-10-12"
+      },
+      {
+        "title": "2026年10月8日-2026年10月9日证券市场快报",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2026年10月8日-2026年10月9日证券市场快报",
+        "occurredAt": "2026-10-08"
+      },
+      {
+        "title": "2026年9月28日-2026年9月30日证券市场快报",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2026年9月28日-2026年9月30日证券市场快报",
+        "occurredAt": "2026-09-28"
+      },
+      {
+        "title": "2026年9月21日-2026年9月24日证券市场快报",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2026年9月21日-2026年9月24日证券市场快报",
+        "occurredAt": "2026-09-21"
+      },
+      {
+        "title": "2026年9月14日-2026年9月18日证券市场快报",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "2026年9月14日-2026年9月18日证券市场快报",
+        "occurredAt": "2026-09-14"
       }
     ],
     "participants": [
       "csrc-news"
     ],
     "firstPublishedAt": "2026-10-08T00:00:00.000Z",
-    "latestPublishedAt": "2026-10-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
@@ -19318,6 +19374,41 @@
         "memberId": "src-rx5p7t",
         "relation": "SAME_STORY",
         "confidence": 0.9090909090909091
+      },
+      {
+        "memberId": "src-1tr55hw",
+        "relation": "SAME_STORY",
+        "confidence": 0.9198662110078
+      },
+      {
+        "memberId": "src-1357ee6",
+        "relation": "SAME_STORY",
+        "confidence": 0.9198662110078
+      },
+      {
+        "memberId": "src-16re3ys",
+        "relation": "SAME_STORY",
+        "confidence": 0.9198662110078
+      },
+      {
+        "memberId": "src-5l1cvi",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-ufj5u5",
+        "relation": "SAME_STORY",
+        "confidence": 0.8703882797784892
+      },
+      {
+        "memberId": "src-1qy1vve",
+        "relation": "SAME_STORY",
+        "confidence": 0.8703882797784892
+      },
+      {
+        "memberId": "src-ddw696",
+        "relation": "SAME_STORY",
+        "confidence": 0.8703882797784892
       }
     ],
     "heat6hAgo": 0,
@@ -24182,8 +24273,8 @@
     "id": "story-u8t89k",
     "rootId": "src-1lntt05",
     "title": "【第12号公告】《违规转让证券案件行政处罚实施规则》",
-    "digest": "中国证券监督管理委员会公告 〔2026〕12号 现公布《违规转让证券案件行政处罚实施规则》，自2026年12月1日",
-    "latest": "中国证券监督管理委员会公告 〔2026〕12号 现公布《违规转让证券案件行政处罚实施规则》，自2026年12月1日",
+    "digest": "中国证券监督管理委员会公告 〔2026〕12号 现公布《违规转让证券案件行政处罚实施规则》",
+    "latest": "中国证券监督管理委员会公告 〔2026〕12号 现公布《违规转让证券案件行政处罚实施规则》",
     "memberIds": [
       "src-1lntt05"
     ],
@@ -24193,7 +24284,7 @@
         "subject": "中国证监会公告",
         "action": "处罚",
         "object": "【第12号公告】《违规转让证券案件行政处罚实施规则》",
-        "occurredAt": "2026-12-01"
+        "occurredAt": "2026-10-16"
       }
     ],
     "participants": [
@@ -24916,10 +25007,11 @@
     "rootId": "src-19hhfd",
     "title": "出版物Ørsted Decision：英国转让定价争议解决的里程碑时刻| 2026年10月19日税务",
     "digest": "出版物Ørsted Decision：英国转让定价争议解决的里程碑时刻| 2026年10月19日税务",
-    "latest": "出版物Ørsted Decision：英国转让定价争议解决的里程碑时刻| 2026年10月19日税务",
+    "latest": "Publication The Ørsted Decision: A landmark moment for transfer pricing dispute resolution United Kingdom | October 19, 2026 Tax",
     "memberIds": [
       "src-19hhfd",
-      "src-103hgun"
+      "src-103hgun",
+      "src-1j84tqw"
     ],
     "facts": [
       {
@@ -24935,13 +25027,20 @@
         "action": "发布",
         "object": "出版物Ørsted Decision：英国转让定价争议解决的里程碑时刻| 2026年10月19日税务",
         "occurredAt": "2026-10-19"
+      },
+      {
+        "title": "Publication The Ørsted Decisio",
+        "subject": "诺顿罗氏（Norton Rose Fulbright）知识中心",
+        "action": "发布",
+        "object": "Publication The Ørsted Decision: A landmark moment for transfer pricing dispute ",
+        "occurredAt": "2026-11-02"
       }
     ],
     "participants": [
       "nortonrose-esg"
     ],
     "firstPublishedAt": "2026-10-19T00:00:00.000Z",
-    "latestPublishedAt": "2026-10-22T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
@@ -24951,6 +25050,11 @@
       },
       {
         "memberId": "src-103hgun",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1j84tqw",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -25142,9 +25246,10 @@
     "rootId": "src-qcbra9",
     "title": "生物多样性公约执行秘书在缔约方大会第十七次会议开幕式上的发言……",
     "digest": "生物多样性公约执行秘书在缔约方大会第十七次会议开幕式上的发言",
-    "latest": "生物多样性公约执行秘书在缔约方大会第十七次会议开幕式上的发言",
+    "latest": "Closing statement by the Executive Secretary of the Convention on Biological Diversity at the 2026 United Nations Biodiversity Conference, Yerevan, 30...",
     "memberIds": [
-      "src-qcbra9"
+      "src-qcbra9",
+      "src-1cso2ih"
     ],
     "facts": [
       {
@@ -25153,19 +25258,31 @@
         "action": "发布",
         "object": "生物多样性公约执行秘书在缔约方大会第十七次会议开幕式上的发言……",
         "occurredAt": "2026-10-19"
+      },
+      {
+        "title": "Closing statement by the Execu",
+        "subject": "联合国生物多样性公约（CBD）新闻",
+        "action": "发布",
+        "object": "Closing statement by the Executive Secretary of the Convention on Biological Div",
+        "occurredAt": "2026-10-30"
       }
     ],
     "participants": [
       "cbd-news"
     ],
     "firstPublishedAt": "2026-10-19T00:00:00.000Z",
-    "latestPublishedAt": "2026-10-19T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-qcbra9",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-1cso2ih",
+        "relation": "SAME_STORY",
+        "confidence": 0.6882472016116852
       }
     ],
     "heat6hAgo": 0,
@@ -25890,7 +26007,8 @@
     "latest": "习近平致信祝贺中央社会主义学院建院70周年",
     "memberIds": [
       "src-1twcxe3",
-      "src-1reepht"
+      "src-1reepht",
+      "src-ga9ce"
     ],
     "facts": [
       {
@@ -25906,13 +26024,20 @@
         "action": "发布",
         "object": "习近平致信祝贺中央社会主义学院建院70周年",
         "occurredAt": "2026-10-30"
+      },
+      {
+        "title": "习近平致信祝贺中央社会主义学院建院70周年",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "习近平致信祝贺中央社会主义学院建院70周年",
+        "occurredAt": "2026-11-03"
       }
     ],
     "participants": [
       "nea-news"
     ],
     "firstPublishedAt": "2026-10-21T00:00:00.000Z",
-    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
@@ -25922,6 +26047,11 @@
       },
       {
         "memberId": "src-1reepht",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
+      },
+      {
+        "memberId": "src-ga9ce",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1.0000000000000002
       }
@@ -26638,7 +26768,8 @@
       "src-13feu4x",
       "src-v591nx",
       "src-e7g327",
-      "src-w9m4wu"
+      "src-w9m4wu",
+      "src-l55qt"
     ],
     "facts": [
       {
@@ -26668,6 +26799,13 @@
         "action": "发布",
         "object": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
         "occurredAt": "2026-10-30"
+      },
+      {
+        "title": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "习近平出席纪念中国工农红军长征胜利90周年大会并发表重要讲话",
+        "occurredAt": "2026-11-03"
       }
     ],
     "participants": [
@@ -26675,7 +26813,7 @@
       "fujian-gxt"
     ],
     "firstPublishedAt": "2026-10-22T00:00:00.000Z",
-    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
@@ -26695,6 +26833,11 @@
       },
       {
         "memberId": "src-w9m4wu",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-l55qt",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -27757,7 +27900,8 @@
     "latest": "中共中央政治局召开会议 中共中央总书记习近平主持会议",
     "memberIds": [
       "src-13nisjw",
-      "src-1ixjv30"
+      "src-1ixjv30",
+      "src-k2nxr7"
     ],
     "facts": [
       {
@@ -27773,13 +27917,20 @@
         "action": "发布",
         "object": "中共中央政治局召开会议 中共中央总书记习近平主持会议",
         "occurredAt": "2026-10-30"
+      },
+      {
+        "title": "中共中央政治局召开会议 中共中央总书记习近平主持会议",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "中共中央政治局召开会议 中共中央总书记习近平主持会议",
+        "occurredAt": "2026-11-03"
       }
     ],
     "participants": [
       "nea-news"
     ],
     "firstPublishedAt": "2026-10-23T00:00:00.000Z",
-    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
@@ -27789,6 +27940,11 @@
       },
       {
         "memberId": "src-1ixjv30",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 0.9999999999999998
+      },
+      {
+        "memberId": "src-k2nxr7",
         "relation": "SAME_OCCURRENCE",
         "confidence": 0.9999999999999998
       }
@@ -28202,6 +28358,46 @@
     "relations": [
       {
         "memberId": "src-cb6jzr",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-aq6fk3",
+    "rootId": "src-1djmdzg",
+    "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+    "digest": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+    "latest": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+    "memberIds": [
+      "src-1djmdzg"
+    ],
+    "facts": [
+      {
+        "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+        "occurredAt": "2026-10-23"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2026-10-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1djmdzg",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -29039,10 +29235,10 @@
     ],
     "facts": [
       {
-        "title": "【第13号公告】《〈上市公司可持续发展报告电子化规范〉等3项",
+        "title": "证监会发布《上市公司可持续发展报告电子化规范》等3项行业标准",
         "subject": "中国证监会公告",
         "action": "发布",
-        "object": "【第13号公告】《〈上市公司可持续发展报告电子化规范〉等3项行业标准》",
+        "object": "证监会发布《上市公司可持续发展报告电子化规范》等3项行业标准",
         "occurredAt": "2026-10-26"
       }
     ],
@@ -29238,7 +29434,8 @@
       "src-1rj0p7g",
       "src-147vgwf",
       "src-fl40uw",
-      "src-1mbtrl4"
+      "src-1mbtrl4",
+      "src-pdd10k"
     ],
     "facts": [
       {
@@ -29268,13 +29465,20 @@
         "action": "发布",
         "object": "周海兵副主任会见法国财政总署署长杜蒙",
         "occurredAt": "2026-11-02"
+      },
+      {
+        "title": "周海兵副主任会见法国财政总署署长杜蒙",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "周海兵副主任会见法国财政总署署长杜蒙",
+        "occurredAt": "2026-11-03"
       }
     ],
     "participants": [
       "ndrc-news"
     ],
     "firstPublishedAt": "2026-10-27T00:00:00.000Z",
-    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
@@ -29296,6 +29500,11 @@
         "memberId": "src-1mbtrl4",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-pdd10k",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
       }
     ],
     "heat6hAgo": 0,
@@ -29312,10 +29521,11 @@
     "rootId": "src-qcmegb",
     "title": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
     "digest": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
-    "latest": "中国共产党第二十届中央委员会第五次全体会议公报",
+    "latest": "中国共产党第二十届中央委员会第五次全体会议在京举行",
     "memberIds": [
       "src-qcmegb",
-      "src-3nikd2"
+      "src-3nikd2",
+      "src-rob4rt"
     ],
     "facts": [
       {
@@ -29330,6 +29540,13 @@
         "subject": "福建省工业和信息化厅",
         "action": "发布",
         "object": "中国共产党第二十届中央委员会第五次全体会议公报",
+        "occurredAt": "2026-10-30"
+      },
+      {
+        "title": "中国共产党第二十届中央委员会第五次全体会议在京举行",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "中国共产党第二十届中央委员会第五次全体会议在京举行",
         "occurredAt": "2026-10-30"
       }
     ],
@@ -29349,6 +29566,11 @@
         "memberId": "src-3nikd2",
         "relation": "SAME_STORY",
         "confidence": 0.8206099398622182
+      },
+      {
+        "memberId": "src-rob4rt",
+        "relation": "SAME_STORY",
+        "confidence": 0.8642416214502248
       }
     ],
     "heat6hAgo": 0,
@@ -29713,9 +29935,10 @@
     "rootId": "src-k4lki8",
     "title": "公司财务与战略。",
     "digest": "公司财务与战略。",
-    "latest": "公司财务与战略。",
+    "latest": "Corporate Finance and Strategy",
     "memberIds": [
-      "src-k4lki8"
+      "src-k4lki8",
+      "src-z4b1cr"
     ],
     "facts": [
       {
@@ -29724,17 +29947,29 @@
         "action": "发布",
         "object": "公司财务与战略。",
         "occurredAt": "2026-10-27"
+      },
+      {
+        "title": "Corporate Finance and Strategy",
+        "subject": "BCG 可持续发展洞察",
+        "action": "发布",
+        "object": "Corporate Finance and Strategy",
+        "occurredAt": "2026-11-03"
       }
     ],
     "participants": [
       "bcg-sustainability"
     ],
     "firstPublishedAt": "2026-10-27T00:00:00.000Z",
-    "latestPublishedAt": "2026-10-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-k4lki8",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-z4b1cr",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -29793,9 +30028,10 @@
     "rootId": "src-1208hgv",
     "title": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...",
     "digest": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听",
-    "latest": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听",
+    "latest": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...",
     "memberIds": [
-      "src-1208hgv"
+      "src-1208hgv",
+      "src-m810jo"
     ],
     "facts": [
       {
@@ -29804,17 +30040,29 @@
         "action": "发布",
         "object": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...",
         "occurredAt": "2026-10-27"
+      },
+      {
+        "title": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...",
+        "occurredAt": "2026-11-03"
       }
     ],
     "participants": [
       "ndrc-news"
     ],
     "firstPublishedAt": "2026-10-27T00:00:00.000Z",
-    "latestPublishedAt": "2026-10-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-1208hgv",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-m810jo",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -29835,7 +30083,8 @@
     "digest": "国家发展改革委举行升国旗仪式庆祝中华人民共和国成立77周年",
     "latest": "国家发展改革委举行升国旗仪式庆祝中华人民共和国成立77周年",
     "memberIds": [
-      "src-xpdmsk"
+      "src-xpdmsk",
+      "src-2rav8n"
     ],
     "facts": [
       {
@@ -29844,19 +30093,31 @@
         "action": "发布",
         "object": "国家发展改革委举行升国旗仪式庆祝中华人民共和国成立77周年",
         "occurredAt": "2026-10-27"
+      },
+      {
+        "title": "国家发展改革委举行升国旗仪式庆祝中华人民共和国成立77周年",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委举行升国旗仪式庆祝中华人民共和国成立77周年",
+        "occurredAt": "2026-11-03"
       }
     ],
     "participants": [
       "ndrc-news"
     ],
     "firstPublishedAt": "2026-10-27T00:00:00.000Z",
-    "latestPublishedAt": "2026-10-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-xpdmsk",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-2rav8n",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
       }
     ],
     "heat6hAgo": 0,
@@ -30435,7 +30696,8 @@
     "digest": "关于同意南方区域电力市场转入正式运行的复函",
     "latest": "关于同意南方区域电力市场转入正式运行的复函",
     "memberIds": [
-      "src-89g6mo"
+      "src-89g6mo",
+      "src-17jktov"
     ],
     "facts": [
       {
@@ -30444,19 +30706,31 @@
         "action": "发布",
         "object": "关于同意南方区域电力市场转入正式运行的复函",
         "occurredAt": "2026-10-28"
+      },
+      {
+        "title": "关于同意南方区域电力市场转入正式运行的复函",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "关于同意南方区域电力市场转入正式运行的复函",
+        "occurredAt": "2026-11-04"
       }
     ],
     "participants": [
       "ndrc-news"
     ],
     "firstPublishedAt": "2026-10-28T00:00:00.000Z",
-    "latestPublishedAt": "2026-10-28T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-89g6mo",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-17jktov",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 0.9999999999999998
       }
     ],
     "heat6hAgo": 0,
@@ -31174,6 +31448,46 @@
     "signalCount": 0,
     "sourceNames": [
       "亚洲基础设施投资银行（AIIB）新闻"
+    ]
+  },
+  {
+    "id": "story-awgrvt",
+    "rootId": "src-1lucuco",
+    "title": "WMO AI Webinars",
+    "digest": "WMO AI Webinars",
+    "latest": "WMO AI Webinars",
+    "memberIds": [
+      "src-1lucuco"
+    ],
+    "facts": [
+      {
+        "title": "WMO AI Webinars",
+        "subject": "世界气象组织（WMO）新闻",
+        "action": "发布",
+        "object": "WMO AI Webinars",
+        "occurredAt": "2026-10-28"
+      }
+    ],
+    "participants": [
+      "wmo-news"
+    ],
+    "firstPublishedAt": "2026-10-28T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-28T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1lucuco",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "世界气象组织（WMO）新闻"
     ]
   },
   {
@@ -32766,9 +33080,10 @@
     "rootId": "src-nei9i0",
     "title": "能源",
     "digest": "能源",
-    "latest": "能源",
+    "latest": "Energy",
     "memberIds": [
-      "src-nei9i0"
+      "src-nei9i0",
+      "src-19j5ddz"
     ],
     "facts": [
       {
@@ -32777,17 +33092,29 @@
         "action": "发布",
         "object": "能源",
         "occurredAt": "2026-10-29"
+      },
+      {
+        "title": "Energy",
+        "subject": "BCG 可持续发展洞察",
+        "action": "发布",
+        "object": "Energy",
+        "occurredAt": "2026-11-05"
       }
     ],
     "participants": [
       "bcg-sustainability"
     ],
     "firstPublishedAt": "2026-10-29T00:00:00.000Z",
-    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-nei9i0",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-19j5ddz",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -32846,9 +33173,10 @@
     "rootId": "src-a0jq",
     "title": "人工智能机",
     "digest": "人工智能机",
-    "latest": "人工智能机",
+    "latest": "Artificial Intelligence",
     "memberIds": [
-      "src-a0jq"
+      "src-a0jq",
+      "src-72i0zt"
     ],
     "facts": [
       {
@@ -32857,19 +33185,31 @@
         "action": "发布",
         "object": "人工智能机",
         "occurredAt": "2026-10-29"
+      },
+      {
+        "title": "Artificial Intelligence",
+        "subject": "BCG 可持续发展洞察",
+        "action": "发布",
+        "object": "Artificial Intelligence",
+        "occurredAt": "2026-11-05"
       }
     ],
     "participants": [
       "bcg-sustainability"
     ],
     "firstPublishedAt": "2026-10-29T00:00:00.000Z",
-    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-a0jq",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-72i0zt",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 0.9999999999999998
       }
     ],
     "heat6hAgo": 0,
@@ -33046,10 +33386,11 @@
     "rootId": "src-1votojp",
     "title": "订阅更新 每当本网站发布新闻和更新时获取通知。",
     "digest": "订阅更新 每当本网站发布新闻和更新时获取通知。",
-    "latest": "订阅更新 每当本网站发布新闻和更新时获取通知。",
+    "latest": "Subscribe to Updates Get notified whenever news and updates are posted on this website.",
     "memberIds": [
       "src-1votojp",
-      "src-1brilrj"
+      "src-1brilrj",
+      "src-6jlw8y"
     ],
     "facts": [
       {
@@ -33065,13 +33406,20 @@
         "action": "发布",
         "object": "订阅更新 每当本网站发布新闻和更新时获取通知。",
         "occurredAt": "2026-11-02"
+      },
+      {
+        "title": "Subscribe to Updates Get notif",
+        "subject": "新加坡金管局（MAS）可持续金融",
+        "action": "发布",
+        "object": "Subscribe to Updates Get notified whenever news and updates are posted on this w",
+        "occurredAt": "2026-11-05"
       }
     ],
     "participants": [
       "mas-sustainable-finance"
     ],
     "firstPublishedAt": "2026-10-29T00:00:00.000Z",
-    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
@@ -33081,6 +33429,11 @@
       },
       {
         "memberId": "src-1brilrj",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
+      },
+      {
+        "memberId": "src-6jlw8y",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1.0000000000000002
       }
@@ -33905,6 +34258,46 @@
     "signalCount": 0,
     "sourceNames": [
       "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-p713fp",
+    "rootId": "src-1h9wyty",
+    "title": "Alibaba Wins Injunction Against DOW’s CMC Lobbying Ban, Which Otherwise Remains Enforceable Against Contractors for Now",
+    "digest": "Alibaba Wins Injunction Against DOW’s CMC Lobbying Ban, Which Otherwise Remains Enforceable Against Contractors for Now",
+    "latest": "Alibaba Wins Injunction Against DOW’s CMC Lobbying Ban, Which Otherwise Remains Enforceable Against Contractors for Now",
+    "memberIds": [
+      "src-1h9wyty"
+    ],
+    "facts": [
+      {
+        "title": "Alibaba Wins Injunction Agains",
+        "subject": "世达（Skadden）洞察",
+        "action": "enforce",
+        "object": "Alibaba Wins Injunction Against DOW’s CMC Lobbying Ban, Which Otherwise Remains ",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "skadden-esg"
+    ],
+    "firstPublishedAt": "2026-10-29T00:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1h9wyty",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "世达（Skadden）洞察"
     ]
   },
   {
@@ -35000,7 +35393,8 @@
       "src-8go8rm",
       "src-xg0a4f",
       "src-gwvbp2",
-      "src-1hwdls1"
+      "src-1hwdls1",
+      "src-1e0svjr"
     ],
     "facts": [
       {
@@ -35051,6 +35445,13 @@
         "action": "发布",
         "object": "中共国家发展改革委党组召开扩大会议传达学习贯彻党的二十届五中全会精神",
         "occurredAt": "2026-11-02"
+      },
+      {
+        "title": "中共国家发展改革委党组召开扩大会议传达学习贯彻党的二十届五中",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "中共国家发展改革委党组召开扩大会议传达学习贯彻党的二十届五中全会精神",
+        "occurredAt": "2026-11-04"
       }
     ],
     "participants": [
@@ -35061,8 +35462,8 @@
       "mee-china"
     ],
     "firstPublishedAt": "2026-10-30T00:00:00.000Z",
-    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
-    "heat": 1.8,
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
     "relations": [
       {
         "memberId": "src-3qb0gm",
@@ -35098,11 +35499,16 @@
         "memberId": "src-1hwdls1",
         "relation": "SAME_STORY",
         "confidence": 0.653358607776565
+      },
+      {
+        "memberId": "src-1e0svjr",
+        "relation": "SAME_STORY",
+        "confidence": 0.653358607776565
       }
     ],
-    "heat6hAgo": 2.2,
-    "trend": "down",
-    "trendPct": -18.2,
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
@@ -35507,7 +35913,8 @@
     "latest": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
     "memberIds": [
       "src-j73hpy",
-      "src-gedshc"
+      "src-gedshc",
+      "src-1cub7v1"
     ],
     "facts": [
       {
@@ -35523,6 +35930,13 @@
         "action": "发布",
         "object": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
         "occurredAt": "2026-10-30"
+      },
+      {
+        "title": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话",
+        "occurredAt": "2026-11-03"
       }
     ],
     "participants": [
@@ -35530,7 +35944,7 @@
       "cac-policy"
     ],
     "firstPublishedAt": "2026-10-30T00:00:00.000Z",
-    "latestPublishedAt": "2026-10-30T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
@@ -35540,6 +35954,11 @@
       },
       {
         "memberId": "src-gedshc",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
+      },
+      {
+        "memberId": "src-1cub7v1",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1.0000000000000002
       }
@@ -35762,7 +36181,8 @@
     "latest": "上海市汽车置换更新补贴政策（新能源）补充名单公示",
     "memberIds": [
       "src-yxyy04",
-      "src-1h77i2c"
+      "src-1h77i2c",
+      "src-11hvjrq"
     ],
     "facts": [
       {
@@ -35778,13 +36198,20 @@
         "action": "发布",
         "object": "上海市汽车置换更新补贴政策（新能源）补充名单公示",
         "occurredAt": "2026-11-02"
+      },
+      {
+        "title": "上海市汽车置换更新补贴政策（新能源）补充名单公示",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "上海市汽车置换更新补贴政策（新能源）补充名单公示",
+        "occurredAt": "2026-11-04"
       }
     ],
     "participants": [
       "shanghai-fgw"
     ],
     "firstPublishedAt": "2026-10-30T00:00:00.000Z",
-    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
@@ -35794,6 +36221,11 @@
       },
       {
         "memberId": "src-1h77i2c",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 0.9999999999999998
+      },
+      {
+        "memberId": "src-11hvjrq",
         "relation": "SAME_OCCURRENCE",
         "confidence": 0.9999999999999998
       }
@@ -35815,7 +36247,8 @@
     "latest": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
     "memberIds": [
       "src-xo4uyq",
-      "src-y6v16q"
+      "src-y6v16q",
+      "src-1e0i0pk"
     ],
     "facts": [
       {
@@ -35831,13 +36264,20 @@
         "action": "发布",
         "object": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
         "occurredAt": "2026-11-02"
+      },
+      {
+        "title": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
+        "occurredAt": "2026-11-04"
       }
     ],
     "participants": [
       "shanghai-fgw"
     ],
     "firstPublishedAt": "2026-10-30T00:00:00.000Z",
-    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
@@ -35847,6 +36287,11 @@
       },
       {
         "memberId": "src-y6v16q",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
+      },
+      {
+        "memberId": "src-1e0i0pk",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1.0000000000000002
       }
@@ -36079,8 +36524,8 @@
     "id": "story-1ajiiw3",
     "rootId": "src-1j2wluv",
     "title": "向长征致敬｜湘江战役中，敌人到了眼前，他为何把枪口转向自己",
-    "digest": "向长征致敬｜湘江战役中，敌人到了眼前",
-    "latest": "向长征致敬｜湘江战役中，敌人到了眼前",
+    "digest": "向长征致敬｜湘江战役中",
+    "latest": "向长征致敬｜湘江战役中",
     "memberIds": [
       "src-1j2wluv"
     ],
@@ -37205,7 +37650,8 @@
       "src-cnsflu",
       "src-1mxajcn",
       "src-j9t8g4",
-      "src-1wgta6y"
+      "src-1wgta6y",
+      "src-11rz1ri"
     ],
     "facts": [
       {
@@ -37235,6 +37681,13 @@
         "action": "发布",
         "object": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
         "occurredAt": "2026-11-02"
+      },
+      {
+        "title": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+        "occurredAt": "2026-11-02"
       }
     ],
     "participants": [
@@ -37243,7 +37696,7 @@
     ],
     "firstPublishedAt": "2026-11-01T00:00:00.000Z",
     "latestPublishedAt": "2026-11-02T00:00:00.000Z",
-    "heat": 1.4,
+    "heat": 0,
     "relations": [
       {
         "memberId": "src-cnsflu",
@@ -37264,11 +37717,16 @@
         "memberId": "src-1wgta6y",
         "relation": "SAME_STORY",
         "confidence": 0.9013878188659974
+      },
+      {
+        "memberId": "src-11rz1ri",
+        "relation": "SAME_STORY",
+        "confidence": 0.9013878188659974
       }
     ],
-    "heat6hAgo": 1.6,
-    "trend": "down",
-    "trendPct": -12.5,
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
@@ -37976,7 +38434,9 @@
     "digest": "郑栅洁主任会见澳大利亚西澳州州长库克并签署合作文件",
     "latest": "郑栅洁主任会见澳大利亚西澳州州长库克并签署合作文件",
     "memberIds": [
-      "src-wv2ult"
+      "src-wv2ult",
+      "src-12k32bc",
+      "src-1i9wexz"
     ],
     "facts": [
       {
@@ -37985,19 +38445,43 @@
         "action": "发布",
         "object": "郑栅洁主任会见澳大利亚西澳州州长库克并签署合作文件",
         "occurredAt": "2026-11-02"
+      },
+      {
+        "title": "郑栅洁主任会见澳大利亚西澳州州长库克并签署合作文件",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "郑栅洁主任会见澳大利亚西澳州州长库克并签署合作文件",
+        "occurredAt": "2026-11-03"
+      },
+      {
+        "title": "郑栅洁主任会见澳大利亚西澳州州长库克并签署合作文件",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "郑栅洁主任会见澳大利亚西澳州州长库克并签署合作文件",
+        "occurredAt": "2026-11-04"
       }
     ],
     "participants": [
       "ndrc-news"
     ],
     "firstPublishedAt": "2026-11-02T00:00:00.000Z",
-    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-wv2ult",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-12k32bc",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
+      },
+      {
+        "memberId": "src-1i9wexz",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
       }
     ],
     "heat6hAgo": 0,
@@ -38016,7 +38500,9 @@
     "digest": "国家发展改革委与阿曼有关部门签署北斗卫星等合作文件",
     "latest": "国家发展改革委与阿曼有关部门签署北斗卫星等合作文件",
     "memberIds": [
-      "src-1hnpeo"
+      "src-1hnpeo",
+      "src-l4vbd6",
+      "src-tstxnu"
     ],
     "facts": [
       {
@@ -38025,19 +38511,43 @@
         "action": "发布",
         "object": "国家发展改革委与阿曼有关部门签署北斗卫星等合作文件",
         "occurredAt": "2026-11-02"
+      },
+      {
+        "title": "国家发展改革委与阿曼有关部门签署北斗卫星等合作文件",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委与阿曼有关部门签署北斗卫星等合作文件",
+        "occurredAt": "2026-11-03"
+      },
+      {
+        "title": "国家发展改革委与阿曼有关部门签署北斗卫星等合作文件",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委与阿曼有关部门签署北斗卫星等合作文件",
+        "occurredAt": "2026-11-04"
       }
     ],
     "participants": [
       "ndrc-news"
     ],
     "firstPublishedAt": "2026-11-02T00:00:00.000Z",
-    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-1hnpeo",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-l4vbd6",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
+      },
+      {
+        "memberId": "src-tstxnu",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
       }
     ],
     "heat6hAgo": 0,
@@ -38094,9 +38604,10 @@
     "rootId": "src-cups1t",
     "title": "10月下旬，我市蔬菜价格延续降势",
     "digest": "10月下旬",
-    "latest": "10月下旬",
+    "latest": "10月下旬，我市蔬菜价格延续降势",
     "memberIds": [
-      "src-cups1t"
+      "src-cups1t",
+      "src-8z2u7r"
     ],
     "facts": [
       {
@@ -38105,19 +38616,31 @@
         "action": "发布",
         "object": "10月下旬，我市蔬菜价格延续降势",
         "occurredAt": "2026-11-02"
+      },
+      {
+        "title": "10月下旬，我市蔬菜价格延续降势",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "10月下旬，我市蔬菜价格延续降势",
+        "occurredAt": "2026-11-04"
       }
     ],
     "participants": [
       "shanghai-fgw"
     ],
     "firstPublishedAt": "2026-11-02T00:00:00.000Z",
-    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-cups1t",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-8z2u7r",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
       }
     ],
     "heat6hAgo": 0,
@@ -38334,9 +38857,10 @@
     "rootId": "src-11jja",
     "title": "习近平对进一步做好黄河保护治理工作作出重要指示",
     "digest": "习近平对进一步做好黄河保护治理工作作出重要指示",
-    "latest": "习近平对进一步做好黄河保护治理工作作出重要指示",
+    "latest": "习近平对进一步做好黄河保护治理工作作出重要指示强调 持续完善大保护大协同格局 努力让这条母亲河越来越美",
     "memberIds": [
-      "src-11jja"
+      "src-11jja",
+      "src-or03ls"
     ],
     "facts": [
       {
@@ -38345,19 +38869,32 @@
         "action": "发布",
         "object": "习近平对进一步做好黄河保护治理工作作出重要指示",
         "occurredAt": "2026-11-02"
+      },
+      {
+        "title": "习近平对进一步做好黄河保护治理工作作出重要指示强调 持续完善",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "习近平对进一步做好黄河保护治理工作作出重要指示强调 持续完善大保护大协同格局 努力让这条母亲河越来越美",
+        "occurredAt": "2026-11-03"
       }
     ],
     "participants": [
-      "cac-policy"
+      "cac-policy",
+      "fujian-gxt"
     ],
     "firstPublishedAt": "2026-11-02T00:00:00.000Z",
-    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-11jja",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-or03ls",
+        "relation": "SAME_STORY",
+        "confidence": 0.699205898780101
       }
     ],
     "heat6hAgo": 0,
@@ -38366,7 +38903,8 @@
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
-      "中央网信办政策与要闻"
+      "中央网信办政策与要闻",
+      "福建省工业和信息化厅"
     ]
   },
   {
@@ -38700,6 +39238,166 @@
     "signalCount": 0,
     "sourceNames": [
       "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-xr8wyc",
+    "rootId": "src-axwvvt",
+    "title": "Podcast Securitization Insight Ep 96: Supply chain finance Global | November 02, 2026 Securitization",
+    "digest": "Podcast Securitization Insight Ep 96: Supply chain finance Global | November 02, 2026 Securitization",
+    "latest": "Podcast Securitization Insight Ep 96: Supply chain finance Global | November 02, 2026 Securitization",
+    "memberIds": [
+      "src-axwvvt"
+    ],
+    "facts": [
+      {
+        "title": "Podcast Securitization Insight",
+        "subject": "诺顿罗氏（Norton Rose Fulbright）知识中心",
+        "action": "发布",
+        "object": "Podcast Securitization Insight Ep 96: Supply chain finance Global | November 02,",
+        "occurredAt": "2026-11-02"
+      }
+    ],
+    "participants": [
+      "nortonrose-esg"
+    ],
+    "firstPublishedAt": "2026-11-02T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-axwvvt",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "诺顿罗氏（Norton Rose Fulbright）知识中心"
+    ]
+  },
+  {
+    "id": "story-1uvzohh",
+    "rootId": "src-1fp05in",
+    "title": "Publication Crypto regulatory strategy as a competitive advantage Hong Kong SAR | October 30, 2026 FinTech",
+    "digest": "Publication Crypto regulatory strategy as a competitive advantage Hong Kong SAR | October 30, 2026 FinTech",
+    "latest": "Publication Crypto regulatory strategy as a competitive advantage Hong Kong SAR | October 30, 2026 FinTech",
+    "memberIds": [
+      "src-1fp05in"
+    ],
+    "facts": [
+      {
+        "title": "Publication Crypto regulatory ",
+        "subject": "诺顿罗氏（Norton Rose Fulbright）知识中心",
+        "action": "发布",
+        "object": "Publication Crypto regulatory strategy as a competitive advantage Hong Kong SAR ",
+        "occurredAt": "2026-11-02"
+      }
+    ],
+    "participants": [
+      "nortonrose-esg"
+    ],
+    "firstPublishedAt": "2026-11-02T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1fp05in",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "诺顿罗氏（Norton Rose Fulbright）知识中心"
+    ]
+  },
+  {
+    "id": "story-mv28xk",
+    "rootId": "src-1vevmb9",
+    "title": "Podcast Currents Ep371: What It Takes to Finance New Nuclear Global | October 29, 2026 Projects",
+    "digest": "Podcast Currents Ep371: What It Takes to Finance New Nuclear Global | October 29, 2026 Projects",
+    "latest": "Podcast Currents Ep371: What It Takes to Finance New Nuclear Global | October 29, 2026 Projects",
+    "memberIds": [
+      "src-1vevmb9"
+    ],
+    "facts": [
+      {
+        "title": "Podcast Currents Ep371: What I",
+        "subject": "诺顿罗氏（Norton Rose Fulbright）知识中心",
+        "action": "发布",
+        "object": "Podcast Currents Ep371: What It Takes to Finance New Nuclear Global | October 29",
+        "occurredAt": "2026-11-02"
+      }
+    ],
+    "participants": [
+      "nortonrose-esg"
+    ],
+    "firstPublishedAt": "2026-11-02T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1vevmb9",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "诺顿罗氏（Norton Rose Fulbright）知识中心"
+    ]
+  },
+  {
+    "id": "story-1e3lquu",
+    "rootId": "src-golzao",
+    "title": "Publication EU Deforestation Regulation: From scoping to due diligence Germany | October 28, 2026 Climate change and sustainability",
+    "digest": "Publication EU Deforestation Regulation: From scoping to due diligence Germany | October 28, 2026 Climate change and sustainability",
+    "latest": "Publication EU Deforestation Regulation: From scoping to due diligence Germany | October 28, 2026 Climate change and sustainability",
+    "memberIds": [
+      "src-golzao"
+    ],
+    "facts": [
+      {
+        "title": "Publication EU Deforestation R",
+        "subject": "诺顿罗氏（Norton Rose Fulbright）知识中心",
+        "action": "发布",
+        "object": "Publication EU Deforestation Regulation: From scoping to due diligence Germany |",
+        "occurredAt": "2026-11-02"
+      }
+    ],
+    "participants": [
+      "nortonrose-esg"
+    ],
+    "firstPublishedAt": "2026-11-02T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-02T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-golzao",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "诺顿罗氏（Norton Rose Fulbright）知识中心"
     ]
   },
   {
@@ -39156,6 +39854,166 @@
     ]
   },
   {
+    "id": "story-cl2plc",
+    "rootId": "src-1gtn2kb",
+    "title": "The 1 percent wake-up call for life insurers",
+    "digest": "Germany’s pension reform is the most explicit expression of an accelerating trend. Across Europe, the moat around fee-based accumulation is disappearing. Life insurers have a choice to make.",
+    "latest": "Germany’s pension reform is the most explicit expression of an accelerating trend. Across Europe, the moat around fee-based accumulation is disappearing. Life insurers have a choice to make.",
+    "memberIds": [
+      "src-1gtn2kb"
+    ],
+    "facts": [
+      {
+        "title": "The 1 percent wake-up call for",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "The 1 percent wake-up call for life insurers",
+        "occurredAt": "2026-11-02"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-02T16:00:00.000Z",
+    "latestPublishedAt": "2026-11-02T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1gtn2kb",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-lg0r1t",
+    "rootId": "src-1cr0pnv",
+    "title": "Future of Wellness 2027: Inside the $2.7 trillion takeover",
+    "digest": "More consumers are prioritizing their health and scrutinizing what they buy. Our latest Future of Wellness research explores the trends shaping where they spend and what they expect in return.",
+    "latest": "More consumers are prioritizing their health and scrutinizing what they buy. Our latest Future of Wellness research explores the trends shaping where they spend and what they expect in return.",
+    "memberIds": [
+      "src-1cr0pnv"
+    ],
+    "facts": [
+      {
+        "title": "Future of Wellness 2027: Insid",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Future of Wellness 2027: Inside the $2.7 trillion takeover",
+        "occurredAt": "2026-11-02"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-02T16:00:00.000Z",
+    "latestPublishedAt": "2026-11-02T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1cr0pnv",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-9kwnb2",
+    "rootId": "src-12wfmi9",
+    "title": "How frontier AI is rewriting software security rules",
+    "digest": "As AI makes it easier and faster for cyberattackers to discover and exploit vulnerabilities in software, companies must change their approach to safeguarding their digital assets and infrastructure.",
+    "latest": "As AI makes it easier and faster for cyberattackers to discover and exploit vulnerabilities in software, companies must change their approach to safeguarding their digital assets and infrastructure.",
+    "memberIds": [
+      "src-12wfmi9"
+    ],
+    "facts": [
+      {
+        "title": "How frontier AI is rewriting s",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "How frontier AI is rewriting software security rules",
+        "occurredAt": "2026-11-02"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-02T16:00:00.000Z",
+    "latestPublishedAt": "2026-11-02T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-12wfmi9",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-gyo2m4",
+    "rootId": "src-10u7ley",
+    "title": "Advancing adaptation: Breaking barriers to a trillion-dollar opportunity",
+    "digest": "Climate adaptation delivers benefits far greater than its costs, but investment lags. What are the barriers to scaling adaptation and how could they be overcome?",
+    "latest": "Climate adaptation delivers benefits far greater than its costs, but investment lags. What are the barriers to scaling adaptation and how could they be overcome?",
+    "memberIds": [
+      "src-10u7ley"
+    ],
+    "facts": [
+      {
+        "title": "Advancing adaptation: Breaking",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Advancing adaptation: Breaking barriers to a trillion-dollar opportunity",
+        "occurredAt": "2026-11-02"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-02T16:00:00.000Z",
+    "latestPublishedAt": "2026-11-02T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-10u7ley",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
     "id": "story-7i9dni",
     "rootId": "src-15v02k6",
     "title": "Interactive: Who wants what at the COP31 climate change summit",
@@ -39193,6 +40051,4018 @@
     "signalCount": 0,
     "sourceNames": [
       "Carbon Brief"
+    ]
+  },
+  {
+    "id": "story-1n7i5zr",
+    "rootId": "src-c37cco",
+    "title": "October 2026 ISSB Update and podcast now available",
+    "digest": "October 2026 ISSB Update and podcast now available",
+    "latest": "October 2026 ISSB Update and podcast now available",
+    "memberIds": [
+      "src-c37cco"
+    ],
+    "facts": [
+      {
+        "title": "October 2026 ISSB Update and p",
+        "subject": "IFRS / ISSB 新闻",
+        "action": "发布",
+        "object": "October 2026 ISSB Update and podcast now available",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "ifrs-issb"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-c37cco",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "IFRS / ISSB 新闻"
+    ]
+  },
+  {
+    "id": "story-ijeugk",
+    "rootId": "src-6e8dma",
+    "title": "UN Global Compact Convenes Latin American Leaders in Montevideo and Launches CEO-led Coalition",
+    "digest": "The United Nations Global Compact today convened its second Latin America and the Caribbean Leaders Forum in Montevideo, Uruguay, bringing together more than 300 leaders from business, government, finance, the UN and academia to accelerate collective action on sustainable development and showcase how Latin America and the Caribbean is delivering innovative, scalable solutions to global challenges. Held on today under the theme “From Ambition to Action: Latin America and the Caribbean Leading Global Sustainable Solutions,” the Forum builds on the inaugural regional gathering held in Paraguay in",
+    "latest": "The United Nations Global Compact today convened its second Latin America and the Caribbean Leaders Forum in Montevideo, Uruguay, bringing together more than 300 leaders from business, government, finance, the UN and academia to accelerate collective action on sustainable development and showcase how Latin America and the Caribbean is delivering innovative, scalable solutions to global challenges. Held on today under the theme “From Ambition to Action: Latin America and the Caribbean Leading Global Sustainable Solutions,” the Forum builds on the inaugural regional gathering held in Paraguay in",
+    "memberIds": [
+      "src-6e8dma"
+    ],
+    "facts": [
+      {
+        "title": "UN Global Compact Convenes Lat",
+        "subject": "联合国全球契约（UNGC）新闻",
+        "action": "发布",
+        "object": "UN Global Compact Convenes Latin American Leaders in Montevideo and Launches CEO",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "un-global-compact"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-6e8dma",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "联合国全球契约（UNGC）新闻"
+    ]
+  },
+  {
+    "id": "story-14jgxqu",
+    "rootId": "src-i7rsma",
+    "title": "Strategic Planning",
+    "digest": "Strategic Planning",
+    "latest": "Strategic Planning",
+    "memberIds": [
+      "src-i7rsma"
+    ],
+    "facts": [
+      {
+        "title": "Strategic Planning",
+        "subject": "BCG 可持续发展洞察",
+        "action": "发布",
+        "object": "Strategic Planning",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "bcg-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-i7rsma",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "BCG 可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1brkcdv",
+    "rootId": "src-5oecsw",
+    "title": "Strategy in Motion: How AI Is Supercharging War Gaming",
+    "digest": "Strategy in Motion: How AI Is Supercharging War Gaming",
+    "latest": "Strategy in Motion: How AI Is Supercharging War Gaming",
+    "memberIds": [
+      "src-5oecsw"
+    ],
+    "facts": [
+      {
+        "title": "Strategy in Motion: How AI Is ",
+        "subject": "BCG 可持续发展洞察",
+        "action": "发布",
+        "object": "Strategy in Motion: How AI Is Supercharging War Gaming",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "bcg-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-5oecsw",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "BCG 可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-21c5z4",
+    "rootId": "src-6hps5k",
+    "title": "International Business",
+    "digest": "International Business",
+    "latest": "International Business",
+    "memberIds": [
+      "src-6hps5k"
+    ],
+    "facts": [
+      {
+        "title": "International Business",
+        "subject": "BCG 可持续发展洞察",
+        "action": "发布",
+        "object": "International Business",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "bcg-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-6hps5k",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "BCG 可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-7jyq0r",
+    "rootId": "src-1s2gxsd",
+    "title": "The Geopolitics of Critical Minerals: Navigating Scarcity, Concentration, and Control",
+    "digest": "The Geopolitics of Critical Minerals: Navigating Scarcity, Concentration, and Control",
+    "latest": "The Geopolitics of Critical Minerals: Navigating Scarcity, Concentration, and Control",
+    "memberIds": [
+      "src-1s2gxsd"
+    ],
+    "facts": [
+      {
+        "title": "The Geopolitics of Critical Mi",
+        "subject": "BCG 可持续发展洞察",
+        "action": "发布",
+        "object": "The Geopolitics of Critical Minerals: Navigating Scarcity, Concentration, and Co",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "bcg-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1s2gxsd",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "BCG 可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1oe7pa",
+    "rootId": "src-1v6yt52",
+    "title": "The CEO’s Value Edge: Manage Every Scarce Resource Like Capital",
+    "digest": "The CEO’s Value Edge: Manage Every Scarce Resource Like Capital",
+    "latest": "The CEO’s Value Edge: Manage Every Scarce Resource Like Capital",
+    "memberIds": [
+      "src-1v6yt52"
+    ],
+    "facts": [
+      {
+        "title": "The CEO’s Value Edge: Manage E",
+        "subject": "BCG 可持续发展洞察",
+        "action": "发布",
+        "object": "The CEO’s Value Edge: Manage Every Scarce Resource Like Capital",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "bcg-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1v6yt52",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "BCG 可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1esobjn",
+    "rootId": "src-eax699",
+    "title": "生态环境部党组书记孙金龙在《求是》发表署名文章《以责任落实破解生态环境保护难题》2026-11-03",
+    "digest": "生态环境部党组书记孙金龙在《求是》发表署名文章《以责任落实破解生态环境保护难题》2026-11-03",
+    "latest": "生态环境部党组书记孙金龙在《求是》发表署名文章《以责任落实破解生态环境保护难题》2026-11-03",
+    "memberIds": [
+      "src-eax699"
+    ],
+    "facts": [
+      {
+        "title": "生态环境部党组书记孙金龙在《求是》发表署名文章《以责任落实破",
+        "subject": "中国生态环境部新闻",
+        "action": "发布",
+        "object": "生态环境部党组书记孙金龙在《求是》发表署名文章《以责任落实破解生态环境保护难题》2026-11-03",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "mee-china"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-eax699",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国生态环境部新闻"
+    ]
+  },
+  {
+    "id": "story-1ya7dr7",
+    "rootId": "src-1gaefkc",
+    "title": "生态环境部党组书记孙金龙赴河北省调研生态环境保护工作2026-11-03",
+    "digest": "生态环境部党组书记孙金龙赴河北省调研生态环境保护工作2026-11-03",
+    "latest": "生态环境部党组书记孙金龙赴河北省调研生态环境保护工作2026-11-03",
+    "memberIds": [
+      "src-1gaefkc"
+    ],
+    "facts": [
+      {
+        "title": "生态环境部党组书记孙金龙赴河北省调研生态环境保护工作2026",
+        "subject": "中国生态环境部新闻",
+        "action": "发布",
+        "object": "生态环境部党组书记孙金龙赴河北省调研生态环境保护工作2026-11-03",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "mee-china"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1gaefkc",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国生态环境部新闻"
+    ]
+  },
+  {
+    "id": "story-1urqltu",
+    "rootId": "src-1kbc86v",
+    "title": "中国人民银行行长潘功胜会见阿曼中央银行行长艾哈迈德·穆萨米",
+    "digest": "中国人民银行行长潘功胜会见阿曼中央银行行长艾哈迈德·穆萨米",
+    "latest": "中国人民银行行长潘功胜会见阿曼中央银行行长艾哈迈德·穆萨米",
+    "memberIds": [
+      "src-1kbc86v"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行行长潘功胜会见阿曼中央银行行长艾哈迈德·穆萨米",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行行长潘功胜会见阿曼中央银行行长艾哈迈德·穆萨米",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1kbc86v",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-1mhyc9w",
+    "rootId": "src-14f6yvk",
+    "title": "证券、基金、保险公司互换便利（SFISF）操作结果公告 〔2026〕第1号",
+    "digest": "证券、基金、保险公司互换便利（SFISF）操作结果公告 〔2026〕第1号",
+    "latest": "证券、基金、保险公司互换便利（SFISF）操作结果公告 〔2026〕第1号",
+    "memberIds": [
+      "src-14f6yvk"
+    ],
+    "facts": [
+      {
+        "title": "证券、基金、保险公司互换便利（SFISF）操作结果公告 〔2",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "证券、基金、保险公司互换便利（SFISF）操作结果公告 〔2026〕第1号",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-14f6yvk",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-nb1by6",
+    "rootId": "src-rbrb6q",
+    "title": "中国人民银行决定上调金融机构外汇存款准备金率",
+    "digest": "中国人民银行决定上调金融机构外汇存款准备金率",
+    "latest": "中国人民银行决定上调金融机构外汇存款准备金率",
+    "memberIds": [
+      "src-rbrb6q"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行决定上调金融机构外汇存款准备金率",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行决定上调金融机构外汇存款准备金率",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-rbrb6q",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-1njc0tv",
+    "rootId": "src-qgzbu5",
+    "title": "国家发展改革委民营局围绕农业、制造业等领域向民营企业公开推介50个投资项目",
+    "digest": "国家发展改革委民营局围绕农业、制造业等领域向民营企业公开推介50个投资项目",
+    "latest": "国家发展改革委民营局向民营企业公开推介交通、物流、水利、能源等领域一批投资项目",
+    "memberIds": [
+      "src-qgzbu5",
+      "src-1is2sk5"
+    ],
+    "facts": [
+      {
+        "title": "国家发展改革委民营局围绕农业、制造业等领域向民营企业公开推介",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委民营局围绕农业、制造业等领域向民营企业公开推介50个投资项目",
+        "occurredAt": "2026-11-03"
+      },
+      {
+        "title": "国家发展改革委民营局向民营企业公开推介交通、物流、水利、能源",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委民营局向民营企业公开推介交通、物流、水利、能源等领域一批投资项目",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-qgzbu5",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1is2sk5",
+        "relation": "SAME_STORY",
+        "confidence": 0.6774193548387097
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-r3z5ei",
+    "rootId": "src-1te630v",
+    "title": "国家发展改革委运行局在新疆组织召开煤炭清洁高效利用及经济运行监测分析工作推进会",
+    "digest": "国家发展改革委运行局在新疆组织召开煤炭清洁高效利用及经济运行监测分析工作推进会",
+    "latest": "国家发展改革委运行局在新疆组织召开煤炭清洁高效利用及经济运行监测分析工作推进会",
+    "memberIds": [
+      "src-1te630v"
+    ],
+    "facts": [
+      {
+        "title": "国家发展改革委运行局在新疆组织召开煤炭清洁高效利用及经济运行",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委运行局在新疆组织召开煤炭清洁高效利用及经济运行监测分析工作推进会",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1te630v",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-1a2pql6",
+    "rootId": "src-16ibuqm",
+    "title": "民营企业参与东盟合作交流对接会在广西南宁举办",
+    "digest": "民营企业参与东盟合作交流对接会在广西南宁举办",
+    "latest": "民营企业参与东盟合作交流对接会在广西南宁举办",
+    "memberIds": [
+      "src-16ibuqm"
+    ],
+    "facts": [
+      {
+        "title": "民营企业参与东盟合作交流对接会在广西南宁举办",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "民营企业参与东盟合作交流对接会在广西南宁举办",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-16ibuqm",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-51znmr",
+    "rootId": "src-15mjwwy",
+    "title": "李强会见阿曼苏丹海赛姆",
+    "digest": "李强会见阿曼苏丹海赛姆",
+    "latest": "李强会见阿曼苏丹海赛姆",
+    "memberIds": [
+      "src-15mjwwy"
+    ],
+    "facts": [
+      {
+        "title": "李强会见阿曼苏丹海赛姆",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "李强会见阿曼苏丹海赛姆",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-15mjwwy",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-ejxai7",
+    "rootId": "src-vmwt31",
+    "title": "牢记嘱托 感恩奋进为在中国式现代化建设中奋勇争先作出更大贡献",
+    "digest": "牢记嘱托 感恩奋进为在中国式现代化建设中奋勇争先作出更大贡献",
+    "latest": "牢记嘱托 感恩奋进为在中国式现代化建设中奋勇争先作出更大贡献",
+    "memberIds": [
+      "src-vmwt31"
+    ],
+    "facts": [
+      {
+        "title": "牢记嘱托 感恩奋进为在中国式现代化建设中奋勇争先作出更大贡献",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "牢记嘱托 感恩奋进为在中国式现代化建设中奋勇争先作出更大贡献",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-vmwt31",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-sptvma",
+    "rootId": "src-kw7pb2",
+    "title": "九曲安澜万象新——习近平总书记关心推动黄河流域生态保护和高质量发展纪实",
+    "digest": "九曲安澜万象新——习近平总书记关心推动黄河流域生态保护和高质量发展纪实",
+    "latest": "九曲安澜万象新——习近平总书记关心推动黄河流域生态保护和高质量发展纪实",
+    "memberIds": [
+      "src-kw7pb2"
+    ],
+    "facts": [
+      {
+        "title": "九曲安澜万象新——习近平总书记关心推动黄河流域生态保护和高质",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "九曲安澜万象新——习近平总书记关心推动黄河流域生态保护和高质量发展纪实",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-kw7pb2",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-1ajcavd",
+    "rootId": "src-pl4501",
+    "title": "福建省工业和信息化厅关于渠梁电子有限公司高性能逻辑芯片及高带宽内存芯片封装改扩建项目节能报告的审查意见",
+    "digest": "福建省工业和信息化厅关于渠梁电子有限公司高性能逻辑芯片及高带宽内存芯片封装改扩建项目节能报告的审查意见",
+    "latest": "福建省工业和信息化厅关于渠梁电子有限公司高性能逻辑芯片及高带宽内存芯片封装改扩建项目节能报告的审查意见",
+    "memberIds": [
+      "src-pl4501"
+    ],
+    "facts": [
+      {
+        "title": "福建省工业和信息化厅关于渠梁电子有限公司高性能逻辑芯片及高带",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "福建省工业和信息化厅关于渠梁电子有限公司高性能逻辑芯片及高带宽内存芯片封装改扩建项目节能报告的审查意见",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-pl4501",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-v4yzdv",
+    "rootId": "src-1oej16j",
+    "title": "福建省工业和信息化厅关于福建贝莱特生物科技有限公司贝莱特对氯苯甲醛、2-氯-1-（1-氯环丙基）乙酮扩产及新建对氯苯甘氨酸、2-氯丙烯腈项目节能报告的审查意见",
+    "digest": "福建省工业和信息化厅关于福建贝莱特生物科技有限公司贝莱特对氯苯甲醛、2-氯-1-（1-氯环丙基）乙酮扩产及新建对氯苯甘氨酸、2-氯丙烯腈项目节能报告的审查意见",
+    "latest": "福建省工业和信息化厅关于福建贝莱特生物科技有限公司贝莱特对氯苯甲醛、2-氯-1-（1-氯环丙基）乙酮扩产及新建对氯苯甘氨酸、2-氯丙烯腈项目节能报告的审查意见",
+    "memberIds": [
+      "src-1oej16j"
+    ],
+    "facts": [
+      {
+        "title": "福建省工业和信息化厅关于福建贝莱特生物科技有限公司贝莱特对氯",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "福建省工业和信息化厅关于福建贝莱特生物科技有限公司贝莱特对氯苯甲醛、2-氯-1-（1-氯环丙基）乙酮扩产及新建对氯苯甘氨酸、2-氯丙烯腈项目节能报告的审查意见",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1oej16j",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-ypv82m",
+    "rootId": "src-aub4mx",
+    "title": "李强出席2026年世界互联网大会乌镇峰会开幕式并发表主旨演讲",
+    "digest": "李强出席2026年世界互联网大会乌镇峰会开幕式并发表主旨演讲",
+    "latest": "李强出席2026年世界互联网大会乌镇峰会开幕式并发表主旨演讲",
+    "memberIds": [
+      "src-aub4mx",
+      "src-hxjtdp"
+    ],
+    "facts": [
+      {
+        "title": "李强出席2026年世界互联网大会乌镇峰会开幕式并发表主旨演讲",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "李强出席2026年世界互联网大会乌镇峰会开幕式并发表主旨演讲",
+        "occurredAt": "2026-11-03"
+      },
+      {
+        "title": "李强出席2026年世界互联网大会乌镇峰会开幕式并发表主旨演讲",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "李强出席2026年世界互联网大会乌镇峰会开幕式并发表主旨演讲",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "cac-policy",
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-aub4mx",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-hxjtdp",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻",
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-1v4a4mq",
+    "rootId": "src-19k79d2",
+    "title": "2026年世界互联网大会乌镇峰会主论坛举行",
+    "digest": "2026年世界互联网大会乌镇峰会主论坛举行",
+    "latest": "2026年世界互联网大会乌镇峰会数智教育论坛举行",
+    "memberIds": [
+      "src-19k79d2",
+      "src-14zo7um",
+      "src-7q9bh0"
+    ],
+    "facts": [
+      {
+        "title": "2026年世界互联网大会乌镇峰会主论坛举行",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "2026年世界互联网大会乌镇峰会主论坛举行",
+        "occurredAt": "2026-11-03"
+      },
+      {
+        "title": "2026年世界互联网大会乌镇峰会部长级会议召开",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "2026年世界互联网大会乌镇峰会部长级会议召开",
+        "occurredAt": "2026-11-03"
+      },
+      {
+        "title": "2026年世界互联网大会乌镇峰会数智教育论坛举行",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "2026年世界互联网大会乌镇峰会数智教育论坛举行",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-19k79d2",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-14zo7um",
+        "relation": "SAME_STORY",
+        "confidence": 0.6676978608895885
+      },
+      {
+        "memberId": "src-7q9bh0",
+        "relation": "SAME_STORY",
+        "confidence": 0.8134892168199607
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-1sqse67",
+    "rootId": "src-5m6sc0",
+    "title": "Report on weather and climate services for ski resorts supports winter sports",
+    "digest": "Report on weather and climate services for ski resorts supports winter sports",
+    "latest": "Report on weather and climate services for ski resorts supports winter sports",
+    "memberIds": [
+      "src-5m6sc0"
+    ],
+    "facts": [
+      {
+        "title": "Report on weather and climate ",
+        "subject": "世界气象组织（WMO）新闻",
+        "action": "发布",
+        "object": "Report on weather and climate services for ski resorts supports winter sports",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "wmo-news"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-5m6sc0",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "世界气象组织（WMO）新闻"
+    ]
+  },
+  {
+    "id": "story-1aac3dz",
+    "rootId": "src-s8su2q",
+    "title": "GCF advances 10 newly approved climate projects towards implementation",
+    "digest": "GCF advances 10 newly approved climate projects towards implementation",
+    "latest": "GCF advances 10 newly approved climate projects towards implementation",
+    "memberIds": [
+      "src-s8su2q"
+    ],
+    "facts": [
+      {
+        "title": "GCF advances 10 newly approved",
+        "subject": "绿色气候基金（GCF）新闻",
+        "action": "approve",
+        "object": "GCF advances 10 newly approved climate projects towards implementation",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "gcf-news"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-s8su2q",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "绿色气候基金（GCF）新闻"
+    ]
+  },
+  {
+    "id": "story-1f1mo4f",
+    "rootId": "src-bh5gb2",
+    "title": "AIIB Expands Project Preparation Special Fund to Strengthen Infrastructure Pipeline",
+    "digest": "Members of the Asian Infrastructure Investment Bank (AIIB) have announced USD83.5 million in new commitments to the Bank’s Project Preparation Special Fund, helping expand the pipeline of high-quality, bankable infrastructure projects across AIIB’s membership.",
+    "latest": "Members of the Asian Infrastructure Investment Bank (AIIB) have announced USD83.5 million in new commitments to the Bank’s Project Preparation Special Fund, helping expand the pipeline of high-quality, bankable infrastructure projects across AIIB’s membership.",
+    "memberIds": [
+      "src-bh5gb2"
+    ],
+    "facts": [
+      {
+        "title": "AIIB Expands Project Preparati",
+        "subject": "亚洲基础设施投资银行（AIIB）新闻",
+        "action": "发布",
+        "object": "AIIB Expands Project Preparation Special Fund to Strengthen Infrastructure Pipel",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "aiib-news"
+    ],
+    "firstPublishedAt": "2026-11-03T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-bh5gb2",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "亚洲基础设施投资银行（AIIB）新闻"
+    ]
+  },
+  {
+    "id": "story-1sew3ki",
+    "rootId": "src-1h2yja2",
+    "title": "HKEX to Introduce 12 Stock Futures Contracts",
+    "digest": "HKEX to Introduce 12 Stock Futures Contracts",
+    "latest": "HKEX to Introduce 12 Stock Futures Contracts",
+    "memberIds": [
+      "src-1h2yja2"
+    ],
+    "facts": [
+      {
+        "title": "HKEX to Introduce 12 Stock Fut",
+        "subject": "香港交易所新闻稿",
+        "action": "发布",
+        "object": "HKEX to Introduce 12 Stock Futures Contracts",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "hkex-news"
+    ],
+    "firstPublishedAt": "2026-11-03T08:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T08:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1h2yja2",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港交易所新闻稿"
+    ]
+  },
+  {
+    "id": "story-h90q08",
+    "rootId": "src-4sajeq",
+    "title": "‘This is not about politics. This is about people’: UN warns of impact of deadly drone strikes in Sudan",
+    "digest": "Intensifying drone attacks on civilian infrastructure across Sudan are disrupting electricity, water and fuel supplies, putting lives at risk and hampering the delivery of humanitarian aid, the UN’s top official in the country has warned.",
+    "latest": "Intensifying drone attacks on civilian infrastructure across Sudan are disrupting electricity, water and fuel supplies, putting lives at risk and hampering the delivery of humanitarian aid, the UN’s top official in the country has warned.",
+    "memberIds": [
+      "src-4sajeq"
+    ],
+    "facts": [
+      {
+        "title": "‘This is not about politics. T",
+        "subject": "联合国新闻",
+        "action": "发布",
+        "object": "‘This is not about politics. This is about people’: UN warns of impact of deadly",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "un-news"
+    ],
+    "firstPublishedAt": "2026-11-03T12:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T12:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-4sajeq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "联合国新闻"
+    ]
+  },
+  {
+    "id": "story-7guqu",
+    "rootId": "src-1611w7p",
+    "title": "State of the climate: 2026 likely to tie with 2024 as the warmest year on record",
+    "digest": "With three-quarters of the year now past, it is virtually certain that 2026 will be the warmest or second-warmest year… The post State of the climate: 2026 likely to tie with 2024 as the warmest year on record appeared first on Carbon Brief .",
+    "latest": "With three-quarters of the year now past, it is virtually certain that 2026 will be the warmest or second-warmest year… The post State of the climate: 2026 likely to tie with 2024 as the warmest year on record appeared first on Carbon Brief .",
+    "memberIds": [
+      "src-1611w7p"
+    ],
+    "facts": [
+      {
+        "title": "State of the climate: 2026 lik",
+        "subject": "Carbon Brief",
+        "action": "发布",
+        "object": "State of the climate: 2026 likely to tie with 2024 as the warmest year on record",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "carbon-brief"
+    ],
+    "firstPublishedAt": "2026-11-03T13:48:04.000Z",
+    "latestPublishedAt": "2026-11-03T13:48:04.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1611w7p",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Carbon Brief"
+    ]
+  },
+  {
+    "id": "story-x4h5xy",
+    "rootId": "src-1n55yn4",
+    "title": "The AI-enabled risk function of the future",
+    "digest": "AI is reshaping how banks manage risk. The next challenge is scaling AI capabilities through a redesigned risk operating model.",
+    "latest": "AI is reshaping how banks manage risk. The next challenge is scaling AI capabilities through a redesigned risk operating model.",
+    "memberIds": [
+      "src-1n55yn4"
+    ],
+    "facts": [
+      {
+        "title": "The AI-enabled risk function o",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "The AI-enabled risk function of the future",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-03T16:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1n55yn4",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1bbiqwe",
+    "rootId": "src-1bxmct5",
+    "title": "Why growth and specialization matter more than ever in private equity",
+    "digest": "Creating value in private equity increasingly depends on transforming businesses, growing them profitably, and building operational excellence, as Providence Equity Partners has learned firsthand.",
+    "latest": "Creating value in private equity increasingly depends on transforming businesses, growing them profitably, and building operational excellence, as Providence Equity Partners has learned firsthand.",
+    "memberIds": [
+      "src-1bxmct5"
+    ],
+    "facts": [
+      {
+        "title": "Why growth and specialization ",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Why growth and specialization matter more than ever in private equity",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-03T16:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1bxmct5",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1neab3b",
+    "rootId": "src-1qcsaft",
+    "title": "Rethinking growth with AI: A conversation with Slack CMO Ryan Gavin",
+    "digest": "At Cannes Lions 2026, Slack CMO Ryan Gavin and McKinsey Partner Jeff Jacobs discussed how AI can turn productivity gains into a lever for growth.",
+    "latest": "At Cannes Lions 2026, Slack CMO Ryan Gavin and McKinsey Partner Jeff Jacobs discussed how AI can turn productivity gains into a lever for growth.",
+    "memberIds": [
+      "src-1qcsaft"
+    ],
+    "facts": [
+      {
+        "title": "Rethinking growth with AI: A c",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Rethinking growth with AI: A conversation with Slack CMO Ryan Gavin",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-03T16:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1qcsaft",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1b2vzzy",
+    "rootId": "src-1s8guuq",
+    "title": "From science fiction to reality: The next phase of shared autonomous mobility",
+    "digest": "As shared autonomous vehicles expand into cities worldwide, operators are evaluating how to scale them profitably in multiple urban areas.",
+    "latest": "As shared autonomous vehicles expand into cities worldwide, operators are evaluating how to scale them profitably in multiple urban areas.",
+    "memberIds": [
+      "src-1s8guuq"
+    ],
+    "facts": [
+      {
+        "title": "From science fiction to realit",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "From science fiction to reality: The next phase of shared autonomous mobility",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-03T16:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1s8guuq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1ltmlp5",
+    "rootId": "src-fnc4rn",
+    "title": "UK climate minister Katie White: COP31 must respond to ‘really scary’ science",
+    "digest": "The upcoming COP31 climate talks in Antalya, Turkey need to respond to the latest science on global warming, which is… The post UK climate minister Katie White: COP31 must respond to ‘really scary’ science appeared first on Carbon Brief .",
+    "latest": "The upcoming COP31 climate talks in Antalya, Turkey need to respond to the latest science on global warming, which is… The post UK climate minister Katie White: COP31 must respond to ‘really scary’ science appeared first on Carbon Brief .",
+    "memberIds": [
+      "src-fnc4rn"
+    ],
+    "facts": [
+      {
+        "title": "UK climate minister Katie Whit",
+        "subject": "Carbon Brief",
+        "action": "发布",
+        "object": "UK climate minister Katie White: COP31 must respond to ‘really scary’ science",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "carbon-brief"
+    ],
+    "firstPublishedAt": "2026-11-03T16:50:09.000Z",
+    "latestPublishedAt": "2026-11-03T16:50:09.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-fnc4rn",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Carbon Brief"
+    ]
+  },
+  {
+    "id": "story-13v9wgj",
+    "rootId": "src-1c4dn9b",
+    "title": "October 2026 IASB Update and podcast, plus September IFRIC Update addendum and latest Compilation of Agenda Decisions",
+    "digest": "October 2026 IASB Update and podcast, plus September IFRIC Update addendum and latest Compilation of Agenda Decisions",
+    "latest": "October 2026 IASB Update and podcast, plus September IFRIC Update addendum and latest Compilation of Agenda Decisions",
+    "memberIds": [
+      "src-1c4dn9b"
+    ],
+    "facts": [
+      {
+        "title": "October 2026 IASB Update and p",
+        "subject": "IFRS / ISSB 新闻",
+        "action": "发布",
+        "object": "October 2026 IASB Update and podcast, plus September IFRIC Update addendum and l",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "ifrs-issb"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1c4dn9b",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "IFRS / ISSB 新闻"
+    ]
+  },
+  {
+    "id": "story-aj881y",
+    "rootId": "src-154wxs8",
+    "title": "Forest Communities Are Showing What a Better Economy Looks Like",
+    "digest": "Indigenous Peoples and local communities manage lands holding 54% of the world’s remaining intact forests. A visit to the Brazilian Amazon shows what it will take for forest economies to thrive.",
+    "latest": "Indigenous Peoples and local communities manage lands holding 54% of the world’s remaining intact forests. A visit to the Brazilian Amazon shows what it will take for forest economies to thrive.",
+    "memberIds": [
+      "src-154wxs8"
+    ],
+    "facts": [
+      {
+        "title": "Forest Communities Are Showing",
+        "subject": "世界资源研究所（WRI）Insights",
+        "action": "发布",
+        "object": "Forest Communities Are Showing What a Better Economy Looks Like",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "wri-insights"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-154wxs8",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "世界资源研究所（WRI）Insights"
+    ]
+  },
+  {
+    "id": "story-wkrhvi",
+    "rootId": "src-1tqkc2b",
+    "title": "Retail Industry",
+    "digest": "Retail Industry",
+    "latest": "Retail Industry",
+    "memberIds": [
+      "src-1tqkc2b"
+    ],
+    "facts": [
+      {
+        "title": "Retail Industry",
+        "subject": "BCG 可持续发展洞察",
+        "action": "发布",
+        "object": "Retail Industry",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "bcg-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1tqkc2b",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "BCG 可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-b1sx31",
+    "rootId": "src-o4il2q",
+    "title": "BCG Year-End Sales Events Consumer Study 2026: For Year-End Sales Events, Trust Is the New Currency",
+    "digest": "BCG Year-End Sales Events Consumer Study 2026: For Year-End Sales Events, Trust Is the New Currency",
+    "latest": "BCG Year-End Sales Events Consumer Study 2026: For Year-End Sales Events, Trust Is the New Currency",
+    "memberIds": [
+      "src-o4il2q"
+    ],
+    "facts": [
+      {
+        "title": "BCG Year-End Sales Events Cons",
+        "subject": "BCG 可持续发展洞察",
+        "action": "发布",
+        "object": "BCG Year-End Sales Events Consumer Study 2026: For Year-End Sales Events, Trust ",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "bcg-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-o4il2q",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "BCG 可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-13da5ba",
+    "rootId": "src-zfjw8k",
+    "title": "廖岷会见德国工业联合会驻华首席代表艾丽莎·雪格",
+    "digest": "廖岷会见德国工业联合会驻华首席代表艾丽莎·雪格",
+    "latest": "廖岷会见德国工业联合会驻华首席代表艾丽莎·雪格",
+    "memberIds": [
+      "src-zfjw8k",
+      "src-eo9wt9"
+    ],
+    "facts": [
+      {
+        "title": "廖岷会见德国工业联合会驻华首席代表艾丽莎·雪格",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "廖岷会见德国工业联合会驻华首席代表艾丽莎·雪格",
+        "occurredAt": "2026-11-04"
+      },
+      {
+        "title": "廖岷会见德国工业联合会驻华首席代表艾丽莎·雪格",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "廖岷会见德国工业联合会驻华首席代表艾丽莎·雪格",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-zfjw8k",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-eo9wt9",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 0.9999999999999998
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-1jfm9kd",
+    "rootId": "src-m5lv23",
+    "title": "中国人民银行加力实施股票回购增持再贷款政策",
+    "digest": "中国人民银行加力实施股票回购增持再贷款政策",
+    "latest": "中国人民银行加力实施股票回购增持再贷款政策",
+    "memberIds": [
+      "src-m5lv23"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行加力实施股票回购增持再贷款政策",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行加力实施股票回购增持再贷款政策",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-m5lv23",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-4fzgok",
+    "rootId": "src-1u2jcab",
+    "title": "国家发展改革委举行奋进“十五五”系列新闻发布会 介绍夯实发展支撑有关情况",
+    "digest": "国家发展改革委举行奋进“十五五”系列新闻发布会 介绍夯实发展支撑有关情况",
+    "latest": "国家发展改革委举行奋进“十五五”系列新闻发布会 介绍培育壮大新动能有关情况",
+    "memberIds": [
+      "src-1u2jcab",
+      "src-1o5sbnn"
+    ],
+    "facts": [
+      {
+        "title": "国家发展改革委举行奋进“十五五”系列新闻发布会 介绍夯实发展",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委举行奋进“十五五”系列新闻发布会 介绍夯实发展支撑有关情况",
+        "occurredAt": "2026-11-04"
+      },
+      {
+        "title": "国家发展改革委举行奋进“十五五”系列新闻发布会 介绍培育壮大",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委举行奋进“十五五”系列新闻发布会 介绍培育壮大新动能有关情况",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1u2jcab",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1o5sbnn",
+        "relation": "SAME_STORY",
+        "confidence": 0.7745966692414834
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-1obtnkd",
+    "rootId": "src-1gcfn0z",
+    "title": "关于印发《实施全面节约战略行动方案》的通知",
+    "digest": "关于印发《实施全面节约战略行动方案》的通知",
+    "latest": "关于印发《实施全面节约战略行动方案》的通知",
+    "memberIds": [
+      "src-1gcfn0z"
+    ],
+    "facts": [
+      {
+        "title": "关于印发《实施全面节约战略行动方案》的通知",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "关于印发《实施全面节约战略行动方案》的通知",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1gcfn0z",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-1955c4k",
+    "rootId": "src-f94v6o",
+    "title": "关于印发《生态产品总值核算规范》的通知",
+    "digest": "关于印发《生态产品总值核算规范》的通知",
+    "latest": "关于印发《生态产品总值核算规范》的通知",
+    "memberIds": [
+      "src-f94v6o"
+    ],
+    "facts": [
+      {
+        "title": "关于印发《生态产品总值核算规范》的通知",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "关于印发《生态产品总值核算规范》的通知",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-f94v6o",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-1pnj062",
+    "rootId": "src-kelka6",
+    "title": "关于印发《招标投标领域公共信用信息目录(2026年版)》的通知",
+    "digest": "关于印发《招标投标领域公共信用信息目录(2026年版)》的通知",
+    "latest": "关于印发《招标投标领域公共信用信息目录(2026年版)》的通知",
+    "memberIds": [
+      "src-kelka6"
+    ],
+    "facts": [
+      {
+        "title": "关于印发《招标投标领域公共信用信息目录(2026年版)》的通",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "关于印发《招标投标领域公共信用信息目录(2026年版)》的通知",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-kelka6",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-hs3a2p",
+    "rootId": "src-1m8b3bd",
+    "title": "关于加强消费基础设施建设 促进消费投资良性互动的指导意见",
+    "digest": "关于加强消费基础设施建设 促进消费投资良性互动的指导意见",
+    "latest": "关于加强消费基础设施建设 促进消费投资良性互动的指导意见",
+    "memberIds": [
+      "src-1m8b3bd"
+    ],
+    "facts": [
+      {
+        "title": "关于加强消费基础设施建设 促进消费投资良性互动的指导意见",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "关于加强消费基础设施建设 促进消费投资良性互动的指导意见",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1m8b3bd",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-7luprp",
+    "rootId": "src-1354qzc",
+    "title": "国家发展改革委与阿曼有关部门签署北斗卫星等合作文件2026/11/03 郑栅洁主任会见澳大利亚西澳州州长库克并签署合作文件2026/11/03 周海兵副主任会见法国财政总署署长杜蒙2026/10/27 郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...2026/10/11 国家发展改革委举行升国旗仪式庆祝中华人民共和国成立77周年2026/09/30",
+    "digest": "国家发展改革委与阿曼有关部门签署北斗卫星等合作文件2026/11/03 郑栅洁主任会见澳大利亚西澳州州长库克并签署合作文件2026/11/03 周海兵副主任会见法国财政总署署长杜蒙2026/10/27 郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...2026/10/11 国家发展改革委举行升国旗仪式庆祝中华人民共和国成立77周年2026/09/30",
+    "latest": "国家发展改革委与阿曼有关部门签署北斗卫星等合作文件2026/11/03 郑栅洁主任会见澳大利亚西澳州州长库克并签署合作文件2026/11/03 周海兵副主任会见法国财政总署署长杜蒙2026/10/27 郑栅洁主任主持召开民营企业座谈会 围绕准确把握三季度经济形势、积极应对国际供需情况变化听...2026/10/11 国家发展改革委举行升国旗仪式庆祝中华人民共和国成立77周年2026/09/30",
+    "memberIds": [
+      "src-1354qzc"
+    ],
+    "facts": [
+      {
+        "title": "国家发展改革委与阿曼有关部门签署北斗卫星等合作文件2026/",
+        "subject": "国家发改委新闻动态",
+        "action": "发布",
+        "object": "国家发展改革委与阿曼有关部门签署北斗卫星等合作文件2026/11/03 郑栅洁主任会见澳大利亚西澳州州长库克并签署合作文件2026/11/03 周海兵副主任会见",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "ndrc-news"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1354qzc",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家发改委新闻动态"
+    ]
+  },
+  {
+    "id": "story-16rvajh",
+    "rootId": "src-19v5hz0",
+    "title": "上海市举办街镇基层干部经济运行分析业务培训市级示范班",
+    "digest": "上海市举办街镇基层干部经济运行分析业务培训市级示范班",
+    "latest": "上海市举办街镇基层干部经济运行分析业务培训市级示范班",
+    "memberIds": [
+      "src-19v5hz0"
+    ],
+    "facts": [
+      {
+        "title": "上海市举办街镇基层干部经济运行分析业务培训市级示范班",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "上海市举办街镇基层干部经济运行分析业务培训市级示范班",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-19v5hz0",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
+    ]
+  },
+  {
+    "id": "story-1g61b0f",
+    "rootId": "src-owwcqt",
+    "title": "关于下达本市2026年节能降碳减排专项资金和超长期特别国债资金安排计划（第十七批）的通知",
+    "digest": "关于下达本市2026年节能降碳减排专项资金和超长期特别国债资金安排计划（第十七批）的通知",
+    "latest": "关于下达本市2026年节能降碳减排专项资金和超长期特别国债资金安排计划（第十七批）的通知",
+    "memberIds": [
+      "src-owwcqt"
+    ],
+    "facts": [
+      {
+        "title": "关于下达本市2026年节能降碳减排专项资金和超长期特别国债资",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "关于下达本市2026年节能降碳减排专项资金和超长期特别国债资金安排计划（第十七批）的通知",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-owwcqt",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
+    ]
+  },
+  {
+    "id": "story-16gzoqk",
+    "rootId": "src-18u9and",
+    "title": "从“海丝”起点向未来远航",
+    "digest": "从“海丝”起点向未来远航",
+    "latest": "从“海丝”起点向未来远航",
+    "memberIds": [
+      "src-18u9and"
+    ],
+    "facts": [
+      {
+        "title": "从“海丝”起点向未来远航",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "从“海丝”起点向未来远航",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-18u9and",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-1k679u",
+    "rootId": "src-1q5lhhy",
+    "title": "前三季度福建地区生产总值44283.65亿元 同比增长3.9%",
+    "digest": "前三季度福建地区生产总值44283.65亿元 同比增长3.9%",
+    "latest": "前三季度福建地区生产总值44283.65亿元 同比增长3.9%",
+    "memberIds": [
+      "src-1q5lhhy"
+    ],
+    "facts": [
+      {
+        "title": "前三季度福建地区生产总值44283.65亿元 同比增长3.9",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "前三季度福建地区生产总值44283.65亿元 同比增长3.9%",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1q5lhhy",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-8m6495",
+    "rootId": "src-1c7tawz",
+    "title": "刘延东同志遗体在京火化",
+    "digest": "刘延东同志遗体在京火化",
+    "latest": "刘延东同志遗体在京火化 习近平等到八宝山革命公墓送别",
+    "memberIds": [
+      "src-1c7tawz",
+      "src-h5qhuf"
+    ],
+    "facts": [
+      {
+        "title": "刘延东同志遗体在京火化",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "刘延东同志遗体在京火化",
+        "occurredAt": "2026-11-04"
+      },
+      {
+        "title": "刘延东同志遗体在京火化 习近平等到八宝山革命公墓送别",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "刘延东同志遗体在京火化 习近平等到八宝山革命公墓送别",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1c7tawz",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-h5qhuf",
+        "relation": "SAME_STORY",
+        "confidence": 0.659380473395787
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-e33gjn",
+    "rootId": "src-n1imem",
+    "title": "刘延东同志生平",
+    "digest": "刘延东同志生平",
+    "latest": "刘延东同志生平",
+    "memberIds": [
+      "src-n1imem"
+    ],
+    "facts": [
+      {
+        "title": "刘延东同志生平",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "刘延东同志生平",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-n1imem",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-1v5a9ys",
+    "rootId": "src-1y2qt5l",
+    "title": "World Meteorological Organization activities during COP31",
+    "digest": "World Meteorological Organization activities during COP31",
+    "latest": "World Meteorological Organization activities during COP31",
+    "memberIds": [
+      "src-1y2qt5l"
+    ],
+    "facts": [
+      {
+        "title": "World Meteorological Organizat",
+        "subject": "世界气象组织（WMO）新闻",
+        "action": "发布",
+        "object": "World Meteorological Organization activities during COP31",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "wmo-news"
+    ],
+    "firstPublishedAt": "2026-11-04T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1y2qt5l",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "世界气象组织（WMO）新闻"
+    ]
+  },
+  {
+    "id": "story-1sd73jv",
+    "rootId": "src-10m72nq",
+    "title": "New speech by Kelvin Wong: Welcome remarks at “Conversations with Global Investors” forum of 2026 Global Financial Leaders’ Investment Summit",
+    "digest": "New speech by Kelvin Wong: Welcome remarks at “Conversations with Global Investors” forum of 2026 Global Financial Leaders’ Investment Summit",
+    "latest": "Global Financial Leaders’ Investment Summit concludes with “Conversations with Global Investors” investment forum",
+    "memberIds": [
+      "src-10m72nq",
+      "src-5177id"
+    ],
+    "facts": [
+      {
+        "title": "New speech by Kelvin Wong: Wel",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "New speech by Kelvin Wong: Welcome remarks at “Conversations with Global Investo",
+        "occurredAt": "2026-11-04"
+      },
+      {
+        "title": "Global Financial Leaders’ Inve",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "Global Financial Leaders’ Investment Summit concludes with “Conversations with G",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-11-04T01:38:38.000Z",
+    "latestPublishedAt": "2026-11-04T08:59:58.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-10m72nq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-5177id",
+        "relation": "SAME_STORY",
+        "confidence": 0.6529286250990104
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-j4exez",
+    "rootId": "src-1jzwhxi",
+    "title": "CB Live: Carbon Brief’s team at COP17 on the nature talks’ key outcomes",
+    "digest": "Following this year’s UN COP17 biodiversity conference, Carbon Brief’s journalists hosted a livestream to explain what happened at the summit.… The post CB Live: Carbon Brief’s team at COP17 on the nature talks’ key outcomes appeared first on Carbon Brief .",
+    "latest": "Following this year’s UN COP17 biodiversity conference, Carbon Brief’s journalists hosted a livestream to explain what happened at the summit.… The post CB Live: Carbon Brief’s team at COP17 on the nature talks’ key outcomes appeared first on Carbon Brief .",
+    "memberIds": [
+      "src-1jzwhxi"
+    ],
+    "facts": [
+      {
+        "title": "CB Live: Carbon Brief’s team a",
+        "subject": "Carbon Brief",
+        "action": "发布",
+        "object": "CB Live: Carbon Brief’s team at COP17 on the nature talks’ key outcomes",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "carbon-brief"
+    ],
+    "firstPublishedAt": "2026-11-04T10:40:52.000Z",
+    "latestPublishedAt": "2026-11-04T10:40:52.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1jzwhxi",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Carbon Brief"
+    ]
+  },
+  {
+    "id": "story-1g9fyx7",
+    "rootId": "src-1xg8o77",
+    "title": "EU Regulators Propose Simplification of Taxonomy Reporting Rules for Banks, Insurers and Investors",
+    "digest": "Europe’s three primary financial regulatory agencies, the European Supervisory Authorities (ESAs) announced the release of",
+    "latest": "Europe’s three primary financial regulatory agencies, the European Supervisory Authorities (ESAs) announced the release of",
+    "memberIds": [
+      "src-1xg8o77"
+    ],
+    "facts": [
+      {
+        "title": "EU Regulators Propose Simplifi",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "propose",
+        "object": "EU Regulators Propose Simplification of Taxonomy Reporting Rules for Banks, Insu",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-11-04T11:53:46.000Z",
+    "latestPublishedAt": "2026-11-04T11:53:46.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1xg8o77",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-pv92zj",
+    "rootId": "src-1xp2cpb",
+    "title": "COP31 explained: What’s at stake at this year’s UN climate summit?",
+    "digest": "The world has more tools than ever to tackle climate change, yet millions remain unable to benefit from them. As clean energy technologies advance faster than ever, the challenge facing countries at COP31 is no longer just finding solutions – but making sure everyone can afford them.",
+    "latest": "The world has more tools than ever to tackle climate change, yet millions remain unable to benefit from them. As clean energy technologies advance faster than ever, the challenge facing countries at COP31 is no longer just finding solutions – but making sure everyone can afford them.",
+    "memberIds": [
+      "src-1xp2cpb"
+    ],
+    "facts": [
+      {
+        "title": "COP31 explained: What’s at sta",
+        "subject": "联合国新闻",
+        "action": "发布",
+        "object": "COP31 explained: What’s at stake at this year’s UN climate summit?",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "un-news"
+    ],
+    "firstPublishedAt": "2026-11-04T12:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T12:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1xp2cpb",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "联合国新闻"
+    ]
+  },
+  {
+    "id": "story-1pgsv3y",
+    "rootId": "src-yx0zv4",
+    "title": "‘The world is not ready’: Climate adaptation cash falls far short as warming heads past 1.5°C",
+    "digest": "Although global warming is set to exceed 1.5°C, financing to help communities adapt to climate change falls far short of needs, the UN Environment Programme (UNEP) said in a report published on Wednesday.",
+    "latest": "Although global warming is set to exceed 1.5°C, financing to help communities adapt to climate change falls far short of needs, the UN Environment Programme (UNEP) said in a report published on Wednesday.",
+    "memberIds": [
+      "src-yx0zv4"
+    ],
+    "facts": [
+      {
+        "title": "‘The world is not ready’: Clim",
+        "subject": "联合国新闻",
+        "action": "publish",
+        "object": "‘The world is not ready’: Climate adaptation cash falls far short as warming hea",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "un-news"
+    ],
+    "firstPublishedAt": "2026-11-04T12:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T12:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-yx0zv4",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "联合国新闻"
+    ]
+  },
+  {
+    "id": "story-1894lu7",
+    "rootId": "src-lg9p5s",
+    "title": "Holcim Invests in Carbon Storage Startup 44.01",
+    "digest": "Building materials company Holcim announced today an investment in carbon sequestration technology company 44.01",
+    "latest": "Building materials company Holcim announced today an investment in carbon sequestration technology company 44.01",
+    "memberIds": [
+      "src-lg9p5s"
+    ],
+    "facts": [
+      {
+        "title": "Holcim Invests in Carbon Stora",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Holcim Invests in Carbon Storage Startup 44.01",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-11-04T13:57:03.000Z",
+    "latestPublishedAt": "2026-11-04T13:57:03.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-lg9p5s",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-yozc26",
+    "rootId": "src-zwbrim",
+    "title": "Brazil Releases Roadmaps to Phase Out Fossil Fuels, End Deforestation",
+    "digest": "COP30 host Brazil announced the release of two new “Roadmaps,” outlining global strategies to transitioning",
+    "latest": "COP30 host Brazil announced the release of two new “Roadmaps,” outlining global strategies to transitioning",
+    "memberIds": [
+      "src-zwbrim"
+    ],
+    "facts": [
+      {
+        "title": "Brazil Releases Roadmaps to Ph",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Brazil Releases Roadmaps to Phase Out Fossil Fuels, End Deforestation",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-11-04T14:32:25.000Z",
+    "latestPublishedAt": "2026-11-04T14:32:25.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-zwbrim",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1v8tc6z",
+    "rootId": "src-tk5175",
+    "title": "Q&A: What is in the global ‘roadmap’ for transitioning away from fossil fuels?",
+    "digest": "Transitioning away from fossil fuels is “urgent, inevitable and, yet, possible”, according to a first-of-its-kind global “roadmap” produced by Brazil.… The post Q&A: What is in the global ‘roadmap’ for transitioning away from fossil fuels? appeared first on Carbon Brief .",
+    "latest": "Transitioning away from fossil fuels is “urgent, inevitable and, yet, possible”, according to a first-of-its-kind global “roadmap” produced by Brazil.… The post Q&A: What is in the global ‘roadmap’ for transitioning away from fossil fuels? appeared first on Carbon Brief .",
+    "memberIds": [
+      "src-tk5175"
+    ],
+    "facts": [
+      {
+        "title": "Q&A: What is in the global ‘ro",
+        "subject": "Carbon Brief",
+        "action": "发布",
+        "object": "Q&A: What is in the global ‘roadmap’ for transitioning away from fossil fuels?",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "carbon-brief"
+    ],
+    "firstPublishedAt": "2026-11-04T15:23:07.000Z",
+    "latestPublishedAt": "2026-11-04T15:23:07.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-tk5175",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Carbon Brief"
+    ]
+  },
+  {
+    "id": "story-1mw72bz",
+    "rootId": "src-vt7g5e",
+    "title": "EU Commission Scraps Green Claims Directive",
+    "digest": "The European Commission revealed on Wednesday that it has officially withdrawn the Green Claims Directive",
+    "latest": "The European Commission revealed on Wednesday that it has officially withdrawn the Green Claims Directive",
+    "memberIds": [
+      "src-vt7g5e"
+    ],
+    "facts": [
+      {
+        "title": "EU Commission Scraps Green Cla",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "EU Commission Scraps Green Claims Directive",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-11-04T15:24:38.000Z",
+    "latestPublishedAt": "2026-11-04T15:24:38.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-vt7g5e",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-5o7r0o",
+    "rootId": "src-ci70ky",
+    "title": "Q&A: What is the Brazil-led ‘deforestation roadmap’?",
+    "digest": "On 3 November, the Brazilian presidency of the COP30 climate talks released its long-awaited “roadmap” on ending deforestation.  Ahead of… The post Q&A: What is the Brazil-led ‘deforestation roadmap’? appeared first on Carbon Brief .",
+    "latest": "On 3 November, the Brazilian presidency of the COP30 climate talks released its long-awaited “roadmap” on ending deforestation.  Ahead of… The post Q&A: What is the Brazil-led ‘deforestation roadmap’? appeared first on Carbon Brief .",
+    "memberIds": [
+      "src-ci70ky"
+    ],
+    "facts": [
+      {
+        "title": "Q&A: What is the Brazil-led ‘d",
+        "subject": "Carbon Brief",
+        "action": "发布",
+        "object": "Q&A: What is the Brazil-led ‘deforestation roadmap’?",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "carbon-brief"
+    ],
+    "firstPublishedAt": "2026-11-04T15:39:10.000Z",
+    "latestPublishedAt": "2026-11-04T15:39:10.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-ci70ky",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Carbon Brief"
+    ]
+  },
+  {
+    "id": "story-ardiul",
+    "rootId": "src-1mc4acp",
+    "title": "Logitech Launches Supply Chain Decarbonization Program",
+    "digest": "Computer peripherals and technology company Logitech announced the launch of Chain Reaction",
+    "latest": "Computer peripherals and technology company Logitech announced the launch of Chain Reaction",
+    "memberIds": [
+      "src-1mc4acp"
+    ],
+    "facts": [
+      {
+        "title": "Logitech Launches Supply Chain",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Logitech Launches Supply Chain Decarbonization Program",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-11-04T15:58:18.000Z",
+    "latestPublishedAt": "2026-11-04T15:58:18.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1mc4acp",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-eq0amy",
+    "rootId": "src-lrzxs",
+    "title": "Beauty, redefined",
+    "digest": "Beauty now stretches from skin care to saunas, from downtown department stores to K-beauty reels. Here’s what these shifts mean for brands seeking to connect with consumers.",
+    "latest": "Beauty now stretches from skin care to saunas, from downtown department stores to K-beauty reels. Here’s what these shifts mean for brands seeking to connect with consumers.",
+    "memberIds": [
+      "src-lrzxs"
+    ],
+    "facts": [
+      {
+        "title": "Beauty, redefined",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Beauty, redefined",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-04T16:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-lrzxs",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-r60mwm",
+    "rootId": "src-e8f70q",
+    "title": "Quality for quantity: The gains from investing in population health",
+    "digest": "McKinsey Senior Partners Drew Ungerman and Pooja Kumar discuss the massive opportunities available to improve quality of life and economies by investing in three aspects of population health.",
+    "latest": "McKinsey Senior Partners Drew Ungerman and Pooja Kumar discuss the massive opportunities available to improve quality of life and economies by investing in three aspects of population health.",
+    "memberIds": [
+      "src-e8f70q"
+    ],
+    "facts": [
+      {
+        "title": "Quality for quantity: The gain",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "Quality for quantity: The gains from investing in population health",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-04T16:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-e8f70q",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1i8yqn2",
+    "rootId": "src-8yd6zn",
+    "title": "How AI can help unlock insurance growth in Latin America",
+    "digest": "Latin America’s insurance market has strong growth and significant untapped demand. AI could help insurers reach even more customers and operate more efficiently.",
+    "latest": "Latin America’s insurance market has strong growth and significant untapped demand. AI could help insurers reach even more customers and operate more efficiently.",
+    "memberIds": [
+      "src-8yd6zn"
+    ],
+    "facts": [
+      {
+        "title": "How AI can help unlock insuran",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "How AI can help unlock insurance growth in Latin America",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-04T16:00:00.000Z",
+    "latestPublishedAt": "2026-11-04T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-8yd6zn",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-ogb6up",
+    "rootId": "src-1vk7e46",
+    "title": "Four new members join the Global Preparers Forum",
+    "digest": "Four new members join the Global Preparers Forum",
+    "latest": "Four new members join the Global Preparers Forum",
+    "memberIds": [
+      "src-1vk7e46"
+    ],
+    "facts": [
+      {
+        "title": "Four new members join the Glob",
+        "subject": "IFRS / ISSB 新闻",
+        "action": "发布",
+        "object": "Four new members join the Global Preparers Forum",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "ifrs-issb"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1vk7e46",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "IFRS / ISSB 新闻"
+    ]
+  },
+  {
+    "id": "story-10gri0w",
+    "rootId": "src-1pmpzx1",
+    "title": "Philippines eyes blended finance to bridge estimated US$1 billion nature funding gap after COP17",
+    "digest": "Philippines eyes blended finance to bridge estimated US$1 billion nature funding gap after COP17",
+    "latest": "Philippines eyes blended finance to bridge estimated US$1 billion nature funding gap after COP17",
+    "memberIds": [
+      "src-1pmpzx1"
+    ],
+    "facts": [
+      {
+        "title": "Philippines eyes blended finan",
+        "subject": "Eco-Business（亚洲 ESG 新闻）",
+        "action": "发布",
+        "object": "Philippines eyes blended finance to bridge estimated US$1 billion nature funding",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "eco-business"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1pmpzx1",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Eco-Business（亚洲 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1jidebk",
+    "rootId": "src-hqv5t9",
+    "title": "Why Lower Bills for Households Are Good Business for Energy Retailers",
+    "digest": "Why Lower Bills for Households Are Good Business for Energy Retailers",
+    "latest": "Why Lower Bills for Households Are Good Business for Energy Retailers",
+    "memberIds": [
+      "src-hqv5t9"
+    ],
+    "facts": [
+      {
+        "title": "Why Lower Bills for Households",
+        "subject": "BCG 可持续发展洞察",
+        "action": "发布",
+        "object": "Why Lower Bills for Households Are Good Business for Energy Retailers",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "bcg-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-hqv5t9",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "BCG 可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-1urc0gy",
+    "rootId": "src-fl1yw4",
+    "title": "The Insurance CEO’s Blueprint for Scaling AI",
+    "digest": "The Insurance CEO’s Blueprint for Scaling AI",
+    "latest": "The Insurance CEO’s Blueprint for Scaling AI",
+    "memberIds": [
+      "src-fl1yw4"
+    ],
+    "facts": [
+      {
+        "title": "The Insurance CEO’s Blueprint ",
+        "subject": "BCG 可持续发展洞察",
+        "action": "发布",
+        "object": "The Insurance CEO’s Blueprint for Scaling AI",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "bcg-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-fl1yw4",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "BCG 可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-r0pbrb",
+    "rootId": "src-lm2qz0",
+    "title": "2026年中国国际公共采购论坛在上海举办",
+    "digest": "2026年中国国际公共采购论坛在上海举办",
+    "latest": "2026年中国国际公共采购论坛在上海举办",
+    "memberIds": [
+      "src-lm2qz0",
+      "src-g87nip"
+    ],
+    "facts": [
+      {
+        "title": "2026年中国国际公共采购论坛在上海举办",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "2026年中国国际公共采购论坛在上海举办",
+        "occurredAt": "2026-11-05"
+      },
+      {
+        "title": "2026年中国国际公共采购论坛在上海举办",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "2026年中国国际公共采购论坛在上海举办",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-lm2qz0",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-g87nip",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-sycexe",
+    "rootId": "src-bcb3kd",
+    "title": "廖岷副部长主持召开第二期“国际财经大讲堂”",
+    "digest": "廖岷副部长主持召开第二期“国际财经大讲堂”",
+    "latest": "廖岷副部长主持召开第二期“国际财经大讲堂”",
+    "memberIds": [
+      "src-bcb3kd"
+    ],
+    "facts": [
+      {
+        "title": "廖岷副部长主持召开第二期“国际财经大讲堂”",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "廖岷副部长主持召开第二期“国际财经大讲堂”",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-bcb3kd",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-tri7cq",
+    "rootId": "src-ro9d2u",
+    "title": "财政部将在加拿大发行人民币绿色主权债券",
+    "digest": "财政部将在加拿大发行人民币绿色主权债券",
+    "latest": "财政部将在加拿大发行人民币绿色主权债券",
+    "memberIds": [
+      "src-ro9d2u"
+    ],
+    "facts": [
+      {
+        "title": "财政部将在加拿大发行人民币绿色主权债券",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部将在加拿大发行人民币绿色主权债券",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-ro9d2u",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-12kcq4j",
+    "rootId": "src-o3yip0",
+    "title": "财政部北京监管局：深化认识 聚焦重点 筑牢防线 做实做细零基预算改革试...",
+    "digest": "财政部北京监管局：深化认识 聚焦重点 筑牢防线 做实做细零基预算改革试...",
+    "latest": "财政部北京监管局：深化认识 聚焦重点 筑牢防线 做实做细零基预算改革试...",
+    "memberIds": [
+      "src-o3yip0"
+    ],
+    "facts": [
+      {
+        "title": "财政部北京监管局：深化认识 聚焦重点 筑牢防线 做实做细零基",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部北京监管局：深化认识 聚焦重点 筑牢防线 做实做细零基预算改革试...",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-o3yip0",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-vzyrmp",
+    "rootId": "src-m2wuon",
+    "title": "财政部青岛监管局：抓实全流程闭环管控 深化预算执行常态化监管",
+    "digest": "财政部青岛监管局：抓实全流程闭环管控 深化预算执行常态化监管",
+    "latest": "财政部青岛监管局：抓实全流程闭环管控 深化预算执行常态化监管",
+    "memberIds": [
+      "src-m2wuon"
+    ],
+    "facts": [
+      {
+        "title": "财政部青岛监管局：抓实全流程闭环管控 深化预算执行常态化监管",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部青岛监管局：抓实全流程闭环管控 深化预算执行常态化监管",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-m2wuon",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-1rr0dx",
+    "rootId": "src-1xqsr9r",
+    "title": "财政科学管理专题 | 财政部辽宁监管局：学深悟透 真抓实干 推动财政科学...",
+    "digest": "财政科学管理专题 | 财政部辽宁监管局：学深悟透 真抓实干 推动财政科学...",
+    "latest": "财政科学管理专题 | 财政部辽宁监管局：学深悟透 真抓实干 推动财政科学...",
+    "memberIds": [
+      "src-1xqsr9r"
+    ],
+    "facts": [
+      {
+        "title": "财政科学管理专题 | 财政部辽宁监管局：学深悟透 真抓实干 ",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政科学管理专题 | 财政部辽宁监管局：学深悟透 真抓实干 推动财政科学...",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1xqsr9r",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-hornjs",
+    "rootId": "src-1mjm4hd",
+    "title": "中国人民银行行长潘功胜会见摩根士丹利集团董事长彭泰德",
+    "digest": "中国人民银行行长潘功胜会见摩根士丹利集团董事长彭泰德",
+    "latest": "中国人民银行行长潘功胜会见摩根士丹利集团董事长彭泰德",
+    "memberIds": [
+      "src-1mjm4hd"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行行长潘功胜会见摩根士丹利集团董事长彭泰德",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行行长潘功胜会见摩根士丹利集团董事长彭泰德",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1mjm4hd",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-1eq6xyl",
+    "rootId": "src-eps718",
+    "title": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
+    "digest": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
+    "latest": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
+    "memberIds": [
+      "src-eps718"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-eps718",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-1fleyms",
+    "rootId": "src-udvzs9",
+    "title": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
+    "digest": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
+    "latest": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
+    "memberIds": [
+      "src-udvzs9"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-udvzs9",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-ntkdfo",
+    "rootId": "src-2ecijv",
+    "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常...",
+    "digest": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常...",
+    "latest": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常...",
+    "memberIds": [
+      "src-2ecijv"
+    ],
+    "facts": [
+      {
+        "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常...",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-2ecijv",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-ksunij",
+    "rootId": "src-1f74x1w",
+    "title": "全国政协十四届常委会第十九次会议闭幕 王沪宁主持并讲话",
+    "digest": "全国政协十四届常委会第十九次会议闭幕 王沪宁主持并讲话",
+    "latest": "全国政协十四届常委会第十九次会议闭幕 王沪宁主持并讲话",
+    "memberIds": [
+      "src-1f74x1w"
+    ],
+    "facts": [
+      {
+        "title": "全国政协十四届常委会第十九次会议闭幕 王沪宁主持并讲话",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "全国政协十四届常委会第十九次会议闭幕 王沪宁主持并讲话",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1f74x1w",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-19x53nx",
+    "rootId": "src-1mh7698",
+    "title": "十四届全国人大常委会举行第七十五次委员长会议 赵乐际主持",
+    "digest": "十四届全国人大常委会举行第七十五次委员长会议 赵乐际主持",
+    "latest": "十四届全国人大常委会第二十五次会议举行第二次全体会议 赵乐际出席会议",
+    "memberIds": [
+      "src-1mh7698",
+      "src-hp5c0w"
+    ],
+    "facts": [
+      {
+        "title": "十四届全国人大常委会举行第七十五次委员长会议 赵乐际主持",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "十四届全国人大常委会举行第七十五次委员长会议 赵乐际主持",
+        "occurredAt": "2026-11-05"
+      },
+      {
+        "title": "十四届全国人大常委会第二十五次会议举行第二次全体会议 赵乐际",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "十四届全国人大常委会第二十五次会议举行第二次全体会议 赵乐际出席会议",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1mh7698",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-hp5c0w",
+        "relation": "SAME_STORY",
+        "confidence": 0.6047431568147635
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-p7dyo4",
+    "rootId": "src-1o9swm7",
+    "title": "李强会见世界知识产权组织总干事邓鸿森",
+    "digest": "李强会见世界知识产权组织总干事邓鸿森",
+    "latest": "李强会见世界知识产权组织总干事邓鸿森",
+    "memberIds": [
+      "src-1o9swm7"
+    ],
+    "facts": [
+      {
+        "title": "李强会见世界知识产权组织总干事邓鸿森",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "李强会见世界知识产权组织总干事邓鸿森",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1o9swm7",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-von0os",
+    "rootId": "src-12z7pri",
+    "title": "福建人工智能招商对接会在上海举办",
+    "digest": "福建人工智能招商对接会在上海举办",
+    "latest": "福建人工智能招商对接会在上海举办",
+    "memberIds": [
+      "src-12z7pri"
+    ],
+    "facts": [
+      {
+        "title": "福建人工智能招商对接会在上海举办",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "福建人工智能招商对接会在上海举办",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-12z7pri",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-17y6uac",
+    "rootId": "src-ojxmnc",
+    "title": "省领导在福州调研民营企业",
+    "digest": "省领导在福州调研民营企业",
+    "latest": "省领导在福州调研民营企业",
+    "memberIds": [
+      "src-ojxmnc"
+    ],
+    "facts": [
+      {
+        "title": "省领导在福州调研民营企业",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "省领导在福州调研民营企业",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-ojxmnc",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-26va73",
+    "rootId": "src-3asopr",
+    "title": "聚链成势 小微筑峰",
+    "digest": "聚链成势 小微筑峰",
+    "latest": "聚链成势 小微筑峰",
+    "memberIds": [
+      "src-3asopr"
+    ],
+    "facts": [
+      {
+        "title": "聚链成势 小微筑峰",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "聚链成势 小微筑峰",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-3asopr",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-1qjad22",
+    "rootId": "src-1koyopj",
+    "title": "中央网信办召开全国网信系统学习贯彻党的二十届五中全会精神宣讲活动视频动员会",
+    "digest": "中央网信办召开全国网信系统学习贯彻党的二十届五中全会精神宣讲活动视频动员会",
+    "latest": "中央网信办召开全国网信系统学习贯彻党的二十届五中全会精神宣讲活动视频动员会",
+    "memberIds": [
+      "src-1koyopj"
+    ],
+    "facts": [
+      {
+        "title": "中央网信办召开全国网信系统学习贯彻党的二十届五中全会精神宣讲",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "中央网信办召开全国网信系统学习贯彻党的二十届五中全会精神宣讲活动视频动员会",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1koyopj",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-ms8lp2",
+    "rootId": "src-nd2hav",
+    "title": "2026“直通乌镇”全球互联网大赛颁奖典礼举行",
+    "digest": "2026“直通乌镇”全球互联网大赛颁奖典礼举行",
+    "latest": "2026“直通乌镇”全球互联网大赛颁奖典礼举行",
+    "memberIds": [
+      "src-nd2hav"
+    ],
+    "facts": [
+      {
+        "title": "2026“直通乌镇”全球互联网大赛颁奖典礼举行",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "2026“直通乌镇”全球互联网大赛颁奖典礼举行",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-nd2hav",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-tpo7ey",
+    "rootId": "src-1b3evou",
+    "title": "El Niño favours quieter South-West Indian Ocean cyclone season",
+    "digest": "El Niño favours quieter South-West Indian Ocean cyclone season",
+    "latest": "El Niño favours quieter South-West Indian Ocean cyclone season",
+    "memberIds": [
+      "src-1b3evou"
+    ],
+    "facts": [
+      {
+        "title": "El Niño favours quieter South-",
+        "subject": "世界气象组织（WMO）新闻",
+        "action": "发布",
+        "object": "El Niño favours quieter South-West Indian Ocean cyclone season",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "wmo-news"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1b3evou",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "世界气象组织（WMO）新闻"
+    ]
+  },
+  {
+    "id": "story-dfib6q",
+    "rootId": "src-1ufplkp",
+    "title": "Western Pacific faces drier months as El Niño strengthens",
+    "digest": "Western Pacific faces drier months as El Niño strengthens",
+    "latest": "Western Pacific faces drier months as El Niño strengthens",
+    "memberIds": [
+      "src-1ufplkp"
+    ],
+    "facts": [
+      {
+        "title": "Western Pacific faces drier mo",
+        "subject": "世界气象组织（WMO）新闻",
+        "action": "发布",
+        "object": "Western Pacific faces drier months as El Niño strengthens",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "wmo-news"
+    ],
+    "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-05T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1ufplkp",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "世界气象组织（WMO）新闻"
+    ]
+  },
+  {
+    "id": "story-1nlumpe",
+    "rootId": "src-16gpf58",
+    "title": "New speech by Kelvin Wong: Keynote speech at PWMA Wealth Management Industry Summit 2026",
+    "digest": "New speech by Kelvin Wong: Keynote speech at PWMA Wealth Management Industry Summit 2026",
+    "latest": "New speech by Kelvin Wong: Keynote speech at PWMA Wealth Management Industry Summit 2026",
+    "memberIds": [
+      "src-16gpf58"
+    ],
+    "facts": [
+      {
+        "title": "New speech by Kelvin Wong: Key",
+        "subject": "香港证监会（SFC）新闻稿",
+        "action": "发布",
+        "object": "New speech by Kelvin Wong: Keynote speech at PWMA Wealth Management Industry Sum",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "sfc-hk"
+    ],
+    "firstPublishedAt": "2026-11-05T04:21:38.000Z",
+    "latestPublishedAt": "2026-11-05T04:21:38.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-16gpf58",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "香港证监会（SFC）新闻稿"
+    ]
+  },
+  {
+    "id": "story-16bim5t",
+    "rootId": "src-1kl70q1",
+    "title": "The Emergency Brake on Deforestation is Ready. Will Companies Step Up?",
+    "digest": "Guest post by: Lucy Almond, Director and Chair, Nature4Climate After decades of debate",
+    "latest": "Guest post by: Lucy Almond, Director and Chair, Nature4Climate After decades of debate",
+    "memberIds": [
+      "src-1kl70q1"
+    ],
+    "facts": [
+      {
+        "title": "The Emergency Brake on Defores",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "The Emergency Brake on Deforestation is Ready. Will Companies Step Up?",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-11-05T09:42:11.000Z",
+    "latestPublishedAt": "2026-11-05T09:42:11.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1kl70q1",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-12jaeek",
+    "rootId": "src-16m6rll",
+    "title": "UK to Introduce Mandatory Supply Chain Human Rights Due Diligence Law",
+    "digest": "The UK government announced a new commitment to introduce a new mandatory human rights due",
+    "latest": "The UK government announced a new commitment to introduce a new mandatory human rights due",
+    "memberIds": [
+      "src-16m6rll"
+    ],
+    "facts": [
+      {
+        "title": "UK to Introduce Mandatory Supp",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "UK to Introduce Mandatory Supply Chain Human Rights Due Diligence Law",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-11-05T11:22:07.000Z",
+    "latestPublishedAt": "2026-11-05T11:22:07.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-16m6rll",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-phzoxx",
+    "rootId": "src-wziuo7",
+    "title": "Ahold Delhaize Reaches 100% Renewables Milestone with New Clean Energy Deal",
+    "digest": "Netherlands-based international food retailer Ahold Delhaize announced today that it has signed a 10-year virtual",
+    "latest": "Netherlands-based international food retailer Ahold Delhaize announced today that it has signed a 10-year virtual",
+    "memberIds": [
+      "src-wziuo7"
+    ],
+    "facts": [
+      {
+        "title": "Ahold Delhaize Reaches 100% Re",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Ahold Delhaize Reaches 100% Renewables Milestone with New Clean Energy Deal",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-11-05T12:09:54.000Z",
+    "latestPublishedAt": "2026-11-05T12:09:54.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-wziuo7",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-ycmjcf",
+    "rootId": "src-8nkfdc",
+    "title": "Interactive: Tracking negotiating texts at the COP31 climate summit",
+    "digest": "The centrepiece of every UN climate summit is for countries to negotiate the wording of a large number of legal… The post Interactive: Tracking negotiating texts at the COP31 climate summit appeared first on Carbon Brief .",
+    "latest": "The centrepiece of every UN climate summit is for countries to negotiate the wording of a large number of legal… The post Interactive: Tracking negotiating texts at the COP31 climate summit appeared first on Carbon Brief .",
+    "memberIds": [
+      "src-8nkfdc"
+    ],
+    "facts": [
+      {
+        "title": "Interactive: Tracking negotiat",
+        "subject": "Carbon Brief",
+        "action": "发布",
+        "object": "Interactive: Tracking negotiating texts at the COP31 climate summit",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "carbon-brief"
+    ],
+    "firstPublishedAt": "2026-11-05T14:13:38.000Z",
+    "latestPublishedAt": "2026-11-05T14:13:38.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-8nkfdc",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Carbon Brief"
+    ]
+  },
+  {
+    "id": "story-1cwo8lu",
+    "rootId": "src-42yhyg",
+    "title": "Outrigger Impact Launches $100 Million Blue Economy Fund",
+    "digest": "Blue economy-focused investment platform Outrigger Impact announced the launch and first close of Outrigger Impact",
+    "latest": "Blue economy-focused investment platform Outrigger Impact announced the launch and first close of Outrigger Impact",
+    "memberIds": [
+      "src-42yhyg"
+    ],
+    "facts": [
+      {
+        "title": "Outrigger Impact Launches $100",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "Outrigger Impact Launches $100 Million Blue Economy Fund",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-11-05T14:31:07.000Z",
+    "latestPublishedAt": "2026-11-05T14:31:07.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-42yhyg",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-1kedz04",
+    "rootId": "src-cmh3ot",
+    "title": "EU Lawmakers Move to Water Down CO2 Emissions Reduction Requirements for Cars",
+    "digest": "Lawmakers in the European Parliament’s Environment Committee (ENVI) adopted a position in a 48-30 vote",
+    "latest": "Lawmakers in the European Parliament’s Environment Committee (ENVI) adopted a position in a 48-30 vote",
+    "memberIds": [
+      "src-cmh3ot"
+    ],
+    "facts": [
+      {
+        "title": "EU Lawmakers Move to Water Dow",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "adopt",
+        "object": "EU Lawmakers Move to Water Down CO2 Emissions Reduction Requirements for Cars",
+        "occurredAt": "2026-11-05"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-11-05T15:10:51.000Z",
+    "latestPublishedAt": "2026-11-05T15:10:51.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-cmh3ot",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
     ]
   }
 ]
