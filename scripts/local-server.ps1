@@ -74,10 +74,12 @@ if ($Action -eq "install") {
 }
 
 if ($Action -eq "status") {
+  $task = Get-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue
   [pscustomobject]@{
     url = $url
     healthy = (Test-Server)
     authenticated = (Test-AuthenticatedHome)
+    supervisorRunning = ($task.State -eq "Running")
   } | ConvertTo-Json
   exit 0
 }
@@ -85,7 +87,8 @@ if ($Action -eq "status") {
 $task = Get-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue
 if (-not $task) { Install-Task }
 
-if (-not (Test-Server)) {
+$task = Get-ScheduledTask -TaskName $taskName
+if ($task.State -ne "Running") {
   Start-ScheduledTask -TaskName $taskName
 }
 
