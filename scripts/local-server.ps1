@@ -5,6 +5,7 @@ param(
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
+$ProgressPreference = "SilentlyContinue"
 
 $taskName = "ESG-Compass-Local"
 $daemon = (Resolve-Path (Join-Path $PSScriptRoot "local-server-daemon.ps1")).Path
