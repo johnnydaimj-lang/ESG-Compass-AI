@@ -48,6 +48,10 @@ const REPAIRS: Record<string, Partial<ContentItem>> = {
     summary: "The International Labour Organization (ILO) adopted landmark protections for platform workers.",
     summaryZh: "国际劳工组织（ILO）通过了针对平台工人的里程碑式保护措施。",
   },
+  "src-1gnyckx": {
+    titleZh: "联合国秘书长将发布全球生物多样性承诺进展报告",
+    summaryZh: "联合国秘书长安东尼奥·古特雷斯将正式发布关于2022年全球生物多样性承诺进展情况的报告，评估各国落实全球生物多样性目标的进展。",
+  },
 };
 
 function ensureSentenceEnding(value: string): string {

@@ -1,190 +1,400 @@
 {
-  "date": "2026-11-05",
-  "generatedAt": "2026-11-05T15:38:09.096Z",
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-08T05:38:15.536Z",
   "highlights": [
     {
-      "id": "src-cmh3ot",
-      "title": "欧盟议员采取行动，弱化对汽车的二氧化碳减排要求",
-      "summary": "欧洲议会环境委员会（ENVI）以48票赞成、30票反对通过一项立场，旨在弱化对汽车的二氧化碳减排要求。",
-      "sourceName": "ESG Today（全球 ESG 新闻）",
-      "contentType": "观点",
-      "region": "全球",
-      "publishedAt": "2026-11-05T15:10:51.000Z",
+      "id": "src-1k8h2in",
+      "title": "商务部 海关总署 中央军委装备发展部公告2026年第49号 公布优化调整无人机相关物项出口管制措施的决定",
+      "summary": "商务部 海关总署 中央军委装备发展部公告2026年第49号 公布优化调整无人机相关物项出口管制措施的决定。",
+      "sourceName": "中国商务部政策发布",
+      "contentType": "政策",
+      "region": "中国",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "score": 78
+    },
+    {
+      "id": "src-telx5o",
+      "title": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定",
+      "summary": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定。",
+      "sourceName": "中国商务部政策发布",
+      "contentType": "政策",
+      "region": "中国",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
       "score": 74
     },
     {
-      "id": "src-16m6rll",
-      "title": "英国将出台强制性供应链人权尽职调查法",
-      "summary": "英国政府宣布新承诺，将引入一项新的强制性供应链人权尽职调查法。",
-      "sourceName": "ESG Today（全球 ESG 新闻）",
-      "contentType": "观点",
-      "region": "全球",
-      "publishedAt": "2026-11-05T11:22:07.000Z",
-      "score": 68
+      "id": "src-bk5nbt",
+      "title": "金融监管总局 交通运输部 国家发展改革委 财政部 商务部 中国人民银行 国务院国资委关于加快航运保险高质量发展的指导意见",
+      "summary": "金融监管总局 交通运输部 国家发展改革委 财政部 商务部 中国人民银行 国务院国资委关于加快航运保险高质量发展的指导意见。",
+      "sourceName": "中国商务部政策发布",
+      "contentType": "政策",
+      "region": "中国",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "score": 72
     },
     {
-      "id": "src-ro9d2u",
-      "title": "财政部将在加拿大发行人民币绿色主权债券",
-      "summary": "财政部将在加拿大发行人民币绿色主权债券。",
+      "id": "src-jdte6",
+      "title": "关于印发《关于加快农业保险高质量发展的实施方案》的通知",
+      "summary": "关于印发《关于加快农业保险高质量发展的实施方案》的通知。",
       "sourceName": "财政部政策发布",
       "contentType": "政策",
       "region": "中国",
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "score": 53
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "score": 72
     },
     {
-      "id": "src-wziuo7",
-      "title": "Ahold Delhaize 借助新的清洁能源协议实现100%可再生能源里程碑",
-      "summary": "总部位于荷兰的国际食品零售商Ahold Delhaize宣布签署一份为期10年的虚拟清洁能源协议，从而实现100%可再生能源里程碑。",
-      "sourceName": "ESG Today（全球 ESG 新闻）",
-      "contentType": "观点",
-      "region": "全球",
-      "publishedAt": "2026-11-05T12:09:54.000Z",
-      "score": 31
+      "id": "src-18eignl",
+      "title": "关于印发《中央自然灾害救灾资金管理办法》的通知",
+      "summary": "关于印发《中央自然灾害救灾资金管理办法》的通知。",
+      "sourceName": "财政部政策发布",
+      "contentType": "政策",
+      "region": "中国",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "score": 71
     }
   ],
   "sections": [
     {
-      "label": "观点",
-      "items": [
-        {
-          "id": "src-cmh3ot",
-          "title": "欧盟议员采取行动，弱化对汽车的二氧化碳减排要求",
-          "summary": "欧洲议会环境委员会（ENVI）以48票赞成、30票反对通过一项立场，旨在弱化对汽车的二氧化碳减排要求。",
-          "sourceName": "ESG Today（全球 ESG 新闻）",
-          "contentType": "观点",
-          "region": "全球",
-          "publishedAt": "2026-11-05T15:10:51.000Z",
-          "score": 74
-        },
-        {
-          "id": "src-16m6rll",
-          "title": "英国将出台强制性供应链人权尽职调查法",
-          "summary": "英国政府宣布新承诺，将引入一项新的强制性供应链人权尽职调查法。",
-          "sourceName": "ESG Today（全球 ESG 新闻）",
-          "contentType": "观点",
-          "region": "全球",
-          "publishedAt": "2026-11-05T11:22:07.000Z",
-          "score": 68
-        },
-        {
-          "id": "src-wziuo7",
-          "title": "Ahold Delhaize 借助新的清洁能源协议实现100%可再生能源里程碑",
-          "summary": "总部位于荷兰的国际食品零售商Ahold Delhaize宣布签署一份为期10年的虚拟清洁能源协议，从而实现100%可再生能源里程碑。",
-          "sourceName": "ESG Today（全球 ESG 新闻）",
-          "contentType": "观点",
-          "region": "全球",
-          "publishedAt": "2026-11-05T12:09:54.000Z",
-          "score": 31
-        }
-      ]
-    },
-    {
       "label": "政策",
       "items": [
         {
-          "id": "src-ro9d2u",
+          "id": "src-1k8h2in",
+          "title": "商务部 海关总署 中央军委装备发展部公告2026年第49号 公布优化调整无人机相关物项出口管制措施的决定",
+          "summary": "商务部 海关总署 中央军委装备发展部公告2026年第49号 公布优化调整无人机相关物项出口管制措施的决定。",
+          "sourceName": "中国商务部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 78
+        },
+        {
+          "id": "src-telx5o",
+          "title": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定",
+          "summary": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定。",
+          "sourceName": "中国商务部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 74
+        },
+        {
+          "id": "src-bk5nbt",
+          "title": "金融监管总局 交通运输部 国家发展改革委 财政部 商务部 中国人民银行 国务院国资委关于加快航运保险高质量发展的指导意见",
+          "summary": "金融监管总局 交通运输部 国家发展改革委 财政部 商务部 中国人民银行 国务院国资委关于加快航运保险高质量发展的指导意见。",
+          "sourceName": "中国商务部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 72
+        },
+        {
+          "id": "src-jdte6",
+          "title": "关于印发《关于加快农业保险高质量发展的实施方案》的通知",
+          "summary": "关于印发《关于加快农业保险高质量发展的实施方案》的通知。",
+          "sourceName": "财政部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 72
+        },
+        {
+          "id": "src-18eignl",
+          "title": "关于印发《中央自然灾害救灾资金管理办法》的通知",
+          "summary": "关于印发《中央自然灾害救灾资金管理办法》的通知。",
+          "sourceName": "财政部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 71
+        },
+        {
+          "id": "src-b4u59t",
+          "title": "香港证监会完成有关进一步限制不受规管实体使用误导性名称以保护投资者的咨询",
+          "summary": "香港证监会完成有关进一步限制不受规管实体使用误导性名称以保护投资者的咨询。",
+          "sourceName": "香港证监会（SFC）新闻稿",
+          "contentType": "政策",
+          "region": "香港",
+          "publishedAt": "2026-11-06T09:01:47.000Z",
+          "score": 68
+        },
+        {
+          "id": "src-1oh9b8r",
+          "title": "商务部 海关总署公告2026年第52号 公布进一步优化两用物项出口管制质疑和鉴别工作有关事项",
+          "summary": "商务部 海关总署公告2026年第52号 公布进一步优化两用物项出口管制质疑和鉴别工作有关事项。",
+          "sourceName": "中国商务部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 67
+        },
+        {
+          "id": "src-s4klhd",
+          "title": "商务部 国家发展改革委 生态环境部 海关总署关于进一步提高海南自由贸易港贸易自由化便利化水平的通知",
+          "summary": "商务部 国家发展改革委 生态环境部 海关总署关于进一步提高海南自由贸易港贸易自由化便利化水平的通知。",
+          "sourceName": "中国商务部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 63
+        },
+        {
+          "id": "src-fb51vh",
+          "title": "欧盟：委员会依据《数字服务法》指控TikTok算法涉嫌致瘾",
+          "summary": "欧盟：委员会依据《数字服务法》指控TikTok算法涉嫌致瘾。",
+          "sourceName": "Business & Human Rights（全球企业人权/劳工风险案例）",
+          "contentType": "政策",
+          "region": "全球",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 62
+        },
+        {
+          "id": "src-vvlop0",
+          "title": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理",
+          "summary": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理。",
+          "sourceName": "中国商务部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 60
+        },
+        {
+          "id": "src-137zwu5",
+          "title": "工业和信息化部办公厅关于加强智能体终端设备进网管理的通知",
+          "summary": "工业和信息化部办公厅关于加强智能体终端设备进网管理的通知。",
+          "sourceName": "福建省工业和信息化厅",
+          "contentType": "政策",
+          "region": "中国福建",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 60
+        },
+        {
+          "id": "src-j13dqq",
+          "title": "占领、种族灭绝与私营部门：与被占领巴勒斯坦领土相关涉嫌侵权行为的核心发现",
+          "summary": "私营部门在被占领巴勒斯坦领土的破坏与损失中所扮演的角色已受到密切关注。阅读我们关于2023年10月至2025年10月记录的企业涉嫌侵权行为的核心发现。",
+          "sourceName": "Business & Human Rights（全球企业人权/劳工风险案例）",
+          "contentType": "政策",
+          "region": "全球",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 56
+        },
+        {
+          "id": "src-1oz3w27",
+          "title": "商务部公告2026年第53号 公布2027年货物出口配额总量",
+          "summary": "商务部公告2026年第53号 公布2027年货物出口配额总量。",
+          "sourceName": "中国商务部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 52
+        },
+        {
+          "id": "src-drzclz",
           "title": "财政部将在加拿大发行人民币绿色主权债券",
           "summary": "财政部将在加拿大发行人民币绿色主权债券。",
           "sourceName": "财政部政策发布",
           "contentType": "政策",
           "region": "中国",
-          "publishedAt": "2026-11-05T00:00:00.000Z",
-          "score": 53
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 50
+        },
+        {
+          "id": "src-1lcl8gb",
+          "title": "公布2027年化肥进口关税配额总量、分配原则及相关程序",
+          "summary": "公布2027年化肥进口关税配额总量、分配原则及相关程序。",
+          "sourceName": "中国商务部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 48
+        },
+        {
+          "id": "src-1pjapuw",
+          "title": "商务部 海关总署公告2026年第51号 公布优化调整挖泥船相关物项出口管制措施的决定",
+          "summary": "商务部 海关总署公告2026年第51号 公布优化调整挖泥船相关物项出口管制措施的决定。",
+          "sourceName": "中国商务部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 47
+        },
+        {
+          "id": "src-vuzj9w",
+          "title": "商务部公告2026年第57号 公布对原产于欧盟的进口对位芳纶长丝发起反倾销立案调查",
+          "summary": "商务部公告2026年第57号 公布对原产于欧盟的进口对位芳纶长丝发起反倾销立案调查。",
+          "sourceName": "中国商务部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 37
+        },
+        {
+          "id": "src-mvayha",
+          "title": "商务部公告2026年第56号 公布对原产于欧盟、日本的进口乙叉降冰片烯发起反倾销立案调查",
+          "summary": "商务部公告2026年第56号 公布对原产于欧盟、日本的进口乙叉降冰片烯发起反倾销立案调查。",
+          "sourceName": "中国商务部政策发布",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 33
+        },
+        {
+          "id": "src-1d5r9xe",
+          "title": "国家网信办 金融监管总局集中整治网上金融“黑灰产”信息乱象",
+          "summary": "国家网信办 金融监管总局集中整治网上金融“黑灰产”信息乱象。",
+          "sourceName": "中央网信办政策与要闻",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 33
+        },
+        {
+          "id": "src-dv4y6l",
+          "title": "欧盟：科技公司涉嫌游说以加快数据中心扩张并修改政策",
+          "summary": "欧盟：科技公司涉嫌游说以加快数据中心扩张并修改政策。",
+          "sourceName": "Business & Human Rights（全球企业人权/劳工风险案例）",
+          "contentType": "政策",
+          "region": "全球",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 31
+        },
+        {
+          "id": "src-1ye0093",
+          "title": "我国已制定实施新型储能国家标准及行业标准150项",
+          "summary": "我国已制定实施新型储能国家标准及行业标准150项。",
+          "sourceName": "国家能源局新闻动态",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 31
+        },
+        {
+          "id": "src-1dbccpi",
+          "title": "我国海拔最高、高海拔地区单机容量最大超超临界煤电项目1号机组投入商运",
+          "summary": "我国海拔最高、高海拔地区单机容量最大超超临界煤电项目1号机组投入商运。",
+          "sourceName": "国家能源局新闻动态",
+          "contentType": "政策",
+          "region": "中国",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "score": 30
+        }
+      ]
+    },
+    {
+      "label": "观点",
+      "items": [
+        {
+          "id": "src-gf7m1t",
+          "title": "分析：中国季度二氧化碳排放下降3%，为新冠疫情以来最大降幅",
+          "summary": "据Carbon Brief分析，2026年第三季度中国二氧化碳排放量下降3.1%，为新冠疫情以来最大降幅，报道提及霍尔木兹危机持续。",
+          "sourceName": "Carbon Brief",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-11-06T00:01:00.000Z",
+          "score": 58
+        },
+        {
+          "id": "src-qi3ggh",
+          "title": "NBIM以3亿美元收购Aypa Power股份，为其首笔直接电池储能投资",
+          "summary": "挪威银行投资管理公司（NBIM）以3亿美元收购Aypa Power股份，这是该挪威2万亿美元石油基金管理机构的首笔直接电池储能投资。",
+          "sourceName": "ESG Today（全球 ESG 新闻）",
+          "contentType": "观点",
+          "region": "全球",
+          "publishedAt": "2026-11-06T12:34:08.000Z",
+          "score": 45
         }
       ]
     }
   ],
   "stories": [
     {
-      "id": "story-z284b1",
-      "title": "关于同意南方区域电力市场转入正式运行的复函",
-      "summary": "关于同意南方区域电力市场转入正式运行的复函",
+      "id": "story-1ryy3wx",
+      "title": "商务部公告2026年第53号 公布2027年货物出口配额总量",
+      "summary": "商务部公告2026年第53号 公布2027年货物出口配额总量。",
       "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-11-04T00:00:00.000Z"
+      "publishedAt": "2026-11-06T00:00:00.000Z"
     },
     {
-      "id": "story-lk3he6",
-      "title": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
-      "summary": "关于组织开展上海市2026年度新能源增量项目机制电价竞价的公告",
+      "id": "story-1r1foqj",
+      "title": "商务部 国家发展改革委 生态环境部 海关总署关于进一步提高海南自由贸易港贸易自由化便利化水平的通知",
+      "summary": "商务部 国家发展改革委 生态环境部 海关总署关于进一步提高海南自由贸易港贸易自由化便利化水平的通知。",
       "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-11-04T00:00:00.000Z"
+      "publishedAt": "2026-11-06T00:00:00.000Z"
     },
     {
-      "id": "story-5h55id",
-      "title": "习近平对进一步做好黄河保护治理工作作出重要指示",
-      "summary": "习近平对进一步做好黄河保护治理工作作出重要指示",
-      "sourceName": "2 家独立来源",
-      "contentType": "热点故事",
-      "region": "",
-      "publishedAt": "2026-11-03T00:00:00.000Z"
-    },
-    {
-      "id": "story-xchz3g",
-      "title": "上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知",
-      "summary": "上海市人民政府办公厅关于印发《上海市推动中小企业高质量发展行动方案》的通知",
+      "id": "story-d6bz9z",
+      "title": "商务部 海关总署公告2026年第52号 公布进一步优化两用物项出口管制质疑和鉴别工作有关事项",
+      "summary": "商务部 海关总署公告2026年第52号 公布进一步优化两用物项出口管制质疑和鉴别工作有关事项。",
       "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-10-30T00:00:00.000Z"
+      "publishedAt": "2026-11-06T00:00:00.000Z"
     },
     {
       "id": "story-11upg9w",
       "title": "商务部 海关总署公告2026年第51号 公布优化调整挖泥船相关物项出口管制措施的决定",
-      "summary": "商务部 海关总署公告2026年第51号 公布优化调整挖泥船相关物项出口管制措施的决定",
+      "summary": "商务部 海关总署公告2026年第51号 公布优化调整挖泥船相关物项出口管制措施的决定。",
       "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-10-29T00:00:00.000Z"
+      "publishedAt": "2026-11-06T00:00:00.000Z"
     },
     {
-      "id": "story-1hvptq",
-      "title": "关于进一步完善价格形成机制 推动普惠养老服务提质扩面的指导意见",
-      "summary": "关于进一步完善价格形成机制 推动普惠养老服务提质扩面的指导意见",
+      "id": "story-1ykvcuu",
+      "title": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定",
+      "summary": "商务部 海关总署公告2026年第50号 公布对盾构机等物项实施出口管制的决定。",
       "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-10-28T00:00:00.000Z"
+      "publishedAt": "2026-11-06T00:00:00.000Z"
     },
     {
-      "id": "story-c92yni",
-      "title": "中国人民银行公告﹝2026﹞第27号",
-      "summary": "中国人民银行公告﹝2026﹞第27号",
+      "id": "story-1sqde9a",
+      "title": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理",
+      "summary": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理。",
       "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-10-27T00:00:00.000Z"
+      "publishedAt": "2026-11-06T00:00:00.000Z"
     },
     {
-      "id": "story-dn7zyz",
-      "title": "Publication Global Affairs Canada发布加拿大“视为所有权”指南| 2026年10月19日国际贸易",
-      "summary": "Publication Global Affairs Canada发布加拿大“视为所有权”指南| 2026年10月19日国际贸易",
+      "id": "story-jnb5os",
+      "title": "公布2027年化肥进口关税配额总量、分配原则及相关程序",
+      "summary": "公布2027年化肥进口关税配额总量、分配原则及相关程序。",
       "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-10-22T00:00:00.000Z"
+      "publishedAt": "2026-11-06T00:00:00.000Z"
     },
     {
-      "id": "story-13l1hdi",
-      "title": "国家发展改革委、国家能源局等部门在山西召开加快煤矿复产增产保供工作推进会",
-      "summary": "国家发展改革委、国家能源局等部门在山西召开加快煤矿复产增产保供工作推进会",
+      "id": "story-1ctsh4",
+      "title": "商务部公告2026年第44号 公布对原产于欧盟的进口对硝基甲苯发起反倾销立案调查",
+      "summary": "商务部公告2026年第44号 公布对原产于欧盟的进口对硝基甲苯发起反倾销立案调查。",
       "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-10-19T00:00:00.000Z"
+      "publishedAt": "2026-11-06T00:00:00.000Z"
     },
     {
-      "id": "story-17c9ghq",
-      "title": "白花能源未回应",
-      "summary": "纽约市审计长马克·莱文 (Mark Levine) 宣布，他建议该市的三个公共养老基金战略性扩大私募市场气候解决方案投资，并计划提供 50 亿美元的新私募市场投资机会。",
-      "sourceName": "3 家独立来源",
+      "id": "story-tri7cq",
+      "title": "财政部将在加拿大发行人民币绿色主权债券",
+      "summary": "财政部将在加拿大发行人民币绿色主权债券。",
+      "sourceName": "1 家独立来源",
       "contentType": "热点故事",
       "region": "",
-      "publishedAt": "2026-09-28T16:05:08.000Z"
+      "publishedAt": "2026-11-06T00:00:00.000Z"
+    },
+    {
+      "id": "story-z284b1",
+      "title": "关于同意南方区域电力市场转入正式运行的复函",
+      "summary": "关于同意南方区域电力市场转入正式运行的复函。",
+      "sourceName": "1 家独立来源",
+      "contentType": "热点故事",
+      "region": "",
+      "publishedAt": "2026-11-04T00:00:00.000Z"
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-02T17:36:37.856Z",
-  "pipelineFinishedAt": "2026-11-02T17:33:55.595Z",
+  "generatedAt": "2026-11-08T05:38:39.695Z",
+  "pipelineFinishedAt": "2026-11-08T05:38:04.707Z",
   "summary": {
     "total": 78,
-    "enabled": 54,
+    "enabled": 53,
     "healthy": 41,
     "idle": 4,
-    "degraded": 1,
+    "degraded": 0,
     "skipped": 8,
     "unrun": 0,
     "stale": 0,
-    "disabled": 24
+    "disabled": 25
   },
   "sources": [
     {
@@ -20,8 +20,8 @@
       "enabled": true,
       "health": "healthy",
       "reason": "最近一次抓取正常",
-      "count": 4,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "count": 5,
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "eu-presscorner"
     },
     {
@@ -32,7 +32,7 @@
       "health": "idle",
       "reason": "已正常抓取，当前无更新",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "rss"
     },
     {
@@ -43,7 +43,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 20,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "browser-render"
     },
     {
@@ -54,7 +54,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 1,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -65,7 +65,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 1,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -73,10 +73,10 @@
       "name": "Business & Human Rights（全球企业人权/劳工风险案例）",
       "type": "rss",
       "enabled": true,
-      "health": "degraded",
-      "reason": "Request timed out after 20000ms",
-      "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "health": "healthy",
+      "reason": "最近一次抓取正常",
+      "count": 12,
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "rss"
     },
     {
@@ -87,7 +87,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -98,7 +98,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 12,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -109,7 +109,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 10,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "rss"
     },
     {
@@ -120,7 +120,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 6,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "browser-render"
     },
     {
@@ -130,8 +130,8 @@
       "enabled": true,
       "health": "healthy",
       "reason": "最近一次抓取正常",
-      "count": 25,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "count": 24,
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "api"
     },
     {
@@ -142,7 +142,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -153,7 +153,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -164,7 +164,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 8,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -175,7 +175,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -186,7 +186,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 20,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -197,7 +197,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -208,7 +208,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -219,7 +219,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -230,7 +230,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 20,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "browser-render"
     },
     {
@@ -241,7 +241,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 12,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -252,7 +252,7 @@
       "health": "idle",
       "reason": "已正常抓取，当前无更新",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "worldbank"
     },
     {
@@ -263,7 +263,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 7,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "browser-render"
     },
     {
@@ -274,7 +274,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 6,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -285,7 +285,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 50,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "rss"
     },
     {
@@ -295,8 +295,8 @@
       "enabled": true,
       "health": "healthy",
       "reason": "最近一次抓取正常",
-      "count": 12,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "count": 13,
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -307,7 +307,7 @@
       "health": "idle",
       "reason": "已正常抓取，当前无更新",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -318,7 +318,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 2,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -329,7 +329,7 @@
       "health": "skipped",
       "reason": "缺少环境变量：SOGOU_COOKIE",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -340,7 +340,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -351,7 +351,7 @@
       "health": "skipped",
       "reason": "缺少环境变量：SOGOU_COOKIE",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -362,7 +362,7 @@
       "health": "skipped",
       "reason": "缺少环境变量：SOGOU_COOKIE",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -373,19 +373,19 @@
       "health": "skipped",
       "reason": "缺少环境变量：SOGOU_COOKIE",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
       "id": "nortonrose-esg",
       "name": "诺顿罗氏（Norton Rose Fulbright）知识中心",
       "type": "webpage",
-      "enabled": true,
-      "health": "healthy",
-      "reason": "最近一次抓取正常",
-      "count": 7,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
-      "channel": "webpage"
+      "enabled": false,
+      "health": "disabled",
+      "reason": "信源已停用",
+      "count": 0,
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
+      "channel": "live"
     },
     {
       "id": "skadden-esg",
@@ -395,7 +395,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 3,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -406,7 +406,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -417,7 +417,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -428,7 +428,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 7,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -439,7 +439,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 16,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "browser-render"
     },
     {
@@ -450,7 +450,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 20,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -461,7 +461,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 7,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "rss"
     },
     {
@@ -472,7 +472,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 20,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -483,7 +483,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 3,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -494,7 +494,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 50,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "rss"
     },
     {
@@ -505,7 +505,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -516,7 +516,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 1,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -527,7 +527,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 15,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -538,7 +538,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 20,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -549,7 +549,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 1,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -560,7 +560,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 30,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -570,8 +570,8 @@
       "enabled": true,
       "health": "healthy",
       "reason": "最近一次抓取正常",
-      "count": 14,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "count": 13,
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -582,7 +582,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 25,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -593,7 +593,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 25,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -604,7 +604,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -615,7 +615,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -626,7 +626,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -637,7 +637,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -648,7 +648,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -659,7 +659,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -670,7 +670,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -681,7 +681,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -692,7 +692,7 @@
       "health": "skipped",
       "reason": "缺少环境变量：MAILBOX_HOST, MAILBOX_USER, MAILBOX_PASSWORD",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -703,7 +703,7 @@
       "health": "skipped",
       "reason": "缺少环境变量：SOGOU_COOKIE",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -714,7 +714,7 @@
       "health": "skipped",
       "reason": "缺少环境变量：SOGOU_COOKIE",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -725,7 +725,7 @@
       "health": "skipped",
       "reason": "缺少环境变量：SOGOU_COOKIE",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -736,7 +736,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 1,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "sec-investreport"
     },
     {
@@ -746,8 +746,8 @@
       "enabled": true,
       "health": "healthy",
       "reason": "最近一次抓取正常",
-      "count": 6,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "count": 7,
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "rss"
     },
     {
@@ -758,7 +758,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 12,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -769,7 +769,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 16,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -780,7 +780,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 20,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -791,7 +791,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 8,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "webpage"
     },
     {
@@ -802,7 +802,7 @@
       "health": "healthy",
       "reason": "最近一次抓取正常",
       "count": 12,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "rss"
     },
     {
@@ -813,7 +813,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -824,7 +824,7 @@
       "health": "idle",
       "reason": "已正常抓取，当前无更新",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "rss"
     },
     {
@@ -835,7 +835,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -846,7 +846,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -857,7 +857,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     },
     {
@@ -868,7 +868,7 @@
       "health": "disabled",
       "reason": "信源已停用",
       "count": 0,
-      "lastFetchAt": "2026-11-02T17:28:56.119Z",
+      "lastFetchAt": "2026-11-08T05:32:56.122Z",
       "channel": "live"
     }
   ]

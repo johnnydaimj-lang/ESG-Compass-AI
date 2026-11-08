@@ -667,12 +667,14 @@
       "contentType": "观点",
       "region": "全球",
       "language": "en",
-      "enabled": true,
-      "notes": "已核验启用：诺顿罗氏法律知识文章",
+      "enabled": false,
+      "notes": "页面未提供可靠的文章发布日期，且会混入播客与活动页；暂停采集，待实现站点 sitemap lastmod 适配器。",
       "selectors": [
         "article",
         ".card-body"
-      ]
+      ],
+      "recoveryCategory": "可自动实现",
+      "recoveryPlan": "接入站点 sitemap lastmod 后恢复"
     },
     {
       "id": "skadden-esg",

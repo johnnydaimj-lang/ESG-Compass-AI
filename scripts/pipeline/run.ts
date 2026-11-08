@@ -86,6 +86,15 @@ function normalizeSourceName(value: string): string {
     .replace(/[^\p{L}\p{N}]+/gu, "");
 }
 
+function shanghaiDate(value: Date): string {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(value);
+}
+
 // 未匹配到信源配置的材料仍需一个稳定来源标识，避免把材料 ID 当作信源 ID。
 function fallbackSourceId(sourceName: string, sourceUrl: string): string {
   return `unmatched-${stableHash(`${sourceName}|${sourceUrl}`)}`;
@@ -368,7 +377,8 @@ async function main() {
   const rawMaterials = acquiredMaterials.filter((material) => {
     const excluded = isExcludedArticleUrl(material.articleUrl || "", material.title);
     const future = !isPlausiblePublishedDate(material.publishedAt, startedAt.getTime());
-    return !excluded && !future;
+    const afterToday = material.publishedAt.slice(0, 10) > shanghaiDate(startedAt);
+    return !excluded && !future && !afterToday;
   });
   const droppedMaterials = acquiredMaterials.length - rawMaterials.length;
   if (droppedMaterials > 0) {
