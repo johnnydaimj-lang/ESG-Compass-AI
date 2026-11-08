@@ -32,7 +32,9 @@ export function toPublishedItem(
     summaryZh: understanding.summaryZh,
     esgTopic: material.esgTopic || material.content.esgTopic,
     recommended: selected,
-    recommendReason: understanding.editorialJudgment || material.content.recommendReason,
+    recommendReason: selected
+      ? understanding.editorialJudgment || material.content.recommendReason
+      : "",
     pipeline: {
       score: decision.displayScore,
       scoreThreshold: decision.threshold,

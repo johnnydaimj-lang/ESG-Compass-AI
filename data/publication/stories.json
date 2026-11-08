@@ -20810,8 +20810,8 @@
     "id": "story-1rzed6x",
     "rootId": "src-1gnyckx",
     "title": "联合国秘书长将发布全球生物多样性承诺进展报告",
-    "digest": "联合国秘书长安东尼奥·古特雷斯将正式发布关于2022年全球生物多样性承诺进展情况的报告，评估各国落实全球生物多样性目标的进展。",
-    "latest": "联合国秘书长安东尼奥·古特雷斯将正式发布关于2022年全球生物多样性承诺进展情况的报告，评估各国落实全球生物多样性目标的进展。",
+    "digest": "联合国秘书长将发布全球生物多样性承诺进展报告。",
+    "latest": "联合国秘书长将发布全球生物多样性承诺进展报告。",
     "memberIds": [
       "src-1gnyckx"
     ],
@@ -25246,7 +25246,7 @@
     "rootId": "src-qcbra9",
     "title": "生物多样性公约执行秘书在缔约方大会第十七次会议开幕式上的发言……",
     "digest": "生物多样性公约执行秘书在缔约方大会第十七次会议开幕式上发表发言。",
-    "latest": "生物多样性公约执行秘书在埃里温举行的2026年联合国生物多样性大会闭幕式上发表闭幕辞。",
+    "latest": "生物多样性公约执行秘书在2026年联合国生物多样性大会闭幕式上发表闭幕辞，会议在埃里温举行。",
     "memberIds": [
       "src-qcbra9",
       "src-1cso2ih"
@@ -38077,9 +38077,10 @@
     "rootId": "src-18qrtgx",
     "title": "生态环境部一周要闻（10.25—10.31）",
     "digest": "生态环境部一周要闻（10.25—10.31）。",
-    "latest": "生态环境部一周要闻（10.25—10.31）。",
+    "latest": "生态环境部一周要闻（11.1—11.7）",
     "memberIds": [
-      "src-18qrtgx"
+      "src-18qrtgx",
+      "src-1hbqd56"
     ],
     "facts": [
       {
@@ -38088,19 +38089,31 @@
         "action": "发布",
         "object": "生态环境部一周要闻（10.25—10.31）",
         "occurredAt": "2026-11-01"
+      },
+      {
+        "title": "生态环境部一周要闻（11.1—11.7）",
+        "subject": "中国生态环境部新闻",
+        "action": "发布",
+        "object": "生态环境部一周要闻（11.1—11.7）",
+        "occurredAt": "2026-11-08"
       }
     ],
     "participants": [
       "mee-china"
     ],
     "firstPublishedAt": "2026-11-01T00:00:00.000Z",
-    "latestPublishedAt": "2026-11-01T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-08T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-18qrtgx",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-1hbqd56",
+        "relation": "SAME_STORY",
+        "confidence": 0.8040302522073697
       }
     ],
     "heat6hAgo": 0,
@@ -38783,8 +38796,8 @@
     "id": "story-1iysq9q",
     "rootId": "src-c3snqf",
     "title": "数智赋能信息化监管 提升注册会计师行业监管效率和水平——新注册会计师...",
-    "digest": "相关部门以数智赋能信息化监管，提升注册会计师行业监管效率和水平，涉及新注册会计师相关规定。",
-    "latest": "相关部门以数智赋能信息化监管，提升注册会计师行业监管效率和水平，涉及新注册会计师相关规定。",
+    "digest": "相关部门以数智赋能信息化监管，提升注册会计师行业监管效率和水平。",
+    "latest": "相关部门以数智赋能信息化监管，提升注册会计师行业监管效率和水平。",
     "memberIds": [
       "src-c3snqf"
     ],
@@ -44071,8 +44084,8 @@
     "id": "story-ntkdfo",
     "rootId": "src-2ecijv",
     "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常...",
-    "digest": "国务院就金融工作情况提交报告，该报告于2026年11月3日在十四届全国人民代表大会常务委员会会议上作出。",
-    "latest": "国务院就金融工作情况提交报告，该报告于2026年11月3日在十四届全国人民代表大会常务委员会会议上作出。",
+    "digest": "国务院向十四届全国人大常委会报告金融工作情况，报告时间为2026年11月3日。",
+    "latest": "国务院向十四届全国人大常委会报告金融工作情况，报告时间为2026年11月3日。",
     "memberIds": [
       "src-2ecijv"
     ],
@@ -45231,9 +45244,10 @@
     "rootId": "src-16m6rll",
     "title": "英国将出台强制性供应链人权尽职调查法",
     "digest": "英国政府宣布新承诺，将引入一项新的强制性供应链人权尽职调查法。",
-    "latest": "英国政府宣布新承诺，将引入一项新的强制性供应链人权尽职调查法。",
+    "latest": "This week in ESG news: UK to introduce supply chain human rights due diligence law;",
     "memberIds": [
-      "src-16m6rll"
+      "src-16m6rll",
+      "src-it988q"
     ],
     "facts": [
       {
@@ -45242,19 +45256,31 @@
         "action": "调查",
         "object": "英国将出台强制性供应链人权尽职调查法",
         "occurredAt": "2026-11-05"
+      },
+      {
+        "title": "ESG Today: Week in Review",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "发布",
+        "object": "ESG Today: Week in Review",
+        "occurredAt": "2026-11-08"
       }
     ],
     "participants": [
       "esgtoday"
     ],
     "firstPublishedAt": "2026-11-05T11:22:07.000Z",
-    "latestPublishedAt": "2026-11-05T11:22:07.000Z",
+    "latestPublishedAt": "2026-11-08T09:56:29.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-16m6rll",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-it988q",
+        "relation": "SAME_STORY",
+        "confidence": 0.6063390625908325
       }
     ],
     "heat6hAgo": 0,
@@ -46070,8 +46096,8 @@
     "id": "story-1vflbkr",
     "rootId": "src-3saz8n",
     "title": "财政部山西监管局：贯通“研、联、督”三链条 护航财政金融协同促内需一...",
-    "digest": "财政部山西监管局贯通“研、联、督”三链条，护航财政金融协同促内需相关工作。",
-    "latest": "财政部山西监管局贯通“研、联、督”三链条，护航财政金融协同促内需相关工作。",
+    "digest": "财政部山西监管局贯通“研、联、督”三链条，以护航财政金融协同促内需。",
+    "latest": "财政部山西监管局贯通“研、联、督”三链条，以护航财政金融协同促内需。",
     "memberIds": [
       "src-3saz8n"
     ],
@@ -48357,6 +48383,46 @@
     "signalCount": 0,
     "sourceNames": [
       "中国生态环境部新闻"
+    ]
+  },
+  {
+    "id": "story-1m0errs",
+    "rootId": "src-krcasz",
+    "title": "Belgian court finds Utexbel and its leadership guilty of environmental crimes",
+    "digest": "On 19 May 2026, the Court of First Instance of East Flanders, Ghent division, reportedly convicted textile company Utexbel and its managing director of multiple environmental offences, including breaches of permit conditions and the discharge of industrial wastewater, imposing fines of €400,000 and €80,000 respectively for conduct that created irresponsible risks and caused environmental damage.",
+    "latest": "On 19 May 2026, the Court of First Instance of East Flanders, Ghent division, reportedly convicted textile company Utexbel and its managing director of multiple environmental offences, including breaches of permit conditions and the discharge of industrial wastewater, imposing fines of €400,000 and €80,000 respectively for conduct that created irresponsible risks and caused environmental damage.",
+    "memberIds": [
+      "src-krcasz"
+    ],
+    "facts": [
+      {
+        "title": "Belgian court finds Utexbel an",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Belgian court finds Utexbel and its leadership guilty of environmental crimes",
+        "occurredAt": "2026-11-08"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-11-08T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-08T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-krcasz",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
     ]
   }
 ]
