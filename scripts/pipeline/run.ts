@@ -27,7 +27,7 @@ import { prefilterMaterial } from "@/lib/pipeline/prefilter";
 import { promptVersion, promptVersions } from "@/lib/pipeline/prompt";
 import { toPublishedItem, type ProcessedMaterial } from "@/lib/pipeline/publication";
 import { decideSelection, recommendReasonFor, runHeuristicScores } from "@/lib/pipeline/score";
-import { scoreMaterialWithLlm } from "@/lib/pipeline/llm";
+import { generateRecommendReasonsWithLlm, scoreMaterialWithLlm } from "@/lib/pipeline/llm";
 import { structureMaterial } from "@/lib/pipeline/structure";
 import { cleanSummaryText, stableHash } from "@/lib/pipeline/text";
 import { understandMaterial } from "@/lib/pipeline/understand";
@@ -45,6 +45,7 @@ const PROMPT_NAMES = [
   "rules-esg",
   "safety",
   "selection-score",
+  "recommend-reason",
   "content-understanding",
   "structure",
   "story-digest",
@@ -432,9 +433,7 @@ async function main() {
       ? decideSelection(entry.runs, entry.sourceTier)
       : decisionFromSnapshot(entry.material);
     const understanding = understandMaterial(entry.material, entry.sourceTier);
-    understanding.editorialJudgment = entry.runs
-      ? recommendReasonFor(entry.material, decision)
-      : (entry.material.content.recommendReason || understanding.editorialJudgment);
+    understanding.editorialJudgment = "";
     const fact = structureMaterial(entry.material);
     processed.push({
       material: entry.material,
@@ -487,7 +486,31 @@ async function main() {
     cluster.sourceNames = [...new Set(cluster.participants.map((id) => sourceNameBySourceId.get(id) || id))];
   }
 
-  const contentPromptVersion = promptVersion(["content-understanding", "structure", "selection-score"]);
+  const selectedEntries = processed.filter((entry) => entry.decision.selected);
+  const generatedReasons = mode === "llm"
+    ? await generateRecommendReasonsWithLlm(selectedEntries.map((entry) => ({
+      id: entry.material.id,
+      title: entry.understanding.titleZh,
+      summary: `${entry.understanding.summaryZh} ${entry.fact.action} ${entry.fact.object}`,
+      score: entry.decision.displayScore,
+      contentType: entry.material.contentType,
+      region: entry.material.region,
+      sourceName: entry.material.sourceName,
+      fact: entry.fact,
+    })))
+    : new Map<string, string>();
+  for (const entry of processed) {
+    if (!entry.decision.selected) {
+      entry.understanding.editorialJudgment = "";
+      continue;
+    }
+    entry.understanding.editorialJudgment = generatedReasons.get(entry.material.id)
+      || (mode === "llm"
+        ? recommendReasonFor(entry.material, entry.decision)
+        : entry.material.content.recommendReason || recommendReasonFor(entry.material, entry.decision));
+  }
+
+  const contentPromptVersion = promptVersion(["content-understanding", "structure", "selection-score", "recommend-reason"]);
   const contents = processed
     .map((entry) => {
       const cluster = clusterByMember.get(entry.material.id);

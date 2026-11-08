@@ -187,7 +187,7 @@ async function main() {
   for (const { item } of rewriteCandidates) {
     item.summaryZh = rewritten.get(item.id)
       || ensureSentenceEnding(item.titleZh || item.title);
-    syncRecommendReason(item);
+    if (item.recommended) syncRecommendReason(item);
     fixed += 1;
   }
   writePublishedContents(contents);

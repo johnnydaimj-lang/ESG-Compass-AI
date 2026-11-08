@@ -5,7 +5,7 @@ import { ArrowLeft, ArrowUpRight, MapPin, BookOpen, Star, Flame } from "lucide-r
 import { getAllContents, getContentById, getContentLink, getHomeSummary, getHomeTitle, summarizeForHome } from "@/lib/esg-data";
 import { getZonesByEventId, getZonesForContent } from "@/lib/zones-store";
 import { getRegulationsForEvent } from "@/lib/regulations";
-import { getRecommendReason, getRecommendBullets } from "@/lib/recommendation";
+import { getRecommendReason } from "@/lib/recommendation";
 import { readHeatHistory } from "@/lib/publication-store";
 import ImpactCard from "@/components/ImpactCard";
 import HeatChart from "@/components/HeatChart";
@@ -35,6 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function EventDetailPage({ params }: Props) {
   const { id: rawId } = await params; const id = decodeURIComponent(rawId); const item = getContentById(id);
   if (!item) notFound();
+  const recommendReason = item.recommended ? getRecommendReason(item) : null;
   const heatHistory = readHeatHistory();
   const heatPoints = item.pipeline?.storyId ? heatHistory?.stories[item.pipeline.storyId] || [] : [];
   return (
@@ -98,22 +99,12 @@ export default async function EventDetailPage({ params }: Props) {
           {item.esgTopic}
         </span>
       </section>
-      {item.recommended && (getRecommendReason(item) || getRecommendBullets(item).length > 0) && (
+      {recommendReason && (
         <section className="rounded-lg border border-dashed border-brand-line bg-brand-soft/50 px-5 py-4">
-          <div className="mb-2 flex items-center gap-1.5 text-[13px] font-medium text-brand-deep">
-            <Star size={14} className="fill-brand text-brand" />推荐理由
+          <div className="flex items-start gap-2.5">
+            <Star size={14} className="mt-1 shrink-0 fill-brand text-brand" aria-hidden />
+            <p className="text-[14px] leading-relaxed font-medium text-ink">{recommendReason}</p>
           </div>
-          {getRecommendReason(item) && (
-            <p className="mb-3 text-[14px] leading-relaxed font-medium text-ink">{getRecommendReason(item)}</p>
-          )}
-          <ul className="space-y-1.5">
-            {getRecommendBullets(item).map((b) => (
-              <li key={b} className="flex items-start gap-2 text-[12.5px] leading-relaxed text-ink-soft">
-                <span className="mt-[7px] h-1 w-1 shrink-0 rounded-full bg-brand" />
-                {b}
-              </li>
-            ))}
-          </ul>
         </section>
       )}
 

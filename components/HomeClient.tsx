@@ -240,7 +240,7 @@ function FeedItem({
 }) {
   const itemZones = zones.filter((zone) => zone.eventIds.includes(item.id));
   const sourceCount = Math.max(totalSourceCount(item), storySourceCount);
-  const reason = getRecommendReason(item);
+  const reason = item.recommended ? getRecommendReason(item) : null;
   const eventTime = formatEventTime(item.publishedAt);
 
   return (
@@ -294,7 +294,7 @@ function FeedItem({
         {reason && (
           <p className="mt-2 flex items-start gap-1.5 text-[11.5px] leading-relaxed text-brand-deep">
             <Star size={10} className="mt-1 shrink-0 fill-brand text-brand" aria-hidden />
-            <span className="line-clamp-1">{reason}</span>
+            <span className="line-clamp-2">{reason}</span>
           </p>
         )}
 

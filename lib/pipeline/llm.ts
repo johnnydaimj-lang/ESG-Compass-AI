@@ -80,3 +80,73 @@ export async function scoreMaterialWithLlm(material: RawMaterial): Promise<[Scor
     { score: second, axes: EMPTY_AXES },
   ];
 }
+
+export interface RecommendationReasonInput {
+  id: string;
+  title: string;
+  summary: string;
+  score: number;
+  contentType: string;
+  region: string;
+  sourceName: string;
+  fact?: unknown;
+}
+
+export async function generateRecommendReasonsWithLlm(
+  items: RecommendationReasonInput[],
+): Promise<Map<string, string>> {
+  const output = new Map<string, string>();
+  const config = getLlmConfig();
+  if (!config || items.length === 0) return output;
+  const llmConfig = config;
+  const system = promptText("recommend-reason", { siteName: "ESG Compass" });
+  const batches: RecommendationReasonInput[][] = [];
+  for (let index = 0; index < items.length; index += 12) {
+    batches.push(items.slice(index, index + 12));
+  }
+  let cursor = 0;
+  async function worker() {
+    while (cursor < batches.length) {
+      const batch = batches[cursor++];
+      try {
+        const res = await fetch(`${llmConfig.baseUrl.replace(/\/+$/, "")}/chat/completions`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Authorization: `Bearer ${llmConfig.apiKey}` },
+          body: JSON.stringify({
+            model: llmConfig.model,
+            temperature: 0.3,
+            response_format: { type: "json_object" },
+            messages: [
+              { role: "system", content: system },
+              { role: "user", content: JSON.stringify({ items: batch }) },
+            ],
+          }),
+          signal: AbortSignal.timeout(120_000),
+        });
+        if (!res.ok) continue;
+        const data = await res.json() as { choices?: Array<{ message?: { content?: string } }> };
+        const text = data.choices?.[0]?.message?.content || "";
+        const json = text.match(/\{[\s\S]*\}/)?.[0];
+        if (!json) continue;
+        const parsed = JSON.parse(json) as { items?: Array<{ id?: unknown; reason?: unknown }> };
+        for (const entry of parsed.items || []) {
+          const id = String(entry.id || "");
+          const reason = String(entry.reason || "").trim().replace(/\s+/g, " ");
+          if (
+            id
+            && reason.length >= 20
+            && reason.length <= 140
+            && /[\u3400-\u9fff]/.test(reason)
+            && !/综合评分|评分较高|推荐理由|本文|这篇文章/.test(reason)
+          ) {
+            output.set(id, reason);
+          }
+        }
+      } catch {
+        // 单批失败不阻断流水线，调用方会使用确定性理由兜底。
+      }
+    }
+  }
+  await Promise.all([worker(), worker()]);
+  return output;
+}
