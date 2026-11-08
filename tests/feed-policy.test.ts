@@ -15,7 +15,7 @@ function item(
   return {
     id,
     title: id,
-    summary: id,
+    summary: `这条内容提供了区别于标题的具体事实、影响范围与后续安排，可用于公开列表测试。`,
     contentType: "政策",
     region: "全球",
     publishedAt,
@@ -47,6 +47,24 @@ test("低分内容即使多源聚类也不进入公开列表", () => {
   assert.equal(isFeedEligible(multiB), false);
   assert.equal(isFeedEligible(item("threshold", 30, "Source A")), true);
   assert.equal(isFeedEligible({ ...single, pipeline: undefined }), false);
+});
+
+test("标题复述或摘要过短的条目不进入公开列表", () => {
+  const substantive = item("substantive", 60, "Source A");
+  const titleEcho = {
+    ...substantive,
+    titleZh: "某机构发布新的可持续披露规则",
+    summaryZh: "某机构发布新的可持续披露规则。",
+  };
+  const tooShort = {
+    ...substantive,
+    titleZh: "某机构发布新的可持续披露规则",
+    summaryZh: "新规发布。",
+  };
+
+  assert.equal(isFeedEligible(substantive), true);
+  assert.equal(isFeedEligible(titleEcho), false);
+  assert.equal(isFeedEligible(tooShort), false);
 });
 
 test("同一故事簇只保留一个代表条目，优先最早发布", () => {

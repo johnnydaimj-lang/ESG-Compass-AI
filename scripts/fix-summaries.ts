@@ -1,8 +1,11 @@
-// 一次性修复：补全正文可核实的截断摘要，并规范精选摘要的句末标点。
+// 发布前摘要质量修复：抓取原文正文，重写标题复述、缺失或截断的摘要。
 
 import type { ContentItem } from "@/lib/contracts/content";
+import { closeArticleBrowser, fetchArticleContent } from "@/lib/pipeline/article-content";
 import { buildDailyReport } from "@/lib/pipeline/daily";
 import { getLlmConfig } from "@/lib/pipeline/llm";
+import { promptText } from "@/lib/pipeline/prompt";
+import { isTitleEcho, isUsableGeneratedSummary } from "@/lib/pipeline/summary-quality";
 import { cleanSummaryText } from "@/lib/pipeline/text";
 import {
   readPublishedContents,
@@ -62,14 +65,33 @@ function ensureSentenceEnding(value: string): string {
 
 interface SummaryRepair {
   item: ContentItem;
+  articleText: string;
 }
 
 function needsSummaryRewrite(item: ContentItem): boolean {
+  const title = String(item.titleZh || item.title || "").trim();
   const summary = String(item.summaryZh || "").trim();
-  if (!summary) return false;
+  if (!summary) return Boolean(title);
+  if (isTitleEcho(title, summary)) return true;
+  if (summary.length > 300) return true;
   const hasEllipsis = summary.includes("……") || /\.{3,}/.test(summary);
-  if (summary === item.titleZh && !hasEllipsis) return false;
   return !/[。！？.!?]$/.test(summary) || hasEllipsis;
+}
+
+async function attachArticleContent(items: SummaryRepair[]): Promise<void> {
+  let cursor = 0;
+  async function worker() {
+    while (cursor < items.length) {
+      const entry = items[cursor++];
+      const existing = String(entry.item.bodyZh || entry.item.body || "").trim();
+      if (existing.length >= 200) {
+        entry.articleText = existing;
+        continue;
+      }
+      entry.articleText = await fetchArticleContent(entry.item.articleUrl || entry.item.sourceUrl || "");
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(6, items.length) }, worker));
 }
 
 async function rewriteSummaries(items: SummaryRepair[]): Promise<Map<string, string>> {
@@ -77,14 +99,14 @@ async function rewriteSummaries(items: SummaryRepair[]): Promise<Map<string, str
   const config = getLlmConfig();
   if (!config || items.length === 0) return output;
   const llmConfig = config;
+  const system = promptText("summary-rewrite", { siteName: "ESG Compass" });
   const batches: SummaryRepair[][] = [];
-  for (let index = 0; index < items.length; index += 16) {
-    batches.push(items.slice(index, index + 16));
+  for (let index = 0; index < items.length; index += 4) {
+    batches.push(items.slice(index, index + 4));
   }
-  let cursor = 0;
-  async function worker() {
-    while (cursor < batches.length) {
-      const batch = batches[cursor++];
+
+  async function requestBatch(batch: SummaryRepair[]): Promise<void> {
+    for (let attempt = 1; attempt <= 3; attempt += 1) {
       try {
         const res = await fetch(`${llmConfig.baseUrl.replace(/\/+$/, "")}/chat/completions`, {
           method: "POST",
@@ -96,17 +118,18 @@ async function rewriteSummaries(items: SummaryRepair[]): Promise<Map<string, str
             messages: [
               {
                 role: "system",
-                content: "你是中文 ESG 编辑。根据标题、英文摘要和已有中文片段，为每条内容写 1-2 句完整、准确、简洁的中文摘要，不超过 180 字。不得编造未提供的数字、日期、机构或结论，不得用逗号或半句结尾。只输出合法 JSON：{\"items\":[{\"id\":\"原 id\",\"summary\":\"完整中文摘要\"}]}。",
+                content: system,
               },
               {
                 role: "user",
                 content: JSON.stringify({
-                  items: batch.map(({ item }) => ({
+                  items: batch.map(({ item, articleText }) => ({
                     id: item.id,
                     title: item.title,
                     titleZh: item.titleZh,
-                    summary: item.summary,
+                    feedExcerpt: item.summary,
                     partialSummaryZh: item.summaryZh,
+                    articleText: articleText.slice(0, 6_000),
                   })),
                 }),
               },
@@ -114,25 +137,43 @@ async function rewriteSummaries(items: SummaryRepair[]): Promise<Map<string, str
           }),
           signal: AbortSignal.timeout(120_000),
         });
-        if (!res.ok) continue;
+        if (!res.ok) throw new Error(`LLM HTTP ${res.status}`);
         const data = await res.json() as { choices?: Array<{ message?: { content?: string } }> };
         const text = data.choices?.[0]?.message?.content || "";
         const json = text.match(/\{[\s\S]*\}/)?.[0];
-        if (!json) continue;
-        const parsed = JSON.parse(json) as { items?: Array<{ id?: unknown; summary?: unknown }> };
+        if (!json) throw new Error("LLM returned no JSON");
+        const parsed = JSON.parse(json) as { items?: Array<{ id?: unknown; summaryZh?: unknown }> };
         for (const entry of parsed.items || []) {
           const id = String(entry.id || "");
-          const summary = ensureSentenceEnding(String(entry.summary || "").trim());
-          if (id && summary.length >= 10 && summary.length <= 300 && /[\u3400-\u9fff]/.test(summary)) {
+          const repair = batch.find((candidate) => candidate.item.id === id);
+          if (!repair) continue;
+          const summary = ensureSentenceEnding(cleanSummaryText(entry.summaryZh));
+          const title = repair.item.titleZh || repair.item.title;
+          if (id && isUsableGeneratedSummary(title, summary)) {
             output.set(id, summary);
           }
         }
+        if (batch.some((candidate) => output.has(candidate.item.id))) return;
+        throw new Error("LLM returned no usable summaries");
       } catch {
-        // 单批失败时保留原文，后续由标题兜底。
+        if (attempt < 3) await new Promise((resolve) => setTimeout(resolve, attempt * 1_000));
       }
     }
   }
-  await Promise.all([worker(), worker()]);
+
+  async function runBatches(work: SummaryRepair[][], concurrency: number): Promise<void> {
+    let cursor = 0;
+    async function worker() {
+      while (cursor < work.length) await requestBatch(work[cursor++]);
+    }
+    await Promise.all(Array.from({ length: Math.min(concurrency, work.length) }, worker));
+  }
+
+  await runBatches(batches, 2);
+  const retries = items
+    .filter((candidate) => !output.has(candidate.item.id) && candidate.articleText.length >= 120)
+    .map((candidate) => [candidate]);
+  await runBatches(retries, 2);
   return output;
 }
 
@@ -161,21 +202,12 @@ async function main() {
       item.summary = cleaned;
       item.summaryZh = "";
       fixed += 1;
-    } else if (!raw && item.title) {
-      item.summary = item.title;
-      item.summaryZh = "";
-      fixed += 1;
     }
-    if (!String(item.summaryZh || "").trim() && item.titleZh) {
-      item.summaryZh = item.titleZh;
-      fixed += 1;
-    }
-    const titleOnly = Boolean(item.summaryZh && item.titleZh && item.summaryZh.trim() === item.titleZh.trim());
-    if (titleOnly && !needsSummaryRewrite(item)) {
-      item.summaryZh = ensureSentenceEnding(item.summaryZh || "");
-    } else if (needsSummaryRewrite(item)) {
+    const score = Number(item.pipeline?.score || 0);
+    if (needsSummaryRewrite(item) && (score >= 30 || item.recommended)) {
       rewriteCandidates.push({
         item,
+        articleText: "",
       });
     }
     if (item.recommended) {
@@ -183,18 +215,27 @@ async function main() {
       item.summaryZh = ensureSentenceEnding(item.summaryZh || "");
     }
   }
+  await attachArticleContent(rewriteCandidates);
+  await closeArticleBrowser();
   const rewritten = await rewriteSummaries(rewriteCandidates);
+  let unresolved = 0;
   for (const { item } of rewriteCandidates) {
-    item.summaryZh = rewritten.get(item.id)
-      || ensureSentenceEnding(item.titleZh || item.title);
+    const summary = rewritten.get(item.id);
+    if (!summary) {
+      unresolved += 1;
+      continue;
+    }
+    item.summaryZh = summary;
     if (item.recommended) syncRecommendReason(item);
     fixed += 1;
   }
   writePublishedContents(contents);
   writeDaily(buildDailyReport(contents, readStories(), new Date()));
   process.stdout.write(
-    `summaries fixed: repaired=${repaired} fixed=${fixed} items=${contents.length}\n`,
+    `summaries fixed: repaired=${repaired} fixed=${fixed} unresolved=${unresolved} `
+    + `candidates=${rewriteCandidates.length} items=${contents.length}\n`,
   );
+  process.exit(0);
 }
 
 main().catch((error) => {
