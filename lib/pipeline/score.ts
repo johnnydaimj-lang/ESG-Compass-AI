@@ -1,6 +1,7 @@
 import type { ContentType } from "@/lib/contracts/content";
 import type { RawMaterial, ScoreAxes, ScoreDecision, ScoreRun, SourceTier } from "@/lib/contracts/pipeline";
 import { CURATION_FLOOR, SCORE_WEIGHTS, UNDERSTAND_FLOOR } from "./config";
+import { hasEditorialFirstPerson } from "./summary-quality";
 import { compactText, normalizeText, stableHash } from "./text";
 
 const clamp10 = (value: number) => Math.max(0, Math.min(10, Math.round(value)));
@@ -105,10 +106,10 @@ export function decideSelection(
 
 export function editorialJudgmentFromMaterial(material: RawMaterial): string {
   const explicit = compactText(material.content.recommendReason);
-  if (explicit) return explicit.slice(0, 90);
+  if (explicit && !hasEditorialFirstPerson(explicit)) return explicit.slice(0, 90);
   const summary = compactText(material.content.summaryZh || material.content.summary);
   const sentence = summary.split(/[。；;]/)[0]?.trim() || "";
-  return sentence.length >= 12 ? `${sentence.slice(0, 86)}。` : "";
+  return sentence.length >= 12 && !hasEditorialFirstPerson(sentence) ? `${sentence.slice(0, 86)}。` : "";
 }
 
 const AXIS_LABELS: Record<keyof ScoreAxes, string> = {
@@ -130,5 +131,5 @@ export function recommendReasonFor(material: RawMaterial, decision: ScoreDecisio
   const top = axes[0];
   const focus = top && top.value > 0 ? `${AXIS_LABELS[top.key]}较突出` : "信息价值较高";
   const detail = `${focus}，涉及${topic}${region !== "全球" ? `的${region}` : ""}动向，对相关企业的战略、合规与风险管理具有参考价值。`;
-  return lead ? `${lead}。${detail}` : detail;
+  return lead && !hasEditorialFirstPerson(lead) ? `${lead}。${detail}` : detail;
 }

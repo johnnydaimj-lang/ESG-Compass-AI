@@ -1,5 +1,6 @@
 import { generateRecommendReasonsWithLlm } from "@/lib/pipeline/llm";
 import { buildDailyReport } from "@/lib/pipeline/daily";
+import { hasEditorialFirstPerson } from "@/lib/pipeline/summary-quality";
 import {
   readPublishedContents,
   readStories,
@@ -33,9 +34,10 @@ async function main() {
     if (reason) {
       item.recommendReason = reason;
       generated += 1;
-    } else if (!item.recommendReason || /综合评分|评分较高|推荐理由|本文|这篇文章/.test(item.recommendReason)) {
+    } else if (!item.recommendReason || hasEditorialFirstPerson(item.recommendReason) || /综合评分|评分较高|推荐理由|本文|这篇文章/.test(item.recommendReason)) {
       const summary = String(item.summaryZh || item.summary || item.titleZh || item.title).trim();
-      item.recommendReason = summary.split(/[。！？]/)[0] + "。";
+      const first = summary.split(/[。！？]/)[0]?.trim() || "";
+      item.recommendReason = first && !hasEditorialFirstPerson(first) ? `${first}。` : "";
     }
   }
 

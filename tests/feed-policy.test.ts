@@ -61,10 +61,22 @@ test("标题复述或摘要过短的条目不进入公开列表", () => {
     titleZh: "某机构发布新的可持续披露规则",
     summaryZh: "新规发布。",
   };
+  const firstPerson = {
+    ...substantive,
+    titleZh: "某机构发布新的可持续披露规则",
+    summaryZh: "我们梳理了规则适用范围、实施时间以及企业需要完成的披露准备。",
+  };
+  const metaCommentary = {
+    ...substantive,
+    titleZh: "某机构发布新的可持续披露规则",
+    summaryZh: "某机构发布新的可持续披露规则。现有中文摘要仅说明该宣布，未提供具体实施安排。",
+  };
 
   assert.equal(isFeedEligible(substantive), true);
   assert.equal(isFeedEligible(titleEcho), false);
   assert.equal(isFeedEligible(tooShort), false);
+  assert.equal(isFeedEligible(firstPerson), false);
+  assert.equal(isFeedEligible(metaCommentary), false);
 });
 
 test("同一故事簇只保留一个代表条目，优先最早发布", () => {

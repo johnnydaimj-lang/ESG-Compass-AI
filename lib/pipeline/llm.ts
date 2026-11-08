@@ -3,6 +3,7 @@ import { resolve } from "node:path";
 import type { RawMaterial, ScoreRun } from "@/lib/contracts/pipeline";
 import { promptText } from "./prompt";
 import { runHeuristicScores } from "./score";
+import { hasEditorialFirstPerson } from "./summary-quality";
 
 export interface LlmConfig {
   apiKey: string;
@@ -137,6 +138,7 @@ export async function generateRecommendReasonsWithLlm(
             && reason.length >= 20
             && reason.length <= 140
             && /[\u3400-\u9fff]/.test(reason)
+            && !hasEditorialFirstPerson(reason)
             && !/综合评分|评分较高|推荐理由|本文|这篇文章/.test(reason)
           ) {
             output.set(id, reason);

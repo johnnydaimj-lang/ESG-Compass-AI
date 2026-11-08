@@ -5,7 +5,14 @@ import { closeArticleBrowser, fetchArticleContent } from "@/lib/pipeline/article
 import { buildDailyReport } from "@/lib/pipeline/daily";
 import { getLlmConfig } from "@/lib/pipeline/llm";
 import { promptText } from "@/lib/pipeline/prompt";
-import { isTitleEcho, isUsableGeneratedSummary } from "@/lib/pipeline/summary-quality";
+import {
+  hasEditorialFirstPerson,
+  hasMetaSummaryCommentary,
+  isTitleEcho,
+  isUsableGeneratedSummary,
+  stripMetaSummaryCommentary,
+  toThirdPersonVoice,
+} from "@/lib/pipeline/summary-quality";
 import { cleanSummaryText } from "@/lib/pipeline/text";
 import {
   readPublishedContents,
@@ -73,6 +80,8 @@ function needsSummaryRewrite(item: ContentItem): boolean {
   const summary = String(item.summaryZh || "").trim();
   if (!summary) return Boolean(title);
   if (isTitleEcho(title, summary)) return true;
+  if (hasEditorialFirstPerson(summary)) return true;
+  if (hasMetaSummaryCommentary(summary)) return true;
   if (summary.length > 300) return true;
   const hasEllipsis = summary.includes("……") || /\.{3,}/.test(summary);
   return !/[。！？.!?]$/.test(summary) || hasEllipsis;
@@ -171,7 +180,10 @@ async function rewriteSummaries(items: SummaryRepair[]): Promise<Map<string, str
 
   await runBatches(batches, 2);
   const retries = items
-    .filter((candidate) => !output.has(candidate.item.id) && candidate.articleText.length >= 120)
+    .filter((candidate) => !output.has(candidate.item.id)
+      && (candidate.articleText.length >= 120
+        || hasEditorialFirstPerson(candidate.item.summaryZh)
+        || hasMetaSummaryCommentary(candidate.item.summaryZh)))
     .map((candidate) => [candidate]);
   await runBatches(retries, 2);
   return output;
@@ -222,7 +234,18 @@ async function main() {
   for (const { item } of rewriteCandidates) {
     const summary = rewritten.get(item.id);
     if (!summary) {
-      unresolved += 1;
+      const title = item.titleZh || item.title;
+      const fallback = stripMetaSummaryCommentary(toThirdPersonVoice(item.summaryZh));
+      if ((hasEditorialFirstPerson(item.summaryZh) || hasMetaSummaryCommentary(item.summaryZh))
+        && !hasEditorialFirstPerson(fallback)
+        && !hasMetaSummaryCommentary(fallback)
+        && isUsableGeneratedSummary(title, fallback)) {
+        item.summaryZh = fallback;
+        if (item.recommended) syncRecommendReason(item);
+        fixed += 1;
+      } else {
+        unresolved += 1;
+      }
       continue;
     }
     item.summaryZh = summary;
