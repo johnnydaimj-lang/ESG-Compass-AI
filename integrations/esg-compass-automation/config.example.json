@@ -1,0 +1,11 @@
+{
+  "api_base": "https://esg-compass-ai.vercel.app/api/v1/public",
+  "lookback_days": 7,
+  "overlap_hours": 24,
+  "minimum_score": 60,
+  "page_size": 50,
+  "max_pages": 20,
+  "request_timeout_seconds": 30,
+  "retries": 3,
+  "processed_keys_limit": 10000
+}

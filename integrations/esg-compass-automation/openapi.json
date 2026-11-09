@@ -1,0 +1,164 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "ESG Compass Public API",
+    "version": "1.0.0",
+    "description": "Read-only ESG events, curated summaries, daily report, knowledge zones and status."
+  },
+  "servers": [
+    {
+      "url": "https://esg-compass-ai.vercel.app/api/v1/public"
+    }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "API manifest",
+        "operationId": "getManifest",
+        "responses": {
+          "200": {
+            "description": "Endpoint directory"
+          }
+        }
+      }
+    },
+    "/contents": {
+      "get": {
+        "summary": "List published ESG events",
+        "operationId": "listContents",
+        "parameters": [
+          { "name": "q", "in": "query", "schema": { "type": "string" } },
+          { "name": "contentType", "in": "query", "schema": { "type": "string" }, "description": "政策 / 行业 / 观点 / 学术 / 评级 or English slug" },
+          { "name": "curated", "in": "query", "schema": { "type": "boolean" } },
+          { "name": "since", "in": "query", "schema": { "type": "string", "format": "date-time" } },
+          { "name": "zone", "in": "query", "schema": { "type": "string" } },
+          { "name": "page", "in": "query", "schema": { "type": "integer", "minimum": 1, "default": 1 } },
+          { "name": "pageSize", "in": "query", "schema": { "type": "integer", "minimum": 1, "maximum": 50, "default": 20 } }
+        ],
+        "responses": {
+          "200": {
+            "description": "Paginated event list",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": ["ok", "items", "pagination"],
+                  "properties": {
+                    "ok": { "type": "boolean" },
+                    "items": {
+                      "type": "array",
+                      "items": { "$ref": "#/components/schemas/ContentItem" }
+                    },
+                    "pagination": { "$ref": "#/components/schemas/Pagination" },
+                    "latestPublishedAt": { "type": ["string", "null"], "format": "date-time" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/contents/{id}": {
+      "get": {
+        "summary": "Get one event",
+        "operationId": "getContent",
+        "parameters": [
+          { "name": "id", "in": "path", "required": true, "schema": { "type": "string" } },
+          { "name": "includeBody", "in": "query", "schema": { "type": "boolean", "default": false } }
+        ],
+        "responses": {
+          "200": {
+            "description": "Event detail"
+          },
+          "404": {
+            "description": "Event not found"
+          }
+        }
+      }
+    },
+    "/daily": {
+      "get": {
+        "summary": "Get the current daily report",
+        "operationId": "getDaily",
+        "responses": {
+          "200": { "description": "Daily report" }
+        }
+      }
+    },
+    "/zones": {
+      "get": {
+        "summary": "List knowledge zones and event counts",
+        "operationId": "listZones",
+        "responses": {
+          "200": { "description": "Knowledge zones" }
+        }
+      }
+    },
+    "/status": {
+      "get": {
+        "summary": "Get publication status",
+        "operationId": "getStatus",
+        "responses": {
+          "200": { "description": "Publication status" }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Pagination": {
+        "type": "object",
+        "required": ["page", "pageSize", "total", "hasMore"],
+        "properties": {
+          "page": { "type": "integer" },
+          "pageSize": { "type": "integer" },
+          "total": { "type": "integer" },
+          "hasMore": { "type": "boolean" },
+          "nextPage": { "type": ["integer", "null"] }
+        }
+      },
+      "ContentItem": {
+        "type": "object",
+        "required": [
+          "id",
+          "displayTitle",
+          "displaySummary",
+          "contentType",
+          "region",
+          "publishedAt",
+          "sourceName",
+          "link",
+          "score",
+          "recommended"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "titleZh": { "type": ["string", "null"] },
+          "displayTitle": { "type": "string" },
+          "summary": { "type": "string" },
+          "summaryZh": { "type": ["string", "null"] },
+          "displaySummary": { "type": "string" },
+          "contentType": { "type": "string", "enum": ["政策", "行业", "观点", "学术", "评级"] },
+          "region": { "type": "string" },
+          "esgTopic": { "type": "string" },
+          "publishedAt": { "type": "string", "format": "date-time" },
+          "sourceName": { "type": "string" },
+          "sourceUrl": { "type": "string", "format": "uri" },
+          "articleUrl": { "type": ["string", "null"], "format": "uri" },
+          "link": { "type": "string", "format": "uri" },
+          "score": { "type": "integer" },
+          "recommended": { "type": "boolean" },
+          "reason": {
+            "type": ["string", "null"],
+            "description": "Only returned for curated items."
+          },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "sourceRefs": { "type": "array", "items": { "type": "object" } },
+          "zones": { "type": "array", "items": { "type": "object" } }
+        }
+      }
+    }
+  }
+}

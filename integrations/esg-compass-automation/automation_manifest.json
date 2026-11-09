@@ -1,0 +1,20 @@
+{
+  "name": "ESG Compass Auto Brief",
+  "version": "1.0.0",
+  "entrypoint": "run_workflow.py",
+  "windows_entrypoint": "run.ps1",
+  "recommended_interval_minutes": 60,
+  "public_api": "https://esg-compass-ai.vercel.app/api/v1/public",
+  "state_file": "state/state.json",
+  "outputs": {
+    "machine": "out/ai_payload.json",
+    "markdown": "out/latest_digest.md"
+  },
+  "selection": {
+    "include_all_curated": true,
+    "minimum_score_for_ordinary_items": 60
+  },
+  "requires_public_api_key": false,
+  "requires_platform_connector": true,
+  "handoff_prompt": "HANDOFF_PROMPT.md"
+}
