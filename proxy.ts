@@ -17,10 +17,15 @@ export function proxy(request: NextRequest) {
       return NextResponse.json({ error: "请求过于频繁" }, { status: 429, headers: { "Retry-After": "60" } });
     }
 
-    if (pathname.startsWith("/api/v1/")) {
+    const isV1 = pathname === "/api/v1" || pathname.startsWith("/api/v1/");
+    const isPublicV1 = pathname === "/api/v1/public" || pathname.startsWith("/api/v1/public/");
+    if (isV1 && !isPublicV1 && request.method !== "OPTIONS") {
       const key = process.env.ESG_API_KEY;
       if (!key) return NextResponse.json({ error: "ESG_API_KEY 未配置" }, { status: 503 });
-      if (request.headers.get("authorization") !== `Bearer ${key}`) {
+      const authorization = request.headers.get("authorization") || "";
+      const bearer = authorization.match(/^Bearer\s+(.+)$/i)?.[1]?.trim();
+      const provided = bearer || (request.headers.get("x-api-key") || "").trim();
+      if (provided !== key) {
         return NextResponse.json({ error: "未授权" }, { status: 401 });
       }
     }
