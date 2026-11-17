@@ -15,7 +15,7 @@ Last updated: 2026-11-17
 ## Climate risk lab
 
 - Interactive prototype implemented as the independent `/climate-lab` tool with three sample sites and five physical/transition risks.
-- The homepage exposes a compact `ESG Compass Labs` entry with a flask mark and one primary action; the knowledge-zone index remains regulation-only.
+- The homepage exposes a flask-marked `进入实验室` shortcut at the right edge of the content-type filter row; no standalone promotional banner is used, and the knowledge-zone index remains regulation-only.
 - `/zones/climate-risk` remains a regulation and event knowledge zone; `/zones/climate-lab` redirects to the new canonical route.
 - Desktop and 390px mobile rendering validated with no horizontal overflow or console warnings.
 - Physical SSP scenarios and NGFS transition scenarios are independently controlled; the prototype does not infer a one-to-one mapping.

@@ -157,7 +157,7 @@ publication bundle ---------------------+
 
 `components/ClimateRiskLab.tsx` 作为独立路由 `/climate-lab` 的客户端解释层，使用三处示范地点、五类风险和静态示意系数验证交互。它不写入发布快照，不对外暴露为事实 API，也不承担科学计算。物理风险与转型风险分别维护 SSP 和 NGFS 情景状态，避免错误映射。
 
-`components/HomeClient.tsx` 在 ESG 快讯标题下提供紧凑的 `ESG Compass Labs` 入口，烧瓶标识和单一按钮指向 `/climate-lab`。知识专区恢复纯监管指南列表；`/zones/climate-risk` 保留原有世界地图、监管里程碑与法规内容。旧路由 `/zones/climate-lab` 通过 Next.js `redirect()` 兼容跳转。
+`components/HomeClient.tsx` 在内容类型筛选栏最右侧提供烧瓶标识和“进入实验室”入口，指向 `/climate-lab`，不渲染独立 Banner。知识专区保持纯监管指南列表；`/zones/climate-risk` 保留原有世界地图、监管里程碑与法规内容。旧路由 `/zones/climate-lab` 通过 Next.js `redirect()` 兼容跳转。
 
 ### 9.2 生产数据架构
 

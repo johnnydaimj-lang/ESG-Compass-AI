@@ -228,28 +228,6 @@ function HotTopics({
   );
 }
 
-function ClimateLabEntry() {
-  return (
-    <section aria-labelledby="climate-lab-entry-title" className="overflow-hidden rounded-xl border border-brand-line bg-surface">
-      <div className="flex flex-col gap-4 p-4 sm:flex-row sm:items-center sm:p-5">
-        <div className="flex min-w-0 flex-1 items-start gap-3.5">
-          <span className="grid h-11 w-11 shrink-0 place-items-center rounded-lg bg-brand text-surface shadow-[0_6px_18px_rgba(15,118,110,0.18)]" aria-hidden>
-            <FlaskConical size={21} />
-          </span>
-          <div className="min-w-0">
-            <div className="text-[10px] font-semibold uppercase tracking-[0.14em] text-brand-deep">ESG Compass Labs · 产品实验</div>
-            <h2 id="climate-lab-entry-title" className="mt-1 text-[17px] font-semibold tracking-tight text-ink">气候风险实验室</h2>
-            <p className="mt-1 text-[12px] leading-relaxed text-ink-soft">选择地点与情景，直观看见气候风险如何传导至经营活动、资产价值和会计判断。</p>
-          </div>
-        </div>
-        <Link href="/climate-lab" className="inline-flex h-10 shrink-0 items-center justify-center gap-1.5 rounded-lg bg-brand px-4 text-[12.5px] font-semibold text-surface transition-colors hover:bg-brand-deep focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
-          进入实验室 <ArrowUpRight size={14} aria-hidden />
-        </Link>
-      </div>
-    </section>
-  );
-}
-
 function FeedItem({
   item,
   zones,
@@ -566,8 +544,6 @@ export default function HomeClient({
         )}
       </header>
 
-      <ClimateLabEntry />
-
       <HotTopics hotspots={visibleHotspots} heatHistory={heatHistory} />
 
       <section
@@ -687,6 +663,15 @@ export default function HomeClient({
               重置
             </button>
           )}
+          <span className="h-5 w-px shrink-0 bg-line" aria-hidden />
+          <Link
+            href="/climate-lab"
+            title="进入气候风险实验室"
+            className="inline-flex shrink-0 items-center gap-1.5 rounded-md bg-brand-soft px-2.5 py-1.5 text-[11.5px] font-semibold text-brand-deep transition-colors hover:bg-brand hover:text-surface focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+          >
+            <FlaskConical size={13} aria-hidden />
+            进入实验室
+          </Link>
         </div>
       </section>
 
