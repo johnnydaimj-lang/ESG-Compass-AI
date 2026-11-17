@@ -14,7 +14,8 @@ Last updated: 2026-11-17
 
 ## Climate risk lab
 
-- Interactive prototype implemented in `/zones/climate-risk` with three sample sites and five physical/transition risks.
+- Interactive prototype implemented as the independent `/zones/climate-lab` tool with three sample sites and five physical/transition risks.
+- `/zones/climate-risk` remains a regulation and event knowledge zone; the two tasks are separated on the knowledge-zone index.
 - Desktop and 390px mobile rendering validated with no horizontal overflow or console warnings.
 - Physical SSP scenarios and NGFS transition scenarios are independently controlled; the prototype does not infer a one-to-one mapping.
 - All current spatial values and valuation bridges are explicitly illustrative and are not predictions, engineering assessments, insurance prices, or statutory valuations.

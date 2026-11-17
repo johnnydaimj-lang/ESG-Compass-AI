@@ -6,7 +6,6 @@ import { getAllZones, getZoneById } from "@/lib/zones-store";
 import WorldMapSection from "@/components/WorldMapSection";
 import { getRegulationsForZone } from "@/lib/regulations";
 import { getContentLink } from "@/lib/esg-data";
-import ClimateRiskLab from "@/components/ClimateRiskLab";
 
 interface Props { params: Promise<{ id: string }> }
 export const dynamic = "force-dynamic";
@@ -27,7 +26,7 @@ export default async function ZoneDetailPage({ params }: Props) {
   }));
 
   return (
-    <div className={`mx-auto space-y-10 ${zone.id === "climate-risk" ? "max-w-6xl" : "max-w-3xl"}`}>
+    <div className="mx-auto max-w-3xl space-y-10">
       <Link href="/zones" className="inline-flex items-center gap-1.5 text-[13px] text-ink-soft transition-colors hover:text-brand-deep">
         <ArrowLeft size={14} />知识专区
       </Link>
@@ -36,10 +35,6 @@ export default async function ZoneDetailPage({ params }: Props) {
         <h1 className="mb-2 text-2xl font-semibold tracking-tight text-ink">{zone.name}</h1>
         <p className="max-w-2xl text-[14px] leading-relaxed text-ink-soft">{zone.description}</p>
       </section>
-
-      {zone.id === "climate-risk" ? (
-        <ClimateRiskLab events={contentRegulations} />
-      ) : null}
 
       <WorldMapSection regions={zone.regions || []} zoneName={zone.name} fallbackMilestones={zone.milestones} contentRegulations={contentRegulations} />
     </div>
