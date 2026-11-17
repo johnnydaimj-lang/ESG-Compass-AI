@@ -12,6 +12,14 @@ Last updated: 2026-11-17
 - Local site: http://localhost:3001
 - Production site: https://esg-compass-ai.vercel.app
 
+## Climate risk lab
+
+- Interactive prototype implemented in `/zones/climate-risk` with three sample sites and five physical/transition risks.
+- Desktop and 390px mobile rendering validated with no horizontal overflow or console warnings.
+- Physical SSP scenarios and NGFS transition scenarios are independently controlled; the prototype does not infer a one-to-one mapping.
+- All current spatial values and valuation bridges are explicitly illustrative and are not predictions, engineering assessments, insurance prices, or statutory valuations.
+- Next implementation slice: one live physical-risk adapter plus NGFS transition data, normalized provenance, uncertainty intervals, and versioned caching.
+
 ## Data quality gates
 
 - Public lists require a score of at least 30 and a usable third-person summary.
