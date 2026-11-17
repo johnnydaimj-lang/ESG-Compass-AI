@@ -33,7 +33,8 @@ Last updated: 2026-11-17
 ## Source health
 
 - Latest weekly report: `data/source-health.json`
-- Current result: 78 total, 53 enabled, 41 healthy, 4 idle, 0 degraded, 8 pending configuration, 25 disabled (generated 2026-11-16).
+- Current source configuration: 79 total, 54 enabled; the newly enabled UK Environment Agency Atom source passed a focused collection check on 2026-11-17.
+- Latest full health result: 78 total, 53 enabled, 41 healthy, 4 idle, 0 degraded, 8 pending configuration, 25 disabled (generated 2026-11-16 before the new source was added).
 - Pending sources require `SOGOU_COOKIE` or mailbox credentials. Do not enable or rewrite sources without user approval.
 
 ## Known limitations

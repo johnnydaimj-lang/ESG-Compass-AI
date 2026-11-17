@@ -109,6 +109,18 @@ publication bundle ---------------------+
 
 实时采集当前优先支持 RSS 适配器。其它网页、搜索和邮件适配器必须单独实现并通过 sourceRun 报告状态，不能伪造成功。
 
+### 6.1 企业事件最小实现
+
+企业事件增强不引入新的前台模块或数据实体，复用现有 `ContentItem`、`StructuredFact`、故事聚簇和发布快照：
+
+1. `data/sources.json` 保存已验证的企业行动与执法信源；官方 RSS/Atom 优先，并用 `keywords` 在采集端限制噪声。
+2. `lib/pipeline/prefilter.ts` 通过 `STRONG_ESG_TERMS` 识别循环经济、水资源、污染、职业安全和极端天气等实质事件。
+3. `lib/pipeline/classify.ts` 将企业行动与对具体企业的处罚、起诉、停工等统一归为“行业”，同时保留普遍适用监管规则的“政策”分类。
+4. `prompts/content-understanding.md` 与 `prompts/selection-score.md` 要求保留企业主体、动作、规模和证据阶段，但不新增企业档案字段。
+5. 聚簇、双评分、`isFeedEligible` 和精选推荐理由完全沿用现有逻辑。
+
+首个扩展信源为英国环境署官方 Atom，仅保留起诉、罚款、定罪、非法污染、环境整改承诺和许可暂停/撤销等明确执法事件。
+
 ## 7. 前台模块
 
 - **日夜间主题**：`components/ThemeToggle.tsx` 提供浅色 / 跟随系统 / 深色三档；`app/layout.tsx` 注入内联脚本在首帧前写入 `data-theme`，`globals.css` 以 CSS 变量覆盖深色值。
@@ -122,3 +134,4 @@ publication bundle ---------------------+
 - `tests/cluster.test.ts`：材料 ID、信源 ID、关系阈值。
 - `tests/heat.test.ts`：窗口、独立信源、编辑信源门槛。
 - `tests/publication-store.test.ts`：发布快照写入和旧文件隔离。
+- `tests/enterprise-events.test.ts`：企业行动、企业执法事件、普遍适用政策和无关企业新闻的预筛与分类回归。
