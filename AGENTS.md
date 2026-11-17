@@ -38,6 +38,14 @@ Do not revert an update because one source fails. Preserve the last valid data a
 - Do not automatically enable candidate sources or change `data/sources.json` without user approval.
 - Keep published summaries complete, accurate, and at most 300 Chinese characters.
 
+## Product optimization protocol
+
+- Before implementing a new product idea, assess the user value, strategic fit, evidence, implementation and maintenance cost, risks, and simpler alternatives.
+- Do not treat every idea as a requirement. Surface weak assumptions, unnecessary complexity, conflicts with existing priorities, and ideas that should be validated or deferred before implementation.
+- When an idea is worth pursuing, state the expected outcome and success criteria before changing the product.
+- After every implemented product optimization, update `docs/PRD.md` and `docs/ARCHITECTURE.md` in the same change so the product definition, technical design, and code remain aligned.
+- If an optimization affects APIs, data contracts, integrations, or operating procedures, update the corresponding durable documentation as part of the same change.
+
 ## Git and deployment
 
 - Do not stage unrelated files under `data/content-ops/`, weekly previews, scans, or generated drafts.
