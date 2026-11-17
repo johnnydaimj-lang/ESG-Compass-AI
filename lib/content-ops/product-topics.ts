@@ -1,8 +1,6 @@
 import type { ContentItem } from "@/lib/contracts/content";
 import type { StoryCluster } from "@/lib/contracts/pipeline";
-
-const WEEKLY_ROUNDUP_PATTERN =
-  /(week in review|weekly roundup|this week in esg|一周回顾|本周esg新闻|本周esg动态)/i;
+import { isPeriodicRoundupTitle } from "@/lib/roundup-policy";
 
 const EDITORIAL_HINT_TERMS: Array<{ label: string; pattern: RegExp }> = [
   {
@@ -90,7 +88,7 @@ function contentText(item: ContentItem): string {
 }
 
 export function isWeeklyRoundup(item: ContentItem): boolean {
-  return WEEKLY_ROUNDUP_PATTERN.test(contentText(item));
+  return isPeriodicRoundupTitle(item.title) || isPeriodicRoundupTitle(item.titleZh || "");
 }
 
 function dateValue(value: string): number | null {

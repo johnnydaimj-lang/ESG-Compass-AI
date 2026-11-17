@@ -92,6 +92,14 @@ test("标题复述或摘要过短的条目不进入公开列表", () => {
   assert.equal(isFeedEligible(tooLong), false);
 });
 
+test("周期性汇编即使分数和摘要合格也不进入公开列表", () => {
+  const roundup = item("roundup", 80, "ESG Today");
+  roundup.title = "ESG Today: Week in Review";
+  roundup.titleZh = "ESG 今日：一周回顾";
+  roundup.summaryZh = "本期汇总全球气候政策、企业减排和可持续金融领域的多项进展。";
+  assert.equal(isFeedEligible(roundup), false);
+});
+
 test("同一故事簇只保留一个代表条目，优先最早发布", () => {
   const earliest = item("earliest", 20, "Source A", "story-1");
   const later = item("later", 22, "Source B", "story-1", "2026-10-28T01:00:00.000Z");

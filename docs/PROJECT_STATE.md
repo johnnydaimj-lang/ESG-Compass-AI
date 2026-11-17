@@ -4,9 +4,9 @@ Last updated: 2026-11-17
 
 ## Current release
 
-- Publication data: 1869 contents
+- Publication data: 1871 contents
 - Curated contents: 19
-- Publicly visible contents: 571
+- Publicly visible contents: 567
 - Latest publication timestamp: 2026-11-17T05:00:00.000Z
 - Latest publication: 揭晓：俄罗斯、沙特阿拉伯和澳大利亚是有史以来最大的二氧化碳出口国
 - Local site: http://localhost:3001
@@ -19,6 +19,7 @@ Last updated: 2026-11-17
 - Non-curated items must not carry recommendation reasons.
 - Summaries must not repeat the title, use first-person editorial voice, or comment on source completeness.
 - Public summaries must be complete and no longer than 300 Chinese characters.
+- Periodic multi-event roundups such as weekly reviews are excluded from the event timeline; individual facts should be collected from their original sources.
 
 ## API
 

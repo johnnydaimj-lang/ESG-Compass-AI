@@ -107,3 +107,22 @@ test("普通企业新闻不因企业身份自动通过预筛", () => {
     assert.equal(prefilterMaterial(material(title)).label, "UNKNOWN", title);
   }
 });
+
+test("周期性 ESG 汇编不进入事件时间线", () => {
+  const cases = [
+    "ESG Today: Week in Review",
+    "ESG与可持续发展周报：本周五项重要政策进展",
+    "本周ESG新闻盘点",
+    "Climate Weekly Roundup: regulations, deals and research",
+  ];
+  for (const title of cases) {
+    const result = prefilterMaterial(material(title, "包含气候、碳排放和供应链等多项 ESG 动态"));
+    assert.equal(result.label, "BLOCK", title);
+    assert.equal(result.reason, "周期性汇总不进入事件时间线", title);
+  }
+});
+
+test("含周度措辞的单一新增事实不被误伤", () => {
+  const result = prefilterMaterial(material("监管机构公布企业气候披露新规", "规则将于下周正式生效"));
+  assert.equal(result.label, "PASS");
+});

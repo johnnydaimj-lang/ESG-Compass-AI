@@ -1,6 +1,7 @@
 import type { PrefilterResult, RawMaterial } from "@/lib/contracts/pipeline";
 import { CLEAR_NOISE_TERMS, STRONG_ESG_TERMS } from "./config";
 import { compactText, normalizeText } from "./text";
+import { isPeriodicRoundupTitle } from "@/lib/roundup-policy";
 
 export function prefilterMaterial(material: RawMaterial): PrefilterResult {
   const title = compactText(material.title);
@@ -10,6 +11,9 @@ export function prefilterMaterial(material: RawMaterial): PrefilterResult {
 
   if (!title && !summary && !body) {
     return { label: "UNKNOWN", reason: "材料为空，等待补充" };
+  }
+  if (isPeriodicRoundupTitle(title)) {
+    return { label: "BLOCK", reason: "周期性汇总不进入事件时间线" };
   }
   if (CLEAR_NOISE_TERMS.some((term) => text.includes(normalizeText(term)))) {
     return { label: "BLOCK", reason: "招聘、报名或培训类内容" };
