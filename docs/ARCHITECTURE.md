@@ -117,7 +117,8 @@ publication bundle ---------------------+
 2. `lib/pipeline/prefilter.ts` 通过 `STRONG_ESG_TERMS` 识别循环经济、水资源、污染、职业安全和极端天气等实质事件。
 3. `lib/pipeline/classify.ts` 将企业行动与对具体企业的处罚、起诉、停工等统一归为“行业”，同时保留普遍适用监管规则的“政策”分类。
 4. `prompts/content-understanding.md` 与 `prompts/selection-score.md` 要求保留企业主体、动作、规模和证据阶段，但不新增企业档案字段。
-5. 聚簇、双评分、`isFeedEligible` 和精选推荐理由完全沿用现有逻辑。
+5. 聚簇、双评分和精选推荐理由沿用现有逻辑；`isFeedEligible` 额外确保中文标题与 20–300 字中文摘要后才公开。
+6. `scripts/backfill-zh.ts` 将空缺或实际仍为英文的 `titleZh` / `summaryZh` 进入翻译队列；LLM 不可用时会显式进入公开翻译接口回退。
 
 首个扩展信源为英国环境署官方 Atom，仅保留起诉、罚款、定罪、非法污染、环境整改承诺和许可暂停/撤销等明确执法事件。
 

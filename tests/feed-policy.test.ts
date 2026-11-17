@@ -15,6 +15,7 @@ function item(
   return {
     id,
     title: id,
+    titleZh: `测试事件${id}`,
     summary: `这条内容提供了区别于标题的具体事实、影响范围与后续安排，可用于公开列表测试。`,
     contentType: "政策",
     region: "全球",
@@ -71,12 +72,24 @@ test("标题复述或摘要过短的条目不进入公开列表", () => {
     titleZh: "某机构发布新的可持续披露规则",
     summaryZh: "某机构发布新的可持续披露规则。现有中文摘要仅说明该宣布，未提供具体实施安排。",
   };
+  const englishOnly = {
+    ...substantive,
+    titleZh: "Company launches a sustainability programme",
+    summaryZh: "The company launched a programme covering suppliers and operational emissions across its manufacturing network.",
+  };
+  const tooLong = {
+    ...substantive,
+    titleZh: "某企业启动供应链减碳计划",
+    summaryZh: `某企业启动供应链减碳计划，${"覆盖制造与物流环节。".repeat(30)}`,
+  };
 
   assert.equal(isFeedEligible(substantive), true);
   assert.equal(isFeedEligible(titleEcho), false);
   assert.equal(isFeedEligible(tooShort), false);
   assert.equal(isFeedEligible(firstPerson), false);
   assert.equal(isFeedEligible(metaCommentary), false);
+  assert.equal(isFeedEligible(englishOnly), false);
+  assert.equal(isFeedEligible(tooLong), false);
 });
 
 test("同一故事簇只保留一个代表条目，优先最早发布", () => {

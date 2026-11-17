@@ -177,7 +177,11 @@ async function translateLlmBatch(
 }
 
 async function translateWithLlm(tasks: string[]): Promise<TranslationResult[]> {
-  const results = new Array<TranslationResult>(tasks.length);
+  // 显式初始化失败槽位，避免无 LLM 配置时稀疏数组的 forEach 跳过公开翻译回退。
+  const results = Array.from(
+    { length: tasks.length },
+    (): TranslationResult => ({ ok: false, value: "" }),
+  );
   const config = getLlmConfig();
   if (!config || tasks.length === 0) return results;
   const llmConfig = config;

@@ -8,6 +8,11 @@ import {
 // 公开列表硬门槛：低分、摘要缺失或仅复述标题的内容不进入首页、知识专区、日报或公开 API。
 // 多源转载只用于聚类与热度，不得绕过质量门槛。
 export const MIN_FEED_SCORE = 30;
+export const MAX_FEED_SUMMARY_LENGTH = 300;
+
+function hasChinese(value: string): boolean {
+  return /[\u3400-\u9fff]/u.test(value);
+}
 
 export function storyKey(item: ContentItem): string {
   return item.pipeline?.storyId || item.id;
@@ -31,6 +36,9 @@ export function isFeedEligible(item: ContentItem): boolean {
   const title = String(item.titleZh || item.title || "").trim();
   const summary = String(item.summaryZh || item.summary || "").trim();
   return summary.length >= 20
+    && summary.length <= MAX_FEED_SUMMARY_LENGTH
+    && hasChinese(title)
+    && hasChinese(summary)
     && !isTitleEcho(title, summary)
     && !hasEditorialFirstPerson(summary)
     && !hasMetaSummaryCommentary(summary);

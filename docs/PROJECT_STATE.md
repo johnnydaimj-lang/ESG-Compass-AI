@@ -4,11 +4,11 @@ Last updated: 2026-11-17
 
 ## Current release
 
-- Publication data: 1711 contents
-- Curated contents: 22
-- Publicly visible contents: 386
-- Latest publication timestamp: 2026-11-15T00:00:00.000Z
-- Latest publication: 泰国：与缅甸联合调查有关中国在掸邦采矿污染的指控
+- Publication data: 1818 contents
+- Curated contents: 19
+- Publicly visible contents: 581
+- Latest publication timestamp: 2026-11-17T05:00:00.000Z
+- Latest publication: 揭晓：俄罗斯、沙特阿拉伯和澳大利亚是有史以来最大的二氧化碳出口国
 - Local site: http://localhost:3001
 - Production site: https://esg-compass-ai.vercel.app
 
