@@ -39,19 +39,19 @@
     }
   },
   {
-    "id": "src-umss5i",
-    "title": "ESG与可持续发展周报：西部陆海新通道完成首票碳核查认证，政策推动健全碳排放核算体系_趋势策略_研报 - 证券之星",
-    "summary": "ESG与可持续发展周报：西部陆海新通道完成首票碳核查认证",
+    "id": "src-78ye29",
+    "title": "财政部：中加双方同意探索扩大双边贸易和投资中的本币使用 鼓励双向投资 - 财联社",
+    "summary": "财政部：中加双方同意探索扩大双边贸易和投资中的本币使用 鼓励双向投资 财联社",
     "contentType": "政策",
     "region": "中国",
-    "publishedAt": "2026-11-17T01:29:00.000Z",
+    "publishedAt": "2026-11-17T04:04:00.000Z",
     "importanceLevel": "中",
     "sourceName": "金融监管总局通知公告",
     "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tX3lPMGlJV2dmelRlbWM4WERMTlBmVFpPdWRPbk5Ka1FuaDM5ODJrS1dxWUpXaFJKNHJKT2VwM2dLMG56cDN2OGt6VjZqeUdBbkpCQmljZEhveHRWbHJpUU5n?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBTZ01xeHVYSVVwLUg4V1F3SzhNSHVFbi1Ud3N4aWxHem1xOTQ2cGNRN0Fwc1k0NkM4Z244aTJfMmh0Q0pVZWFYUA?oc=5",
     "esgTopic": "合规与监管",
-    "titleZh": "ESG与可持续发展周报：西部陆海新通道完成首票碳核查认证，政策推动健全碳排放核算体系_趋势策略_研报 - 证券之星",
-    "summaryZh": "ESG与可持续发展周报：西部陆海新通道完成首票碳核查认证",
+    "titleZh": "财政部：中加双方同意探索扩大双边贸易和投资中的本币使用 鼓励双向投资 - 财联社",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -59,7 +59,7 @@
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T1_5",
-      "storyId": "story-1lxcufi",
+      "storyId": "story-1cyn88g",
       "heat": 0,
       "tags": [
         "政策",
@@ -67,10 +67,10 @@
         "中国"
       ],
       "fact": {
-        "title": "ESG与可持续发展周报：西部陆海新通道完成首票碳核查认证，政",
+        "title": "财政部：中加双方同意探索扩大双边贸易和投资中的本币使用 鼓励",
         "subject": "金融监管总局通知公告",
         "action": "发布",
-        "object": "ESG与可持续发展周报：西部陆海新通道完成首票碳核查认证，政策推动健全碳排放核算体系_趋势策略_研报 - 证券之星",
+        "object": "财政部：中加双方同意探索扩大双边贸易和投资中的本币使用 鼓励双向投资 - 财联社",
         "occurredAt": "2026-11-17"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1092,6 +1092,318 @@
     }
   },
   {
+    "id": "src-1cqteae",
+    "title": "Asean’s high-tech push risks deepening imported fuel dependence, analyst warns",
+    "summary": "Asean’s high-tech push risks deepening imported fuel dependence",
+    "contentType": "观点",
+    "region": "亚洲",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "Eco-Business（亚洲 ESG 新闻）",
+    "sourceUrl": "https://www.eco-business.com/news/",
+    "articleUrl": "https://www.eco-business.com/news/aseans-high-tech-push-risks-deepening-imported-fuel-dependence-analyst-warns/",
+    "esgTopic": "合规与监管",
+    "titleZh": "分析师警告称，东盟的高科技推动可能会加深对进口燃料的依赖",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 52,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-zj7e6u",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "亚洲"
+      ],
+      "fact": {
+        "title": "Asean’s high-tech push risks d",
+        "subject": "Eco-Business（亚洲 ESG 新闻）",
+        "action": "发布",
+        "object": "Asean’s high-tech push risks deepening imported fuel dependence, analyst warns",
+        "occurredAt": "2026-11-17"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-x3y6xe",
+    "title": "第二次中加经济财金战略对话联合成果文件",
+    "summary": "第二次中加经济财金战略对话联合成果文件",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "财政部政策发布",
+    "sourceUrl": "https://www.mof.gov.cn/zhengwuxinxi/",
+    "articleUrl": "https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202611/t20261117_4004809.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "第二次中加经济财金战略对话联合成果文件",
+    "summaryZh": "第二次中加经济财金战略对话联合成果文件",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 57,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1sgfyq7",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "第二次中加经济财金战略对话联合成果文件",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "第二次中加经济财金战略对话联合成果文件",
+        "occurredAt": "2026-11-17"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1rl9wew",
+    "title": "财政部黑龙江监管局：深入贯彻“加强、聚焦、优化”工作方针 抓实中央转...",
+    "summary": "财政部黑龙江监管局：深入贯彻“加强、聚焦、优化”工作方针 抓实中央转",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "财政部政策发布",
+    "sourceUrl": "https://www.mof.gov.cn/zhengwuxinxi/",
+    "articleUrl": "http://hlj.mof.gov.cn/caizhengjiancha/202610/t20261023_4003342.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "财政部黑龙江监管局：深入贯彻“加强、聚焦、优化”工作方针 抓实中央转...",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 57,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-11yjx6z",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "财政部黑龙江监管局：深入贯彻“加强、聚焦、优化”工作方针 抓",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部黑龙江监管局：深入贯彻“加强、聚焦、优化”工作方针 抓实中央转...",
+        "occurredAt": "2026-11-17"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-z5rn86",
+    "title": "财政部广东监管局：严把“四关”扎实做好国债资金监管",
+    "summary": "财政部广东监管局：严把“四关”扎实做好国债资金监管",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "财政部政策发布",
+    "sourceUrl": "https://www.mof.gov.cn/zhengwuxinxi/",
+    "articleUrl": "http://gd.mof.gov.cn/caizhengjiancha/202611/t20261104_4004053.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "财政部广东监管局：严把“四关”扎实做好国债资金监管",
+    "summaryZh": "财政部广东监管局：严把“四关”扎实做好国债资金监管",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 57,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-sr7uas",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "财政部广东监管局：严把“四关”扎实做好国债资金监管",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部广东监管局：严把“四关”扎实做好国债资金监管",
+        "occurredAt": "2026-11-17"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1ujqqh1",
+    "title": "廖岷主持《金融时报》副主编兼首席经济评论员马丁·沃尔夫线上专题讲座",
+    "summary": "廖岷主持《金融时报》副主编兼首席经济评论员马丁·沃尔夫线上专题讲座",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "财政部政策发布",
+    "sourceUrl": "https://www.mof.gov.cn/zhengwuxinxi/",
+    "articleUrl": "https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202611/t20261114_4004694.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "廖岷主持《金融时报》副主编兼首席经济评论员马丁·沃尔夫线上专题讲座",
+    "summaryZh": "廖岷主持《金融时报》副主编兼首席经济评论员马丁·沃尔夫线上专题讲座",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 59,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1cdsxg5",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "廖岷主持《金融时报》副主编兼首席经济评论员马丁·沃尔夫线上专",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "廖岷主持《金融时报》副主编兼首席经济评论员马丁·沃尔夫线上专题讲座",
+        "occurredAt": "2026-11-17"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1d39kjf",
+    "title": "财政部党组召开2026年第二轮巡视动员部署会",
+    "summary": "财政部党组召开2026年第二轮巡视动员部署会",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "财政部政策发布",
+    "sourceUrl": "https://www.mof.gov.cn/zhengwuxinxi/",
+    "articleUrl": "https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202611/t20261113_4004682.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "财政部党组召开2026年第二轮巡视动员部署会",
+    "summaryZh": "财政部党组召开2026年第二轮巡视动员部署会",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 57,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1a7wss1",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "财政部党组召开2026年第二轮巡视动员部署会",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部党组召开2026年第二轮巡视动员部署会",
+        "occurredAt": "2026-11-17"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-wgr35a",
+    "title": "廖岷会见美国泛大西洋投资集团董事长福特",
+    "summary": "廖岷会见美国泛大西洋投资集团董事长福特",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "财政部政策发布",
+    "sourceUrl": "https://www.mof.gov.cn/zhengwuxinxi/",
+    "articleUrl": "https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202611/t20261113_4004643.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "廖岷会见美国泛大西洋投资集团董事长福特",
+    "summaryZh": "廖岷会见美国泛大西洋投资集团董事长福特",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 57,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-34m23b",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "廖岷会见美国泛大西洋投资集团董事长福特",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "廖岷会见美国泛大西洋投资集团董事长福特",
+        "occurredAt": "2026-11-17"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1nxzq3",
+    "title": "财政部大连监管局：突出“三个坚持”扎实开展财经纪律重点问题专项整治...",
+    "summary": "财政部大连监管局：突出“三个坚持”扎实开展财经纪律重点问题专项整治",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "财政部政策发布",
+    "sourceUrl": "https://www.mof.gov.cn/zhengwuxinxi/",
+    "articleUrl": "http://dl.mof.gov.cn/caizhengjiancha/202610/t20261020_4003094.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "财政部大连监管局：突出“三个坚持”扎实开展财经纪律重点问题专项整治...",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 59,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-wu6f9g",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "财政部大连监管局：突出“三个坚持”扎实开展财经纪律重点问题专",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部大连监管局：突出“三个坚持”扎实开展财经纪律重点问题专项整治...",
+        "occurredAt": "2026-11-17"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-copsmn",
     "title": "收盘价首次低于1元，000010、000656、600567，提示退市风险！ - 同花顺财经",
     "summary": "收盘价首次低于1元，000010、000656、600567，提示退市风险！",
@@ -1354,10 +1666,10 @@
         "全球"
       ],
       "fact": {
-        "title": "White & Case, Baker McKenzie a",
+        "title": "White & Case、Baker McKenzie 和 ",
         "subject": "贝克·麦坚时（Baker McKenzie）ESG/监管洞察",
         "action": "发布",
-        "object": "White & Case, Baker McKenzie and A&O Shearman Lead on Middle East IPOs - Law.com",
+        "object": "White & Case、Baker McKenzie 和 A&O Shearman 主导中东 IPO - Law.com",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -2586,7 +2898,7 @@
     "articleUrl": "http://hlj.mof.gov.cn/caizhengjiancha/202610/t20261023_4003342.htm",
     "esgTopic": "合规与监管",
     "titleZh": "财政部黑龙江监管局：深入贯彻“加强、聚焦、优化”工作方针 抓实中央转...",
-    "summaryZh": "",
+    "summaryZh": "财政部黑龙江监管局：深入贯彻“加强、聚焦、优化”工作方针 抓实中央转",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -2733,7 +3045,7 @@
     "id": "src-7kgozp",
     "title": "廖岷会见美国泛大西洋投资集团董事长福特",
     "summary": "廖岷会见美国泛大西洋投资集团董事长福特",
-    "contentType": "政策",
+    "contentType": "行业",
     "region": "中国",
     "publishedAt": "2026-11-16T00:00:00.000Z",
     "importanceLevel": "中",
@@ -2746,14 +3058,14 @@
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
-      "score": 57,
+      "score": 52,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
       "storyId": "story-34m23b",
       "heat": 0,
       "tags": [
-        "政策",
+        "行业",
         "合规与监管",
         "中国"
       ],
@@ -2781,7 +3093,7 @@
     "articleUrl": "http://dl.mof.gov.cn/caizhengjiancha/202610/t20261020_4003094.htm",
     "esgTopic": "合规与监管",
     "titleZh": "财政部大连监管局：突出“三个坚持”扎实开展财经纪律重点问题专项整治...",
-    "summaryZh": "",
+    "summaryZh": "财政部大连监管局：突出“三个坚持”扎实开展财经纪律重点问题专项整治",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -2828,7 +3140,7 @@
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
-      "storyId": "story-w3an4b",
+      "storyId": "story-1ukvq68",
       "heat": 0,
       "tags": [
         "政策",
@@ -3900,45 +4212,6 @@
     }
   },
   {
-    "id": "src-1hwpcp1",
-    "title": "ESG Today: Week in Review",
-    "summary": "This week in ESG news: Sustainable fund inflows hit highest level since 2024;",
-    "contentType": "观点",
-    "region": "全球",
-    "publishedAt": "2026-11-15T10:51:21.000Z",
-    "importanceLevel": "中",
-    "sourceName": "ESG Today（全球 ESG 新闻）",
-    "sourceUrl": "https://www.esgtoday.com/",
-    "articleUrl": "https://www.esgtoday.com/esg-today-week-in-review-283/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-283",
-    "esgTopic": "合规与监管",
-    "titleZh": "ESG今日：一周回顾",
-    "summaryZh": "本周ESG新闻：可持续基金资金流入创2024年以来最高水平；",
-    "recommended": false,
-    "recommendReason": "",
-    "pipeline": {
-      "score": 60,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-58zt3w",
-      "heat": 0,
-      "tags": [
-        "观点",
-        "合规与监管",
-        "全球"
-      ],
-      "fact": {
-        "title": "ESG今日：一周回顾",
-        "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "ESG今日：一周回顾",
-        "occurredAt": "2026-11-15"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
-    }
-  },
-  {
     "id": "src-49n3n7",
     "title": "Subscribe to Updates Get notified whenever news and updates are posted on this website.",
     "summary": "Subscribe to Updates Get notified whenever news and updates are posted on this website.",
@@ -4010,45 +4283,6 @@
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "调查",
         "object": "泰国：与缅甸联合调查有关中国在掸邦采矿污染的指控",
-        "occurredAt": "2026-11-15"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
-    }
-  },
-  {
-    "id": "src-1k1yied",
-    "title": "生态环境部一周要闻（11.8—11.14）",
-    "summary": "生态环境部一周要闻（11.8—11.14）",
-    "contentType": "政策",
-    "region": "中国",
-    "publishedAt": "2026-11-15T00:00:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "中国生态环境部新闻",
-    "sourceUrl": "https://www.mee.gov.cn/ywdt/hjywnews/",
-    "articleUrl": "https://www.mee.gov.cn/ywdt/hjywnews/202611/t20261115_1186623.shtml",
-    "esgTopic": "合规与监管",
-    "titleZh": "生态环境部一周要闻（11.8—11.14）",
-    "summaryZh": "生态环境部一周要闻（11.8—11.14）",
-    "recommended": false,
-    "recommendReason": "",
-    "pipeline": {
-      "score": 59,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T2",
-      "storyId": "story-12utgrc",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "中国"
-      ],
-      "fact": {
-        "title": "生态环境部一周要闻（11.8—11.14）",
-        "subject": "中国生态环境部新闻",
-        "action": "发布",
-        "object": "生态环境部一周要闻（11.8—11.14）",
         "occurredAt": "2026-11-15"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -4427,7 +4661,7 @@
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
-      "storyId": "story-w3an4b",
+      "storyId": "story-1ukvq68",
       "heat": 0,
       "tags": [
         "政策",
@@ -5145,10 +5379,10 @@
         "全球"
       ],
       "fact": {
-        "title": "\"ESG Work Once Done in Excel a",
+        "title": "“ESG 工作曾经在 Excel 和 PPT 中完成，现在通",
         "subject": "普华永道（PwC）ESG 洞察",
-        "action": "发布",
-        "object": "\"ESG Work Once Done in Excel and PPT, Now with AI\"... Samil PwC Unveils Integrat",
+        "action": "通过",
+        "object": "“ESG 工作曾经在 Excel 和 PPT 中完成，现在通过 AI 完成”...Samil PwC 推出集成解决方案 - 아시아경제",
         "occurredAt": "2026-11-13"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -7613,6 +7847,45 @@
     }
   },
   {
+    "id": "src-sqfx59",
+    "title": "关于印发《财政部门行使行政处罚裁量权指导规范》的通知",
+    "summary": "关于印发《财政部门行使行政处罚裁量权指导规范》的通知",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-13T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "财政部政策发布",
+    "sourceUrl": "https://www.mof.gov.cn/zhengwuxinxi/",
+    "articleUrl": "http://tfs.mof.gov.cn/zhengcefabu/202611/t20261111_4004415.htm",
+    "esgTopic": "合规与监管",
+    "titleZh": "关于印发《财政部门行使行政处罚裁量权指导规范》的通知",
+    "summaryZh": "关于印发《财政部门行使行政处罚裁量权指导规范》的通知",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 61,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1ukvq68",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "关于印发《财政部门行使行政处罚裁量权指导规范》的通知",
+        "subject": "财政部政策发布",
+        "action": "处罚",
+        "object": "关于印发《财政部门行使行政处罚裁量权指导规范》的通知",
+        "occurredAt": "2026-11-13"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-1108rf5",
     "title": "Nuveen Launches New Nature-Based Solutions Fund",
     "summary": "Nuveen Natural Capital, the land-focused asset management platform of global asset manager Nuveen",
@@ -8795,7 +9068,7 @@
     "articleUrl": "http://gks.mof.gov.cn/guizhangzhidu/202611/t20261104_4004088.htm",
     "esgTopic": "合规与监管",
     "titleZh": "财政部国库司有关负责人就实施新的《政府部门财务报告编制操作指南》和...",
-    "summaryZh": "",
+    "summaryZh": "财政部国库司有关负责人就实施新的《政府部门财务报告编制操作指南》和",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -12559,7 +12832,7 @@
         "subject": "世达（Skadden）洞察",
         "action": "发布",
         "object": "BIS将关联机构规则的暂停执行期延长至2027年1月10日",
-        "occurredAt": "2026-11-11"
+        "occurredAt": "2027-01-10"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
@@ -13023,10 +13296,10 @@
         "全球"
       ],
       "fact": {
-        "title": "AEoI alert - PwC",
+        "title": "AEoI 警报 - 普华永道",
         "subject": "普华永道（PwC）ESG 洞察",
         "action": "发布",
-        "object": "AEoI alert - PwC",
+        "object": "AEoI 警报 - 普华永道",
         "occurredAt": "2026-11-10"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -13608,10 +13881,10 @@
         "全球"
       ],
       "fact": {
-        "title": "ESG Insights - November 2026 -",
+        "title": "ESG 洞察 - 2026 年 11 月 - 富而德 (Fr",
         "subject": "富而德（Freshfields）洞察",
         "action": "发布",
-        "object": "ESG Insights - November 2026 - Freshfields",
+        "object": "ESG 洞察 - 2026 年 11 月 - 富而德 (Freshfields)",
         "occurredAt": "2026-11-09"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -17436,45 +17709,6 @@
     }
   },
   {
-    "id": "src-it988q",
-    "title": "ESG Today: Week in Review",
-    "summary": "This week in ESG news: UK to introduce supply chain human rights due diligence law;",
-    "contentType": "政策",
-    "region": "全球",
-    "publishedAt": "2026-11-08T09:56:29.000Z",
-    "importanceLevel": "中",
-    "sourceName": "ESG Today（全球 ESG 新闻）",
-    "sourceUrl": "https://www.esgtoday.com/",
-    "articleUrl": "https://www.esgtoday.com/esg-today-week-in-review-282/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-282",
-    "esgTopic": "合规与监管",
-    "titleZh": "ESG Today：一周回顾",
-    "summaryZh": "英国将出台强制性供应链人权尽职调查法，欧盟委员会则决定撤销《绿色声明指令》。同期，绿色气候基金批准了创纪录的33亿美元气候投资，巴西正考虑在转为自愿性报告仅数月后重新恢复强制性企业可持续报告。此外，英国将ESG评级机构纳入监管，泰国对上市公司实施与ISSB对齐的强制性可持续报告要求。",
-    "recommended": false,
-    "recommendReason": "",
-    "pipeline": {
-      "score": 23,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-12jaeek",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "全球"
-      ],
-      "fact": {
-        "title": "ESG Today：一周回顾",
-        "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "批准",
-        "object": "ESG Today：一周回顾",
-        "occurredAt": "2026-11-08"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
-    }
-  },
-  {
     "id": "src-mbumeu",
     "title": "生态环境部部长黄润秋会见几内亚环境与可持续发展部部长法苏·泰亚2026-11-08",
     "summary": "生态环境部部长黄润秋会见几内亚环境与可持续发展部部长法苏·泰亚2026-11-08",
@@ -17546,45 +17780,6 @@
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
         "object": "比利时法院认定Utexbel及其领导层犯有环境犯罪",
-        "occurredAt": "2026-11-08"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
-    }
-  },
-  {
-    "id": "src-1hbqd56",
-    "title": "生态环境部一周要闻（11.1—11.7）",
-    "summary": "生态环境部一周要闻（11.1—11.7）",
-    "contentType": "政策",
-    "region": "中国",
-    "publishedAt": "2026-11-08T00:00:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "中国生态环境部新闻",
-    "sourceUrl": "https://www.mee.gov.cn/ywdt/hjywnews/",
-    "articleUrl": "https://www.mee.gov.cn/ywdt/hjywnews/202611/t20261108_1185728.shtml",
-    "esgTopic": "合规与监管",
-    "titleZh": "生态环境部一周要闻（11.1—11.7）",
-    "summaryZh": "生态环境部一周要闻（11.1—11.7）",
-    "recommended": false,
-    "recommendReason": "",
-    "pipeline": {
-      "score": 15,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T2",
-      "storyId": "story-12utgrc",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "中国"
-      ],
-      "fact": {
-        "title": "生态环境部一周要闻（11.1—11.7）",
-        "subject": "中国生态环境部新闻",
-        "action": "发布",
-        "object": "生态环境部一周要闻（11.1—11.7）",
         "occurredAt": "2026-11-08"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -22718,10 +22913,10 @@
         "全球"
       ],
       "fact": {
-        "title": "MoFo, Freshfields Advise on $5",
+        "title": "MoFo 和 Freshfields 就中国阻止的 5.4B",
         "subject": "富而德（Freshfields）洞察",
         "action": "发布",
-        "object": "MoFo, Freshfields Advise on $5.4B SoftBank-ABB Robotics Deal Blocked by China - ",
+        "object": "MoFo 和 Freshfields 就中国阻止的 5.4B 美元软银-ABB 机器人交易提供咨询 - Law.com",
         "occurredAt": "2026-11-05"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -25396,10 +25591,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Corporate green reports: do in",
+        "title": "企业绿色报告：独立检查真的能帮助企业采取可衡量的行动吗？ -",
         "subject": "普华永道（PwC）ESG 洞察",
         "action": "发布",
-        "object": "Corporate green reports: do independent checks really help companies deliver mea",
+        "object": "企业绿色报告：独立检查真的能帮助企业采取可衡量的行动吗？ - 对话",
         "occurredAt": "2026-11-04"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -25435,10 +25630,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Paul Hastings Takes 4-Lawyer D",
+        "title": "普衡在布鲁塞尔和伦敦组建了由 4 名律师组成的 DLA Pi",
         "subject": "DLA Piper 洞察",
         "action": "发布",
-        "object": "Paul Hastings Takes 4-Lawyer DLA Piper Team Across Brussels and London - Law.com",
+        "object": "普衡在布鲁塞尔和伦敦组建了由 4 名律师组成的 DLA Piper 团队 - Law.com",
         "occurredAt": "2026-11-04"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -25474,10 +25669,10 @@
         "全球"
       ],
       "fact": {
-        "title": "More Freshfields Lawyers Exit ",
+        "title": "更多富而德律师事务所在彻底变革中退出合伙关系 - Law.c",
         "subject": "富而德（Freshfields）洞察",
         "action": "发布",
-        "object": "More Freshfields Lawyers Exit Partnership Amid Sweeping Changes - Law.com",
+        "object": "更多富而德律师事务所在彻底变革中退出合伙关系 - Law.com",
         "occurredAt": "2026-11-04"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -28578,14 +28773,14 @@
     "articleUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CMDBldEpCekRoMmRKS3k2SmlFTWkwTjkyTTFVNElCOEZVTDUxaGdoZEtyZk5JU0lYMXBkbXVNODdqUnFOU3R4NFNBaGxtRmN0YlZzRklVQmdnV3c2ckhN?oc=5",
     "esgTopic": "合规与监管",
     "titleZh": "优化绿色金融产品工具箱 - 中国经济网",
-    "summaryZh": "",
+    "summaryZh": "优化绿色金融产品工具箱 - 中国经济网",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
       "score": 63,
       "scoreThreshold": 75,
       "scorePass": false,
-      "sourceTier": "T1_5",
+      "sourceTier": "SIGNAL",
       "storyId": "story-xg1wpg",
       "heat": 0,
       "tags": [
@@ -29179,10 +29374,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Freshfields, Haiwen Advise Chi",
+        "title": "富而德律师事务所和海文律师事务所为中国人工智能供应商就 1.",
         "subject": "富而德（Freshfields）洞察",
         "action": "发布",
-        "object": "Freshfields, Haiwen Advise Chinese AI Supplier on $1.3B Hong Kong IPO - Law.com",
+        "object": "富而德律师事务所和海文律师事务所为中国人工智能供应商就 1.3B 美元香港 IPO 提供法律服务 - Law.com",
         "occurredAt": "2026-11-02"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -31530,84 +31725,6 @@
     }
   },
   {
-    "id": "src-89oe69",
-    "title": "ESG Today: Week in Review",
-    "summary": "This week in ESG news: EU Commission launches climate resilience framework;",
-    "contentType": "政策",
-    "region": "全球",
-    "publishedAt": "2026-11-01T10:24:42.000Z",
-    "importanceLevel": "中",
-    "sourceName": "ESG Today（全球 ESG 新闻）",
-    "sourceUrl": "https://www.esgtoday.com/",
-    "articleUrl": "https://www.esgtoday.com/esg-today-week-in-review-281/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-281",
-    "esgTopic": "合规与监管",
-    "titleZh": "今日ESG：一周回顾",
-    "summaryZh": "本周ESG新闻回顾包括欧盟委员会推出气候适应力框架等内容。",
-    "recommended": false,
-    "recommendReason": "",
-    "pipeline": {
-      "score": 31,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1lnrwgu",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "全球"
-      ],
-      "fact": {
-        "title": "今日ESG：一周回顾",
-        "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "今日ESG：一周回顾",
-        "occurredAt": "2026-11-01"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
-    }
-  },
-  {
-    "id": "src-18qrtgx",
-    "title": "生态环境部一周要闻（10.25—10.31）",
-    "summary": "生态环境部一周要闻（10.25—10.31）",
-    "contentType": "政策",
-    "region": "中国",
-    "publishedAt": "2026-11-01T00:00:00.000Z",
-    "importanceLevel": "中",
-    "sourceName": "中国生态环境部新闻",
-    "sourceUrl": "https://www.mee.gov.cn/ywdt/hjywnews/",
-    "articleUrl": "https://www.mee.gov.cn/ywdt/hjywnews/202611/t20261101_1184946.shtml",
-    "esgTopic": "合规与监管",
-    "titleZh": "生态环境部一周要闻（10.25—10.31）",
-    "summaryZh": "生态环境部一周要闻（10.25—10.31）。",
-    "recommended": false,
-    "recommendReason": "",
-    "pipeline": {
-      "score": 8,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T2",
-      "storyId": "story-12utgrc",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "中国"
-      ],
-      "fact": {
-        "title": "生态环境部一周要闻（10.25—10.31）",
-        "subject": "中国生态环境部新闻",
-        "action": "发布",
-        "object": "生态环境部一周要闻（10.25—10.31）",
-        "occurredAt": "2026-11-01"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
-    }
-  },
-  {
     "id": "src-cnsflu",
     "title": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
     "summary": "习近平：关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明",
@@ -32300,10 +32417,10 @@
         "全球"
       ],
       "fact": {
-        "title": "A leap forward for nature repo",
+        "title": "自然报告的飞跃：将自然风险纳入业务决策 - 普华永道",
         "subject": "普华永道（PwC）ESG 洞察",
         "action": "发布",
-        "object": "A leap forward for nature reporting: Bringing nature risk into business decision",
+        "object": "自然报告的飞跃：将自然风险纳入业务决策 - 普华永道",
         "occurredAt": "2026-10-30"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -32339,10 +32456,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Is your risk framework ready f",
+        "title": "您的风险框架准备好应对接下来的情况了吗？ - 普华永道爱尔兰",
         "subject": "普华永道（PwC）ESG 洞察",
         "action": "发布",
-        "object": "Is your risk framework ready for what’s next? - PwC Ireland",
+        "object": "您的风险框架准备好应对接下来的情况了吗？ - 普华永道爱尔兰",
         "occurredAt": "2026-10-30"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -36250,10 +36367,10 @@
         "全球"
       ],
       "fact": {
-        "title": "PwC Channel Islands Transparen",
+        "title": "普华永道 2026 年海峡群岛透明度报告 - 普华永道",
         "subject": "普华永道（PwC）ESG 洞察",
         "action": "发布",
-        "object": "PwC Channel Islands Transparency Report 2026 - PwC",
+        "object": "普华永道 2026 年海峡群岛透明度报告 - 普华永道",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -40386,10 +40503,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Emerging trends in real estate",
+        "title": "2027 年值得关注的房地产新兴趋势 - 普华永道",
         "subject": "普华永道（PwC）ESG 洞察",
         "action": "发布",
-        "object": "Emerging trends in real estate to watch in 2027 - PwC",
+        "object": "2027 年值得关注的房地产新兴趋势 - 普华永道",
         "occurredAt": "2026-10-27"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -41323,10 +41440,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Sustainable Consulting Market ",
+        "title": "可持续咨询市场规模、份额| 2034 年增长报告 - 财富商",
         "subject": "普华永道（PwC）ESG 洞察",
         "action": "发布",
-        "object": "Sustainable Consulting Market Size, Share | Growth Report 2034 - Fortune Busines",
+        "object": "可持续咨询市场规模、份额| 2034 年增长报告 - 财富商业洞察",
         "occurredAt": "2026-10-26"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -41362,10 +41479,10 @@
         "全球"
       ],
       "fact": {
-        "title": "The price of pay equity: Why t",
+        "title": "薪酬公平的价格：为什么薪酬透明度指令是一个并购问题 - Fr",
         "subject": "富而德（Freshfields）洞察",
         "action": "发布",
-        "object": "The price of pay equity: Why the Pay Transparency Directive is an M&A issue - Fr",
+        "object": "薪酬公平的价格：为什么薪酬透明度指令是一个并购问题 - Freshfields",
         "occurredAt": "2026-10-26"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -42036,45 +42153,6 @@
     }
   },
   {
-    "id": "src-b0lhqh",
-    "title": "ESG Today: Week in Review",
-    "summary": "This week in ESG news: ISSB releases proposed nature-related corporate reporting requirements;",
-    "contentType": "观点",
-    "region": "全球",
-    "publishedAt": "2026-10-25T08:16:49.000Z",
-    "importanceLevel": "中",
-    "sourceName": "ESG Today（全球 ESG 新闻）",
-    "sourceUrl": "https://www.esgtoday.com/",
-    "articleUrl": "https://www.esgtoday.com/esg-today-week-in-review-280/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-280",
-    "esgTopic": "合规与监管",
-    "titleZh": "今日ESG：一周回顾",
-    "summaryZh": "本周ESG新闻回顾包括ISSB发布拟议的与自然相关的企业报告要求等内容。",
-    "recommended": false,
-    "recommendReason": "",
-    "pipeline": {
-      "score": 32,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1k0jyzv",
-      "heat": 0,
-      "tags": [
-        "观点",
-        "合规与监管",
-        "全球"
-      ],
-      "fact": {
-        "title": "今日ESG：一周回顾",
-        "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "今日ESG：一周回顾",
-        "occurredAt": "2026-10-25"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
-    }
-  },
-  {
     "id": "src-finance-biodiversity-issb-2026",
     "title": "15 financial institutions call on ISSB to develop standalone nature disclosure standard",
     "titleZh": "15家金融机构呼吁ISSB制定独立的自然信息披露准则",
@@ -42377,10 +42455,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Due diligence in the paper & p",
+        "title": "造纸和包装行业的尽职调查：值得关注的五个领域 - Fresh",
         "subject": "富而德（Freshfields）洞察",
-        "action": "发布",
-        "object": "Due diligence in the paper & packaging sector: Five areas to watch - Freshfields",
+        "action": "调查",
+        "object": "造纸和包装行业的尽职调查：值得关注的五个领域 - Freshfields",
         "occurredAt": "2026-10-23"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -44171,10 +44249,10 @@
         "全球"
       ],
       "fact": {
-        "title": "PwC named a Leader in the ISG ",
+        "title": "普华永道被评为 2026 年 ISG Provider Le",
         "subject": "普华永道（PwC）ESG 洞察",
         "action": "发布",
-        "object": "PwC named a Leader in the ISG Provider Lens™ Workday Ecosystem 2026 – APAC - PwC",
+        "object": "普华永道被评为 2026 年 ISG Provider Lens™ Workday 生态系统领导者 – 亚太地区 - PwC",
         "occurredAt": "2026-10-22"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -44210,10 +44288,10 @@
         "全球"
       ],
       "fact": {
-        "title": "CSRD, “Stop-the-clock” and Omn",
+        "title": "CSRD、“停止时钟”和综合 I：实施跟踪器 - Fresh",
         "subject": "富而德（Freshfields）洞察",
         "action": "发布",
-        "object": "CSRD, “Stop-the-clock” and Omnibus I: Implementation tracker - Freshfields",
+        "object": "CSRD、“停止时钟”和综合 I：实施跟踪器 - Freshfields",
         "occurredAt": "2026-10-22"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -44249,10 +44327,10 @@
         "全球"
       ],
       "fact": {
-        "title": "CSRD, \"Stop-the-clock\" and Omn",
+        "title": "CSRD、“停止时钟”和 Omnibus I 跟踪器：已过 ",
         "subject": "富而德（Freshfields）洞察",
         "action": "发布",
-        "object": "CSRD, \"Stop-the-clock\" and Omnibus I tracker: past the halfway point to the Omni",
+        "object": "CSRD、“停止时钟”和 Omnibus I 跟踪器：已过 Omnibus I 换位截止日期的中点 - Freshfields",
         "occurredAt": "2026-10-22"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -44288,10 +44366,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Spotlight: The Unprecedented S",
+        "title": "焦点：富而德合伙人离职人数空前激增 - Law.com",
         "subject": "富而德（Freshfields）洞察",
         "action": "发布",
-        "object": "Spotlight: The Unprecedented Spike in Freshfields Partner Departures - Law.com",
+        "object": "焦点：富而德合伙人离职人数空前激增 - Law.com",
         "occurredAt": "2026-10-22"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -45458,10 +45536,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Baker McKenzie Brings Luxembou",
+        "title": "贝克·麦坚时 (Baker McKenzie) 将卢森堡的存",
         "subject": "贝克·麦坚时（Baker McKenzie）ESG/监管洞察",
         "action": "发布",
-        "object": "Baker McKenzie Brings Luxembourg’s Depositary Sector Together for Third DepoBank",
+        "object": "贝克·麦坚时 (Baker McKenzie) 将卢森堡的存款部门聚集在一起，庆祝第三个存款银行日 - Baker McKenzie",
         "occurredAt": "2026-10-21"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -45965,10 +46043,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Beyond profits: Decoding susta",
+        "title": "超越利润：解读公司的可持续发展|培训 - 普华永道",
         "subject": "普华永道（PwC）ESG 洞察",
         "action": "发布",
-        "object": "Beyond profits: Decoding sustainability for companies | Training - PwC",
+        "object": "超越利润：解读公司的可持续发展|培训 - 普华永道",
         "occurredAt": "2026-10-20"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -46034,8 +46112,8 @@
       "score": 61,
       "scoreThreshold": 75,
       "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-1ovkt1c",
+      "sourceTier": "SIGNAL",
+      "storyId": "story-1ozofmh",
       "heat": 0,
       "tags": [
         "政策",
@@ -46628,10 +46706,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Skadden adds second Freshfield",
+        "title": "世达今年为布鲁塞尔竞赛团队增加了第二个富而德合作伙伴 - 全",
         "subject": "富而德（Freshfields）洞察",
         "action": "发布",
-        "object": "Skadden adds second Freshfields partner to Brussels competition team this year -",
+        "object": "世达今年为布鲁塞尔竞赛团队增加了第二个富而德合作伙伴 - 全球法律邮报",
         "occurredAt": "2026-10-19"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -46768,14 +46846,14 @@
     "articleUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE92eGxXV09mLVZNM2JNaVFYYmxUVTFrLVdCc1Z4bGYwVlFaTUpOUFJXV1YyY0Z1SEdaQTlsN1laQUtPOUoxbW9JQ0dHN0otbUQweE9yOHhKeWItLTJyRmRjSFhqaG5KZ2tQLXNGNFZMR1dMandnNE5yVDhxNlk?oc=5",
     "esgTopic": "合规与监管",
     "titleZh": "金融监管总局局长丁向群：依法将所有金融活动全部纳入监管 - 央视网",
-    "summaryZh": "",
+    "summaryZh": "金融监管总局局长丁向群：依法将所有金融活动全部纳入监管 - 央视网",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
       "score": 63,
       "scoreThreshold": 75,
       "scorePass": false,
-      "sourceTier": "T1_5",
+      "sourceTier": "SIGNAL",
       "storyId": "story-1cqal7b",
       "heat": 0,
       "tags": [
@@ -46827,6 +46905,45 @@
         "subject": "金融监管总局通知公告",
         "action": "发布",
         "object": "金融监管总局：依法将所有金融活动全部纳入监管 - 财联社电报",
+        "occurredAt": "2026-10-19"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1leesa6",
+    "title": "信息量很大！央行行长潘功胜、金融监管总局局长丁向群、证监会主席吴清、国家外汇管理局局长朱鹤新，最新发声 - 紫牛新闻",
+    "summary": "信息量很大！",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-19T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "金融监管总局通知公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB1Vm1pNTlLQ2NwT1ctdGJma3BUYm1HZ3J1VXQwMVhlR2hzZEx4cWR1bDBla1Q2R2loWnJZQ1p2cTFMTUhrQzdLX3Bsb3VJeTVDQnh4VFl1MFJ0dWZITVF0aUFMU29EeXpR?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "信息量很大！央行行长潘功胜、金融监管总局局长丁向群、证监会主席吴清、国家外汇管理局局长朱鹤新，最新发声 - 紫牛新闻",
+    "summaryZh": "信息量很大！",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 63,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1ozofmh",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "信息量很大！央行行长潘功胜、金融监管总局局长丁向群、证监会主",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "信息量很大！央行行长潘功胜、金融监管总局局长丁向群、证监会主席吴清、国家外汇管理局局长朱鹤新，最新发声 - 紫牛新闻",
         "occurredAt": "2026-10-19"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -47690,46 +47807,6 @@
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
     }
-  },
-  {
-    "id": "src-5udi8w",
-    "title": "ESG Today: Week in Review",
-    "summary": "This week in ESG news: BNP Paribas AM launches new global sustainability strategy following AXA",
-    "contentType": "政策",
-    "region": "全球",
-    "publishedAt": "2026-10-18T09:20:44.000Z",
-    "importanceLevel": "中",
-    "sourceName": "ESG Today（全球 ESG 新闻）",
-    "sourceUrl": "https://www.esgtoday.com/",
-    "articleUrl": "https://www.esgtoday.com/esg-today-week-in-review-279/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-279",
-    "esgTopic": "合规与监管",
-    "titleZh": "今日ESG：一周回顾",
-    "summaryZh": "本周 ESG 焦点集中在可持续金融与气候披露：法国巴黎银行资管在收购安盛资管后推出新的全球可持续投资战略，摩根大通调整可持续金融策略以平衡减排与能源安全，Amundi 与法国巴黎银行资管合计赢得 16 亿欧元可持续投资委托，英国国际投资公司拟动员 16 亿美元支持东南亚气候融资。监管端，加州敲定企业气候披露规则，ESMA 发布防漂绿指引，TNFD 与 SBTN 联合推出自然目标设定与报告框架。企业侧，谷歌、Stripe、Shopify 与 44.01 签署碳去除协议，AEP 拟投建 40 亿美元燃料电池项目，Hy24 收购 EDF 旗下氢能平台，宜家任命新首席可持续发展官。",
-    "recommended": false,
-    "recommendReason": "",
-    "pipeline": {
-      "score": 23,
-      "scoreThreshold": 75,
-      "scorePass": false,
-      "sourceTier": "T1_5",
-      "storyId": "story-qxynjv",
-      "heat": 0,
-      "tags": [
-        "政策",
-        "合规与监管",
-        "全球"
-      ],
-      "fact": {
-        "title": "今日ESG：一周回顾",
-        "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
-        "object": "今日ESG：一周回顾",
-        "occurredAt": "2026-10-18"
-      },
-      "pipelineVersion": "esg-v2.0.0",
-      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
-    },
-    "bodyZh": "本周值得关注的 ESG 重点如下：可持续金融方面，法国巴黎银行资管在完成对安盛资管的收购后发布新的全球可持续投资战略；摩根大通重新校准可持续金融战略，在推进减排目标的同时兼顾能源安全；Amundi 与法国巴黎银行资管合计赢得 16 亿欧元可持续投资委托；英国国际投资公司计划动员 16 亿美元用于东南亚气候融资。监管与披露方面，加州敲定企业气候报告法规；欧洲证券与市场管理局发布指引，要求基金管理人在气候与影响力相关声明中避免漂绿；TNFD 与 SBTN 联合发布自然目标设定与报告新框架。企业与科技方面，谷歌、Stripe、Shopify 与碳矿化初创公司 44.01 签署碳去除协议；AEP 拟建设 40 亿美元燃料电池项目为谷歌提供低碳电力；Hy24 从 EDF 收购清洁氢平台 Hynamics；EY 与 Watershed 合作推出可持续发展报告解决方案；宜家任命新首席可持续发展官。"
   },
   {
     "id": "src-c7dig0",
@@ -53666,10 +53743,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Turning point: Feeding the wor",
+        "title": "转折点：可持续地养活世界|德勤全球",
         "subject": "德勤可持续发展洞察",
         "action": "发布",
-        "object": "Turning point: Feeding the world sustainably | Deloitte Global",
+        "object": "转折点：可持续地养活世界|德勤全球",
         "occurredAt": "2026-10-06"
       },
       "pipelineVersion": "esg-v2.0.0",
