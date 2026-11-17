@@ -475,7 +475,7 @@
     {
       "id": "deloitte-sustainability",
       "name": "德勤可持续发展洞察",
-      "url": "https://www2.deloitte.com/global/en/issues/climate/sustainability-and-climate.html",
+      "url": "https://www.deloitte.com/global/en/issues/climate.html",
       "type": "webpage",
       "selectors": {
         "item": "a.cmp-promo-tracking[href*=\"/global/en/issues/climate/\"]",
@@ -484,7 +484,7 @@
         "summary": ".cmp-promo__content__desc"
       },
       "urlPatterns": [
-        "^https://www2\\.deloitte\\.com/global/en/issues/climate/[a-z0-9-]+\\.html$"
+        "^https://www\\.deloitte\\.com/global/en/issues/climate/[a-z0-9-]+\\.html$"
       ],
       "excludeUrlPatterns": [
         "greenspacetech",
@@ -501,7 +501,7 @@
       "recencyDays": 90,
       "followArticleMetadata": true,
       "maxArticleFetches": 10,
-      "notes": "德勤官网可持续与气候洞察页；列表卡片通过文章页元数据回填发布日期与摘要。",
+      "notes": "德勤官网气候议题洞察页；2026-11 已迁移至 www.deloitte.com，列表卡片通过文章页元数据回填发布日期与摘要。",
       "recoveryCategory": "可自动实现",
       "recoveryPlan": "已接入官网页面抓取"
     },

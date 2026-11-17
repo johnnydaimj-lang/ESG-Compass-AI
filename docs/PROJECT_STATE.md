@@ -4,9 +4,9 @@ Last updated: 2026-11-17
 
 ## Current release
 
-- Publication data: 1818 contents
+- Publication data: 1869 contents
 - Curated contents: 19
-- Publicly visible contents: 581
+- Publicly visible contents: 571
 - Latest publication timestamp: 2026-11-17T05:00:00.000Z
 - Latest publication: 揭晓：俄罗斯、沙特阿拉伯和澳大利亚是有史以来最大的二氧化碳出口国
 - Local site: http://localhost:3001
@@ -33,15 +33,18 @@ Last updated: 2026-11-17
 ## Source health
 
 - Latest weekly report: `data/source-health.json`
-- Current source configuration: 79 total, 54 enabled; the newly enabled UK Environment Agency Atom source passed a focused collection check on 2026-11-17.
+- Current source configuration: 79 total, 54 enabled.
+- Latest live pipeline result (2026-11-17): 53 source runs succeeded, 0 failed, 26 skipped (including 25 disabled sources); 7 credential-gated sources successfully used configured RSS fallbacks.
+- Deloitte's climate insights source was migrated from `www2.deloitte.com` to the current `www.deloitte.com` page and passed a focused collection check.
 - Latest full health result: 78 total, 53 enabled, 41 healthy, 4 idle, 0 degraded, 8 pending configuration, 25 disabled (generated 2026-11-16 before the new source was added).
-- Pending sources require `SOGOU_COOKIE` or mailbox credentials. Do not enable or rewrite sources without user approval.
+- The IMAP newsletter source still requires `MAILBOX_HOST`, `MAILBOX_USER`, and `MAILBOX_PASSWORD`; no credentials are stored in the repository.
 
 ## Known limitations
 
 - Some external publishers block automated article retrieval.
 - Items without enough verified article content remain stored but are excluded from public lists.
 - Finance for Biodiversity Foundation may time out while other sources continue normally.
+- Eight legacy snapshot source names still use stable temporary source IDs because no exact configured source identity exists; this does not indicate a live collector failure, but should be resolved during source catalog cleanup.
 
 ## Context handoff template
 

@@ -8,6 +8,12 @@ import type { ContentItem } from "@/lib/contracts/content";
 import { CONTENT_WINDOW_START } from "./config";
 import { cleanSummaryText, compactText, stableHash } from "./text";
 
+export interface SourceFallbackConfig extends Partial<Omit<SourceConfig, "fallbacks">> {
+  name: string;
+  url: string;
+  type: string;
+}
+
 export interface SourceConfig {
   id: string;
   name: string;
@@ -19,7 +25,8 @@ export interface SourceConfig {
   language?: string;
   enabled?: boolean;
   requiresEnv?: string;
-  fallbacks?: unknown[];
+  fallbackOnEmpty?: boolean;
+  fallbacks?: SourceFallbackConfig[];
   keywords?: string[];
   recencyDays?: number;
   limit?: number;

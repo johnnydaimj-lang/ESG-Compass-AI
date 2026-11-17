@@ -30,6 +30,7 @@ import { decideSelection, recommendReasonFor, runHeuristicScores } from "@/lib/p
 import { generateRecommendReasonsWithLlm, scoreMaterialWithLlm } from "@/lib/pipeline/llm";
 import { structureMaterial } from "@/lib/pipeline/structure";
 import { cleanSummaryText, stableHash } from "@/lib/pipeline/text";
+import { buildFallbackSources } from "@/lib/pipeline/source-fallback";
 import { understandMaterial } from "@/lib/pipeline/understand";
 import { readPipelineStatus, readPublishedContents, writeDaily, writeHeatHistory, writePublicationBundle } from "@/lib/publication-store";
 
@@ -196,6 +197,76 @@ async function liveSourceRuns(
   const runs: SourceRunStatus[] = [];
   const collected: RawMaterial[] = [];
 
+  async function collectSource(source: SourceConfig): Promise<{ items: RawMaterial[]; channel: string; emptyWarning: string }> {
+    const type = source.type.toLowerCase();
+    if (type === "sec-investreport") {
+      return { items: await collectSecInvestreports(source), channel: type, emptyWarning: "" };
+    }
+    if (type === "api") {
+      return { items: await collectCrossrefSource(source), channel: type, emptyWarning: "" };
+    }
+    if (type === "worldbank") {
+      return { items: await collectWorldBankSource(source), channel: type, emptyWarning: "" };
+    }
+    if (type === "eu-presscorner") {
+      return { items: await collectEuPressCornerSource(source), channel: type, emptyWarning: "" };
+    }
+    if (type === "webpage") {
+      return {
+        items: await collectWebpageSource(source),
+        channel: type,
+        emptyWarning: "网页适配器未解析到条目，可能需要配置 selectors 或改用 browser-render",
+      };
+    }
+    if (type === "browser-render") {
+      return {
+        items: await collectBrowserRenderSource(source),
+        channel: type,
+        emptyWarning: "浏览器渲染后仍未解析到条目，可能需要配置 selectors",
+      };
+    }
+    if (type === "rss") {
+      return { items: await collectRssSource(source), channel: type, emptyWarning: "" };
+    }
+    throw new Error(`实时模式尚未实现 ${source.type} 适配器`);
+  }
+
+  async function tryFallbacks(source: SourceConfig): Promise<{
+    result: { items: RawMaterial[]; channel: string; name: string } | null;
+    attempts: string[];
+  }> {
+    const attempts: string[] = [];
+    for (const fallback of buildFallbackSources(source)) {
+      const missing = missingEnvKeys(fallback);
+      if (missing.length > 0) {
+        attempts.push(`${fallback.name} 缺少环境变量：${missing.join(", ")}`);
+        continue;
+      }
+      try {
+        const result = await collectSource(fallback);
+        if (result.items.length === 0) {
+          attempts.push(`${fallback.name} 未返回条目`);
+          continue;
+        }
+        const items = result.items.map((item) => ({
+          ...item,
+          sourceId: source.id,
+          sourceName: source.name,
+          sourceUrl: source.url,
+          content: {
+            ...item.content,
+            sourceName: source.name,
+            sourceUrl: source.url,
+          },
+        }));
+        return { result: { items, channel: result.channel, name: fallback.name }, attempts };
+      } catch (error) {
+        attempts.push(`${fallback.name} 失败：${error instanceof Error ? error.message : String(error)}`);
+      }
+    }
+    return { result: null, attempts };
+  }
+
   for (const source of sources) {
     const base = {
       id: source.id,
@@ -211,91 +282,65 @@ async function liveSourceRuns(
 
     const missing = missingEnvKeys(source);
     if (missing.length > 0) {
-      const warning = `缺少环境变量：${missing.join(", ")}`;
+      const fallbackAttempt = await tryFallbacks(source);
+      const fallback = fallbackAttempt.result;
+      if (fallback) {
+        const warning = `主通道缺少环境变量：${missing.join(", ")}；已使用备用通道：${fallback.name}`;
+        collected.push(...fallback.items);
+        runs.push({ ...base, state: "ok", count: fallback.items.length, rawCount: fallback.items.length, error: "", warning, channel: `fallback:${fallback.channel}`, fallbackUsed: true });
+        warnings.push(`${source.name}：${warning}`);
+        continue;
+      }
+      const fallbackDetail = fallbackAttempt.attempts.length > 0
+        ? `；备用通道未成功：${fallbackAttempt.attempts.join("；")}`
+        : "";
+      const warning = `缺少环境变量：${missing.join(", ")}${fallbackDetail}`;
       runs.push({ ...base, state: "skipped", count: 0, rawCount: 0, error: "", warning, channel: "live", fallbackUsed: false });
       warnings.push(`${source.name} ${warning}`);
       continue;
     }
-
-    if (source.type.toLowerCase() === "sec-investreport") {
-      try {
-        const items = await collectSecInvestreports(source);
-        collected.push(...items);
-        runs.push({ ...base, state: "ok", count: items.length, rawCount: items.length, error: "", warning: "", channel: "sec-investreport", fallbackUsed: false });
-      } catch (error) {
-        const message = error instanceof Error ? error.message : String(error);
-        runs.push({ ...base, state: "failed", count: 0, rawCount: 0, error: message, warning: "", channel: "sec-investreport", fallbackUsed: false });
-        warnings.push(`${source.name} 抓取失败：${message}`);
-      }
-      continue;
-    }
-
-    if (["api", "worldbank", "eu-presscorner"].includes(source.type.toLowerCase())) {
-      try {
-        const items = source.type.toLowerCase() === "api"
-          ? await collectCrossrefSource(source)
-          : source.type.toLowerCase() === "worldbank"
-            ? await collectWorldBankSource(source)
-            : await collectEuPressCornerSource(source);
-        collected.push(...items);
-        runs.push({ ...base, state: "ok", count: items.length, rawCount: items.length, error: "", warning: "", channel: source.type.toLowerCase(), fallbackUsed: false });
-      } catch (error) {
-        const message = error instanceof Error ? error.message : String(error);
-        runs.push({ ...base, state: "failed", count: 0, rawCount: 0, error: message, warning: "", channel: source.type.toLowerCase(), fallbackUsed: false });
-        warnings.push(`${source.name} 抓取失败：${message}`);
-      }
-      continue;
-    }
-
-    if (source.type.toLowerCase() === "webpage") {
-      try {
-        const items = await collectWebpageSource(source);
-        collected.push(...items);
-        const warning = items.length === 0
-          ? "网页适配器未解析到条目，可能需要配置 selectors 或改用 browser-render"
-          : "";
-        runs.push({ ...base, state: "ok", count: items.length, rawCount: items.length, error: "", warning, channel: "webpage", fallbackUsed: false });
-        if (warning) warnings.push(`${source.name}：${warning}`);
-      } catch (error) {
-        const message = error instanceof Error ? error.message : String(error);
-        runs.push({ ...base, state: "failed", count: 0, rawCount: 0, error: message, warning: "", channel: "webpage", fallbackUsed: false });
-        warnings.push(`${source.name} 抓取失败：${message}`);
-      }
-      continue;
-    }
-
-    if (source.type.toLowerCase() === "browser-render") {
-      try {
-        const items = await collectBrowserRenderSource(source);
-        collected.push(...items);
-        const warning = items.length === 0
-          ? "浏览器渲染后仍未解析到条目，可能需要配置 selectors"
-          : "";
-        runs.push({ ...base, state: "ok", count: items.length, rawCount: items.length, error: "", warning, channel: "browser-render", fallbackUsed: false });
-        if (warning) warnings.push(`${source.name}：${warning}`);
-      } catch (error) {
-        const message = error instanceof Error ? error.message : String(error);
-        runs.push({ ...base, state: "failed", count: 0, rawCount: 0, error: message, warning: "", channel: "browser-render", fallbackUsed: false });
-        warnings.push(`${source.name} 抓取失败：${message}`);
-      }
-      continue;
-    }
-
-    if (source.type.toLowerCase() !== "rss") {
-      const warning = `实时模式尚未实现 ${source.type} 适配器，本次沿用快照材料`;
-      runs.push({ ...base, state: "skipped", count: 0, rawCount: 0, error: "", warning, channel: "live", fallbackUsed: false });
-      warnings.push(`${source.name}：${warning}`);
-      continue;
-    }
-
     try {
-      const items = await collectRssSource(source);
-      collected.push(...items);
-      runs.push({ ...base, state: "ok", count: items.length, rawCount: items.length, error: "", warning: "", channel: "rss", fallbackUsed: false });
+      const result = await collectSource(source);
+      let fallbackFailureDetail = "";
+      if (result.items.length === 0 && source.fallbackOnEmpty) {
+        const fallbackAttempt = await tryFallbacks(source);
+        const fallback = fallbackAttempt.result;
+        if (fallback) {
+          const warning = `主通道未返回条目；已使用备用通道：${fallback.name}`;
+          collected.push(...fallback.items);
+          runs.push({ ...base, state: "ok", count: fallback.items.length, rawCount: fallback.items.length, error: "", warning, channel: `fallback:${fallback.channel}`, fallbackUsed: true });
+          warnings.push(`${source.name}：${warning}`);
+          continue;
+        }
+        if (fallbackAttempt.attempts.length > 0) {
+          fallbackFailureDetail = `；备用通道未成功：${fallbackAttempt.attempts.join("；")}`;
+        }
+      }
+      collected.push(...result.items);
+      const warning = result.items.length === 0
+        ? `${result.emptyWarning || (source.fallbackOnEmpty ? "主通道未返回条目" : "")}${fallbackFailureDetail}`
+        : "";
+      runs.push({ ...base, state: "ok", count: result.items.length, rawCount: result.items.length, error: "", warning, channel: result.channel, fallbackUsed: false });
+      if (warning) warnings.push(`${source.name}：${warning}`);
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
-      runs.push({ ...base, state: "failed", count: 0, rawCount: 0, error: message, warning: "", channel: "rss", fallbackUsed: false });
-      warnings.push(`${source.name} 抓取失败：${message}`);
+      const fallbackAttempt = await tryFallbacks(source);
+      const fallback = fallbackAttempt.result;
+      if (fallback) {
+        const warning = `主通道失败：${message}；已使用备用通道：${fallback.name}`;
+        collected.push(...fallback.items);
+        runs.push({ ...base, state: "ok", count: fallback.items.length, rawCount: fallback.items.length, error: "", warning, channel: `fallback:${fallback.channel}`, fallbackUsed: true });
+        warnings.push(`${source.name}：${warning}`);
+        continue;
+      }
+      const unsupported = message.startsWith("实时模式尚未实现");
+      const fallbackDetail = fallbackAttempt.attempts.length > 0
+        ? `；备用通道未成功：${fallbackAttempt.attempts.join("；")}`
+        : "";
+      runs.push({ ...base, state: unsupported ? "skipped" : "failed", count: 0, rawCount: 0, error: unsupported ? "" : message, warning: unsupported ? `${message}，本次沿用快照材料${fallbackDetail}` : fallbackDetail.slice(1), channel: "live", fallbackUsed: false });
+      warnings.push(unsupported
+        ? `${source.name}：${message}，本次沿用快照材料${fallbackDetail}`
+        : `${source.name} 抓取失败：${message}${fallbackDetail}`);
     }
   }
 
