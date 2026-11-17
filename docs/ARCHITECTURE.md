@@ -155,7 +155,9 @@ publication bundle ---------------------+
 
 ### 9.1 当前原型
 
-`components/ClimateRiskLab.tsx` 作为独立路由 `/climate-lab` 的客户端解释层，使用三处示范地点、五类风险和静态示意系数验证交互。它不写入发布快照，不对外暴露为事实 API，也不承担科学计算。物理风险与转型风险分别维护 SSP 和 NGFS 情景状态，避免错误映射。
+`components/ClimateRiskLab.tsx` 作为独立路由 `/climate-lab` 的客户端解释层，使用一个虚拟项目、坐标/地图点选、分析半径、五类风险和静态示意系数验证交互。来源基准、用户压力测试偏移和资产参数分层维护；客户端公开危险度与经营冲击公式，但不把示意计算包装成事实 API 或科学模型。物理风险与转型风险分别维护 SSP 和 NGFS 情景状态，避免错误映射。
+
+`lib/climate-risk-cases.ts` 保存原型阶段经人工核验的一手企业案例，字段包含事件日、风险标签、量化影响、影响等级、相关性和证据标签。该文件是过渡样本，不代替后续滚动五年采集管线。
 
 `components/HomeClient.tsx` 在内容类型筛选栏最右侧提供烧瓶标识和“进入实验室”入口，指向 `/climate-lab`，不渲染独立 Banner。知识专区保持纯监管指南列表；`/zones/climate-risk` 保留原有世界地图、监管里程碑与法规内容。旧路由 `/zones/climate-lab` 通过 Next.js `redirect()` 兼容跳转。
 
@@ -183,7 +185,12 @@ lightweight JSON    vector/raster tiles
           |             |
           +------+------+
                  v
-ClimateRiskLab + ESG event matcher
+ClimateRiskLab + explainable factor engine
+                 ^
+                 |
+company filings / official releases / regulators
+                 |
+five-year case collector -> evidence gate -> case index
 ```
 
 生产适配器优先级：
@@ -211,23 +218,30 @@ ClimateRiskLab + ESG event matcher
 
 - 原始 NetCDF/GeoTIFF 只在离线任务中处理，浏览器不直接下载。
 - 点位请求按约 25 公里栅格返回时必须标注“非厂界测量”；区域聚合保留面积加权方法。
+- 客户端只提交点位、分析半径和显式假设；来源基准数据不可被用户输入覆盖。压力测试偏移必须单独存储并可一键恢复。
 - 缓存键至少包含数据集版本、变量、情景、时间窗、统计量和空间索引。
 - 首期接口建议为 `GET /api/v1/public/climate-risk?locationId=&riskType=&scenario=&horizon=`，返回指标、区间、来源和用途声明。
-- 相关事件匹配复用发布快照，仅以风险、地区、行业标签检索，不修改聚簇和评分流程。
+- 计算层按 `hazardIndex = scenario × horizon × stressOffset` 和 `operatingImpact = hazardIndex × exposure × vulnerability × (1 - protection)` 输出中间值；参数名称、单位、默认值、版本和公式必须随结果返回。
+- 企业案例采用独立滚动五年索引，采集优先级为公司年报/公告、证券监管申报、执法机构材料，再补充可回溯的一手公共材料。案例不得仅凭关键词自动公开。
+- 案例索引至少包含 `occurredAt`、`companyId`、`riskTypes`、`impactAmount`、`impactCurrency`、`impactMetric`、`impactLevel`、`relevanceScore`、`evidenceType`、`attributionStatus` 和 `sourceUrl`。
+- 默认排序依次使用风险相关性、影响等级、事件时间；“影响排序”使用编辑分档和相对重要性，禁止未统一口径的跨币种名义金额直接比较。
+- `attributionStatus` 区分 `hazard-impact`、`climate-consistent` 和 `attributed`；只有权威归因研究支持时才能使用 `attributed`。
 - 价值敏感性使用可解释参数桥接；默认只输出指数或区间，不输出货币损失。用户提供经授权的财务参数后，才可在后续受控模块中计算敏感性。
 
 ### 9.5 交付阶段
 
-1. **交互原型（已完成）**：验证信息架构、响应式布局、风险传导和两套情景切换。
-2. **真实点位数据**：接入一项物理数据源和 NGFS 转型数据，完成版本、缓存、区间及溯源。
-3. **资产位置输入**：支持单点搜索和少量 GeoJSON；先不建设企业档案或资产组合管理。
-4. **财务敏感性**：引入行业/资产类型参数与会计影响规则，保留人工确认和审计轨迹。
-5. **规模化 GIS**：只有在真实使用和性能指标验证后，才评估矢量瓦片、多资产组合和批量分析。
+1. **透明交互原型（已完成）**：验证虚拟点位、可调假设、公开公式、响应式布局、风险传导和两套情景切换。
+2. **滚动五年案例库**：把人工样本迁入采集、证据核验、影响分档、归因标记和版本化索引。
+3. **真实点位数据**：接入一项物理数据源和 NGFS 转型数据，完成版本、缓存、区间及溯源。
+4. **资产位置输入**：支持单点搜索；只有空间方法和许可验证后才接受少量 GeoJSON，不建设企业档案或资产组合管理。
+5. **财务敏感性**：引入行业/资产类型参数与会计影响规则，保留人工确认和审计轨迹。
+6. **规模化 GIS**：只有在真实使用和性能指标验证后，才评估厂界绘制、矢量瓦片、多资产组合和批量分析。
 
 ### 9.6 风险控制
 
 - 科学风险：展示模型集合与区间，禁止确定性语言。
 - 方法学风险：物理与转型情景分离；跨模型组合需显式版本化。
+- 归因风险：灾害事件、企业影响和气候变化归因分层记录，禁止由事件影响反推气候归因。
 - 许可风险：源清单配置许可与再分发权限，构建阶段阻止未授权数据发布。
 - 会计风险：所有输出定位为影响解释和敏感性，不形成估值、审计或减值结论。
 - 产品复杂度：实验室使用首页子栏目入口与独立页面，不进入顶级导航，不增加独立工作台、企业档案或预警中心。

@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import ClimateRiskLab from "@/components/ClimateRiskLab";
-import { getRegulationsForZone } from "@/lib/regulations";
-import { getContentLink } from "@/lib/esg-data";
+import { CLIMATE_RISK_CASES } from "@/lib/climate-risk-cases";
 
 export const dynamic = "force-dynamic";
 
@@ -13,13 +12,6 @@ export const metadata: Metadata = {
 };
 
 export default function ClimateLabPage() {
-  const relatedEvents = getRegulationsForZone("climate-risk", 50).map((item) => ({
-    title: item.title,
-    href: getContentLink(item),
-    sourceName: item.sourceName,
-    publishedAt: item.publishedAt,
-  }));
-
   return (
     <div className="mx-auto max-w-6xl space-y-8">
       <div className="flex flex-wrap items-center justify-between gap-3">
@@ -34,10 +26,10 @@ export default function ClimateLabPage() {
       <section>
         <div className="text-[10px] font-semibold uppercase tracking-[0.14em] text-brand-deep">ESG Compass Labs · 产品实验</div>
         <h1 className="mt-2 text-3xl font-semibold tracking-tight text-ink">气候风险实验室</h1>
-        <p className="mt-3 max-w-2xl text-[14px] leading-relaxed text-ink-soft">从一个地点出发，探索气候与转型情景如何影响经营活动、现金流、资产价值和会计判断。</p>
+        <p className="mt-3 max-w-2xl text-[14px] leading-relaxed text-ink-soft">从一个虚拟项目出发，检查气候与转型情景如何通过可解释参数影响经营活动、现金流、资产价值和会计判断。</p>
       </section>
 
-      <ClimateRiskLab events={relatedEvents} />
+      <ClimateRiskLab cases={CLIMATE_RISK_CASES} />
     </div>
   );
 }

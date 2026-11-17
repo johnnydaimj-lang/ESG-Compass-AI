@@ -14,11 +14,13 @@ Last updated: 2026-11-17
 
 ## Climate risk lab
 
-- Interactive prototype implemented as the independent `/climate-lab` tool with three sample sites and five physical/transition risks.
+- Interactive prototype implemented as the independent `/climate-lab` tool with one fictional project, coordinate/map positioning, adjustable analysis radius, transparent model factors, and five physical/transition risks.
 - The homepage exposes a flask-marked `进入实验室` shortcut at the right edge of the content-type filter row; no standalone promotional banner is used, and the knowledge-zone index remains regulation-only.
 - `/zones/climate-risk` remains a regulation and event knowledge zone; `/zones/climate-lab` redirects to the new canonical route.
 - Desktop and 390px mobile rendering validated with no horizontal overflow or console warnings.
 - Physical SSP scenarios and NGFS transition scenarios are independently controlled; the prototype does not infer a one-to-one mapping.
+- Baseline source values, user stress-test offsets, and asset exposure/vulnerability/protection assumptions are separated; the UI exposes intermediate hazard and operating-impact factors and supports reset.
+- The initial rolling-five-year company case sample uses first-party disclosures and supports relevance, impact-level, and recency sorting. Event impact is not presented as climate attribution.
 - All current spatial values and valuation bridges are explicitly illustrative and are not predictions, engineering assessments, insurance prices, or statutory valuations.
 - Next implementation slice: one live physical-risk adapter plus NGFS transition data, normalized provenance, uncertainty intervals, and versioned caching.
 
