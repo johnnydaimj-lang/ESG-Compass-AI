@@ -79,7 +79,7 @@ if ($Action -eq "status") {
     url = $url
     healthy = (Test-Server)
     authenticated = (Test-AuthenticatedHome)
-    supervisorRunning = ($task.State -eq "Running")
+    supervisorRunning = ($null -ne $task -and $task.State -eq "Running")
   } | ConvertTo-Json
   exit 0
 }

@@ -1,14 +1,14 @@
 # ESG Compass Project State
 
-Last updated: 2026-11-09
+Last updated: 2026-11-17
 
 ## Current release
 
-- Publication data: 1442 contents
-- Curated contents: 21
-- Publicly visible contents: 327
-- Latest publication timestamp: 2026-11-09T14:23:47.000Z
-- Latest publication: BBVA可持续金融活动跃升27%，达到1200亿欧元
+- Publication data: 1711 contents
+- Curated contents: 22
+- Publicly visible contents: 386
+- Latest publication timestamp: 2026-11-15T00:00:00.000Z
+- Latest publication: 泰国：与缅甸联合调查有关中国在掸邦采矿污染的指控
 - Local site: http://localhost:3001
 - Production site: https://esg-compass-ai.vercel.app
 
@@ -33,7 +33,7 @@ Last updated: 2026-11-09
 ## Source health
 
 - Latest weekly report: `data/source-health.json`
-- Current result: 78 total, 53 enabled, 41 healthy, 4 idle, 0 degraded, 8 pending configuration, 25 disabled.
+- Current result: 78 total, 53 enabled, 41 healthy, 4 idle, 0 degraded, 8 pending configuration, 25 disabled (generated 2026-11-16).
 - Pending sources require `SOGOU_COOKIE` or mailbox credentials. Do not enable or rewrite sources without user approval.
 
 ## Known limitations
