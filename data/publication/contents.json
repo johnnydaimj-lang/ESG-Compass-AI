@@ -28,10 +28,49 @@
         "全球"
       ],
       "fact": {
-        "title": "Revealed: Russia, Saudi Arabia",
+        "title": "揭晓：俄罗斯、沙特阿拉伯和澳大利亚是有史以来最大的二氧化碳出",
         "subject": "Carbon Brief",
         "action": "发布",
-        "object": "Revealed: Russia, Saudi Arabia and Australia are largest CO2 exporters of all ti",
+        "object": "揭晓：俄罗斯、沙特阿拉伯和澳大利亚是有史以来最大的二氧化碳出口国",
+        "occurredAt": "2026-11-17"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-umss5i",
+    "title": "ESG与可持续发展周报：西部陆海新通道完成首票碳核查认证，政策推动健全碳排放核算体系_趋势策略_研报 - 证券之星",
+    "summary": "ESG与可持续发展周报：西部陆海新通道完成首票碳核查认证",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-17T01:29:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "金融监管总局通知公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tX3lPMGlJV2dmelRlbWM4WERMTlBmVFpPdWRPbk5Ka1FuaDM5ODJrS1dxWUpXaFJKNHJKT2VwM2dLMG56cDN2OGt6VjZqeUdBbkpCQmljZEhveHRWbHJpUU5n?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "ESG与可持续发展周报：西部陆海新通道完成首票碳核查认证，政策推动健全碳排放核算体系_趋势策略_研报 - 证券之星",
+    "summaryZh": "ESG与可持续发展周报：西部陆海新通道完成首票碳核查认证",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 63,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1lxcufi",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "ESG与可持续发展周报：西部陆海新通道完成首票碳核查认证，政",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "ESG与可持续发展周报：西部陆海新通道完成首票碳核查认证，政策推动健全碳排放核算体系_趋势策略_研报 - 证券之星",
         "occurredAt": "2026-11-17"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -67,10 +106,10 @@
         "亚洲"
       ],
       "fact": {
-        "title": "Can China’s clean power statio",
+        "title": "中国的清洁电站能否应对气候变化？",
         "subject": "Eco-Business（亚洲 ESG 新闻）",
         "action": "发布",
-        "object": "Can China’s clean power stations cope with a changed climate?",
+        "object": "中国的清洁电站能否应对气候变化？",
         "occurredAt": "2026-11-17"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -106,10 +145,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Corporate Strategy",
+        "title": "企业战略",
         "subject": "BCG 可持续发展洞察",
         "action": "发布",
-        "object": "Corporate Strategy",
+        "object": "企业战略",
         "occurredAt": "2026-11-17"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -129,7 +168,7 @@
     "articleUrl": "https://www.bcg.com/publications/2026/how-ceos-build-growth-strategy",
     "esgTopic": "合规与监管",
     "titleZh": "为了在当今市场中寻求增长，首席执行官需要新的指南针",
-    "summaryZh": "在当今市场中寻求增长",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -145,10 +184,10 @@
         "全球"
       ],
       "fact": {
-        "title": "To Find Growth in Today’s Mark",
+        "title": "为了在当今市场中寻求增长，首席执行官需要新的指南针",
         "subject": "BCG 可持续发展洞察",
         "action": "发布",
-        "object": "To Find Growth in Today’s Market, CEOs Need a New Compass",
+        "object": "为了在当今市场中寻求增长，首席执行官需要新的指南针",
         "occurredAt": "2026-11-17"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -184,10 +223,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Banking",
+        "title": "银行业",
         "subject": "BCG 可持续发展洞察",
         "action": "发布",
-        "object": "Banking",
+        "object": "银行业",
         "occurredAt": "2026-11-17"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -207,7 +246,7 @@
     "articleUrl": "https://www.bcg.com/publications/2026/agentic-ai-wholesale-credit-decisions",
     "esgTopic": "合规与监管",
     "titleZh": "批发信贷，永远在线",
-    "summaryZh": "批发信贷",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -223,10 +262,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Wholesale Credit, Always On",
+        "title": "批发信贷，永远在线",
         "subject": "BCG 可持续发展洞察",
         "action": "发布",
-        "object": "Wholesale Credit, Always On",
+        "object": "批发信贷，永远在线",
         "occurredAt": "2026-11-17"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1053,6 +1092,45 @@
     }
   },
   {
+    "id": "src-copsmn",
+    "title": "收盘价首次低于1元，000010、000656、600567，提示退市风险！ - 同花顺财经",
+    "summary": "收盘价首次低于1元，000010、000656、600567，提示退市风险！",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-16T18:04:54.000Z",
+    "importanceLevel": "中",
+    "sourceName": "上交所公告与规则",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%8A%E4%BA%A4%E6%89%80%E5%8F%91%E5%B8%83%20%E5%85%AC%E5%91%8A",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1SbGZ4XzF1QTZPVWRxakVYc29rWldrTU1RdVZQaXpHSHlpRld6WnNzcDNFemhkdnVSZXJWZVpCbUlTUHNkbnRXSU9EMjcwTGxSQ09uMDZHZDRaV1VaOTBtdzB3?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "收盘价首次低于1元，000010、000656、600567，提示退市风险！ - 同花顺财经",
+    "summaryZh": "收盘价首次低于1元，000010、000656、600567，提示退市风险！",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 65,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1i0879v",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "收盘价首次低于1元，000010、000656、600567",
+        "subject": "上交所公告与规则",
+        "action": "发布",
+        "object": "收盘价首次低于1元，000010、000656、600567，提示退市风险！ - 同花顺财经",
+        "occurredAt": "2026-11-16"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-178jd5d",
     "title": "DitchCarbon Launches New Solution to Identify, Address High-Emissions Electricity in Supply Chains",
     "summary": "Scope 3 emissions-focused platform DitchCarbon announced the launch of its Electricity module",
@@ -1081,10 +1159,10 @@
         "全球"
       ],
       "fact": {
-        "title": "DitchCarbon Launches New Solut",
+        "title": "DitchCarbon 推出新解决方案来识别和解决供应链中的",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "DitchCarbon Launches New Solution to Identify, Address High-Emissions Electricit",
+        "object": "DitchCarbon 推出新解决方案来识别和解决供应链中的高排放电力问题",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1120,10 +1198,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Steel: Forging the foundation ",
+        "title": "钢铁：为印度的未来奠定基础",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Steel: Forging the foundation for the future of India",
+        "object": "钢铁：为印度的未来奠定基础",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1159,10 +1237,49 @@
         "全球"
       ],
       "fact": {
-        "title": "CIP Launches New $1 Billion En",
+        "title": "CIP 推出新的 10 亿美元能源转型基础设施信贷基金",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "CIP Launches New $1 Billion Energy Transition Infrastructure Credit Fund",
+        "object": "CIP 推出新的 10 亿美元能源转型基础设施信贷基金",
+        "occurredAt": "2026-11-16"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-2ogyco",
+    "title": "大连热电(600719):大连热电股份有限公司信息披露事务管理制度（2026年11月修订） - 中财网",
+    "summary": "大连热电(600719):大连热电股份有限公司信息披露事务管理制度（2026年11月修订） 中财网",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-16T15:26:37.000Z",
+    "importanceLevel": "中",
+    "sourceName": "上交所公告与规则",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%8A%E4%BA%A4%E6%89%80%E5%8F%91%E5%B8%83%20%E5%85%AC%E5%91%8A",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hTjI4cHI1dkhNQWQ5c3JsTHdXOVZHdzNJVlAxSmZDOEw5SDI4bzgzTDNCbkJGYzZVQlV3ZW1yWGktX2dCT0Vva09VUTBxZi1xb2Nfc3Vn?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "大连热电(600719):大连热电股份有限公司信息披露事务管理制度（2026年11月修订） - 中财网",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 65,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-j8psak",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "大连热电(600719):大连热电股份有限公司信息披露事务管",
+        "subject": "上交所公告与规则",
+        "action": "修订",
+        "object": "大连热电(600719):大连热电股份有限公司信息披露事务管理制度（2026年11月修订） - 中财网",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1198,10 +1315,49 @@
         "全球"
       ],
       "fact": {
-        "title": "BII, Norfund, FinDev Canada Pa",
+        "title": "BII、Norfund、FinDev Canada 合作向新",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "BII, Norfund, FinDev Canada Partner to Mobilize $10 Billion in Climate Finance t",
+        "object": "BII、Norfund、FinDev Canada 合作向新兴市场筹集 100 亿美元气候融资",
+        "occurredAt": "2026-11-16"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-ff4lap",
+    "title": "White & Case, Baker McKenzie and A&O Shearman Lead on Middle East IPOs - Law.com",
+    "summary": "White & Case, Baker McKenzie and A&O Shearman Lead on Middle East IPOs Law.com",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-11-16T14:19:35.000Z",
+    "importanceLevel": "中",
+    "sourceName": "贝克·麦坚时（Baker McKenzie）ESG/监管洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%B4%9D%E5%85%8B%C2%B7%E9%BA%A6%E5%9D%9A%E6%97%B6",
+    "articleUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZmFfczJxeGdlSXpNU3J4NWZmUTBwUDl5N1dUVDl5OHpMVHFWVnpIUTJMTXkzTXBIMUIwaHlQcl9uSkdSeGZTeU5zc1BESWlONU9LQXBHSWZBdTl4RFhjUlhsVHRJc091ZzVCbm9IZ251R2ZHUDd6MHhzS05vcXRlOXVRS2FGemlkbXo3OTFHOEdEY21pdkNtTmF1QmttZE1DRUY1Z2N1d0dzbUEwcmE5cVI3Z2l5WWxycVZEZFJR?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "White & Case、Baker McKenzie 和 A&O Shearman 主导中东 IPO - Law.com",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 60,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1jvy3hd",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "White & Case, Baker McKenzie a",
+        "subject": "贝克·麦坚时（Baker McKenzie）ESG/监管洞察",
+        "action": "发布",
+        "object": "White & Case, Baker McKenzie and A&O Shearman Lead on Middle East IPOs - Law.com",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1237,10 +1393,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Goldman Sachs Leads $345 Milli",
+        "title": "高盛牵头为 Exus 提供 3.45 亿美元融资，以扩大美国",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "Goldman Sachs Leads $345 Million Financing for Exus to Expand U.S. Clean Energy ",
+        "object": "高盛牵头为 Exus 提供 3.45 亿美元融资，以扩大美国清洁能源投资组合",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1276,10 +1432,49 @@
         "全球"
       ],
       "fact": {
-        "title": "ECB to Launch “Deep Dives” int",
+        "title": "欧洲央行将“深入研究”银行气候和自然风险管理",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "ECB to Launch “Deep Dives” into Banks’ Management of Climate and Nature Risks",
+        "object": "欧洲央行将“深入研究”银行气候和自然风险管理",
+        "occurredAt": "2026-11-16"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-k8jth",
+    "title": "​向“新”而行 以“质”致远 ——兴业银行宁德分行张逸伟荣获2026年福建金融系统服务新质生产力技能竞赛优秀奖 - 东南网",
+    "summary": "​向“新”而行 以“质”致远 ——兴业银行宁德分行张逸伟荣获2026年福建金融系统服务新质生产力技能竞赛优秀奖 东南网",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-16T12:01:25.000Z",
+    "importanceLevel": "中",
+    "sourceName": "金融监管总局通知公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14OFZ1QXBwbTFZamcwclVtLUFtQ1ctQ1ptSXEtMTFKQU9FeGIxVzdrU1dzemc5LUtuTS1OTnlEc3pQQjhFRlo1UUJFYkl0X1lfNFFWV3dnWVVSSHlaZHVsTA?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "​向“新”而行 以“质”致远 ——兴业银行宁德分行张逸伟荣获2026年福建金融系统服务新质生产力技能竞赛优秀奖 - 东南网",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 63,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1sdbc3n",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "​向“新”而行 以“质”致远 ——兴业银行宁德分行张逸伟荣获",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "​向“新”而行 以“质”致远 ——兴业银行宁德分行张逸伟荣获2026年福建金融系统服务新质生产力技能竞赛优秀奖 - 东南网",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1315,10 +1510,10 @@
         "全球"
       ],
       "fact": {
-        "title": "AI gets climate science right ",
+        "title": "人工智能让气候科学正确——直到用户反对",
         "subject": "联合国新闻",
         "action": "发布",
-        "object": "AI gets climate science right – until users push back",
+        "object": "人工智能让气候科学正确——直到用户反对",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1354,10 +1549,10 @@
         "全球"
       ],
       "fact": {
-        "title": "COP31 enters decisive week as ",
+        "title": "随着气候谈判面临政治考验和人工智能举措加快步伐，COP31 ",
         "subject": "联合国新闻",
         "action": "发布",
-        "object": "COP31 enters decisive week as climate talks face political test and AI initiativ",
+        "object": "随着气候谈判面临政治考验和人工智能举措加快步伐，COP31 进入决定性的一周",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1393,10 +1588,49 @@
         "全球"
       ],
       "fact": {
-        "title": "GM Backs $550 Million Solar In",
+        "title": "通用汽车支持迄今为止最大的清洁能源交易 5.5 亿美元太阳能",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "GM Backs $550 Million Solar Investment in Largest Clean Energy Deal to Date",
+        "object": "通用汽车支持迄今为止最大的清洁能源交易 5.5 亿美元太阳能投资",
+        "occurredAt": "2026-11-16"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-3ffzlh",
+    "title": "山鹰国际(600567):公司股票存在可能因股价低于1元而终止上市的首次风险提示公告 - 中财网",
+    "summary": "山鹰国际(600567):公司股票存在可能因股价低于1元而终止上市的首次风险提示公告 中财网",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-16T11:23:05.000Z",
+    "importanceLevel": "中",
+    "sourceName": "上交所公告与规则",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%8A%E4%BA%A4%E6%89%80%E5%8F%91%E5%B8%83%20%E5%85%AC%E5%91%8A",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EVEdFbkFPNWRmZzFXWlRDMGt4YWo5eTBneWhEVGdNdmFmaHRMekItYndHelhJTTJQQ1RqXzMyWDhPU3JKTkhJUGJsbXZfcGEzeFRtUGhR?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "山鹰国际(600567):公司股票存在可能因股价低于1元而终止上市的首次风险提示公告 - 中财网",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 65,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1s3wek4",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "山鹰国际(600567):公司股票存在可能因股价低于1元而终",
+        "subject": "上交所公告与规则",
+        "action": "发布",
+        "object": "山鹰国际(600567):公司股票存在可能因股价低于1元而终止上市的首次风险提示公告 - 中财网",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1432,10 +1666,10 @@
         "全球"
       ],
       "fact": {
-        "title": "AIB Doubles Sustainable Lendin",
+        "title": "AIB 将可持续贷款目标翻倍，到 2030 年达到 600 ",
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
-        "object": "AIB Doubles Sustainable Lending Goal to €60 Billion by 2030",
+        "object": "AIB 将可持续贷款目标翻倍，到 2030 年达到 600 亿欧元",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1455,7 +1689,7 @@
     "articleUrl": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR193",
     "esgTopic": "合规与监管",
     "titleZh": "王凯文新演讲：在中国国际金融论坛·香港峰会上的演讲",
-    "summaryZh": "",
+    "summaryZh": "王凯文新演讲：在中国国际金融论坛·香港峰会上的演讲",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -1471,10 +1705,88 @@
         "香港"
       ],
       "fact": {
-        "title": "New speech by Kelvin Wong: Spe",
+        "title": "王凯文新演讲：在中国国际金融论坛·香港峰会上的演讲",
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
-        "object": "New speech by Kelvin Wong: Speech at China International Finance Forum · Hong Ko",
+        "object": "王凯文新演讲：在中国国际金融论坛·香港峰会上的演讲",
+        "occurredAt": "2026-11-16"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-9edij1",
+    "title": "陈国汪：中小银行参与“六张网”建设的切入点、重点与禁入区域 - 金融界",
+    "summary": "陈国汪：中小银行参与“六张网”建设的切入点、重点与禁入区域 金融界",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-16T07:48:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "金融监管总局通知公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+    "articleUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBqbTAzcVFJSXN0QUlZd0VoeDBBcFU1T2djdGRVTWdybzhtMHdJZG1lRUFaS1hyRkNWRjRDRDQ0ek11YVZDVElnX0ZhazZ0RjhGdTNPc01leWo3R1JWTHM4LWpBbHRtVi1NLWtwN2x1RWc?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "陈国汪：中小银行参与“六张网”建设的切入点、重点与禁入区域 - 金融界",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 61,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-qqaugk",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "陈国汪：中小银行参与“六张网”建设的切入点、重点与禁入区域 ",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "陈国汪：中小银行参与“六张网”建设的切入点、重点与禁入区域 - 金融界",
+        "occurredAt": "2026-11-16"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1yq2av5",
+    "title": "第九期：全球金融监管动态月刊（2026年10月刊） - kpmg.com",
+    "summary": "第九期：全球金融监管动态月刊（2026年10月刊） kpmg.com",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-16T04:46:39.000Z",
+    "importanceLevel": "中",
+    "sourceName": "金融监管总局通知公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUms5YXdJaEdlTUFpUW9JQ1V6Y200Y0FJdmgxTnB1VW8xd05oYmp6Smt3SHU2MFp4RXFEOWk1VEhZOV9sWHo5SFpqc2VjZ0ZjRnpzdmh3cDN4dWxHMURtYjEzbWxHdHJuakE2WVA5T3ZfOVlaVDN2bVJwMnRTRnNmbUhUSzdrN05xby0w?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "第九期：全球金融监管动态月刊（2026年10月刊） - kpmg.com",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 61,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-lrmqza",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "第九期：全球金融监管动态月刊（2026年10月刊） - kp",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "第九期：全球金融监管动态月刊（2026年10月刊） - kpmg.com",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1510,10 +1822,10 @@
         "香港"
       ],
       "fact": {
-        "title": "Notification of Specified Date",
+        "title": "无认证证券市场制度下指定日期的通知",
         "subject": "香港交易所新闻稿",
         "action": "发布",
-        "object": "Notification of Specified Date under Uncertificated Securities Market Regime",
+        "object": "无认证证券市场制度下指定日期的通知",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1533,7 +1845,7 @@
     "articleUrl": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR192",
     "esgTopic": "合规与监管",
     "titleZh": "黄凯文新演讲：香港交易所离岸人民币债券指数发布仪式上的主题演讲",
-    "summaryZh": "",
+    "summaryZh": "黄凯文新演讲：香港交易所离岸人民币债券指数发布仪式上的主题演讲",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -1549,10 +1861,10 @@
         "香港"
       ],
       "fact": {
-        "title": "New speech by Kelvin Wong: Key",
+        "title": "黄凯文新演讲：香港交易所离岸人民币债券指数发布仪式上的主题演",
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
-        "object": "New speech by Kelvin Wong: Keynote address at HKEX Offshore RMB Bond Index Launc",
+        "object": "黄凯文新演讲：香港交易所离岸人民币债券指数发布仪式上的主题演讲",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1588,10 +1900,10 @@
         "香港"
       ],
       "fact": {
-        "title": "HKEX Launches Offshore RMB Bon",
+        "title": "香港交易所推出离岸人民币债券指数",
         "subject": "香港交易所新闻稿",
         "action": "发布",
-        "object": "HKEX Launches Offshore RMB Bond Index",
+        "object": "香港交易所推出离岸人民币债券指数",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1627,10 +1939,10 @@
         "全球"
       ],
       "fact": {
-        "title": "New IFRS 20 webcast: Regulator",
+        "title": "新 IFRS 20 网络广播：与监管资本基础相关的监管回报和",
         "subject": "IFRS / ISSB 新闻",
         "action": "发布",
-        "object": "New IFRS 20 webcast: Regulatory returns and compensation for inflation related t",
+        "object": "新 IFRS 20 网络广播：与监管资本基础相关的监管回报和通胀补偿",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1666,10 +1978,10 @@
         "新加坡"
       ],
       "fact": {
-        "title": "Subscribe to Updates Get notif",
+        "title": "订阅更新每当本网站上发布新闻和更新时，您都会收到通知。",
         "subject": "新加坡金管局（MAS）可持续金融",
         "action": "发布",
-        "object": "Subscribe to Updates Get notified whenever news and updates are posted on this w",
+        "object": "订阅更新每当本网站上发布新闻和更新时，您都会收到通知。",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1689,7 +2001,7 @@
     "articleUrl": "https://www.business-humanrights.org/en/latest-news/angola-indian-worker-at-best-angola-metal-reportedly-dies-due-to-employers-negligence-incl-co-response/",
     "esgTopic": "合规与监管",
     "titleZh": "安哥拉：据报道，安哥拉最佳金属公司的印度工人因雇主的“疏忽”而死亡，其中包括。公司回复",
-    "summaryZh": "",
+    "summaryZh": "安哥拉：据报道，安哥拉最佳金属公司的印度工人因雇主的“疏忽”而死亡，其中包括。",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -1705,10 +2017,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Angola: Indian worker at Best ",
+        "title": "安哥拉：据报道，安哥拉最佳金属公司的印度工人因雇主的“疏忽”",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Angola: Indian worker at Best Angola Metal reportedly dies due to employer's \"ne",
+        "object": "安哥拉：据报道，安哥拉最佳金属公司的印度工人因雇主的“疏忽”而死亡，其中包括。公司回复",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1728,7 +2040,7 @@
     "articleUrl": "https://www.business-humanrights.org/en/latest-news/best-angola-metal-response-re-death-of-indian-worker/",
     "esgTopic": "合规与监管",
     "titleZh": "安哥拉金属最佳回应——印度工人再次死亡",
-    "summaryZh": "",
+    "summaryZh": "安哥拉金属最佳回应——印度工人再次死亡",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -1744,10 +2056,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Best Angola Metal response re-",
+        "title": "安哥拉金属最佳回应——印度工人再次死亡",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Best Angola Metal response re- death of Indian worker",
+        "object": "安哥拉金属最佳回应——印度工人再次死亡",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1783,10 +2095,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Bougainville: Rio Tinto agrees",
+        "title": "布干维尔：力拓同意设立 2.5 亿美元的基金，以补救原住民社",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Bougainville: Rio Tinto agrees to establish a USD 250 million fund to remedy Ind",
+        "object": "布干维尔：力拓同意设立 2.5 亿美元的基金，以补救原住民社区的环境和人权影响",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1806,7 +2118,7 @@
     "articleUrl": "https://www.business-humanrights.org/en/latest-news/kazakhstan-hydrogeological-report-used-to-justify-continued-oil-extraction-at-critical-aquifer-remain-withheld-from-public-despite-cso-demand-for-transparency-companies-did-not-response/",
     "esgTopic": "合规与监管",
     "titleZh": "哈萨克斯坦：尽管公民社会组织要求提高透明度，但政府指定的证明关键含水层石油开采合理性的报告仍未披露；公司没有回应",
-    "summaryZh": "",
+    "summaryZh": "哈萨克斯坦：尽管公民社会组织要求提高透明度，但政府指定的证明关键含水层石油开采合理性的报告仍未披露；",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -1822,10 +2134,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Kazakhstan: Government-appoint",
+        "title": "哈萨克斯坦：尽管公民社会组织要求提高透明度，但政府指定的证明",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
-        "action": "发布",
-        "object": "Kazakhstan: Government-appointed report justifiying oil extraction at critical a",
+        "action": "披露",
+        "object": "哈萨克斯坦：尽管公民社会组织要求提高透明度，但政府指定的证明关键含水层石油开采合理性的报告仍未披露；公司没有回应",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1845,7 +2157,7 @@
     "articleUrl": "https://www.business-humanrights.org/en/latest-news/bangladesh-garment-workers-strike-for-higher-wages-leading-to-factory-closures-and-calls-for-protection/",
     "esgTopic": "合规与监管",
     "titleZh": "孟加拉国：服装工人罢工要求提高工资，导致工厂关闭并呼吁保护",
-    "summaryZh": "",
+    "summaryZh": "孟加拉国：服装工人罢工要求提高工资",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -1861,10 +2173,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Bangladesh: Garment workers st",
+        "title": "孟加拉国：服装工人罢工要求提高工资，导致工厂关闭并呼吁保护",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Bangladesh: Garment workers strike for higher wages, leading to factory closures",
+        "object": "孟加拉国：服装工人罢工要求提高工资，导致工厂关闭并呼吁保护",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1884,7 +2196,7 @@
     "articleUrl": "https://www.business-humanrights.org/en/latest-news/nepal-new-public-procurement-wage-rules-spark-industry-backlash-over-lack-of-consultation/",
     "esgTopic": "合规与监管",
     "titleZh": "尼泊尔：新的公共采购工资规则因缺乏协商而引发行业强烈反对",
-    "summaryZh": "",
+    "summaryZh": "尼泊尔：新的公共采购工资规则因缺乏协商而引发行业强烈反对",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -1900,10 +2212,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Nepal: New public procurement ",
+        "title": "尼泊尔：新的公共采购工资规则因缺乏协商而引发行业强烈反对",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Nepal: New public procurement wage rules spark industry backlash over lack of co",
+        "object": "尼泊尔：新的公共采购工资规则因缺乏协商而引发行业强烈反对",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1923,7 +2235,7 @@
     "articleUrl": "https://www.business-humanrights.org/en/latest-news/qatar-nepal-war-in-west-asia-threatens-nepali-migrant-workers-jobs-as-qatars-economy-contracts-sharply/",
     "esgTopic": "合规与监管",
     "titleZh": "卡塔尔和尼泊尔：卡塔尔经济急剧萎缩，西亚战争威胁尼泊尔移民工人的工作",
-    "summaryZh": "",
+    "summaryZh": "卡塔尔和尼泊尔：卡塔尔经济急剧萎缩",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -1939,10 +2251,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Qatar & Nepal: War in West Asi",
+        "title": "卡塔尔和尼泊尔：卡塔尔经济急剧萎缩，西亚战争威胁尼泊尔移民工",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Qatar & Nepal: War in West Asia threatens Nepali migrant workers' jobs as Qatar'",
+        "object": "卡塔尔和尼泊尔：卡塔尔经济急剧萎缩，西亚战争威胁尼泊尔移民工人的工作",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -1962,7 +2274,7 @@
     "articleUrl": "https://www.business-humanrights.org/en/latest-news/india-delhis-severe-air-pollution-harms-outdoor-workers-hurts-businesses/",
     "esgTopic": "合规与监管",
     "titleZh": "印度：德里“严重”空气污染伤害户外工作者和企业",
-    "summaryZh": "",
+    "summaryZh": "印度：德里“严重”空气污染伤害户外工作者和企业",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -1978,10 +2290,10 @@
         "全球"
       ],
       "fact": {
-        "title": "India: Delhi's 'severe' air po",
+        "title": "印度：德里“严重”空气污染伤害户外工作者和企业",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "India: Delhi's 'severe' air pollution harms outdoor workers, hurts businesses",
+        "object": "印度：德里“严重”空气污染伤害户外工作者和企业",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -2001,7 +2313,7 @@
     "articleUrl": "https://www.business-humanrights.org/en/latest-news/china-national-petroleum-corporation-did-not-respond-to-allegations-on-undisclosed-hydrogeological-report-related-to-critical-aquifer-oil-extraction/",
     "esgTopic": "合规与监管",
     "titleZh": "中国石油天然气集团公司没有回应与关键含水层石油开采相关的未公开水文地质报告的指控",
-    "summaryZh": "",
+    "summaryZh": "中国石油天然气集团公司没有回应与关键含水层石油开采相关的未公开水文地质报告的指控",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -2017,10 +2329,10 @@
         "全球"
       ],
       "fact": {
-        "title": "China National Petroleum Corpo",
+        "title": "中国石油天然气集团公司没有回应与关键含水层石油开采相关的未公",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "China National Petroleum Corporation did not respond to allegations on undisclos",
+        "object": "中国石油天然气集团公司没有回应与关键含水层石油开采相关的未公开水文地质报告的指控",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -2040,7 +2352,7 @@
     "articleUrl": "https://www.business-humanrights.org/en/latest-news/sinopec-did-not-respond-to-allegations-on-undisclosed-hydrogeological-report-related-to-critical-aquifer-oil-extraction/",
     "esgTopic": "合规与监管",
     "titleZh": "中石化未回应与关键含水层石油开采相关的未公开水文地质报告的指控",
-    "summaryZh": "",
+    "summaryZh": "中石化未回应与关键含水层石油开采相关的未公开水文地质报告的指控",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -2056,10 +2368,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Sinopec did not respond to all",
+        "title": "中石化未回应与关键含水层石油开采相关的未公开水文地质报告的指",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Sinopec did not respond to allegations on undisclosed hydrogeological report rel",
+        "object": "中石化未回应与关键含水层石油开采相关的未公开水文地质报告的指控",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -2095,10 +2407,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Transcript of COP31 press conf",
+        "title": "COP31 新闻发布会与 COP31 谈判主席对外致辞的文字",
         "subject": "联合国气候变化框架公约（UNFCCC）新闻",
         "action": "发布",
-        "object": "Transcript of COP31 press conference with COP31 President of Negotiations Extern",
+        "object": "COP31 新闻发布会与 COP31 谈判主席对外致辞的文字记录",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -2134,10 +2446,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Biopharma",
+        "title": "生物制药",
         "subject": "BCG 可持续发展洞察",
         "action": "发布",
-        "object": "Biopharma",
+        "object": "生物制药",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -2173,10 +2485,10 @@
         "全球"
       ],
       "fact": {
-        "title": "How New Drug Pricing Models Wi",
+        "title": "新的药品定价模式将如何在欧洲发挥作用",
         "subject": "BCG 可持续发展洞察",
         "action": "发布",
-        "object": "How New Drug Pricing Models Will Play Across Europe",
+        "object": "新的药品定价模式将如何在欧洲发挥作用",
         "occurredAt": "2026-11-16"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -3460,10 +3772,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Navigating the AI infrastructu",
+        "title": "解决人工智能基础设施不匹配的问题：Equinix 首席执行官",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Navigating the AI infrastructure mismatch: Equinix CEO Adaire Fox-Martin",
+        "object": "解决人工智能基础设施不匹配的问题：Equinix 首席执行官 Adaire Fox-Martin",
         "occurredAt": "2026-11-15"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -3499,10 +3811,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Solving Britain’s energy bottl",
+        "title": "解决英国的能源瓶颈：每年价值 780 亿英镑的更清洁、更实惠",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "Solving Britain’s energy bottlenecks: The £78 billion-a-year opportunity for cle",
+        "object": "解决英国的能源瓶颈：每年价值 780 亿英镑的更清洁、更实惠的电力机会",
         "occurredAt": "2026-11-15"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -3538,10 +3850,10 @@
         "全球"
       ],
       "fact": {
-        "title": "AI in Asia: Reimagining insura",
+        "title": "亚洲的人工智能：通过代理人工智能重新构想保险运营",
         "subject": "麦肯锡可持续发展洞察",
-        "action": "发布",
-        "object": "AI in Asia: Reimagining insurance operations through agentic AI",
+        "action": "通过",
+        "object": "亚洲的人工智能：通过代理人工智能重新构想保险运营",
         "occurredAt": "2026-11-15"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -3561,7 +3873,7 @@
     "articleUrl": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-ceos-role-in-leading-on-sustainability",
     "esgTopic": "合规与监管",
     "titleZh": "首席执行官在可持续发展方面的领导作用",
-    "summaryZh": "可持续发展是我们这个时代的一个决定性挑战。以下是首席执行官如何超越仅仅平衡竞争需求，积极创造战略优势。",
+    "summaryZh": "可持续发展是该机构这个时代的一个决定性挑战。以下是首席执行官如何超越仅仅平衡竞争需求，积极创造战略优势。",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -3577,10 +3889,10 @@
         "全球"
       ],
       "fact": {
-        "title": "The CEO’s role in leading on s",
+        "title": "首席执行官在可持续发展方面的领导作用",
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
-        "object": "The CEO’s role in leading on sustainability",
+        "object": "首席执行官在可持续发展方面的领导作用",
         "occurredAt": "2026-11-15"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -3795,7 +4107,7 @@
     "articleUrl": "https://www.business-humanrights.org/en/latest-news/eswatini-ministry-of-labour-probes-allegations-that-some-textile-workers-earn-as-little-as-e600-per-month/",
     "esgTopic": "合规与监管",
     "titleZh": "斯瓦蒂尼：劳工部调查一些纺织工人月收入仅为 E600 的指控",
-    "summaryZh": "",
+    "summaryZh": "斯瓦蒂尼：劳工部调查一些纺织工人月收入仅为 E600 的指控",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -3811,10 +4123,10 @@
         "全球"
       ],
       "fact": {
-        "title": "eSwatini: Ministry of Labour p",
+        "title": "斯瓦蒂尼：劳工部调查一些纺织工人月收入仅为 E600 的指控",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
-        "action": "发布",
-        "object": "eSwatini: Ministry of Labour probes allegations that some textile workers earn a",
+        "action": "调查",
+        "object": "斯瓦蒂尼：劳工部调查一些纺织工人月收入仅为 E600 的指控",
         "occurredAt": "2026-11-15"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -4474,10 +4786,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Transcript of COP31 press conf",
+        "title": "COP31 新闻发布会与 COP31 谈判主席和 COP31",
         "subject": "联合国气候变化框架公约（UNFCCC）新闻",
         "action": "发布",
-        "object": "Transcript of COP31 press conference with COP31 President of Negotiations and CO",
+        "object": "COP31 新闻发布会与 COP31 谈判主席和 COP31 主席青年气候倡导者外部声明的文字记录",
         "occurredAt": "2026-11-14"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -4552,10 +4864,10 @@
         "英国"
       ],
       "fact": {
-        "title": "Investigation into illegal was",
+        "title": "调查约克郡镇非法倾倒废物",
         "subject": "英国环境署企业执法与环境事件",
-        "action": "发布",
-        "object": "Investigation into illegal waste dumping in Yorkshire town",
+        "action": "调查",
+        "object": "调查约克郡镇非法倾倒废物",
         "occurredAt": "2026-11-13"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -4727,6 +5039,45 @@
     }
   },
   {
+    "id": "src-1xf4c6",
+    "title": "菊乐股份(920309):向不特定合格投资者公开发行股票并在北京证券交易所上市公告书 - 中财网",
+    "summary": "菊乐股份(920309):向不特定合格投资者公开发行股票并在北京证券交易所上市公告书 中财网",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-13T10:07:27.000Z",
+    "importanceLevel": "中",
+    "sourceName": "北交所新闻与公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%8C%97%E4%BA%A4%E6%89%80%20%E5%85%AC%E5%91%8A%20%E5%85%A8%E5%9B%BD%E8%82%A1%E8%BD%AC",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNRE9URzRUN3RpTzBzcng5eEs5bldXR2xkTWswa1NXaHBWaWdVbzY3eXJqWHNmQnlwSEFHSXBtT0FiZTFoOGl3RGRWNkxpcmhrR24xdl9n?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "菊乐股份(920309):向不特定合格投资者公开发行股票并在北京证券交易所上市公告书 - 中财网",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 61,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-ssw6up",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "菊乐股份(920309):向不特定合格投资者公开发行股票并在",
+        "subject": "北交所新闻与公告",
+        "action": "发布",
+        "object": "菊乐股份(920309):向不特定合格投资者公开发行股票并在北京证券交易所上市公告书 - 中财网",
+        "occurredAt": "2026-11-13"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-1f0dxvc",
     "title": "How Can We Finance COP31’s Electrification Plan?",
     "summary": "Guest post by: Tsvetelina Kuzmanova, EU Sustainable Finance Policy Lead, Cambridge Institute for Sustainability Leadership",
@@ -4759,6 +5110,45 @@
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
         "object": "我们如何为COP31的电气化计划融资？",
+        "occurredAt": "2026-11-13"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-nnjfqu",
+    "title": "\"ESG Work Once Done in Excel and PPT, Now with AI\"... Samil PwC Unveils Integrated Solution - 아시아경제",
+    "summary": "\"ESG Work Once Done in Excel and PPT",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-11-13T00:12:20.000Z",
+    "importanceLevel": "中",
+    "sourceName": "普华永道（PwC）ESG 洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%99%AE%E5%8D%8E%E6%B0%B8%E9%81%93",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBnZzcyYU5iMWJtdlJKY2NDNkRBY0t3YjNGSU56MVFzaWZtUWpvM3prRjR3cDQtdE5kbXVScTlWSjE3dWtzNDFaSjU4OC1jZzdEQ0lYaTJPdHlCNG9PT08wR1JrVHQ?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "“ESG 工作曾经在 Excel 和 PPT 中完成，现在通过 AI 完成”...Samil PwC 推出集成解决方案 - 아시아경제",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 57,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1v31zz3",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "\"ESG Work Once Done in Excel a",
+        "subject": "普华永道（PwC）ESG 洞察",
+        "action": "发布",
+        "object": "\"ESG Work Once Done in Excel and PPT, Now with AI\"... Samil PwC Unveils Integrat",
         "occurredAt": "2026-11-13"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -4934,7 +5324,7 @@
     "articleUrl": "https://unfccc.int/news/face-the-facts-follow-the-science-choose-the-future-and-never-give-up-un-secretary-general-at-his",
     "esgTopic": "合规与监管",
     "titleZh": "“面对事实。遵循科学。选择未来。永不放弃”联合国秘书长在COP31最后一次新闻发布会上的外部演讲",
-    "summaryZh": "“面对事实。遵循科学。选择未来。",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -7017,10 +7407,10 @@
         "全球"
       ],
       "fact": {
-        "title": "Avoiding the Subsidy Trap: How",
+        "title": "避免补贴陷阱：各国如何为下一次能源危机做好准备",
         "subject": "世界资源研究所（WRI）Insights",
         "action": "发布",
-        "object": "Avoiding the Subsidy Trap: How Countries Can Prepare for the Next Energy Crisis",
+        "object": "避免补贴陷阱：各国如何为下一次能源危机做好准备",
         "occurredAt": "2026-11-13"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -7808,6 +8198,45 @@
     }
   },
   {
+    "id": "src-o9ouuc",
+    "title": "华业资本未按期披露中期报告 上交所出具177号决定书予以公开谴责 - 观点网",
+    "summary": "华业资本未按期披露中期报告 上交所出具177号决定书予以公开谴责 观点网",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-12T06:19:16.000Z",
+    "importanceLevel": "中",
+    "sourceName": "上交所公告与规则",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%8A%E4%BA%A4%E6%89%80%E5%8F%91%E5%B8%83%20%E5%85%AC%E5%91%8A",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5CdWcyQ2xxSUZYUTkyaExKOGZ6UTRNLXlnSmZUZWdZd0JmOFpjcWtGZ2hIb29yLWJqWHRFY1VVSXlKdVM2MWk0WktsbVgwdw?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "华业资本未按期披露中期报告 上交所出具177号决定书予以公开谴责 - 观点网",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 61,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-yfnbwq",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "华业资本未按期披露中期报告 上交所出具177号决定书予以公开",
+        "subject": "上交所公告与规则",
+        "action": "披露",
+        "object": "华业资本未按期披露中期报告 上交所出具177号决定书予以公开谴责 - 观点网",
+        "occurredAt": "2026-11-12"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-19a733e",
     "title": "N. Zealand: Awanui Labs workers to strike over stalled pay and conditions negotiations, incl. co. comment",
     "summary": "N. Zealand: Awanui Labs workers to strike over stalled pay and conditions negotiations, incl. co.",
@@ -8111,7 +8540,7 @@
       "fact": {
         "title": "泽连斯基表示，星链限制导致更多俄罗斯袭击得以突破，造成乌克兰",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
-        "action": "发布",
+        "action": "通过",
         "object": "泽连斯基表示，星链限制导致更多俄罗斯袭击得以突破，造成乌克兰平民死亡",
         "occurredAt": "2026-11-12"
       },
@@ -8210,7 +8639,7 @@
     "articleUrl": "https://unfccc.int/news/super-pollutants-are-a-supersize-opportunity-methane-cuts-provide-rapid-results-un-climate-chief-at",
     "esgTopic": "合规与监管",
     "titleZh": "“超级污染物是一个超大机遇……甲烷减排能带来快速成效”联合国气候负责人在今日COP31上表示",
-    "summaryZh": "“超级污染物是一个巨大的机会......",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -12071,7 +12500,7 @@
     "articleUrl": "https://unglobalcompact.org/news/un-global-compact-calls-faster-climate-action-business-leaders-gather-cop31",
     "esgTopic": "合规与监管",
     "titleZh": "联合国全球契约组织呼吁加快气候行动，商界领袖齐聚COP31",
-    "summaryZh": "商界和联合国领导人今天齐聚 COP31，讨论全球气候行动中最紧迫的挑战之一：在政治不确定性和经济压力日益加剧的情况下，如何将企业承诺转化为可衡量的减排量。",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -12110,7 +12539,7 @@
     "articleUrl": "https://www.skadden.com/insights/publications/2026/11/bis-extends-suspension-of-affiliates-rule",
     "esgTopic": "合规与监管",
     "titleZh": "BIS将关联机构规则的暂停执行期延长至2027年1月10日",
-    "summaryZh": "BIS 将暂停附属机构规则的期限延长至 1 月 10 日",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -12130,7 +12559,7 @@
         "subject": "世达（Skadden）洞察",
         "action": "发布",
         "object": "BIS将关联机构规则的暂停执行期延长至2027年1月10日",
-        "occurredAt": "2026-11-09"
+        "occurredAt": "2026-11-11"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
@@ -12559,6 +12988,45 @@
         "subject": "ESG Today（全球 ESG 新闻）",
         "action": "发布",
         "object": "彭博推出新工具，使投资者能够评估可持续债券影响",
+        "occurredAt": "2026-11-10"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1cwyock",
+    "title": "AEoI alert - PwC",
+    "summary": "AEoI alert PwC",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-11-10T09:09:14.000Z",
+    "importanceLevel": "中",
+    "sourceName": "普华永道（PwC）ESG 洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%99%AE%E5%8D%8E%E6%B0%B8%E9%81%93",
+    "articleUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55NEwyWm1Lc1p4TnV0SmlRVWdveVN5WGl6ZXpsTWpSNHNycnUyYjVzZlhzSHRIZ1BKMjRWR1ZCTTlYaUxBMXgtOVNwUmtCTXJXbVBqNlhRT0dMQXc4Q3BRa3RYSjlyZHpreTgxYTFDYndYOTRxTWc?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "AEoI 警报 - 普华永道",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 60,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1xobl2h",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "AEoI alert - PwC",
+        "subject": "普华永道（PwC）ESG 洞察",
+        "action": "发布",
+        "object": "AEoI alert - PwC",
         "occurredAt": "2026-11-10"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -13112,6 +13580,45 @@
     }
   },
   {
+    "id": "src-1vnninl",
+    "title": "ESG Insights - November 2026 - Freshfields",
+    "summary": "ESG Insights - November 2026 Freshfields",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-11-09T22:20:22.000Z",
+    "importanceLevel": "中",
+    "sourceName": "富而德（Freshfields）洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AF%8C%E8%80%8C%E5%BE%B7",
+    "articleUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdlRLMXYtOVMzbTR2a1FpWEplcWt5c1VHeFhPVUR1UEFJR19vRHpsaThYS2lZcUFMN1BRYWNNTVN1QXF6bHNYQjdWRXA5aURhUmgyLTdzQmMxM1lDMFUtYmZHQ3M0U2UyTmp1VFh4RWVHeXNOREV2UENyU0ZfcDdFRmRuUGpBM2xPaHRDY2xxWm84RDUzdXl5SGQ2SkYwbEdu?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "ESG 洞察 - 2026 年 11 月 - 富而德 (Freshfields)",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 60,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1z0nn3x",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "ESG Insights - November 2026 -",
+        "subject": "富而德（Freshfields）洞察",
+        "action": "发布",
+        "object": "ESG Insights - November 2026 - Freshfields",
+        "occurredAt": "2026-11-09"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-fucpi4",
     "title": "Reinventing business planning with agentic AI",
     "summary": "Combining better forecasting with AI agents will turn planning into a more continuous, intelligent, and responsive decision-making system—and reduce the manual work required to turn forecasts into action.",
@@ -13516,6 +14023,45 @@
     }
   },
   {
+    "id": "src-1482j9v",
+    "title": "北交所三家IPO企业回应业绩问询 - 凤凰网财经",
+    "summary": "北交所三家IPO企业回应业绩问询 凤凰网财经",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-09T11:46:39.000Z",
+    "importanceLevel": "中",
+    "sourceName": "北交所新闻与公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%8C%97%E4%BA%A4%E6%89%80%20%E5%85%AC%E5%91%8A%20%E5%85%A8%E5%9B%BD%E8%82%A1%E8%BD%AC",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5KOTkySTZOX0hkNFpJSk1Jd19rT01xY0hnNzFyb184YmlfaTEtaEJHZjlEUnJEbEZYalBUM3BMV2F0UlFvTlRMbzBudVZEbTBJ?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "北交所三家IPO企业回应业绩问询 - 凤凰网财经",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 63,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-ulcy53",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "北交所三家IPO企业回应业绩问询 - 凤凰网财经",
+        "subject": "北交所新闻与公告",
+        "action": "发布",
+        "object": "北交所三家IPO企业回应业绩问询 - 凤凰网财经",
+        "occurredAt": "2026-11-09"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-1hjthi2",
     "title": "Circularity Fuels Raises $7 Million to Turn Dairy Biogas into Clean Jet Fuel",
     "summary": "Sustainable fuels technology developer Circularity Fuels announced that it has raised $7 million in a",
@@ -13743,7 +14289,7 @@
     "articleUrl": "https://www.ifrs.org/content/ifrs/home/news-and-events/news/2026/11/meet-new-iasb-chair-sam-woods.html",
     "esgTopic": "合规与监管",
     "titleZh": "认识新任IASB主席Sam Woods",
-    "summaryZh": "认识新任 IASB 主席",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -17079,6 +17625,45 @@
         "action": "通过",
         "object": "零工经济：通过人工智能辅助记录对停用提出质疑的劳动者表示，尽管存在准确性和可信度风险，技术仍是一种益处",
         "occurredAt": "2026-11-08"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1ti3wyr",
+    "title": "这家A股公司，财务总监被刑拘 - 同花顺财经",
+    "summary": "这家A股公司",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-07T07:48:37.000Z",
+    "importanceLevel": "中",
+    "sourceName": "北交所新闻与公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%8C%97%E4%BA%A4%E6%89%80%20%E5%85%AC%E5%91%8A%20%E5%85%A8%E5%9B%BD%E8%82%A1%E8%BD%AC",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAwR1pnVkluQ0hPZnVVMGRZZGNfRTJwRUJmMmt5SXBxZGFpQXI3OWR6ZF94ZlRDNzA2VGxUNEgwRTBRNGk2Mk5oa3FaRzVTR01GVUZPUy1NTHZYcUNXNGcxd0hn?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "这家A股公司，财务总监被刑拘 - 同花顺财经",
+    "summaryZh": "这家A股公司",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 61,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1rg81gn",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "这家A股公司，财务总监被刑拘 - 同花顺财经",
+        "subject": "北交所新闻与公告",
+        "action": "发布",
+        "object": "这家A股公司，财务总监被刑拘 - 同花顺财经",
+        "occurredAt": "2026-11-07"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
@@ -22105,6 +22690,45 @@
     ]
   },
   {
+    "id": "src-ahvyjo",
+    "title": "MoFo, Freshfields Advise on $5.4B SoftBank-ABB Robotics Deal Blocked by China - Law.com",
+    "summary": "MoFo, Freshfields Advise on $5.4B SoftBank-ABB Robotics Deal Blocked by China Law.com",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-11-05T08:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "富而德（Freshfields）洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AF%8C%E8%80%8C%E5%BE%B7",
+    "articleUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNEFlU1FkbWNyTVMzTlV1bVJ6bzNlcEpfT0d2Vl9Kc2ZmZXNtem5ObXRlUUpJRFprV290OTFKZl81a1pHdTdxOUFXZkVEbGMtVm9ITVRwTHlyVkVQSER5MVNTbmRPbThVeTVUMjc1SEJuSmVBNV9HUldJQnpXN0J6Wm4tbGo2Y2NLN0RnTVFObU1Db3VydUxXZFZ6TFM3VVFRS0hqeXRCN2FEYy1ucDk2eFg3Q2dXN0NVWGhjZTBHM0s4ZXRZbS1r?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "MoFo 和 Freshfields 就中国阻止的 5.4B 美元软银-ABB 机器人交易提供咨询 - Law.com",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 57,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-d06y52",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "MoFo, Freshfields Advise on $5",
+        "subject": "富而德（Freshfields）洞察",
+        "action": "发布",
+        "object": "MoFo, Freshfields Advise on $5.4B SoftBank-ABB Robotics Deal Blocked by China - ",
+        "occurredAt": "2026-11-05"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-16gpf58",
     "title": "New speech by Kelvin Wong: Keynote speech at PWMA Wealth Management Industry Summit 2026",
     "summary": "New speech by Kelvin Wong: Keynote speech at PWMA Wealth Management Industry Summit 2026",
@@ -22876,9 +23500,9 @@
       "fact": {
         "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届",
         "subject": "中国人民银行公告",
-        "action": "通过",
+        "action": "发布",
         "object": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常...",
-        "occurredAt": "2026-11-05"
+        "occurredAt": "2026-11-03"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
@@ -24340,7 +24964,7 @@
     "articleUrl": "https://www.carbonbrief.org/qa-what-is-the-brazil-led-deforestation-roadmap",
     "esgTopic": "合规与监管",
     "titleZh": "问答：巴西主导的“森林砍伐路线图”是什么？",
-    "summaryZh": "11 月 3 日，COP30 气候谈判主席国巴西发布了期待已久的结束森林砍伐“路线图”。提前……后问与答：巴西主导的“森林砍伐路线图”是什么？首先出现在 Carbon Brief 上。",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -24737,6 +25361,123 @@
         "subject": "香港证监会（SFC）新闻稿",
         "action": "发布",
         "object": "全球金融领袖投资峰会以“与全球投资者对话”投资论坛闭幕",
+        "occurredAt": "2026-11-04"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-w1720f",
+    "title": "Corporate green reports: do independent checks really help companies deliver measurable action? - The Conversation",
+    "summary": "Corporate green reports: do independent checks really help companies deliver measurable action?",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-11-04T08:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "普华永道（PwC）ESG 洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%99%AE%E5%8D%8E%E6%B0%B8%E9%81%93",
+    "articleUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQV0NzOV9aRGYzSThBcDVZMHBwZnZBOHlMRm1iOFNXM3p5NkpmUFFXWlRiNmhwRUltWndlRnQ1MkhDZi1QbmlwNU4zRUJrNGs2TVkxdnVLc0ZWWG1pNUlWUUNnbGZhNjY1U0tKTFF0RkptVkJ2UF80UDBRRDhpaHZnNnVlT01GQ0pQTUNhQUdrek9NYzZoUXpkT0NmZHNaVHZmbEhBMEZ3WjNmTXhXYjFSSHpLdmFZVWVZdmpTMWRyRmNIZkdNMnNB?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "企业绿色报告：独立检查真的能帮助企业采取可衡量的行动吗？ - 对话",
+    "summaryZh": "企业绿色报告：独立检查真的能帮助企业采取可衡量的行动吗？",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 60,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-kjqudp",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Corporate green reports: do in",
+        "subject": "普华永道（PwC）ESG 洞察",
+        "action": "发布",
+        "object": "Corporate green reports: do independent checks really help companies deliver mea",
+        "occurredAt": "2026-11-04"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-7fzaho",
+    "title": "Paul Hastings Takes 4-Lawyer DLA Piper Team Across Brussels and London - Law.com",
+    "summary": "Paul Hastings Takes 4-Lawyer DLA Piper Team Across Brussels and London Law.com",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-11-04T08:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "DLA Piper 洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=DLA%20Piper",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUko5STU4MllFbGlDWm9NVzBWY2xFdzVkTWx5UHJIMURuZ0lRcFV0NUFPNjRSbW9vbHNiWXpraGgwRGlzYnRtSTUtb2hjZW1fUzhLZGRlNWxBQVJ4eVVQS1FobElMckkyWlRJYmdnNVZMQllrRUFJZS1CVmFYaVFYMnY3VGlEU2ZnNUxUQXk1eUVKUjlab1hvS2VrWVM0bzFkNEtDaVp1MGZ2aXUyaERkOEtjSHhkMGdXb1ppVDh4WHllZw?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "普衡在布鲁塞尔和伦敦组建了由 4 名律师组成的 DLA Piper 团队 - Law.com",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 57,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-14dqjf3",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Paul Hastings Takes 4-Lawyer D",
+        "subject": "DLA Piper 洞察",
+        "action": "发布",
+        "object": "Paul Hastings Takes 4-Lawyer DLA Piper Team Across Brussels and London - Law.com",
+        "occurredAt": "2026-11-04"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-7xwniq",
+    "title": "More Freshfields Lawyers Exit Partnership Amid Sweeping Changes - Law.com",
+    "summary": "More Freshfields Lawyers Exit Partnership Amid Sweeping Changes Law.com",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-11-04T08:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "富而德（Freshfields）洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AF%8C%E8%80%8C%E5%BE%B7",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWDlJQTdtZFlaSU91MGFJSi1GMHptdDRRU0VELUg3RFlpMll1akJIQmRyQUFoVWNMV2VTVnBRQU5BX21pQUFsYWpnZnRmWnZuaDYxWHlUX2xyMy1Pd21Lb0dhaVFsalMwRGdMOHAtRWlZTjJULTM5SlhFMjc5bDI1NUcwVEpmd2I5bnZGWmJGdjZXWWtzOVhrVVpiQ053R2JvTHo0ZUg4ZUNtbzI4Z2R0d2dWX1JKeUZP?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "更多富而德律师事务所在彻底变革中退出合伙关系 - Law.com",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 60,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-sjxli4",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "More Freshfields Lawyers Exit ",
+        "subject": "富而德（Freshfields）洞察",
+        "action": "发布",
+        "object": "More Freshfields Lawyers Exit Partnership Amid Sweeping Changes - Law.com",
         "occurredAt": "2026-11-04"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -26187,6 +26928,45 @@
     }
   },
   {
+    "id": "src-1htwsnm",
+    "title": "金融监管总局肖远企：人工智能投资过度集中，挤压传统行业融资空间 - 新浪财经_金融信息服务商",
+    "summary": "金融监管总局肖远企：人工智能投资过度集中",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-03T13:12:06.000Z",
+    "importanceLevel": "中",
+    "sourceName": "金融监管总局通知公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSVNEZlF6cGRIVkJvVVloTDBRRXdmck1JTG1hUmszQmItWF9EamNVUlh0dElXRjJWNEh6WnM5OVhnUl94VjZ0MWxFWUh2VTV4Vy1VOGpjeFRWdmdRVWpoZzNNS2tjMkoyblJVVVItRlZHMV93M2hCVWRvVHV0OUFrdktoUWh4TkZnR1NJ?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "金融监管总局肖远企：人工智能投资过度集中，挤压传统行业融资空间 - 新浪财经_金融信息服务商",
+    "summaryZh": "金融监管总局肖远企：人工智能投资过度集中",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 63,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1c4d12o",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "金融监管总局肖远企：人工智能投资过度集中，挤压传统行业融资空",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "金融监管总局肖远企：人工智能投资过度集中，挤压传统行业融资空间 - 新浪财经_金融信息服务商",
+        "occurredAt": "2026-11-03"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-4sajeq",
     "title": "‘This is not about politics. This is about people’: UN warns of impact of deadly drone strikes in Sudan",
     "summary": "Intensifying drone attacks on civilian infrastructure across Sudan are disrupting electricity, water and fuel supplies, putting lives at risk and hampering the delivery of humanitarian aid, the UN’s top official in the country has warned.",
@@ -26265,6 +27045,45 @@
     }
   },
   {
+    "id": "src-6572iu",
+    "title": "逆市涨停！护盘式回购规则拟优化，这份破发次新股名单请收好 - 21财经",
+    "summary": "逆市涨停！",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-03T08:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "北交所新闻与公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%8C%97%E4%BA%A4%E6%89%80%20%E5%85%AC%E5%91%8A%20%E5%85%A8%E5%9B%BD%E8%82%A1%E8%BD%AC",
+    "articleUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY3VzWTJrUTFSTGVMMlJNa0xkRzNMUEZaM1ZrQ1l2cjM3aGFjSk0xNmF3RVdUVmtwMk9WNnJteFZsQ0pNRXpSclVOb2NNbTBCMzNINTFITEdSN3g3SDRxZFBKUzhkd2Y2Q29TVGF2N0dDXzVGdUg5Z0JIOEZsMlNGakQ1eloyU0U2NmhqZzJ0bw?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "逆市涨停！护盘式回购规则拟优化，这份破发次新股名单请收好 - 21财经",
+    "summaryZh": "逆市涨停！",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 61,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-qvgcwj",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "逆市涨停！护盘式回购规则拟优化，这份破发次新股名单请收好 -",
+        "subject": "北交所新闻与公告",
+        "action": "发布",
+        "object": "逆市涨停！护盘式回购规则拟优化，这份破发次新股名单请收好 - 21财经",
+        "occurredAt": "2026-11-03"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-c37cco",
     "title": "October 2026 ISSB Update and podcast now available",
     "summary": "October 2026 ISSB Update and podcast now available",
@@ -26316,7 +27135,7 @@
     "articleUrl": "https://unglobalcompact.org/news/un-global-compact-convenes-latin-american-leaders-montevideo-and-launches-ceo-led-coalition",
     "esgTopic": "合规与监管",
     "titleZh": "联合国全球契约在蒙得维的亚召集拉丁美洲领导人并启动由CEO领导的联盟",
-    "summaryZh": "联合国全球契约今天在乌拉圭蒙得维的亚召开了第二届拉丁美洲和加勒比地区领导人论坛，汇聚了来自商界、政府、金融界、联合国和学术界的 300 多名领导人，以加快可持续发展方面的集体行动，并展示拉丁美洲和加勒比地区如何为全球挑战提供创新、可扩展的解决方案。",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -27747,6 +28566,45 @@
     }
   },
   {
+    "id": "src-kngn6",
+    "title": "优化绿色金融产品工具箱 - 中国经济网",
+    "summary": "优化绿色金融产品工具箱 中国经济网",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-02T22:17:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "金融监管总局通知公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CMDBldEpCekRoMmRKS3k2SmlFTWkwTjkyTTFVNElCOEZVTDUxaGdoZEtyZk5JU0lYMXBkbXVNODdqUnFOU3R4NFNBaGxtRmN0YlZzRklVQmdnV3c2ckhN?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "优化绿色金融产品工具箱 - 中国经济网",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 63,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-xg1wpg",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "优化绿色金融产品工具箱 - 中国经济网",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "优化绿色金融产品工具箱 - 中国经济网",
+        "occurredAt": "2026-11-02"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-15v02k6",
     "title": "Interactive: Who wants what at the COP31 climate change summit",
     "summary": "Delegates will soon gather in the Turkish resort city of Antalya for UN climate negotiations, against a backdrop of war,… The post Interactive: Who wants what at the COP31 climate change summit appeared first on Carbon Brief .",
@@ -28286,6 +29144,45 @@
         "subject": "香港交易所新闻稿",
         "action": "发布",
         "object": "香港交易所将延长衍生产品收市后交易时段",
+        "occurredAt": "2026-11-02"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-2ismmx",
+    "title": "Freshfields, Haiwen Advise Chinese AI Supplier on $1.3B Hong Kong IPO - Law.com",
+    "summary": "Freshfields, Haiwen Advise Chinese AI Supplier on $1.3B Hong Kong IPO Law.com",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-11-02T08:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "富而德（Freshfields）洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AF%8C%E8%80%8C%E5%BE%B7",
+    "articleUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbHpiMk82RnRsRi1XclI1d3ZYQi1Nc0FaaDRjd3Q0WTc5dnhnTjZtdUk0S3p1U2xBdVJjV2xWeVhFbk5lclRvYUo2Q01zanpVOUlrOXRWeXZoZjRod2dYcGVzSTZzTVlnQTNDZVV6NG0ybEhRdXAxMmtpOXg0VmZ3aEdoUUZITlp1dV9zRFB1QVF3XzBzWkl2VHFweVFwS24zb2FtZ25xQ0h4UUhPZUw1NDlGY0Q3SzJweXkySENB?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "富而德律师事务所和海文律师事务所为中国人工智能供应商就 1.3B 美元香港 IPO 提供法律服务 - Law.com",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 57,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-54noe6",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Freshfields, Haiwen Advise Chi",
+        "subject": "富而德（Freshfields）洞察",
+        "action": "发布",
+        "object": "Freshfields, Haiwen Advise Chinese AI Supplier on $1.3B Hong Kong IPO - Law.com",
         "occurredAt": "2026-11-02"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -30555,6 +31452,45 @@
     }
   },
   {
+    "id": "src-2cwt3z",
+    "title": "新天然气荣获2026财联社“致远奖”ESG先锋奖 - 搜狐网",
+    "summary": "新天然气荣获2026财联社“致远奖”ESG先锋奖 搜狐网",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-11-01T15:15:04.000Z",
+    "importanceLevel": "中",
+    "sourceName": "上交所公告与规则",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%8A%E4%BA%A4%E6%89%80%E5%8F%91%E5%B8%83%20%E5%85%AC%E5%91%8A",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsaHR6a1N4ZXE2N0RTQmcxWjhuRHdHTHZWZGVhbkFzODJ1dFNzY0VPY3Y1TmVyN1lzWTlMWmkxMklmU0MxdUNEbG1BcENTTWhRM3N5Y2pB?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "新天然气荣获2026财联社“致远奖”ESG先锋奖 - 搜狐网",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 63,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-s39fg4",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "新天然气荣获2026财联社“致远奖”ESG先锋奖 - 搜狐网",
+        "subject": "上交所公告与规则",
+        "action": "发布",
+        "object": "新天然气荣获2026财联社“致远奖”ESG先锋奖 - 搜狐网",
+        "occurredAt": "2026-11-01"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-1ky5hmj",
     "title": "COP17: Nations chart ‘Yerevan Pathway’ to speed up action for nature",
     "summary": "At the halfway mark to 2030, countries meeting in Armenia have agreed a roadmap to accelerate action for nature, after a global review found the world off track to meet its biodiversity targets.",
@@ -31330,6 +32266,123 @@
         "action": "生效",
         "object": "证监会欢迎委任流程审核小组成员",
         "occurredAt": "2026-11-01"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1a7v0t9",
+    "title": "A leap forward for nature reporting: Bringing nature risk into business decision-making - PwC",
+    "summary": "A leap forward for nature reporting: Bringing nature risk into business decision-making PwC",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-30T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "普华永道（PwC）ESG 洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%99%AE%E5%8D%8E%E6%B0%B8%E9%81%93",
+    "articleUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVjkyTlBCcU1iMmZGTm1QM0xSOEtVZnlaNHhyXzRHVUpTLUxib2pRSjN2NGdGYWVkdE5KdzJqdW5vMVNEOGQtRlRXTlJaWF9zRXBUUm5aR3dvR3lBcGhwNnpDSHMyUXlUMEdqYkdwT1hQWjQ1SndYeWV6d0hISGRfWUx2YUlaZDdOX0ktWTgwSVBRZl9fVUR0RXgtZnhTWmM?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "自然报告的飞跃：将自然风险纳入业务决策 - 普华永道",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 60,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-ip27",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "A leap forward for nature repo",
+        "subject": "普华永道（PwC）ESG 洞察",
+        "action": "发布",
+        "object": "A leap forward for nature reporting: Bringing nature risk into business decision",
+        "occurredAt": "2026-10-30"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1pla1xk",
+    "title": "Is your risk framework ready for what’s next? - PwC Ireland",
+    "summary": "Is your risk framework ready for what’s next?",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-30T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "普华永道（PwC）ESG 洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%99%AE%E5%8D%8E%E6%B0%B8%E9%81%93",
+    "articleUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQVRoV2xUbU8tUXZSYW9MSTc5MFhuN3MwNGNJUXdVYUlJbkwzNU4xc05YOHp6VENhbnZXbHZoYmRJdzhfTUlFNTgyMVVoRXR4NXFzYk5lSWVvQkpGMWFHN3B1dkd1RGQzVDlnS3FtUmZRckNHY0dlTjZBbmI5ZjJhb3VwQW5PWnZnRGFIVHdR?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "您的风险框架准备好应对接下来的情况了吗？ - 普华永道爱尔兰",
+    "summaryZh": "您的风险框架准备好应对接下来的情况了吗？",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 57,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-px9xb9",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Is your risk framework ready f",
+        "subject": "普华永道（PwC）ESG 洞察",
+        "action": "发布",
+        "object": "Is your risk framework ready for what’s next? - PwC Ireland",
+        "occurredAt": "2026-10-30"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1vvtgto",
+    "title": "生态环境部环境规划院董战峰：完善ESG金融投资政策体系，引导长期资本参与 - 财联社电报",
+    "summary": "生态环境部环境规划院董战峰：完善ESG金融投资政策体系",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-30T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "金融监管总局通知公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5IMzdGMTFFQXZqcDIxdVotbTFDdzd5VW44N2pzSFZPajJ6MkFuakppWU10elNEeUZLaXFsQXBDem1LWGJwbnc?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "生态环境部环境规划院董战峰：完善ESG金融投资政策体系，引导长期资本参与 - 财联社电报",
+    "summaryZh": "生态环境部环境规划院董战峰：完善ESG金融投资政策体系",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 61,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-6lxhfc",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "生态环境部环境规划院董战峰：完善ESG金融投资政策体系，引导",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "生态环境部环境规划院董战峰：完善ESG金融投资政策体系，引导长期资本参与 - 财联社电报",
+        "occurredAt": "2026-10-30"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
@@ -34323,7 +35376,7 @@
     "articleUrl": "https://www.cbd.int/doc/speech/2026/sp-2026-10-30-cop17-en.pdf",
     "esgTopic": "合规与监管",
     "titleZh": "生物多样性公约执行秘书在2026年联合国生物多样性大会闭幕式上的闭幕辞，埃里温，30...",
-    "summaryZh": "《生物多样性公约》执行秘书在 2026 年埃里温联合国生物多样性大会上的闭幕词",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -35162,6 +36215,45 @@
         "subject": "Carbon Brief",
         "action": "发布",
         "object": "分析：中国2026年清洁技术出口将避免的二氧化碳排放量相当于巴西一年的排放量",
+        "occurredAt": "2026-10-29"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-nb5aag",
+    "title": "PwC Channel Islands Transparency Report 2026 - PwC",
+    "summary": "PwC Channel Islands Transparency Report 2026 PwC",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-29T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "普华永道（PwC）ESG 洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%99%AE%E5%8D%8E%E6%B0%B8%E9%81%93",
+    "articleUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41NTFCVFk0aVZoYlE2c2hZbS1kQkJVQ05hRHpnOVYxUXF6Y2xnNXZ0VUFfaGtabUs2TkVOcTFmejItenE1WmpKLU9YeHhWWGpHT0laWFFnc3NJT1V2SF9lNU5GQzM3QnFVVTBCS190bWs?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "普华永道 2026 年海峡群岛透明度报告 - 普华永道",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 60,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-13hmj39",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "PwC Channel Islands Transparen",
+        "subject": "普华永道（PwC）ESG 洞察",
+        "action": "发布",
+        "object": "PwC Channel Islands Transparency Report 2026 - PwC",
         "occurredAt": "2026-10-29"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -37238,6 +38330,45 @@
     }
   },
   {
+    "id": "src-kjfa5w",
+    "title": "小K快评：科创板市值“第一退”，退的到底是什么？ - 财联社",
+    "summary": "小K快评：科创板市值“第一退”，退的到底是什么？",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-28T16:24:24.000Z",
+    "importanceLevel": "中",
+    "sourceName": "上交所公告与规则",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%8A%E4%BA%A4%E6%89%80%E5%8F%91%E5%B8%83%20%E5%85%AC%E5%91%8A",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5TbFNZZENROElQMmFkVWZaSVNRbmE5a1ptbmdSdEZrX09jRFc3ZXQxNTRLWmRvRE5rdjhGSi1HeDJpWTAtQU5Ndw?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "小K快评：科创板市值“第一退”，退的到底是什么？ - 财联社",
+    "summaryZh": "小K快评：科创板市值“第一退”，退的到底是什么？",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 61,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1nivzne",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "小K快评：科创板市值“第一退”，退的到底是什么？ - 财联社",
+        "subject": "上交所公告与规则",
+        "action": "发布",
+        "object": "小K快评：科创板市值“第一退”，退的到底是什么？ - 财联社",
+        "occurredAt": "2026-10-28"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-1k3q376",
     "title": "Global Economics Intelligence executive summary, September 2026",
     "summary": "Central banks move to tighten interest rate policies as energy price spikes fuel inflation; growth looks sparse in some economies, but activity indicators see manufacturing and services expanding.",
@@ -37816,6 +38947,45 @@
         "subject": "Carbon Brief",
         "action": "发布",
         "object": "分析：英国自2021年以来如何支出超过116亿英镑的气候援助",
+        "occurredAt": "2026-10-28"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1ow8i8g",
+    "title": "又添一单！从受理到注册不到一个月，北交所简易程序再融资升温 - 21财经",
+    "summary": "又添一单！",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-28T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "北交所新闻与公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%8C%97%E4%BA%A4%E6%89%80%20%E5%85%AC%E5%91%8A%20%E5%85%A8%E5%9B%BD%E8%82%A1%E8%BD%AC",
+    "articleUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcVFWYzA2QWtfZXc2bjAwQkJ6Zzk2WVRZcFV4ZmVLczFkdjM5RFF1clVFa2N5cy1RQ29oaTZpa3l2ZkRPbmdaWlprZnYxdkE0TUE2UmNZMk1GRU0yUTR1cUlCT2tkbVR6S2VnVjNxQlQxR0J5aFJxVnFqWE16a0FQM3V1TFdLay1jbkwya1pfdVRlYlY0?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "又添一单！从受理到注册不到一个月，北交所简易程序再融资升温 - 21财经",
+    "summaryZh": "又添一单！",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 61,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-zj0rkp",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "又添一单！从受理到注册不到一个月，北交所简易程序再融资升温 ",
+        "subject": "北交所新闻与公告",
+        "action": "发布",
+        "object": "又添一单！从受理到注册不到一个月，北交所简易程序再融资升温 - 21财经",
         "occurredAt": "2026-10-28"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -39188,6 +40358,45 @@
     }
   },
   {
+    "id": "src-pcllxl",
+    "title": "Emerging trends in real estate to watch in 2027 - PwC",
+    "summary": "Emerging trends in real estate to watch in 2027 PwC",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-27T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "普华永道（PwC）ESG 洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%99%AE%E5%8D%8E%E6%B0%B8%E9%81%93",
+    "articleUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGEwd2RUQ0YzTF9SaEZ5YkRnZG9FOWtzMmNPMzJXdi1ZS21ENTZ6cWRWVmx2U0Q0a1pDNkJwWVZBbGYyeklyQzU0TEtac3l0TU9wcFN1SlZnV0RBSmxPTnE0T3FlUm5FQnpzV3RXamtOODNKbmpMSmwzTk5jX3AyNTlPSWNpRnlkTVUtVEJNT0FEN1VsbUlkU2FFXzF3T1h4?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "2027 年值得关注的房地产新兴趋势 - 普华永道",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 60,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-5l4uiy",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Emerging trends in real estate",
+        "subject": "普华永道（PwC）ESG 洞察",
+        "action": "发布",
+        "object": "Emerging trends in real estate to watch in 2027 - PwC",
+        "occurredAt": "2026-10-27"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-china-power-market-grec-2026",
     "title": "China's power market expands; green certificate trading diverges",
     "titleZh": "中国电力市场扩容，绿证交易分化",
@@ -40079,6 +41288,84 @@
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
         "object": "“坚持课程，随时适应”：对Manon van Beek的采访",
+        "occurredAt": "2026-10-26"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1lfowo6",
+    "title": "Sustainable Consulting Market Size, Share | Growth Report 2034 - Fortune Business Insights",
+    "summary": "Sustainable Consulting Market Size, Share | Growth Report 2034 Fortune Business Insights",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-26T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "普华永道（PwC）ESG 洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%99%AE%E5%8D%8E%E6%B0%B8%E9%81%93",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOXFKWlFSRE1NNjNxVjMxY0NnTjBxS0hJcHc3TmhvWVdESUxSZWxXSHlSQkVsNzl0TktYVi1DcVlUVnNjcDYtQ0ozSWZQdEQwaTdxb3hIUVpCeHAtMWFhRzZsdjU4aW9ueFVQV3BwdVNEMXFZVktfb1dhNVpUTkZlekRB?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "可持续咨询市场规模、份额| 2034 年增长报告 - 财富商业洞察",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 60,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-bd9zd4",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Sustainable Consulting Market ",
+        "subject": "普华永道（PwC）ESG 洞察",
+        "action": "发布",
+        "object": "Sustainable Consulting Market Size, Share | Growth Report 2034 - Fortune Busines",
+        "occurredAt": "2026-10-26"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1txmfpd",
+    "title": "The price of pay equity: Why the Pay Transparency Directive is an M&A issue - Freshfields",
+    "summary": "The price of pay equity: Why the Pay Transparency Directive is an M&A issue Freshfields",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-26T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "富而德（Freshfields）洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AF%8C%E8%80%8C%E5%BE%B7",
+    "articleUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbl9EVmZ1bFljbHRfci1lNDZMak5MRXItRXpKX0VMWkRmTDdBVzNqYW1yZTRfQ0JiSGR4V1dqbjNPOG9nMXQ5eGJLRGt6alZvcTFfV0lsLTVIbHh5MHR5alNKUmNmcVFMR2pScUVqUjlQMU9FQlFfVEFITlMyQml5eVpDV3FvaW5XVDB2anEyM3hBV1ZkMVRhQXdaUVpLeVhGZGFxZk1PQm5JemlsZGhuZnVoM2VaYWdLTDd1Z0E5aHVYX0doUzZ5U0pBcEFMN0JDUXFSRU1LdTdocEtZaWdlVDZuTjlqdw?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "薪酬公平的价格：为什么薪酬透明度指令是一个并购问题 - Freshfields",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 57,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-ovxama",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "The price of pay equity: Why t",
+        "subject": "富而德（Freshfields）洞察",
+        "action": "发布",
+        "object": "The price of pay equity: Why the Pay Transparency Directive is an M&A issue - Fr",
         "occurredAt": "2026-10-26"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -41055,6 +42342,84 @@
         "subject": "香港交易所新闻稿",
         "action": "发布",
         "object": "香港交易所推出人工智能和半导体指数",
+        "occurredAt": "2026-10-23"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-f27yvn",
+    "title": "Due diligence in the paper & packaging sector: Five areas to watch - Freshfields",
+    "summary": "Due diligence in the paper & packaging sector: Five areas to watch Freshfields",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-23T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "富而德（Freshfields）洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AF%8C%E8%80%8C%E5%BE%B7",
+    "articleUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcnJOYVp2dmJDSndvUkNINkxDd0ZmbnF1YUI3TEk1bllGeWFwM1VhLU1HLWIwU0t4eVNuRFVaU1pWVUktT25tWWE1XzdvTzROeklrd0dTX3p3ZW5iRFMxZmpSMm9TYmo3UzBURlZ6Z0hxOVVpbE11NkxIMktINUY5ei12U0M3c2FxLTBHYTROekJLdUtqQXJZYjRUNzJKMVVJZGlTTFp3Z1dUaVZrZmNxUl83bXZPMjZXdlJ0dUFjb1NsN3JFT2RKSHhaZTg1NkEzSEdKOHJjR0E?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "造纸和包装行业的尽职调查：值得关注的五个领域 - Freshfields",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 60,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-luez0h",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Due diligence in the paper & p",
+        "subject": "富而德（Freshfields）洞察",
+        "action": "发布",
+        "object": "Due diligence in the paper & packaging sector: Five areas to watch - Freshfields",
+        "occurredAt": "2026-10-23"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1lzhd3h",
+    "title": "AI短剧概念股南威软件炒作“翻车” - 京报网",
+    "summary": "AI短剧概念股南威软件炒作“翻车” 京报网",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-23T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "上交所公告与规则",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%8A%E4%BA%A4%E6%89%80%E5%8F%91%E5%B8%83%20%E5%85%AC%E5%91%8A",
+    "articleUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE56eXlmUnNuWlB2Z1dMLW02b0xoTWs4MjNRNmFQYlItcGNBNW9UWEJjZ1Q4V2Nia1JwQUdHaEdvd0VXbHRFUzZmRGhWZVJhTk5zRjNjSEpxSXU3QzFSWnliTWdhREVpVV9mS2tIMlg2azhHUQ?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "AI短剧概念股南威软件炒作“翻车” - 京报网",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 61,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-10atssr",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "AI短剧概念股南威软件炒作“翻车” - 京报网",
+        "subject": "上交所公告与规则",
+        "action": "发布",
+        "object": "AI短剧概念股南威软件炒作“翻车” - 京报网",
         "occurredAt": "2026-10-23"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -42778,6 +44143,162 @@
     }
   },
   {
+    "id": "src-1poe5oj",
+    "title": "PwC named a Leader in the ISG Provider Lens™ Workday Ecosystem 2026 – APAC - PwC",
+    "summary": "PwC named a Leader in the ISG Provider Lens™ Workday Ecosystem 2026 – APAC PwC",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-22T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "普华永道（PwC）ESG 洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%99%AE%E5%8D%8E%E6%B0%B8%E9%81%93",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbnE1cHplRXZ2YzFqZlBJQ1VZemd4ci0xZ0JCdXJvNGExUWFPUDY4RTZuTHY5Vi1QUlVVZHlyRWtaRWJtdTZVRFlySG1pVXpJa1RZOXVZdVc5bXJSVXFnLTFrOFJQME1hTjhGQlRpLTl6MzdKTEpmRWpXU09RcHRmVllpR0VTcFhGdkxFbjBZbHM2NDFEV3Y4X2U0MlBUMHVvQUE?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "普华永道被评为 2026 年 ISG Provider Lens™ Workday 生态系统领导者 – 亚太地区 - PwC",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 60,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-oushul",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "PwC named a Leader in the ISG ",
+        "subject": "普华永道（PwC）ESG 洞察",
+        "action": "发布",
+        "object": "PwC named a Leader in the ISG Provider Lens™ Workday Ecosystem 2026 – APAC - PwC",
+        "occurredAt": "2026-10-22"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-lkzeuo",
+    "title": "CSRD, “Stop-the-clock” and Omnibus I: Implementation tracker - Freshfields",
+    "summary": "CSRD, “Stop-the-clock” and Omnibus I: Implementation tracker Freshfields",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-22T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "富而德（Freshfields）洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AF%8C%E8%80%8C%E5%BE%B7",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSE5PTXBXM21aTW1ZbDNoVEFPU2cwaDA4YklPMHlKbVE4Z3BjcVFGU0l0aEVGNERYek5EVGsxQUtaX0pyeUdqVFI5UzJvWFljSm04YTBUQ1owVDFIdzJKWGd4eExPZ1lweHk0bDFZUU90MV9iQTZ0cnlxTTVZSjFCUDRaMkFUaHM1UndLUG9yamZmUXVmWlZPeV9HNHUzMXpvd2c?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "CSRD、“停止时钟”和综合 I：实施跟踪器 - Freshfields",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 60,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-pbi742",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "CSRD, “Stop-the-clock” and Omn",
+        "subject": "富而德（Freshfields）洞察",
+        "action": "发布",
+        "object": "CSRD, “Stop-the-clock” and Omnibus I: Implementation tracker - Freshfields",
+        "occurredAt": "2026-10-22"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1l02s6y",
+    "title": "CSRD, \"Stop-the-clock\" and Omnibus I tracker: past the halfway point to the Omnibus I transposition deadline - Freshfields",
+    "summary": "CSRD, \"Stop-the-clock\" and Omnibus I tracker: past the halfway point to the Omnibus I transposition deadline Freshfields",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-22T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "富而德（Freshfields）洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AF%8C%E8%80%8C%E5%BE%B7",
+    "articleUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTHFqUE92R1RTSUJER1BMR0VCbnFPN29uakNweS1va1pqUkdnQUpvakQtOEJ0SS1nWmc0VWt3MlJ3RUpxVlZqLWdaaHBwNEpkdXBmdmpES0JMWEJyWVg2RjlGdFF2VmlEWUpQck1CUExCSmNwNElVUnQ2NTNXeVhyQ0tXNnpUWFlUdHBaNFB2V002bUFwNWdBTVRWNTBaNWUzZ182VmR2RzBiUHQtLXh6Q3dCTlFsZFlEbE9GQWFuOWNFZUx1Skg4dG1zb1JZLXdmelR6OGh3emZ2MTFvcHdFbS1zU0w?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "CSRD、“停止时钟”和 Omnibus I 跟踪器：已过 Omnibus I 换位截止日期的中点 - Freshfields",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 61,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-pbi742",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "CSRD, \"Stop-the-clock\" and Omn",
+        "subject": "富而德（Freshfields）洞察",
+        "action": "发布",
+        "object": "CSRD, \"Stop-the-clock\" and Omnibus I tracker: past the halfway point to the Omni",
+        "occurredAt": "2026-10-22"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-kqmw6h",
+    "title": "Spotlight: The Unprecedented Spike in Freshfields Partner Departures - Law.com",
+    "summary": "Spotlight: The Unprecedented Spike in Freshfields Partner Departures Law.com",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-22T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "富而德（Freshfields）洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AF%8C%E8%80%8C%E5%BE%B7",
+    "articleUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQktrZnF3N0Z6UDJaVjdOUjRyRGFOWGJQM1dDcHpNSjJ5UTllNGNMYzZYd0dlRmp1QzF5LUIzMWllYThJdTVrYWd5eE1VYlhsTXhyaWJ5b0daYndib2pXQ0lpbGpGWmhMUUM3QU1lTGxzUE5jczBMYUxWTllSYzhIQVZVd0c1MUtHeVIybHhHSy1KT1I2d1Y5djkwZngyYngwN2hsaDBYR0pZcnRNTEFyalNRS0k1TGl6bExqVjFR?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "焦点：富而德合伙人离职人数空前激增 - Law.com",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 57,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1prk77s",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Spotlight: The Unprecedented S",
+        "subject": "富而德（Freshfields）洞察",
+        "action": "发布",
+        "object": "Spotlight: The Unprecedented Spike in Freshfields Partner Departures - Law.com",
+        "occurredAt": "2026-10-22"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-1j6b4y1",
     "title": "国家能源局负责人会见克罗地亚经济部部长",
     "summary": "国家能源局负责人会见克罗地亚经济部部长",
@@ -43909,6 +45430,84 @@
     }
   },
   {
+    "id": "src-1ljk27r",
+    "title": "Baker McKenzie Brings Luxembourg’s Depositary Sector Together for Third DepoBank Day - Baker McKenzie",
+    "summary": "Baker McKenzie Brings Luxembourg’s Depositary Sector Together for Third DepoBank Day Baker McKenzie",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-21T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "贝克·麦坚时（Baker McKenzie）ESG/监管洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%B4%9D%E5%85%8B%C2%B7%E9%BA%A6%E5%9D%9A%E6%97%B6",
+    "articleUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50Nk9KSkNtQ1I3d1ptQ3R0Z3laMzhsOUVCeWxIamJxWlctOE42V0NyUVZ6S3oxajZzR2JUeDZWRkJTemJCMmtMYjJxak9zdWFfaTVOWHdhWWJpaldxclFVTU1HeXJnZGJTVk1kbjR3RQ?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "贝克·麦坚时 (Baker McKenzie) 将卢森堡的存款部门聚集在一起，庆祝第三个存款银行日 - Baker McKenzie",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 60,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-9say1g",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Baker McKenzie Brings Luxembou",
+        "subject": "贝克·麦坚时（Baker McKenzie）ESG/监管洞察",
+        "action": "发布",
+        "object": "Baker McKenzie Brings Luxembourg’s Depositary Sector Together for Third DepoBank",
+        "occurredAt": "2026-10-21"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-r6jeqe",
+    "title": "金融监管总局丛林：保险业要精准对接国家战略重点领域和薄弱环节 - 21财经",
+    "summary": "金融监管总局丛林：保险业要精准对接国家战略重点领域和薄弱环节 21财经",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-21T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "金融监管总局通知公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+    "articleUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbmFZVTc3OEhGRFFGUDc4TkZvU0g4SUZXQ1pGaS05T2RxNFNWaWRDNy1vNmxmQnB6eEZ3dUc3WFRzOWZkVkpCdFRIYkRHdXAySG44eEl3ZlVOaTFva2tIZzVZdzVOWl9OOTg2WjU3NXd3WmF5aVA5VkpYWnhudU9ZNWdvcHdHclNmZ3JZU0xnMA?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "金融监管总局丛林：保险业要精准对接国家战略重点领域和薄弱环节 - 21财经",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 63,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-5wqr0y",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "金融监管总局丛林：保险业要精准对接国家战略重点领域和薄弱环节",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "金融监管总局丛林：保险业要精准对接国家战略重点领域和薄弱环节 - 21财经",
+        "occurredAt": "2026-10-21"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-1ci0fz7",
     "title": "UNEP: Opportunity has ‘been lost’ to meet 1.5C warming limit without ‘overshoot’",
     "summary": "A temporary breach of the 1.5C global-warming limit is now “inevitable” following “decades of insufficient climate action”, says the UN… The post UNEP: Opportunity has ‘been lost’ to meet 1.5C warming limit without ‘overshoot’ appeared first on Carbon Brief .",
@@ -44332,6 +45931,123 @@
         "action": "发布",
         "object": "数字创新与企业可持续发展：区块链透明度与绿色金融如何驱动ESG表现",
         "occurredAt": "2026-10-21"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1cpomth",
+    "title": "Beyond profits: Decoding sustainability for companies | Training - PwC",
+    "summary": "Beyond profits: Decoding sustainability for companies | Training PwC",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-20T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "普华永道（PwC）ESG 洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%99%AE%E5%8D%8E%E6%B0%B8%E9%81%93",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1fYzFWTjFyRm1tRmc4a1JSa1RzN2gxS1p1TUNlWnZJTUxfTGM2NV80UmhiUlBpNlNPZFVNX2NvSVh4blhBMUN0d244djhreDVKc0NiX2Q4d21FMTJQVUlzNzFn?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "超越利润：解读公司的可持续发展|培训 - 普华永道",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 57,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1kdflxo",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Beyond profits: Decoding susta",
+        "subject": "普华永道（PwC）ESG 洞察",
+        "action": "发布",
+        "object": "Beyond profits: Decoding sustainability for companies | Training - PwC",
+        "occurredAt": "2026-10-20"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-xuomvt",
+    "title": "设立新的流动性支持工具、切实提升监管有效性、持续增强市场韧性和信心 “一行一局一会”勾勒金融改革路线图 - 北京市人民政府门户网站",
+    "summary": "设立新的流动性支持工具、切实提升监管有效性、持续增强市场韧性和信心 “一行一局一会”勾勒金融改革路线图 北京市人民政府门户网站",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-20T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "金融监管总局通知公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+    "articleUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51WkFVRUxuOU1KemUxUlEtNHk3MzVQcm5wR0RWZ3lPUmtEY0JWR2JqM094STBRSnc4RTgyaER2dGtLczlfWnJoa0VTM0h4QXZtcVhFUVdlYUM5R19MSHNycmFzczJmUWNVRkRhRlBGMTEtSDJjZzFN?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "设立新的流动性支持工具、切实提升监管有效性、持续增强市场韧性和信心 “一行一局一会”勾勒金融改革路线图 - 北京市人民政府门户网站",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 61,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1vbh8x7",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "设立新的流动性支持工具、切实提升监管有效性、持续增强市场韧性",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "设立新的流动性支持工具、切实提升监管有效性、持续增强市场韧性和信心 “一行一局一会”勾勒金融改革路线图 - 北京市人民政府门户网站",
+        "occurredAt": "2026-10-20"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1seb700",
+    "title": "信息量很大！央行行长潘功胜、金融监管总局局长丁向群、证监会主席吴清、国家外汇管理局局长朱鹤新，最新发声 - 中山网",
+    "summary": "信息量很大！",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-20T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "金融监管总局通知公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+    "articleUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMkxHUXBRNC0xVG1Cc1FQcXh3bEVpelZCNjFLOE00dExTRnVEZGJ1NmVNOGFnNnJyUlpHTEw3TF9IM3hsMGZGcWVoUnYtSFFBTmM4Rm1YWnF5ZlE4QXZUenB0V3Z1U0pVaVNxWTh6NWZfRmFqV3dGa0gtVzZCc0hLRDB2YzI?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "信息量很大！央行行长潘功胜、金融监管总局局长丁向群、证监会主席吴清、国家外汇管理局局长朱鹤新，最新发声 - 中山网",
+    "summaryZh": "信息量很大！",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 61,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1ovkt1c",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "信息量很大！央行行长潘功胜、金融监管总局局长丁向群、证监会主",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "信息量很大！央行行长潘功胜、金融监管总局局长丁向群、证监会主席吴清、国家外汇管理局局长朱鹤新，最新发声 - 中山网",
+        "occurredAt": "2026-10-20"
       },
       "pipelineVersion": "esg-v2.0.0",
       "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
@@ -44877,6 +46593,240 @@
         "subject": "麦肯锡可持续发展洞察",
         "action": "发布",
         "object": "保护人工智能时代的软件：红帽首席技术官Chris Wright",
+        "occurredAt": "2026-10-19"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-18qs8f5",
+    "title": "Skadden adds second Freshfields partner to Brussels competition team this year - The Global Legal Post",
+    "summary": "Skadden adds second Freshfields partner to Brussels competition team this year The Global Legal Post",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-19T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "富而德（Freshfields）洞察",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AF%8C%E8%80%8C%E5%BE%B7",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUG9tUTdIYzRvcmlWcUlaZ25MNmh0a1hlbGZ5NlZIcTRGQ3VoWFhfZk5NSFdmS1BFOVRtZDRRLTVTckg5amZVa1B0dnBSeFpBdTFKZkV1N1RMUEpRT0RrMXc4YV9pN1BqZTh5YVg5bi1fZm1manlEOHBjQzVmcXlFNkxkZ2NybW5IeHBMQnFOT1VzMlloQ1lCM1lxbWV3VGZ5VmpDZVY2Skc4RURlcUFyaGI0akg0OVBUMmxsYmc2YUs2Zkk?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "世达今年为布鲁塞尔竞赛团队增加了第二个富而德合作伙伴 - 全球法律邮报",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 57,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1xr16su",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Skadden adds second Freshfield",
+        "subject": "富而德（Freshfields）洞察",
+        "action": "发布",
+        "object": "Skadden adds second Freshfields partner to Brussels competition team this year -",
+        "occurredAt": "2026-10-19"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-jgh1w7",
+    "title": "吴清：全力应对多重超预期输入性风险挑战，近期将推出四项举措，完善违规减持处罚规则 - 华尔街见闻",
+    "summary": "吴清：全力应对多重超预期输入性风险挑战",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-19T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "北交所新闻与公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%8C%97%E4%BA%A4%E6%89%80%20%E5%85%AC%E5%91%8A%20%E5%85%A8%E5%9B%BD%E8%82%A1%E8%BD%AC",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBENFJYUmxUTGpLekJJZDlhZG5Dd25GWlhCenhkUzlHWEVNMWxZam92T21pSC0tUGh1UXM5UThoOEhmVHZJX2wzdThQX3lmWERmQ2dn?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "吴清：全力应对多重超预期输入性风险挑战，近期将推出四项举措，完善违规减持处罚规则 - 华尔街见闻",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 63,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-8c8ob2",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "吴清：全力应对多重超预期输入性风险挑战，近期将推出四项举措，",
+        "subject": "北交所新闻与公告",
+        "action": "处罚",
+        "object": "吴清：全力应对多重超预期输入性风险挑战，近期将推出四项举措，完善违规减持处罚规则 - 华尔街见闻",
+        "occurredAt": "2026-10-19"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-1o685si",
+    "title": "金融监管总局：依法将所有金融活动全部纳入监管，稳妥处置高风险机构 - 华尔街见闻",
+    "summary": "金融监管总局：依法将所有金融活动全部纳入监管",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-19T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "金融监管总局通知公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MRFRnLTFZT1duempvaEpEZFNOUWxPbGhPLWFPLURaaG5XcWZSZllWOG9neTZZVkhHblNQalZMUEZxNzQ0eFNqeDRTWFBUN1NuLThF?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "金融监管总局：依法将所有金融活动全部纳入监管，稳妥处置高风险机构 - 华尔街见闻",
+    "summaryZh": "金融监管总局：依法将所有金融活动全部纳入监管",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 61,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1cqal7b",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "金融监管总局：依法将所有金融活动全部纳入监管，稳妥处置高风险",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "金融监管总局：依法将所有金融活动全部纳入监管，稳妥处置高风险机构 - 华尔街见闻",
+        "occurredAt": "2026-10-19"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-13ticyy",
+    "title": "金融监管总局：支持更多外资机构和长期资本来华展业兴业 - ThePaper.cn",
+    "summary": "金融监管总局：支持更多外资机构和长期资本来华展业兴业 ThePaper.cn",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-19T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "金融监管总局通知公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RN3hMUHY4RjNkRVR1Nk5pOXJoR1NnZHQyTnpNNGhvLXR0c0RlV1BOSkRmR19Dd2dpeEJ3ZGxIMFBvc1FaUGYzZlp0NE5TY09ELUNfT19rTGdtbTNWSmpMUA?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "金融监管总局：支持更多外资机构和长期资本来华展业兴业 - ThePaper.cn",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 63,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1271aca",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "金融监管总局：支持更多外资机构和长期资本来华展业兴业 - T",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "金融监管总局：支持更多外资机构和长期资本来华展业兴业 - ThePaper.cn",
+        "occurredAt": "2026-10-19"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-ygetfl",
+    "title": "金融监管总局局长丁向群：依法将所有金融活动全部纳入监管 - 央视网",
+    "summary": "金融监管总局局长丁向群：依法将所有金融活动全部纳入监管 央视网",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-19T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "金融监管总局通知公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+    "articleUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE92eGxXV09mLVZNM2JNaVFYYmxUVTFrLVdCc1Z4bGYwVlFaTUpOUFJXV1YyY0Z1SEdaQTlsN1laQUtPOUoxbW9JQ0dHN0otbUQweE9yOHhKeWItLTJyRmRjSFhqaG5KZ2tQLXNGNFZMR1dMandnNE5yVDhxNlk?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "金融监管总局局长丁向群：依法将所有金融活动全部纳入监管 - 央视网",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 63,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1cqal7b",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "金融监管总局局长丁向群：依法将所有金融活动全部纳入监管 - ",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "金融监管总局局长丁向群：依法将所有金融活动全部纳入监管 - 央视网",
+        "occurredAt": "2026-10-19"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
+    "id": "src-osehnq",
+    "title": "金融监管总局：依法将所有金融活动全部纳入监管 - 财联社电报",
+    "summary": "金融监管总局：依法将所有金融活动全部纳入监管 财联社电报",
+    "contentType": "政策",
+    "region": "中国",
+    "publishedAt": "2026-10-19T07:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "金融监管总局通知公告",
+    "sourceUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%20%E5%9B%BD%E5%AE%B6%E9%87%91%E8%9E%8D%E7%9B%91%E7%9D%A3%E7%AE%A1%E6%80%BB%E5%B1%80",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE4tZExTbXhnWVpoalNzT3h6Qzd5eHp2bkNuMDAyTTRvLUZhM0NTdTlnXzZ6cE4zenFrZ0twZHVNWWI4WkJUZ1E?oc=5",
+    "esgTopic": "合规与监管",
+    "titleZh": "金融监管总局：依法将所有金融活动全部纳入监管 - 财联社电报",
+    "summaryZh": "",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 63,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T1_5",
+      "storyId": "story-1cqal7b",
+      "heat": 0,
+      "tags": [
+        "政策",
+        "合规与监管",
+        "中国"
+      ],
+      "fact": {
+        "title": "金融监管总局：依法将所有金融活动全部纳入监管 - 财联社电报",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "金融监管总局：依法将所有金融活动全部纳入监管 - 财联社电报",
         "occurredAt": "2026-10-19"
       },
       "pipelineVersion": "esg-v2.0.0",
@@ -45481,7 +47431,7 @@
     "articleUrl": "https://www.cbd.int/doc/speech/2026/sp-2026-10-19-cop17-en.pdf",
     "esgTopic": "合规与监管",
     "titleZh": "生物多样性公约执行秘书在缔约方大会第十七次会议开幕式上的发言……",
-    "summaryZh": "《生物多样性公约》执行秘书在该部分大会第十七次会议开幕式上的发言",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -49624,7 +51574,7 @@
     "articleUrl": "https://www.cbd.int/doc/press/2026/pr-2026-10-12-global-biodiversity-report-en.pdf",
     "esgTopic": "合规与监管",
     "titleZh": "联合国秘书长将发布全球生物多样性承诺进展报告",
-    "summaryZh": "联合国秘书长安东尼奥·古特雷斯将正式发布 2022 年全球生物多样性承诺进展报告：“生物多样性状况”",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -51688,6 +53638,45 @@
     }
   },
   {
+    "id": "src-o75juw",
+    "title": "Turning point: Feeding the world sustainably | Deloitte Global",
+    "summary": "Deloitte Turning Point Feeding the world sustainably",
+    "contentType": "观点",
+    "region": "全球",
+    "publishedAt": "2026-10-06T00:00:00.000Z",
+    "importanceLevel": "中",
+    "sourceName": "德勤可持续发展洞察",
+    "sourceUrl": "https://www.deloitte.com/global/en/issues/climate.html",
+    "articleUrl": "https://www.deloitte.com/global/en/issues/climate/feeding-the-world-sustainably.html",
+    "esgTopic": "合规与监管",
+    "titleZh": "转折点：可持续地养活世界|德勤全球",
+    "summaryZh": "德勤转折点 以可持续方式养活世界",
+    "recommended": false,
+    "recommendReason": "",
+    "pipeline": {
+      "score": 55,
+      "scoreThreshold": 75,
+      "scorePass": false,
+      "sourceTier": "T2",
+      "storyId": "story-1r9s7gk",
+      "heat": 0,
+      "tags": [
+        "观点",
+        "合规与监管",
+        "全球"
+      ],
+      "fact": {
+        "title": "Turning point: Feeding the wor",
+        "subject": "德勤可持续发展洞察",
+        "action": "发布",
+        "object": "Turning point: Feeding the world sustainably | Deloitte Global",
+        "occurredAt": "2026-10-06"
+      },
+      "pipelineVersion": "esg-v2.0.0",
+      "promptVersion": "content-understanding+structure+selection-score+recommend-reason@44aaf488a077"
+    }
+  },
+  {
     "id": "src-2ohe2y",
     "title": "USA: Poor living conditions for H-2A farmworkers allegedly found at Four Corners Farm in Vermont",
     "summary": "USA: Poor living conditions for H-2A farmworkers allegedly found at Four Corners Farm in Vermont",
@@ -52246,7 +54235,7 @@
     "articleUrl": "https://unglobalcompact.org/news/africa-business-and-human-rights-forum-concludes-dakar-call-stronger-action-human-rights-and",
     "esgTopic": "合规与监管",
     "titleZh": "非洲商业与人权论坛在达喀尔闭幕，呼吁在人权与环境方面采取更有力行动",
-    "summaryZh": "第五届区域论坛汇聚了政府、企业、民间社会和联合国，以推动整个非洲负责任的商业行为。第五届非洲工商业与人权 (BHR) 论坛今天在塞内加尔达喀尔闭幕，各国政府、企业、联合国、民间社会、工人代表、人权专家和土著社区齐聚一堂，共同推动负责任的商业行为，加强整个非洲大陆的人权保护。",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -55622,7 +57611,7 @@
     "articleUrl": "https://unglobalcompact.org/news/companies-un-global-compact-across-europe-make-tangible-contributions-sustainable-development",
     "esgTopic": "合规与监管",
     "titleZh": "欧洲各地的联合国全球契约组织企业在可持续发展目标方面作出了切实贡献，但仍缺乏推进环境目标的运营层面行动",
-    "summaryZh": "发布关于私营部门对 2030 年议程贡献的首次全面分析 在联合国大会召开之际，联合国全球契约网络保加利亚、芬兰、法国、德国、意大利、英国和土耳其将发布第二版欧洲私营部门可持续发展目标盘点。该研究利用来自 21 个欧洲国家 5,793 家联合国全球契约参与公司的 136 个数据点，首次能够估计私营部门对可持续发展目标的贡献水平。",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -56456,7 +58445,7 @@
     "articleUrl": "https://unglobalcompact.org/news/un-global-compact-leaders-summit-calls-business-leaders-turn-sustainability-ambition-action",
     "esgTopic": "合规与监管",
     "titleZh": "联合国全球契约组织领导人峰会呼吁商界领袖将可持续发展雄心转化为大规模行动",
-    "summaryZh": "全球领导人齐聚纽约，推动在企业复原力、气候与自然、人权、可持续金融和更具复原力的全球市场等方面采取实际行动联合国全球契约组织今天结束了 2026 年领导人峰会，汇聚了 750 多位商界领袖、投资者、政策制定者、联合国代表和可持续发展专家，参加为期两天的峰会，重点讨论将企业可持续发展承诺转化为可衡量的行动，并建立实现长期可持续增长所需的系统。",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -58533,7 +60522,7 @@
     "articleUrl": "https://unglobalcompact.org/news/dangote-calls-africa-keep-its-capital-home-industrialization-takes-center-stage-unstoppable",
     "esgTopic": "合规与监管",
     "titleZh": "丹格特呼吁非洲将资本留在本土，工业化成为“不可阻挡的非洲”活动焦点",
-    "summaryZh": "非洲商界领袖呼吁在非洲大陆的增长中占据更大份额，并将投资和创造本地价值提上议程。丹格特集团总裁兼首席执行官阿利科·丹格特 (Aliko Dangote) 在 Unstoppable Africa 2026 会议上向全球商界领袖表示，非洲必须停止向海外输送资本，并开始投资于自己的工业未来，同时他提出了非洲工业化的雄心勃勃的愿景，并以数十亿美元的投资、新的炼油能力和更广泛的公共所有权为支持。",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -58572,7 +60561,7 @@
     "articleUrl": "https://unglobalcompact.org/news/un-global-compact-launches-sustainable-procurement-implementation-framework-help-companies",
     "esgTopic": "合规与监管",
     "titleZh": "联合国全球契约组织推出可持续采购实施框架，帮助企业将承诺转化为行动",
-    "summaryZh": "联合国全球契约今天推出了可持续采购实施框架，这是一项实用的全球资源，旨在帮助企业将可持续发展置于采购的核心，并将可持续发展承诺和要求转化为日常业务实践。该框架是在联合国大会期间举行的可持续采购高级别论坛期间推出的，旨在应对在日益复杂的全球价值链中运营的公司面临的关键实施挑战。",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -58611,7 +60600,7 @@
     "articleUrl": "https://unglobalcompact.org/news/un-global-compact-unep-fi-and-wwf-strengthen-ocean-investment-protocol-address-financial-risks",
     "esgTopic": "合规与监管",
     "titleZh": "联合国全球契约组织、UNEP FI和WWF加强海洋投资协议，以应对金融风险并释放可持续海洋金融",
-    "summaryZh": "由联合国环境规划署金融倡议（UNEP FI）主办，与世界自然基金会绿色金融监管倡议（WWF GFRI）合作的联合国全球契约和可持续蓝色经济金融倡议今天发布了海洋投资议定书（OIP）的修订版。更新后的议定书加强了对金融参与者的指导，并首次提出了对中央银行、金融监管机构和监督者的建议。",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -59046,7 +61035,7 @@
     "articleUrl": "https://unglobalcompact.org/news/africa-makes-its-case-bigger-role-global-stage",
     "esgTopic": "合规与监管",
     "titleZh": "非洲为其在全球舞台上发挥更大作用提出主张",
-    "summaryZh": "GABI 的《势不可挡的非洲 2026》将全球领导人聚集在一起，共同推动非洲从其资源中获取更多价值、加速投资并加强其在全球贸易和决策中的影响力。非洲正在推动在塑造全球经济中发挥更大作用，商界领袖、国家元首、投资者、政策制定者和全球合作伙伴今天齐聚纽约，阐明非洲大陆在全球贸易、投资和价值创造方面的雄心。",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -59085,7 +61074,7 @@
     "articleUrl": "https://unglobalcompact.org/news/un-private-sector-forum-calls-faster-public-private-action-deliver-clean-just-and-secure",
     "esgTopic": "合规与监管",
     "titleZh": "联合国私营部门论坛呼吁加快公私行动，以实现清洁、公正和安全的能源未来",
-    "summaryZh": "首席执行官、国家元首和政府首脑以及联合国领导人确定了加速全球能源转型所需的投资、基础设施和政策优先事项 商界、政府和联合国领导人今天呼吁加强公私合作，以加快清洁能源投资、加强能源安全并扩大获得负担得起的电力的机会，2026 年联合国私营部门论坛在纽约联合国总部闭幕。",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -60188,7 +62177,7 @@
     "articleUrl": "https://www.sustainalytics.com/esg-news/news-details/2026/09/16/morningstar-survey--asset-owners-increase-u.s.-and-private-market-exposure-as-ai-risks-rise",
     "esgTopic": "合规与监管",
     "titleZh": "晨星调查：随着人工智能风险上升，资产所有者增加美国和私人市场的风险敞口",
-    "summaryZh": "晨星调查：美国资产所有者增加",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -60270,7 +62259,7 @@
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
-      "score": 25,
+      "score": 63,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -62171,7 +64160,7 @@
     "articleUrl": "https://unglobalcompact.org/news/new-north-american-survey-reveals",
     "esgTopic": "合规与监管",
     "titleZh": "新的北美调查显示，仅十分之一的可持续发展专业人士预计其组织的雄心将会下降",
-    "summaryZh": "加拿大、墨西哥和美国的联合国全球契约网络以及 GlobeScan 的研究显示，随着企业可持续发展承诺压力的加大，企业变得更加挑剔和战略性更强。尽管企业可持续发展面临的经济、政治和监管压力越来越大，但事实证明，北美各地可持续发展专业人士的雄心比人们普遍认为的更有弹性。",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
@@ -68531,7 +70520,7 @@
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
-      "score": 20,
+      "score": 61,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -68609,7 +70598,7 @@
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
-      "score": 10,
+      "score": 61,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -68921,7 +70910,7 @@
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
-      "score": 18,
+      "score": 61,
       "scoreThreshold": 75,
       "scorePass": false,
       "sourceTier": "T2",
@@ -69658,7 +71647,7 @@
     "articleUrl": "https://www.responsiblebusiness.org/news/news/rmi-releases-new-standard-suite/",
     "esgTopic": "合规与监管",
     "titleZh": "RMI发布新的社会、环境、职业健康安全与治理风险标准套件",
-    "summaryZh": "RMI 发布新的社会、环境标准套件",
+    "summaryZh": "",
     "recommended": false,
     "recommendReason": "",
     "pipeline": {
