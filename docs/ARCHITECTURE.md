@@ -169,6 +169,8 @@ publication bundle ---------------------+
 
 后续披露底稿设计见[研究与披露方案](CLIMATE_MARKET_AND_DISCLOSURE_REVIEW.md)及技术方案阶段D，尚未实现。`reportContext/assessment/scenarioRuns/inputs/results/evidence/review`形成独立版本化契约；计算函数确定性运行，AI仅组织有证据的内容。首期本地导出Markdown/CSV/JSON，企业资料不写公开API或日志。修改输入使旧复核失效，按标准版本记录条款缺口，不以完整性分数代替合规判断。
 
+跨市场研究索引位于`data/research/climate-disclosure-benchmarks.json`，每条标明section-read / selected-pdf-pages / indexed-excerpt，保留来源、定位、版本年度、局限及可用时的文件哈希。它是只读研究材料，不进入公开事件API/资讯时间线。后续底稿按[实施规格](CLIMATE_DISCLOSURE_WORKPAPER_SPEC.md)增加metricKind、effectStatus、affectedParty、periodBasis、denominator、managementCase、costBoundary及changeRecord；导出器与计算层先确定性实现，LLM为可选文字整理，不能自行补造输入。首期不接预期损失或估值模型。
+
 `components/ClimateRiskLab.tsx` 作为独立路由 `/climate-lab` 的客户端解释层，使用一个虚拟项目、坐标/地图点选、分析半径、五类风险和静态示意系数验证交互。来源基准、用户压力测试偏移和资产参数分层维护；客户端公开危险度与经营冲击公式，但不把示意计算包装成事实 API 或科学模型。物理风险与转型风险分别维护 SSP 和 NGFS 情景状态，避免错误映射。
 
 界面核心问题标题固定为“气候风险如何进入财务报表？”。“虚拟项目”属于输入状态与模型边界，不进入问题标题，避免将工具形态误表达为用户目标。

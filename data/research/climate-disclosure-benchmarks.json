@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-18",
+  "selection": "目的性跨市场样本，用于学习披露结构；不代表市场统计、合规认证或模型验证。",
+  "samples": [
+    {
+      "id": "catl-2024",
+      "market": "中国大陆A股",
+      "company": "宁德时代",
+      "document": "2024年度ESG报告",
+      "year": 2024,
+      "url": "https://www.catl.com/uploads/1/file/public/202503/20250328110514_yhfqo19im4.pdf",
+      "locator": "报告pp.71–78；PDF pp.37–40（双页展开）",
+      "review": "selected-pdf-pages",
+      "scenarios": [
+        "物理：RCP4.5、RCP8.5",
+        "转型风险：NGFS NZE2050、Delayed Transition、NDCs",
+        "机遇：IEA WEO2023 NZE、APS、STEPS"
+      ],
+      "horizons": [
+        "2030",
+        "2050",
+        "机遇2025–2050"
+      ],
+      "presentation": "敞口分档/颜色矩阵及定性财务传导",
+      "finding": "披露资产与营收风险敞口；机遇以营收和毛利规模深浅色比较，不公开可复算的金额。",
+      "lesson": "分别输出暴露指标、经营后果和商业机遇；内部量化不等于对外公开金额。",
+      "caution": "不能将高风险资产金额当作损失；不能由颜色反推财务金额；报告情景叙事不是本产品新版情景定义。",
+      "sha256": "454d92e988f06c61dbd15064f76d2a53320201845ab169873b97712c2db76e9a",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "baosteel-2024",
+      "market": "中国大陆A股",
+      "company": "宝钢股份",
+      "document": "2024可持续发展报告",
+      "year": 2024,
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223329096.PDF",
+      "locator": "报告pp.50–57；PDF pp.26–29（双页展开）",
+      "review": "selected-pdf-pages",
+      "scenarios": [
+        "物理：RCP4.5、RCP6.0",
+        "转型：CISA行业情景、IEA NZE"
+      ],
+      "horizons": [
+        "短期1–2年",
+        "中期3–6年",
+        "长期7年以上"
+      ],
+      "presentation": "风险—业务—财务—期限—等级—应对表",
+      "finding": "部分项目列预算或预计政策成本，其他项目说明暂难估计；CBAM示例明确欧盟进口商为成本承担方。",
+      "lesson": "每个金额注明承担主体、实际/预算/潜在、时间及证据；可以部分量化。",
+      "caution": "不能把进口商成本全算本企业损失；2024报告政策假设需重新核对，不能当2026现行规则。",
+      "sha256": "ddaab24226ef441abc5acb6af96ea036e7e016bc1bc41bd12bc9dcb14ca687e4",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "swire-2024",
+      "market": "中国香港",
+      "company": "太古股份",
+      "document": "Sustainability Report 2024 / Climate-related financial disclosures",
+      "year": 2024,
+      "url": "https://sr.swirepacific.com/en/sr2024/our-business/climate-related-financial-disclosures",
+      "locator": "Strategy、Key climate-related risks、脚注1、Risk management",
+      "review": "section-read",
+      "scenarios": [
+        "物理：RCP2.6、4.5、6.0、8.5",
+        "转型：报告所列SSP碳价模型"
+      ],
+      "horizons": [
+        "2030",
+        "2050"
+      ],
+      "presentation": "情景×期限×影响等级矩阵，附财务含义及措施",
+      "finding": "850多项重要资产；物理风险财务影响分档与企业风险管理一致，低档至港币1亿元、中档1亿至10亿元、高档10亿元以上；脚注明确固有风险未计措施。",
+      "lesson": "等级与企业自己的重要性阈值绑定；固有风险、措施和剩余判断分列。",
+      "caution": "不能把太古阈值套用中小企业；评级不等于预期损失概率。",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "tsmc-2024",
+      "market": "中国台湾",
+      "company": "台积电",
+      "document": "2024 Climate and Nature Report",
+      "year": 2024,
+      "url": "https://esg.tsmc.com/en-US/file/public/2024-TSMC-Climate-and-Nature-Report-e.pdf",
+      "locator": "报告p.15，Climate Scenario Analysis；官方索引摘录核对",
+      "review": "indexed-excerpt",
+      "scenarios": [
+        "物理：SSP1-2.6、SSP5-8.5",
+        "转型碳价：IEA NZE、STEPS"
+      ],
+      "horizons": [
+        "2030",
+        "2040"
+      ],
+      "presentation": "情景×年度×有无持续减碳管理，影响占营收百分比",
+      "finding": "NZE下2040碳定价影响从未持续管理路径的营收2–3%，降至积极减碳路径低于0.1%；脚注说明未含减碳成本。",
+      "lesson": "展示措施前后及相对营收指标，明确措施成本是否计入。",
+      "caution": "不是实际损失或净收益；PDF直读/下载受限，仅核对官方索引文字，整页表格仍待复核。",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "schneider-2024",
+      "market": "欧盟—法国",
+      "company": "Schneider Electric",
+      "document": "2024 Universal Registration Document",
+      "year": 2024,
+      "url": "https://www.se.com/ww/en/assets/564/document/510443/2024-universal-registration-document.pdf",
+      "locator": "Climate scenario analysis / resilience；官方索引摘录，页码待核",
+      "review": "indexed-excerpt",
+      "scenarios": [
+        "RCP、SSP、NGFS叙事",
+        "物理量化强调Current Policy路径"
+      ],
+      "horizons": [
+        "2025",
+        "2030",
+        "2050"
+      ],
+      "presentation": "情景模型结合厂址审计和脆弱性分析",
+      "finding": "报告说明模型结果结合外部现场审计、厂址脆弱性画像与措施建议。",
+      "lesson": "全球危险度筛查之后应加入现场确认，不用一个模型分数替代工程事实。",
+      "caution": "未完成整章与表格核对；不得据此复用其情景映射或专有系数。",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "danone-2024",
+      "market": "欧盟—法国",
+      "company": "Danone",
+      "document": "Universal Registration Document 2024",
+      "year": 2024,
+      "url": "https://www.danone.com/content/dam/corp/global/danonecom/investors/en-all-publications/2025/registrationdocuments/urd2024accessibleversion.pdf",
+      "locator": "报告pp.201–203，Financial quantification of risks and opportunities",
+      "review": "section-read",
+      "scenarios": [
+        "WBCSD AFOLU：1.5°C Societal Transformation",
+        "<2°C Forecast Policy / IPR",
+        ">3°C Historic Trends"
+      ],
+      "horizons": [
+        "2030；具体量化见分项"
+      ],
+      "presentation": "先筛选重要驱动，再建立财务传导路径",
+      "finding": "定性筛选使用可能性及影响程度；重点风险和机遇再按农业、林业及土地利用行业情景量化。",
+      "lesson": "行业相关性优于只按机构名选路径；风险与机遇可以沿同一传导结构分析。",
+      "caution": "不能把其1–5筛选分数当作发生概率；WBCSD路径不与现有三类情景自动等同。",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "basf-2025",
+      "market": "欧盟—德国",
+      "company": "BASF",
+      "document": "BASF Report 2025 / E1 Climate Change",
+      "year": 2025,
+      "url": "https://report.basf.com/2025/en/combined-managements-report/consolidated-sustainability-statement/environment/e1-climate-change.html",
+      "locator": "Resilience and scenario analyses / Climate-related physical risks",
+      "review": "section-read",
+      "scenarios": [
+        "物理筛查：SSP5-8.5",
+        "必要时加入较温和情景",
+        "转型：企业多路径及净零路径"
+      ],
+      "horizons": [
+        "5–10年",
+        "10–30年",
+        "约30年"
+      ],
+      "presentation": "厂址定性脆弱性优先筛查，再对重要风险量化",
+      "finding": "潜在损失超过1000万欧元时进一步量化并制定适应计划；评估交通、水、电、原料等外部依赖。",
+      "lesson": "先识别经营依赖，再按重要性投入量化；记录厂界外风险。",
+      "caution": "1000万欧元是BASF流程阈值，不是通用标准；高排放筛查不能替代所有情景下的韧性评估。",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "asml-2024",
+      "market": "欧盟—荷兰",
+      "company": "ASML",
+      "document": "2024 TCFD Report: Climate-related disclosure",
+      "year": 2024,
+      "url": "https://ourbrand.asml.com/m/51517ae95567bca2/original/2024-TCFD-Report-Climate-related-disclosure.pdf",
+      "locator": "TCFD报告pp.3–7",
+      "review": "section-read",
+      "scenarios": [
+        "IEA/IPCC基础的1.5°C转型",
+        "4°C物理"
+      ],
+      "horizons": [
+        "中期",
+        "长期"
+      ],
+      "presentation": "定性等级＋价值链位置＋财务影响项目＋措施",
+      "finding": "更新定性情景评估并纳入供应商和客户；明确潜在营收、资本支出及运营支出变化。",
+      "lesson": "不公开金额也可清晰描述财务传导和措施，但应明确未量化。",
+      "caution": "不把分阶段披露安排当作所有地区适用豁免；定性表不等于完整财务量化。",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "maersk-2024",
+      "market": "欧盟—丹麦",
+      "company": "A.P. Møller–Mærsk",
+      "document": "Annual Report 2024",
+      "year": 2024,
+      "url": "https://investor.maersk.com/static-files/31bf05a1-6f0c-4fbd-a3c7-3f58e044f668",
+      "locator": "报告p.88，Physical climate risks exposure；官方索引摘录",
+      "review": "indexed-excerpt",
+      "scenarios": [
+        "SSP2-4.5主展示",
+        "报告另列SSP5-8.5、SSP1-1.9"
+      ],
+      "horizons": [
+        "2050"
+      ],
+      "presentation": "地点地图＋资产卡片＋年度营收损失/资产损坏估计",
+      "finding": "107项资产评估；展示五项较高风险资产，说明估算包含资产损坏和中断而未计网络连锁影响。",
+      "lesson": "地图与具体损失口径一起展示，清楚说明未纳入的间接影响。",
+      "caution": "2050估计不是历史事件；索引情景温升标注需与IPCC原始资料另核，不直接继承；PDF整页仍待核对。",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "unilever-2025",
+      "market": "英国",
+      "company": "Unilever",
+      "document": "Annual Report and Accounts 2025",
+      "year": 2025,
+      "url": "https://www.unilever.com/files/unilever-annual-report-and-accounts-2025.pdf",
+      "locator": "报告pp.224–225；PDF pp.227–228",
+      "review": "section-read",
+      "scenarios": [
+        "SSP1-2.6、SSP2-4.5、SSP5-8.5",
+        "转型参考NGFS Net Zero2050、IEA NZE"
+      ],
+      "horizons": [
+        "2030",
+        "2039",
+        "2050"
+      ],
+      "presentation": "风险×情景×年度×营收比例＋Gross/Net假设",
+      "finding": "以营收或成本影响占总营收比例呈现；说明部分措施假设，以及潜在量化不是财务预测，不直接并入长期现金流。",
+      "lesson": "金额和比例、年度和边界并列；措施前后及是否计入成本逐项说明。",
+      "caution": "2025剔除分拆的冰淇淋业务，不能直接与2024同口径比较；SSP1-2.6替代SSP1-1.9的理由需公开，不可静默替换。",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "delta-air-lines-2024",
+      "market": "美国",
+      "company": "Delta Air Lines",
+      "document": "Delta Difference 2024 / Additional Climate-Related Disclosures",
+      "year": 2024,
+      "url": "https://esghub.delta.com/content/esg/en/2024/climate-related-disclosures.html",
+      "locator": "Forecast and Scenario Analysis / Physical and Transition risk tables",
+      "review": "section-read",
+      "scenarios": [
+        "物理：RCP2.6、4.5、8.5",
+        "转型：IEA WEO2023 NZE、APS及STEPS"
+      ],
+      "horizons": [
+        "2050"
+      ],
+      "presentation": "风险—经营影响—期限—潜在影响—应对",
+      "finding": "物理与转型采用不同路径；公开表仅展示各项较高影响情景并说明选择原因。",
+      "lesson": "公开展示情景子集时解释筛选原因，保留完整分析覆盖记录。",
+      "caution": "Delta为美国航空公司，非台湾台达电；网页部分等级图形未核读，不补造数值；只披露最坏项不自动符合用户企业标准。",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "pfizer-cdp-2025",
+      "market": "美国",
+      "company": "Pfizer",
+      "document": "2025 CDP Corporate Questionnaire",
+      "year": 2025,
+      "url": "https://cdn.pfizer.com/pfizercom/2025_CDP_Response_Pfizer_Inc.pdf",
+      "locator": "PDF pp.91–100，5.1.1；pp.42–44，3.1.1",
+      "review": "section-read",
+      "scenarios": [
+        "物理：RCP2.6、RCP8.5",
+        "转型：NGFS Net-Zero2050、Current Policies"
+      ],
+      "horizons": [
+        "2030",
+        "2040",
+        "2050"
+      ],
+      "presentation": "题号化字段：路径、覆盖、驱动、假设、选择理由、未来影响和应对",
+      "finding": "分开说明情景选择理由与未来潜在金额，并保留历史龙卷风受损及恢复事实。",
+      "lesson": "披露底稿应像结构化问卷一样能追溯来源、假设与行动。",
+      "caution": "CDP年份不是事件日期或分析基准年；未来金额不能冒充历史损失，答卷不等于全部内容已鉴证。",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "keppel-2025",
+      "market": "新加坡",
+      "company": "Keppel",
+      "document": "Sustainability Report 2025",
+      "year": 2025,
+      "url": "https://www.keppel.com/file/sustainability/sustainability-reports/keppel-sustainability-report-2025.pdf",
+      "locator": "报告pp.25–27；PDF pp.24–26；币种说明报告p.93",
+      "review": "selected-pdf-pages",
+      "scenarios": [
+        "物理：SSP1-2.6、SSP2-4.5、SSP5-8.5",
+        "转型：SSP2、SSP3及IEA NZE"
+      ],
+      "horizons": [
+        "2030",
+        "2050",
+        "2070"
+      ],
+      "presentation": "评估演进时间线＋资产范围＋年均财务影响区间",
+      "finding": "披露既有19项资产物理损坏的2030年均财务影响约1400万–1600万新元，并解释因资产处置计划而不披露这些资产2050/2070估计。",
+      "lesson": "资产持有期限与分析窗口应匹配；年均损失需要频率模型，不能来自停工天数滑块。",
+      "caution": "2025报告引用2022–2023分析和2022资产价值，不是2025新测算或受灾记录；不照搬其重要性结论。",
+      "sha256": "89c7a28dbe04d59d793931a0e8673797e077ce6bf549da971f6c11af6dbf7cba",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "bhp-ctap-2024",
+      "market": "澳大利亚",
+      "company": "BHP",
+      "document": "Climate Transition Action Plan 2024",
+      "year": 2024,
+      "url": "https://www.bhp.com/es/-/media/documents/investors/annual-reports/2024/240827_bhpclimatetransitionactionplan2024.pdf",
+      "locator": "报告pp.32–35，Our 1.5°C scenario / resilience",
+      "review": "section-read",
+      "scenarios": [
+        "企业自建1.5°C，外部基准对照",
+        "企业规划基准"
+      ],
+      "horizons": [
+        "长期资产估值期"
+      ],
+      "presentation": "仅变商品价/碳价的资产与组合NPV敏感性",
+      "finding": "相对规划基准改变商品价及碳价，其他输入保留基准，解释其用途与不用于运营规划等限制。",
+      "lesson": "说明情景敏感性究竟改变了什么、没有改变什么；与管理层预算区分。",
+      "caution": "不是会计公允价值；不复制企业自建情景的概率判断；CTAP2024部分假设已被后续报告更新。",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "toyota-sdb-2025",
+      "market": "日本",
+      "company": "Toyota",
+      "document": "Sustainability Data Book 2025（官网持续更新版）",
+      "year": 2025,
+      "url": "https://global.toyota/pages/global_toyota/sustainability/report/sdb/sdb25_en.pdf",
+      "locator": "报告pp.48–51；修订记录p.2",
+      "review": "section-read",
+      "scenarios": [
+        "1.5°C转型（含IEA NZE）",
+        "4°C物理"
+      ],
+      "horizons": [
+        "至2025",
+        "至2030",
+        "至2050"
+      ],
+      "presentation": "风险/机遇、期限、High/Medium/Slight财务影响定性表",
+      "finding": "财务影响等级以全球或地区影响范围解释，结合风险传导及战略韧性讨论。",
+      "lesson": "定性等级应有定义，不能只给颜色；风险和机遇分列。",
+      "caution": "等级不是损失率或金额区间；官网同名2025文件已列2026修订，必须记录检索日和版本。",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "rbc-2024",
+      "market": "加拿大",
+      "company": "Royal Bank of Canada",
+      "document": "Sustainability Report 2024",
+      "year": 2024,
+      "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/RBC-2024-sustainability-report.pdf",
+      "locator": "报告p.65，Table17；PDF p.65",
+      "review": "section-read",
+      "scenarios": [
+        "立即转型、延迟转型（BoC框架）",
+        "物理：IPCC RCP8.5"
+      ],
+      "horizons": [
+        "2024–2050"
+      ],
+      "presentation": "情景、组合、地区、驱动、信用指标对照表",
+      "finding": "转型评估批发贷款的PD/LGD及预期损失；河流洪水评估住房抵押敞口。",
+      "lesson": "指标应贴合业务模式，金融机构与制造业不能使用同一损失计算器。",
+      "caution": "本段主要公开方法和范围，不推断未公开损失总额；情景预期损失不自动等于财务报表ECL。",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    },
+    {
+      "id": "nestle-2024",
+      "market": "瑞士",
+      "company": "Nestlé",
+      "document": "Non-Financial Statement 2024",
+      "year": 2024,
+      "url": "https://www.nestle.com/sites/default/files/2025-02/non-financial-statement-2024.pdf",
+      "locator": "报告pp.22–24，Climate modelling；PDF pp.21–23",
+      "review": "section-read",
+      "scenarios": [
+        "RCP8.5",
+        "RCP4.5",
+        "Paris Ambition"
+      ],
+      "horizons": [
+        "短中期累计10年DCF",
+        "长期原料评估至2040"
+      ],
+      "presentation": "情景叙事＋业务范围＋模型代理变量＋指标定义",
+      "finding": "以方向性的累计十年折现现金流评估转型，碳税、可再生能源比例和消费偏好分别作政策、技术与市场代理。",
+      "lesson": "明确代理变量与DCF的期间、折现及边界，不能把累计现值写成年损失。",
+      "caution": "瑞士不是欧盟成员；公开方法不等于完整公布所有模型输入。",
+      "checkedAt": "2026-11-18",
+      "purpose": "disclosure-method-benchmark",
+      "isIncident": false
+    }
+  ]
+}
