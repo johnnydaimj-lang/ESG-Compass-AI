@@ -155,6 +155,8 @@ publication bundle ---------------------+
 
 2026-11-18实施基线：[CLIMATE_LAB_TECHNICAL_PLAN.md](CLIMATE_LAB_TECHNICAL_PLAN.md)。阶段A已用独立纯计算层取代统一乘数/价值指数，支持IPCC、IEA和NGFS目录切换；B/C数据接入和监控未完成。下列9.1—9.6为历史原型设计记录，与新方案冲突处以新方案为准，不能作为当前已交付能力说明。
 
+情景来源由lib/climate-lab-model.ts逐条维护：officialQuote、quoteTranslation、sourceUrl、sourceTitle、sourceSection、application、verifiedAt。中文description为编辑释义，不是官方中文原文。组件默认只显示释义；原文和适用说明用路径key控制的原生details按需展开。逐源限制短引总量，源信息与机构版本共同更新；核对日期不表示自动监控时间。
+
 ### 9.1 当前原型
 
 `components/ClimateRiskLab.tsx` 作为独立路由 `/climate-lab` 的客户端解释层，使用一个虚拟项目、坐标/地图点选、分析半径、五类风险和静态示意系数验证交互。来源基准、用户压力测试偏移和资产参数分层维护；客户端公开危险度与经营冲击公式，但不把示意计算包装成事实 API 或科学模型。物理风险与转型风险分别维护 SSP 和 NGFS 情景状态，避免错误映射。

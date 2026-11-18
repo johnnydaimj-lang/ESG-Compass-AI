@@ -63,7 +63,19 @@ export default function ClimateRiskLab({ cases = [] }: { cases?: ClimateRiskCase
         <label className="text-xs text-ink-faint">2 · 选择路径<select value={scenario.id} onChange={(event) => setSelected((current) => ({ ...current, [family]: event.target.value }))} className={inputClass}>{catalog.scenarios.map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label>
         <label className="text-xs text-ink-faint">3 · 观察时间{physical ? "窗" : "点"}<select value={horizon} onChange={(event) => setWindows((current) => ({ ...current, [family]: event.target.value }))} className={inputClass}>{availableWindows.map((value) => <option key={value}>{value}</option>)}</select></label>
       </div>
-      <div className="mt-4 rounded-lg bg-brand-soft p-3 text-xs leading-relaxed text-ink-soft" aria-live="polite"><strong className="text-brand-deep">{catalog.version} · {catalog.scope}：</strong>{scenario.description}<p className="mt-1">{catalog.note}</p></div>
+      <div className="mt-4 rounded-lg bg-brand-soft p-4 text-xs leading-relaxed text-ink-soft" aria-live="polite">
+        <div className="flex flex-wrap items-center justify-between gap-2"><strong className="text-brand-deep">{scenario.label}</strong><span className="text-[10px]">{catalog.version} · {catalog.scope}</span></div>
+        <p className="mt-2"><span className="font-semibold text-ink">官方介绍 · 中文释义：</span>{scenario.description}</p>
+        <details key={family + scenario.id} className="mt-3 border-t border-brand-line pt-3">
+          <summary className="cursor-pointer font-semibold text-brand-deep">阅读官方原文与适用说明</summary>
+          <div className="mt-3 space-y-3">
+            <div><p className="text-[10px] font-semibold text-ink-faint">官方原文短引 · 英文</p><blockquote lang="en" cite={scenario.sourceUrl} className="mt-1 border-l-2 border-brand pl-3 text-sm text-ink">{scenario.officialQuote}</blockquote><p className="mt-1">短引译文：{scenario.quoteTranslation}</p></div>
+            <p><span className="font-semibold text-ink">ESG Compass 适用说明：</span>{scenario.application}</p>
+            <p>{catalog.note}</p>
+            <div className="border-t border-brand-line pt-2 text-[10px] text-ink-faint"><p>{scenario.sourceTitle} · {scenario.sourceSection}</p><p className="mt-1">核对日期：{scenario.verifiedAt}。中文为基于官方介绍的释义；短引并非完整定义。</p><a href={scenario.sourceUrl} target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-brand-deep underline">阅读官方完整介绍 <ArrowUpRight size={12} /></a></div>
+          </div>
+        </details>
+      </div>
     </header>
 
     <div className="grid lg:grid-cols-[1.15fr_1fr]">
