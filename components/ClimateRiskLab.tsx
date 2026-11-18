@@ -7,6 +7,7 @@ import { sortClimateRiskCases, type ClimateCaseRisk, type ClimateCaseSort, type 
 import ClimateHeatPanel from "@/components/ClimateHeatPanel";
 
 const RISKS: Record<ClimateCaseRisk, { label: string; conditions: string; chain: string[]; accounting: string }> = {
+  storm: { label: "风暴与强风", conditions: "按风速、阵风、重现期及建筑抗风能力分析。伴生洪水另行标注；龙卷风不能归作降雨或海平面上升。", chain: ["风暴与强风", "厂房、电网与交通暴露", "停运、修复与供应中断", "费用、资本开支与现金流"], accounting: "修复、资本化、保险补偿及潜在责任分别按事实判断，不能将全部恢复支出视为当期损失。" },
   rain: { label: "洪水与降雨", conditions: "应读取降雨极值、洪水深度与频率，结合高程、排水和设备离地高度。年均降雨不能直接换算洪水损失。", chain: ["降雨或洪水危险", "设备、道路和供应链暴露", "停工、维修与交付延误", "现金流与减值判断"], accounting: "维修费用、存货损失及减值迹象需结合实际事实判断。公允价值考虑市场参与者对位置与适应支出的假设。" },
   heat: { label: "高温", conditions: "读取温度、湿度、风速和辐射；以户外作业人数、劳动强度和冷却设施判断热暴露。WBGT 需相应数据支持。", chain: ["高温与湿热", "员工和设备热暴露", "工时、冷却与产能变化", "运营成本与现金流"], accounting: "运营费用、产能及资产寿命假设可能变化；需要证据支持，不能由热天数直接推导固定损失比例。" },
   sea: { label: "沿海淹没", conditions: "联合相对海平面、风暴潮、潮汐与地表高程判断暴露。飓风损失不能直接证明海平面上升造成的损失。", chain: ["海平面与风暴潮", "沿海资产与防护设施", "淹没、修复与可保险性", "资本开支、残值与寿命"], accounting: "位置风险、防洪开支和长期可使用性可能影响市场参与者假设、残值和减值测试。" },
@@ -15,7 +16,7 @@ const RISKS: Record<ClimateCaseRisk, { label: string; conditions: string; chain:
   carbon: { label: "碳成本", conditions: "输入适用履约体系内排放、有效免费配额覆盖及价格。首期不含套保、成本转嫁和间接电价传导。", chain: ["政策与碳价路径", "履约体系覆盖的排放", "净配额需求与履约成本", "利润、现金流及相关负债"], accounting: "配额、履约费用及相关金融工具依适用准则和事实处理。价格敏感性不是自动公允价值结论。" },
   technology: { label: "能源与技术转型", conditions: "按行业分析需求、能源结构、技术成本、资产剩余寿命和改造支出；融资、许可和供应链风险分别标记。", chain: ["能源与技术路径", "产品和资产结构", "需求、成本与改造节奏", "现金流、经济寿命与减值"], accounting: "结合需求与资本开支预测评估减值迹象、资产寿命和残值；综合项目减值不能全部归因于技术替代。" },
 };
-const PHYSICAL: ClimateCaseRisk[] = ["rain", "heat", "drought", "sea", "wildfire"];
+const PHYSICAL: ClimateCaseRisk[] = ["rain", "heat", "drought", "sea", "wildfire", "storm"];
 const TRANSITION: ClimateCaseRisk[] = ["carbon", "technology"];
 const DEFAULT_OPERATIONS = { downtimeDays: 10, protectedDays: 3, dailyMargin: 10, repairCost: 20, adaptationCost: 40 };
 const DEFAULT_CARBON = { emissions: 10000, freeCoverage: 40, basePrice: 60, stressPrice: 90 };
@@ -36,6 +37,8 @@ export default function ClimateRiskLab({ cases = [] }: { cases?: ClimateRiskCase
   const [carbon, setCarbon] = useState(DEFAULT_CARBON);
   const [sort, setSort] = useState<ClimateCaseSort>("relevance");
   const [kind, setKind] = useState("all");
+  const [caseScope, setCaseScope] = useState("all");
+  const [caseLimit, setCaseLimit] = useState(6);
   const catalog = SCENARIO_CATALOG[family];
   const scenario = catalog.scenarios.find((item) => item.id === selected[family]) ?? catalog.scenarios[0];
   const risk = RISKS[riskKey];
@@ -44,7 +47,7 @@ export default function ClimateRiskLab({ cases = [] }: { cases?: ClimateRiskCase
   const availableWindows = physical ? ["2021–2040", "2041–2060", "2081–2100"] : ["2030", "2050"];
   const result = calculateOperations(operations);
   const carbonResult = calculateCarbon(carbon.emissions, carbon.freeCoverage, carbon.basePrice, carbon.stressPrice);
-  const matching = sortClimateRiskCases(cases, riskKey, sort).filter((item) => kind === "all" || (item.kind ?? "impact") === kind);
+  const matching = sortClimateRiskCases(cases, caseScope === "all" ? null : riskKey, sort).filter((item) => kind === "all" || (item.kind ?? "impact") === kind);
 
   function changeFamily(next: ScenarioFamily) {
     setFamily(next);
@@ -139,14 +142,17 @@ export default function ClimateRiskLab({ cases = [] }: { cases?: ClimateRiskCase
 
     <section className="border-t border-line p-5 sm:p-6" aria-labelledby="case-title">
       <div className="flex flex-wrap items-end justify-between gap-3"><div><h3 id="case-title" className="text-sm font-semibold text-ink">近五年企业影响与应对</h3><p className="mt-1 text-xs text-ink-faint">按事件日期滚动筛选 · 企业披露不等同于气候归因 · 当前为人工核验样本</p></div>
-        <div className="flex flex-wrap gap-2"><label className="text-xs text-ink-soft">类型<select aria-label="案例类型" value={kind} onChange={(event) => setKind(event.target.value)} className={inputClass}><option value="all">全部</option><option value="impact">风险影响</option><option value="adaptation">适应与恢复</option><option value="opportunity">商业机遇</option></select></label>
+        <div className="flex flex-wrap gap-2"><label className="text-xs text-ink-soft">范围<select aria-label="案例范围" value={caseScope} onChange={(event) => { setCaseScope(event.target.value); setCaseLimit(6); }} className={inputClass}><option value="all">全部风险</option><option value="related">当前风险：{risk.label}</option></select></label><label className="text-xs text-ink-soft">类型<select aria-label="案例类型" value={kind} onChange={(event) => { setKind(event.target.value); setCaseLimit(6); }} className={inputClass}><option value="all">全部</option><option value="impact">风险影响</option><option value="adaptation">适应与恢复</option><option value="opportunity">商业机遇</option></select></label>
         <label className="text-xs text-ink-soft">排序<select aria-label="案例排序" value={sort} onChange={(event) => setSort(event.target.value as ClimateCaseSort)} className={inputClass}><option value="relevance">相关性</option><option value="impact">影响等级</option><option value="latest">最新</option></select></label></div>
       </div>
-      <div className="mt-4 grid gap-3 sm:grid-cols-2">{matching.map((item) => <a key={item.id} href={item.href} target="_blank" rel="noreferrer" className="rounded-lg border border-line p-4 hover:border-brand">
-        <div className="flex items-start justify-between gap-2"><span className="text-xs font-semibold text-brand-deep">{item.company} · {item.occurredAt}</span><ArrowUpRight size={14} className="shrink-0 text-brand-deep" /></div>
+      <p className="mt-3 text-xs text-ink-faint" role="status">符合条件 {matching.length} 条 · 当前显示 {Math.min(caseLimit, matching.length)} 条 · 影响等级与相关性为编辑判断，不是模型评分</p>
+      <div className="mt-4 grid gap-3 sm:grid-cols-2">{matching.slice(0, caseLimit).map((item) => <a key={item.id} href={item.href} target="_blank" rel="noreferrer" className="rounded-lg border border-line p-4 hover:border-brand">
+        <div className="flex items-start justify-between gap-2"><span className="text-xs font-semibold text-brand-deep">{item.company} · {item.datePrecision === "year" ? item.occurredAt.slice(0, 4) : item.datePrecision === "month" ? item.occurredAt.slice(0, 7) : item.occurredAt}</span><ArrowUpRight size={14} className="shrink-0 text-brand-deep" /></div>
         <h4 className="mt-2 text-sm font-semibold text-ink">{item.title}</h4><p className="mt-2 text-xs leading-relaxed text-ink-soft">{item.summary}</p>
         <p className="mt-3 text-xs font-medium text-brand-deep">{item.impactLabel}</p><p className="mt-1 text-[10px] leading-relaxed text-ink-faint">{item.sourceName} · {item.evidenceLabel}{item.disclosedAt ? ` · 披露 ${item.disclosedAt}` : ""} · {item.status ?? "企业披露"}</p>
+        {item.sourceLocator && <p className="mt-1 text-[10px] leading-relaxed text-ink-faint">证据定位：{item.sourceLocator}{item.verifiedAt ? ` · 人工核对 ${item.verifiedAt}` : ""}</p>}
       </a>)}</div>
+      {matching.length > caseLimit && <button type="button" onClick={() => setCaseLimit(caseLimit + 6)} className="mt-4 rounded-md border border-line px-4 py-2 text-xs font-semibold text-brand-deep">再看 {Math.min(6, matching.length - caseLimit)} 条案例</button>}
       {matching.length === 0 && <p className="mt-4 rounded-md bg-paper p-4 text-xs text-ink-faint">当前没有符合该风险和类型的已核验案例；保留空缺，等待证据。</p>}
     </section>
     <footer className="border-t border-line bg-paper p-4 text-xs leading-relaxed text-ink-faint">研究原型用于理解影响传导。气候指标来自标注数据源，经营金额来自用户假设；不形成厂址损失预测、工程评估、保险定价或法定估值。</footer>

@@ -30,3 +30,17 @@ test("case sorting keeps relevance, impact and time as separate choices", () => 
   assert.equal(sortClimateRiskCases(fixtures, "heat", "impact", now)[0].id, "newer-impactful");
   assert.equal(sortClimateRiskCases(fixtures, "heat", "latest", now)[0].id, "newer-impactful");
 });
+
+test("all-risk browsing includes multi-factor cases without forcing a hazard label", () => {
+  const now = new Date("2026-11-18T00:00:00Z");
+  const all = sortClimateRiskCases(CLIMATE_RISK_CASES, null, "latest", now);
+  assert.equal(all.length, CLIMATE_RISK_CASES.length);
+  assert.equal(new Set(all.map((item) => item.id)).size, all.length);
+  assert.ok(all.some((item) => item.id === "orsted-us-offshore-impairment-2023"));
+  const heat = sortClimateRiskCases(CLIMATE_RISK_CASES, "heat", "relevance", now);
+  assert.ok(heat.some((item) => item.company === "EDF"));
+  assert.ok(!heat.some((item) => item.id === "pfizer-rocky-mount-tornado-2023"));
+  const storms = sortClimateRiskCases(CLIMATE_RISK_CASES, "storm", "latest", now);
+  assert.ok(storms.some((item) => item.company === "Pfizer"));
+  assert.ok(!sortClimateRiskCases(CLIMATE_RISK_CASES, "rain", "latest", now).some((item) => item.company === "Pfizer"));
+});
