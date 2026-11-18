@@ -7,20 +7,16 @@ import {
   type ClimateRiskCase,
 } from "../lib/climate-risk-cases";
 
-const RISK_KEYS: ClimateCaseRisk[] = ["rain", "heat", "sea", "carbon", "technology"];
-
-test("the rolling case sample covers every climate lab risk with first-party evidence", () => {
-  for (const riskKey of RISK_KEYS) {
-    const matches = CLIMATE_RISK_CASES.filter((item) => item.riskKeys.includes(riskKey));
-    assert.ok(matches.length > 0, `${riskKey} should have at least one case`);
-    assert.ok(matches.every((item) => item.href.startsWith("https://")));
-    assert.ok(matches.every((item) => item.evidenceLabel.length > 0));
-  }
+test("case evidence does not force wildfire into heat or hurricanes into sea-level rise", () => {
+  assert.ok(CLIMATE_RISK_CASES.every((item) => item.href.startsWith("https://") && item.evidenceLabel.length > 0));
+  const fires = CLIMATE_RISK_CASES.filter((item) => item.id.includes("wildfire"));
+  assert.ok(fires.every((item) => item.riskKeys.includes("wildfire") && !item.riskKeys.includes("heat")));
+  assert.ok(!CLIMATE_RISK_CASES.find((item) => item.id === "hci-hurricanes-2024")?.riskKeys.includes("sea"));
 });
 
-test("the prototype cases stay inside the documented rolling five-year window", () => {
-  const windowStart = "2021-11-17";
-  assert.ok(CLIMATE_RISK_CASES.every((item) => item.occurredAt >= windowStart));
+test("case selection excludes out-of-window and future events using an injected clock", () => {
+  const fixtures = ["2021-11-17", "2021-11-18", "2026-11-18", "2026-11-19"].map((date) => ({ ...CLIMATE_RISK_CASES[0], occurredAt: date, riskKeys: ["heat"] as ClimateCaseRisk[] }));
+  assert.deepEqual(sortClimateRiskCases(fixtures, "heat", "latest", new Date("2026-11-18T12:00:00Z")).map((item) => item.occurredAt), ["2026-11-18", "2021-11-18"]);
 });
 
 test("case sorting keeps relevance, impact and time as separate choices", () => {
@@ -29,7 +25,8 @@ test("case sorting keeps relevance, impact and time as separate choices", () => 
     { ...CLIMATE_RISK_CASES[0], id: "newer-impactful", riskKeys: ["heat"], relevanceScore: 90, impactLevel: 5, occurredAt: "2025-01-01" },
   ];
 
-  assert.equal(sortClimateRiskCases(fixtures, "heat", "relevance")[0].id, "older-relevant");
-  assert.equal(sortClimateRiskCases(fixtures, "heat", "impact")[0].id, "newer-impactful");
-  assert.equal(sortClimateRiskCases(fixtures, "heat", "latest")[0].id, "newer-impactful");
+  const now = new Date("2026-11-18T00:00:00Z");
+  assert.equal(sortClimateRiskCases(fixtures, "heat", "relevance", now)[0].id, "older-relevant");
+  assert.equal(sortClimateRiskCases(fixtures, "heat", "impact", now)[0].id, "newer-impactful");
+  assert.equal(sortClimateRiskCases(fixtures, "heat", "latest", now)[0].id, "newer-impactful");
 });

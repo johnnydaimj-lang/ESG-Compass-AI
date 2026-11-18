@@ -14,6 +14,10 @@ Last updated: 2026-11-17
 
 ## Climate risk lab
 
+2026-11-18: The current implementation supersedes the prototype notes below. The UI supports versioned IPCC AR6, IEA WEO2025 and NGFS Phase V scenario selection, with compatible risk types and explicit unavailable-data states. Conditional downtime and carbon-cost arithmetic lives in lib/climate-lab-model.ts. Arbitrary hazard multipliers, spatial heatmaps and valuation indices have been removed. Case selection now applies a rolling five-year window; wildfire and drought are separate categories, with 2026 Rio Tinto and BASF adaptation samples. Local projections, climate pulse charts and scheduled disclosure collection are not connected yet. See docs/CLIMATE_LAB_TECHNICAL_PLAN.md for staged delivery and acceptance gates.
+
+Historical prototype notes (superseded where inconsistent with the above):
+
 - Interactive prototype implemented as the independent `/climate-lab` tool with one fictional project, coordinate/map positioning, adjustable analysis radius, transparent model factors, and five physical/transition risks.
 - The homepage exposes a flask-marked `进入实验室` shortcut at the right edge of the content-type filter row; no standalone promotional banner is used, and the knowledge-zone index remains regulation-only.
 - `/zones/climate-risk` remains a regulation and event knowledge zone; `/zones/climate-lab` redirects to the new canonical route.

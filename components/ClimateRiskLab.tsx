@@ -1,598 +1,140 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import {
-  ArrowRight,
-  ArrowUpRight,
-  ChevronDown,
-  CloudRain,
-  Factory,
-  Flame,
-  Info,
-  MapPin,
-  RotateCcw,
-  ThermometerSun,
-  Waves,
-} from "lucide-react";
-import world from "@svg-maps/world";
-import { sortClimateRiskCases, type ClimateCaseSort, type ClimateRiskCase } from "@/lib/climate-risk-cases";
+import { useState } from "react";
+import { ArrowRight, ArrowUpRight, CloudRain, Flame, FlaskConical, RotateCcw } from "lucide-react";
+import { SCENARIO_CATALOG, calculateCarbon, calculateOperations, type ScenarioFamily } from "@/lib/climate-lab-model";
+import { sortClimateRiskCases, type ClimateCaseRisk, type ClimateCaseSort, type ClimateRiskCase } from "@/lib/climate-risk-cases";
 
-interface WorldLocation {
-  id: string;
-  name: string;
-  path: string;
-}
-
-type RiskKey = "rain" | "heat" | "sea" | "carbon" | "technology";
-type PhysicalScenarioKey = "ssp126" | "ssp245" | "ssp585";
-type TransitionScenarioKey = "netZero" | "delayed" | "currentPolicies";
-type HorizonKey = "2030" | "2050";
-
-const DEFAULT_PROJECT = { latitude: 31.23, longitude: 121.47, radiusKm: 25 };
-
-const PHYSICAL_SCENARIOS: Record<PhysicalScenarioKey, { label: string; short: string; factor: number }> = {
-  ssp126: { label: "低排放路径", short: "SSP1-2.6", factor: 0.72 },
-  ssp245: { label: "中间路径", short: "SSP2-4.5", factor: 1 },
-  ssp585: { label: "高排放路径", short: "SSP5-8.5", factor: 1.38 },
+const RISKS: Record<ClimateCaseRisk, { label: string; conditions: string; chain: string[]; accounting: string }> = {
+  rain: { label: "洪水与降雨", conditions: "应读取降雨极值、洪水深度与频率，结合高程、排水和设备离地高度。年均降雨不能直接换算洪水损失。", chain: ["降雨或洪水危险", "设备、道路和供应链暴露", "停工、维修与交付延误", "现金流与减值判断"], accounting: "维修费用、存货损失及减值迹象需结合实际事实判断。公允价值考虑市场参与者对位置与适应支出的假设。" },
+  heat: { label: "高温", conditions: "读取温度、湿度、风速和辐射；以户外作业人数、劳动强度和冷却设施判断热暴露。WBGT 需相应数据支持。", chain: ["高温与湿热", "员工和设备热暴露", "工时、冷却与产能变化", "运营成本与现金流"], accounting: "运营费用、产能及资产寿命假设可能变化；需要证据支持，不能由热天数直接推导固定损失比例。" },
+  sea: { label: "沿海淹没", conditions: "联合相对海平面、风暴潮、潮汐与地表高程判断暴露。飓风损失不能直接证明海平面上升造成的损失。", chain: ["海平面与风暴潮", "沿海资产与防护设施", "淹没、修复与可保险性", "资本开支、残值与寿命"], accounting: "位置风险、防洪开支和长期可使用性可能影响市场参与者假设、残值和减值测试。" },
+  wildfire: { label: "山火", conditions: "独立分析燃料干燥、风、植被、点火与资产距离。山火不等同于高温，也不能仅由气温推断。", chain: ["山火危险", "设施、电网与人员暴露", "停运、修复及潜在责任", "费用、预计负债与现金流"], accounting: "财产损失、诉讼和预计负债取决于具体责任与证据，不能由灾害本身推定企业法律责任。" },
+  drought: { label: "干旱与缺水", conditions: "读取流域水压力、降水及土壤湿度，结合取水许可、用水量、替代水源和河运依赖。", chain: ["干旱与低水位", "取水、冷却和运输依赖", "限产、替代采购与物流成本", "利润、适应开支与现金流"], accounting: "采购及物流成本、产能利用率和资本支出进入经营预测；应区分实际成本与未来情景估计。" },
+  carbon: { label: "碳成本", conditions: "输入适用履约体系内排放、有效免费配额覆盖及价格。首期不含套保、成本转嫁和间接电价传导。", chain: ["政策与碳价路径", "履约体系覆盖的排放", "净配额需求与履约成本", "利润、现金流及相关负债"], accounting: "配额、履约费用及相关金融工具依适用准则和事实处理。价格敏感性不是自动公允价值结论。" },
+  technology: { label: "能源与技术转型", conditions: "按行业分析需求、能源结构、技术成本、资产剩余寿命和改造支出；融资、许可和供应链风险分别标记。", chain: ["能源与技术路径", "产品和资产结构", "需求、成本与改造节奏", "现金流、经济寿命与减值"], accounting: "结合需求与资本开支预测评估减值迹象、资产寿命和残值；综合项目减值不能全部归因于技术替代。" },
 };
+const PHYSICAL: ClimateCaseRisk[] = ["rain", "heat", "drought", "sea", "wildfire"];
+const TRANSITION: ClimateCaseRisk[] = ["carbon", "technology"];
+const DEFAULT_OPERATIONS = { downtimeDays: 10, protectedDays: 3, dailyMargin: 10, repairCost: 20, adaptationCost: 40 };
+const DEFAULT_CARBON = { emissions: 10000, freeCoverage: 40, basePrice: 60, stressPrice: 90 };
+const inputClass = "mt-1 w-full rounded-md border border-line bg-surface px-3 py-2 text-sm text-ink focus:outline-2 focus:outline-brand";
+const money = (value: number) => value.toLocaleString("zh-CN", { maximumFractionDigits: 1 });
 
-const TRANSITION_SCENARIOS: Record<TransitionScenarioKey, { label: string; short: string; factor: number }> = {
-  netZero: { label: "有序且快速转型", short: "净零 2050", factor: 1.35 },
-  delayed: { label: "政策延后后急剧收紧", short: "延迟转型", factor: 1.08 },
-  currentPolicies: { label: "仅延续当前政策", short: "当前政策", factor: 0.68 },
-};
-
-const RISKS: Record<RiskKey, {
-  label: string;
-  icon: typeof CloudRain;
-  color: string;
-  soft: string;
-  source: string;
-  base: number;
-  unit: string;
-  metric: string;
-  range: [number, number];
-  baselineInputs: Array<{ label: string; value: string; note: string }>;
-  stressControls: Array<{ label: string; unit: string; min: number; max: number; step: number; weight: number }>;
-  chain: string[];
-  accounting: Array<{ title: string; detail: string }>;
-  valuation: Array<{ label: string; value: number }>;
-}> = {
-  rain: {
-    label: "极端降雨",
-    icon: CloudRain,
-    color: "var(--color-info)",
-    soft: "var(--color-info-soft)",
-    source: "CMIP6 多模型集合 · RX1day 指标",
-    base: 14,
-    unit: "%",
-    metric: "最大单日降雨强度变化",
-    range: [0.55, 1.48],
-    baselineInputs: [
-      { label: "年均降水", value: "1,160 mm", note: "示意基准期 1995–2014" },
-      { label: "相对湿度", value: "72%", note: "示意年均值" },
-      { label: "RX1day", value: "112 mm", note: "示意最大单日降水" },
-    ],
-    stressControls: [
-      { label: "年均降水偏移", unit: "%", min: -20, max: 40, step: 5, weight: 0.01 },
-      { label: "相对湿度偏移", unit: "百分点", min: -10, max: 15, step: 1, weight: 0.012 },
-    ],
-    chain: ["强降雨增强", "排水与物流承压", "停工及维修成本上升", "现金流与资产价值承压"],
-    accounting: [
-      { title: "公允价值", detail: "市场参与者可能调整停工损失、适应性支出与风险溢价。" },
-      { title: "IAS 36 减值", detail: "现金流预测和资产使用寿命可能需要重新评估。" },
-    ],
-    valuation: [
-      { label: "停工", value: -3.4 },
-      { label: "维修", value: -1.8 },
-      { label: "保险", value: -1.1 },
-      { label: "适应投资", value: 1.6 },
-    ],
-  },
-  heat: {
-    label: "极端高温",
-    icon: ThermometerSun,
-    color: "var(--color-risk)",
-    soft: "var(--color-risk-soft)",
-    source: "CMIP6 多模型集合 · 高温日数",
-    base: 22,
-    unit: "天",
-    metric: "年高温日数变化",
-    range: [0.62, 1.42],
-    baselineInputs: [
-      { label: "年平均温度", value: "16.2°C", note: "示意基准期 1995–2014" },
-      { label: "相对湿度", value: "72%", note: "示意年均值" },
-      { label: "TXx", value: "38.0°C", note: "示意年最高日温" },
-    ],
-    stressControls: [
-      { label: "温度额外偏移", unit: "°C", min: -1, max: 4, step: 0.5, weight: 0.12 },
-      { label: "相对湿度偏移", unit: "百分点", min: -10, max: 15, step: 1, weight: 0.01 },
-    ],
-    chain: ["高温日数增加", "冷却与劳动效率下降", "能耗及运营成本上升", "利润率与估值假设变化"],
-    accounting: [
-      { title: "现金流假设", detail: "能源成本、产能利用率和劳动效率进入预测。" },
-      { title: "资产寿命", detail: "设备老化速度可能影响使用寿命和残值。" },
-    ],
-    valuation: [
-      { label: "能耗", value: -2.3 },
-      { label: "效率", value: -2.1 },
-      { label: "维护", value: -1.4 },
-      { label: "冷却改造", value: 1.3 },
-    ],
-  },
-  sea: {
-    label: "海平面",
-    icon: Waves,
-    color: "var(--color-brand)",
-    soft: "var(--color-brand-soft)",
-    source: "IPCC AR6 区域海平面投影",
-    base: 0.27,
-    unit: "米",
-    metric: "区域海平面变化",
-    range: [0.72, 1.31],
-    baselineInputs: [
-      { label: "项目地表高程", value: "4.0 m", note: "示意资产参数" },
-      { label: "区域潮差", value: "2.6 m", note: "示意历史统计" },
-      { label: "防洪标准", value: "1/100 年", note: "示意工程参数" },
-    ],
-    stressControls: [
-      { label: "海平面额外偏移", unit: "cm", min: -10, max: 50, step: 5, weight: 0.01 },
-      { label: "风暴潮额外偏移", unit: "cm", min: -20, max: 80, step: 10, weight: 0.006 },
-    ],
-    chain: ["平均海平面上升", "风暴潮暴露增加", "防洪与保险要求提高", "残值及资本支出变化"],
-    accounting: [
-      { title: "公允价值", detail: "位置风险、防护能力和可保险性可能进入市场定价。" },
-      { title: "残值与寿命", detail: "长期可使用性可能改变残值及折旧估计。" },
-    ],
-    valuation: [
-      { label: "位置折价", value: -3.1 },
-      { label: "保险", value: -1.9 },
-      { label: "防洪投资", value: -2.2 },
-      { label: "韧性提升", value: 1.8 },
-    ],
-  },
-  carbon: {
-    label: "碳价",
-    icon: Flame,
-    color: "var(--color-warn)",
-    soft: "var(--color-warn-soft)",
-    source: "NGFS 转型情景 · 示意映射",
-    base: 38,
-    unit: "%",
-    metric: "碳成本敏感度变化",
-    range: [0.7, 1.36],
-    baselineInputs: [
-      { label: "范围 1+2 排放", value: "18 万 tCO₂e", note: "示意年度排放" },
-      { label: "有效碳成本", value: "€65/t", note: "示意基准价格" },
-      { label: "免费配额覆盖", value: "60%", note: "示意政策参数" },
-    ],
-    stressControls: [
-      { label: "碳价偏移", unit: "%", min: -30, max: 80, step: 10, weight: 0.01 },
-      { label: "免费配额减少", unit: "%", min: 0, max: 60, step: 10, weight: 0.012 },
-    ],
-    chain: ["碳价与监管收紧", "能源和原料成本上升", "产品利润率重新分配", "现金流及高碳资产价值变化"],
-    accounting: [
-      { title: "公允价值", detail: "市场参与者可能纳入未来碳成本与转型资本开支。" },
-      { title: "预计负债", detail: "法定义务或合同承诺可能产生计量和披露影响。" },
-    ],
-    valuation: [
-      { label: "碳成本", value: -4.2 },
-      { label: "能源", value: -2.4 },
-      { label: "需求变化", value: -1.7 },
-      { label: "低碳溢价", value: 2.6 },
-    ],
-  },
-  technology: {
-    label: "技术替代",
-    icon: Factory,
-    color: "var(--color-violet-note)",
-    soft: "var(--color-violet-soft)",
-    source: "NGFS / IEA 公开情景叙事 · 示意映射",
-    base: 31,
-    unit: "%",
-    metric: "既有技术承压程度",
-    range: [0.68, 1.4],
-    baselineInputs: [
-      { label: "既有技术资产占比", value: "70%", note: "示意资产结构" },
-      { label: "剩余经济寿命", value: "12 年", note: "示意会计估计" },
-      { label: "低碳产品收入占比", value: "18%", note: "示意产品结构" },
-    ],
-    stressControls: [
-      { label: "替代技术成本下降", unit: "%", min: 0, max: 60, step: 10, weight: 0.009 },
-      { label: "既有产品需求下降", unit: "%", min: 0, max: 50, step: 5, weight: 0.012 },
-    ],
-    chain: ["低碳技术成本下降", "既有产能竞争力减弱", "改造与替换提前", "使用寿命和残值重估"],
-    accounting: [
-      { title: "IAS 36 减值", detail: "技术淘汰可能压缩现金流并触发减值迹象。" },
-      { title: "公允价值", detail: "市场参与者可能采用更短经济寿命和更低残值。" },
-    ],
-    valuation: [
-      { label: "需求迁移", value: -3.2 },
-      { label: "改造资本", value: -2.8 },
-      { label: "残值", value: -1.5 },
-      { label: "新产品", value: 2.9 },
-    ],
-  },
-};
-
-function formatMetric(value: number, unit: string): string {
-  if (unit === "米") return `+${value.toFixed(2)} ${unit}`;
-  return `+${Math.round(value)}${unit}`;
-}
-
-function projectPoint(latitude: number, longitude: number) {
-  return {
-    x: ((longitude + 180) / 360) * 1010,
-    y: ((90 - latitude) / 180) * 666,
-  };
-}
-
-function clamp(value: number, min: number, max: number) {
-  return Math.min(max, Math.max(min, value));
+function NumberField({ label, value, onChange, max = 1e9, min = 0 }: { label: string; value: number; onChange: (value: number) => void; max?: number; min?: number }) {
+  return <label className="block text-xs text-ink-soft">{label}<input type="number" min={min} max={max} step="any" value={value} onChange={(event) => { const next = Number(event.target.value); if (Number.isFinite(next)) onChange(Math.min(max, Math.max(min, next))); }} className={inputClass} /></label>;
 }
 
 export default function ClimateRiskLab({ cases = [] }: { cases?: ClimateRiskCase[] }) {
-  const [project, setProject] = useState(DEFAULT_PROJECT);
-  const [riskKey, setRiskKey] = useState<RiskKey>("rain");
-  const [physicalScenarioKey, setPhysicalScenarioKey] = useState<PhysicalScenarioKey>("ssp245");
-  const [transitionScenarioKey, setTransitionScenarioKey] = useState<TransitionScenarioKey>("delayed");
-  const [horizon, setHorizon] = useState<HorizonKey>("2050");
-  const [showSettings, setShowSettings] = useState(false);
-  const [exposure, setExposure] = useState(75);
-  const [vulnerability, setVulnerability] = useState(60);
-  const [protection, setProtection] = useState(25);
-  const [stressAdjustments, setStressAdjustments] = useState<Record<RiskKey, [number, number]>>({
-    rain: [0, 0],
-    heat: [0, 0],
-    sea: [0, 0],
-    carbon: [0, 0],
-    technology: [0, 0],
-  });
-  const [caseSort, setCaseSort] = useState<ClimateCaseSort>("relevance");
-
+  const [family, setFamily] = useState<ScenarioFamily>("ipcc");
+  const [selected, setSelected] = useState({ ipcc: "ssp245", iea: "steps", ngfs: "delayed" });
+  const [riskKey, setRiskKey] = useState<ClimateCaseRisk>("rain");
+  const [windows, setWindows] = useState({ ipcc: "2041–2060", iea: "2050", ngfs: "2050" });
+  const [project, setProject] = useState({ latitude: 31.23, longitude: 121.47, workers: 100 });
+  const [operations, setOperations] = useState(DEFAULT_OPERATIONS);
+  const [carbon, setCarbon] = useState(DEFAULT_CARBON);
+  const [sort, setSort] = useState<ClimateCaseSort>("relevance");
+  const [kind, setKind] = useState("all");
+  const catalog = SCENARIO_CATALOG[family];
+  const scenario = catalog.scenarios.find((item) => item.id === selected[family]) ?? catalog.scenarios[0];
   const risk = RISKS[riskKey];
-  const isTransitionRisk = riskKey === "carbon" || riskKey === "technology";
-  const scenario = isTransitionRisk
-    ? TRANSITION_SCENARIOS[transitionScenarioKey]
-    : PHYSICAL_SCENARIOS[physicalScenarioKey];
-  const horizonFactor = horizon === "2050" ? 1 : 0.58;
-  const stressOffset = risk.stressControls.reduce(
-    (sum, control, index) => sum + stressAdjustments[riskKey][index] * control.weight,
-    0,
-  );
-  const stressFactor = clamp(1 + stressOffset, 0.35, 2.5);
-  const hazardIndex = scenario.factor * horizonFactor * stressFactor;
-  const operatingImpact = hazardIndex * (exposure / 100) * (vulnerability / 100) * (1 - protection / 100);
-  const metricValue = risk.base * hazardIndex;
-  const low = metricValue * risk.range[0];
-  const high = metricValue * risk.range[1];
-  const point = projectPoint(project.latitude, project.longitude);
-  const fieldRadius = clamp(58 + project.radiusKm * 1.6, 66, 190);
-  const valuation = useMemo(() => {
-    const effects = risk.valuation.map((item) => ({ ...item, adjusted: item.value * operatingImpact }));
-    const total = effects.reduce((sum, item) => sum + item.adjusted, 100);
-    return { effects, total };
-  }, [risk, operatingImpact]);
-  const relevantCases = useMemo(() => {
-    return sortClimateRiskCases(cases, riskKey, caseSort).slice(0, 4);
-  }, [caseSort, cases, riskKey]);
-  const SelectedIcon = risk.icon;
+  const physical = family === "ipcc";
+  const horizon = windows[family];
+  const availableWindows = physical ? ["2021–2040", "2041–2060", "2081–2100"] : ["2030", "2050"];
+  const result = calculateOperations(operations);
+  const carbonResult = calculateCarbon(carbon.emissions, carbon.freeCoverage, carbon.basePrice, carbon.stressPrice);
+  const matching = sortClimateRiskCases(cases, riskKey, sort).filter((item) => kind === "all" || (item.kind ?? "impact") === kind);
 
-  function updateStress(index: number, value: number) {
-    setStressAdjustments((current) => ({
-      ...current,
-      [riskKey]: current[riskKey].map((item, itemIndex) => (itemIndex === index ? value : item)) as [number, number],
-    }));
+  function changeFamily(next: ScenarioFamily) {
+    setFamily(next);
+    if (next === "ipcc" && !PHYSICAL.includes(riskKey)) setRiskKey("rain");
+    if (next !== "ipcc" && !TRANSITION.includes(riskKey)) setRiskKey("carbon");
   }
 
-  function resetAssumptions() {
-    setExposure(75);
-    setVulnerability(60);
-    setProtection(25);
-    setStressAdjustments((current) => ({ ...current, [riskKey]: [0, 0] }));
-  }
+  return <section aria-labelledby="climate-lab-title" className="overflow-hidden rounded-xl border border-line bg-surface">
+    <header className="border-b border-line p-5 sm:p-6">
+      <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-deep"><FlaskConical size={15} />条件压力测试 · 研究原型</span>
+      <h2 id="climate-lab-title" className="mt-2 text-xl font-semibold text-ink sm:text-2xl">气候风险如何进入财务报表？</h2>
+      <p className="mt-2 text-sm leading-relaxed text-ink-soft">选一个情景，检查项目的经营条件，再沿着影响链理解财务后果。</p>
+      <div className="mt-5 grid gap-4 sm:grid-cols-3">
+        <fieldset><legend className="mb-1 text-xs text-ink-faint">1 · 选择情景体系</legend><div className="flex gap-1 rounded-md bg-paper p-1">
+          {(Object.keys(SCENARIO_CATALOG) as ScenarioFamily[]).map((key) => <button key={key} type="button" aria-pressed={family === key} onClick={() => changeFamily(key)} className={`flex-1 rounded px-3 py-2 text-xs font-semibold focus-visible:outline-2 focus-visible:outline-brand ${family === key ? "bg-brand text-surface" : "text-ink-soft hover:bg-brand-soft"}`}>{SCENARIO_CATALOG[key].name}</button>)}
+        </div></fieldset>
+        <label className="text-xs text-ink-faint">2 · 选择路径<select value={scenario.id} onChange={(event) => setSelected((current) => ({ ...current, [family]: event.target.value }))} className={inputClass}>{catalog.scenarios.map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label>
+        <label className="text-xs text-ink-faint">3 · 观察时间{physical ? "窗" : "点"}<select value={horizon} onChange={(event) => setWindows((current) => ({ ...current, [family]: event.target.value }))} className={inputClass}>{availableWindows.map((value) => <option key={value}>{value}</option>)}</select></label>
+      </div>
+      <div className="mt-4 rounded-lg bg-brand-soft p-3 text-xs leading-relaxed text-ink-soft" aria-live="polite"><strong className="text-brand-deep">{catalog.version} · {catalog.scope}：</strong>{scenario.description}<p className="mt-1">{catalog.note}</p></div>
+    </header>
 
-  return (
-    <section aria-labelledby="climate-lab-title" className="overflow-hidden rounded-xl border border-line bg-surface">
-      <header className="border-b border-line px-4 py-5 sm:px-6">
-        <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-          <div className="max-w-2xl">
-            <div className="mb-2 flex flex-wrap items-center gap-2">
-              <span className="rounded-full bg-brand-soft px-2.5 py-1 text-[10px] font-semibold tracking-wide text-brand-deep">交互原型</span>
-              <span className="text-[11px] text-ink-faint">示意数据 · 不构成预测或估值结论</span>
-            </div>
-            <h2 id="climate-lab-title" className="text-xl font-semibold tracking-tight text-ink sm:text-2xl">气候风险如何进入财务报表？</h2>
-            <p className="mt-2 text-[13px] leading-relaxed text-ink-soft">定位项目、调整可审计假设，并查看从危险度、暴露和脆弱度到会计计量的完整推导。</p>
-          </div>
-          <button
-            type="button"
-            onClick={() => setShowSettings((value) => !value)}
-            aria-expanded={showSettings}
-            className="inline-flex w-fit items-center gap-2 rounded-md border border-line bg-paper px-3 py-2 text-[12px] font-medium text-ink-soft transition-colors hover:border-brand-line hover:text-brand-deep focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
-          >
-            模型与假设 · {scenario.short} · {horizon}
-            <ChevronDown size={14} className={`transition-transform ${showSettings ? "rotate-180" : ""}`} />
-          </button>
+    <div className="grid lg:grid-cols-[1.15fr_1fr]">
+      <div className="min-w-0 border-b border-line p-5 sm:p-6 lg:border-b-0 lg:border-r">
+        <div className="flex flex-wrap gap-2" aria-label="选择风险">
+          {(physical ? PHYSICAL : TRANSITION).map((key) => <button type="button" key={key} aria-pressed={riskKey === key} onClick={() => setRiskKey(key)} className={`rounded-full border px-3 py-2 text-xs focus-visible:outline-2 focus-visible:outline-brand ${riskKey === key ? "border-brand bg-brand text-surface" : "border-line text-ink-soft hover:border-brand"}`}>{RISKS[key].label}</button>)}
         </div>
-
-        {showSettings ? (
-          <div className="mt-4 space-y-5 border-t border-line pt-4">
-            <div className="grid gap-4 sm:grid-cols-2">
-            <fieldset>
-              <legend className="mb-2 text-[10px] font-semibold uppercase tracking-[0.12em] text-ink-faint">{isTransitionRisk ? "NGFS 转型情景" : "物理情景"}</legend>
-              <div className="flex flex-wrap gap-2">
-                {isTransitionRisk
-                  ? (Object.entries(TRANSITION_SCENARIOS) as Array<[TransitionScenarioKey, (typeof TRANSITION_SCENARIOS)[TransitionScenarioKey]]>).map(([key, item]) => (
-                    <button key={key} type="button" onClick={() => setTransitionScenarioKey(key)}
-                      className={`rounded-md border px-3 py-2 text-left transition-colors ${transitionScenarioKey === key ? "border-brand bg-brand text-surface" : "border-line bg-surface text-ink-soft hover:border-brand-line"}`}>
-                      <span className="block text-[11px] font-semibold">{item.short}</span>
-                      <span className="block text-[10px] opacity-75">{item.label}</span>
-                    </button>
-                  ))
-                  : (Object.entries(PHYSICAL_SCENARIOS) as Array<[PhysicalScenarioKey, (typeof PHYSICAL_SCENARIOS)[PhysicalScenarioKey]]>).map(([key, item]) => (
-                    <button key={key} type="button" onClick={() => setPhysicalScenarioKey(key)}
-                      className={`rounded-md border px-3 py-2 text-left transition-colors ${physicalScenarioKey === key ? "border-brand bg-brand text-surface" : "border-line bg-surface text-ink-soft hover:border-brand-line"}`}>
-                      <span className="block text-[11px] font-semibold">{item.short}</span>
-                      <span className="block text-[10px] opacity-75">{item.label}</span>
-                    </button>
-                  ))}
-              </div>
-            </fieldset>
-            <fieldset>
-              <legend className="mb-2 text-[10px] font-semibold uppercase tracking-[0.12em] text-ink-faint">观察时间</legend>
-              <div className="flex gap-2">
-                {(["2030", "2050"] as HorizonKey[]).map((value) => (
-                  <button key={value} type="button" onClick={() => setHorizon(value)}
-                    className={`rounded-md border px-4 py-2 text-[12px] font-semibold transition-colors ${horizon === value ? "border-brand bg-brand text-surface" : "border-line bg-surface text-ink-soft hover:border-brand-line"}`}>
-                    {value} 年
-                  </button>
-                ))}
-              </div>
-            </fieldset>
-            </div>
-            <div className="grid gap-4 lg:grid-cols-[1fr_1fr_auto]">
-              <fieldset>
-                <legend className="mb-2 text-[10px] font-semibold uppercase tracking-[0.12em] text-ink-faint">气候压力测试假设</legend>
-                <div className="space-y-3 rounded-lg border border-line bg-paper p-3">
-                  {risk.stressControls.map((control, index) => (
-                    <label key={control.label} className="block">
-                      <span className="mb-1.5 flex items-center justify-between gap-3 text-[10px] text-ink-soft">
-                        <span>{control.label}</span>
-                        <strong className="font-mono text-ink">{stressAdjustments[riskKey][index] > 0 ? "+" : ""}{stressAdjustments[riskKey][index]} {control.unit}</strong>
-                      </span>
-                      <input type="range" min={control.min} max={control.max} step={control.step} value={stressAdjustments[riskKey][index]}
-                        onChange={(event) => updateStress(index, Number(event.target.value))} className="w-full accent-[var(--color-brand)]" />
-                    </label>
-                  ))}
-                </div>
-              </fieldset>
-              <fieldset>
-                <legend className="mb-2 text-[10px] font-semibold uppercase tracking-[0.12em] text-ink-faint">资产参数</legend>
-                <div className="space-y-3 rounded-lg border border-line bg-paper p-3">
-                  {[
-                    { label: "暴露比例", value: exposure, setter: setExposure },
-                    { label: "脆弱度", value: vulnerability, setter: setVulnerability },
-                    { label: "防护能力", value: protection, setter: setProtection },
-                  ].map((control) => (
-                    <label key={control.label} className="block">
-                      <span className="mb-1.5 flex items-center justify-between text-[10px] text-ink-soft"><span>{control.label}</span><strong className="font-mono text-ink">{control.value}%</strong></span>
-                      <input type="range" min="0" max="100" step="5" value={control.value} onChange={(event) => control.setter(Number(event.target.value))} className="w-full accent-[var(--color-brand)]" />
-                    </label>
-                  ))}
-                </div>
-              </fieldset>
-              <button type="button" onClick={resetAssumptions} className="inline-flex h-fit items-center justify-center gap-1.5 self-end rounded-md border border-line px-3 py-2 text-[10px] font-medium text-ink-soft hover:border-brand-line hover:text-brand-deep">
-                <RotateCcw size={12} />重置假设
-              </button>
-            </div>
-            <div className="rounded-lg bg-brand-soft px-3 py-3 text-[10.5px] leading-relaxed text-ink-soft">
-              <strong className="text-brand-deep">透明公式：</strong> 危险度指数 = 情景因子 × 时间因子 × 压力测试偏移；经营冲击 = 危险度指数 × 暴露比例 × 脆弱度 ×（1 − 防护能力）。气候偏移是用户压力测试假设，不会改写来源数据。
-            </div>
-          </div>
-        ) : null}
-      </header>
-
-      <div className="border-b border-line px-4 py-4 sm:px-6">
-        <div className="mb-2 flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.12em] text-ink-faint"><Factory size={13} />虚拟项目定位</div>
-        <div className="grid gap-3 rounded-lg border border-line bg-paper p-3 sm:grid-cols-[1fr_1fr_1.4fr]">
-          <label className="block">
-            <span className="mb-1 block text-[10px] text-ink-faint">纬度</span>
-            <input type="number" min="-60" max="90" step="0.01" value={project.latitude}
-              onChange={(event) => setProject((current) => ({ ...current, latitude: clamp(Number(event.target.value), -60, 90) }))}
-              className="w-full rounded-md border border-line bg-surface px-2.5 py-2 font-mono text-[11px] text-ink outline-none focus:border-brand" />
-          </label>
-          <label className="block">
-            <span className="mb-1 block text-[10px] text-ink-faint">经度</span>
-            <input type="number" min="-180" max="180" step="0.01" value={project.longitude}
-              onChange={(event) => setProject((current) => ({ ...current, longitude: clamp(Number(event.target.value), -180, 180) }))}
-              className="w-full rounded-md border border-line bg-surface px-2.5 py-2 font-mono text-[11px] text-ink outline-none focus:border-brand" />
-          </label>
-          <label className="block">
-            <span className="mb-1 flex items-center justify-between text-[10px] text-ink-faint"><span>分析半径</span><strong className="font-mono text-ink">{project.radiusKm} km</strong></span>
-            <input type="range" min="5" max="100" step="5" value={project.radiusKm}
-              onChange={(event) => setProject((current) => ({ ...current, radiusKm: Number(event.target.value) }))}
-              className="mt-2 w-full accent-[var(--color-brand)]" />
-          </label>
+        <div className="mt-5 rounded-lg border border-dashed border-line bg-paper p-4">
+          <div className="flex items-center gap-2 text-sm font-semibold text-ink">{physical ? <CloudRain size={18} /> : <Flame size={18} />}{risk.label} · {horizon}</div>
+          <p className="mt-2 text-xs leading-relaxed text-ink-soft">{risk.conditions}</p>
+          <p className="mt-3 text-xs font-medium text-warn">{physical ? "当地气候投影：待接入。当前坐标只定义分析对象，未生成当地危险度或空间风险图。" : "定量情景路径：待接入。以下价格与经营参数由用户设定，切换路径不会自动生成机构预测值。"}</p>
         </div>
-        <p className="mt-2 text-[10px] leading-relaxed text-ink-faint">可直接输入坐标或点击地图移动项目点。首期使用点位加分析半径；任意厂界绘制需完成栅格相交、面积加权和数据许可后再接入。</p>
+        <details className="mt-4 rounded-lg border border-line p-3">
+          <summary className="cursor-pointer text-xs font-semibold text-ink">项目现状与环境条件</summary>
+          <div className="mt-3 grid grid-cols-2 gap-3"><NumberField label="纬度" min={-90} max={90} value={project.latitude} onChange={(value) => setProject({ ...project, latitude: value })} /><NumberField label="经度" min={-180} max={180} value={project.longitude} onChange={(value) => setProject({ ...project, longitude: value })} /></div>
+          <div className="mt-3"><NumberField label="现场员工人数（人）" value={project.workers} max={1000000} onChange={(value) => setProject({ ...project, workers: value })} /></div>
+          <p className="mt-2 text-xs leading-relaxed text-ink-faint">人数作为人员暴露背景记录，尚不换算伤害或货币损失。当地环境数据缺失时保持空缺。</p>
+        </details>
+
+        <h3 className="mt-6 text-sm font-semibold text-ink">{riskKey === "carbon" ? "调整碳成本假设" : "调整经营假设"}</h3>
+        <p className="mt-1 text-xs text-ink-faint">默认值均为教学假设，可直接修改；所有金额使用同一货币口径。</p>
+        {riskKey === "carbon" ? <div className="mt-3 grid grid-cols-2 gap-3">
+          <NumberField label="履约覆盖排放（tCO₂e/年）" value={carbon.emissions} max={1e12} onChange={(value) => setCarbon({ ...carbon, emissions: value })} />
+          <NumberField label="有效免费配额覆盖（%）" value={carbon.freeCoverage} max={100} onChange={(value) => setCarbon({ ...carbon, freeCoverage: value })} />
+          <NumberField label="基准碳价（元/tCO₂e）" value={carbon.basePrice} max={1e6} onChange={(value) => setCarbon({ ...carbon, basePrice: value })} />
+          <NumberField label="压力碳价（元/tCO₂e）" value={carbon.stressPrice} max={1e6} onChange={(value) => setCarbon({ ...carbon, stressPrice: value })} />
+        </div> : <div className="mt-3 space-y-4">
+          <label className="block text-xs text-ink-soft">假设停工天数：<strong>{operations.downtimeDays} 天</strong><input aria-label="假设停工天数" type="range" min="0" max="60" value={operations.downtimeDays} onChange={(event) => setOperations({ ...operations, downtimeDays: Number(event.target.value), protectedDays: Math.min(operations.protectedDays, Number(event.target.value)) })} className="mt-2 w-full accent-[var(--color-brand)]" /></label>
+          <NumberField label="每日贡献毛利（万元/天）" value={operations.dailyMargin} onChange={(value) => setOperations({ ...operations, dailyMargin: value })} />
+          <details><summary className="cursor-pointer text-xs font-medium text-brand-deep">比较适应措施与修复成本</summary><div className="mt-3 grid grid-cols-2 gap-3">
+            <NumberField label="假设减少停工（天）" max={operations.downtimeDays} value={operations.protectedDays} onChange={(value) => setOperations({ ...operations, protectedDays: value })} />
+            <NumberField label="修复支出（万元）" value={operations.repairCost} onChange={(value) => setOperations({ ...operations, repairCost: value })} />
+            <NumberField label="适应投入（万元）" value={operations.adaptationCost} onChange={(value) => setOperations({ ...operations, adaptationCost: value })} />
+          </div><p className="mt-2 text-xs text-ink-faint">减少停工天数是用户假设，需实施与成效证据支持。未估计修复损失的减少。</p></details>
+        </div>}
+        <button type="button" onClick={() => { setOperations(DEFAULT_OPERATIONS); setCarbon(DEFAULT_CARBON); }} className="mt-4 inline-flex items-center gap-1 text-xs text-brand-deep"><RotateCcw size={12} />恢复经营假设</button>
       </div>
 
-      <div className="grid lg:grid-cols-[minmax(0,1.2fr)_minmax(320px,.8fr)]">
-        <div className="border-b border-line p-4 sm:p-6 lg:border-b-0 lg:border-r">
-          <div className="mb-3 flex flex-wrap gap-2" role="tablist" aria-label="气候风险类型">
-            {(Object.entries(RISKS) as Array<[RiskKey, (typeof RISKS)[RiskKey]]>).map(([key, item]) => {
-              const Icon = item.icon;
-              const active = key === riskKey;
-              return (
-                <button key={key} type="button" role="tab" aria-selected={active} onClick={() => setRiskKey(key)}
-                  className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-[11px] font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand ${active ? "border-transparent text-surface" : "border-line bg-surface text-ink-soft hover:border-brand-line"}`}
-                  style={active ? { backgroundColor: item.color } : undefined}>
-                  <Icon size={13} />{item.label}
-                </button>
-              );
-            })}
-          </div>
-
-          <div className="relative overflow-hidden rounded-lg border border-line bg-paper">
-            <svg viewBox={world.viewBox} className="block h-auto w-full cursor-crosshair" aria-label={`虚拟项目${risk.label}空间风险示意图`}
-              onClick={(event) => {
-                const rect = event.currentTarget.getBoundingClientRect();
-                const longitude = clamp(((event.clientX - rect.left) / rect.width) * 360 - 180, -180, 180);
-                const latitude = clamp(90 - ((event.clientY - rect.top) / rect.height) * 180, -60, 90);
-                setProject((current) => ({ ...current, latitude: Number(latitude.toFixed(2)), longitude: Number(longitude.toFixed(2)) }));
-              }}>
-              <defs>
-                <radialGradient id="risk-field">
-                  <stop offset="0%" stopColor={risk.color} stopOpacity="0.58" />
-                  <stop offset="38%" stopColor={risk.color} stopOpacity="0.22" />
-                  <stop offset="100%" stopColor={risk.color} stopOpacity="0" />
-                </radialGradient>
-                <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-                  <path d="M 48 0 L 0 0 0 48" fill="none" stroke="var(--color-line-strong)" strokeOpacity="0.45" strokeWidth="0.7" />
-                </pattern>
-              </defs>
-              <rect width="1010" height="666" fill="var(--color-paper)" />
-              {(world.locations as WorldLocation[]).map((item) => (
-                <path key={item.id} d={item.path} fill="var(--color-line)" stroke="var(--color-surface)" strokeWidth="0.7" />
-              ))}
-              <ellipse cx={point.x} cy={point.y} rx={fieldRadius} ry={fieldRadius * 0.7} fill="url(#risk-field)" />
-              <ellipse cx={point.x} cy={point.y} rx={fieldRadius * 0.48} ry={fieldRadius * 0.34} fill="none" stroke={risk.color} strokeOpacity="0.45" strokeWidth="2" strokeDasharray="7 6" />
-              <rect width="1010" height="666" fill="url(#grid)" />
-              <circle cx={point.x} cy={point.y} r="14" fill="var(--color-surface)" stroke={risk.color} strokeWidth="5" />
-              <circle cx={point.x} cy={point.y} r="4" fill={risk.color} />
-            </svg>
-            <div className="absolute left-3 top-3 rounded-md border border-line bg-surface/95 px-3 py-2">
-              <div className="flex items-center gap-1.5 text-[11px] font-semibold text-ink"><MapPin size={12} style={{ color: risk.color }} />虚拟项目</div>
-              <div className="mt-1 font-mono text-[9px] text-ink-faint">{project.latitude.toFixed(2)}, {project.longitude.toFixed(2)} · {project.radiusKm} km</div>
-            </div>
-            <div className="absolute bottom-3 right-3 flex items-center gap-2 rounded-md border border-line bg-surface/95 px-2.5 py-1.5 text-[9px] text-ink-faint">
-              <span className="h-2 w-10 rounded-full" style={{ background: `linear-gradient(90deg, transparent, ${risk.color})` }} />风险变化示意
-            </div>
-          </div>
-
-          <div className="mt-4 grid gap-3 sm:grid-cols-[1fr_auto] sm:items-end">
-            <div>
-              <div className="text-[11px] text-ink-faint">{risk.metric}</div>
-              <div className="mt-1 flex items-end gap-2">
-                <strong className="text-3xl font-semibold tracking-tight text-ink">{formatMetric(metricValue, risk.unit)}</strong>
-                <span className="pb-1 text-[11px] text-ink-faint">区间 {formatMetric(low, risk.unit)} — {formatMetric(high, risk.unit)}</span>
-              </div>
-            </div>
-            <div className="text-left sm:text-right">
-              <div className="text-[10px] font-medium text-ink-soft">{scenario.short} · {horizon}</div>
-              <div className="mt-0.5 text-[9px] text-ink-faint">{risk.source}</div>
-            </div>
-          </div>
-          <div className="mt-4 grid gap-2 sm:grid-cols-3">
-            {risk.baselineInputs.map((input) => (
-              <div key={input.label} className="rounded-md border border-line bg-surface px-3 py-2.5">
-                <div className="text-[9px] text-ink-faint">{input.label}</div>
-                <div className="mt-1 font-mono text-[12px] font-semibold text-ink">{input.value}</div>
-                <div className="mt-0.5 text-[8.5px] text-ink-faint">{input.note}</div>
-              </div>
-            ))}
-          </div>
-          <div className="mt-3 flex flex-wrap items-center justify-between gap-2 rounded-md bg-brand-soft px-3 py-2.5 text-[10px]">
-            <span className="text-ink-soft">危险度指数 <strong className="font-mono text-brand-deep">{hazardIndex.toFixed(2)}</strong> × 资产调整 → 经营冲击系数 <strong className="font-mono text-brand-deep">{operatingImpact.toFixed(2)}</strong></span>
-            <button type="button" onClick={() => setShowSettings(true)} className="font-semibold text-brand-deep hover:underline">查看公式与参数</button>
-          </div>
+      <aside className="min-w-0 p-5 sm:p-6">
+        <h3 className="text-sm font-semibold text-ink">从气候条件到财务影响</h3>
+        <ol className="mt-4 space-y-2">{risk.chain.map((step, index) => <li key={step} className="flex items-center gap-3 rounded-md bg-paper p-3 text-xs text-ink-soft"><span className="font-mono text-brand-deep">{index + 1}</span><span className="flex-1">{step}</span>{index < 3 && <ArrowRight size={13} />}</li>)}</ol>
+        <div className="mt-5 rounded-lg bg-brand-soft p-4" aria-live="polite">
+          <div className="text-xs text-ink-soft">{riskKey === "carbon" ? "用户价格假设下的年度增量碳成本" : "用户停工假设下的单次经营冲击"}</div>
+          <strong className="mt-2 block font-mono text-3xl text-brand-deep">{money(riskKey === "carbon" ? carbonResult.delta / 10000 : result.before)}<span className="ml-1 text-xs">万元</span></strong>
+          {riskKey !== "carbon" && <div className="mt-3 space-y-1 text-xs text-ink-soft"><p>措施后经营冲击：{money(result.after)} 万元</p><p>假设避免的停工损失：{money(result.avoidedInterruption)} 万元</p><p>扣除一次性适应投入后的单次差额：{money(result.firstEventBalance)} 万元</p></div>}
+          <p className="mt-3 text-xs leading-relaxed text-ink-soft">这是条件敏感性计算；没有事件概率，无法计算年均预期损失或项目公允价值。</p>
         </div>
-
-        <aside className="p-4 sm:p-6" aria-live="polite">
-          <div className="mb-5 flex items-start gap-3">
-            <span className="grid h-10 w-10 shrink-0 place-items-center rounded-lg" style={{ backgroundColor: risk.soft, color: risk.color }}><SelectedIcon size={20} /></span>
-            <div>
-              <div className="text-[10px] font-semibold uppercase tracking-[0.12em] text-ink-faint">从风险到报表</div>
-              <h3 className="mt-1 text-[17px] font-semibold text-ink">{risk.label}的影响传导</h3>
-            </div>
+        <details className="mt-3 rounded-lg border border-line p-3"><summary className="cursor-pointer text-xs font-semibold text-ink">查看公式、数据与计算边界</summary>
+          <div className="mt-3 space-y-2 text-xs leading-relaxed text-ink-soft">
+            <p>{riskKey === "carbon" ? "增量成本 = 履约覆盖排放 × (1 − 有效免费配额覆盖比例) × (压力碳价 − 基准碳价)。" : "单次冲击 = 停工天数 × 每日贡献毛利 + 修复支出；避免的停工损失 = 减少停工天数 × 每日贡献毛利；单次差额 = 避免的停工损失 − 适应投入。"}</p>
+            <p>贡献毛利表示收入扣除随产量变化的成本。首期未包含补产、套保、保险、税、折现和供应链间接效应。单次差额不等同于措施全寿命收益。</p>
+            <p>情景来源：{catalog.version}；当前数值来源：用户假设；当地投影、模型区间和损失曲线：尚未接入。IPCC、IEA、NGFS 路径不建立自动一一映射。</p>
+            <a href={catalog.source} target="_blank" rel="noreferrer" className="text-brand-deep underline">查看所选情景的方法依据</a>
           </div>
+        </details>
+        <p className="mt-4 rounded-md border border-line p-3 text-xs leading-relaxed text-ink-soft">{risk.accounting}</p>
+      </aside>
+    </div>
 
-          <ol className="space-y-2">
-            {risk.chain.map((step, index) => (
-              <li key={step} className="flex items-center gap-2.5">
-                <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full border border-line bg-paper font-mono text-[9px] text-ink-faint">{index + 1}</span>
-                <span className="flex-1 text-[12px] font-medium text-ink-soft">{step}</span>
-                {index < risk.chain.length - 1 ? <ArrowRight size={12} className="text-ink-faint" /> : null}
-              </li>
-            ))}
-          </ol>
-
-          <div className="my-5 border-t border-line" />
-
-          <div className="mb-3 flex items-center justify-between gap-3">
-            <h4 className="text-[12px] font-semibold text-ink">价值敏感性桥（示意）</h4>
-            <span className="text-[9px] text-ink-faint">基准价值指数 = 100</span>
-          </div>
-          <div className="space-y-2">
-            {valuation.effects.map((item) => (
-              <div key={item.label} className="grid grid-cols-[62px_1fr_42px] items-center gap-2 text-[10px]">
-                <span className="text-ink-faint">{item.label}</span>
-                <span className="h-1.5 overflow-hidden rounded-full bg-line">
-                  <span className="block h-full rounded-full" style={{ width: `${Math.min(100, Math.abs(item.adjusted) * 14)}%`, backgroundColor: item.adjusted >= 0 ? "var(--color-calm)" : risk.color }} />
-                </span>
-                <span className={`text-right font-mono ${item.adjusted >= 0 ? "text-calm" : "text-risk"}`}>{item.adjusted > 0 ? "+" : ""}{item.adjusted.toFixed(1)}</span>
-              </div>
-            ))}
-          </div>
-          <div className="mt-3 flex items-baseline justify-between rounded-md bg-paper px-3 py-2.5">
-            <span className="text-[11px] font-medium text-ink-soft">敏感性后指数（非估值）</span>
-            <strong className="font-mono text-xl text-ink">{valuation.total.toFixed(1)}</strong>
-          </div>
-
-          <div className="mt-5 space-y-2">
-            {risk.accounting.map((item) => (
-              <div key={item.title} className="rounded-md border border-line px-3 py-2.5">
-                <div className="text-[11px] font-semibold text-ink">{item.title}</div>
-                <p className="mt-1 text-[10.5px] leading-relaxed text-ink-soft">{item.detail}</p>
-              </div>
-            ))}
-          </div>
-
-          {cases.length > 0 ? (
-            <div className="mt-5">
-              <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
-                <div>
-                  <div className="text-[10px] font-semibold uppercase tracking-[0.12em] text-ink-faint">近五年企业风险案例</div>
-                  <div className="mt-0.5 text-[9px] text-ink-faint">公司披露或监管申报 · 不等同于气候归因</div>
-                </div>
-                <div className="flex rounded-md border border-line bg-paper p-0.5" aria-label="案例排序">
-                  {([['relevance', '相关性'], ['impact', '影响'], ['latest', '最新']] as Array<[ClimateCaseSort, string]>).map(([key, label]) => (
-                    <button key={key} type="button" onClick={() => setCaseSort(key)}
-                      className={`rounded px-2 py-1 text-[9px] transition-colors ${caseSort === key ? "bg-surface font-semibold text-brand-deep shadow-sm" : "text-ink-faint hover:text-ink-soft"}`}>
-                      {label}
-                    </button>
-                  ))}
-                </div>
-              </div>
-              {relevantCases.map((item) => (
-                <a key={item.id} href={item.href} target="_blank" rel="noreferrer" className="group mb-2 block rounded-md border border-line bg-surface px-3 py-2.5 last:mb-0 hover:border-brand-line">
-                  <span className="flex items-start justify-between gap-3">
-                  <span className="min-w-0">
-                    <span className="text-[9px] font-semibold text-brand-deep">{item.company} · {item.occurredAt}</span>
-                    <span className="mt-0.5 line-clamp-2 text-[11px] font-medium leading-relaxed text-ink group-hover:text-brand-deep">{item.title}</span>
-                  </span>
-                  <ArrowUpRight size={13} className="mt-0.5 shrink-0 text-brand-deep" />
-                  </span>
-                  <span className="mt-1.5 line-clamp-2 block text-[9.5px] leading-relaxed text-ink-soft">{item.summary}</span>
-                  <span className="mt-2 flex flex-wrap gap-1.5 text-[8.5px] text-ink-faint">
-                    <span className="rounded bg-brand-soft px-1.5 py-0.5 text-brand-deep">{item.impactLabel}</span>
-                    <span className="rounded bg-paper px-1.5 py-0.5">影响等级 {item.impactLevel}/5</span>
-                    <span className="rounded bg-paper px-1.5 py-0.5">{item.evidenceLabel}</span>
-                  </span>
-                </a>
-              ))}
-              {relevantCases.length === 0 ? (
-                <div className="rounded-md border border-dashed border-line px-3 py-3 text-[10px] leading-relaxed text-ink-faint">当前样本库没有与该风险直接匹配、且具备一手证据的企业案例。</div>
-              ) : null}
-            </div>
-          ) : null}
-
-          <div className="mt-5 flex items-start gap-2 rounded-md bg-warn-soft px-3 py-2.5 text-[10px] leading-relaxed text-ink-soft">
-            <Info size={13} className="mt-0.5 shrink-0 text-warn" />
-            原型用于验证交互和解释逻辑。空间数值、价值指数与影响系数均为示意，不构成工程评估、保险定价或法定估值。
-          </div>
-        </aside>
+    <section className="border-t border-line p-5 sm:p-6" aria-labelledby="case-title">
+      <div className="flex flex-wrap items-end justify-between gap-3"><div><h3 id="case-title" className="text-sm font-semibold text-ink">近五年企业影响与应对</h3><p className="mt-1 text-xs text-ink-faint">按事件日期滚动筛选 · 企业披露不等同于气候归因 · 当前为人工核验样本</p></div>
+        <div className="flex flex-wrap gap-2"><label className="text-xs text-ink-soft">类型<select aria-label="案例类型" value={kind} onChange={(event) => setKind(event.target.value)} className={inputClass}><option value="all">全部</option><option value="impact">风险影响</option><option value="adaptation">适应与恢复</option><option value="opportunity">商业机遇</option></select></label>
+        <label className="text-xs text-ink-soft">排序<select aria-label="案例排序" value={sort} onChange={(event) => setSort(event.target.value as ClimateCaseSort)} className={inputClass}><option value="relevance">相关性</option><option value="impact">影响等级</option><option value="latest">最新</option></select></label></div>
       </div>
+      <div className="mt-4 grid gap-3 sm:grid-cols-2">{matching.map((item) => <a key={item.id} href={item.href} target="_blank" rel="noreferrer" className="rounded-lg border border-line p-4 hover:border-brand">
+        <div className="flex items-start justify-between gap-2"><span className="text-xs font-semibold text-brand-deep">{item.company} · {item.occurredAt}</span><ArrowUpRight size={14} className="shrink-0 text-brand-deep" /></div>
+        <h4 className="mt-2 text-sm font-semibold text-ink">{item.title}</h4><p className="mt-2 text-xs leading-relaxed text-ink-soft">{item.summary}</p>
+        <p className="mt-3 text-xs font-medium text-brand-deep">{item.impactLabel}</p><p className="mt-1 text-[10px] leading-relaxed text-ink-faint">{item.sourceName} · {item.evidenceLabel}{item.disclosedAt ? ` · 披露 ${item.disclosedAt}` : ""} · {item.status ?? "企业披露"}</p>
+      </a>)}</div>
+      {matching.length === 0 && <p className="mt-4 rounded-md bg-paper p-4 text-xs text-ink-faint">当前没有符合该风险和类型的已核验案例；保留空缺，等待证据。</p>}
     </section>
-  );
+    <footer className="border-t border-line bg-paper p-4 text-xs leading-relaxed text-ink-faint">研究原型用于理解影响传导。数据接入与方法校准完成前，数值仅来自用户假设；不形成预测、工程评估、保险定价或法定估值。</footer>
+  </section>;
 }
