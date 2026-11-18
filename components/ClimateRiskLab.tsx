@@ -4,6 +4,7 @@ import { useState } from "react";
 import { ArrowRight, ArrowUpRight, CloudRain, Flame, FlaskConical, RotateCcw } from "lucide-react";
 import { SCENARIO_CATALOG, calculateCarbon, calculateOperations, type ScenarioFamily } from "@/lib/climate-lab-model";
 import { sortClimateRiskCases, type ClimateCaseRisk, type ClimateCaseSort, type ClimateRiskCase } from "@/lib/climate-risk-cases";
+import ClimateHeatPanel from "@/components/ClimateHeatPanel";
 
 const RISKS: Record<ClimateCaseRisk, { label: string; conditions: string; chain: string[]; accounting: string }> = {
   rain: { label: "洪水与降雨", conditions: "应读取降雨极值、洪水深度与频率，结合高程、排水和设备离地高度。年均降雨不能直接换算洪水损失。", chain: ["降雨或洪水危险", "设备、道路和供应链暴露", "停工、维修与交付延误", "现金流与减值判断"], accounting: "维修费用、存货损失及减值迹象需结合实际事实判断。公允价值考虑市场参与者对位置与适应支出的假设。" },
@@ -28,7 +29,7 @@ function NumberField({ label, value, onChange, max = 1e9, min = 0 }: { label: st
 export default function ClimateRiskLab({ cases = [] }: { cases?: ClimateRiskCase[] }) {
   const [family, setFamily] = useState<ScenarioFamily>("ipcc");
   const [selected, setSelected] = useState({ ipcc: "ssp245", iea: "steps", ngfs: "delayed" });
-  const [riskKey, setRiskKey] = useState<ClimateCaseRisk>("rain");
+  const [riskKey, setRiskKey] = useState<ClimateCaseRisk>("heat");
   const [windows, setWindows] = useState({ ipcc: "2041–2060", iea: "2050", ngfs: "2050" });
   const [project, setProject] = useState({ latitude: 31.23, longitude: 121.47, workers: 100 });
   const [operations, setOperations] = useState(DEFAULT_OPERATIONS);
@@ -47,7 +48,7 @@ export default function ClimateRiskLab({ cases = [] }: { cases?: ClimateRiskCase
 
   function changeFamily(next: ScenarioFamily) {
     setFamily(next);
-    if (next === "ipcc" && !PHYSICAL.includes(riskKey)) setRiskKey("rain");
+    if (next === "ipcc" && !PHYSICAL.includes(riskKey)) setRiskKey("heat");
     if (next !== "ipcc" && !TRANSITION.includes(riskKey)) setRiskKey("carbon");
   }
 
@@ -86,13 +87,14 @@ export default function ClimateRiskLab({ cases = [] }: { cases?: ClimateRiskCase
         <div className="mt-5 rounded-lg border border-dashed border-line bg-paper p-4">
           <div className="flex items-center gap-2 text-sm font-semibold text-ink">{physical ? <CloudRain size={18} /> : <Flame size={18} />}{risk.label} · {horizon}</div>
           <p className="mt-2 text-xs leading-relaxed text-ink-soft">{risk.conditions}</p>
-          <p className="mt-3 text-xs font-medium text-warn">{physical ? "当地气候投影：待接入。当前坐标只定义分析对象，未生成当地危险度或空间风险图。" : "定量情景路径：待接入。以下价格与经营参数由用户设定，切换路径不会自动生成机构预测值。"}</p>
+          <p className="mt-3 text-xs font-medium text-warn">{physical ? riskKey === "heat" ? "高温数据按所选地点与情景读取；仅覆盖已验证的参考网格和时间窗。" : "该风险的当地投影尚待接入。可选择“高温”查看已验证的NASA参考网格。" : "定量情景路径：待接入。以下价格与经营参数由用户设定，切换路径不会自动生成机构预测值。"}</p>
         </div>
+        {physical && riskKey === "heat" && <ClimateHeatPanel latitude={project.latitude} longitude={project.longitude} scenario={scenario.id} window={horizon} onLocation={(latitude, longitude) => setProject((current) => ({ ...current, latitude, longitude }))} />}
         <details className="mt-4 rounded-lg border border-line p-3">
           <summary className="cursor-pointer text-xs font-semibold text-ink">项目现状与环境条件</summary>
           <div className="mt-3 grid grid-cols-2 gap-3"><NumberField label="纬度" min={-90} max={90} value={project.latitude} onChange={(value) => setProject({ ...project, latitude: value })} /><NumberField label="经度" min={-180} max={180} value={project.longitude} onChange={(value) => setProject({ ...project, longitude: value })} /></div>
           <div className="mt-3"><NumberField label="现场员工人数（人）" value={project.workers} max={1000000} onChange={(value) => setProject({ ...project, workers: value })} /></div>
-          <p className="mt-2 text-xs leading-relaxed text-ink-faint">人数作为人员暴露背景记录，尚不换算伤害或货币损失。当地环境数据缺失时保持空缺。</p>
+          <p className="mt-2 text-xs leading-relaxed text-ink-faint">人数作为人员暴露背景记录，尚不换算伤害或货币损失。高温数据支持已验证参考网格；其他地点保持空缺。</p>
         </details>
 
         <h3 className="mt-6 text-sm font-semibold text-ink">{riskKey === "carbon" ? "调整碳成本假设" : "调整经营假设"}</h3>
@@ -127,7 +129,7 @@ export default function ClimateRiskLab({ cases = [] }: { cases?: ClimateRiskCase
           <div className="mt-3 space-y-2 text-xs leading-relaxed text-ink-soft">
             <p>{riskKey === "carbon" ? "增量成本 = 履约覆盖排放 × (1 − 有效免费配额覆盖比例) × (压力碳价 − 基准碳价)。" : "单次冲击 = 停工天数 × 每日贡献毛利 + 修复支出；避免的停工损失 = 减少停工天数 × 每日贡献毛利；单次差额 = 避免的停工损失 − 适应投入。"}</p>
             <p>贡献毛利表示收入扣除随产量变化的成本。首期未包含补产、套保、保险、税、折现和供应链间接效应。单次差额不等同于措施全寿命收益。</p>
-            <p>情景来源：{catalog.version}；当前数值来源：用户假设；当地投影、模型区间和损失曲线：尚未接入。IPCC、IEA、NGFS 路径不建立自动一一映射。</p>
+            <p>情景来源：{catalog.version}；经营金额来自用户假设。高温投影仅覆盖NASA已验证参考网格；模型集合区间和损失曲线尚未接入。IPCC、IEA、NGFS 路径不建立自动一一映射。</p>
             <a href={catalog.source} target="_blank" rel="noreferrer" className="text-brand-deep underline">查看所选情景的方法依据</a>
           </div>
         </details>
@@ -147,6 +149,6 @@ export default function ClimateRiskLab({ cases = [] }: { cases?: ClimateRiskCase
       </a>)}</div>
       {matching.length === 0 && <p className="mt-4 rounded-md bg-paper p-4 text-xs text-ink-faint">当前没有符合该风险和类型的已核验案例；保留空缺，等待证据。</p>}
     </section>
-    <footer className="border-t border-line bg-paper p-4 text-xs leading-relaxed text-ink-faint">研究原型用于理解影响传导。数据接入与方法校准完成前，数值仅来自用户假设；不形成预测、工程评估、保险定价或法定估值。</footer>
+    <footer className="border-t border-line bg-paper p-4 text-xs leading-relaxed text-ink-faint">研究原型用于理解影响传导。气候指标来自标注数据源，经营金额来自用户假设；不形成厂址损失预测、工程评估、保险定价或法定估值。</footer>
   </section>;
 }

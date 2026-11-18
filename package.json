@@ -14,6 +14,8 @@
     "pipeline": "tsx scripts/pipeline/run.ts",
     "source:health": "tsx scripts/check-source-health.ts",
     "source:check": "tsx scripts/check-source-once.ts",
+    "climate:collect": "tsx scripts/climate/collect-heat.ts",
+    "climate:verify": "tsx scripts/climate/verify-heat.ts",
     "page:inspect": "tsx scripts/inspect-page.ts",
     "backfill:zh": "tsx scripts/backfill-zh.ts",
     "enrich:leads": "tsx scripts/enrich-leads.ts",

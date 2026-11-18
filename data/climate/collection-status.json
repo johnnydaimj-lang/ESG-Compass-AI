@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-11-18T13:42:10.830Z",
+  "mode": "cache-only",
+  "state": "partial",
+  "expectedWindows": 6,
+  "availableWindows": 2,
+  "validatedFiles": 81,
+  "upstreamPaused": false,
+  "missingWindows": [
+    "shanghai|ssp585",
+    "rotterdam|ssp126",
+    "rotterdam|ssp245",
+    "rotterdam|ssp585"
+  ]
+}

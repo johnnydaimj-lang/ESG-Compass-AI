@@ -1,0 +1,607 @@
+{
+  "schemaVersion": 1,
+  "provenance": {
+    "dataset": "NASA NEX-GDDP-CMIP6",
+    "version": "v2.0",
+    "model": "ACCESS-CM2",
+    "member": "r1i1p1f1",
+    "variable": "tasmax",
+    "resolution": "0.25° × 0.25°",
+    "thresholdC": 35,
+    "baseline": [
+      1995,
+      2014
+    ],
+    "future": [
+      2041,
+      2060
+    ],
+    "sourceUrl": "https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/",
+    "license": "CC0",
+    "licenseUrl": "https://registry.opendata.aws/nex-gddp-cmip6/"
+  },
+  "records": [
+    {
+      "locationId": "shanghai",
+      "latitude": 31.23,
+      "longitude": 121.47,
+      "scenario": "ssp126",
+      "baseline": [
+        {
+          "year": 1995,
+          "days": 365,
+          "hotDays": 0,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 1996,
+          "days": 366,
+          "hotDays": 0,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 1997,
+          "days": 365,
+          "hotDays": 3,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 1998,
+          "days": 365,
+          "hotDays": 3,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 1999,
+          "days": 365,
+          "hotDays": 0,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2000,
+          "days": 366,
+          "hotDays": 3,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2001,
+          "days": 365,
+          "hotDays": 11,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2002,
+          "days": 365,
+          "hotDays": 0,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2003,
+          "days": 365,
+          "hotDays": 3,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2004,
+          "days": 366,
+          "hotDays": 4,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2005,
+          "days": 365,
+          "hotDays": 0,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2006,
+          "days": 365,
+          "hotDays": 1,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2007,
+          "days": 365,
+          "hotDays": 0,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2008,
+          "days": 366,
+          "hotDays": 3,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2009,
+          "days": 365,
+          "hotDays": 9,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2010,
+          "days": 365,
+          "hotDays": 3,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2011,
+          "days": 365,
+          "hotDays": 1,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2012,
+          "days": 366,
+          "hotDays": 3,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2013,
+          "days": 365,
+          "hotDays": 2,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2014,
+          "days": 365,
+          "hotDays": 1,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        }
+      ],
+      "future": [
+        {
+          "year": 2041,
+          "days": 365,
+          "hotDays": 11,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2042,
+          "days": 365,
+          "hotDays": 28,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2043,
+          "days": 365,
+          "hotDays": 19,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2044,
+          "days": 366,
+          "hotDays": 30,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2045,
+          "days": 365,
+          "hotDays": 26,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2046,
+          "days": 365,
+          "hotDays": 14,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2047,
+          "days": 365,
+          "hotDays": 15,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2048,
+          "days": 366,
+          "hotDays": 19,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2049,
+          "days": 365,
+          "hotDays": 29,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2050,
+          "days": 365,
+          "hotDays": 23,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2051,
+          "days": 365,
+          "hotDays": 7,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2052,
+          "days": 366,
+          "hotDays": 39,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2053,
+          "days": 365,
+          "hotDays": 22,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2054,
+          "days": 365,
+          "hotDays": 18,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2055,
+          "days": 365,
+          "hotDays": 20,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2056,
+          "days": 366,
+          "hotDays": 25,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2057,
+          "days": 365,
+          "hotDays": 18,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2058,
+          "days": 365,
+          "hotDays": 29,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2059,
+          "days": 365,
+          "hotDays": 12,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2060,
+          "days": 366,
+          "hotDays": 23,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        }
+      ],
+      "fetchedAt": "2026-11-18T13:33:41.895Z"
+    },
+    {
+      "locationId": "shanghai",
+      "latitude": 31.23,
+      "longitude": 121.47,
+      "scenario": "ssp245",
+      "baseline": [
+        {
+          "year": 1995,
+          "days": 365,
+          "hotDays": 0,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 1996,
+          "days": 366,
+          "hotDays": 0,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 1997,
+          "days": 365,
+          "hotDays": 3,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 1998,
+          "days": 365,
+          "hotDays": 3,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 1999,
+          "days": 365,
+          "hotDays": 0,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2000,
+          "days": 366,
+          "hotDays": 3,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2001,
+          "days": 365,
+          "hotDays": 11,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2002,
+          "days": 365,
+          "hotDays": 0,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2003,
+          "days": 365,
+          "hotDays": 3,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2004,
+          "days": 366,
+          "hotDays": 4,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2005,
+          "days": 365,
+          "hotDays": 0,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2006,
+          "days": 365,
+          "hotDays": 1,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2007,
+          "days": 365,
+          "hotDays": 0,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2008,
+          "days": 366,
+          "hotDays": 3,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2009,
+          "days": 365,
+          "hotDays": 9,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2010,
+          "days": 365,
+          "hotDays": 3,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2011,
+          "days": 365,
+          "hotDays": 1,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2012,
+          "days": 366,
+          "hotDays": 3,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2013,
+          "days": 365,
+          "hotDays": 2,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2014,
+          "days": 365,
+          "hotDays": 1,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        }
+      ],
+      "future": [
+        {
+          "year": 2041,
+          "days": 365,
+          "hotDays": 34,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2042,
+          "days": 365,
+          "hotDays": 15,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2043,
+          "days": 365,
+          "hotDays": 49,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2044,
+          "days": 366,
+          "hotDays": 20,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2045,
+          "days": 365,
+          "hotDays": 22,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2046,
+          "days": 365,
+          "hotDays": 13,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2047,
+          "days": 365,
+          "hotDays": 11,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2048,
+          "days": 366,
+          "hotDays": 39,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2049,
+          "days": 365,
+          "hotDays": 15,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2050,
+          "days": 365,
+          "hotDays": 23,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2051,
+          "days": 365,
+          "hotDays": 38,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2052,
+          "days": 366,
+          "hotDays": 32,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2053,
+          "days": 365,
+          "hotDays": 32,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2054,
+          "days": 365,
+          "hotDays": 29,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2055,
+          "days": 365,
+          "hotDays": 25,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2056,
+          "days": 366,
+          "hotDays": 45,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2057,
+          "days": 365,
+          "hotDays": 23,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2058,
+          "days": 365,
+          "hotDays": 24,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2059,
+          "days": 365,
+          "hotDays": 42,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        },
+        {
+          "year": 2060,
+          "days": 366,
+          "hotDays": 29,
+          "gridLatitude": 31.125,
+          "gridLongitude": 121.375
+        }
+      ],
+      "fetchedAt": "2026-11-18T13:37:21.742Z"
+    }
+  ]
+}

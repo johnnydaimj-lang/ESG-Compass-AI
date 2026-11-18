@@ -1,0 +1,2 @@
+# Preserve raw climate evidence bytes so SHA256 survives Windows checkouts.
+data/climate/evidence/*.csv -text

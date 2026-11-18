@@ -157,6 +157,10 @@ publication bundle ---------------------+
 
 情景来源由lib/climate-lab-model.ts逐条维护：officialQuote、quoteTranslation、sourceUrl、sourceTitle、sourceSection、application、verifiedAt。中文description为编辑释义，不是官方中文原文。组件默认只显示释义；原文和适用说明用路径key控制的原生details按需展开。逐源限制短引总量，源信息与机构版本共同更新；核对日期不表示自动监控时间。
 
+阶段B增量：scripts/climate/collect-heat.ts离线按四并发读取NASA THREDDS点位CSV，逐日校验日期、单位、有效值和网格，保存data/climate/evidence及清单，全部成功后原子替换heat-snapshot.json。lib/climate-heat.ts负责严格计数和同网格时间窗比较。GET /api/v1/public/climate-risk只读本地快照，无外部请求、坐标外传或自动下载。components/ClimateHeatPanel.tsx处理加载、可用、缺覆盖和服务失败，旧请求用AbortController取消。复用公共API的CORS与限流。原始证据仅供离线复算，不进入客户端包；独立verify脚本检查哈希和用K>308.15复算日数。当前只覆盖两网格、三SSP、一个未来窗口、一个模型成员。
+
+阶段B实际验收状态补充：上述两网格/三SSP为采集目标，当前仅上海ssp126/ssp245两条完整窗口；81份原始证据已保留。NASA503后启用熔断，不再等待所有目标完成才保留有效成果，而是按完整40年组合原子发布并保留历史组合。collection-status.json记录部分覆盖；verify --require-full保留完整阶段验收门槛。next.config.ts显式携带派生JSON，排除原始CSV；不将部分预览宣称为完整接入。
+
 ### 9.1 当前原型
 
 `components/ClimateRiskLab.tsx` 作为独立路由 `/climate-lab` 的客户端解释层，使用一个虚拟项目、坐标/地图点选、分析半径、五类风险和静态示意系数验证交互。来源基准、用户压力测试偏移和资产参数分层维护；客户端公开危险度与经营冲击公式，但不把示意计算包装成事实 API 或科学模型。物理风险与转型风险分别维护 SSP 和 NGFS 情景状态，避免错误映射。

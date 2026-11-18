@@ -1,6 +1,6 @@
 # ESG Compass Project State
 
-Last updated: 2026-11-17
+Last updated: 2026-11-18
 
 ## Current release
 
@@ -14,7 +14,9 @@ Last updated: 2026-11-17
 
 ## Climate risk lab
 
-2026-11-18: The current implementation supersedes the prototype notes below. The UI supports versioned IPCC AR6, IEA WEO2025 and NGFS Phase V scenario selection, with compatible risk types and explicit unavailable-data states. Conditional downtime and carbon-cost arithmetic lives in lib/climate-lab-model.ts. Arbitrary hazard multipliers, spatial heatmaps and valuation indices have been removed. Case selection now applies a rolling five-year window; wildfire and drought are separate categories, with 2026 Rio Tinto and BASF adaptation samples. Local projections, climate pulse charts and scheduled disclosure collection are not connected yet. See docs/CLIMATE_LAB_TECHNICAL_PLAN.md for staged delivery and acceptance gates.
+Stage B partial preview, 2026-11-18: NASA THREDDS NEX-GDDP-CMIP6 v2.0 / ACCESS-CM2 r1i1p1f1 tasmax has two fully validated Shanghai records (SSP126, SSP245; 1995–2014 versus 2041–2060). 81 raw CSV evidence files saved; independent threshold recount passes. The intended second grid and SSP585 windows are incomplete after NASA 503 responses and a subsequent health-check timeout. No missing year is treated as zero. Public read-only climate-risk API serves only complete windows; the UI defaults to heat, displays annual bars and explicit missing-coverage states. Full Stage B acceptance is NOT reached. Resume with climate:collect when upstream recovers; climate:verify --require-full gates the target six records. Climate pulse and corporate monitoring remain unimplemented.
+
+2026-11-18: The current implementation supersedes the prototype notes below. The UI supports versioned IPCC AR6, IEA WEO2025 and NGFS Phase V scenario selection, with compatible risk types and explicit unavailable-data states. Conditional downtime and carbon-cost arithmetic lives in lib/climate-lab-model.ts. Arbitrary hazard multipliers, spatial heatmaps and valuation indices have been removed. Case selection now applies a rolling five-year window; wildfire and drought are separate categories, with 2026 Rio Tinto and BASF adaptation samples. See docs/CLIMATE_LAB_TECHNICAL_PLAN.md for staged delivery and acceptance gates.
 
 Historical prototype notes (superseded where inconsistent with the above):
 

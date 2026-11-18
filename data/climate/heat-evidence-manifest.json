@@ -1,0 +1,488 @@
+[
+  {
+    "file": "rotterdam-historical-1995.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_1995_v2.0.nc?var=tasmax&latitude=51.92&longitude=4.48&time_start=1995-01-01T00%3A00%3A00Z&time_end=1995-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "85b155fe83d9027d7fa6813585fda32779f16e3f9a3fd731ac8f7143e12a3da2",
+    "fetchedAt": "2026-11-18T13:39:43.868Z"
+  },
+  {
+    "file": "rotterdam-historical-1996.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_1996_v2.0.nc?var=tasmax&latitude=51.92&longitude=4.48&time_start=1996-01-01T00%3A00%3A00Z&time_end=1996-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "ad3b0ab5d6e0860cba2f3ca4b93eadf293fa56083468b2d1452d100099fd03ee",
+    "fetchedAt": "2026-11-18T13:40:02.614Z"
+  },
+  {
+    "file": "rotterdam-historical-1997.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_1997_v2.0.nc?var=tasmax&latitude=51.92&longitude=4.48&time_start=1997-01-01T00%3A00%3A00Z&time_end=1997-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "9d552dc19ff5e99117ec5e5e1f9d3eaa7b5523a23141ca10618658a7cd3dc211",
+    "fetchedAt": "2026-11-18T13:40:00.408Z"
+  },
+  {
+    "file": "rotterdam-historical-2008.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2008_v2.0.nc?var=tasmax&latitude=51.92&longitude=4.48&time_start=2008-01-01T00%3A00%3A00Z&time_end=2008-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "34522d5b93c8e83245bb83666db37eddd070a9aa4c298f600700c9181f63cb59",
+    "fetchedAt": "2026-11-18T13:40:14.801Z"
+  },
+  {
+    "file": "rotterdam-historical-2009.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2009_v2.0.nc?var=tasmax&latitude=51.92&longitude=4.48&time_start=2009-01-01T00%3A00%3A00Z&time_end=2009-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "f7144f0e075969e56469a2f9b4eef7b6cedaf1711ad04adc8c2dc6e4afcd3581",
+    "fetchedAt": "2026-11-18T13:40:21.979Z"
+  },
+  {
+    "file": "shanghai-historical-1995.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_1995_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=1995-01-01T00%3A00%3A00Z&time_end=1995-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "55aa5861a5a516c801c5f18c9bae64bb6c340e126ec2482e1135714c6c1fb036",
+    "fetchedAt": "2026-11-18T13:25:45.068Z"
+  },
+  {
+    "file": "shanghai-historical-1996.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_1996_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=1996-01-01T00%3A00%3A00Z&time_end=1996-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "91c5efab932514bc9d8377f3251e9fab93743c5dbbea6f544f466608c5703383",
+    "fetchedAt": "2026-11-18T13:25:42.388Z"
+  },
+  {
+    "file": "shanghai-historical-1997.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_1997_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=1997-01-01T00%3A00%3A00Z&time_end=1997-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "35e50ec7949752ceee15f7dc379abe1e656eda6c7d585b9964075db2b89a8bbc",
+    "fetchedAt": "2026-11-18T13:25:35.916Z"
+  },
+  {
+    "file": "shanghai-historical-1998.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_1998_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=1998-01-01T00%3A00%3A00Z&time_end=1998-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "cf9908361f5b4a580ecf6ca9af382ac491590f2026cfcab7a0a8ea3256736af2",
+    "fetchedAt": "2026-11-18T13:25:39.658Z"
+  },
+  {
+    "file": "shanghai-historical-1999.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_1999_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=1999-01-01T00%3A00%3A00Z&time_end=1999-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "c4fdbeea354d450087b653fe432c2d0abce23c8a4e32eb98f9f78f3b17f207fa",
+    "fetchedAt": "2026-11-18T13:26:05.219Z"
+  },
+  {
+    "file": "shanghai-historical-2000.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2000_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2000-01-01T00%3A00%3A00Z&time_end=2000-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "097ffd6bea8e208bb4e632daad332ea1dc740448ed302c98082b2490e46ec0f0",
+    "fetchedAt": "2026-11-18T13:26:06.504Z"
+  },
+  {
+    "file": "shanghai-historical-2001.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2001_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2001-01-01T00%3A00%3A00Z&time_end=2001-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "00e285abc41606dafc449f4cb4f0144c0e3518234884542fb6c33bbf82eef7d3",
+    "fetchedAt": "2026-11-18T13:26:08.777Z"
+  },
+  {
+    "file": "shanghai-historical-2002.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2002_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2002-01-01T00%3A00%3A00Z&time_end=2002-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "0c6a04dcb2b97abd1b84d9763429b24b9251cf87c9781a2ed753df990b153705",
+    "fetchedAt": "2026-11-18T13:26:06.046Z"
+  },
+  {
+    "file": "shanghai-historical-2003.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2003_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2003-01-01T00%3A00%3A00Z&time_end=2003-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "b7471bda7806737b1e6b7569ca2c01f1424e4f34d50925cfed3b02b8c38c556c",
+    "fetchedAt": "2026-11-18T13:26:26.775Z"
+  },
+  {
+    "file": "shanghai-historical-2004.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2004_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2004-01-01T00%3A00%3A00Z&time_end=2004-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "9137bcbd19817a83b8610d42eec252182ff25d9ffb68e5f68ea28870bbed7a5d",
+    "fetchedAt": "2026-11-18T13:26:28.797Z"
+  },
+  {
+    "file": "shanghai-historical-2005.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2005_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2005-01-01T00%3A00%3A00Z&time_end=2005-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "0a64750daf9da22db983d85178161b0ddc8a5eccf24b96ebfc9aeee3acd689ec",
+    "fetchedAt": "2026-11-18T13:26:30.647Z"
+  },
+  {
+    "file": "shanghai-historical-2006.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2006_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2006-01-01T00%3A00%3A00Z&time_end=2006-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "93f3fd3c025fdb3c40a6226e5c635eb26bb35dff7a28357294b2dbc8a19a07aa",
+    "fetchedAt": "2026-11-18T13:27:16.762Z"
+  },
+  {
+    "file": "shanghai-historical-2007.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2007_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2007-01-01T00%3A00%3A00Z&time_end=2007-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "6c6c0f7f61d1e3754561eb4660d26c8cb4973affee85020c4984f7860a44f12d",
+    "fetchedAt": "2026-11-18T13:28:15.069Z"
+  },
+  {
+    "file": "shanghai-historical-2008.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2008_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2008-01-01T00%3A00%3A00Z&time_end=2008-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "75c5773f1f2348a748e77307090215e6590e8905fa069d7df5f5ce28dfbf1545",
+    "fetchedAt": "2026-11-18T13:30:27.129Z"
+  },
+  {
+    "file": "shanghai-historical-2009.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2009_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2009-01-01T00%3A00%3A00Z&time_end=2009-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "d33bde8e0945f9071c7a10771341b324f4472934cdfc784ac5e3478087fac563",
+    "fetchedAt": "2026-11-18T13:28:40.526Z"
+  },
+  {
+    "file": "shanghai-historical-2010.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2010_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2010-01-01T00%3A00%3A00Z&time_end=2010-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "775ebe9c9b5f8eebf8ad2e1f141c007288040d83d78b8c068daf3c2ce9bb7c84",
+    "fetchedAt": "2026-11-18T13:28:43.216Z"
+  },
+  {
+    "file": "shanghai-historical-2011.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2011_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2011-01-01T00%3A00%3A00Z&time_end=2011-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "92f6a10d8aafeb8ca02a4f891c06750f862e0aaeecc571b423d44c6d2d4f79f9",
+    "fetchedAt": "2026-11-18T13:30:35.929Z"
+  },
+  {
+    "file": "shanghai-historical-2012.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2012_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2012-01-01T00%3A00%3A00Z&time_end=2012-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "115dc1da52523a277b4bf3a1c933fc97ca2562601a175ad0931f593c139c60be",
+    "fetchedAt": "2026-11-18T13:30:30.340Z"
+  },
+  {
+    "file": "shanghai-historical-2013.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2013_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2013-01-01T00%3A00%3A00Z&time_end=2013-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "ee34e872f2236382a30c0575ea062ed854c6e9529f2cf00acf057a9800cc8c59",
+    "fetchedAt": "2026-11-18T13:30:38.459Z"
+  },
+  {
+    "file": "shanghai-historical-2014.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_2014_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2014-01-01T00%3A00%3A00Z&time_end=2014-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "a13a9e0f88daf1584d53018bc5c49c7beae463150eb78bd8a7a7464f525c474a",
+    "fetchedAt": "2026-11-18T13:30:51.388Z"
+  },
+  {
+    "file": "shanghai-ssp126-2041.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2041_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2041-01-01T00%3A00%3A00Z&time_end=2041-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "4d77ad28a561056eabb71a6c1f25810cf496a125cb2bf8549049b1dcd9b0400e",
+    "fetchedAt": "2026-11-18T13:30:51.862Z"
+  },
+  {
+    "file": "shanghai-ssp126-2042.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2042_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2042-01-01T00%3A00%3A00Z&time_end=2042-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "7e3cd903d053f4daaf83af530c72b8b57a609c18a15f1e1f03f9e07778323080",
+    "fetchedAt": "2026-11-18T13:31:17.712Z"
+  },
+  {
+    "file": "shanghai-ssp126-2043.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2043_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2043-01-01T00%3A00%3A00Z&time_end=2043-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "16b1d1b94c1a1449331db3b787c3e7afdc8804101e09d83153571af29756ea25",
+    "fetchedAt": "2026-11-18T13:31:10.938Z"
+  },
+  {
+    "file": "shanghai-ssp126-2044.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2044_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2044-01-01T00%3A00%3A00Z&time_end=2044-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "f5859c1012d9675c921dbabaf1356e4d8c05b8e986132245e2562f89a5ea55a2",
+    "fetchedAt": "2026-11-18T13:31:44.297Z"
+  },
+  {
+    "file": "shanghai-ssp126-2045.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2045_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2045-01-01T00%3A00%3A00Z&time_end=2045-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "7e537b9011b9e4f439417112bf41182350b821d043bc694ba83ed8f8b6bd3999",
+    "fetchedAt": "2026-11-18T13:31:40.324Z"
+  },
+  {
+    "file": "shanghai-ssp126-2046.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2046_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2046-01-01T00%3A00%3A00Z&time_end=2046-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "45a6f0ab7e628e8a2b10b55205d7fa2b0cd9129a8f5eb2ddbc22d7bf21e79670",
+    "fetchedAt": "2026-11-18T13:31:59.266Z"
+  },
+  {
+    "file": "shanghai-ssp126-2047.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2047_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2047-01-01T00%3A00%3A00Z&time_end=2047-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "a3eea163f88f1ec2b5ee8351df14235351b52a0d3beb1a45c8def794bb202d96",
+    "fetchedAt": "2026-11-18T13:32:00.185Z"
+  },
+  {
+    "file": "shanghai-ssp126-2048.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2048_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2048-01-01T00%3A00%3A00Z&time_end=2048-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "9762b240390704a39b4e69eef26754aff8596cd7568260c97aa52283db56a458",
+    "fetchedAt": "2026-11-18T13:32:12.799Z"
+  },
+  {
+    "file": "shanghai-ssp126-2049.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2049_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2049-01-01T00%3A00%3A00Z&time_end=2049-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "db4f5bc4afc2e66d383a36d8897460f791d2289cbe10a93a84ffcf76f27426c6",
+    "fetchedAt": "2026-11-18T13:32:10.744Z"
+  },
+  {
+    "file": "shanghai-ssp126-2050.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2050_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2050-01-01T00%3A00%3A00Z&time_end=2050-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "57f90b5ccd2acaafbc4a349dfe63f0f309dade483daa61a1cc4822f10888f12c",
+    "fetchedAt": "2026-11-18T13:32:32.065Z"
+  },
+  {
+    "file": "shanghai-ssp126-2051.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2051_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2051-01-01T00%3A00%3A00Z&time_end=2051-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "d35afd1ad9f444a75810844f4599ad4b8c48840b1da28326ac7161a688ea8bc9",
+    "fetchedAt": "2026-11-18T13:32:26.253Z"
+  },
+  {
+    "file": "shanghai-ssp126-2052.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2052_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2052-01-01T00%3A00%3A00Z&time_end=2052-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "a00e5beb47021572d2e5a8c9bd509a8efdff4a60df3af9f72c8b95e636bff227",
+    "fetchedAt": "2026-11-18T13:32:31.801Z"
+  },
+  {
+    "file": "shanghai-ssp126-2053.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2053_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2053-01-01T00%3A00%3A00Z&time_end=2053-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "1cd950a46672ea0bd789cd6df84898e0a53491a2283e500b4dc9e15a78abd020",
+    "fetchedAt": "2026-11-18T13:32:32.312Z"
+  },
+  {
+    "file": "shanghai-ssp126-2054.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2054_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2054-01-01T00%3A00%3A00Z&time_end=2054-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "a7a824f16468360ca10c2af47fe10be19c859518595380ccf14263ae16ba61d5",
+    "fetchedAt": "2026-11-18T13:32:56.489Z"
+  },
+  {
+    "file": "shanghai-ssp126-2055.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2055_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2055-01-01T00%3A00%3A00Z&time_end=2055-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "e05f34a992fab17a9d99e72370e1401c4b3ad09e51e2ec8db76591e345df6233",
+    "fetchedAt": "2026-11-18T13:33:04.630Z"
+  },
+  {
+    "file": "shanghai-ssp126-2056.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2056_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2056-01-01T00%3A00%3A00Z&time_end=2056-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "59b20e1684415c57a1fe516dd7743d26ad71db1b54397f34edcdeae49f515650",
+    "fetchedAt": "2026-11-18T13:33:10.139Z"
+  },
+  {
+    "file": "shanghai-ssp126-2057.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2057_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2057-01-01T00%3A00%3A00Z&time_end=2057-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "907bb0c7ce8e1faa0822f4a5682a5e987c82ec157cd8cd24f5d8d47619bbe7da",
+    "fetchedAt": "2026-11-18T13:33:16.245Z"
+  },
+  {
+    "file": "shanghai-ssp126-2058.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2058_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2058-01-01T00%3A00%3A00Z&time_end=2058-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "f8a082765822efcfb9e15c0601c83708c4cb839ab30a0352228a21eb68de5a3e",
+    "fetchedAt": "2026-11-18T13:33:37.911Z"
+  },
+  {
+    "file": "shanghai-ssp126-2059.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2059_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2059-01-01T00%3A00%3A00Z&time_end=2059-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "b5bd78f7c21b0f2f14e72eebfcede12fbe36418c19a6087c1af67586618cacf7",
+    "fetchedAt": "2026-11-18T13:33:39.323Z"
+  },
+  {
+    "file": "shanghai-ssp126-2060.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2060_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2060-01-01T00%3A00%3A00Z&time_end=2060-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "f305567bcc4196adddde7b889a58b09fada0aee8191e0d21ada022a115417831",
+    "fetchedAt": "2026-11-18T13:33:41.895Z"
+  },
+  {
+    "file": "shanghai-ssp245-2041.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2041_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2041-01-01T00%3A00%3A00Z&time_end=2041-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "65111673a7eadb95905ade3eb80b248f9a37320893865935c29ee8c185d9453b",
+    "fetchedAt": "2026-11-18T13:33:45.748Z"
+  },
+  {
+    "file": "shanghai-ssp245-2042.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2042_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2042-01-01T00%3A00%3A00Z&time_end=2042-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "1c72e15bd6b0de9ef571780c9ceab1aa682341fd823c29e20dee171865c637f3",
+    "fetchedAt": "2026-11-18T13:34:26.826Z"
+  },
+  {
+    "file": "shanghai-ssp245-2043.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2043_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2043-01-01T00%3A00%3A00Z&time_end=2043-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "5cc9565c1cf8ffa6e2dba934b65d68521fc776c1b7273662a24f7166e5c41c94",
+    "fetchedAt": "2026-11-18T13:34:24.494Z"
+  },
+  {
+    "file": "shanghai-ssp245-2044.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2044_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2044-01-01T00%3A00%3A00Z&time_end=2044-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "ab3c82a463ecfa8e71cc503dcc1b0b38fbc3ea325b4596e9e5081b4faf60ab46",
+    "fetchedAt": "2026-11-18T13:34:21.510Z"
+  },
+  {
+    "file": "shanghai-ssp245-2045.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2045_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2045-01-01T00%3A00%3A00Z&time_end=2045-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "d8cc779e69e9eb5b1d3ae8d8970dc13f6f5be8e4a222d7d03c822f21f5cf1b66",
+    "fetchedAt": "2026-11-18T13:34:44.007Z"
+  },
+  {
+    "file": "shanghai-ssp245-2046.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2046_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2046-01-01T00%3A00%3A00Z&time_end=2046-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "3f17e46f8811947ab064910a6cdbce1cfa6d61a51130c21ea2c61cef9afa05a5",
+    "fetchedAt": "2026-11-18T13:35:08.194Z"
+  },
+  {
+    "file": "shanghai-ssp245-2047.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2047_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2047-01-01T00%3A00%3A00Z&time_end=2047-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "008c8453ce6a34fa6d7e4cca691ddde914485e78fafa8bf8ef4bacc67b290c9e",
+    "fetchedAt": "2026-11-18T13:34:57.695Z"
+  },
+  {
+    "file": "shanghai-ssp245-2048.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2048_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2048-01-01T00%3A00%3A00Z&time_end=2048-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "2eaa597d4472764c1001725a919e9f0f94e29974538f87bdf4e228d6e31e6ae0",
+    "fetchedAt": "2026-11-18T13:35:06.508Z"
+  },
+  {
+    "file": "shanghai-ssp245-2049.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2049_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2049-01-01T00%3A00%3A00Z&time_end=2049-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "650a77b019422c81d00be19bf7d167b2e9e5a5b7dc50894e11613a79966b5ef4",
+    "fetchedAt": "2026-11-18T13:35:21.242Z"
+  },
+  {
+    "file": "shanghai-ssp245-2050.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2050_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2050-01-01T00%3A00%3A00Z&time_end=2050-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "96814e808271a98fa21e6f1653774d8a23910f06170ad753c0b7b8a7df610253",
+    "fetchedAt": "2026-11-18T13:35:29.149Z"
+  },
+  {
+    "file": "shanghai-ssp245-2051.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2051_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2051-01-01T00%3A00%3A00Z&time_end=2051-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "ef2e81e04643925e30a9ddda68e20042c385c9113498c8efb2646fe43b2f33d1",
+    "fetchedAt": "2026-11-18T13:35:47.504Z"
+  },
+  {
+    "file": "shanghai-ssp245-2052.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2052_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2052-01-01T00%3A00%3A00Z&time_end=2052-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "425dc700acd08e7d737d6d06bcb6fd6f559d9551278756367a3f55949068b48f",
+    "fetchedAt": "2026-11-18T13:36:19.967Z"
+  },
+  {
+    "file": "shanghai-ssp245-2053.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2053_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2053-01-01T00%3A00%3A00Z&time_end=2053-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "192c1cf64865faf2127fce45ae674dbcf3e3be90e414d4a4e3c734fdef3e25dd",
+    "fetchedAt": "2026-11-18T13:35:51.196Z"
+  },
+  {
+    "file": "shanghai-ssp245-2054.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2054_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2054-01-01T00%3A00%3A00Z&time_end=2054-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "2cf8dd6c486a07020c377f6eb54bf78c13c065d863970377a6e361b460a0b994",
+    "fetchedAt": "2026-11-18T13:35:56.605Z"
+  },
+  {
+    "file": "shanghai-ssp245-2055.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2055_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2055-01-01T00%3A00%3A00Z&time_end=2055-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "1099b02392da8a154323995e13bdef8dec51f0fb3158358689908b65503cf248",
+    "fetchedAt": "2026-11-18T13:36:22.333Z"
+  },
+  {
+    "file": "shanghai-ssp245-2056.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2056_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2056-01-01T00%3A00%3A00Z&time_end=2056-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "9487caa8714196b9a8f13fc48f5d29d7c394bfe1d9fa38dd256c1d65752065fc",
+    "fetchedAt": "2026-11-18T13:36:22.020Z"
+  },
+  {
+    "file": "shanghai-ssp245-2057.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2057_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2057-01-01T00%3A00%3A00Z&time_end=2057-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "238013d8c7d6ee6410c04b65f77ad6d531965e4492d426d2de623e7c0552b9eb",
+    "fetchedAt": "2026-11-18T13:36:20.059Z"
+  },
+  {
+    "file": "shanghai-ssp245-2058.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2058_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2058-01-01T00%3A00%3A00Z&time_end=2058-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "ede692e7fb5ec0e0361dbd578f982a9725ebb16ecf47c8502b06058fe2366589",
+    "fetchedAt": "2026-11-18T13:36:59.281Z"
+  },
+  {
+    "file": "shanghai-ssp245-2059.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2059_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2059-01-01T00%3A00%3A00Z&time_end=2059-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "00786d6fab7309e7c53a10b5c198b2c17321f94e9477ac163ab37d268049b6c7",
+    "fetchedAt": "2026-11-18T13:36:57.794Z"
+  },
+  {
+    "file": "shanghai-ssp245-2060.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp245/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp245_r1i1p1f1_gn_2060_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2060-01-01T00%3A00%3A00Z&time_end=2060-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "a63790d434300f5e1c2015c1e92e168245f6693df0d3bb174124b924a281a015",
+    "fetchedAt": "2026-11-18T13:37:21.742Z"
+  },
+  {
+    "file": "shanghai-ssp585-2041.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2041_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2041-01-01T00%3A00%3A00Z&time_end=2041-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "da959e0e6453a0882953fcfe940f4974d074d3d81ece144ec221013ed16ea867",
+    "fetchedAt": "2026-11-18T13:37:12.785Z"
+  },
+  {
+    "file": "shanghai-ssp585-2042.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2042_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2042-01-01T00%3A00%3A00Z&time_end=2042-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "efd30e14c73db8795633d8d3eff7570a963327abe88e62e8e8accd69d87249f3",
+    "fetchedAt": "2026-11-18T13:37:32.925Z"
+  },
+  {
+    "file": "shanghai-ssp585-2043.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2043_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2043-01-01T00%3A00%3A00Z&time_end=2043-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "76c8c485046fef0646402e271fc382fddb7bd6f143d8731a6482a7b9ea593e5d",
+    "fetchedAt": "2026-11-18T13:37:28.364Z"
+  },
+  {
+    "file": "shanghai-ssp585-2044.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2044_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2044-01-01T00%3A00%3A00Z&time_end=2044-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "adc28626f4a458ce000ae6e8d24c168f023f338185de05e6556434332e687093",
+    "fetchedAt": "2026-11-18T13:37:44.247Z"
+  },
+  {
+    "file": "shanghai-ssp585-2045.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2045_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2045-01-01T00%3A00%3A00Z&time_end=2045-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "70a8212debde4fdab4665b0e95b080c4544d535247b56c99660f2dfea1cb3409",
+    "fetchedAt": "2026-11-18T13:38:00.915Z"
+  },
+  {
+    "file": "shanghai-ssp585-2046.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2046_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2046-01-01T00%3A00%3A00Z&time_end=2046-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "b91946c1432ae6c27c57f4cea03eaee95b904a1af913923d6f339ef79d947c41",
+    "fetchedAt": "2026-11-18T13:38:10.997Z"
+  },
+  {
+    "file": "shanghai-ssp585-2047.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2047_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2047-01-01T00%3A00%3A00Z&time_end=2047-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "e4935fde3c4e339e6811a6aeae7b9e8814515a01bb4ddd69a79b7c3f88baa26a",
+    "fetchedAt": "2026-11-18T13:38:12.618Z"
+  },
+  {
+    "file": "shanghai-ssp585-2048.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2048_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2048-01-01T00%3A00%3A00Z&time_end=2048-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "689a242a9701a1393252e9b439c88eac2a0d6986fa9d43284a2cef554d554bb0",
+    "fetchedAt": "2026-11-18T13:38:34.608Z"
+  },
+  {
+    "file": "shanghai-ssp585-2049.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2049_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2049-01-01T00%3A00%3A00Z&time_end=2049-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "c0a3cac95976370bbd381f0f03a6ea9a0c87fdfc9e165b6c24a76eee24470e44",
+    "fetchedAt": "2026-11-18T13:38:40.067Z"
+  },
+  {
+    "file": "shanghai-ssp585-2050.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2050_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2050-01-01T00%3A00%3A00Z&time_end=2050-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "27f9d653f005ef2cf9c3eadd16e52e88506c5f491a01e65f36a05560671e5f5f",
+    "fetchedAt": "2026-11-18T13:38:56.129Z"
+  },
+  {
+    "file": "shanghai-ssp585-2051.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2051_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2051-01-01T00%3A00%3A00Z&time_end=2051-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "f498f303502c34fd3e336823bc90b1f96498039aa831557c7c40ab1144e3e7eb",
+    "fetchedAt": "2026-11-18T13:38:54.269Z"
+  },
+  {
+    "file": "shanghai-ssp585-2056.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2056_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2056-01-01T00%3A00%3A00Z&time_end=2056-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "ab484bd1ff61e440894f7b1e18bdf99593d077f405b36f6390f33acf3d6fcf3a",
+    "fetchedAt": "2026-11-18T13:39:14.020Z"
+  },
+  {
+    "file": "shanghai-ssp585-2057.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2057_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2057-01-01T00%3A00%3A00Z&time_end=2057-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "193a27afb638f5ec9feefdbc79a95ec46e4e379353d6f6786424a250c3044d32",
+    "fetchedAt": "2026-11-18T13:39:12.805Z"
+  },
+  {
+    "file": "shanghai-ssp585-2058.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2058_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2058-01-01T00%3A00%3A00Z&time_end=2058-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "d36699efde40fecda223f8f73f665c404f2fc2bedbb81b3fd9eff962331abd9f",
+    "fetchedAt": "2026-11-18T13:39:21.633Z"
+  },
+  {
+    "file": "shanghai-ssp585-2059.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2059_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2059-01-01T00%3A00%3A00Z&time_end=2059-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "ed66b539598fa60285827f93787cd2bcdebb499282fde12a85a469d5dbd9c389",
+    "fetchedAt": "2026-11-18T13:39:21.260Z"
+  },
+  {
+    "file": "shanghai-ssp585-2060.csv",
+    "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2060_v2.0.nc?var=tasmax&latitude=31.23&longitude=121.47&time_start=2060-01-01T00%3A00%3A00Z&time_end=2060-12-31T23%3A59%3A59Z&accept=csv",
+    "sha256": "e6e1b3027a19c31856617d2b004d0e3a3e4d63c4499950218b0bccc50a6fbe8b",
+    "fetchedAt": "2026-11-18T13:39:38.103Z"
+  }
+]

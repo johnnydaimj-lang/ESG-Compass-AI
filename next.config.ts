@@ -2,6 +2,12 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  outputFileTracingIncludes: {
+    "/api/v1/public/climate-risk": ["./data/climate/heat-snapshot.json"],
+  },
+  outputFileTracingExcludes: {
+    "/api/v1/public/climate-risk": ["./data/climate/evidence/**/*"],
+  },
   async headers() {
     const headers = [
       { key: "X-Content-Type-Options", value: "nosniff" },

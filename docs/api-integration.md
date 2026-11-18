@@ -24,6 +24,7 @@ GET /api/v1/public/contents/{id}
 GET /api/v1/public/daily
 GET /api/v1/public/zones
 GET /api/v1/public/status
+GET /api/v1/public/climate-risk?lat=31.23&lon=121.47&scenario=ssp245&window=2041–2060&variable=tasmax
 ```
 
 ### 内容列表
@@ -71,7 +72,13 @@ GET /api/v1/public/zones
 GET /api/v1/public/status
 ```
 
-## 鉴权 API
+### 气候风险参考数据（公共）
+
+`/api/v1/public/climate-risk`需要lat、lon、scenario、window、variable。scenario接受ssp126/ssp245/ssp585；window可传2021–2040、2041–2060、2081–2100，但当前只有2041–2060已预计算；variable固定tasmax。坐标按已验证0.25°格点匹配，当前仅上海ssp126/ssp245两组完整，鹿特丹和ssp585未完成，返回unavailable。调用不触发外部下载。
+
+可用返回ok:true、status:available、record（20年baseline/future逐年计数）、summary（baselineMean/futureMean/change/gridLatitude/gridLongitude）、provenance（数据集/版本/模型/成员/许可/阈值/来源）。仅代表单模型条件投影，不是观测或厂址损失。未覆盖地点或时间窗返回200且status:unavailable，无数值；参数错误400，快照故障503。浏览器须同时检查HTTP状态与status字段。支持OPTIONS、公共CORS和已有API限流。
+
+## 鉴权 API（业务内容）
 
 私有接口路径与公共接口相同，但不含 `/public`：
 
