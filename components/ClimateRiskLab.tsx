@@ -301,7 +301,7 @@ export default function ClimateRiskLab({ cases = [] }: { cases?: ClimateRiskCase
               <span className="rounded-full bg-brand-soft px-2.5 py-1 text-[10px] font-semibold tracking-wide text-brand-deep">交互原型</span>
               <span className="text-[11px] text-ink-faint">示意数据 · 不构成预测或估值结论</span>
             </div>
-            <h2 id="climate-lab-title" className="text-xl font-semibold tracking-tight text-ink sm:text-2xl">一个虚拟项目，气候风险如何进入财务报表？</h2>
+            <h2 id="climate-lab-title" className="text-xl font-semibold tracking-tight text-ink sm:text-2xl">气候风险如何进入财务报表？</h2>
             <p className="mt-2 text-[13px] leading-relaxed text-ink-soft">定位项目、调整可审计假设，并查看从危险度、暴露和脆弱度到会计计量的完整推导。</p>
           </div>
           <button
