@@ -75,9 +75,8 @@ export function resolveProgress(snapshot: unknown, contents: readonly ContentIte
     entries.sort((a, b) => b.date.localeCompare(a.date) || b.content.publishedAt.localeCompare(a.content.publishedAt) || a.id.localeCompare(b.id));
     if (!entries.length) continue;
     const policy = resolvePolicyContext(raw.policy, contents);
-    const anchor = policy?.insights.some((insight) => insight.contentId === entries[0].contentId) ? "policy-context" : "event-progress";
     result.push({ id: raw.id, title: raw.title, region: raw.region, zoneIds: raw.zoneIds,
-      selfChecks: raw.selfChecks, entries, href: `/events/${encodeURIComponent(entries[0].contentId)}#${anchor}`, policy });
+      selfChecks: raw.selfChecks, entries, href: `/events/${encodeURIComponent(entries[0].contentId)}#event-progress`, policy });
   }
   // Ambiguous membership is hidden until corrected rather than picking an arbitrary matter.
   const counts = new Map<string, number>();

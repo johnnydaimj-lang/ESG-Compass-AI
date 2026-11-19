@@ -26,7 +26,7 @@ test("reviewed publication records resolve, point to existing zones and keep ori
   for (const matter of result) {
     assert.equal(matter.entries.length, 1);
     assert.ok(matter.zoneIds.every((id) => zones.includes(id)));
-    assert.ok(matter.href.endsWith(matter.id.startsWith("uk-") ? "#policy-context" : "#event-progress"));
+    assert.ok(matter.href.endsWith("#event-progress"));
   }
   assert.equal(result.find((matter) => matter.id.startsWith("uk-"))!.entries[0].date, "2026-11-04");
   assert.equal(JSON.stringify(contents), before);

@@ -294,4 +294,4 @@ five-year case collector -> evidence gate -> case index
 
 `policyRelationsForEvent` 独立解析事项快照中的可选 policy，继续执行文档核验与内容公开门槛，不要求 resolveProgress 成功。可选 policy.eventIds 明确政策事件成员；缺省时兼容既有 entries 的明确 contentId。解读按已审核 insights.contentId 反向找到所有明确政策，不因为关联多项政策而丢弃；已核验官方文档的精确 URL 也可定位对应原文记录，不使用关键词推断。关系按文档 URL 去重。
 
-详情按关系显示政策／解读方向，相关解读排除当前 id；默认三条／三项政策，其余展开。解读页的多个进展默认折叠，单节点只保留企业自查；政策页维持现有进展行为。事项最新节点若为解读，专区链接使用 #policy-context，其余使用 #event-progress。公开 API、新闻分类字段和评分不变，无需新增数据库或时间线。回归覆盖无进展双向关系、多政策、无证据不关联及自身去重。
+详情按关系显示政策／解读方向，相关解读排除当前 id；默认三条／三项政策，其余展开。按用户后续确认，政策页和解读页统一直接渲染有效 EventProgress，单节点也保留；取消解读页整体折叠与单节点隐藏分支，企业自查随同一进展组件展示，避免重复。专区事项入口统一使用 #event-progress，#policy-context 仍可定位官方文档区域。公开 API、新闻分类字段和评分不变，无需新增数据库或时间线。回归覆盖无进展双向关系、多政策、无证据不关联及自身去重。

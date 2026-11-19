@@ -140,4 +140,4 @@ for (const item of payload.items) {
 
 事项快照 version 1 扩展可选 `policy`（issuer、issuerHost、document、insights）。仅服务端详情页使用，不自动暴露为公开 API 字段。来源文章与官方文档分别标注；解读只引用通过公开资格校验的 contentId，不从 sourceRefs 或故事簇自动推导。`trace:upstream` 新提取链接不再继承报道发布时间，并接纳 PDF 候选；新旧链接均需核验后才可成为政策官方原文。数据结构、更新流程和首批证据见 `POLICY_SOURCE_AND_INSIGHT_PLAN.md`。
 
-2026-11-20：policy 可选增加 eventIds，明确政策事件成员；双向查询不依赖进展节点有效。insights 反向解析为对应政策，可返回多个明确关联，始终排除不合格内容；详情列表不推荐当前文章自身。公开 API 响应未增加字段。专区目标为解读时使用 #policy-context，否则使用 #event-progress。
+2026-11-20：policy 可选增加 eventIds，明确政策事件成员；双向查询不依赖进展节点有效。insights 反向解析为对应政策，可返回多个明确关联，始终排除不合格内容；详情列表不推荐当前文章自身。公开 API 响应未增加字段。按用户最终确认，政策页与解读页均直接展示已收录进展，专区事项入口统一使用 #event-progress；#policy-context 保留用于定位官方文档。

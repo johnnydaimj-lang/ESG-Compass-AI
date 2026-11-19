@@ -89,17 +89,7 @@ export default async function EventDetailPage({ params }: Props) {
           {item.bodyZh?.trim() ? summarizeForHome(item.bodyZh, 600) : summarizeForHome(getHomeSummary(item), 600)}
         </p>
       </section>
-      {progress && (!isInterpretation ? <EventProgress matter={progress} currentId={item.id} />
-        : progress.entries.length > 1 ? <details className="mb-8">
-          <summary className="mb-3 cursor-pointer text-[12px] text-brand-deep">查看政策进展 · {progress.entries.length} 项</summary>
-          <EventProgress matter={progress} currentId={item.id} />
-        </details> : null)}
-      {isInterpretation && progress && progress.entries.length <= 1 && progress.selfChecks.length > 0 && (
-        <section className="mb-8 rounded-lg bg-paper px-5 py-4">
-          <h2 className="mb-2 text-[13px] font-semibold text-ink">企业可以检查什么</h2>
-          {progress.selfChecks.map((check) => <p key={check} className="text-[13px] leading-relaxed text-ink-soft">{check}</p>)}
-        </section>
-      )}
+      {progress && <EventProgress matter={progress} currentId={item.id} />}
       {heatPoints.length > 1 && (
         <details className="mb-8 rounded-lg border border-line bg-surface px-5 py-4">
           <summary className="cursor-pointer text-[13px] font-semibold text-ink">
