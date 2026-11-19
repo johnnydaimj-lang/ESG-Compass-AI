@@ -270,6 +270,10 @@ five-year case collector -> evidence gate -> case index
 
 `publication-store.readEventProgress` 使用现有文件缓存并以 unknown 返回；`event-progress.resolveProgress` 执行结构、日期、公开资格、重复和事项冲突过滤；`event-progress-store` 提供事件与专区共用查询。缺失快照或未知版本不显示模块。常规 publication bundle 不覆盖此文件。
 
-事件详情服务端读取事项，`EventProgress` 以原生 details 实现最近三条及展开更早节点，单节点仅显示摘要与证据；相关报道、热度趋势及同议题法规折叠。详情及页面元数据执行 isFeedEligible。专区服务端读取显式 zoneIds 关联，默认五项，链接最新有效节点的详情锚点。首页组件、排序、collapseByStory 和采集评分均不调整，公开 API 契约保持不变。
+事件详情服务端读取事项，`EventProgress` 以原生 details 实现最近三条及展开更早节点，单节点仅显示摘要与证据；相关报道与热度趋势折叠，不显示同议题法规推荐。详情及页面元数据执行 isFeedEligible。专区服务端读取显式 zoneIds 关联，默认五项，链接最新有效节点的详情锚点。首页组件、排序、collapseByStory 和采集评分均不调整，公开 API 契约保持不变。
 
 初始两个事项各一条记录，不声称完整历史或实时法律核验。进展结构、编辑维护规则、验收和后续边界见 `EVENT_PROGRESS_TECHNICAL_PLAN.md`。
+
+### 10.1 移除事件泛法规关联
+
+删除 `getRegulationsForEvent` 及详情渲染调用，避免将专区关键词候选误作事件直接关联；`getRegulationsForZone` 继续仅供知识专区主题聚合。没有新增采集任务、数据契约或公开 API。产品地图同步去除事件法规推荐描述。未来如建立事件法规引用，需独立核验具体条款／适用义务及证据位置，不能重新以关键词或 storyId 回退填充；该能力本批未实现。

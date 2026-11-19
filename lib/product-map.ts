@@ -54,7 +54,8 @@ export const PRODUCT_MAP: MapNode[] = [
           { label: "中文摘要 + ESG 议题", detail: "中文优先展示，议题参照 SASB 分类" },
           { label: "推荐理由", detail: "精选内容展示评分与推荐理由" },
           { label: "影响分析", detail: "政策 / 学术 / 专家 / 评级四类影响卡" },
-          { label: "所属专区 + 相关法规", detail: "法规标准由发布快照实时派生" }
+          { label: "事项进展 + 企业自查", detail: "明确关联的进展、来源与自查提示；不按同议题推送法规" },
+          { label: "所属专区", detail: "进入知识专区继续浏览主题材料" }
         ]
       },
       {

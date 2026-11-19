@@ -1,8 +1,8 @@
-// ESG Compass — 相关法规与标准（发布快照派生）
+// ESG Compass — 知识专区主题政策聚合（发布快照派生）
 // 不再维护静态条目，统一从发布快照中的政策内容实时筛选。
 
 import { getAllContents, type ContentItem } from "./esg-data";
-import { getZoneKeywords, getZonesByEventId, getZonesForContent } from "./zones-store";
+import { getZoneKeywords } from "./zones-store";
 import { loadFilterRules } from "./filter-rules";
 import { isFeedEligible } from "./feed-policy";
 
@@ -32,19 +32,4 @@ export function getRegulationsForZone(zoneId: string, limit = 8): ContentItem[] 
       keywords.some((k) => contentText(item).includes(k.toLowerCase()))
     )
   ).slice(0, limit);
-}
-
-export function getRegulationsForEvent(item: ContentItem, limit = 8): ContentItem[] {
-  const zoneMap = new Map(
-    [...getZonesByEventId(item.id), ...getZonesForContent(item)].map((z) => [z.id, z])
-  );
-  const zoneHits = Array.from(zoneMap.values()).flatMap((zone) => getRegulationsForZone(zone.id, 50));
-  const seen = new Set<string>();
-  const unique: ContentItem[] = [];
-  for (const candidate of zoneHits) {
-    if (candidate.id === item.id || seen.has(candidate.id)) continue;
-    seen.add(candidate.id);
-    unique.push(candidate);
-  }
-  return sortByDateDesc(unique).slice(0, limit);
 }

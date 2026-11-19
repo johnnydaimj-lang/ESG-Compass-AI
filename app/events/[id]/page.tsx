@@ -4,7 +4,6 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight, MapPin, BookOpen, Star, Flame } from "lucide-react";
 import { getContentById, getContentLink, getHomeSummary, getHomeTitle, summarizeForHome } from "@/lib/esg-data";
 import { getZonesByEventId, getZonesForContent } from "@/lib/zones-store";
-import { getRegulationsForEvent } from "@/lib/regulations";
 import { getRecommendReason } from "@/lib/recommendation";
 import { readHeatHistory } from "@/lib/publication-store";
 import ImpactCard from "@/components/ImpactCard";
@@ -135,42 +134,6 @@ export default async function EventDetailPage({ params }: Props) {
           </div>
         </section>
       ) : null; })()}
-      {/* Related regulations derived from real content */}
-      {(() => {
-        var relatedRegs = getRegulationsForEvent(item);
-        if (relatedRegs.length === 0) return null;
-        return (
-          <details className="mt-5 rounded-lg border border-line bg-surface px-5 py-4">
-            <summary className="cursor-pointer text-[13px] font-medium text-ink">
-              <BookOpen size={14} className="mr-1 inline text-brand-deep" />
-              同议题法规与标准
-              <span className="ml-1.5 rounded bg-brand-soft px-1.5 py-0.5 text-[10px] font-medium text-brand-deep">{relatedRegs.length}</span>
-            </summary>
-            <div className="mt-3 space-y-3">
-              {relatedRegs.map(function (reg) {
-                return (
-                  <div key={reg.id} className="rounded-lg border border-line bg-paper p-4 transition-colors hover:border-line-strong">
-                    <div className="mb-1 flex items-center gap-2">
-                      <span className="rounded bg-info-soft px-1.5 py-0.5 text-[10px] font-medium text-info">{reg.contentType}</span>
-                      <span className="text-[11px] text-ink-faint">{reg.sourceName}</span>
-                      <time className="ml-auto font-mono text-[10px] text-ink-faint">{formatPublishedAt(reg.publishedAt)}</time>
-                    </div>
-                    <h3 className="mb-1 text-[13px] font-semibold text-ink">{getHomeTitle(reg)}</h3>
-                    <p className="mb-2 text-[12px] leading-relaxed text-ink-soft">{getHomeSummary(reg)}</p>
-                    <a href={getContentLink(reg)} target="_blank" rel="noreferrer"
-                      className="inline-flex items-center gap-1 text-[11px] font-medium text-brand-deep hover:underline">
-                      阅读原文 <ArrowUpRight size={11} />
-                    </a>
-                  </div>
-                );
-              })}
-            </div>
-          </details>
-        );
-      })()}
-
-
-
     </article>
   );
 }
