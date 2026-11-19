@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-19",
+  "scope": "研究参考，不是已部署依赖；head来自GitHub API，文档为默认分支当日读取，固定SHA文档读取失败，不能声称逐文件与该SHA完全一致。",
+  "userPriorities": [
+    "几分钟看懂重要ESG事件",
+    "持续跟踪行业/议题",
+    "举一反三，理解企业自身可检查或采取的行动",
+    "优先改善UI层级与信源可靠性/重复"
+  ],
+  "repositories": [
+    {
+      "repo": "KKKKhazix/AIHOT",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "head": "88b114d7efbcdee17c3fc4d2e29c27672178e10a",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-11-18T23:05:49Z",
+      "review": "README、package.json、精选/信源/综述评测文档；未安装运行，未作生产性能验证",
+      "reuse": "评测样本、信息增量判断、正式信源预览和更正机制；保留Compass现有架构",
+      "reject": "整体迁入其当前monorepo、数据库及API/worker/web部署形态",
+      "evidence": [
+        "https://raw.githubusercontent.com/KKKKhazix/AIHOT/main/docs/selection.md",
+        "https://raw.githubusercontent.com/KKKKhazix/AIHOT/main/docs/sources.md",
+        "https://raw.githubusercontent.com/KKKKhazix/AIHOT/main/docs/story-digest-evaluation.md",
+        "https://raw.githubusercontent.com/KKKKhazix/AIHOT/main/package.json"
+      ]
+    },
+    {
+      "repo": "miniflux/v2",
+      "url": "https://github.com/miniflux/v2",
+      "head": "eea1ec706fcd40687032804d197bb67cb0d96ef4",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-11-19T04:08:18Z",
+      "review": "README及官方功能文档；未安装运行；一次猜测的fetcher源码路径404，未作为证据",
+      "reuse": "阅读优先、按需展开、规范化链接及简洁交互模式",
+      "reject": "将面向个人的未读收件箱或其Go/PostgreSQL后端整套移入专业资讯产品",
+      "evidence": [
+        "https://miniflux.app/features.html",
+        "https://github.com/miniflux/v2"
+      ]
+    },
+    {
+      "repo": "sansan0/TrendRadar",
+      "url": "https://github.com/sansan0/TrendRadar",
+      "head": "86584f5544c66d4e22132f9b87c44a7ea3a32fea",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-11-15T13:32:07Z",
+      "review": "README功能与更新记录、许可证；未安装运行",
+      "reuse": "RSS guid判重、分析范围与推送范围分开、仅新增通知的降噪思路",
+      "reject": "以热榜热度定义ESG重要性、默认加入多平台推送或MCP分析后台",
+      "evidence": [
+        "https://github.com/sansan0/TrendRadar",
+        "https://raw.githubusercontent.com/sansan0/TrendRadar/master/LICENSE"
+      ]
+    },
+    {
+      "repo": "DIYgod/RSSHub",
+      "url": "https://github.com/DIYgod/RSSHub",
+      "head": "58101c4e5fe57e3136ae441bec76e0a27e915d97",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-11-19T13:44:57Z",
+      "review": "README及许可证；部署文档读取403；未验证任何ESG路由覆盖和稳定性",
+      "reuse": "仅对确有缺口、可验证的原始网站补充RSS适配通道",
+      "reject": "把公共实例当全部信源的单点依赖；或把抓取通道当作原始发布者",
+      "evidence": [
+        "https://raw.githubusercontent.com/DIYgod/RSSHub/master/README.md",
+        "https://raw.githubusercontent.com/DIYgod/RSSHub/master/LICENSE"
+      ]
+    }
+  ],
+  "localAudit": {
+    "publicationSha256": "B438B4344D4E0D68EFA70A026F051209B03AE53551360DF6C4FF84CDE555F794",
+    "rawRecords": 1998,
+    "eligibleRecords": 499,
+    "collapsedStories": 426,
+    "curatedRecords": 26,
+    "missingExplicitReasons": 0,
+    "reasonEqualsSummaryFirstSentence": 0,
+    "fullEligibleJsonBytes": 929619,
+    "proposedThirtyCardProjectionBytes": 25797,
+    "measurementBoundary": "本地文件与纯函数测量；未压缩JSON大小，不是HTTP传输、LCP或线上性能测量；精简投影未含所有筛选/热点元数据。",
+    "codeRisks": [
+      {
+        "file": "lib/pipeline/collect.ts",
+        "function": "sourceTierFor",
+        "observation": "同一发布者仅变通道rss/webpage/api，分别输出T1_5/T2/T1；信源身份与通道耦合。",
+        "status": "纯函数探针复现"
+      },
+      {
+        "file": "lib/pipeline/collect.ts",
+        "function": "toPublishedTimestamp",
+        "observation": "空日期回退当前时间，RSS收集路径直接使用；存在旧文被当作新文的风险。",
+        "status": "静态代码确认；未统计生产受影响量"
+      },
+      {
+        "file": "lib/feed-policy.ts",
+        "function": "collapseByStory",
+        "observation": "同精选状态优先早发布时间；后续进展可能继续展示旧代表稿。",
+        "status": "静态代码风险；需真实样本评测"
+      },
+      {
+        "file": "lib/pipeline/cluster.ts",
+        "function": "clusterMaterials",
+        "observation": "14天窗口、词频余弦相似度和阈值决定关系；没有独立的事实增量/阶段判定。",
+        "status": "静态代码确认；不能据此宣称已经存在多少误合并"
+      }
+    ]
+  },
+  "productChangesMade": false
+}

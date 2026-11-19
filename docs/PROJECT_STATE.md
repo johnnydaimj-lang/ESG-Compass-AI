@@ -4,6 +4,8 @@ Last updated: 2026-11-19
 
 ## Current release
 
+2026-11-19 lean-refactor research (no implementation): user prioritizes quick identification of important events plus ongoing industry/topic tracking, with transferable lessons for the user's own business; UI hierarchy and source quality/deduplication come first. docs/ESG_COMPASS_REFACTOR_REVIEW.md and data/research/refactor-reference-snapshot.json compare AIHOT, Miniflux, TrendRadar and RSSHub. Existing Compass architecture already borrows AIHOT patterns. Read-only audit identified channel-based source tiers, missing-date fallback to current time, oldest-story representative selection, lexical clustering and all-record client payload as candidates for focused improvement; no production impact count or error rate is claimed. Local snapshot: 1,998 records, 499 eligible, 426 collapsed stories, 26 eligible curated records with explicit reasons. Source and product code remain unchanged; future implementation should update PRD/architecture with acceptance checks.
+
 - Publication data: 1871 contents
 - Curated contents: 19
 - Publicly visible contents: 567
