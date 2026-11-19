@@ -1,6 +1,6 @@
 # ESG Compass Project State
 
-Last updated: 2026-11-18
+Last updated: 2026-11-19
 
 ## Current release
 
@@ -13,6 +13,8 @@ Last updated: 2026-11-18
 - Production site: https://esg-compass-ai.vercel.app
 
 ## Climate risk lab
+
+2026-11-19 production release: after the user's explicit confirmation, commit 459ace58ae8d7b3395c75bb189534cc285447892 was fast-forward pushed to origin/main; origin/v2 points to the same release. GitHub deployment 7914979405 reports success for Production. The canonical https://esg-compass-ai.vercel.app/climate-lab returns HTTP 200, shows the new case-scope filter and 19 cases, includes NASA data, and no longer contains the old illustrative value-index bridge. The earlier approval block below is resolved. Research commit f33c551 remains local and was not included in this production release. Existing uncommitted content-ops/weekly/source-health changes were excluded.
 
 2026-11-18 release/research follow-up: commit 459ace5 pushed to origin/v2. Production main push was rejected by automatic approval review; explicit confirmation was requested. Browser inspection confirmed the production climate-lab still shows the old illustrative multiplier/value-index UI, so the new release is NOT live. No workaround deployment was attempted. New research covers 17 issuers across mainland China, Hong Kong, Taiwan, France, Germany, Netherlands, Denmark, UK, US, Singapore, Australia, Japan, Canada and Switzerland: 14 relevant-section/selected-page reviews and 3 indexed excerpts pending full-page verification. Italy Enel and Spain Iberdrola remain additional indexed leads, outside the 17 core samples. See docs/CLIMATE_DISCLOSURE_BENCHMARKS.md and docs/CLIMATE_DISCLOSURE_WORKPAPER_SPEC.md; structured reference data is data/research/climate-disclosure-benchmarks.json. No report-generation UI or model has been implemented in this research batch.
 
