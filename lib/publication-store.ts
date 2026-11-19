@@ -56,6 +56,10 @@ export function readPublishedContents(): ContentItem[] {
   return readJson<ContentItem[]>(CONTENTS_FILE, []);
 }
 
+export function readEventProgress(): unknown {
+  return readJson<unknown>(resolve(PUBLICATION_DIR, "event-progress.json"), null);
+}
+
 export function readStories(): StoryCluster[] {
   return readJson<StoryCluster[]>(STORIES_FILE, []);
 }

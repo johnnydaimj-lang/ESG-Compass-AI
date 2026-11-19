@@ -2,13 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight, MapPin, BookOpen, Star, Flame } from "lucide-react";
-import { getAllContents, getContentById, getContentLink, getHomeSummary, getHomeTitle, summarizeForHome } from "@/lib/esg-data";
+import { getContentById, getContentLink, getHomeSummary, getHomeTitle, summarizeForHome } from "@/lib/esg-data";
 import { getZonesByEventId, getZonesForContent } from "@/lib/zones-store";
 import { getRegulationsForEvent } from "@/lib/regulations";
 import { getRecommendReason } from "@/lib/recommendation";
 import { readHeatHistory } from "@/lib/publication-store";
 import ImpactCard from "@/components/ImpactCard";
 import HeatChart from "@/components/HeatChart";
+import EventProgress from "@/components/EventProgress";
+import { getProgressForEvent } from "@/lib/event-progress-store";
+import { isFeedEligible } from "@/lib/feed-policy";
 
 function formatPublishedAt(value: string): string {
   if (!/[T\s]/.test(value)) return value;
@@ -29,12 +32,13 @@ interface Props { params: Promise<{ id: string }> }
 export const dynamic = "force-dynamic";
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id: rawId } = await params; const id = decodeURIComponent(rawId); const item = getContentById(id);
-  return { title: item ? getHomeTitle(item) : "事件详情" }
+  return { title: item && isFeedEligible(item) ? getHomeTitle(item) : "事件详情" }
 }
 
 export default async function EventDetailPage({ params }: Props) {
   const { id: rawId } = await params; const id = decodeURIComponent(rawId); const item = getContentById(id);
-  if (!item) notFound();
+  if (!item || !isFeedEligible(item)) notFound();
+  const progress = getProgressForEvent(item.id);
   const recommendReason = item.recommended ? getRecommendReason(item) : null;
   const heatHistory = readHeatHistory();
   const heatPoints = item.pipeline?.storyId ? heatHistory?.stories[item.pipeline.storyId] || [] : [];
@@ -67,18 +71,20 @@ export default async function EventDetailPage({ params }: Props) {
           {item.bodyZh?.trim() ? summarizeForHome(item.bodyZh, 600) : summarizeForHome(getHomeSummary(item), 600)}
         </p>
       </section>
+      {progress && <EventProgress matter={progress} currentId={item.id} />}
       {heatPoints.length > 1 && (
-        <section className="mb-8 rounded-lg border border-line bg-surface px-5 py-4">
-          <div className="mb-2 flex items-center gap-1.5 text-[13px] font-semibold text-ink">
-            <Flame size={13} className="text-risk" />热度趋势
-          </div>
+        <details className="mb-8 rounded-lg border border-line bg-surface px-5 py-4">
+          <summary className="cursor-pointer text-[13px] font-semibold text-ink">
+            <Flame size={13} className="mr-1 inline text-risk" />热度趋势
+          </summary>
           <HeatChart points={heatPoints} />
-        </section>
+        </details>
       )}
       {(item.sourceRefs?.length || 0) > 0 && (
-        <section className="mb-8 rounded-lg border border-line bg-surface px-5 py-4">
-          <h2 className="mb-3 text-[13px] font-semibold text-ink">其他相关报道</h2>
-          <div className="space-y-2">
+        <details className="mb-8 rounded-lg border border-line bg-surface px-5 py-4">
+          <summary className="cursor-pointer text-[13px] font-semibold text-ink">其他相关报道 · {item.sourceRefs!.length}</summary>
+          <p className="mt-2 text-[11px] text-ink-faint">相关报道用于补充阅读，不计为新增进展。</p>
+          <div className="mt-3 space-y-2">
             {item.sourceRefs!.map((ref) => (
               <a key={`${ref.sourceName}-${ref.sourceUrl}`} href={ref.sourceUrl} target="_blank" rel="noreferrer"
                 className="block rounded-md border border-line bg-paper px-3 py-2 transition-colors hover:border-brand-line">
@@ -91,7 +97,7 @@ export default async function EventDetailPage({ params }: Props) {
               </a>
             ))}
           </div>
-        </section>
+        </details>
       )}
       <section className="mb-8 rounded-lg bg-paper px-5 py-4">
         <div className="mb-2 text-[11px] font-semibold tracking-wide text-ink-faint uppercase">ESG 议题（SASB）</div>
@@ -134,20 +140,20 @@ export default async function EventDetailPage({ params }: Props) {
         var relatedRegs = getRegulationsForEvent(item);
         if (relatedRegs.length === 0) return null;
         return (
-          <section className="rounded-lg border border-line bg-surface px-5 py-4">
-            <h2 className="mb-3 flex items-center gap-1.5 text-[13px] font-medium text-ink">
-              <BookOpen size={14} className="text-brand-deep" />
-              相关法规与标准
+          <details className="mt-5 rounded-lg border border-line bg-surface px-5 py-4">
+            <summary className="cursor-pointer text-[13px] font-medium text-ink">
+              <BookOpen size={14} className="mr-1 inline text-brand-deep" />
+              同议题法规与标准
               <span className="ml-1.5 rounded bg-brand-soft px-1.5 py-0.5 text-[10px] font-medium text-brand-deep">{relatedRegs.length}</span>
-            </h2>
-            <div className="space-y-3">
+            </summary>
+            <div className="mt-3 space-y-3">
               {relatedRegs.map(function (reg) {
                 return (
                   <div key={reg.id} className="rounded-lg border border-line bg-paper p-4 transition-colors hover:border-line-strong">
                     <div className="mb-1 flex items-center gap-2">
                       <span className="rounded bg-info-soft px-1.5 py-0.5 text-[10px] font-medium text-info">{reg.contentType}</span>
                       <span className="text-[11px] text-ink-faint">{reg.sourceName}</span>
-                      <time className="ml-auto font-mono text-[10px] text-ink-faint">{reg.publishedAt}</time>
+                      <time className="ml-auto font-mono text-[10px] text-ink-faint">{formatPublishedAt(reg.publishedAt)}</time>
                     </div>
                     <h3 className="mb-1 text-[13px] font-semibold text-ink">{getHomeTitle(reg)}</h3>
                     <p className="mb-2 text-[12px] leading-relaxed text-ink-soft">{getHomeSummary(reg)}</p>
@@ -159,7 +165,7 @@ export default async function EventDetailPage({ params }: Props) {
                 );
               })}
             </div>
-          </section>
+          </details>
         );
       })()}
 

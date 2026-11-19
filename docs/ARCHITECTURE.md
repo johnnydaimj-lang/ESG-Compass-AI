@@ -263,3 +263,13 @@ five-year case collector -> evidence gate -> case index
 - 许可风险：源清单配置许可与再分发权限，构建阶段阻止未授权数据发布。
 - 会计风险：所有输出定位为影响解释和敏感性，不形成估值、审计或减值结论。
 - 产品复杂度：实验室使用首页子栏目入口与独立页面，不进入顶级导航，不增加独立工作台、企业档案或预警中心。
+
+## 10. 事项进展（2026-11-19）
+
+新增可选人工维护快照 `data/publication/event-progress.json`（version 1），以稳定事项 id、明确 zoneIds 及 contentId 关联阶段、变化、自查问题和实际事件日期。原新闻正文、来源、报道日期仍从 contents.json 解析；不复制正文，不修改新闻标题或日期，不依据 storyId/sourceRefs 自动生成节点。
+
+`publication-store.readEventProgress` 使用现有文件缓存并以 unknown 返回；`event-progress.resolveProgress` 执行结构、日期、公开资格、重复和事项冲突过滤；`event-progress-store` 提供事件与专区共用查询。缺失快照或未知版本不显示模块。常规 publication bundle 不覆盖此文件。
+
+事件详情服务端读取事项，`EventProgress` 以原生 details 实现最近三条及展开更早节点，单节点仅显示摘要与证据；相关报道、热度趋势及同议题法规折叠。详情及页面元数据执行 isFeedEligible。专区服务端读取显式 zoneIds 关联，默认五项，链接最新有效节点的详情锚点。首页组件、排序、collapseByStory 和采集评分均不调整，公开 API 契约保持不变。
+
+初始两个事项各一条记录，不声称完整历史或实时法律核验。进展结构、编辑维护规则、验收和后续边界见 `EVENT_PROGRESS_TECHNICAL_PLAN.md`。

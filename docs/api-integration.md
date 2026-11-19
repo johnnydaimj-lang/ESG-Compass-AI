@@ -131,3 +131,7 @@ for (const item of payload.items) {
 - 鉴权失败返回 `401`。
 - 服务端未配置私有密钥返回 `503`。
 - 公开接口只返回通过评分与摘要质量门槛的内容。
+
+## 2026-11-19：事项进展快照
+
+公开内容 API 的响应字段和筛选不变。本批事项进展仅由服务端页面读取 `data/publication/event-progress.json`（version 1），通过 contentId 引用既有公开合格内容，事件详情与知识专区共用查询。没有新增接口或自动写入任务；常规采集发布不覆盖人工维护的事项文件。快照缺失或版本不支持时不显示进展模块，不回退旧内容。运营 schema 与维护步骤见 `EVENT_PROGRESS_TECHNICAL_PLAN.md`。

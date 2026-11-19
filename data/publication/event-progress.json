@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "organizedAt": "2026-11-19",
+  "evidenceScope": "依据已发布中文摘要整理事项关联与阶段，未在本批次重新核验原始立法文件；不作为实时法律状态或完整历史。",
+  "matters": [
+    {
+      "id": "uk-human-rights-due-diligence",
+      "title": "英国强制性人权尽职调查立法计划",
+      "region": "英国",
+      "zoneIds": ["sustainable-supply-chain", "labor-human-rights"],
+      "selfChecks": ["企业可先核对英国业务及供应链的人权风险识别、供应商评估和申诉机制，待适用范围与实施时间明确后再判断具体义务。"],
+      "entries": [
+        {
+          "id": "legislation-commitment",
+          "contentId": "src-fu90e2",
+          "stage": "宣布立法计划",
+          "change": "据所收录报道，英国政府宣布拟引入强制性人权尽职调查制度；实施立法尚无时间表，不能据此认定新制度已经生效。",
+          "occurredOn": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "eu-sustainability-assurance-consultation",
+      "title": "欧盟可持续报告有限鉴证准则咨询",
+      "region": "欧盟",
+      "zoneIds": ["esg-disclosure"],
+      "selfChecks": ["企业可核对可持续报告数据的证据留存、内部控制及鉴证准备情况；草案内容和实施时间应以最终发布文件为准。"],
+      "entries": [
+        {
+          "id": "draft-consultation",
+          "contentId": "src-iauei6",
+          "stage": "草案公众咨询",
+          "change": "据所收录报道，欧盟委员会就可持续报告有限鉴证准则草案征求意见，涉及鉴证范围、适用标准与实施时间；咨询截止时间不等于生效时间。"
+        }
+      ]
+    }
+  ]
+}
