@@ -1,7 +1,7 @@
 {
   "version": 1,
   "organizedAt": "2026-11-19",
-  "evidenceScope": "依据已发布中文摘要整理事项关联与阶段，未在本批次重新核验原始立法文件；不作为实时法律状态或完整历史。",
+  "evidenceScope": "事项进展依据已发布摘要整理；英国政府立法声明、欧盟鉴证咨询页面及英国律所解读于2026-11-19核验具体文档与关联位置，不代表完整历史或实时法律状态。",
   "matters": [
     {
       "id": "uk-human-rights-due-diligence",
@@ -9,6 +9,28 @@
       "region": "英国",
       "zoneIds": ["sustainable-supply-chain", "labor-human-rights"],
       "selfChecks": ["企业可先核对英国业务及供应链的人权风险识别、供应商评估和申诉机制，待适用范围与实施时间明确后再判断具体义务。"],
+      "policy": {
+        "issuer": "英国商业、创新、科学与贸易部",
+        "issuerHost": "questions-statements.parliament.uk",
+        "document": {
+          "title": "Responsible Business Conduct",
+          "url": "https://questions-statements.parliament.uk/written-statements/detail/2026-11-04/HCWS454",
+          "kind": "立法声明",
+          "documentNumber": "HCWS454",
+          "publishedOn": "2026-11-04",
+          "verifiedOn": "2026-11-19",
+          "evidenceLocator": "Statement：We will legislate 段落说明拟引入强制性人权尽职调查，后续段落说明将待议会时间允许推进；Statement from 标明发布部门。"
+        },
+        "insights": [
+          {
+            "contentId": "src-fu90e2",
+            "authors": ["Jonathan Benson", "Andrew M. Good", "Jack Zaher", "Georgina V. Valtcheva"],
+            "angle": "世达分析了该立法计划与既有人权披露制度的区别，并讨论供应链风险评估及供应商合同的准备工作。",
+            "evidenceLocator": "开头 On 4 November 2026 段落直接链接政府声明；Next Steps for In-Scope Organisations 分析企业准备工作。",
+            "reviewedOn": "2026-11-19"
+          }
+        ]
+      },
       "entries": [
         {
           "id": "legislation-commitment",
@@ -25,6 +47,19 @@
       "region": "欧盟",
       "zoneIds": ["esg-disclosure"],
       "selfChecks": ["企业可核对可持续报告数据的证据留存、内部控制及鉴证准备情况；草案内容和实施时间应以最终发布文件为准。"],
+      "policy": {
+        "issuer": "欧盟委员会（DG FISMA）",
+        "issuerHost": "finance.ec.europa.eu",
+        "document": {
+          "title": "Targeted consultation on limited assurance standard",
+          "url": "https://finance.ec.europa.eu/regulation-and-supervision/consultations-0/targeted-consultation-limited-assurance-standard_en",
+          "kind": "咨询文件",
+          "publishedOn": "2026-11-12",
+          "verifiedOn": "2026-11-19",
+          "evidenceLocator": "Details 列出开放与截止日期；Why we are consulting 说明制定有限鉴证标准的目的；Reference documents 提供正式咨询文件。"
+        },
+        "insights": []
+      },
       "entries": [
         {
           "id": "draft-consultation",

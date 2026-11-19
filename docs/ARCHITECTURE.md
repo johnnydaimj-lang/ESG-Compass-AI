@@ -272,8 +272,14 @@ five-year case collector -> evidence gate -> case index
 
 事件详情服务端读取事项，`EventProgress` 以原生 details 实现最近三条及展开更早节点，单节点仅显示摘要与证据；相关报道与热度趋势折叠，不显示同议题法规推荐。详情及页面元数据执行 isFeedEligible。专区服务端读取显式 zoneIds 关联，默认五项，链接最新有效节点的详情锚点。首页组件、排序、collapseByStory 和采集评分均不调整，公开 API 契约保持不变。
 
-初始两个事项各一条记录，不声称完整历史或实时法律核验。进展结构、编辑维护规则、验收和后续边界见 `EVENT_PROGRESS_TECHNICAL_PLAN.md`。
+初始两个事项各一条记录，不声称完整历史或实时法律状态；10.2 的官方原文核验仅对应所关联文档及其时点。进展结构、编辑维护规则、验收和后续边界见 `EVENT_PROGRESS_TECHNICAL_PLAN.md`。
 
 ### 10.1 移除事件泛法规关联
 
 删除 `getRegulationsForEvent` 及详情渲染调用，避免将专区关键词候选误作事件直接关联；`getRegulationsForZone` 继续仅供知识专区主题聚合。没有新增采集任务、数据契约或公开 API。产品地图同步去除事件法规推荐描述。未来如建立事件法规引用，需独立核验具体条款／适用义务及证据位置，不能重新以关键词或 storyId 回退填充；该能力本批未实现。
+
+### 10.2 发布机构原文与解读
+
+复用 `event-progress.json` version 1，在事项上增加可选 policy，存放经核验的发布机构具体文档与解读 contentId 关联，不新增数据库。`policy-context.ts` 负责运行时验证、来源 URL 去重及公开资格过滤，`resolveProgress` 只附加有效 policy；原事项无 policy 或校验失败时仍可显示进展。`getProgressForEvent` 可通过有效解读找到同一事项，歧义关联隐藏。`PolicySource` 在详情上方突出官方文档并保留新闻来源；`PolicyInsights` 在下方按三条渐进展示具体解读。sourceRefs 仍仅作候选补充，既有日期不用于推断官方发布时间。
+
+`trace-upstream` 不再将新闻时间赋予新上游链接，URL 去重保留功能查询参数；`extractUpstreamLinks` 接纳 PDF 文档候选，不自动授予官方身份。未修改采集信源清单或公开 API。两项人工核验作为首批覆盖，原文自动版本检测与全量历史回填尚未实现。详细数据契约、证据定位与后续版本策略见 `POLICY_SOURCE_AND_INSIGHT_PLAN.md`。

@@ -1,5 +1,6 @@
 import type { ContentItem } from "@/lib/contracts/content";
 import { isFeedEligible } from "@/lib/feed-policy";
+import { resolvePolicyContext, type PolicyContext, type ResolvedPolicyContext } from "@/lib/policy-context";
 
 export interface ProgressEntry {
   id: string;
@@ -16,11 +17,13 @@ export interface ProgressMatter {
   zoneIds: string[];
   selfChecks: string[];
   entries: ProgressEntry[];
+  policy?: PolicyContext;
 }
 
-export interface ResolvedProgress extends Omit<ProgressMatter, "entries"> {
+export interface ResolvedProgress extends Omit<ProgressMatter, "entries" | "policy"> {
   entries: (ProgressEntry & { content: ContentItem; date: string; dateLabel: string })[];
   href: string;
+  policy?: ResolvedPolicyContext;
 }
 
 function nonempty(value: unknown): value is string {
@@ -72,7 +75,8 @@ export function resolveProgress(snapshot: unknown, contents: readonly ContentIte
     entries.sort((a, b) => b.date.localeCompare(a.date) || b.content.publishedAt.localeCompare(a.content.publishedAt) || a.id.localeCompare(b.id));
     if (!entries.length) continue;
     result.push({ id: raw.id, title: raw.title, region: raw.region, zoneIds: raw.zoneIds,
-      selfChecks: raw.selfChecks, entries, href: `/events/${encodeURIComponent(entries[0].contentId)}#event-progress` });
+      selfChecks: raw.selfChecks, entries, href: `/events/${encodeURIComponent(entries[0].contentId)}#event-progress`,
+      policy: resolvePolicyContext(raw.policy, contents) });
   }
   // Ambiguous membership is hidden until corrected rather than picking an arbitrary matter.
   const counts = new Map<string, number>();

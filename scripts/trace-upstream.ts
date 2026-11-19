@@ -1,9 +1,10 @@
-// 综合门户上游溯源：从门户 RSS 正文中提取官方/一手链接，写入 sourceRefs。
+// 综合门户上游溯源：从门户 RSS 正文中提取上游候选链接，写入 sourceRefs，须另行核验。
 // 目前先接入 ESG Today，后续可通过 PORTALS 扩展其他门户。
 
 import Parser from "rss-parser";
 import { readPublishedContents, writePublishedContents } from "@/lib/publication-store";
 import { extractUpstreamLinks } from "@/lib/upstream";
+import { sourceKey } from "@/lib/policy-context";
 
 interface PortalConfig {
   id: string;
@@ -25,12 +26,7 @@ const PORTALS: PortalConfig[] = [
 ];
 
 function normalizeUrl(value: string): string {
-  try {
-    const url = new URL(value);
-    return `${url.origin}${url.pathname.replace(/\/+$/, "")}`.toLowerCase();
-  } catch {
-    return value.trim().toLowerCase();
-  }
+  return sourceKey(value) || value.trim();
 }
 
 function normalizeTitle(value: string): string {
@@ -96,7 +92,8 @@ async function main() {
           }
           continue;
         }
-        existing.set(key, { ...ref, publishedAt: item.publishedAt });
+        // The report's timestamp is not the linked document's publication date.
+        existing.set(key, { ...ref });
         itemAdded += 1;
         itemChanged = true;
       }

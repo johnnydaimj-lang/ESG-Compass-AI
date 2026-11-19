@@ -52,7 +52,7 @@ GET /api/v1/public/contents?curated=true&pageSize=20
 - `reason`：仅精选内容返回推荐理由。
 - `score`：综合评分。
 - `sourceName`、`articleUrl`、`link`：来源与原文地址。
-- `sourceRefs`：已溯源到的一手信源。
+- `sourceRefs`：从来源文章提取或整理的补充链接候选，不保证全部为发布机构原文；旧记录的日期可能沿用报道日期，不应当作被引文档的发布日期。
 - `zones`：所属知识专区。
 
 ### 内容详情
@@ -135,3 +135,7 @@ for (const item of payload.items) {
 ## 2026-11-19：事项进展快照
 
 公开内容 API 的响应字段和筛选不变。本批事项进展仅由服务端页面读取 `data/publication/event-progress.json`（version 1），通过 contentId 引用既有公开合格内容，事件详情与知识专区共用查询。没有新增接口或自动写入任务；常规采集发布不覆盖人工维护的事项文件。快照缺失或版本不支持时不显示进展模块，不回退旧内容。运营 schema 与维护步骤见 `EVENT_PROGRESS_TECHNICAL_PLAN.md`。
+
+## 发布机构文档与解读关联
+
+事项快照 version 1 扩展可选 `policy`（issuer、issuerHost、document、insights）。仅服务端详情页使用，不自动暴露为公开 API 字段。来源文章与官方文档分别标注；解读只引用通过公开资格校验的 contentId，不从 sourceRefs 或故事簇自动推导。`trace:upstream` 新提取链接不再继承报道发布时间，并接纳 PDF 候选；新旧链接均需核验后才可成为政策官方原文。数据结构、更新流程和首批证据见 `POLICY_SOURCE_AND_INSIGHT_PLAN.md`。

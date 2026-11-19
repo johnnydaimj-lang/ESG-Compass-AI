@@ -28,3 +28,10 @@ test("extractUpstreamLinks can drop secondhand news domains", () => {
   assert.deepEqual(refs.map((ref) => ref.sourceName), ["美国 SEC"]);
 });
 
+test("upstream candidates include PDF documents but still exclude images and scripts", () => {
+  const refs = extractUpstreamLinks(`<a href="https://www.sec.gov/files/report.pdf">Report</a>
+    <a href="https://example.com/image.png">Image</a><a href="https://example.com/code.js">Script</a>`, "https://www.esgtoday.com/article/");
+  assert.deepEqual(refs.map((ref) => ref.sourceUrl), ["https://www.sec.gov/files/report.pdf"]);
+  assert.equal(refs[0].publishedAt, undefined);
+});
+

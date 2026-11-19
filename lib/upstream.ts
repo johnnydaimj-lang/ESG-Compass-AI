@@ -14,7 +14,7 @@ const SOCIAL_DOMAINS = [
   "threads.net",
 ];
 
-// 综合门户/财经媒体属于二手来源，不作为“官方原文”返回。
+// 默认排除常见二手媒体；其余域名仍只是候选，不能据此认定“官方原文”。
 const SECONDHAND_DOMAINS = [
   "reuters.com",
   "bloomberg.com",
@@ -67,7 +67,7 @@ function matchesDomain(host: string, domains: string[]): boolean {
 }
 
 function isAsset(url: string): boolean {
-  return /\.(png|jpe?g|gif|webp|svg|css|js|pdf|zip|mp4|mp3)(\?|#|$)/i.test(url);
+  return /\.(png|jpe?g|gif|webp|svg|css|js|zip|mp4|mp3)(\?|#|$)/i.test(url);
 }
 
 function labelForHost(host: string): string {

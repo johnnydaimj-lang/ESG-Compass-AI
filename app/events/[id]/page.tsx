@@ -11,6 +11,8 @@ import HeatChart from "@/components/HeatChart";
 import EventProgress from "@/components/EventProgress";
 import { getProgressForEvent } from "@/lib/event-progress-store";
 import { isFeedEligible } from "@/lib/feed-policy";
+import { PolicySource, PolicyInsights } from "@/components/PolicyContext";
+import { sourceKey } from "@/lib/policy-context";
 
 function formatPublishedAt(value: string): string {
   if (!/[T\s]/.test(value)) return value;
@@ -38,6 +40,16 @@ export default async function EventDetailPage({ params }: Props) {
   const { id: rawId } = await params; const id = decodeURIComponent(rawId); const item = getContentById(id);
   if (!item || !isFeedEligible(item)) notFound();
   const progress = getProgressForEvent(item.id);
+  const policy = progress?.policy;
+  const usedSources = new Set([getContentLink(item), policy?.document.url,
+    ...(policy?.insights.map((insight) => getContentLink(insight.content)) || [])]
+    .filter((url): url is string => !!url).map(sourceKey));
+  const extraSources = (item.sourceRefs || []).filter((ref) => {
+    const key = sourceKey(ref.sourceUrl);
+    if (!key || usedSources.has(key)) return false;
+    usedSources.add(key);
+    return true;
+  });
   const recommendReason = item.recommended ? getRecommendReason(item) : null;
   const heatHistory = readHeatHistory();
   const heatPoints = item.pipeline?.storyId ? heatHistory?.stories[item.pipeline.storyId] || [] : [];
@@ -58,12 +70,12 @@ export default async function EventDetailPage({ params }: Props) {
         )}
       </div>
       <h1 className="mb-6 text-2xl leading-snug font-semibold tracking-tight text-ink">{getHomeTitle(item)}</h1>
-      <div className="mb-8 flex flex-wrap items-center gap-3 rounded-lg border border-line bg-surface px-5 py-4">
+      {policy ? <PolicySource policy={policy} item={item} /> : <div className="mb-8 flex flex-wrap items-center gap-3 rounded-lg border border-line bg-surface px-5 py-4">
         <div className="text-[13px] text-ink-soft">来源：<span className="font-medium text-ink">{item.sourceName}</span></div>
         <a href={getContentLink(item)} target="_blank" rel="noreferrer" className="ml-auto inline-flex items-center gap-1.5 rounded-md border border-brand-line bg-brand-soft px-3 py-1.5 text-[12.5px] font-medium text-brand-deep transition-colors hover:bg-brand-line/50">
-          阅读原文<ArrowUpRight size={13} />
+          阅读来源文章<ArrowUpRight size={13} />
         </a>
-      </div>
+      </div>}
       <section className="mb-8">
         <h2 className="mb-2 text-[13px] font-semibold tracking-wide text-ink-faint uppercase">摘要</h2>
         <p className="text-[14.5px] leading-relaxed text-ink">
@@ -79,17 +91,16 @@ export default async function EventDetailPage({ params }: Props) {
           <HeatChart points={heatPoints} />
         </details>
       )}
-      {(item.sourceRefs?.length || 0) > 0 && (
+      {extraSources.length > 0 && (
         <details className="mb-8 rounded-lg border border-line bg-surface px-5 py-4">
-          <summary className="cursor-pointer text-[13px] font-semibold text-ink">其他相关报道 · {item.sourceRefs!.length}</summary>
-          <p className="mt-2 text-[11px] text-ink-faint">相关报道用于补充阅读，不计为新增进展。</p>
+          <summary className="cursor-pointer text-[13px] font-semibold text-ink">补充来源 · {extraSources.length}</summary>
+          <p className="mt-2 text-[11px] text-ink-faint">来源文章中的补充链接，不计为新增进展。</p>
           <div className="mt-3 space-y-2">
-            {item.sourceRefs!.map((ref) => (
+            {extraSources.map((ref) => (
               <a key={`${ref.sourceName}-${ref.sourceUrl}`} href={ref.sourceUrl} target="_blank" rel="noreferrer"
                 className="block rounded-md border border-line bg-paper px-3 py-2 transition-colors hover:border-brand-line">
                 <div className="flex flex-wrap items-center gap-2 text-[11px] text-ink-faint">
                   <span>{ref.sourceName}</span>
-                  {ref.publishedAt && <time className="font-mono">{ref.publishedAt}</time>}
                   <ArrowUpRight size={11} className="ml-auto" />
                 </div>
                 {ref.title && <p className="mt-1 text-[12.5px] leading-snug text-ink-soft">{ref.title}</p>}
@@ -114,6 +125,8 @@ export default async function EventDetailPage({ params }: Props) {
       )}
 
       {(() => { return item.impactAnalysis ? <ImpactCard analysis={item.impactAnalysis} /> : null; })()}
+
+      {policy && <PolicyInsights policy={policy} currentId={item.id} />}
 
       {/* Zone affiliation */}
       {(() => {

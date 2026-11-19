@@ -6,7 +6,9 @@ export function getProgressMatters() {
 }
 
 export function getProgressForEvent(id: string) {
-  return getProgressMatters().find((matter) => matter.entries.some((entry) => entry.contentId === id));
+  const matches = getProgressMatters().filter((matter) => matter.entries.some((entry) => entry.contentId === id)
+    || matter.policy?.insights.some((insight) => insight.contentId === id));
+  return matches.length === 1 ? matches[0] : undefined;
 }
 
 export function getProgressForZone(id: string) {
