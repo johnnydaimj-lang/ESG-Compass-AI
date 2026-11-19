@@ -11,20 +11,15 @@ const ITEM_TYPES: Record<ContentType, UnderstandingResult["itemType"]> = {
   评级: "rating_action",
 };
 
-function authorRoleFor(material: RawMaterial, tier: SourceTier): UnderstandingResult["authorRole"] {
-  if (material.contentType === "学术") return "observer";
-  if (tier === "T1" || tier === "T1_5") return "principal";
-  if (tier === "SIGNAL") return "relayer";
-  return "observer";
-}
-
-export function understandMaterial(material: RawMaterial, sourceTier: SourceTier): UnderstandingResult {
+export function understandMaterial(material: RawMaterial, _sourceTier: SourceTier): UnderstandingResult {
   const tags = [material.contentType, material.esgTopic || "合规与监管", material.region]
     .map((tag) => compactText(tag))
     .filter(Boolean);
   return {
     itemType: ITEM_TYPES[material.contentType],
-    authorRole: authorRoleFor(material, sourceTier),
+    // Source tier and content type do not establish authorship or principal status.
+    // This deterministic fallback has no authorship evidence; use the conservative role.
+    authorRole: "relayer",
     tags: [...new Set(tags)].slice(0, 6),
     editorialJudgment: editorialJudgmentFromMaterial(material),
     titleZh: compactText(material.content.titleZh) || compactText(material.title),

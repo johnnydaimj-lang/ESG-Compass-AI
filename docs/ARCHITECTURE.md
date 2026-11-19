@@ -283,3 +283,9 @@ five-year case collector -> evidence gate -> case index
 复用 `event-progress.json` version 1，在事项上增加可选 policy，存放经核验的发布机构具体文档与解读 contentId 关联，不新增数据库。`policy-context.ts` 负责运行时验证、来源 URL 去重及公开资格过滤，`resolveProgress` 只附加有效 policy；原事项无 policy 或校验失败时仍可显示进展。`getProgressForEvent` 可通过有效解读找到同一事项，歧义关联隐藏。`PolicySource` 在详情上方突出官方文档并保留新闻来源；`PolicyInsights` 在下方按三条渐进展示具体解读。sourceRefs 仍仅作候选补充，既有日期不用于推断官方发布时间。
 
 `trace-upstream` 不再将新闻时间赋予新上游链接，URL 去重保留功能查询参数；`extractUpstreamLinks` 接纳 PDF 文档候选，不自动授予官方身份。未修改采集信源清单或公开 API。两项人工核验作为首批覆盖，原文自动版本检测与全量历史回填尚未实现。详细数据契约、证据定位与后续版本策略见 `POLICY_SOURCE_AND_INSIGHT_PLAN.md`。
+
+### 10.3 统一执行边界
+
+`prompts/source-evidence.md` 为共享信源边界，通过 rules-esg 被内容理解、评分和推荐理由引用；摘要重写、结构化、故事摘要和聚类模板也引用该规则，按原有 promptVersion 机制随内容变化更新版本。输出字段、评分权重和门槛不变。既有流水线的内容理解和事实抽取仍主要使用确定性实现，更新模板不等于已经用 LLM 替换这些环节。
+
+`understandMaterial` 不再按 T1/T1_5 或学术分类授予 principal／observer；无作者关系证据的确定性回退统一使用 relayer。此保守值不重新分类旧新闻、不改变评分，也不能作为实际作者身份的最终认定。启发式事实、聚簇与 sourceRefs 均不能作为 policy 关联核验的依据。AGENTS 和产品定义同步规定全产品遵守证据与归属规则；本批不执行全量采集、溯源回填、历史评分重算或自动上线。
