@@ -4,7 +4,7 @@ import { readFileSync } from "node:fs";
 import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import type { ContentItem } from "../lib/contracts/content";
-import { resolvePolicyContext, sourceKey, type PolicyContext } from "../lib/policy-context";
+import { resolvePolicyContext, sourceKey, policyRelationsForEvent, type PolicyContext } from "../lib/policy-context";
 import { PolicyInsights, PolicySource } from "../components/PolicyContext";
 
 const contents = JSON.parse(readFileSync("data/publication/contents.json", "utf8")) as ContentItem[];
@@ -21,11 +21,34 @@ test("verified source and interpretation keep distinct dates, issuer, authors an
   const source = renderToStaticMarkup(createElement(PolicySource, { policy: resolved, item: original }));
   const insights = renderToStaticMarkup(createElement(PolicyInsights, { policy: resolved, currentId: original.id }));
   assert.ok(source.includes("发布机构原文") && source.includes("立法声明") && source.includes("本条快讯来源"));
-  assert.ok(insights.includes("阅读解读") && insights.includes("本条快讯来源的解读"));
-  assert.ok(!insights.includes(`/events/${original.id}`));
+  assert.equal(insights, ""); // An interpretation never recommends itself.
   const eu = resolvePolicyContext(seed.matters[1].policy, contents, asOf)!;
   assert.equal(eu.insights.length, 0);
   assert.equal(renderToStaticMarkup(createElement(PolicyInsights, { policy: eu, currentId: "src-iauei6" })), "");
+});
+
+test("policy and interpretation resolve the same reviewed relation without any progress entries", () => {
+  const event = { ...original, id: "policy-event", articleUrl: "https://example.com/policy-event" };
+  const policy = { ...uk, eventIds: [event.id] };
+  const snapshot = { version: 1, matters: [{ id: "policy", policy, entries: [] }] };
+  const items = [...contents, event];
+  const forward = policyRelationsForEvent(snapshot, items, event.id, asOf);
+  const reverse = policyRelationsForEvent(snapshot, items, original.id, asOf);
+  assert.equal(forward[0].isInterpretation, false);
+  assert.equal(reverse[0].isInterpretation, true);
+  assert.equal(forward[0].policy.document.url, reverse[0].policy.document.url);
+  assert.equal(forward[0].policy.insights[0].contentId, original.id);
+  assert.ok(renderToStaticMarkup(createElement(PolicyInsights, { policy: forward[0].policy, currentId: event.id })).includes("阅读解读"));
+  assert.ok(renderToStaticMarkup(createElement(PolicySource, { policy: reverse[0].policy, item: original, isInterpretation: true })).includes("解读对应的政策／法规"));
+  assert.deepEqual(policyRelationsForEvent(snapshot, items, "missing", asOf), []);
+  assert.deepEqual(policyRelationsForEvent({ version: 2, matters: snapshot.matters }, items, event.id, asOf), []);
+});
+
+test("one interpretation may explicitly refer to multiple policies; irrelevant items do not match", () => {
+  const other = { ...uk, document: { ...uk.document, url: uk.document.url + "?version=second" } };
+  const snapshot = { version: 1, matters: [{ id: "one", policy: uk }, { id: "two", policy: other }] };
+  assert.equal(policyRelationsForEvent(snapshot, contents, original.id, asOf).length, 2);
+  assert.deepEqual(policyRelationsForEvent(snapshot, contents, "src-iauei6", asOf), []);
 });
 
 test("candidates, unsafe URLs, mismatched hosts, unknown or future verification cannot become official documents", () => {

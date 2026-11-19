@@ -289,3 +289,9 @@ five-year case collector -> evidence gate -> case index
 `prompts/source-evidence.md` 为共享信源边界，通过 rules-esg 被内容理解、评分和推荐理由引用；摘要重写、结构化、故事摘要和聚类模板也引用该规则，按原有 promptVersion 机制随内容变化更新版本。输出字段、评分权重和门槛不变。既有流水线的内容理解和事实抽取仍主要使用确定性实现，更新模板不等于已经用 LLM 替换这些环节。
 
 `understandMaterial` 不再按 T1/T1_5 或学术分类授予 principal／observer；无作者关系证据的确定性回退统一使用 relayer。此保守值不重新分类旧新闻、不改变评分，也不能作为实际作者身份的最终认定。启发式事实、聚簇与 sourceRefs 均不能作为 policy 关联核验的依据。AGENTS 和产品定义同步规定全产品遵守证据与归属规则；本批不执行全量采集、溯源回填、历史评分重算或自动上线。
+
+### 10.4 双向关联与可选进展（2026-11-20）
+
+`policyRelationsForEvent` 独立解析事项快照中的可选 policy，继续执行文档核验与内容公开门槛，不要求 resolveProgress 成功。可选 policy.eventIds 明确政策事件成员；缺省时兼容既有 entries 的明确 contentId。解读按已审核 insights.contentId 反向找到所有明确政策，不因为关联多项政策而丢弃；已核验官方文档的精确 URL 也可定位对应原文记录，不使用关键词推断。关系按文档 URL 去重。
+
+详情按关系显示政策／解读方向，相关解读排除当前 id；默认三条／三项政策，其余展开。解读页的多个进展默认折叠，单节点只保留企业自查；政策页维持现有进展行为。事项最新节点若为解读，专区链接使用 #policy-context，其余使用 #event-progress。公开 API、新闻分类字段和评分不变，无需新增数据库或时间线。回归覆盖无进展双向关系、多政策、无证据不关联及自身去重。

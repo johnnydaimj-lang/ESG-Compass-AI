@@ -9,7 +9,7 @@ import { readHeatHistory } from "@/lib/publication-store";
 import ImpactCard from "@/components/ImpactCard";
 import HeatChart from "@/components/HeatChart";
 import EventProgress from "@/components/EventProgress";
-import { getProgressForEvent } from "@/lib/event-progress-store";
+import { getProgressForEvent, getPolicyRelationsForEvent } from "@/lib/event-progress-store";
 import { isFeedEligible } from "@/lib/feed-policy";
 import { PolicySource, PolicyInsights } from "@/components/PolicyContext";
 import { sourceKey } from "@/lib/policy-context";
@@ -40,9 +40,10 @@ export default async function EventDetailPage({ params }: Props) {
   const { id: rawId } = await params; const id = decodeURIComponent(rawId); const item = getContentById(id);
   if (!item || !isFeedEligible(item)) notFound();
   const progress = getProgressForEvent(item.id);
-  const policy = progress?.policy;
-  const usedSources = new Set([getContentLink(item), policy?.document.url,
-    ...(policy?.insights.map((insight) => getContentLink(insight.content)) || [])]
+  const policyRelations = getPolicyRelationsForEvent(item.id);
+  const isInterpretation = policyRelations.some((relation) => relation.isInterpretation);
+  const usedSources = new Set([getContentLink(item), ...policyRelations.flatMap(({ policy }) =>
+    [policy.document.url, ...policy.insights.map((insight) => getContentLink(insight.content))])]
     .filter((url): url is string => !!url).map(sourceKey));
   const extraSources = (item.sourceRefs || []).filter((ref) => {
     const key = sourceKey(ref.sourceUrl);
@@ -59,7 +60,7 @@ export default async function EventDetailPage({ params }: Props) {
         <ArrowLeft size={14} />返回ESG快讯
       </Link>
       <div className="mb-4 flex flex-wrap items-center gap-1.5 text-[11px] font-medium">
-        <span className="rounded bg-brand-soft px-1.5 py-0.5 text-brand-deep">{item.contentType}</span>
+        <span className="rounded bg-brand-soft px-1.5 py-0.5 text-brand-deep">{isInterpretation ? "政策解读" : item.contentType}</span>
         <span className="inline-flex items-center gap-1 text-ink-faint"><MapPin size={11} />{item.region}</span>
         <time className="font-mono text-ink-faint">{formatPublishedAt(item.publishedAt)}</time>
         {typeof item.pipeline?.score === "number" && (
@@ -70,7 +71,13 @@ export default async function EventDetailPage({ params }: Props) {
         )}
       </div>
       <h1 className="mb-6 text-2xl leading-snug font-semibold tracking-tight text-ink">{getHomeTitle(item)}</h1>
-      {policy ? <PolicySource policy={policy} item={item} /> : <div className="mb-8 flex flex-wrap items-center gap-3 rounded-lg border border-line bg-surface px-5 py-4">
+      {policyRelations.length ? <div id="policy-context" className="scroll-mt-24">
+        {policyRelations.slice(0, 3).map((relation) => <PolicySource key={relation.matterId} policy={relation.policy} item={item} isInterpretation={relation.isInterpretation} />)}
+        {policyRelations.length > 3 && <details className="mb-8">
+          <summary className="mb-3 cursor-pointer text-[12px] text-brand-deep">更多关联政策 · {policyRelations.length - 3}</summary>
+          {policyRelations.slice(3).map((relation) => <PolicySource key={relation.matterId} policy={relation.policy} item={item} isInterpretation={relation.isInterpretation} />)}
+        </details>}
+      </div> : <div className="mb-8 flex flex-wrap items-center gap-3 rounded-lg border border-line bg-surface px-5 py-4">
         <div className="text-[13px] text-ink-soft">来源：<span className="font-medium text-ink">{item.sourceName}</span></div>
         <a href={getContentLink(item)} target="_blank" rel="noreferrer" className="ml-auto inline-flex items-center gap-1.5 rounded-md border border-brand-line bg-brand-soft px-3 py-1.5 text-[12.5px] font-medium text-brand-deep transition-colors hover:bg-brand-line/50">
           阅读来源文章<ArrowUpRight size={13} />
@@ -82,7 +89,17 @@ export default async function EventDetailPage({ params }: Props) {
           {item.bodyZh?.trim() ? summarizeForHome(item.bodyZh, 600) : summarizeForHome(getHomeSummary(item), 600)}
         </p>
       </section>
-      {progress && <EventProgress matter={progress} currentId={item.id} />}
+      {progress && (!isInterpretation ? <EventProgress matter={progress} currentId={item.id} />
+        : progress.entries.length > 1 ? <details className="mb-8">
+          <summary className="mb-3 cursor-pointer text-[12px] text-brand-deep">查看政策进展 · {progress.entries.length} 项</summary>
+          <EventProgress matter={progress} currentId={item.id} />
+        </details> : null)}
+      {isInterpretation && progress && progress.entries.length <= 1 && progress.selfChecks.length > 0 && (
+        <section className="mb-8 rounded-lg bg-paper px-5 py-4">
+          <h2 className="mb-2 text-[13px] font-semibold text-ink">企业可以检查什么</h2>
+          {progress.selfChecks.map((check) => <p key={check} className="text-[13px] leading-relaxed text-ink-soft">{check}</p>)}
+        </section>
+      )}
       {heatPoints.length > 1 && (
         <details className="mb-8 rounded-lg border border-line bg-surface px-5 py-4">
           <summary className="cursor-pointer text-[13px] font-semibold text-ink">
@@ -126,7 +143,7 @@ export default async function EventDetailPage({ params }: Props) {
 
       {(() => { return item.impactAnalysis ? <ImpactCard analysis={item.impactAnalysis} /> : null; })()}
 
-      {policy && <PolicyInsights policy={policy} currentId={item.id} />}
+      {policyRelations.map((relation) => <PolicyInsights key={relation.matterId} policy={relation.policy} currentId={item.id} isInterpretation={relation.isInterpretation} />)}
 
       {/* Zone affiliation */}
       {(() => {

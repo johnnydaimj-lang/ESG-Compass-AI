@@ -2,6 +2,7 @@ import type { ContentItem } from "@/lib/contracts/content";
 import { isFeedEligible } from "@/lib/feed-policy";
 
 export interface PolicyContext {
+  eventIds?: string[];
   issuer: string;
   issuerHost: string;
   document: {
@@ -24,6 +25,12 @@ export interface PolicyContext {
 
 export interface ResolvedPolicyContext extends Omit<PolicyContext, "insights"> {
   insights: (PolicyContext["insights"][number] & { content: ContentItem })[];
+}
+
+export interface PolicyRelation {
+  matterId: string;
+  policy: ResolvedPolicyContext;
+  isInterpretation: boolean;
 }
 
 const KINDS = new Set(["法规原文", "官方公告", "立法声明", "咨询文件"]);
@@ -50,7 +57,8 @@ export function sourceKey(value: string): string {
 
 // Editorial verification is required; a hostname, a story cluster or sourceRefs alone is insufficient.
 export function resolvePolicyContext(raw: unknown, contents: readonly ContentItem[], asOf = new Date().toISOString().slice(0, 10)): ResolvedPolicyContext | undefined {
-  if (!object(raw) || !text(raw.issuer) || !text(raw.issuerHost) || !object(raw.document) || !Array.isArray(raw.insights)) return;
+  if (!object(raw) || !text(raw.issuer) || !text(raw.issuerHost) || !object(raw.document) || !Array.isArray(raw.insights)
+    || (raw.eventIds !== undefined && (!Array.isArray(raw.eventIds) || !raw.eventIds.every(text)))) return;
   const doc = raw.document;
   if (!text(doc.title) || !text(doc.url) || !text(doc.kind) || !KINDS.has(doc.kind)
     || !date(doc.publishedOn) || !date(doc.verifiedOn) || doc.publishedOn > doc.verifiedOn || doc.verifiedOn > asOf
@@ -75,9 +83,32 @@ export function resolvePolicyContext(raw: unknown, contents: readonly ContentIte
     insights.push({ contentId: insight.contentId, authors: insight.authors as string[], angle: insight.angle,
       evidenceLocator: insight.evidenceLocator, reviewedOn: insight.reviewedOn, content });
   }
-  return { issuer: raw.issuer, issuerHost: raw.issuerHost,
+  return { issuer: raw.issuer, issuerHost: raw.issuerHost, eventIds: raw.eventIds as string[] | undefined,
     document: { title: doc.title, url: doc.url, kind: doc.kind as PolicyContext["document"]["kind"],
       publishedOn: doc.publishedOn, verifiedOn: doc.verifiedOn, evidenceLocator: doc.evidenceLocator,
       ...(doc.documentNumber ? { documentNumber: doc.documentNumber as string } : {}) },
     insights: insights.sort((a, b) => b.content.publishedAt.localeCompare(a.content.publishedAt) || a.contentId.localeCompare(b.contentId)) };
+}
+
+// A policy/interpretation relation does not require a valid progress timeline.
+export function policyRelationsForEvent(snapshot: unknown, contents: readonly ContentItem[], id: string, asOf?: string): PolicyRelation[] {
+  const current = contents.find((item) => item.id === id && isFeedEligible(item));
+  if (!current || !object(snapshot) || snapshot.version !== 1 || !Array.isArray(snapshot.matters)) return [];
+  const result: PolicyRelation[] = [];
+  const seen = new Set<string>();
+  for (const matter of snapshot.matters) {
+    if (!object(matter) || !text(matter.id)) continue;
+    const policy = resolvePolicyContext(matter.policy, contents, asOf);
+    if (!policy) continue;
+    const isInterpretation = policy.insights.some((insight) => insight.contentId === id);
+    // Explicit eventIds override legacy milestone membership. Insight membership is independent.
+    const eventIds = policy.eventIds ?? (Array.isArray(matter.entries)
+      ? matter.entries.flatMap((entry) => object(entry) && text(entry.contentId) ? [entry.contentId] : []) : []);
+    const key = sourceKey(policy.document.url);
+    if (seen.has(key) || (!isInterpretation && !eventIds.includes(id)
+      && sourceKey(current.articleUrl || current.sourceUrl) !== key)) continue;
+    seen.add(key);
+    result.push({ matterId: matter.id, policy, isInterpretation });
+  }
+  return result;
 }

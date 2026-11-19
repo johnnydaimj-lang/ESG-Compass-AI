@@ -5,12 +5,12 @@ import { sourceKey } from "@/lib/policy-context";
 import { publicationDate } from "@/lib/event-progress";
 import { getContentLink, getHomeTitle, type ContentItem } from "@/lib/contracts/content";
 
-export function PolicySource({ policy, item }: { policy: ResolvedPolicyContext; item: ContentItem }) {
+export function PolicySource({ policy, item, isInterpretation = false }: { policy: ResolvedPolicyContext; item: ContentItem; isInterpretation?: boolean }) {
   const document = policy.document;
   const sameSource = sourceKey(document.url) === sourceKey(getContentLink(item));
   return <div className="mb-8 rounded-lg border border-brand-line bg-surface p-5">
     <div className="mb-2 flex flex-wrap items-center gap-2 text-[11px]">
-      <span className="font-semibold text-brand-deep">发布机构原文</span>
+      <span className="font-semibold text-brand-deep">{isInterpretation ? "解读对应的政策／法规" : "发布机构原文"}</span>
       <span className="rounded bg-paper px-1.5 py-0.5 text-ink-soft">{document.kind}</span>
       {document.documentNumber && <span className="text-ink-faint">{document.documentNumber}</span>}
     </div>
@@ -42,15 +42,17 @@ function Insight({ insight, currentId }: { insight: ResolvedPolicyContext["insig
   </article>;
 }
 
-export function PolicyInsights({ policy, currentId }: { policy: ResolvedPolicyContext; currentId: string }) {
-  if (!policy.insights.length) return null;
-  return <section aria-labelledby="policy-insights-title" className="my-8 rounded-lg border border-line bg-surface px-5 pt-5">
-    <h2 id="policy-insights-title" className="text-[14px] font-semibold text-ink">相关解读与洞察</h2>
+export function PolicyInsights({ policy, currentId, isInterpretation = false }: { policy: ResolvedPolicyContext; currentId: string; isInterpretation?: boolean }) {
+  const insights = policy.insights.filter((insight) => insight.contentId !== currentId);
+  if (!insights.length) return null;
+  const title = isInterpretation ? "其他相关解读" : "相关解读与洞察";
+  return <section aria-label={title} className="my-8 rounded-lg border border-line bg-surface px-5 pt-5">
+    <h2 className="text-[14px] font-semibold text-ink">{title}</h2>
     <p className="mt-1 text-[11px] text-ink-faint">针对上述政策的外部分析，不代表发布机构立场。</p>
-    <div className="divide-y divide-line">{policy.insights.slice(0, 3).map((insight) => <Insight key={insight.contentId} insight={insight} currentId={currentId} />)}</div>
-    {policy.insights.length > 3 && <details className="border-t border-line py-4">
-      <summary className="cursor-pointer text-[12px] font-medium text-brand-deep">更多解读 · {policy.insights.length - 3}</summary>
-      <div className="divide-y divide-line">{policy.insights.slice(3).map((insight) => <Insight key={insight.contentId} insight={insight} currentId={currentId} />)}</div>
+    <div className="divide-y divide-line">{insights.slice(0, 3).map((insight) => <Insight key={insight.contentId} insight={insight} currentId={currentId} />)}</div>
+    {insights.length > 3 && <details className="border-t border-line py-4">
+      <summary className="cursor-pointer text-[12px] font-medium text-brand-deep">更多解读 · {insights.length - 3}</summary>
+      <div className="divide-y divide-line">{insights.slice(3).map((insight) => <Insight key={insight.contentId} insight={insight} currentId={currentId} />)}</div>
     </details>}
   </section>;
 }

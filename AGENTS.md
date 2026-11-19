@@ -41,6 +41,7 @@ Do not revert an update because one source fails. Preserve the last valid data a
 - Source tier, score, channel, domain, topic match, and story membership do not prove issuer identity, legal applicability, independent corroboration, or a new policy milestone.
 - Keep verified issuer documents distinct from source articles and attributed interpretations. Only evidence-backed, explicitly reviewed links may appear as official documents or related insights; hide unsupported associations.
 - Preserve original article attribution and dates. Interpretations, reposts, and deadline dates do not create policy progress; do not infer that a proposal or consultation is in force.
+- Policy-to-interpretation and interpretation-to-policy links are reciprocal and independent of progress timelines. Exclude the current article from related insights; never require or invent a milestone to create an otherwise verified relation.
 
 ## Product optimization protocol
 
