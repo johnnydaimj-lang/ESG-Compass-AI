@@ -2,6 +2,7 @@ import type { PrefilterResult, RawMaterial } from "@/lib/contracts/pipeline";
 import { CLEAR_NOISE_TERMS, STRONG_ESG_TERMS } from "./config";
 import { compactText, normalizeText } from "./text";
 import { isPeriodicRoundupTitle } from "@/lib/roundup-policy";
+import { isProceduralConferenceNews } from "@/lib/conference-policy";
 
 export function prefilterMaterial(material: RawMaterial): PrefilterResult {
   const title = compactText(material.title);
@@ -14,6 +15,9 @@ export function prefilterMaterial(material: RawMaterial): PrefilterResult {
   }
   if (isPeriodicRoundupTitle(title)) {
     return { label: "BLOCK", reason: "周期性汇总不进入事件时间线" };
+  }
+  if (isProceduralConferenceNews(`${title} ${material.content.titleZh || ""}`, `${summary} ${material.content.summaryZh || ""}`, body)) {
+    return { label: "BLOCK", reason: "纯会议行程、出席或会务预告，无实质 ESG 变化" };
   }
   if (CLEAR_NOISE_TERMS.some((term) => text.includes(normalizeText(term)))) {
     return { label: "BLOCK", reason: "招聘、报名或培训类内容" };

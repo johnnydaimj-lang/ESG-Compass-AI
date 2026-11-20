@@ -5,6 +5,7 @@ import {
   isTitleEcho,
 } from "@/lib/pipeline/summary-quality";
 import { isPeriodicRoundupTitle } from "@/lib/roundup-policy";
+import { isProceduralConferenceNews } from "@/lib/conference-policy";
 
 // 公开列表硬门槛：低分、摘要缺失或仅复述标题的内容不进入首页、知识专区、日报或公开 API。
 // 多源转载只用于聚类与热度，不得绕过质量门槛。
@@ -38,6 +39,7 @@ export function isFeedEligible(item: ContentItem): boolean {
   const summary = String(item.summaryZh || item.summary || "").trim();
   return !isPeriodicRoundupTitle(item.title)
     && !isPeriodicRoundupTitle(item.titleZh || "")
+    && !isProceduralConferenceNews(`${item.title} ${item.titleZh || ""}`, summary)
     && summary.length >= 20
     && summary.length <= MAX_FEED_SUMMARY_LENGTH
     && hasChinese(title)
