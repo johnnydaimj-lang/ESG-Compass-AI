@@ -1,1 +1,164 @@
-[]
+[
+  {
+    "id": "story-xdm1g9",
+    "rootId": "src-12pog7e",
+    "title": "习近平将出席亚太经合组织第三十三次领导人非正式会议及相关活动",
+    "digest": "亚太经合组织第三十三次领导人非正式会议定于11月18日至19日在深圳举行，主题为“建设亚太共同体，促进共同繁荣”，国家主席习近平将主持会议并发表讲话。工商领导人峰会于11月17日至18日在深圳举行，主题为“共促繁荣，共赢未来”，习近平将出席开幕式并作主旨演讲。会议期间，习近平还将为与会各经济体领导人或代表举行欢迎宴会，并同外国领导人举行双边会晤。",
+    "latest": "习近平在亚太经合组织第三十三次领导人非正式会议上的讲话（全文）",
+    "memberIds": [
+      "src-12pog7e",
+      "src-yrk6mz",
+      "src-crvgty",
+      "src-127eaod"
+    ],
+    "facts": [
+      {
+        "title": "习近平将出席亚太经合组织第三十三次领导人非正式会议及相关活动",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "习近平将出席亚太经合组织第三十三次领导人非正式会议及相关活动",
+        "occurredAt": "2026-11-13"
+      },
+      {
+        "title": "习近平主持亚太经合组织第三十三次领导人非正式会议",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "习近平主持亚太经合组织第三十三次领导人非正式会议",
+        "occurredAt": "2026-11-19"
+      },
+      {
+        "title": "习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话",
+        "occurredAt": "2026-11-20"
+      },
+      {
+        "title": "习近平在亚太经合组织第三十三次领导人非正式会议上的讲话（全文",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "习近平在亚太经合组织第三十三次领导人非正式会议上的讲话（全文）",
+        "occurredAt": "2026-11-20"
+      }
+    ],
+    "participants": [
+      "cac-policy",
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-13T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-20T00:00:00.000Z",
+    "heat": 1.7,
+    "relations": [
+      {
+        "memberId": "src-12pog7e",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-yrk6mz",
+        "relation": "SAME_STORY",
+        "confidence": 0.7744030926623664
+      },
+      {
+        "memberId": "src-crvgty",
+        "relation": "SAME_STORY",
+        "confidence": 0.6780635036208105
+      },
+      {
+        "memberId": "src-127eaod",
+        "relation": "SAME_STORY",
+        "confidence": 0.7147416898918633
+      }
+    ],
+    "heat6hAgo": 2,
+    "trend": "down",
+    "trendPct": -15,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻",
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-1mow3ou",
+    "rootId": "src-s22zec",
+    "title": "习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲",
+    "digest": "习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲",
+    "latest": "“亚太是我们共同发展的天地”——习近平主席出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲侧记",
+    "memberIds": [
+      "src-s22zec",
+      "src-ak6h41",
+      "src-10f918j",
+      "src-1wb4bzh"
+    ],
+    "facts": [
+      {
+        "title": "习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲",
+        "occurredAt": "2026-11-18"
+      },
+      {
+        "title": "习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲",
+        "occurredAt": "2026-11-19"
+      },
+      {
+        "title": "习近平主席在亚太经合组织工商领导人峰会主旨演讲金句",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "习近平主席在亚太经合组织工商领导人峰会主旨演讲金句",
+        "occurredAt": "2026-11-19"
+      },
+      {
+        "title": "“亚太是我们共同发展的天地”——习近平主席出席亚太经合组织工",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "“亚太是我们共同发展的天地”——习近平主席出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲侧记",
+        "occurredAt": "2026-11-19"
+      }
+    ],
+    "participants": [
+      "cac-policy",
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-18T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-19T00:00:00.000Z",
+    "heat": 1.1,
+    "relations": [
+      {
+        "memberId": "src-s22zec",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-ak6h41",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-10f918j",
+        "relation": "SAME_STORY",
+        "confidence": 0.6678230711206282
+      },
+      {
+        "memberId": "src-1wb4bzh",
+        "relation": "SAME_STORY",
+        "confidence": 0.7814470167117747
+      }
+    ],
+    "heat6hAgo": 1.3,
+    "trend": "down",
+    "trendPct": -15.4,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻",
+      "福建省工业和信息化厅"
+    ]
+  }
+]
