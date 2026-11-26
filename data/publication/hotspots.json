@@ -40,7 +40,7 @@
     ],
     "firstPublishedAt": "2026-11-18T00:00:00.000Z",
     "latestPublishedAt": "2026-11-26T00:00:00.000Z",
-    "heat": 2.1,
+    "heat": 1.9,
     "relations": [
       {
         "memberId": "src-6xzi11",
@@ -58,12 +58,10 @@
         "confidence": 0.6666666666666666
       }
     ],
-    "heat6hAgo": 0.8,
-    "trend": "up",
-    "trendPct": 162.5,
-    "badges": [
-      "rising"
-    ],
+    "heat6hAgo": 2.2,
+    "trend": "down",
+    "trendPct": -13.6,
+    "badges": [],
     "signalCount": 0,
     "sourceNames": [
       "福建省工业和信息化厅",
@@ -103,7 +101,7 @@
     ],
     "firstPublishedAt": "2026-11-25T00:00:00.000Z",
     "latestPublishedAt": "2026-11-26T00:00:00.000Z",
-    "heat": 2.1,
+    "heat": 1.9,
     "relations": [
       {
         "memberId": "src-1e9wuwu",
@@ -116,12 +114,10 @@
         "confidence": 1.0000000000000002
       }
     ],
-    "heat6hAgo": 0.8,
-    "trend": "up",
-    "trendPct": 162.5,
-    "badges": [
-      "rising"
-    ],
+    "heat6hAgo": 2.2,
+    "trend": "down",
+    "trendPct": -13.6,
+    "badges": [],
     "signalCount": 0,
     "sourceNames": [
       "中央网信办政策与要闻",
