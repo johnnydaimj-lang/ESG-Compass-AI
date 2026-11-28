@@ -43,8 +43,8 @@
     "id": "story-qa9z3q",
     "rootId": "src-28036l",
     "title": "比亚迪 - 商业与人权中心",
-    "digest": "比亚迪商业与人权中心",
-    "latest": "SLAPPs：关键资源 商业与人权资源中心",
+    "digest": "比亚迪 - 商业与人权中心",
+    "latest": "SLAPPs：关键资源 - 商业与人权中心",
     "memberIds": [
       "src-28036l",
       "src-xrkun6",
@@ -80,6 +80,7 @@
       "src-137csfj",
       "src-tppgmo",
       "src-9olfla",
+      "src-ojnky9",
       "src-bpuzdc",
       "src-yp1zum",
       "src-r52zq0",
@@ -330,6 +331,13 @@
         "action": "发布",
         "object": "飞利浦（皇家飞利浦电子） - 商业与人权中心",
         "occurredAt": "2020-08-23"
+      },
+      {
+        "title": "LPP Spółka Akcyjna - Business ",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "LPP Spółka Akcyjna - Business and Human Rights Centre",
+        "occurredAt": "2020-08-24"
       },
       {
         "title": "商业、公民自由与人权捍卫者：我们的分析 - 商业与人权资源中",
@@ -587,6 +595,11 @@
         "confidence": 0.7216878364870323
       },
       {
+        "memberId": "src-ojnky9",
+        "relation": "SAME_STORY",
+        "confidence": 0.6804138174397718
+      },
+      {
         "memberId": "src-bpuzdc",
         "relation": "SAME_STORY",
         "confidence": 0.6454972243679029
@@ -695,8 +708,8 @@
     "id": "story-1g75op0",
     "rootId": "src-15yrzc9",
     "title": "孟加拉国消防与建筑安全协议 - 商业与人权中心",
-    "digest": "孟加拉国消防与建筑安全协议 商业与人权中心",
-    "latest": "孟加拉国消防与建筑安全协议 商业与人权中心",
+    "digest": "孟加拉国消防与建筑安全协议 - 商业与人权中心",
+    "latest": "孟加拉国消防与建筑安全协议 - 商业与人权中心",
     "memberIds": [
       "src-15yrzc9"
     ],
@@ -775,8 +788,8 @@
     "id": "story-79m7w3",
     "rootId": "src-7jkv75",
     "title": "主要品牌卷入新疆以外强迫劳动报告 - 商业与人权资源中心",
-    "digest": "多家主要品牌卷入新疆以外强迫劳动报告 商业与人权中心",
-    "latest": "多家主要品牌卷入新疆以外强迫劳动报告 商业与人权中心",
+    "digest": "主要品牌卷入新疆以外强迫劳动报告 - 商业与人权资源中心",
+    "latest": "主要品牌卷入新疆以外强迫劳动报告 - 商业与人权资源中心",
     "memberIds": [
       "src-7jkv75"
     ],
@@ -1212,11 +1225,51 @@
     ]
   },
   {
+    "id": "story-uglldi",
+    "rootId": "src-2dsf4h",
+    "title": "Lawyers' insights on corporate legal accountability: Roger Chan Weng Keng - Business and Human Rights Centre",
+    "digest": "Lawyers' insights on corporate legal accountability: Roger Chan Weng Keng    Business and Human Rights Centre",
+    "latest": "Lawyers' insights on corporate legal accountability: Roger Chan Weng Keng    Business and Human Rights Centre",
+    "memberIds": [
+      "src-2dsf4h"
+    ],
+    "facts": [
+      {
+        "title": "Lawyers' insights on corporate",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Lawyers' insights on corporate legal accountability: Roger Chan Weng Keng - Busi",
+        "occurredAt": "2020-10-15"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2020-10-15T11:46:46.000Z",
+    "latestPublishedAt": "2020-10-15T11:46:46.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-2dsf4h",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
     "id": "story-1mrlxdy",
     "rootId": "src-vih2a",
     "title": "Tendele Coal Mining (PTY) Ltd - 商业与人权资源中心",
-    "digest": "Tendele 煤炭开采（PTY）有限公司 商业与人权中心",
-    "latest": "Tendele 煤炭开采（PTY）有限公司 商业与人权中心",
+    "digest": "Tendele Coal Mining (PTY) Ltd - 商业与人权资源中心",
+    "latest": "Tendele Coal Mining (PTY) Ltd - 商业与人权资源中心",
     "memberIds": [
       "src-vih2a"
     ],
@@ -1255,8 +1308,8 @@
     "id": "story-153hl4b",
     "rootId": "src-214a5m",
     "title": "Lundin Energy诉讼案（涉及苏丹战争罪共谋） - 商业与人权资源中心",
-    "digest": "伦丁能源诉讼案（涉及苏丹战争罪共谋） 商业与人权资源中心",
-    "latest": "伦丁能源诉讼案（涉及苏丹战争罪共谋） 商业与人权资源中心",
+    "digest": "Lundin Energy诉讼案（涉及苏丹战争罪共谋） - 商业与人权资源中心",
+    "latest": "Lundin Energy诉讼案（涉及苏丹战争罪共谋） - 商业与人权资源中心",
     "memberIds": [
       "src-214a5m"
     ],
@@ -1295,8 +1348,8 @@
     "id": "story-jhyqg",
     "rootId": "src-p01ogx",
     "title": "美国：据报道，苹果、耐克和可口可乐等公司游说国会削弱《维吾尔强迫劳动预防法案》 - 商业与人权资源中心",
-    "digest": "美国：据报道，苹果、耐克和可口可乐等公司游说国会削弱《维吾尔强迫劳动预防法案》 商业与人权资源中心",
-    "latest": "美国：据报道，苹果、耐克和可口可乐等公司游说国会削弱《维吾尔强迫劳动预防法案》 商业与人权资源中心",
+    "digest": "美国：据报道，苹果、耐克和可口可乐等公司游说国会削弱《维吾尔强迫劳动预防法案》 - 商业与人权资源中心",
+    "latest": "美国：据报道，苹果、耐克和可口可乐等公司游说国会削弱《维吾尔强迫劳动预防法案》 - 商业与人权资源中心",
     "memberIds": [
       "src-p01ogx"
     ],
@@ -1335,8 +1388,8 @@
     "id": "story-tuwrl7",
     "rootId": "src-1utjpzs",
     "title": "英国最高法院在Okpabi案中阐明母公司对据称因子公司受到伤害的人员负有注意义务 - 商业与人权资源中心",
-    "digest": "英国最高法院在Okpabi案中澄清母公司对据称受子公司伤害者的注意义务 商业与人权资源中心",
-    "latest": "英国最高法院在Okpabi案中澄清母公司对据称受子公司伤害者的注意义务 商业与人权资源中心",
+    "digest": "英国最高法院在Okpabi案中阐明母公司对据称因子公司受到伤害的人员负有注意义务 - 商业与人权资源中心",
+    "latest": "英国最高法院在Okpabi案中阐明母公司对据称因子公司受到伤害的人员负有注意义务 - 商业与人权资源中心",
     "memberIds": [
       "src-1utjpzs"
     ],
@@ -1452,6 +1505,46 @@
     ]
   },
   {
+    "id": "story-1ecj8ks",
+    "rootId": "src-fihkme",
+    "title": "欧盟通过《电池法规》提案，以应对电池供应链中的社会与环境问题，同时民间社会组织推动进一步改进——商业与人权中心",
+    "digest": "欧盟通过《电池法规》提案，以应对电池供应链中的社会与环境问题",
+    "latest": "欧盟通过《电池法规》提案，以应对电池供应链中的社会与环境问题",
+    "memberIds": [
+      "src-fihkme"
+    ],
+    "facts": [
+      {
+        "title": "欧盟通过《电池法规》提案，以应对电池供应链中的社会与环境问题",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "通过",
+        "object": "欧盟通过《电池法规》提案，以应对电池供应链中的社会与环境问题，同时民间社会组织推动进一步改进——商业与人权中心",
+        "occurredAt": "2021-05-02"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2021-05-02T22:00:42.000Z",
+    "latestPublishedAt": "2021-05-02T22:00:42.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-fihkme",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
     "id": "story-1lf4j8e",
     "rootId": "src-1rhlwp6",
     "title": "阿里巴巴集团 - 商业与人权中心",
@@ -1496,9 +1589,10 @@
     "rootId": "src-vivhmy",
     "title": "紫金矿业 - 商业与人权资源中心",
     "digest": "紫金矿业 - 商业与人权资源中心",
-    "latest": "紫金矿业 - 商业与人权资源中心",
+    "latest": "Shalina Resources Ltd.",
     "memberIds": [
-      "src-vivhmy"
+      "src-vivhmy",
+      "src-1262ovz"
     ],
     "facts": [
       {
@@ -1507,19 +1601,31 @@
         "action": "发布",
         "object": "紫金矿业 - 商业与人权资源中心",
         "occurredAt": "2021-06-04"
+      },
+      {
+        "title": "Shalina Resources Ltd. - Busin",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Shalina Resources Ltd. - Business and Human Rights Centre",
+        "occurredAt": "2021-06-07"
       }
     ],
     "participants": [
       "bhrrc-latest"
     ],
     "firstPublishedAt": "2021-06-04T02:15:19.000Z",
-    "latestPublishedAt": "2021-06-04T02:15:19.000Z",
+    "latestPublishedAt": "2021-06-07T11:51:41.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-vivhmy",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-1262ovz",
+        "relation": "SAME_STORY",
+        "confidence": 0.6681531047810609
       }
     ],
     "heat6hAgo": 0,
@@ -1828,8 +1934,8 @@
     "id": "story-rsvpxc",
     "rootId": "src-yiax65",
     "title": "荷兰：Patagonia、Nike、C&A和State of Art因涉嫌依赖维吾尔强迫劳动被起诉 - Business and Human Rights Centre",
-    "digest": "荷兰：Patagonia、Nike、C&A 和 State of Art 因涉嫌依赖维吾尔强迫劳动被起诉 商业与人权资源中心",
-    "latest": "荷兰：Patagonia、Nike、C&A 和 State of Art 因涉嫌依赖维吾尔强迫劳动被起诉 商业与人权资源中心",
+    "digest": "荷兰：Patagonia、Nike、C&A和State of Art因涉嫌依赖维吾尔强迫劳动被起诉 - Business and Human Rights Centre",
+    "latest": "荷兰：Patagonia、Nike、C&A和State of Art因涉嫌依赖维吾尔强迫劳动被起诉 - Business and Human Rights Centre",
     "memberIds": [
       "src-yiax65"
     ],
@@ -1865,11 +1971,51 @@
     ]
   },
   {
+    "id": "story-9fjvc6",
+    "rootId": "src-1xf3jqf",
+    "title": "Meta（原 Facebook）——商业与人权中心",
+    "digest": "Meta（原 Facebook） 商业与人权中心",
+    "latest": "Meta（原 Facebook） 商业与人权中心",
+    "memberIds": [
+      "src-1xf3jqf"
+    ],
+    "facts": [
+      {
+        "title": "Meta（原 Facebook）——商业与人权中心",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Meta（原 Facebook）——商业与人权中心",
+        "occurredAt": "2022-01-01"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2022-01-01T17:32:19.000Z",
+    "latestPublishedAt": "2022-01-01T17:32:19.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1xf3jqf",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
     "id": "story-iacdv3",
     "rootId": "src-q3kwfg",
     "title": "麒麟就终止缅甸合资企业的仲裁发表声明 - 商业与人权中心",
-    "digest": "麒麟就终止缅甸合资企业的仲裁发表声明 商业与人权资源中心",
-    "latest": "麒麟就终止缅甸合资企业的仲裁发表声明 商业与人权资源中心",
+    "digest": "麒麟就终止缅甸合资企业的仲裁发表声明 - 商业与人权中心",
+    "latest": "麒麟就终止缅甸合资企业的仲裁发表声明 - 商业与人权中心",
     "memberIds": [
       "src-q3kwfg"
     ],
@@ -2105,11 +2251,51 @@
     ]
   },
   {
+    "id": "story-2w4lv2",
+    "rootId": "src-pk53cr",
+    "title": "Purdue Pharma——商业与人权中心",
+    "digest": "Purdue Pharma 商业与人权中心",
+    "latest": "Purdue Pharma 商业与人权中心",
+    "memberIds": [
+      "src-pk53cr"
+    ],
+    "facts": [
+      {
+        "title": "Purdue Pharma——商业与人权中心",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Purdue Pharma——商业与人权中心",
+        "occurredAt": "2022-06-10"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2022-06-10T14:48:57.000Z",
+    "latestPublishedAt": "2022-06-10T14:48:57.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-pk53cr",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
     "id": "story-1461l3r",
     "rootId": "src-37c6w9",
     "title": "SHEIN（Roadget Business Pte Ltd旗下） - 商业与人权资源中心",
-    "digest": "SHEIN（Roadget Business Pte Ltd的一部分） 商业与人权资源中心",
-    "latest": "SHEIN（Roadget Business Pte Ltd的一部分） 商业与人权资源中心",
+    "digest": "SHEIN（Roadget Business Pte Ltd旗下） - 商业与人权资源中心",
+    "latest": "SHEIN（Roadget Business Pte Ltd旗下） - 商业与人权资源中心",
     "memberIds": [
       "src-37c6w9"
     ],
@@ -2131,6 +2317,46 @@
     "relations": [
       {
         "memberId": "src-37c6w9",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-vttcdt",
+    "rootId": "src-6kpd7k",
+    "title": "Australia: Traditional owners' suit to stop Santos' Barossa gas project - Business and Human Rights Centre",
+    "digest": "Australia: Traditional owners' suit to stop Santos' Barossa gas project    Business and Human Rights Centre",
+    "latest": "Australia: Traditional owners' suit to stop Santos' Barossa gas project    Business and Human Rights Centre",
+    "memberIds": [
+      "src-6kpd7k"
+    ],
+    "facts": [
+      {
+        "title": "Australia: Traditional owners'",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Australia: Traditional owners' suit to stop Santos' Barossa gas project - Busine",
+        "occurredAt": "2022-09-05"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2022-09-05T23:36:20.000Z",
+    "latestPublishedAt": "2022-09-05T23:36:20.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-6kpd7k",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -2268,8 +2494,8 @@
     "id": "story-ekyuiv",
     "rootId": "src-1801tko",
     "title": "乌干达和坦桑尼亚：东非原油管道（EACOP） - 商业与人权资源中心",
-    "digest": "乌干达和坦桑尼亚：东非原油管道（EACOP） 商业与人权资源中心",
-    "latest": "乌干达和坦桑尼亚：东非原油管道（EACOP） 商业与人权资源中心",
+    "digest": "乌干达和坦桑尼亚：东非原油管道（EACOP） - 商业与人权资源中心",
+    "latest": "乌干达和坦桑尼亚：东非原油管道（EACOP） - 商业与人权资源中心",
     "memberIds": [
       "src-1801tko"
     ],
@@ -2348,8 +2574,8 @@
     "id": "story-n2pjkl",
     "rootId": "src-1rbe2qh",
     "title": "英国：亚马逊仓库工人在英国首次举行罢工，要求提高工资和改善工作条件 - 商业与人权中心",
-    "digest": "英国：亚马逊仓库工人举行英国首次罢工",
-    "latest": "英国：亚马逊仓库工人举行英国首次罢工",
+    "digest": "英国：亚马逊仓库工人在英国首次举行罢工",
+    "latest": "英国：亚马逊仓库工人在英国首次举行罢工",
     "memberIds": [
       "src-1rbe2qh"
     ],
@@ -2388,8 +2614,8 @@
     "id": "story-hn5v94",
     "rootId": "src-1c344km",
     "title": "希腊：中远集团拥有的比雷埃夫斯港 - 商业与人权中心",
-    "digest": "希腊：中远集团拥有的比雷埃夫斯港 商业与人权资源中心",
-    "latest": "希腊：中远集团拥有的比雷埃夫斯港 商业与人权资源中心",
+    "digest": "希腊：中远集团拥有的比雷埃夫斯港 - 商业与人权中心",
+    "latest": "希腊：中远集团拥有的比雷埃夫斯港 - 商业与人权中心",
     "memberIds": [
       "src-1c344km"
     ],
@@ -2465,15 +2691,23 @@
     ]
   },
   {
-    "id": "story-1bkm4iv",
-    "rootId": "src-1scpiti",
-    "title": "ASDA - 商业与人权资源中心",
-    "digest": "ASDA 商业与人权资源中心",
+    "id": "story-1ivm9np",
+    "rootId": "src-1f5msjl",
+    "title": "《透明度法案》——商业与人权中心",
+    "digest": "《透明度法案》 商业与人权中心",
     "latest": "ASDA 商业与人权资源中心",
     "memberIds": [
+      "src-1f5msjl",
       "src-1scpiti"
     ],
     "facts": [
+      {
+        "title": "《透明度法案》——商业与人权中心",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "《透明度法案》——商业与人权中心",
+        "occurredAt": "2023-08-05"
+      },
       {
         "title": "ASDA - 商业与人权资源中心",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
@@ -2485,14 +2719,19 @@
     "participants": [
       "bhrrc-latest"
     ],
-    "firstPublishedAt": "2023-08-10T04:42:59.000Z",
+    "firstPublishedAt": "2023-08-05T06:38:42.000Z",
     "latestPublishedAt": "2023-08-10T04:42:59.000Z",
     "heat": 0,
     "relations": [
       {
-        "memberId": "src-1scpiti",
+        "memberId": "src-1f5msjl",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-1scpiti",
+        "relation": "SAME_STORY",
+        "confidence": 0.7216878364870323
       }
     ],
     "heat6hAgo": 0,
@@ -2588,8 +2827,8 @@
     "id": "story-4xnkvm",
     "rootId": "src-p231vs",
     "title": "中国海外投资 - 商业与人权中心",
-    "digest": "中国海外投资 商业与人权资源中心",
-    "latest": "中国海外投资 商业与人权资源中心",
+    "digest": "中国海外投资 - 商业与人权中心",
+    "latest": "中国海外投资 - 商业与人权中心",
     "memberIds": [
       "src-p231vs"
     ],
@@ -2668,8 +2907,8 @@
     "id": "story-y8ckwh",
     "rootId": "src-14v32dw",
     "title": "Pornhub - 商业与人权中心",
-    "digest": "Pornhub 商业与人权资源中心",
-    "latest": "Pornhub 商业与人权资源中心",
+    "digest": "Pornhub - 商业与人权中心",
+    "latest": "Pornhub - 商业与人权中心",
     "memberIds": [
       "src-14v32dw"
     ],
@@ -2708,8 +2947,8 @@
     "id": "story-16w45ai",
     "rootId": "src-cfkti5",
     "title": "因乌克兰战争避开俄罗斯和白俄罗斯后，宜家寻找替代木材供应商 - 商业与人权中心",
-    "digest": "宜家因乌克兰战争避开俄罗斯和白俄罗斯后",
-    "latest": "宜家因乌克兰战争避开俄罗斯和白俄罗斯后",
+    "digest": "因乌克兰战争避开俄罗斯和白俄罗斯后",
+    "latest": "因乌克兰战争避开俄罗斯和白俄罗斯后",
     "memberIds": [
       "src-cfkti5"
     ],
@@ -2748,8 +2987,8 @@
     "id": "story-8qkbkl",
     "rootId": "src-nt1s0a",
     "title": "英国：数百人在BAE系统公司工厂外抗议，要求停止其为‘以色列杀人战争机器’提供武器，同时加沙轰炸持续 - 商业与人权资源中心",
-    "digest": "英国：数百人在BAE系统公司工厂外抗议，要求其停止为“以色列杀人战争机器”提供武器",
-    "latest": "英国：数百人在BAE系统公司工厂外抗议，要求其停止为“以色列杀人战争机器”提供武器",
+    "digest": "英国：数百人在BAE系统公司工厂外抗议",
+    "latest": "英国：数百人在BAE系统公司工厂外抗议",
     "memberIds": [
       "src-nt1s0a"
     ],
@@ -3170,7 +3409,7 @@
     "rootId": "src-10hs62q",
     "title": "OpenAI - 商业与人权中心",
     "digest": "OpenAI 商业与人权资源中心",
-    "latest": "Guinea: Simandou iron ore project    Business and Human Rights Centre",
+    "latest": "几内亚：西芒杜铁矿石项目 - 商业与人权中心",
     "memberIds": [
       "src-10hs62q",
       "src-1yfwil9"
@@ -3184,10 +3423,10 @@
         "occurredAt": "2024-01-13"
       },
       {
-        "title": "Guinea: Simandou iron ore proj",
+        "title": "几内亚：西芒杜铁矿石项目 - 商业与人权中心",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Guinea: Simandou iron ore project - Business and Human Rights Centre",
+        "object": "几内亚：西芒杜铁矿石项目 - 商业与人权中心",
         "occurredAt": "2024-01-25"
       }
     ],
@@ -3262,8 +3501,8 @@
     "id": "story-18cvcrl",
     "rootId": "src-emj4h0",
     "title": "巴西：报告称咖啡供应链仍受奴役劳动污染 - 商业与人权中心",
-    "digest": "巴西：报告称咖啡供应链仍受奴隶劳动污染 商业与人权资源中心",
-    "latest": "巴西：报告称咖啡供应链仍受奴隶劳动污染 商业与人权资源中心",
+    "digest": "巴西：报告称咖啡供应链仍受奴役劳动污染 - 商业与人权中心",
+    "latest": "巴西：报告称咖啡供应链仍受奴役劳动污染 - 商业与人权中心",
     "memberIds": [
       "src-emj4h0"
     ],
@@ -3302,8 +3541,8 @@
     "id": "story-19zrp07",
     "rootId": "src-1mlz0b8",
     "title": "以色列/被占领巴勒斯坦领土：特许经营商向以色列军队提供免费餐食后，麦当劳销售遭受抵制打击 - 商业与人权资源中心",
-    "digest": "以色列/被占领巴勒斯坦领土：麦当劳特许经营商向以色列军队提供免费餐食后",
-    "latest": "以色列/被占领巴勒斯坦领土：麦当劳特许经营商向以色列军队提供免费餐食后",
+    "digest": "麦当劳一家特许经营商向以色列军队提供免费餐食后，相关抵制行动冲击了麦当劳的销售。事件涉及以色列及被占领巴勒斯坦领土。现有材料未披露销售受影响的具体幅度、抵制持续时间或麦当劳方面的进一步回应。",
+    "latest": "麦当劳一家特许经营商向以色列军队提供免费餐食后，相关抵制行动冲击了麦当劳的销售。事件涉及以色列及被占领巴勒斯坦领土。现有材料未披露销售受影响的具体幅度、抵制持续时间或麦当劳方面的进一步回应。",
     "memberIds": [
       "src-1mlz0b8"
     ],
@@ -3311,7 +3550,7 @@
       {
         "title": "以色列/被占领巴勒斯坦领土：特许经营商向以色列军队提供免费餐",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
-        "action": "发布",
+        "action": "披露",
         "object": "以色列/被占领巴勒斯坦领土：特许经营商向以色列军队提供免费餐食后，麦当劳销售遭受抵制打击 - 商业与人权资源中心",
         "occurredAt": "2024-02-08"
       }
@@ -3342,8 +3581,8 @@
     "id": "story-5vcful",
     "rootId": "src-1h22r04",
     "title": "匈牙利：最高法院在德布勒森市民法律挑战后推翻宁德时代的灾难恢复许可 - 商业与人权资源中心",
-    "digest": "匈牙利：在德布勒森市民提起法律挑战后",
-    "latest": "匈牙利：在德布勒森市民提起法律挑战后",
+    "digest": "匈牙利：最高法院在德布勒森市民法律挑战后推翻宁德时代的灾难恢复许可 - 商业与人权资源中心",
+    "latest": "匈牙利：最高法院在德布勒森市民法律挑战后推翻宁德时代的灾难恢复许可 - 商业与人权资源中心",
     "memberIds": [
       "src-1h22r04"
     ],
@@ -3422,8 +3661,8 @@
     "id": "story-13c1oly",
     "rootId": "src-kvcekx",
     "title": "中国出台新指南，要求网络平台保障零工劳动者的最低工资、休息时间和权益保护 - 商业与人权资源中心",
-    "digest": "中国出台网络平台新指南",
-    "latest": "中国出台网络平台新指南",
+    "digest": "中国出台新指南，要求网络平台保障零工劳动者的最低工资、休息时间和权益保护 - 商业与人权资源中心",
+    "latest": "中国出台新指南，要求网络平台保障零工劳动者的最低工资、休息时间和权益保护 - 商业与人权资源中心",
     "memberIds": [
       "src-kvcekx"
     ],
@@ -3462,8 +3701,8 @@
     "id": "story-yw6u9c",
     "rootId": "src-yzvc1j",
     "title": "企业法律责任项目大学研究员机会 - 商业与人权资源中心",
-    "digest": "企业法律责任项目大学研究员机会 商业与人权资源中心",
-    "latest": "企业法律责任项目大学研究员机会 商业与人权资源中心",
+    "digest": "企业法律责任项目大学研究员机会 - 商业与人权资源中心",
+    "latest": "企业法律责任项目大学研究员机会 - 商业与人权资源中心",
     "memberIds": [
       "src-yzvc1j"
     ],
@@ -3790,6 +4029,46 @@
     ]
   },
   {
+    "id": "story-8ahait",
+    "rootId": "src-i1q5fe",
+    "title": "印度：报告称，在加沙战争持续期间，Adani-Elbit Advanced Systems India Ltd.与Munitions India Ltd.获准继续向以色列运送武器产品 - 商业与人权中心",
+    "digest": "印度：报告指控 Adani-Elbit Advanced Systems India Ltd. 与 Munitions India Ltd.",
+    "latest": "印度：报告指控 Adani-Elbit Advanced Systems India Ltd. 与 Munitions India Ltd.",
+    "memberIds": [
+      "src-i1q5fe"
+    ],
+    "facts": [
+      {
+        "title": "印度：报告称，在加沙战争持续期间，Adani-Elbit A",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "印度：报告称，在加沙战争持续期间，Adani-Elbit Advanced Systems India Ltd.与Munitions India Ltd.获准继",
+        "occurredAt": "2024-06-16"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2024-06-16T18:45:29.000Z",
+    "latestPublishedAt": "2024-06-16T18:45:29.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-i1q5fe",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
     "id": "story-kimxyj",
     "rootId": "src-1cpgpge",
     "title": "台湾：自行车制造商巨大机械及品牌Trek与Scott被指涉及对外籍移工收取费用及恶劣居住条件的指控；含公司回应 - 商业与人权中心",
@@ -4029,6 +4308,46 @@
     ]
   },
   {
+    "id": "story-f99kqb",
+    "rootId": "src-1d57h95",
+    "title": "Text of the Guiding Principles - Business and Human Rights Centre",
+    "digest": "Text of the Guiding Principles    Business and Human Rights Centre",
+    "latest": "Text of the Guiding Principles    Business and Human Rights Centre",
+    "memberIds": [
+      "src-1d57h95"
+    ],
+    "facts": [
+      {
+        "title": "Text of the Guiding Principles",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Text of the Guiding Principles - Business and Human Rights Centre",
+        "occurredAt": "2024-10-07"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2024-10-07T20:20:46.000Z",
+    "latestPublishedAt": "2024-10-07T20:20:46.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1d57h95",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
     "id": "story-1d3id35",
     "rootId": "src-jhwc5l",
     "title": "Neom：令人不安的事实被曝光 - 商业与人权中心",
@@ -4152,8 +4471,8 @@
     "id": "story-p7am80",
     "rootId": "src-p30zl9",
     "title": "中国：非政府组织报告指控比亚迪、宁德时代和亿纬锂能与使用维吾尔人强迫劳动有关 - 商业与人权资源中心",
-    "digest": "中国：非政府组织报告指控比亚迪、宁德时代和亿纬锂能与使用维吾尔人强迫劳动有关 商业与人权资源中心",
-    "latest": "中国：非政府组织报告指控比亚迪、宁德时代和亿纬锂能与使用维吾尔人强迫劳动有关 商业与人权资源中心",
+    "digest": "中国：非政府组织报告指控比亚迪、宁德时代和亿纬锂能与使用维吾尔人强迫劳动有关 - 商业与人权资源中心",
+    "latest": "中国：非政府组织报告指控比亚迪、宁德时代和亿纬锂能与使用维吾尔人强迫劳动有关 - 商业与人权资源中心",
     "memberIds": [
       "src-p30zl9"
     ],
@@ -4193,7 +4512,7 @@
     "rootId": "src-1oxqvnu",
     "title": "食品和饮料基准 - 商业与人权资源中心",
     "digest": "食品和饮料基准 - 商业与人权资源中心",
-    "latest": "联系KnowTheChain 商业与人权中心",
+    "latest": "联系KnowTheChain - 商业与人权资源中心",
     "memberIds": [
       "src-1oxqvnu",
       "src-1waf8bb"
@@ -4405,8 +4724,8 @@
     "id": "story-kw8x39",
     "rootId": "src-16cl1ay",
     "title": "法律研究与公正转型实习生 - 商业与人权资源中心",
-    "digest": "法律研究与公正转型实习生 商业与人权中心",
-    "latest": "法律研究与公正转型实习生 商业与人权中心",
+    "digest": "法律研究与公正转型实习生 - 商业与人权资源中心",
+    "latest": "法律研究与公正转型实习生 - 商业与人权资源中心",
     "memberIds": [
       "src-16cl1ay"
     ],
@@ -4445,8 +4764,8 @@
     "id": "story-1fe8epx",
     "rootId": "src-1cmds5i",
     "title": "英国：高等法院确认壳牌尼日尔三角洲石油污染案可进入审理 - 商业与人权中心",
-    "digest": "英国高等法院确认，针对壳牌在尼日尔三角洲石油污染的诉讼可以进入审理阶段。该案涉及当地社区就污染提出的索赔，法院的裁定使案件得以继续推进。",
-    "latest": "英国高等法院确认，针对壳牌在尼日尔三角洲石油污染的诉讼可以进入审理阶段。该案涉及当地社区就污染提出的索赔，法院的裁定使案件得以继续推进。",
+    "digest": "英国：高等法院确认壳牌尼日尔三角洲石油污染案可进入审理 - 商业与人权中心",
+    "latest": "英国：高等法院确认壳牌尼日尔三角洲石油污染案可进入审理 - 商业与人权中心",
     "memberIds": [
       "src-1cmds5i"
     ],
@@ -4562,6 +4881,46 @@
     ]
   },
   {
+    "id": "story-htvj08",
+    "rootId": "src-1e8h6wf",
+    "title": "美国：特斯拉因钴供应链中涉嫌强迫劳动和漂绿行为被起诉 - 商业与人权中心",
+    "digest": "美国：特斯拉因钴供应链中涉嫌强迫劳动和漂绿行为被起诉 商业与人权中心",
+    "latest": "美国：特斯拉因钴供应链中涉嫌强迫劳动和漂绿行为被起诉 商业与人权中心",
+    "memberIds": [
+      "src-1e8h6wf"
+    ],
+    "facts": [
+      {
+        "title": "美国：特斯拉因钴供应链中涉嫌强迫劳动和漂绿行为被起诉 - 商",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "美国：特斯拉因钴供应链中涉嫌强迫劳动和漂绿行为被起诉 - 商业与人权中心",
+        "occurredAt": "2025-08-29"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2025-08-29T07:28:35.000Z",
+    "latestPublishedAt": "2025-08-29T07:28:35.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1e8h6wf",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
     "id": "story-1qfp8e",
     "rootId": "src-p54y5a",
     "title": "以色列/被占领巴勒斯坦领土：以色列与谷歌发起4500万美元宣传运动以否认加沙饥荒 - 商业与人权资源中心",
@@ -4645,8 +5004,8 @@
     "id": "story-1scnwuc",
     "rootId": "src-103wfno",
     "title": "美国：法国巴黎银行苏丹诉讼案凸显全球银行日益上升的法律风险 - 商业与人权资源中心",
-    "digest": "美国：法国巴黎银行苏丹诉讼案凸显全球银行日益上升的法律风险 商业与人权中心",
-    "latest": "美国：法国巴黎银行苏丹诉讼案凸显全球银行日益上升的法律风险 商业与人权中心",
+    "digest": "美国：法国巴黎银行苏丹诉讼案凸显全球银行日益上升的法律风险 - 商业与人权资源中心",
+    "latest": "美国：法国巴黎银行苏丹诉讼案凸显全球银行日益上升的法律风险 - 商业与人权资源中心",
     "memberIds": [
       "src-103wfno"
     ],
@@ -5492,6 +5851,46 @@
     "signalCount": 0,
     "sourceNames": [
       "香港交易所新闻稿"
+    ]
+  },
+  {
+    "id": "story-1owmy81",
+    "rootId": "src-172to6t",
+    "title": "矿产资源开发有限公司（MRDC） - 商业与人权中心",
+    "digest": "矿产资源开发有限公司（MRDC） 商业与人权中心",
+    "latest": "矿产资源开发有限公司（MRDC） 商业与人权中心",
+    "memberIds": [
+      "src-172to6t"
+    ],
+    "facts": [
+      {
+        "title": "矿产资源开发有限公司（MRDC） - 商业与人权中心",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "矿产资源开发有限公司（MRDC） - 商业与人权中心",
+        "occurredAt": "2026-02-24"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-02-24T11:14:47.000Z",
+    "latestPublishedAt": "2026-02-24T11:14:47.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-172to6t",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
     ]
   },
   {
@@ -13667,8 +14066,8 @@
     "id": "story-qs365y",
     "rootId": "src-1bjuqxm",
     "title": "晨星调查：随着人工智能风险上升，资产所有者增加美国和私人市场的风险敞口",
-    "digest": "晨星调查：资产所有者增加对美国",
-    "latest": "晨星调查：资产所有者增加对美国",
+    "digest": "晨星调查：随着人工智能风险上升",
+    "latest": "晨星调查：随着人工智能风险上升",
     "memberIds": [
       "src-1bjuqxm"
     ],
@@ -14773,8 +15172,8 @@
     "id": "story-1oorzb8",
     "rootId": "src-1mzcbrl",
     "title": "非洲为其在全球舞台上发挥更大作用提出主张",
-    "digest": "GABI的“势不可挡的非洲2026”汇聚全球领导人，共同推动非洲从其资源中获取更多价值、加速投资并增强其在全球贸易和决策中的影响力。非洲正努力在塑造全球经济中发挥更大作用，商界领袖、国家元首、投资者、政策制定者和全球伙伴今天齐聚纽约，阐述该大陆在全球贸易、投资和价值创造方面的雄心。",
-    "latest": "GABI的“势不可挡的非洲2026”汇聚全球领导人，共同推动非洲从其资源中获取更多价值、加速投资并增强其在全球贸易和决策中的影响力。非洲正努力在塑造全球经济中发挥更大作用，商界领袖、国家元首、投资者、政策制定者和全球伙伴今天齐聚纽约，阐述该大陆在全球贸易、投资和价值创造方面的雄心。",
+    "digest": "非洲为其在全球舞台上发挥更大作用提出主张",
+    "latest": "非洲为其在全球舞台上发挥更大作用提出主张",
     "memberIds": [
       "src-1mzcbrl"
     ],
@@ -14813,8 +15212,8 @@
     "id": "story-16ihyz3",
     "rootId": "src-1kjbrx4",
     "title": "联合国私营部门论坛呼吁加快公私行动，以实现清洁、公正和安全的能源未来",
-    "digest": "首席执行官、国家元首和政府首脑以及联合国领导人确定加速全球能源转型所需的投资、基础设施和政策优先事项。随着2026年联合国私营部门论坛在纽约联合国总部闭幕，商界、政府和联合国领导人今天呼吁加强公私合作，以加速清洁能源投资、增强能源安全并扩大可负担电力的可及性。",
-    "latest": "首席执行官、国家元首和政府首脑以及联合国领导人确定加速全球能源转型所需的投资、基础设施和政策优先事项。随着2026年联合国私营部门论坛在纽约联合国总部闭幕，商界、政府和联合国领导人今天呼吁加强公私合作，以加速清洁能源投资、增强能源安全并扩大可负担电力的可及性。",
+    "digest": "联合国私营部门论坛呼吁加快公私行动",
+    "latest": "联合国私营部门论坛呼吁加快公私行动",
     "memberIds": [
       "src-1kjbrx4"
     ],
@@ -15386,8 +15785,8 @@
     "id": "story-60l1fv",
     "rootId": "src-2vxzy8",
     "title": "丹格特呼吁非洲将资本留在本土，工业化成为“不可阻挡的非洲”活动焦点",
-    "digest": "非洲商界领袖呼吁在非洲大陆增长中获得更大份额，投资和本地价值创造被列为重要议程。丹格特集团总裁兼首席执行官阿里科·丹格特在“势不可挡的非洲2026”上向全球商界领袖表示，非洲必须停止将资本输往海外，并开始投资于自身的工业未来；他同时提出了一个雄心勃勃的非洲工业化愿景，其支撑包括数十亿美元的投资、新的炼油产能以及更广泛的公众所有权。",
-    "latest": "非洲商界领袖呼吁在非洲大陆增长中获得更大份额，投资和本地价值创造被列为重要议程。丹格特集团总裁兼首席执行官阿里科·丹格特在“势不可挡的非洲2026”上向全球商界领袖表示，非洲必须停止将资本输往海外，并开始投资于自身的工业未来；他同时提出了一个雄心勃勃的非洲工业化愿景，其支撑包括数十亿美元的投资、新的炼油产能以及更广泛的公众所有权。",
+    "digest": "丹格特呼吁非洲将资本留在本土",
+    "latest": "丹格特呼吁非洲将资本留在本土",
     "memberIds": [
       "src-2vxzy8"
     ],
@@ -15426,8 +15825,8 @@
     "id": "story-18x6v37",
     "rootId": "src-fg5ibh",
     "title": "联合国全球契约组织推出可持续采购实施框架，帮助企业将承诺转化为行动",
-    "digest": "联合国全球契约组织在联合国大会期间举办的可持续采购高级别论坛上发布《可持续采购实施框架》，旨在帮助企业将可持续发展承诺落实到采购流程和供应商关系中。该框架由全球契约可持续采购联盟联合领先企业和专家机构制定，覆盖评估自身成熟度、建立治理与问责、将企业可持续发展优先事项转化为采购决策、供应商参与和能力建设、绩效衡量与持续改进等环节，适用于不同行业、规模和地区的组织。全球契约首席执行官兼执行主任桑达·奥吉安博表示，目标是使可持续采购成为全球规范，未来将与政府、企业、行业协会等合作推动采纳。该框架为公开资源，定位为补充而非替代现有法规和标准。",
-    "latest": "联合国全球契约组织在联合国大会期间举办的可持续采购高级别论坛上发布《可持续采购实施框架》，旨在帮助企业将可持续发展承诺落实到采购流程和供应商关系中。该框架由全球契约可持续采购联盟联合领先企业和专家机构制定，覆盖评估自身成熟度、建立治理与问责、将企业可持续发展优先事项转化为采购决策、供应商参与和能力建设、绩效衡量与持续改进等环节，适用于不同行业、规模和地区的组织。全球契约首席执行官兼执行主任桑达·奥吉安博表示，目标是使可持续采购成为全球规范，未来将与政府、企业、行业协会等合作推动采纳。该框架为公开资源，定位为补充而非替代现有法规和标准。",
+    "digest": "联合国全球契约组织在联合国大会期间的高级别可持续采购论坛上发布《可持续采购实施框架》，旨在帮助企业将可持续承诺落实到采购全流程的日常决策中。该框架由全球契约可持续采购联盟联合领先企业和专家机构制定，用于补充而非替代现有法规和标准，覆盖评估成熟度、建立治理与问责、将企业可持续优先事项转化为采购决策、供应商参与及绩效衡量等环节。框架适用于不同行业、规模和地区的组织，全球契约称后续将通过其全球网络推动采用并加强实施能力。全球契约首席执行官兼执行主任桑达·奥吉安博表示，目标是使可持续采购成为全球规范。",
+    "latest": "联合国全球契约组织在联合国大会期间的高级别可持续采购论坛上发布《可持续采购实施框架》，旨在帮助企业将可持续承诺落实到采购全流程的日常决策中。该框架由全球契约可持续采购联盟联合领先企业和专家机构制定，用于补充而非替代现有法规和标准，覆盖评估成熟度、建立治理与问责、将企业可持续优先事项转化为采购决策、供应商参与及绩效衡量等环节。框架适用于不同行业、规模和地区的组织，全球契约称后续将通过其全球网络推动采用并加强实施能力。全球契约首席执行官兼执行主任桑达·奥吉安博表示，目标是使可持续采购成为全球规范。",
     "memberIds": [
       "src-fg5ibh"
     ],
@@ -15466,8 +15865,8 @@
     "id": "story-1w3rc5z",
     "rootId": "src-v99grt",
     "title": "联合国全球契约组织、UNEP FI和WWF加强海洋投资协议，以应对金融风险并释放可持续海洋金融",
-    "digest": "联合国全球契约组织、UNEP FI与WWF绿色金融监管倡议于当日发布修订版《海洋投资协议》，首次纳入面向中央银行、金融监管机构和监管者的建议。该协议最初于2025年5月推出，修订版以联合国全球契约可持续海洋原则和UNEP FI可持续蓝色经济金融原则为基础，为金融机构、保险公司、海洋产业、政府、开发性金融机构和金融主管部门提供实践框架。修订版强调海洋健康下降不仅是环境挑战，也是实质性的经济和金融风险，海洋相关依赖与风险可能影响金融稳定、主权信用、粮食和能源安全及贸易。协议旨在帮助金融主体管理海洋相关风险、识别投资机会，并推动资本流向支持健康和有韧性海洋的活动。",
-    "latest": "联合国全球契约组织、UNEP FI与WWF绿色金融监管倡议于当日发布修订版《海洋投资协议》，首次纳入面向中央银行、金融监管机构和监管者的建议。该协议最初于2025年5月推出，修订版以联合国全球契约可持续海洋原则和UNEP FI可持续蓝色经济金融原则为基础，为金融机构、保险公司、海洋产业、政府、开发性金融机构和金融主管部门提供实践框架。修订版强调海洋健康下降不仅是环境挑战，也是实质性的经济和金融风险，海洋相关依赖与风险可能影响金融稳定、主权信用、粮食和能源安全及贸易。协议旨在帮助金融主体管理海洋相关风险、识别投资机会，并推动资本流向支持健康和有韧性海洋的活动。",
+    "digest": "联合国全球契约组织、联合国环境署金融倡议（UNEP FI）主办的可持续蓝色经济金融倡议与WWF绿色金融监管倡议联合发布修订版《海洋投资协议》，首次纳入面向中央银行、金融监管机构和监督机构的建议。该协议最初于2025年5月推出，修订版基于全球契约《可持续海洋原则》和UNEP FI《可持续蓝色经济金融原则》，为金融机构、保险公司、海洋产业、政府、发展金融机构和金融主管部门提供对接可持续海洋经济的实践框架。修订版强调海洋健康下降不仅是环境问题，也是影响金融稳定、主权信用、粮食与能源安全及贸易的实质性经济金融风险。",
+    "latest": "联合国全球契约组织、联合国环境署金融倡议（UNEP FI）主办的可持续蓝色经济金融倡议与WWF绿色金融监管倡议联合发布修订版《海洋投资协议》，首次纳入面向中央银行、金融监管机构和监督机构的建议。该协议最初于2025年5月推出，修订版基于全球契约《可持续海洋原则》和UNEP FI《可持续蓝色经济金融原则》，为金融机构、保险公司、海洋产业、政府、发展金融机构和金融主管部门提供对接可持续海洋经济的实践框架。修订版强调海洋健康下降不仅是环境问题，也是影响金融稳定、主权信用、粮食与能源安全及贸易的实质性经济金融风险。",
     "memberIds": [
       "src-v99grt"
     ],
@@ -17439,8 +17838,8 @@
     "id": "story-1i5w147",
     "rootId": "src-1o1mntw",
     "title": "联合国全球契约组织领导人峰会呼吁商界领袖将可持续发展雄心转化为大规模行动",
-    "digest": "全球领导人齐聚纽约，推进在商业韧性、气候与自然、人权、可持续金融以及更具韧性的全球市场等方面的务实行动。联合国全球契约组织今天结束了其2026年领导人峰会，汇聚了750多位商界领袖、投资者、政策制定者、联合国代表和可持续发展专家，举行为期两天的峰会，重点在于将企业可持续发展承诺转化为可衡量的行动，并构建实现长期可持续增长所需的体系。",
-    "latest": "全球领导人齐聚纽约，推进在商业韧性、气候与自然、人权、可持续金融以及更具韧性的全球市场等方面的务实行动。联合国全球契约组织今天结束了其2026年领导人峰会，汇聚了750多位商界领袖、投资者、政策制定者、联合国代表和可持续发展专家，举行为期两天的峰会，重点在于将企业可持续发展承诺转化为可衡量的行动，并构建实现长期可持续增长所需的体系。",
+    "digest": "联合国全球契约组织领导人峰会呼吁商界领袖将可持续发展雄心转化为大规模行动",
+    "latest": "联合国全球契约组织领导人峰会呼吁商界领袖将可持续发展雄心转化为大规模行动",
     "memberIds": [
       "src-1o1mntw"
     ],
@@ -18239,8 +18638,8 @@
     "id": "story-183aso6",
     "rootId": "src-19p7knv",
     "title": "欧洲各地的联合国全球契约组织企业在可持续发展目标方面作出了切实贡献，但仍缺乏推进环境目标的运营层面行动",
-    "digest": "联合国全球契约组织保加利亚、芬兰、法国、德国、意大利、英国和土耳其等网络发布第二版《欧洲私营部门可持续发展目标盘点》，基于21个欧洲国家5793家参与企业的136项数据点，首次估算私营部门对可持续发展目标的贡献水平。企业总体平均贡献得分为58.2分（满分100），其中健康相关目标得分最高，为73.6分；气候行动目标平均仅45.8分，只有28.1%的受访企业制定了气候适应计划。社会类目标贡献高于环境类，希腊、土耳其和意大利企业得分居前，波兰、丹麦及瑞士与列支敦士登较低。报告指出多数企业已作出政策承诺并实施内部预防措施，但难以转化为运营行动，中小企业尤为明显，仅半数实施社会类措施的企业衡量了进展。",
-    "latest": "联合国全球契约组织保加利亚、芬兰、法国、德国、意大利、英国和土耳其等网络发布第二版《欧洲私营部门可持续发展目标盘点》，基于21个欧洲国家5793家参与企业的136项数据点，首次估算私营部门对可持续发展目标的贡献水平。企业总体平均贡献得分为58.2分（满分100），其中健康相关目标得分最高，为73.6分；气候行动目标平均仅45.8分，只有28.1%的受访企业制定了气候适应计划。社会类目标贡献高于环境类，希腊、土耳其和意大利企业得分居前，波兰、丹麦及瑞士与列支敦士登较低。报告指出多数企业已作出政策承诺并实施内部预防措施，但难以转化为运营行动，中小企业尤为明显，仅半数实施社会类措施的企业衡量了进展。",
+    "digest": "联合国全球契约组织保加利亚、芬兰、法国、德国、意大利、英国和土耳其网络发布第二版《欧洲私营部门可持续发展目标盘点》，基于21个欧洲国家5793家参与企业的136项数据点，首次估算私营部门对可持续发展目标的贡献水平。企业总体平均贡献得分为58.2分（满分100），其中健康相关目标得分最高（73.6），气候行动目标平均仅45.8分，只有28.1%的受访企业制定了气候适应计划。社会类目标贡献高于环境类目标，报告认为这可能反映欧洲社会领域监管历史更长，而环境类指标需要更高成熟度。报告还指出，多数企业已作出政策承诺并实施内部预防措施，但难以转化为运营行动，中小企业尤为明显。",
+    "latest": "联合国全球契约组织保加利亚、芬兰、法国、德国、意大利、英国和土耳其网络发布第二版《欧洲私营部门可持续发展目标盘点》，基于21个欧洲国家5793家参与企业的136项数据点，首次估算私营部门对可持续发展目标的贡献水平。企业总体平均贡献得分为58.2分（满分100），其中健康相关目标得分最高（73.6），气候行动目标平均仅45.8分，只有28.1%的受访企业制定了气候适应计划。社会类目标贡献高于环境类目标，报告认为这可能反映欧洲社会领域监管历史更长，而环境类指标需要更高成熟度。报告还指出，多数企业已作出政策承诺并实施内部预防措施，但难以转化为运营行动，中小企业尤为明显。",
     "memberIds": [
       "src-19p7knv"
     ],
@@ -21548,8 +21947,8 @@
     "id": "story-tn7m6u",
     "rootId": "src-t6t5q5",
     "title": "非洲商业与人权论坛在达喀尔闭幕，呼吁在人权与环境方面采取更有力行动",
-    "digest": "第五届区域论坛汇聚各国政府、企业、民间社会和联合国，共同推进非洲负责任商业行为。第五届非洲商业与人权（BHR）论坛今天在塞内加尔达喀尔闭幕，各国政府、企业、联合国、民间社会、工人代表、人权专家和原住民社区齐聚一堂，以加速负责任商业行为并加强整个非洲大陆的人权保护。",
-    "latest": "第五届区域论坛汇聚各国政府、企业、民间社会和联合国，共同推进非洲负责任商业行为。第五届非洲商业与人权（BHR）论坛今天在塞内加尔达喀尔闭幕，各国政府、企业、联合国、民间社会、工人代表、人权专家和原住民社区齐聚一堂，以加速负责任商业行为并加强整个非洲大陆的人权保护。",
+    "digest": "非洲商业与人权论坛在达喀尔闭幕",
+    "latest": "非洲商业与人权论坛在达喀尔闭幕",
     "memberIds": [
       "src-t6t5q5"
     ],
@@ -24801,8 +25200,8 @@
     "id": "story-1rzed6x",
     "rootId": "src-1gnyckx",
     "title": "联合国秘书长将发布全球生物多样性承诺进展报告",
-    "digest": "联合国秘书长安东尼奥·古特雷斯将正式发布关于2022年全球生物多样性承诺进展情况的报告，评估各国落实全球生物多样性目标的进展。",
-    "latest": "联合国秘书长安东尼奥·古特雷斯将正式发布关于2022年全球生物多样性承诺进展情况的报告，评估各国落实全球生物多样性目标的进展。",
+    "digest": "联合国秘书长将发布全球生物多样性承诺进展报告",
+    "latest": "联合国秘书长将发布全球生物多样性承诺进展报告",
     "memberIds": [
       "src-1gnyckx"
     ],
@@ -29103,8 +29502,8 @@
     "id": "story-1jp8dgx",
     "rootId": "src-qcbra9",
     "title": "生物多样性公约执行秘书在缔约方大会第十七次会议开幕式上的发言……",
-    "digest": "生物多样性公约执行秘书在缔约方大会第十七次会议开幕式上的致辞",
-    "latest": "生物多样性公约执行秘书在2026年联合国生物多样性大会闭幕式上的闭幕辞，埃里温",
+    "digest": "生物多样性公约执行秘书在缔约方大会第十七次会议开幕式上的发言",
+    "latest": "生物多样性公约执行秘书在2026年联合国生物多样性大会闭幕式上的闭幕辞",
     "memberIds": [
       "src-qcbra9",
       "src-1cso2ih"
@@ -33894,7 +34293,7 @@
     "rootId": "src-1lfowo6",
     "title": "可持续咨询市场规模、份额| 2034 年增长报告 - 财富商业洞察",
     "digest": "可持续咨询市场规模、份额 | 增长报告 2034 Fortune Business Insights",
-    "latest": "可持续咨询市场规模、份额 | 增长报告 2034 Fortune Business Insights",
+    "latest": "可持续咨询市场规模、份额 | 增长报告 2034 - Fortune Business Insights",
     "memberIds": [
       "src-1lfowo6",
       "src-51pvj2",
@@ -36638,8 +37037,8 @@
     "id": "story-1uyipil",
     "rootId": "src-m5zqgy",
     "title": "弥合爱尔兰的规模化转型差距 - PwC Ireland",
-    "digest": "弥合爱尔兰的规模化转型差距 普华永道爱尔兰",
-    "latest": "弥合爱尔兰的规模化转型差距 普华永道爱尔兰",
+    "digest": "弥合爱尔兰的规模化转型差距 - PwC Ireland",
+    "latest": "弥合爱尔兰的规模化转型差距 - PwC Ireland",
     "memberIds": [
       "src-m5zqgy"
     ],
@@ -40239,8 +40638,8 @@
     "id": "story-13hmj39",
     "rootId": "src-nb5aag",
     "title": "普华永道 2026 年海峡群岛透明度报告 - 普华永道",
-    "digest": "普华永道海峡群岛2026年透明度报告 普华永道",
-    "latest": "普华永道海峡群岛2026年透明度报告 普华永道",
+    "digest": "普华永道 2026 年海峡群岛透明度报告 - 普华永道",
+    "latest": "普华永道 2026 年海峡群岛透明度报告 - 普华永道",
     "memberIds": [
       "src-nb5aag"
     ],
@@ -40313,6 +40712,46 @@
     "signalCount": 0,
     "sourceNames": [
       "DLA Piper 洞察"
+    ]
+  },
+  {
+    "id": "story-1o99i18",
+    "rootId": "src-1685pne",
+    "title": "香港与老挝签订税务协定 - www.hkcna.hk",
+    "digest": "香港与老挝签订税务协定 www.hkcna.hk",
+    "latest": "香港与老挝签订税务协定 www.hkcna.hk",
+    "memberIds": [
+      "src-1685pne"
+    ],
+    "facts": [
+      {
+        "title": "香港与老挝签订税务协定 - www.hkcna.hk",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "香港与老挝签订税务协定 - www.hkcna.hk",
+        "occurredAt": "2026-10-29"
+      }
+    ],
+    "participants": [
+      "nfra-news"
+    ],
+    "firstPublishedAt": "2026-10-29T07:00:00.000Z",
+    "latestPublishedAt": "2026-10-29T07:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1685pne",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "金融监管总局通知公告"
     ]
   },
   {
@@ -43455,8 +43894,8 @@
     "id": "story-ip27",
     "rootId": "src-1a7v0t9",
     "title": "自然报告的飞跃：将自然风险纳入业务决策 - 普华永道",
-    "digest": "自然报告向前迈进：将自然风险纳入商业决策 普华永道",
-    "latest": "自然报告向前迈进：将自然风险纳入商业决策 普华永道",
+    "digest": "自然报告的飞跃：将自然风险纳入业务决策 - 普华永道",
+    "latest": "自然报告的飞跃：将自然风险纳入业务决策 - 普华永道",
     "memberIds": [
       "src-1a7v0t9"
     ],
@@ -44481,8 +44920,8 @@
     "id": "story-1l949en",
     "rootId": "src-7u3mdp",
     "title": "可持续发展报告 - 普华永道",
-    "digest": "普华永道可持续发展报告",
-    "latest": "普华永道可持续发展报告",
+    "digest": "可持续发展报告 - 普华永道",
+    "latest": "可持续发展报告 - 普华永道",
     "memberIds": [
       "src-7u3mdp"
     ],
@@ -46306,8 +46745,8 @@
     "id": "story-54noe6",
     "rootId": "src-2ismmx",
     "title": "富而德律师事务所和海文律师事务所为中国人工智能供应商就 1.3B 美元香港 IPO 提供法律服务 - Law.com",
-    "digest": "富而德、海问为中国人工智能供应商13亿美元香港IPO提供咨询 Law.com",
-    "latest": "富而德、海问为中国人工智能供应商13亿美元香港IPO提供咨询 Law.com",
+    "digest": "富而德律师事务所和海文律师事务所为中国人工智能供应商就 1.3B 美元香港 IPO 提供法律服务 - Law.com",
+    "latest": "富而德律师事务所和海文律师事务所为中国人工智能供应商就 1.3B 美元香港 IPO 提供法律服务 - Law.com",
     "memberIds": [
       "src-2ismmx"
     ],
@@ -46346,8 +46785,8 @@
     "id": "story-1n1fb0u",
     "rootId": "src-43pgq3",
     "title": "美国酒店业方向：2026年11月酒店业展望 - 普华永道",
-    "digest": "美国酒店业方向：2026年11月酒店业展望 普华永道",
-    "latest": "美国酒店业方向：2026年11月酒店业展望 普华永道",
+    "digest": "美国酒店业方向：2026年11月酒店业展望 - 普华永道",
+    "latest": "美国酒店业方向：2026年11月酒店业展望 - 普华永道",
     "memberIds": [
       "src-43pgq3"
     ],
@@ -46426,8 +46865,8 @@
     "id": "story-1u3roeu",
     "rootId": "src-1c335t7",
     "title": "制药业无声的可持续发展风险与供应链解决方案 - Manufacturing Chemist",
-    "digest": "制药业无声的可持续发展风险及供应链解决方案 《制药化学家》",
-    "latest": "制药业无声的可持续发展风险及供应链解决方案 《制药化学家》",
+    "digest": "制药业无声的可持续发展风险与供应链解决方案 - Manufacturing Chemist",
+    "latest": "制药业无声的可持续发展风险与供应链解决方案 - Manufacturing Chemist",
     "memberIds": [
       "src-1c335t7"
     ],
@@ -47066,8 +47505,8 @@
     "id": "story-ijeugk",
     "rootId": "src-6e8dma",
     "title": "联合国全球契约在蒙得维的亚召集拉丁美洲领导人并启动由CEO领导的联盟",
-    "digest": "联合国全球契约组织今天在乌拉圭蒙得维的亚召开第二届拉丁美洲和加勒比领导人论坛，汇聚了来自商界、政府、金融界、联合国和学术界的300多位领导人，以加速可持续发展方面的集体行动，并展示拉丁美洲和加勒比地区如何为全球挑战提供创新、可扩展的解决方案。",
-    "latest": "联合国全球契约组织今天在乌拉圭蒙得维的亚召开第二届拉丁美洲和加勒比领导人论坛，汇聚了来自商界、政府、金融界、联合国和学术界的300多位领导人，以加速可持续发展方面的集体行动，并展示拉丁美洲和加勒比地区如何为全球挑战提供创新、可扩展的解决方案。",
+    "digest": "联合国全球契约在蒙得维的亚召集拉丁美洲领导人并启动由CEO领导的联盟",
+    "latest": "联合国全球契约在蒙得维的亚召集拉丁美洲领导人并启动由CEO领导的联盟",
     "memberIds": [
       "src-6e8dma"
     ],
@@ -47522,7 +47961,7 @@
     "rootId": "src-qgzbu5",
     "title": "国家发展改革委民营局围绕农业、制造业等领域向民营企业公开推介50个投资项目",
     "digest": "国家发展改革委民营局集中推介50个农业、制造业等领域投资项目，预计总投资326亿元，拟引入民间资本246亿元。项目涵盖种植、畜牧、农产品加工、纺织服装、医药制造等类型，民营企业可通过独资、控股、参股、债权、合作经营等多种方式参与。民营局此前召开座谈会听取民营企业投资中的问题障碍及意见建议，下一步将分行业、分区域常态化推介项目并跟踪已推介项目进展。",
-    "latest": "国家发展改革委民营局围绕农业、制造业等领域向民营企业公开推介50个投资项目",
+    "latest": "国家发展改革委民营局集中推介50个农业、制造业等领域投资项目，预计总投资326亿元，拟引入民间资本246亿元。项目涵盖种植、畜牧、农产品加工、纺织服装、医药制造等类型，民营企业可通过独资、控股、参股、债权、合作经营等多种方式参与。国家发展改革委表示，下一步将分行业、分区域常态化推介投资项目，并调度跟踪已推介项目进展。",
     "memberIds": [
       "src-qgzbu5",
       "src-1is2sk5",
@@ -47554,7 +47993,7 @@
       {
         "title": "国家发展改革委民营局围绕农业、制造业等领域向民营企业公开推介",
         "subject": "国家发改委新闻动态",
-        "action": "发布",
+        "action": "通过",
         "object": "国家发展改革委民营局围绕农业、制造业等领域向民营企业公开推介50个投资项目",
         "occurredAt": "2026-11-13"
       }
@@ -48219,6 +48658,46 @@
     "signalCount": 0,
     "sourceNames": [
       "北交所新闻与公告"
+    ]
+  },
+  {
+    "id": "story-ootg12",
+    "rootId": "src-1r8121f",
+    "title": "The EU Customs Overhaul Will Put Supply Chain Data to the Test - Bloomberg Tax",
+    "digest": "The EU Customs Overhaul Will Put Supply Chain Data to the Test    Bloomberg Tax",
+    "latest": "The EU Customs Overhaul Will Put Supply Chain Data to the Test    Bloomberg Tax",
+    "memberIds": [
+      "src-1r8121f"
+    ],
+    "facts": [
+      {
+        "title": "The EU Customs Overhaul Will P",
+        "subject": "贝克·麦坚时（Baker McKenzie）ESG/监管洞察",
+        "action": "发布",
+        "object": "The EU Customs Overhaul Will Put Supply Chain Data to the Test - Bloomberg Tax",
+        "occurredAt": "2026-11-03"
+      }
+    ],
+    "participants": [
+      "bakermckenzie-esg"
+    ],
+    "firstPublishedAt": "2026-11-03T08:00:00.000Z",
+    "latestPublishedAt": "2026-11-03T08:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1r8121f",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "贝克·麦坚时（Baker McKenzie）ESG/监管洞察"
     ]
   },
   {
@@ -49867,8 +50346,8 @@
     "id": "story-14dqjf3",
     "rootId": "src-7fzaho",
     "title": "普衡在布鲁塞尔和伦敦组建了由 4 名律师组成的 DLA Piper 团队 - Law.com",
-    "digest": "保罗·黑斯廷斯从欧华律师事务所引进4名律师团队",
-    "latest": "保罗·黑斯廷斯从欧华律师事务所引进4名律师团队",
+    "digest": "普衡在布鲁塞尔和伦敦组建了由 4 名律师组成的 DLA Piper 团队 - Law.com",
+    "latest": "普衡在布鲁塞尔和伦敦组建了由 4 名律师组成的 DLA Piper 团队 - Law.com",
     "memberIds": [
       "src-7fzaho"
     ],
@@ -49947,8 +50426,8 @@
     "id": "story-1hwy8sy",
     "rootId": "src-rfvfme",
     "title": "领先的ESG数据平台Gprnt敦促新加坡中小企业通过Green 100迈出第一步 - USA Today",
-    "digest": "领先的ESG数据平台Gprnt敦促新加坡中小企业通过Green 100迈出第一步 《今日美国》",
-    "latest": "领先的ESG数据平台Gprnt敦促新加坡中小企业通过Green 100迈出第一步 《今日美国》",
+    "digest": "领先的ESG数据平台Gprnt敦促新加坡中小企业通过Green 100迈出第一步 - USA Today",
+    "latest": "领先的ESG数据平台Gprnt敦促新加坡中小企业通过Green 100迈出第一步 - USA Today",
     "memberIds": [
       "src-rfvfme"
     ],
@@ -49981,6 +50460,46 @@
     "signalCount": 0,
     "sourceNames": [
       "普华永道（PwC）ESG 洞察"
+    ]
+  },
+  {
+    "id": "story-xtcxj",
+    "rootId": "src-1d0z69b",
+    "title": "Africa newsletter | Spotlight on Sudan and corporate complicity - Business and Human Rights Centre",
+    "digest": "Africa newsletter | Spotlight on Sudan and corporate complicity    Business and Human Rights Centre",
+    "latest": "Africa newsletter | Spotlight on Sudan and corporate complicity    Business and Human Rights Centre",
+    "memberIds": [
+      "src-1d0z69b"
+    ],
+    "facts": [
+      {
+        "title": "Africa newsletter | Spotlight ",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Africa newsletter | Spotlight on Sudan and corporate complicity - Business and H",
+        "occurredAt": "2026-11-04"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-11-04T09:34:12.000Z",
+    "latestPublishedAt": "2026-11-04T09:34:12.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1d0z69b",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
     ]
   },
   {
@@ -55980,8 +56499,8 @@
     "id": "story-a5sjkt",
     "rootId": "src-xig3mg",
     "title": "普华永道报告揭露疑似100万英镑大学欺诈案后更多人被捕 - 商业与会计日报",
-    "digest": "普华永道关于疑似100万英镑大学欺诈案的报告发布后更多人被捕 《商业与会计日报》",
-    "latest": "普华永道关于疑似100万英镑大学欺诈案的报告发布后更多人被捕 《商业与会计日报》",
+    "digest": "普华永道报告揭露疑似100万英镑大学欺诈案后更多人被捕 - 商业与会计日报",
+    "latest": "普华永道报告揭露疑似100万英镑大学欺诈案后更多人被捕 - 商业与会计日报",
     "memberIds": [
       "src-xig3mg"
     ],
@@ -56260,8 +56779,8 @@
     "id": "story-ocfskc",
     "rootId": "src-dtfge9",
     "title": "普华永道就Intrum AB出售Intrum Baltics提供咨询 - PwC",
-    "digest": "普华永道就Intrum AB出售Intrum Baltics提供咨询 普华永道",
-    "latest": "普华永道就Intrum AB出售Intrum Baltics提供咨询 普华永道",
+    "digest": "普华永道就Intrum AB出售Intrum Baltics提供咨询 - PwC",
+    "latest": "普华永道就Intrum AB出售Intrum Baltics提供咨询 - PwC",
     "memberIds": [
       "src-dtfge9"
     ],
@@ -56500,8 +57019,8 @@
     "id": "story-1falvjv",
     "rootId": "src-1i6ecic",
     "title": "普华永道就AGRONE收购Rīgas piena kombināts提供咨询 - PwC",
-    "digest": "普华永道就AGRONE收购Rīgas piena kombināts提供咨询 普华永道",
-    "latest": "普华永道就AGRONE收购Rīgas piena kombināts提供咨询 普华永道",
+    "digest": "普华永道就AGRONE收购Rīgas piena kombināts提供咨询 - PwC",
+    "latest": "普华永道就AGRONE收购Rīgas piena kombināts提供咨询 - PwC",
     "memberIds": [
       "src-1i6ecic"
     ],
@@ -56980,8 +57499,8 @@
     "id": "story-1lrokp2",
     "rootId": "src-itnn06",
     "title": "认识新任IASB主席Sam Woods",
-    "digest": "认识新任国际会计准则理事会（IASB）主席",
-    "latest": "认识新任国际会计准则理事会（IASB）主席",
+    "digest": "认识新任IASB主席Sam Woods",
+    "latest": "认识新任IASB主席Sam Woods",
     "memberIds": [
       "src-itnn06"
     ],
@@ -58603,11 +59122,12 @@
     "id": "story-12zl255",
     "rootId": "src-bds0ej",
     "title": "ESG洞察 - 2026年11月 - 富而德",
-    "digest": "ESG洞察 - 2026年11月 富而德",
-    "latest": "ESG 洞察 - 2026 年 11 月 - 富而德 (Freshfields)",
+    "digest": "ESG洞察 - 2026年11月 - 富而德",
+    "latest": "ESG Insights - November 2026    Legal 500",
     "memberIds": [
       "src-bds0ej",
-      "src-1vnninl"
+      "src-1vnninl",
+      "src-avxlop"
     ],
     "facts": [
       {
@@ -58623,13 +59143,21 @@
         "action": "发布",
         "object": "ESG 洞察 - 2026 年 11 月 - 富而德 (Freshfields)",
         "occurredAt": "2026-11-09"
+      },
+      {
+        "title": "ESG Insights - November 2026 -",
+        "subject": "DLA Piper 洞察",
+        "action": "发布",
+        "object": "ESG Insights - November 2026 - Legal 500",
+        "occurredAt": "2026-11-12"
       }
     ],
     "participants": [
-      "freshfields-esg"
+      "freshfields-esg",
+      "dlapiper-esg"
     ],
     "firstPublishedAt": "2026-11-09T08:00:00.000Z",
-    "latestPublishedAt": "2026-11-09T22:20:22.000Z",
+    "latestPublishedAt": "2026-11-12T08:00:00.000Z",
     "heat": 0,
     "relations": [
       {
@@ -58641,6 +59169,11 @@
         "memberId": "src-1vnninl",
         "relation": "SAME_OCCURRENCE",
         "confidence": 0.9999999999999998
+      },
+      {
+        "memberId": "src-avxlop",
+        "relation": "SAME_STORY",
+        "confidence": 0.7302967433402214
       }
     ],
     "heat6hAgo": 0,
@@ -58649,7 +59182,8 @@
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
-      "富而德（Freshfields）洞察"
+      "富而德（Freshfields）洞察",
+      "DLA Piper 洞察"
     ]
   },
   {
@@ -59657,7 +60191,7 @@
     "id": "story-etfr1u",
     "rootId": "src-11hywod",
     "title": "英国针对上市公司的新基于ISSB的可持续发展报告规则 - Legal 500",
-    "digest": "英国针对上市公司的新版基于ISSB的可持续发展报告规则 Legal 500",
+    "digest": "英国针对上市公司的新基于ISSB的可持续发展报告规则 - Legal 500",
     "latest": "英国针对上市公司的新 ISSB 可持续报告规则 Legal 500",
     "memberIds": [
       "src-11hywod",
@@ -61705,8 +62239,8 @@
     "id": "story-mygyr2",
     "rootId": "src-ujh6vu",
     "title": "联合国全球契约组织呼吁加快气候行动，商界领袖齐聚COP31",
-    "digest": "商业界和联合国领导人今天齐聚COP31，共同应对全球气候行动中最紧迫的挑战之一：在政治不确定性加剧和经济压力增大的时期，如何将企业承诺转化为可衡量的减排成果。",
-    "latest": "商业界和联合国领导人今天齐聚COP31，共同应对全球气候行动中最紧迫的挑战之一：在政治不确定性加剧和经济压力增大的时期，如何将企业承诺转化为可衡量的减排成果。",
+    "digest": "联合国全球契约组织呼吁加快气候行动",
+    "latest": "联合国全球契约组织呼吁加快气候行动",
     "memberIds": [
       "src-ujh6vu"
     ],
@@ -61905,8 +62439,8 @@
     "id": "story-12kz9b2",
     "rootId": "src-ttc43l",
     "title": "海南推进城乡建设低碳转型 全面推广绿色建筑",
-    "digest": "海南推进城乡建设低碳转型 全面推广绿色建筑",
-    "latest": "海南推进城乡建设低碳转型 全面推广绿色建筑",
+    "digest": "海南省住房和城乡建设厅勘察设计与科技处处长林明泉在《海南省应对气候变化的政策与行动2026年度报告》白皮书新闻发布会上介绍，海南新建绿色建筑面积占城镇新建建筑面积比例已提高至100%，城镇新建建筑全面执行绿色建筑基本级标准。截至2025年底，一星级及以上绿色建筑面积占比达到30%，2026年计划达到33%。2025年以来，全省新建城镇建筑项目采用装配式建造的占新建建筑面积比例已超过80%，并实行“应建尽建”和负面清单管理。海南近期正组织首批“博鳌评价”城乡建设零碳评价工作，对6个项目开展技术评审。",
+    "latest": "海南省住房和城乡建设厅勘察设计与科技处处长林明泉在《海南省应对气候变化的政策与行动2026年度报告》白皮书新闻发布会上介绍，海南新建绿色建筑面积占城镇新建建筑面积比例已提高至100%，城镇新建建筑全面执行绿色建筑基本级标准。截至2025年底，一星级及以上绿色建筑面积占比达到30%，2026年计划达到33%。2025年以来，全省新建城镇建筑项目采用装配式建造的占新建建筑面积比例已超过80%，并实行“应建尽建”和负面清单管理。海南近期正组织首批“博鳌评价”城乡建设零碳评价工作，对6个项目开展技术评审。",
     "memberIds": [
       "src-ttc43l"
     ],
@@ -62065,8 +62599,8 @@
     "id": "story-1ifeofl",
     "rootId": "src-r7g11a",
     "title": "持怀疑态度的CFO会拒绝的五项ESG效益主张，以及那些能够站得住脚的主张 - Spectreco",
-    "digest": "持怀疑态度的首席财务官会拒绝的五项ESG效益主张",
-    "latest": "持怀疑态度的首席财务官会拒绝的五项ESG效益主张",
+    "digest": "持怀疑态度的CFO会拒绝的五项ESG效益主张",
+    "latest": "持怀疑态度的CFO会拒绝的五项ESG效益主张",
     "memberIds": [
       "src-r7g11a"
     ],
@@ -64129,8 +64663,8 @@
   {
     "id": "story-1ihbn0c",
     "rootId": "src-lkhxmc",
-    "title": "Revised ESRS give companies more scope for a targeted DMA - PwC Nederland",
-    "digest": "Revised ESRS give companies more scope for a targeted DMA    PwC Nederland",
+    "title": "修订后的ESRS为企业开展有针对性的双重重要性评估（DMA）提供了更大空间 - 普华永道荷兰",
+    "digest": "修订后的ESRS为企业开展有针对性的双重重要性评估（DMA）提供了更大空间 - 普华永道荷兰",
     "latest": "修订后的ESRS为企业开展有针对性的双重重要性评估（DMA）提供了更大空间 普华永道荷兰",
     "memberIds": [
       "src-lkhxmc",
@@ -64138,10 +64672,10 @@
     ],
     "facts": [
       {
-        "title": "Revised ESRS give companies mo",
+        "title": "修订后的ESRS为企业开展有针对性的双重重要性评估（DMA）",
         "subject": "普华永道（PwC）ESG 洞察",
-        "action": "revise",
-        "object": "Revised ESRS give companies more scope for a targeted DMA - PwC Nederland",
+        "action": "修订",
+        "object": "修订后的ESRS为企业开展有针对性的双重重要性评估（DMA）提供了更大空间 - 普华永道荷兰",
         "occurredAt": "2026-11-12"
       },
       {
@@ -64571,8 +65105,8 @@
     "id": "story-1z9bre",
     "rootId": "src-2jmgxv",
     "title": "Nordea AM与EQ Investors推出新的聚焦可持续性的多资产基金",
-    "digest": "总部位于英国的投资管理公司EQ Investors和北欧资产管理公司Nordea Asset Management宣布推出",
-    "latest": "总部位于英国的投资管理公司EQ Investors和北欧资产管理公司Nordea Asset Management宣布推出",
+    "digest": "EQ Investors与Nordea Asset Management推出两只多资产基金，分别为股票配置60%的Balanced Fund和80%的Adventurous Fund，目标是低成本、可持续投资并实现长期资本增长。EQ Investors担任战略顾问，负责资产配置与责任投资特征监测；Nordea负责基金日常运营。基金沿用EQ Future Leaders组合的可持续策略，排除武器、化石燃料开采、烟草和赌博等10类业务，以及ESG评级较低或违反国际规范的公司，股票部分目标ESG评分高于、碳足迹低于MSCI全球指数。",
+    "latest": "EQ Investors与Nordea Asset Management推出两只多资产基金，分别为股票配置60%的Balanced Fund和80%的Adventurous Fund，目标是低成本、可持续投资并实现长期资本增长。EQ Investors担任战略顾问，负责资产配置与责任投资特征监测；Nordea负责基金日常运营。基金沿用EQ Future Leaders组合的可持续策略，排除武器、化石燃料开采、烟草和赌博等10类业务，以及ESG评级较低或违反国际规范的公司，股票部分目标ESG评分高于、碳足迹低于MSCI全球指数。",
     "memberIds": [
       "src-2jmgxv"
     ],
@@ -64580,7 +65114,7 @@
       {
         "title": "Nordea AM与EQ Investors推出新的聚焦可持",
         "subject": "ESG Today（全球 ESG 新闻）",
-        "action": "发布",
+        "action": "评级",
         "object": "Nordea AM与EQ Investors推出新的聚焦可持续性的多资产基金",
         "occurredAt": "2026-11-12"
       }
@@ -67125,9 +67659,10 @@
     "rootId": "src-t7cgdu",
     "title": "生态环境部党组召开会议2026-11-14",
     "digest": "生态环境部党组召开会议2026-11-14",
-    "latest": "生态环境部党组召开会议2026-11-14",
+    "latest": "生态环境部党组召开会议2026-11-28",
     "memberIds": [
-      "src-t7cgdu"
+      "src-t7cgdu",
+      "src-1lx3wjn"
     ],
     "facts": [
       {
@@ -67136,19 +67671,31 @@
         "action": "发布",
         "object": "生态环境部党组召开会议2026-11-14",
         "occurredAt": "2026-11-14"
+      },
+      {
+        "title": "生态环境部党组召开会议2026-11-28",
+        "subject": "中国生态环境部新闻",
+        "action": "发布",
+        "object": "生态环境部党组召开会议2026-11-28",
+        "occurredAt": "2026-11-28"
       }
     ],
     "participants": [
       "mee-china"
     ],
     "firstPublishedAt": "2026-11-14T00:00:00.000Z",
-    "latestPublishedAt": "2026-11-14T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-28T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-t7cgdu",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-1lx3wjn",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 0.9230769230769232
       }
     ],
     "heat6hAgo": 0,
@@ -67497,10 +68044,11 @@
     "rootId": "src-q1t16",
     "title": "中国证监会同意氢氧化锂期货和期权注册",
     "digest": "中国证监会同意氢氧化锂期货和期权注册",
-    "latest": "中国证监会同意葵花籽油期货和期权注册",
+    "latest": "中国证监会同意瓦楞原纸期货和期权注册",
     "memberIds": [
       "src-q1t16",
-      "src-1c4xxq5"
+      "src-1c4xxq5",
+      "src-9o56h0"
     ],
     "facts": [
       {
@@ -67516,13 +68064,20 @@
         "action": "发布",
         "object": "中国证监会同意葵花籽油期货和期权注册",
         "occurredAt": "2026-11-14"
+      },
+      {
+        "title": "中国证监会同意瓦楞原纸期货和期权注册",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "中国证监会同意瓦楞原纸期货和期权注册",
+        "occurredAt": "2026-11-23"
       }
     ],
     "participants": [
       "csrc-news"
     ],
     "firstPublishedAt": "2026-11-14T00:00:00.000Z",
-    "latestPublishedAt": "2026-11-14T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-23T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
@@ -67532,6 +68087,11 @@
       },
       {
         "memberId": "src-1c4xxq5",
+        "relation": "SAME_STORY",
+        "confidence": 0.7058823529411765
+      },
+      {
+        "memberId": "src-9o56h0",
         "relation": "SAME_STORY",
         "confidence": 0.7058823529411765
       }
@@ -68003,7 +68563,7 @@
     "rootId": "src-1qi7lwq",
     "title": "Nelson Design - 商业与人权中心",
     "digest": "纳尔逊设计商业与人权中心",
-    "latest": "PSSB Holdings (M) Sdn Bhd商业与人权中心",
+    "latest": "Company-based grievance mechanisms    Business and Human Rights Centre",
     "memberIds": [
       "src-1qi7lwq",
       "src-ln6dcq",
@@ -68024,6 +68584,7 @@
       "src-18ty7w7",
       "src-devec8",
       "src-1agrt9i",
+      "src-1i62gv2",
       "src-s2jd57",
       "src-eimer8",
       "src-hvjf9h",
@@ -68031,7 +68592,8 @@
       "src-1j4tpl0",
       "src-ut7wb0",
       "src-1dkt55h",
-      "src-sd3f5o"
+      "src-sd3f5o",
+      "src-6i9dw"
     ],
     "facts": [
       {
@@ -68168,6 +68730,13 @@
         "occurredAt": "2026-11-24"
       },
       {
+        "title": "Remedy and Complaints Compass ",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Remedy and Complaints Compass - Business and Human Rights Centre",
+        "occurredAt": "2026-11-26"
+      },
+      {
         "title": "Jevon Natali Farms - 商业与人权中心",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
@@ -68222,13 +68791,20 @@
         "action": "发布",
         "object": "PSSB Holdings (M) Sdn Bhd - 商业与人权中心",
         "occurredAt": "2026-11-26"
+      },
+      {
+        "title": "Company-based grievance mechan",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Company-based grievance mechanisms - Business and Human Rights Centre",
+        "occurredAt": "2026-11-27"
       }
     ],
     "participants": [
       "bhrrc-latest"
     ],
     "firstPublishedAt": "2026-11-15T08:00:00.000Z",
-    "latestPublishedAt": "2026-11-26T22:08:12.000Z",
+    "latestPublishedAt": "2026-11-27T08:18:15.000Z",
     "heat": 0,
     "relations": [
       {
@@ -68327,6 +68903,11 @@
         "confidence": 0.629940788348712
       },
       {
+        "memberId": "src-1i62gv2",
+        "relation": "SAME_STORY",
+        "confidence": 0.6681531047810609
+      },
+      {
         "memberId": "src-s2jd57",
         "relation": "SAME_STORY",
         "confidence": 0.6681531047810609
@@ -68363,6 +68944,11 @@
       },
       {
         "memberId": "src-sd3f5o",
+        "relation": "SAME_STORY",
+        "confidence": 0.629940788348712
+      },
+      {
+        "memberId": "src-6i9dw",
         "relation": "SAME_STORY",
         "confidence": 0.629940788348712
       }
@@ -70258,7 +70844,7 @@
     "rootId": "src-d4850j",
     "title": "“这会改变我的人生”：沙特阿拉伯可再生能源行业移民工人的救济、赔偿与正义 - 商业与人权资源中心",
     "digest": "商业与人权资源中心发布内容，聚焦沙特阿拉伯可再生能源行业移民工人在救济、赔偿与正义方面的处境，并引用一名工人“这会改变我的人生”的说法。",
-    "latest": "“It would change my life”: Remedy, reparations and justice for migrant workers in Saudi Arabia’s renewable energy industry    Business and Human Rights Centre",
+    "latest": "“这会改变我的人生”：沙特阿拉伯可再生能源行业移民工人的补救、赔偿与正义 - 商业与人权资源中心",
     "memberIds": [
       "src-d4850j",
       "src-sk8ja9",
@@ -70288,10 +70874,10 @@
         "occurredAt": "2026-11-23"
       },
       {
-        "title": "“It would change my life”: Rem",
+        "title": "“这会改变我的人生”：沙特阿拉伯可再生能源行业移民工人的补救",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "“It would change my life”: Remedy, reparations and justice for migrant workers i",
+        "object": "“这会改变我的人生”：沙特阿拉伯可再生能源行业移民工人的补救、赔偿与正义 - 商业与人权资源中心",
         "occurredAt": "2026-11-26"
       }
     ],
@@ -72849,10 +73435,11 @@
     "id": "story-17c4hse",
     "rootId": "src-115gluk",
     "title": "从隐形到保护：国际劳工组织通过针对平台工人的里程碑式保护措施 - 商业与人权资源中心",
-    "digest": "从隐形到保护：国际劳工组织通过平台工人的里程碑式保护 商业与人权中心",
-    "latest": "从隐形到保护：国际劳工组织通过平台工人的里程碑式保护 商业与人权中心",
+    "digest": "从隐形到保护：国际劳工组织通过针对平台工人的里程碑式保护措施 - 商业与人权资源中心",
+    "latest": "从隐形到保护：国际劳工组织通过针对平台工人的里程碑式保护措施 商业与人权中心",
     "memberIds": [
-      "src-115gluk"
+      "src-115gluk",
+      "src-1cvawrh"
     ],
     "facts": [
       {
@@ -72861,17 +73448,29 @@
         "action": "通过",
         "object": "从隐形到保护：国际劳工组织通过针对平台工人的里程碑式保护措施 - 商业与人权资源中心",
         "occurredAt": "2026-11-17"
+      },
+      {
+        "title": "从隐形到保护：国际劳工组织通过针对平台工人的里程碑式保护措施",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "通过",
+        "object": "从隐形到保护：国际劳工组织通过针对平台工人的里程碑式保护措施 - 商业与人权中心",
+        "occurredAt": "2026-11-25"
       }
     ],
     "participants": [
       "bhrrc-latest"
     ],
     "firstPublishedAt": "2026-11-17T08:00:00.000Z",
-    "latestPublishedAt": "2026-11-17T08:00:00.000Z",
+    "latestPublishedAt": "2026-11-25T08:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-115gluk",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1cvawrh",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -73049,8 +73648,8 @@
     "id": "story-s8yaly",
     "rootId": "src-w206ju",
     "title": "报告：乌克兰冲突相关损害的赔偿：企业的关键作用 - 商业与人权资源中心",
-    "digest": "报告：乌克兰冲突相关损害的赔偿：企业的关键作用 商业与人权资源中心",
-    "latest": "报告：乌克兰冲突相关损害的赔偿：企业的关键作用 商业与人权资源中心",
+    "digest": "报告：乌克兰冲突相关损害的赔偿：企业的关键作用 - 商业与人权资源中心",
+    "latest": "报告：乌克兰冲突相关损害的赔偿：企业的关键作用 - 商业与人权资源中心",
     "memberIds": [
       "src-w206ju"
     ],
@@ -73205,6 +73804,191 @@
     ]
   },
   {
+    "id": "story-14sg9d0",
+    "rootId": "src-1jnut0b",
+    "title": "Wilson Sonsini Taps Baker McKenzie Partner, Brussels Leader to Anchor New Singapore Office - Law.com",
+    "digest": "Wilson Sonsini Taps Baker McKenzie Partner, Brussels Leader to Anchor New Singapore Office    Law.com",
+    "latest": "Wilson Sonsini 聘请贝克·麦坚时合伙人、布鲁塞尔负责人来主持新的新加坡办公室 Law.com",
+    "memberIds": [
+      "src-1jnut0b",
+      "src-18jg0mr"
+    ],
+    "facts": [
+      {
+        "title": "Wilson Sonsini Taps Baker McKe",
+        "subject": "贝克·麦坚时（Baker McKenzie）ESG/监管洞察",
+        "action": "发布",
+        "object": "Wilson Sonsini Taps Baker McKenzie Partner, Brussels Leader to Anchor New Singap",
+        "occurredAt": "2026-11-17"
+      },
+      {
+        "title": "威尔逊·桑西尼挖来贝克·麦坚时合伙人和布鲁塞尔负责人执掌新设",
+        "subject": "贝克·麦坚时（Baker McKenzie）ESG/监管洞察",
+        "action": "发布",
+        "object": "威尔逊·桑西尼挖来贝克·麦坚时合伙人和布鲁塞尔负责人执掌新设新加坡办事处 - Law.com",
+        "occurredAt": "2026-11-18"
+      }
+    ],
+    "participants": [
+      "bakermckenzie-esg"
+    ],
+    "firstPublishedAt": "2026-11-17T08:00:00.000Z",
+    "latestPublishedAt": "2026-11-18T01:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1jnut0b",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-18jg0mr",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 0.9999999999999999
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "贝克·麦坚时（Baker McKenzie）ESG/监管洞察"
+    ]
+  },
+  {
+    "id": "story-3xbwg1",
+    "rootId": "src-1ykmss5",
+    "title": "Mishcon de Reya adds two new Partners to Corporate team - Mishcon de Reya LLP",
+    "digest": "Mishcon de Reya adds two new Partners to Corporate team    Mishcon de Reya LLP",
+    "latest": "Mishcon de Reya为公司团队新增两名合伙人 - Mishcon de Reya LLP",
+    "memberIds": [
+      "src-1ykmss5",
+      "src-1y3kihw"
+    ],
+    "facts": [
+      {
+        "title": "Mishcon de Reya adds two new P",
+        "subject": "富而德（Freshfields）洞察",
+        "action": "发布",
+        "object": "Mishcon de Reya adds two new Partners to Corporate team - Mishcon de Reya LLP",
+        "occurredAt": "2026-11-17"
+      },
+      {
+        "title": "Mishcon de Reya为公司团队新增两名合伙人 - ",
+        "subject": "富而德（Freshfields）洞察",
+        "action": "发布",
+        "object": "Mishcon de Reya为公司团队新增两名合伙人 - Mishcon de Reya LLP",
+        "occurredAt": "2026-11-17"
+      }
+    ],
+    "participants": [
+      "freshfields-esg"
+    ],
+    "firstPublishedAt": "2026-11-17T08:00:00.000Z",
+    "latestPublishedAt": "2026-11-17T10:41:05.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1ykmss5",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1y3kihw",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "富而德（Freshfields）洞察"
+    ]
+  },
+  {
+    "id": "story-13ga9ci",
+    "rootId": "src-1vzmtnj",
+    "title": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金融服务体系 - Sohu",
+    "digest": "助力上海国际绿色金融枢纽建设",
+    "latest": "助力上海国际绿色金融枢纽建设",
+    "memberIds": [
+      "src-1vzmtnj",
+      "src-1wx1sc4",
+      "src-6gn5mo",
+      "src-dkpf6g"
+    ],
+    "facts": [
+      {
+        "title": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金融服务体系 - Sohu",
+        "occurredAt": "2026-11-17"
+      },
+      {
+        "title": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金融服务体系 - Sohu",
+        "occurredAt": "2026-11-17"
+      },
+      {
+        "title": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金融服务体系 - 新浪财经_金融信息服务商",
+        "occurredAt": "2026-11-17"
+      },
+      {
+        "title": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金融服务体系 - 手机新浪网",
+        "occurredAt": "2026-11-17"
+      }
+    ],
+    "participants": [
+      "nfra-news"
+    ],
+    "firstPublishedAt": "2026-11-17T08:00:00.000Z",
+    "latestPublishedAt": "2026-11-17T11:14:30.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1vzmtnj",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1wx1sc4",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
+      },
+      {
+        "memberId": "src-6gn5mo",
+        "relation": "SAME_STORY",
+        "confidence": 0.8534859274986487
+      },
+      {
+        "memberId": "src-dkpf6g",
+        "relation": "SAME_STORY",
+        "confidence": 0.9104463009115372
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "金融监管总局通知公告"
+    ]
+  },
+  {
     "id": "story-1lemz31",
     "rootId": "src-1hpuvh2",
     "title": "央行上海市分行等：丰富各类碳金融产品 扩大碳资产质押融资等业务规模 - 证券之星",
@@ -73285,72 +74069,6 @@
     ]
   },
   {
-    "id": "story-1djsbpu",
-    "rootId": "src-1wx1sc4",
-    "title": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金融服务体系 - Sohu",
-    "digest": "助力上海国际绿色金融枢纽建设",
-    "latest": "助力上海国际绿色金融枢纽建设",
-    "memberIds": [
-      "src-1wx1sc4",
-      "src-6gn5mo",
-      "src-dkpf6g"
-    ],
-    "facts": [
-      {
-        "title": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金",
-        "subject": "金融监管总局通知公告",
-        "action": "发布",
-        "object": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金融服务体系 - Sohu",
-        "occurredAt": "2026-11-17"
-      },
-      {
-        "title": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金",
-        "subject": "金融监管总局通知公告",
-        "action": "发布",
-        "object": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金融服务体系 - 新浪财经_金融信息服务商",
-        "occurredAt": "2026-11-17"
-      },
-      {
-        "title": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金",
-        "subject": "金融监管总局通知公告",
-        "action": "发布",
-        "object": "助力上海国际绿色金融枢纽建设，两部门发文：构建“五化”绿色金融服务体系 - 手机新浪网",
-        "occurredAt": "2026-11-17"
-      }
-    ],
-    "participants": [
-      "nfra-news"
-    ],
-    "firstPublishedAt": "2026-11-17T09:15:53.000Z",
-    "latestPublishedAt": "2026-11-17T11:14:30.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1wx1sc4",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      },
-      {
-        "memberId": "src-6gn5mo",
-        "relation": "SAME_STORY",
-        "confidence": 0.8534859274986487
-      },
-      {
-        "memberId": "src-dkpf6g",
-        "relation": "SAME_STORY",
-        "confidence": 0.9104463009115372
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "金融监管总局通知公告"
-    ]
-  },
-  {
     "id": "story-1tlpkx5",
     "rootId": "src-1cy6rr0",
     "title": "上游新闻 - 上游新闻",
@@ -73359,6 +74077,7 @@
     "memberIds": [
       "src-1cy6rr0",
       "src-4kvdgf",
+      "src-1a0llc3",
       "src-amdqhe",
       "src-illb7o"
     ],
@@ -73369,6 +74088,13 @@
         "action": "发布",
         "object": "上游新闻 - 上游新闻",
         "occurredAt": "2026-11-17"
+      },
+      {
+        "title": "上游新闻 - 上游新闻",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "上游新闻 - 上游新闻",
+        "occurredAt": "2026-11-18"
       },
       {
         "title": "上游新闻 - 上游新闻",
@@ -73406,6 +74132,11 @@
       },
       {
         "memberId": "src-4kvdgf",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1a0llc3",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       },
@@ -73600,7 +74331,8 @@
       "src-z6dyvp",
       "src-1qr2sth",
       "src-bh3w18",
-      "src-iz3q1l"
+      "src-iz3q1l",
+      "src-1wm2sqh"
     ],
     "facts": [
       {
@@ -73644,13 +74376,20 @@
         "action": "发布",
         "object": "金融监管总局：依法将所有金融活动全部纳入监管 - 财联社",
         "occurredAt": "2026-11-27"
+      },
+      {
+        "title": "金融监管总局：依法将所有金融活动全部纳入监管 - 财联社",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "金融监管总局：依法将所有金融活动全部纳入监管 - 财联社",
+        "occurredAt": "2026-11-27"
       }
     ],
     "participants": [
       "nfra-news"
     ],
     "firstPublishedAt": "2026-11-17T09:50:45.000Z",
-    "latestPublishedAt": "2026-11-27T02:08:10.000Z",
+    "latestPublishedAt": "2026-11-27T22:08:27.000Z",
     "heat": 0,
     "relations": [
       {
@@ -73680,6 +74419,11 @@
       },
       {
         "memberId": "src-iz3q1l",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 0.9999999999999998
+      },
+      {
+        "memberId": "src-1wm2sqh",
         "relation": "SAME_OCCURRENCE",
         "confidence": 0.9999999999999998
       }
@@ -73811,46 +74555,6 @@
     "signalCount": 0,
     "sourceNames": [
       "金融监管总局通知公告"
-    ]
-  },
-  {
-    "id": "story-19zbjcb",
-    "rootId": "src-1y3kihw",
-    "title": "Mishcon de Reya为公司团队新增两名合伙人 - Mishcon de Reya LLP",
-    "digest": "Mishcon de Reya 为公司团队增添两名新合伙人 Mishcon de Reya LLP",
-    "latest": "Mishcon de Reya 为公司团队增添两名新合伙人 Mishcon de Reya LLP",
-    "memberIds": [
-      "src-1y3kihw"
-    ],
-    "facts": [
-      {
-        "title": "Mishcon de Reya为公司团队新增两名合伙人 - ",
-        "subject": "富而德（Freshfields）洞察",
-        "action": "发布",
-        "object": "Mishcon de Reya为公司团队新增两名合伙人 - Mishcon de Reya LLP",
-        "occurredAt": "2026-11-17"
-      }
-    ],
-    "participants": [
-      "freshfields-esg"
-    ],
-    "firstPublishedAt": "2026-11-17T10:41:05.000Z",
-    "latestPublishedAt": "2026-11-17T10:41:05.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-1y3kihw",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "富而德（Freshfields）洞察"
     ]
   },
   {
@@ -74271,11 +74975,12 @@
     "rootId": "src-1oio8pm",
     "title": "什么是云计算？-test",
     "digest": "云计算使企业能够通过互联网远程存储其基础设施，最终降低成本并创造价值。",
-    "latest": "云计算使企业能够通过互联网远程存储其基础设施，最终降低成本并创造价值。",
+    "latest": "Cloud computing allows companies to store their infrastructures remotely via the internet, ultimately reducing costs and creating value.",
     "memberIds": [
       "src-1oio8pm",
       "src-1o2b07n",
-      "src-8zy5za"
+      "src-8zy5za",
+      "src-1n83eln"
     ],
     "facts": [
       {
@@ -74297,6 +75002,13 @@
         "subject": "麦肯锡可持续发展洞察",
         "action": "通过",
         "object": "什么是云计算？-测试",
+        "occurredAt": "2026-11-17"
+      },
+      {
+        "title": "What is cloud computing? -test",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "发布",
+        "object": "What is cloud computing? -test1",
         "occurredAt": "2026-11-17"
       }
     ],
@@ -74321,6 +75033,11 @@
         "memberId": "src-8zy5za",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-1n83eln",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 0.9523809523809523
       }
     ],
     "heat6hAgo": 0,
@@ -74457,7 +75174,7 @@
     "rootId": "src-u7ej0w",
     "title": "发展对话 | 包容性和可持续发展的商业模式 - 商业与人权中心",
     "digest": "发展对话 | 包容性和可持续发展的商业模式 商业与人权资源中心",
-    "latest": "发展对话 | 包容性和可持续发展的商业模式 商业与人权中心",
+    "latest": "发展对话 | 包容性和可持续发展的商业模式 - 商业与人权中心",
     "memberIds": [
       "src-u7ej0w",
       "src-ui8c0u",
@@ -74768,6 +75485,7 @@
       "src-iw6cw",
       "src-im208y",
       "src-gtzlzf",
+      "src-mc3s0c",
       "src-1lz954o",
       "src-1iq8j93"
     ],
@@ -74791,6 +75509,13 @@
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
         "object": "XAI未回应有关供应商涉嫌非法监控数据工作者的指控",
+        "occurredAt": "2026-11-18"
+      },
+      {
+        "title": "Meta non-response re supplier'",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Meta non-response re supplier's alleged illegal surveillance of data workers - B",
         "occurredAt": "2026-11-18"
       },
       {
@@ -74829,6 +75554,11 @@
         "memberId": "src-gtzlzf",
         "relation": "SAME_STORY",
         "confidence": 0.9090909090909091
+      },
+      {
+        "memberId": "src-mc3s0c",
+        "relation": "SAME_STORY",
+        "confidence": 0.753778361444409
       },
       {
         "memberId": "src-1lz954o",
@@ -75431,7 +76161,7 @@
     ],
     "firstPublishedAt": "2026-11-18T00:00:00.000Z",
     "latestPublishedAt": "2026-11-26T00:00:00.000Z",
-    "heat": 1.3,
+    "heat": 0,
     "relations": [
       {
         "memberId": "src-6xzi11",
@@ -75454,9 +76184,9 @@
         "confidence": 0.6666666666666666
       }
     ],
-    "heat6hAgo": 1.5,
-    "trend": "down",
-    "trendPct": -13.3,
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
@@ -76217,8 +76947,8 @@
     "id": "story-6zj2mg",
     "rootId": "src-2emn1d",
     "title": "联合国全球契约组织推出商业诚信加速器，帮助企业打击腐败",
-    "digest": "联合国全球契约组织今日启动商业诚信加速器（BIA），这是一个以行动为导向的全球能力建设计划，专注于在各类规模、行业和地区的公司中推进反腐败、商业道德和合规。该倡议使企业能够超越合规，将诚信置于企业战略、决策和政策的中心，帮助在当今日益复杂的运营环境中推动负责任的行为。",
-    "latest": "联合国全球契约组织今日启动商业诚信加速器（BIA），这是一个以行动为导向的全球能力建设计划，专注于在各类规模、行业和地区的公司中推进反腐败、商业道德和合规。该倡议使企业能够超越合规，将诚信置于企业战略、决策和政策的中心，帮助在当今日益复杂的运营环境中推动负责任的行为。",
+    "digest": "联合国全球契约组织推出商业诚信加速器",
+    "latest": "联合国全球契约组织推出商业诚信加速器",
     "memberIds": [
       "src-2emn1d"
     ],
@@ -76226,7 +76956,7 @@
       {
         "title": "联合国全球契约组织推出商业诚信加速器，帮助企业打击腐败",
         "subject": "联合国全球契约（UNGC）新闻",
-        "action": "启动",
+        "action": "发布",
         "object": "联合国全球契约组织推出商业诚信加速器，帮助企业打击腐败",
         "occurredAt": "2026-11-18"
       }
@@ -76584,46 +77314,6 @@
     "signalCount": 0,
     "sourceNames": [
       "金融监管总局通知公告"
-    ]
-  },
-  {
-    "id": "story-yxmy0v",
-    "rootId": "src-18jg0mr",
-    "title": "威尔逊·桑西尼挖来贝克·麦坚时合伙人和布鲁塞尔负责人执掌新设新加坡办事处 - Law.com",
-    "digest": "Wilson Sonsini 聘请贝克·麦坚时合伙人、布鲁塞尔负责人来主持新的新加坡办公室 Law.com",
-    "latest": "Wilson Sonsini 聘请贝克·麦坚时合伙人、布鲁塞尔负责人来主持新的新加坡办公室 Law.com",
-    "memberIds": [
-      "src-18jg0mr"
-    ],
-    "facts": [
-      {
-        "title": "威尔逊·桑西尼挖来贝克·麦坚时合伙人和布鲁塞尔负责人执掌新设",
-        "subject": "贝克·麦坚时（Baker McKenzie）ESG/监管洞察",
-        "action": "发布",
-        "object": "威尔逊·桑西尼挖来贝克·麦坚时合伙人和布鲁塞尔负责人执掌新设新加坡办事处 - Law.com",
-        "occurredAt": "2026-11-18"
-      }
-    ],
-    "participants": [
-      "bakermckenzie-esg"
-    ],
-    "firstPublishedAt": "2026-11-18T01:00:00.000Z",
-    "latestPublishedAt": "2026-11-18T01:00:00.000Z",
-    "heat": 0,
-    "relations": [
-      {
-        "memberId": "src-18jg0mr",
-        "relation": "SAME_OCCURRENCE",
-        "confidence": 1
-      }
-    ],
-    "heat6hAgo": 0,
-    "trend": "unknown",
-    "trendPct": null,
-    "badges": [],
-    "signalCount": 0,
-    "sourceNames": [
-      "贝克·麦坚时（Baker McKenzie）ESG/监管洞察"
     ]
   },
   {
@@ -77067,18 +77757,18 @@
   {
     "id": "story-i3k1x0",
     "rootId": "src-cdoyd0",
-    "title": "Laos: Authorities Suspend Operations at Mining Site Run by Laos-China Northern Rare Earth Development After Ponds Breach - Business and Human Rights Centre",
-    "digest": "Laos: Authorities Suspend Operations at Mining Site Run by Laos-China Northern Rare Earth Development After Ponds Breach    Business and Human Rights Centre",
-    "latest": "Laos: Authorities Suspend Operations at Mining Site Run by Laos-China Northern Rare Earth Development After Ponds Breach    Business and Human Rights Centre",
+    "title": "老挝：当局在尾矿池泄漏后暂停老中北方稀土开发公司运营的矿场作业 - 商业与人权资源中心",
+    "digest": "老挝：当局在尾矿池泄漏后暂停老中北方稀土开发公司运营的矿场作业 - 商业与人权资源中心",
+    "latest": "老挝：当局在尾矿池泄漏后暂停老中北方稀土开发公司运营的矿场作业 - 商业与人权资源中心",
     "memberIds": [
       "src-cdoyd0"
     ],
     "facts": [
       {
-        "title": "Laos: Authorities Suspend Oper",
+        "title": "老挝：当局在尾矿池泄漏后暂停老中北方稀土开发公司运营的矿场作",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Laos: Authorities Suspend Operations at Mining Site Run by Laos-China Northern R",
+        "object": "老挝：当局在尾矿池泄漏后暂停老中北方稀土开发公司运营的矿场作业 - 商业与人权资源中心",
         "occurredAt": "2026-11-18"
       }
     ],
@@ -77308,8 +77998,8 @@
     "id": "story-6mbc47",
     "rootId": "src-1quau02",
     "title": "A&O Shearman、Freshfields等律所就法庭工作收取飙升的四位数小时费率 - Law.com",
-    "digest": "A&O Shearman、Freshfields 等律所对法庭工作收取飙升的四位数小时费率 Law.com",
-    "latest": "A&O Shearman、Freshfields 等律所对法庭工作收取飙升的四位数小时费率 Law.com",
+    "digest": "A&O Shearman、Freshfields等律所就法庭工作收取飙升的四位数小时费率 - Law.com",
+    "latest": "A&O Shearman、Freshfields等律所就法庭工作收取飙升的四位数小时费率 - Law.com",
     "memberIds": [
       "src-1quau02"
     ],
@@ -77349,7 +78039,7 @@
     "rootId": "src-4bqeed",
     "title": "防止政策俘获：为何游说透明度对英国商业与人权法至关重要 - 商业与人权中心",
     "digest": "防止政策俘获：为何游说透明度对英国商业与人权法至关重要 商业与人权中心",
-    "latest": "Preventing policy capture: Why lobbying transparency matters for UK business and human rights law    Business and Human Rights Centre",
+    "latest": "防止政策俘获：为何游说透明度对英国商业与人权法至关重要 - 商业与人权资源中心",
     "memberIds": [
       "src-4bqeed",
       "src-v4t7oa",
@@ -77403,10 +78093,10 @@
         "occurredAt": "2026-11-24"
       },
       {
-        "title": "Preventing policy capture: Why",
+        "title": "防止政策俘获：为何游说透明度对英国商业与人权法至关重要 - ",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Preventing policy capture: Why lobbying transparency matters for UK business and",
+        "object": "防止政策俘获：为何游说透明度对英国商业与人权法至关重要 - 商业与人权资源中心",
         "occurredAt": "2026-11-25"
       }
     ],
@@ -77746,8 +78436,8 @@
     "id": "story-h18nm3",
     "rootId": "src-16wvssk",
     "title": "Wilson Sonsini从贝克·麦坚时引进监管业务人才，在新加坡设立办事处 - The Global Legal Post",
-    "digest": "Wilson Sonsini 在新加坡成立，从贝克·麦坚时聘请监管人员 The Global Legal Post",
-    "latest": "Wilson Sonsini 在新加坡成立，从贝克·麦坚时聘请监管人员 The Global Legal Post",
+    "digest": "Wilson Sonsini从贝克·麦坚时引进监管业务人才，在新加坡设立办事处 - The Global Legal Post",
+    "latest": "Wilson Sonsini从贝克·麦坚时引进监管业务人才，在新加坡设立办事处 - The Global Legal Post",
     "memberIds": [
       "src-16wvssk"
     ],
@@ -79305,8 +79995,8 @@
     "id": "story-1e6fi6u",
     "rootId": "src-bz1rek",
     "title": "普华永道营收 - FourWeekMBA",
-    "digest": "PWC 收入 FourWeekMBA",
-    "latest": "PWC 收入 FourWeekMBA",
+    "digest": "普华永道营收 - FourWeekMBA",
+    "latest": "普华永道营收 - FourWeekMBA",
     "memberIds": [
       "src-bz1rek"
     ],
@@ -79339,6 +80029,46 @@
     "signalCount": 0,
     "sourceNames": [
       "普华永道（PwC）ESG 洞察"
+    ]
+  },
+  {
+    "id": "story-rwjpih",
+    "rootId": "src-33r1r9",
+    "title": "许正宇访卢森堡：港交所力争明年推代币化仓单融资试点项目_滚动新闻_财经 - 证券之星",
+    "digest": "许正宇访卢森堡：港交所力争明年推代币化仓单融资试点项目_滚动新闻_财经 证券之星",
+    "latest": "许正宇访卢森堡：港交所力争明年推代币化仓单融资试点项目_滚动新闻_财经 证券之星",
+    "memberIds": [
+      "src-33r1r9"
+    ],
+    "facts": [
+      {
+        "title": "许正宇访卢森堡：港交所力争明年推代币化仓单融资试点项目_滚动",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "许正宇访卢森堡：港交所力争明年推代币化仓单融资试点项目_滚动新闻_财经 - 证券之星",
+        "occurredAt": "2026-11-19"
+      }
+    ],
+    "participants": [
+      "nfra-news"
+    ],
+    "firstPublishedAt": "2026-11-19T07:08:33.000Z",
+    "latestPublishedAt": "2026-11-19T07:08:33.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-33r1r9",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "金融监管总局通知公告"
     ]
   },
   {
@@ -79386,7 +80116,7 @@
     "rootId": "src-14uchox",
     "title": "孟加拉国：AAFA和FLA呼吁释放因参加最低工资网络研讨会后被捕的工会领袖 - 商业与人权资源中心",
     "digest": "孟加拉国工会领袖在参加一场关于最低工资的网络研讨会后被捕，AAFA和FLA公开呼吁将其释放。",
-    "latest": "孟加拉国：工会、劳工和人权组织呼吁释放因参加最低工资网络研讨会后被捕的工会领袖 商业与人权资源中心",
+    "latest": "孟加拉国：工会、劳工和人权组织呼吁释放因参加最低工资网络研讨会后被捕的工会领袖 - 商业与人权资源中心",
     "memberIds": [
       "src-14uchox",
       "src-16t6ynl"
@@ -79438,8 +80168,8 @@
     "id": "story-1buklyv",
     "rootId": "src-11aksms",
     "title": "加州报告要求与可持续性鉴证 - 普华永道",
-    "digest": "加利福尼亚州报告要求与可持续发展鉴证 PwC",
-    "latest": "加利福尼亚州报告要求与可持续发展鉴证 PwC",
+    "digest": "加州报告要求与可持续性鉴证 - 普华永道",
+    "latest": "加州报告要求与可持续性鉴证 - 普华永道",
     "memberIds": [
       "src-11aksms"
     ],
@@ -79478,8 +80208,8 @@
     "id": "story-hmyky5",
     "rootId": "src-xjh5gq",
     "title": "印度尼西亚：商业与人权法规草案在推动更严格的企业环境问责之际等待批准 - 商业与人权资源中心",
-    "digest": "印度尼西亚：商业与人权法规草案在加强企业环境问责的推动下等待批准 商业与人权中心",
-    "latest": "印度尼西亚：商业与人权法规草案在加强企业环境问责的推动下等待批准 商业与人权中心",
+    "digest": "印度尼西亚：商业与人权法规草案在推动更严格的企业环境问责之际等待批准 - 商业与人权资源中心",
+    "latest": "印度尼西亚：商业与人权法规草案在推动更严格的企业环境问责之际等待批准 - 商业与人权资源中心",
     "memberIds": [
       "src-xjh5gq"
     ],
@@ -79518,8 +80248,8 @@
     "id": "story-kxhhvf",
     "rootId": "src-adf40p",
     "title": "AI投资会计：计算成本与资本化 - 普华永道",
-    "digest": "人工智能投资会计：计算成本与资本化 PwC",
-    "latest": "人工智能投资会计：计算成本与资本化 PwC",
+    "digest": "AI投资会计：计算成本与资本化 - 普华永道",
+    "latest": "AI投资会计：计算成本与资本化 - 普华永道",
     "memberIds": [
       "src-adf40p"
     ],
@@ -79558,8 +80288,8 @@
     "id": "story-41h7rj",
     "rootId": "src-1f1t0e8",
     "title": "美国：多州起诉TikTok，指控其危害儿童且未能保护年轻用户 - 商业与人权资源中心",
-    "digest": "美国多州对TikTok提起诉讼，指控其危害儿童并未能保护年轻用户。相关消息由商业与人权资源中心发布。",
-    "latest": "美国多州对TikTok提起诉讼，指控其危害儿童并未能保护年轻用户。相关消息由商业与人权资源中心发布。",
+    "digest": "美国：多州起诉TikTok",
+    "latest": "美国：多州起诉TikTok",
     "memberIds": [
       "src-1f1t0e8"
     ],
@@ -79598,8 +80328,8 @@
     "id": "story-gxz28n",
     "rootId": "src-176ch7w",
     "title": "联合国人权事务高级专员警告：人工智能治理中的民主赤字威胁人权及对关键人工智能风险的控制 - 商业与人权资源中心",
-    "digest": "联合国人权事务高级专员警告：人工智能治理中的民主赤字威胁人权和对关键人工智能风险的控制 商业与人权资源中心",
-    "latest": "联合国人权事务高级专员警告：人工智能治理中的民主赤字威胁人权和对关键人工智能风险的控制 商业与人权资源中心",
+    "digest": "联合国人权事务高级专员警告：人工智能治理中的民主赤字威胁人权及对关键人工智能风险的控制 - 商业与人权资源中心",
+    "latest": "联合国人权事务高级专员警告：人工智能治理中的民主赤字威胁人权及对关键人工智能风险的控制 - 商业与人权资源中心",
     "memberIds": [
       "src-176ch7w"
     ],
@@ -81234,8 +81964,8 @@
     "id": "story-1uyt8qg",
     "rootId": "src-1rrybf",
     "title": "到2030年，全国新型储能装机规模达3亿千瓦",
-    "digest": "到2030年",
-    "latest": "到2030年",
+    "digest": "国家发展改革委、国家能源局近日联合印发《“十五五”新型储能实施方案》，提出到2030年全国新型储能装机规模达到3亿千瓦，平均储能时长3小时左右，推动新型储能由规模化发展阶段进入市场化发展阶段。截至2025年底，全国新型储能装机规模为1.36亿千瓦。方案围绕规模布局、应用场景、技术创新、市场机制、行业管理和产业发展部署6方面16项任务，其中到2030年新能源基地配置新型储能规模约5000万至6000万千瓦，可承担顶峰保供作用的电网侧独立新型储能规模约1.4亿千瓦。",
+    "latest": "国家发展改革委、国家能源局近日联合印发《“十五五”新型储能实施方案》，提出到2030年全国新型储能装机规模达到3亿千瓦，平均储能时长3小时左右，推动新型储能由规模化发展阶段进入市场化发展阶段。截至2025年底，全国新型储能装机规模为1.36亿千瓦。方案围绕规模布局、应用场景、技术创新、市场机制、行业管理和产业发展部署6方面16项任务，其中到2030年新能源基地配置新型储能规模约5000万至6000万千瓦，可承担顶峰保供作用的电网侧独立新型储能规模约1.4亿千瓦。",
     "memberIds": [
       "src-1rrybf"
     ],
@@ -81854,8 +82584,8 @@
     "id": "story-zyo52j",
     "rootId": "src-gbgkcy",
     "title": "联合国全球契约组织在COP31汇聚企业与政府，加速清洁能源转型",
-    "digest": "联合国全球契约组织今日结束了在安塔利亚COP31为期两周的参与活动，汇聚了来自商界、金融界、政府和联合国的领导人，参加了由联合国全球契约组织及其国家网络主导的20多场会议，以加速清洁能源转型、推进循环性和公正转型，并将气候承诺转化为切实行动。",
-    "latest": "联合国全球契约组织今日结束了在安塔利亚COP31为期两周的参与活动，汇聚了来自商界、金融界、政府和联合国的领导人，参加了由联合国全球契约组织及其国家网络主导的20多场会议，以加速清洁能源转型、推进循环性和公正转型，并将气候承诺转化为切实行动。",
+    "digest": "联合国全球契约组织在COP31汇聚企业与政府",
+    "latest": "联合国全球契约组织在COP31汇聚企业与政府",
     "memberIds": [
       "src-gbgkcy"
     ],
@@ -82966,6 +83696,46 @@
     "signalCount": 0,
     "sourceNames": [
       "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-19bydss",
+    "rootId": "src-7qu6m3",
+    "title": "上海打开绿色金融新窗口 仓储企业先补碳数据课 - 经济观察网",
+    "digest": "上海打开绿色金融新窗口 仓储企业先补碳数据课 经济观察网",
+    "latest": "上海打开绿色金融新窗口 仓储企业先补碳数据课 经济观察网",
+    "memberIds": [
+      "src-7qu6m3"
+    ],
+    "facts": [
+      {
+        "title": "上海打开绿色金融新窗口 仓储企业先补碳数据课 - 经济观察网",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "上海打开绿色金融新窗口 仓储企业先补碳数据课 - 经济观察网",
+        "occurredAt": "2026-11-20"
+      }
+    ],
+    "participants": [
+      "nfra-news"
+    ],
+    "firstPublishedAt": "2026-11-20T13:34:00.000Z",
+    "latestPublishedAt": "2026-11-20T13:34:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-7qu6m3",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "金融监管总局通知公告"
     ]
   },
   {
@@ -85973,6 +86743,86 @@
     ]
   },
   {
+    "id": "story-1r68l76",
+    "rootId": "src-yhap2s",
+    "title": "中国证监会传达学习贯彻国务院常务会议精神",
+    "digest": "中国证监会传达学习贯彻国务院常务会议精神",
+    "latest": "中国证监会传达学习贯彻国务院常务会议精神",
+    "memberIds": [
+      "src-yhap2s"
+    ],
+    "facts": [
+      {
+        "title": "中国证监会传达学习贯彻国务院常务会议精神",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "中国证监会传达学习贯彻国务院常务会议精神",
+        "occurredAt": "2026-11-23"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2026-11-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-yhap2s",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
+    "id": "story-1hsk0zr",
+    "rootId": "src-15bk2h7",
+    "title": "中国证监会严肃查处两起编造传播证券市场误导性信息案件",
+    "digest": "中国证监会严肃查处两起编造传播证券市场误导性信息案件",
+    "latest": "中国证监会严肃查处两起编造传播证券市场误导性信息案件",
+    "memberIds": [
+      "src-15bk2h7"
+    ],
+    "facts": [
+      {
+        "title": "中国证监会严肃查处两起编造传播证券市场误导性信息案件",
+        "subject": "中国证监会新闻发布",
+        "action": "发布",
+        "object": "中国证监会严肃查处两起编造传播证券市场误导性信息案件",
+        "occurredAt": "2026-11-23"
+      }
+    ],
+    "participants": [
+      "csrc-news"
+    ],
+    "firstPublishedAt": "2026-11-23T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-23T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-15bk2h7",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国证监会新闻发布"
+    ]
+  },
+  {
     "id": "story-1yrr7gs",
     "rootId": "src-14yrwzu",
     "title": "创新中小债落地 北交所拓宽中小企业融资渠道 - 中证网",
@@ -86376,8 +87226,8 @@
     "id": "story-4r95rn",
     "rootId": "src-vedw53",
     "title": "赞比亚：对铜生产的日益关注加剧了工人权利和环境面临的风险 - 商业与人权资源中心",
-    "digest": "赞比亚：对铜生产的日益关注加剧了工人权利和环境面临的风险 商业与人权资源中心",
-    "latest": "赞比亚：对铜生产的日益关注加剧了工人权利和环境面临的风险 商业与人权资源中心",
+    "digest": "赞比亚：对铜生产的日益关注加剧了工人权利和环境面临的风险 - 商业与人权资源中心",
+    "latest": "赞比亚：对铜生产的日益关注加剧了工人权利和环境面临的风险 - 商业与人权资源中心",
     "memberIds": [
       "src-vedw53"
     ],
@@ -86416,8 +87266,8 @@
     "id": "story-1e2gv67",
     "rootId": "src-1hkv42n",
     "title": "从政策到实践：探讨公司对人权捍卫者承诺的落实情况 - 商业与人权资源中心",
-    "digest": "从政策到实践：探讨公司对人权维护者承诺的实施 商业与人权资源中心",
-    "latest": "从政策到实践：探讨公司对人权维护者承诺的实施 商业与人权资源中心",
+    "digest": "从政策到实践：探讨公司对人权捍卫者承诺的落实情况 - 商业与人权资源中心",
+    "latest": "从政策到实践：探讨公司对人权捍卫者承诺的落实情况 - 商业与人权资源中心",
     "memberIds": [
       "src-1hkv42n"
     ],
@@ -86496,8 +87346,8 @@
     "id": "story-1rcq97a",
     "rootId": "src-1rb9b7v",
     "title": "美国：谷歌、Meta和TikTok挑战针对儿童社交媒体成瘾的州法律 - 商业与人权资源中心",
-    "digest": "美国：谷歌、Meta和TikTok挑战针对儿童社交媒体成瘾的州法律 商业与人权资源中心",
-    "latest": "美国：谷歌、Meta和TikTok挑战针对儿童社交媒体成瘾的州法律 商业与人权资源中心",
+    "digest": "美国：谷歌、Meta和TikTok挑战针对儿童社交媒体成瘾的州法律 - 商业与人权资源中心",
+    "latest": "美国：谷歌、Meta和TikTok挑战针对儿童社交媒体成瘾的州法律 - 商业与人权资源中心",
     "memberIds": [
       "src-1rb9b7v"
     ],
@@ -87162,8 +88012,8 @@
     "id": "story-mz0p5m",
     "rootId": "src-1bv0rwi",
     "title": "北京铂世科技发展有限公司未回应关于Xamneua县池塘溃决的关切 - 商业与人权中心",
-    "digest": "北京铂世界科技发展有限公司未回应关于Xamneua区池塘违规的关切 商业与人权中心",
-    "latest": "北京铂世界科技发展有限公司未回应关于Xamneua区池塘违规的关切 商业与人权中心",
+    "digest": "北京铂世科技发展有限公司未回应关于Xamneua县池塘溃决的关切 - 商业与人权中心",
+    "latest": "北京铂世科技发展有限公司未回应关于Xamneua县池塘溃决的关切 - 商业与人权中心",
     "memberIds": [
       "src-1bv0rwi"
     ],
@@ -88120,6 +88970,86 @@
     ]
   },
   {
+    "id": "story-2rxzqm",
+    "rootId": "src-v6ij3t",
+    "title": "Bangladesh: Fashion brands accused of failing to protect workers from violent retailiation following unionisation attempt; incl. co. comments - Business and Human Rights Centre",
+    "digest": "Bangladesh: Fashion brands accused of failing to protect workers from violent retailiation following unionisation attempt; incl. co.",
+    "latest": "Bangladesh: Fashion brands accused of failing to protect workers from violent retailiation following unionisation attempt; incl. co.",
+    "memberIds": [
+      "src-v6ij3t"
+    ],
+    "facts": [
+      {
+        "title": "Bangladesh: Fashion brands acc",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Bangladesh: Fashion brands accused of failing to protect workers from violent re",
+        "occurredAt": "2026-11-24"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-11-24T08:00:00.000Z",
+    "latestPublishedAt": "2026-11-24T08:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-v6ij3t",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-p4fi6s",
+    "rootId": "src-jgwpft",
+    "title": "USA: Data labelling startup Mercor faces allegations of \"hostile\" culture, incl. excessive hours and targets; incl. co. comment - Business and Human Rights Centre",
+    "digest": "USA: Data labelling startup Mercor faces allegations of \"hostile\" culture, incl. excessive hours and targets; incl. co.",
+    "latest": "USA: Data labelling startup Mercor faces allegations of \"hostile\" culture, incl. excessive hours and targets; incl. co.",
+    "memberIds": [
+      "src-jgwpft"
+    ],
+    "facts": [
+      {
+        "title": "USA: Data labelling startup Me",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "USA: Data labelling startup Mercor faces allegations of \"hostile\" culture, incl.",
+        "occurredAt": "2026-11-24"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-11-24T08:00:00.000Z",
+    "latestPublishedAt": "2026-11-24T08:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-jgwpft",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
     "id": "story-1hlj3ce",
     "rootId": "src-u0wc9a",
     "title": "Snam发行12.5亿美元可持续发展挂钩债券，与价值链脱碳目标挂钩",
@@ -88243,8 +89173,8 @@
     "id": "story-xjzbnp",
     "rootId": "src-k98xea",
     "title": "数据工作者：隐私保护、禁止算法设定工资以及加强工人权力对于使技术发展摆脱剥削至关重要 - 商业与人权资源中心",
-    "digest": "数据工作者：隐私保护、禁止算法设定工资以及加强工人权力对于使技术发展摆脱剥削至关重要 商业与人权资源中心",
-    "latest": "数据工作者：隐私保护、禁止算法设定工资以及加强工人权力对于使技术发展摆脱剥削至关重要 商业与人权资源中心",
+    "digest": "数据工作者：隐私保护、禁止算法设定工资以及加强工人权力对于使技术发展摆脱剥削至关重要 - 商业与人权资源中心",
+    "latest": "数据工作者：隐私保护、禁止算法设定工资以及加强工人权力对于使技术发展摆脱剥削至关重要 - 商业与人权资源中心",
     "memberIds": [
       "src-k98xea"
     ],
@@ -88327,7 +89257,8 @@
     "latest": "ITF Supply Chain Guidance bridges the gap on transport worker engagement    Business and Human Rights Centre",
     "memberIds": [
       "src-1wfkyet",
-      "src-1jl7ked"
+      "src-1jl7ked",
+      "src-hkqwsk"
     ],
     "facts": [
       {
@@ -88338,18 +89269,25 @@
         "occurredAt": "2026-11-24"
       },
       {
+        "title": "ITF供应链指南弥合了运输工人参与方面的差距 - 商业与人权",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "ITF供应链指南弥合了运输工人参与方面的差距 - 商业与人权资源中心",
+        "occurredAt": "2026-11-27"
+      },
+      {
         "title": "ITF Supply Chain Guidance brid",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
         "object": "ITF Supply Chain Guidance bridges the gap on transport worker engagement - Busin",
-        "occurredAt": "2026-11-27"
+        "occurredAt": "2026-11-28"
       }
     ],
     "participants": [
       "bhrrc-latest"
     ],
     "firstPublishedAt": "2026-11-24T11:26:02.000Z",
-    "latestPublishedAt": "2026-11-27T05:39:40.000Z",
+    "latestPublishedAt": "2026-11-28T04:16:46.000Z",
     "heat": 0,
     "relations": [
       {
@@ -88359,6 +89297,11 @@
       },
       {
         "memberId": "src-1jl7ked",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-hkqwsk",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -88376,8 +89319,8 @@
     "id": "story-jef6qr",
     "rootId": "src-9asqm1",
     "title": "ZELO被评为2026年人权与商业奖获得者 - 商业与人权资源中心",
-    "digest": "ZELO被评为2026年人权与商业奖获得者 商业与人权中心",
-    "latest": "ZELO被评为2026年人权与商业奖获得者 商业与人权中心",
+    "digest": "ZELO被评为2026年人权与商业奖获得者 - 商业与人权资源中心",
+    "latest": "ZELO被评为2026年人权与商业奖获得者 - 商业与人权资源中心",
     "memberIds": [
       "src-9asqm1"
     ],
@@ -88456,8 +89399,8 @@
     "id": "story-xwroih",
     "rootId": "src-w2x30t",
     "title": "全球对数据中心的抵制表明监管不能等待 - 商业与人权资源中心",
-    "digest": "全球对数据中心的抵制表明监管不能等待 商业与人权资源中心",
-    "latest": "全球对数据中心的抵制表明监管不能等待 商业与人权资源中心",
+    "digest": "全球对数据中心的抵制表明监管不能等待 - 商业与人权资源中心",
+    "latest": "全球对数据中心的抵制表明监管不能等待 - 商业与人权资源中心",
     "memberIds": [
       "src-w2x30t"
     ],
@@ -88736,8 +89679,8 @@
     "id": "story-uqyyn9",
     "rootId": "src-1ey4rtr",
     "title": "Limak就移民涉嫌剥削性工作条件一事未作回应——商业与人权中心",
-    "digest": "Limak未回应有关移民工人涉嫌遭受剥削性工作条件的指控 商业与人权资源中心",
-    "latest": "Limak未回应有关移民工人涉嫌遭受剥削性工作条件的指控 商业与人权资源中心",
+    "digest": "Limak就移民涉嫌剥削性工作条件一事未作回应——商业与人权中心",
+    "latest": "Limak就移民涉嫌剥削性工作条件一事未作回应——商业与人权中心",
     "memberIds": [
       "src-1ey4rtr"
     ],
@@ -88775,18 +89718,18 @@
   {
     "id": "story-1wgyv3",
     "rootId": "src-1uidiq8",
-    "title": "Spain: Migrant workers building new FC Barcelona stadium allege labour violations including wage theft, unfair dismissals; contractors fail to respond - Business and Human Rights Centre",
-    "digest": "Spain: Migrant workers building new FC Barcelona stadium allege labour violations including wage theft, unfair dismissals;",
-    "latest": "Spain: Migrant workers building new FC Barcelona stadium allege labour violations including wage theft, unfair dismissals;",
+    "title": "西班牙：建设新FC巴塞罗那体育场的移民工人指控存在劳动违法行为，包括克扣工资、不公平解雇；承包商未予回应 - 商业与人权资源中心",
+    "digest": "西班牙：建设新FC巴塞罗那体育场的移民工人指控存在劳动违法行为，包括克扣工资、不公平解雇；",
+    "latest": "西班牙：建设新FC巴塞罗那体育场的移民工人指控存在劳动违法行为，包括克扣工资、不公平解雇；",
     "memberIds": [
       "src-1uidiq8"
     ],
     "facts": [
       {
-        "title": "Spain: Migrant workers buildin",
+        "title": "西班牙：建设新FC巴塞罗那体育场的移民工人指控存在劳动违法行",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
         "action": "发布",
-        "object": "Spain: Migrant workers building new FC Barcelona stadium allege labour violation",
+        "object": "西班牙：建设新FC巴塞罗那体育场的移民工人指控存在劳动违法行为，包括克扣工资、不公平解雇；承包商未予回应 - 商业与人权资源中心",
         "occurredAt": "2026-11-24"
       }
     ],
@@ -89691,7 +90634,7 @@
     ],
     "firstPublishedAt": "2026-11-25T00:00:00.000Z",
     "latestPublishedAt": "2026-11-26T00:00:00.000Z",
-    "heat": 1.3,
+    "heat": 0,
     "relations": [
       {
         "memberId": "src-1e9wuwu",
@@ -89709,9 +90652,9 @@
         "confidence": 1.0000000000000002
       }
     ],
-    "heat6hAgo": 1.5,
-    "trend": "down",
-    "trendPct": -13.3,
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
     "badges": [],
     "signalCount": 0,
     "sourceNames": [
@@ -89881,11 +90824,51 @@
     ]
   },
   {
+    "id": "story-ya2zpu",
+    "rootId": "src-lpx8m8",
+    "title": "“漳州制造”单项冠军 精准布局向“新”发力",
+    "digest": "“漳州制造”单项冠军 精准布局向“新”发力",
+    "latest": "“漳州制造”单项冠军 精准布局向“新”发力",
+    "memberIds": [
+      "src-lpx8m8"
+    ],
+    "facts": [
+      {
+        "title": "“漳州制造”单项冠军 精准布局向“新”发力",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "“漳州制造”单项冠军 精准布局向“新”发力",
+        "occurredAt": "2026-11-25"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-25T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-25T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-lpx8m8",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
     "id": "story-miqy3d",
     "rootId": "src-pot92u",
     "title": "全球老板们在普华永道澳大利亚挖出尸体——AFR",
-    "digest": "全球老板在PwC澳大利亚挖出尸体 AFR",
-    "latest": "全球老板在PwC澳大利亚挖出尸体 AFR",
+    "digest": "全球老板们在普华永道澳大利亚挖出尸体——AFR",
+    "latest": "全球老板们在普华永道澳大利亚挖出尸体——AFR",
     "memberIds": [
       "src-pot92u"
     ],
@@ -89918,6 +90901,46 @@
     "signalCount": 0,
     "sourceNames": [
       "普华永道（PwC）ESG 洞察"
+    ]
+  },
+  {
+    "id": "story-1dw0vyl",
+    "rootId": "src-1sk4qlp",
+    "title": "突发利空！920023，拉响退市警报 - https://www.mrjjxw.com/",
+    "digest": "突发利空！",
+    "latest": "突发利空！",
+    "memberIds": [
+      "src-1sk4qlp"
+    ],
+    "facts": [
+      {
+        "title": "突发利空！920023，拉响退市警报 - https://w",
+        "subject": "北交所新闻与公告",
+        "action": "发布",
+        "object": "突发利空！920023，拉响退市警报 - https://www.mrjjxw.com/",
+        "occurredAt": "2026-11-25"
+      }
+    ],
+    "participants": [
+      "bse-news"
+    ],
+    "firstPublishedAt": "2026-11-25T02:55:20.000Z",
+    "latestPublishedAt": "2026-11-25T02:55:20.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1sk4qlp",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "北交所新闻与公告"
     ]
   },
   {
@@ -89963,18 +90986,18 @@
   {
     "id": "story-1gv1dmp",
     "rootId": "src-bgjjjo",
-    "title": "Australia: Parliament adopts digital duty of care law, including a private right to sue platforms - Business and Human Rights Centre",
-    "digest": "Australia: Parliament adopts digital duty of care law, including a private right to sue platforms    Business and Human Rights Centre",
-    "latest": "Australia: Parliament adopts digital duty of care law, including a private right to sue platforms    Business and Human Rights Centre",
+    "title": "澳大利亚：议会通过数字注意义务法，包括起诉平台的私人权利 - 商业与人权资源中心",
+    "digest": "澳大利亚：议会通过数字注意义务法",
+    "latest": "澳大利亚：议会通过数字注意义务法",
     "memberIds": [
       "src-bgjjjo"
     ],
     "facts": [
       {
-        "title": "Australia: Parliament adopts d",
+        "title": "澳大利亚：议会通过数字注意义务法，包括起诉平台的私人权利 -",
         "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
-        "action": "adopt",
-        "object": "Australia: Parliament adopts digital duty of care law, including a private right",
+        "action": "通过",
+        "object": "澳大利亚：议会通过数字注意义务法，包括起诉平台的私人权利 - 商业与人权资源中心",
         "occurredAt": "2026-11-25"
       }
     ],
@@ -89987,6 +91010,86 @@
     "relations": [
       {
         "memberId": "src-bgjjjo",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-kmldud",
+    "rootId": "src-1gthvkc",
+    "title": "媒体反应：工人必须处于高温保护措施的核心 - 商业与人权中心",
+    "digest": "媒体反应：工人必须处于高温保护措施的核心 商业与人权中心",
+    "latest": "媒体反应：工人必须处于高温保护措施的核心 商业与人权中心",
+    "memberIds": [
+      "src-1gthvkc"
+    ],
+    "facts": [
+      {
+        "title": "媒体反应：工人必须处于高温保护措施的核心 - 商业与人权中心",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "媒体反应：工人必须处于高温保护措施的核心 - 商业与人权中心",
+        "occurredAt": "2026-11-25"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-11-25T08:00:00.000Z",
+    "latestPublishedAt": "2026-11-25T08:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1gthvkc",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-31d8se",
+    "rootId": "src-1mk7utj",
+    "title": "Germany: Consumer group files lawsuits against EssilorLuxottica over smart glasses privacy concerns & announces intent to file lawsuit against Meta - Business and Human Rights Centre",
+    "digest": "Germany: Consumer group files lawsuits against EssilorLuxottica over smart glasses privacy concerns & announces intent to file lawsuit against Meta    Business and Human Rights Centre",
+    "latest": "Germany: Consumer group files lawsuits against EssilorLuxottica over smart glasses privacy concerns & announces intent to file lawsuit against Meta    Business and Human Rights Centre",
+    "memberIds": [
+      "src-1mk7utj"
+    ],
+    "facts": [
+      {
+        "title": "Germany: Consumer group files ",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Germany: Consumer group files lawsuits against EssilorLuxottica over smart glass",
+        "occurredAt": "2026-11-25"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-11-25T08:00:00.000Z",
+    "latestPublishedAt": "2026-11-25T08:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1mk7utj",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -90075,7 +91178,7 @@
     "trend": "unknown",
     "trendPct": null,
     "badges": [],
-    "signalCount": 1,
+    "signalCount": 0,
     "sourceNames": [
       "上交所公告与规则"
     ]
@@ -90085,10 +91188,11 @@
     "rootId": "src-1vqor6y",
     "title": "2026绿色金融生态大会在渝举办 激活产业转型新动能 - 华龙网",
     "digest": "2026绿色金融生态大会在渝举办 激活产业转型新动能 - 华龙网",
-    "latest": "2026绿色金融生态大会在渝举办 激活产业转型新动能 - 央视网",
+    "latest": "2026绿色金融生态大会在渝举办 Sohu",
     "memberIds": [
       "src-1vqor6y",
-      "src-9ogbdt"
+      "src-9ogbdt",
+      "src-e1f9x3"
     ],
     "facts": [
       {
@@ -90104,13 +91208,20 @@
         "action": "发布",
         "object": "2026绿色金融生态大会在渝举办 激活产业转型新动能 - 央视网",
         "occurredAt": "2026-11-25"
+      },
+      {
+        "title": "2026绿色金融生态大会在渝举办 - Sohu",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "2026绿色金融生态大会在渝举办 - Sohu",
+        "occurredAt": "2026-11-26"
       }
     ],
     "participants": [
       "nfra-news"
     ],
     "firstPublishedAt": "2026-11-25T08:46:50.000Z",
-    "latestPublishedAt": "2026-11-25T09:35:26.000Z",
+    "latestPublishedAt": "2026-11-26T06:22:01.000Z",
     "heat": 0,
     "relations": [
       {
@@ -90122,13 +91233,18 @@
         "memberId": "src-9ogbdt",
         "relation": "SAME_STORY",
         "confidence": 0.8695652173913044
+      },
+      {
+        "memberId": "src-e1f9x3",
+        "relation": "SAME_STORY",
+        "confidence": 0.6939779183594884
       }
     ],
     "heat6hAgo": 0,
     "trend": "unknown",
     "trendPct": null,
     "badges": [],
-    "signalCount": 1,
+    "signalCount": 0,
     "sourceNames": [
       "金融监管总局通知公告"
     ]
@@ -90137,8 +91253,8 @@
     "id": "story-18jsjke",
     "rootId": "src-t6vh0n",
     "title": "乐高计划在葡萄牙新建10亿欧元100%可再生能源供电工厂",
-    "digest": "乐高集团计划在葡萄牙Estarreja建设一座投资约10亿欧元、占地11.5万平方米的新工厂，目标实现100%可再生能源供电。工厂预计2027年上半年开工、2030年投产，约80%的年度可再生能源需求拟通过太阳能板和电池储能等现场设施满足。该工厂还设计雨水收集处理回用、传粉昆虫栖息地等生物多样性举措，并计划建成后取得LEED铂金认证。",
-    "latest": "乐高集团计划在葡萄牙Estarreja建设一座投资约10亿欧元、占地11.5万平方米的新工厂，目标实现100%可再生能源供电。工厂预计2027年上半年开工、2030年投产，约80%的年度可再生能源需求拟通过太阳能板和电池储能等现场设施满足。该工厂还设计雨水收集处理回用、传粉昆虫栖息地等生物多样性举措，并计划建成后取得LEED铂金认证。",
+    "digest": "乐高集团宣布计划在葡萄牙Estarreja新建工厂，预计投资10亿欧元，建筑面积11.5万平方米，计划2027年上半年开工、2030年开业。工厂设计目标为100%使用可再生能源，其中约80%预计通过太阳能板和电池储能等现场设施满足，并配套雨水收集处理回用及支持本地生物多样性的传粉昆虫栖息地等措施。乐高表示该工厂建成后力争获得LEED铂金认证，首席运营官Carsten Rasmussen称其将成为公司自动化程度最高、技术最先进的基地。",
+    "latest": "乐高集团宣布计划在葡萄牙Estarreja新建工厂，预计投资10亿欧元，建筑面积11.5万平方米，计划2027年上半年开工、2030年开业。工厂设计目标为100%使用可再生能源，其中约80%预计通过太阳能板和电池储能等现场设施满足，并配套雨水收集处理回用及支持本地生物多样性的传粉昆虫栖息地等措施。乐高表示该工厂建成后力争获得LEED铂金认证，首席运营官Carsten Rasmussen称其将成为公司自动化程度最高、技术最先进的基地。",
     "memberIds": [
       "src-t6vh0n"
     ],
@@ -90177,8 +91293,8 @@
     "id": "story-1k4lo5j",
     "rootId": "src-1ukp4tl",
     "title": "补救措施与投诉选项的主要类型——商业与人权中心",
-    "digest": "补救与投诉选项的主要类型 商业与人权资源中心",
-    "latest": "补救与投诉选项的主要类型 商业与人权资源中心",
+    "digest": "补救措施与投诉选项的主要类型——商业与人权中心",
+    "latest": "补救措施与投诉选项的主要类型——商业与人权中心",
     "memberIds": [
       "src-1ukp4tl"
     ],
@@ -90258,10 +91374,11 @@
     "rootId": "src-1okkbsp",
     "title": "15家以上投资者承诺采取行动打击间谍软件扩散——商业与人权中心",
     "digest": "15家以上投资者承诺采取行动打击间谍软件扩散 商业与人权资源中心",
-    "latest": "15+家投资者承诺采取行动打击间谍软件扩散 商业与人权中心",
+    "latest": "15家以上投资者承诺采取行动打击间谍软件扩散 商业与人权中心",
     "memberIds": [
       "src-1okkbsp",
-      "src-11qq613"
+      "src-11qq613",
+      "src-porizt"
     ],
     "facts": [
       {
@@ -90277,13 +91394,20 @@
         "action": "发布",
         "object": "15+投资者承诺采取行动打击间谍软件扩散 - 商业与人权中心",
         "occurredAt": "2026-11-25"
+      },
+      {
+        "title": "15家以上投资者承诺采取行动打击间谍软件扩散 - 商业与人权",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "15家以上投资者承诺采取行动打击间谍软件扩散 - 商业与人权中心",
+        "occurredAt": "2026-11-27"
       }
     ],
     "participants": [
       "bhrrc-latest"
     ],
     "firstPublishedAt": "2026-11-25T09:53:22.000Z",
-    "latestPublishedAt": "2026-11-25T15:36:35.000Z",
+    "latestPublishedAt": "2026-11-27T06:32:25.000Z",
     "heat": 0,
     "relations": [
       {
@@ -90293,6 +91417,11 @@
       },
       {
         "memberId": "src-11qq613",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-porizt",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
       }
@@ -90341,7 +91470,7 @@
     "trend": "unknown",
     "trendPct": null,
     "badges": [],
-    "signalCount": 1,
+    "signalCount": 0,
     "sourceNames": [
       "北交所新闻与公告"
     ]
@@ -90434,7 +91563,7 @@
     "trend": "unknown",
     "trendPct": null,
     "badges": [],
-    "signalCount": 1,
+    "signalCount": 0,
     "sourceNames": [
       "金融监管总局通知公告"
     ]
@@ -90523,8 +91652,8 @@
     "id": "story-1hrg13p",
     "rootId": "src-1q70q2b",
     "title": "11月25日每周更新 | 孟加拉国：100多个组织呼吁释放被拘留的工会领袖——商业与人权中心",
-    "digest": "每周更新 11月25日 | 孟加拉国：100多个组织呼吁释放被拘留的工会领导人 商业与人权资源中心",
-    "latest": "每周更新 11月25日 | 孟加拉国：100多个组织呼吁释放被拘留的工会领导人 商业与人权资源中心",
+    "digest": "11月25日每周更新 | 孟加拉国：100多个组织呼吁释放被拘留的工会领袖——商业与人权中心",
+    "latest": "11月25日每周更新 | 孟加拉国：100多个组织呼吁释放被拘留的工会领袖——商业与人权中心",
     "memberIds": [
       "src-1q70q2b"
     ],
@@ -90674,7 +91803,7 @@
     "trend": "unknown",
     "trendPct": null,
     "badges": [],
-    "signalCount": 1,
+    "signalCount": 0,
     "sourceNames": [
       "金融监管总局通知公告"
     ]
@@ -90683,8 +91812,8 @@
     "id": "story-jvpytr",
     "rootId": "src-i651rn",
     "title": "聚焦科技问责 | 2026年11月第3期——商业与人权中心",
-    "digest": "科技问责聚焦 | 第3期",
-    "latest": "科技问责聚焦 | 第3期",
+    "digest": "聚焦科技问责 | 2026年11月第3期——商业与人权中心",
+    "latest": "聚焦科技问责 | 2026年11月第3期——商业与人权中心",
     "memberIds": [
       "src-i651rn"
     ],
@@ -90723,8 +91852,8 @@
     "id": "story-1atkm0x",
     "rootId": "src-zjcga4",
     "title": "孟加拉国：在数周抗议后，36%的加薪提议仍未达到制衣工人的要求——商业与人权中心",
-    "digest": "孟加拉国：数周抗议后",
-    "latest": "孟加拉国：数周抗议后",
+    "digest": "孟加拉国：在数周抗议后",
+    "latest": "孟加拉国：在数周抗议后",
     "memberIds": [
       "src-zjcga4"
     ],
@@ -90763,8 +91892,8 @@
     "id": "story-10aqfj5",
     "rootId": "src-12chnal",
     "title": "孟加拉国：劳工权利组织谴责17,000塔卡最低工资“具有剥削性”——商业与人权中心",
-    "digest": "孟加拉国：劳工权利组织谴责17000塔卡最低工资是“剥削性的” 商业与人权资源中心",
-    "latest": "孟加拉国：劳工权利组织谴责17000塔卡最低工资是“剥削性的” 商业与人权资源中心",
+    "digest": "孟加拉国：劳工权利组织谴责17",
+    "latest": "孟加拉国：劳工权利组织谴责17",
     "memberIds": [
       "src-12chnal"
     ],
@@ -91059,7 +92188,8 @@
     "digest": "财政部湖南监管局：构建“三维闭环”监管体系 筑牢财政资金安全防线",
     "latest": "财政部湖南监管局：构建“三维闭环”监管体系 筑牢财政资金安全防线",
     "memberIds": [
-      "src-b6w1ey"
+      "src-b6w1ey",
+      "src-1ah9gip"
     ],
     "facts": [
       {
@@ -91068,19 +92198,31 @@
         "action": "发布",
         "object": "财政部湖南监管局：构建“三维闭环”监管体系 筑牢财政资金安全防线",
         "occurredAt": "2026-11-26"
+      },
+      {
+        "title": "财政部湖南监管局：构建“三维闭环”监管体系 筑牢财政资金安全",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部湖南监管局：构建“三维闭环”监管体系 筑牢财政资金安全防线",
+        "occurredAt": "2026-11-27"
       }
     ],
     "participants": [
       "mof-policy"
     ],
     "firstPublishedAt": "2026-11-26T00:00:00.000Z",
-    "latestPublishedAt": "2026-11-26T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
     "heat": 0,
     "relations": [
       {
         "memberId": "src-b6w1ey",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-1ah9gip",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
       }
     ],
     "heat6hAgo": 0,
@@ -91219,9 +92361,17 @@
     "digest": "向新向优 活力迸发",
     "latest": "向新向优 活力迸发",
     "memberIds": [
-      "src-y6hhqg"
+      "src-y6hhqg",
+      "src-fdh3rj"
     ],
     "facts": [
+      {
+        "title": "向新向优 活力迸发",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "向新向优 活力迸发",
+        "occurredAt": "2026-11-26"
+      },
       {
         "title": "向新向优 活力迸发",
         "subject": "福建省工业和信息化厅",
@@ -91241,6 +92391,11 @@
         "memberId": "src-y6hhqg",
         "relation": "SAME_OCCURRENCE",
         "confidence": 1
+      },
+      {
+        "memberId": "src-fdh3rj",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 0.9999999999999998
       }
     ],
     "heat6hAgo": 0,
@@ -91613,6 +92768,86 @@
     ]
   },
   {
+    "id": "story-74wsj3",
+    "rootId": "src-1n4iixv",
+    "title": "Pressure to Act: Challenges for Business and Human Rights in the Current U.S. Context - Business and Human Rights Centre",
+    "digest": "Pressure to Act: Challenges for Business and Human Rights in the Current U.S.",
+    "latest": "Pressure to Act: Challenges for Business and Human Rights in the Current U.S.",
+    "memberIds": [
+      "src-1n4iixv"
+    ],
+    "facts": [
+      {
+        "title": "Pressure to Act: Challenges fo",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Pressure to Act: Challenges for Business and Human Rights in the Current U.S. Co",
+        "occurredAt": "2026-11-26"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-11-26T08:00:00.000Z",
+    "latestPublishedAt": "2026-11-26T08:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1n4iixv",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
+    "id": "story-1nu3n8l",
+    "rootId": "src-lzdhj1",
+    "title": "Mining for the future, undermining trust: Participation deficit in the energy transition - Business and Human Rights Centre",
+    "digest": "Mining for the future, undermining trust: Participation deficit in the energy transition    Business and Human Rights Centre",
+    "latest": "Mining for the future, undermining trust: Participation deficit in the energy transition    Business and Human Rights Centre",
+    "memberIds": [
+      "src-lzdhj1"
+    ],
+    "facts": [
+      {
+        "title": "Mining for the future, undermi",
+        "subject": "Business & Human Rights（全球企业人权/劳工风险案例）",
+        "action": "发布",
+        "object": "Mining for the future, undermining trust: Participation deficit in the energy tr",
+        "occurredAt": "2026-11-26"
+      }
+    ],
+    "participants": [
+      "bhrrc-latest"
+    ],
+    "firstPublishedAt": "2026-11-26T08:00:00.000Z",
+    "latestPublishedAt": "2026-11-26T08:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-lzdhj1",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Business & Human Rights（全球企业人权/劳工风险案例）"
+    ]
+  },
+  {
     "id": "story-oqjpq6",
     "rootId": "src-1qne14i",
     "title": "Elisa Ng新演讲：在2026年香港资本市场论坛上的演讲",
@@ -91893,20 +93128,100 @@
     ]
   },
   {
+    "id": "story-1nn44hv",
+    "rootId": "src-5aydgf",
+    "title": "英国下一增长时代的蓝图",
+    "digest": "在经历多年经济停滞后，英国有机会通过投资重振其经济活力。",
+    "latest": "在经历多年经济停滞后，英国有机会通过投资重振其经济活力。",
+    "memberIds": [
+      "src-5aydgf"
+    ],
+    "facts": [
+      {
+        "title": "英国下一增长时代的蓝图",
+        "subject": "麦肯锡可持续发展洞察",
+        "action": "通过",
+        "object": "英国下一增长时代的蓝图",
+        "occurredAt": "2026-11-26"
+      }
+    ],
+    "participants": [
+      "mckinsey-sustainability"
+    ],
+    "firstPublishedAt": "2026-11-26T16:00:00.000Z",
+    "latestPublishedAt": "2026-11-26T16:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-5aydgf",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "麦肯锡可持续发展洞察"
+    ]
+  },
+  {
+    "id": "story-17g0s04",
+    "rootId": "src-u2d6f9",
+    "title": "超6000亿元，四大行加大股票回购增持贷款投放力度 - 凤凰网财经",
+    "digest": "超6000亿元",
+    "latest": "超6000亿元",
+    "memberIds": [
+      "src-u2d6f9"
+    ],
+    "facts": [
+      {
+        "title": "超6000亿元，四大行加大股票回购增持贷款投放力度 - 凤凰",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "超6000亿元，四大行加大股票回购增持贷款投放力度 - 凤凰网财经",
+        "occurredAt": "2026-11-26"
+      }
+    ],
+    "participants": [
+      "nfra-news"
+    ],
+    "firstPublishedAt": "2026-11-26T23:19:21.000Z",
+    "latestPublishedAt": "2026-11-26T23:19:21.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-u2d6f9",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 1,
+    "sourceNames": [
+      "金融监管总局通知公告"
+    ]
+  },
+  {
     "id": "story-1e9zap6",
     "rootId": "src-1qwo8qf",
-    "title": "Climate change, heatwaves may drive South Korea’s beloved squid from its waters",
-    "digest": "Climate change, heatwaves may drive South Korea’s beloved squid from its waters",
-    "latest": "Climate change, heatwaves may drive South Korea’s beloved squid from its waters",
+    "title": "气候变化和热浪可能迫使韩国备受喜爱的鱿鱼离开其水域",
+    "digest": "气候变化和热浪可能迫使韩国备受喜爱的鱿鱼离开其水域",
+    "latest": "气候变化和热浪可能迫使韩国备受喜爱的鱿鱼离开其水域",
     "memberIds": [
       "src-1qwo8qf"
     ],
     "facts": [
       {
-        "title": "Climate change, heatwaves may ",
+        "title": "气候变化和热浪可能迫使韩国备受喜爱的鱿鱼离开其水域",
         "subject": "Eco-Business（亚洲 ESG 新闻）",
         "action": "发布",
-        "object": "Climate change, heatwaves may drive South Korea’s beloved squid from its waters",
+        "object": "气候变化和热浪可能迫使韩国备受喜爱的鱿鱼离开其水域",
         "occurredAt": "2026-11-27"
       }
     ],
@@ -91970,6 +93285,1565 @@
     "signalCount": 0,
     "sourceNames": [
       "中国生态环境部新闻"
+    ]
+  },
+  {
+    "id": "story-bh1ir5",
+    "rootId": "src-1m019yu",
+    "title": "蓝佛安会见国际农业发展基金总裁拉里奥",
+    "digest": "蓝佛安会见国际农业发展基金总裁拉里奥",
+    "latest": "蓝佛安会见国际农业发展基金总裁拉里奥",
+    "memberIds": [
+      "src-1m019yu",
+      "src-1jk7yfn"
+    ],
+    "facts": [
+      {
+        "title": "蓝佛安会见国际农业发展基金总裁拉里奥",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "蓝佛安会见国际农业发展基金总裁拉里奥",
+        "occurredAt": "2026-11-27"
+      },
+      {
+        "title": "蓝佛安会见国际农业发展基金总裁拉里奥",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "蓝佛安会见国际农业发展基金总裁拉里奥",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1m019yu",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1jk7yfn",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-2qomez",
+    "rootId": "src-1cq6ssy",
+    "title": "财政部党组理论学习中心组开展集体学习研讨",
+    "digest": "财政部党组理论学习中心组开展集体学习研讨",
+    "latest": "财政部党组理论学习中心组开展集体学习研讨",
+    "memberIds": [
+      "src-1cq6ssy",
+      "src-1luxyq7"
+    ],
+    "facts": [
+      {
+        "title": "财政部党组理论学习中心组开展集体学习研讨",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部党组理论学习中心组开展集体学习研讨",
+        "occurredAt": "2026-11-27"
+      },
+      {
+        "title": "财政部党组理论学习中心组开展集体学习研讨",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部党组理论学习中心组开展集体学习研讨",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1cq6ssy",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1luxyq7",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1.0000000000000002
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-1g37dqn",
+    "rootId": "src-1ds1786",
+    "title": "财政部江苏监管局：突出“三个坚持”提升部门预算编制审核工作质效",
+    "digest": "财政部江苏监管局：突出“三个坚持”提升部门预算编制审核工作质效",
+    "latest": "财政部江苏监管局：突出“三个坚持”提升部门预算编制审核工作质效",
+    "memberIds": [
+      "src-1ds1786"
+    ],
+    "facts": [
+      {
+        "title": "财政部江苏监管局：突出“三个坚持”提升部门预算编制审核工作质",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部江苏监管局：突出“三个坚持”提升部门预算编制审核工作质效",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1ds1786",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-1y5qnd8",
+    "rootId": "src-ffgc1n",
+    "title": "财政部陕西监管局：创新开展“点线面”立体式监管提升预算执行常态化监...",
+    "digest": "财政部陕西监管局：创新开展“点线面”立体式监管提升预算执行常态化监",
+    "latest": "财政部陕西监管局：创新开展“点线面”立体式监管提升预算执行常态化监",
+    "memberIds": [
+      "src-ffgc1n"
+    ],
+    "facts": [
+      {
+        "title": "财政部陕西监管局：创新开展“点线面”立体式监管提升预算执行常",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "财政部陕西监管局：创新开展“点线面”立体式监管提升预算执行常态化监...",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-ffgc1n",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-18aezzf",
+    "rootId": "src-nu77fs",
+    "title": "加强企业会计准则制度建设实施 提升企业会计信息质量——《会计改革与发...",
+    "digest": "加强企业会计准则制度建设实施 提升企业会计信息质量——《会计改革与发",
+    "latest": "加强企业会计准则制度建设实施 提升企业会计信息质量——《会计改革与发",
+    "memberIds": [
+      "src-nu77fs"
+    ],
+    "facts": [
+      {
+        "title": "加强企业会计准则制度建设实施 提升企业会计信息质量——《会计",
+        "subject": "财政部政策发布",
+        "action": "发布",
+        "object": "加强企业会计准则制度建设实施 提升企业会计信息质量——《会计改革与发...",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "mof-policy"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-nu77fs",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "财政部政策发布"
+    ]
+  },
+  {
+    "id": "story-168h46c",
+    "rootId": "src-pv5xyi",
+    "title": "中国人民银行有关部门负责人就 《大额存单管理办法》答记者问",
+    "digest": "中国人民银行有关部门负责人就 《大额存单管理办法》答记者问",
+    "latest": "中国人民银行有关部门负责人就 《人民币存贷款利率管理规定》答记者问",
+    "memberIds": [
+      "src-pv5xyi",
+      "src-1ldlk8f"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行有关部门负责人就 《大额存单管理办法》答记者问",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行有关部门负责人就 《大额存单管理办法》答记者问",
+        "occurredAt": "2026-11-27"
+      },
+      {
+        "title": "中国人民银行有关部门负责人就 《人民币存贷款利率管理规定》答",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行有关部门负责人就 《人民币存贷款利率管理规定》答记者问",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-pv5xyi",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      },
+      {
+        "memberId": "src-1ldlk8f",
+        "relation": "SAME_STORY",
+        "confidence": 0.7071067811865476
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-m5l8qv",
+    "rootId": "src-zfxj9m",
+    "title": "迎峰度冬进入关键期 能源保供“工具箱”升级",
+    "digest": "迎峰度冬进入关键期 能源保供“工具箱”升级",
+    "latest": "迎峰度冬进入关键期 能源保供“工具箱”升级",
+    "memberIds": [
+      "src-zfxj9m"
+    ],
+    "facts": [
+      {
+        "title": "迎峰度冬进入关键期 能源保供“工具箱”升级",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "迎峰度冬进入关键期 能源保供“工具箱”升级",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-zfxj9m",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-1hqbdru",
+    "rootId": "src-1al4e55",
+    "title": "全球最大绿电交易市场开市",
+    "digest": "全球最大绿电交易市场开市",
+    "latest": "全球最大绿电交易市场开市",
+    "memberIds": [
+      "src-1al4e55"
+    ],
+    "facts": [
+      {
+        "title": "全球最大绿电交易市场开市",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "全球最大绿电交易市场开市",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1al4e55",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-1co5fun",
+    "rootId": "src-1sgftfk",
+    "title": "前10个月我国风电装机增长两成",
+    "digest": "前10个月我国风电装机增长两成",
+    "latest": "前10个月我国风电装机增长两成",
+    "memberIds": [
+      "src-1sgftfk"
+    ],
+    "facts": [
+      {
+        "title": "前10个月我国风电装机增长两成",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "前10个月我国风电装机增长两成",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1sgftfk",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-1kehesl",
+    "rootId": "src-11ws08f",
+    "title": "甘肃民勤330千伏输变电工程线路工程全线贯通",
+    "digest": "甘肃民勤330千伏输变电工程线路工程全线贯通",
+    "latest": "甘肃民勤330千伏输变电工程线路工程全线贯通",
+    "memberIds": [
+      "src-11ws08f"
+    ],
+    "facts": [
+      {
+        "title": "甘肃民勤330千伏输变电工程线路工程全线贯通",
+        "subject": "国家能源局新闻动态",
+        "action": "发布",
+        "object": "甘肃民勤330千伏输变电工程线路工程全线贯通",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "nea-news"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-11ws08f",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "国家能源局新闻动态"
+    ]
+  },
+  {
+    "id": "story-14w97i2",
+    "rootId": "src-187fkp6",
+    "title": "上海发布行动方案加强统筹形成合力 三大专班共同构成服务组织保障 九大行动理清中小企业“千头万绪”",
+    "digest": "上海发布行动方案加强统筹形成合力 三大专班共同构成服务组织保障 九大行动理清中小企业“千头万绪”",
+    "latest": "上海发布行动方案加强统筹形成合力 三大专班共同构成服务组织保障 九大行动理清中小企业“千头万绪”",
+    "memberIds": [
+      "src-187fkp6"
+    ],
+    "facts": [
+      {
+        "title": "上海发布行动方案加强统筹形成合力 三大专班共同构成服务组织保",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "上海发布行动方案加强统筹形成合力 三大专班共同构成服务组织保障 九大行动理清中小企业“千头万绪”",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-187fkp6",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
+    ]
+  },
+  {
+    "id": "story-t00g6y",
+    "rootId": "src-71tvry",
+    "title": "前三季度上海GDP增长5.5% 三大先导产业制造业产值同比增长17.1%",
+    "digest": "前三季度上海GDP增长5.5% 三大先导产业制造业产值同比增长17.1%",
+    "latest": "前三季度上海GDP增长5.5% 三大先导产业制造业产值同比增长17.1%",
+    "memberIds": [
+      "src-71tvry"
+    ],
+    "facts": [
+      {
+        "title": "前三季度上海GDP增长5.5% 三大先导产业制造业产值同比增",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "前三季度上海GDP增长5.5% 三大先导产业制造业产值同比增长17.1%",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-71tvry",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
+    ]
+  },
+  {
+    "id": "story-7qumv8",
+    "rootId": "src-1e5itq0",
+    "title": "需求保持扩张 我国物流市场预期呈现积极变化",
+    "digest": "需求保持扩张 我国物流市场预期呈现积极变化",
+    "latest": "需求保持扩张 我国物流市场预期呈现积极变化",
+    "memberIds": [
+      "src-1e5itq0"
+    ],
+    "facts": [
+      {
+        "title": "需求保持扩张 我国物流市场预期呈现积极变化",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "需求保持扩张 我国物流市场预期呈现积极变化",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1e5itq0",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
+    ]
+  },
+  {
+    "id": "story-lfii4e",
+    "rootId": "src-6mqgk3",
+    "title": "多部门联合部署做好稳投资工作",
+    "digest": "多部门联合部署做好稳投资工作",
+    "latest": "多部门联合部署做好稳投资工作",
+    "memberIds": [
+      "src-6mqgk3"
+    ],
+    "facts": [
+      {
+        "title": "多部门联合部署做好稳投资工作",
+        "subject": "上海市发展和改革委员会",
+        "action": "发布",
+        "object": "多部门联合部署做好稳投资工作",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "shanghai-fgw"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-6mqgk3",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "上海市发展和改革委员会"
+    ]
+  },
+  {
+    "id": "story-okp3nd",
+    "rootId": "src-qign3v",
+    "title": "牢固树立大抓基层的鲜明导向 着力夯实中国式现代化的基层基础——各级党组织和广大党员干部认真学习贯彻习近平关于基层工作方法的重要论述情况综述",
+    "digest": "牢固树立大抓基层的鲜明导向 着力夯实中国式现代化的基层基础——各级党组织和广大党员干部认真学习贯彻习近平关于基层工作方法的重要论述情况综述",
+    "latest": "牢固树立大抓基层的鲜明导向 着力夯实中国式现代化的基层基础——各级党组织和广大党员干部认真学习贯彻习近平关于基层工作方法的重要论述情况综述",
+    "memberIds": [
+      "src-qign3v"
+    ],
+    "facts": [
+      {
+        "title": "牢固树立大抓基层的鲜明导向 着力夯实中国式现代化的基层基础—",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "牢固树立大抓基层的鲜明导向 着力夯实中国式现代化的基层基础——各级党组织和广大党员干部认真学习贯彻习近平关于基层工作方法的重要论述情况综述",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-qign3v",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-1upt4ke",
+    "rootId": "src-5jxk83",
+    "title": "福建省工业和信息化厅关于印发《福建省工业遗产管理办法》的通知",
+    "digest": "福建省工业和信息化厅关于印发《福建省工业遗产管理办法》的通知",
+    "latest": "福建省工业和信息化厅关于印发《福建省工业遗产管理办法》的通知",
+    "memberIds": [
+      "src-5jxk83"
+    ],
+    "facts": [
+      {
+        "title": "福建省工业和信息化厅关于印发《福建省工业遗产管理办法》的通知",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "福建省工业和信息化厅关于印发《福建省工业遗产管理办法》的通知",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-5jxk83",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-8w055k",
+    "rootId": "src-f3ts5z",
+    "title": "福建省工业和信息化厅关于组织申报2027年省工业重点节能改造及通用设备更新提标项目的通知",
+    "digest": "福建省工业和信息化厅关于组织申报2027年省工业重点节能改造及通用设备更新提标项目的通知",
+    "latest": "福建省工业和信息化厅关于组织申报2027年省工业重点节能改造及通用设备更新提标项目的通知",
+    "memberIds": [
+      "src-f3ts5z"
+    ],
+    "facts": [
+      {
+        "title": "福建省工业和信息化厅关于组织申报2027年省工业重点节能改造",
+        "subject": "福建省工业和信息化厅",
+        "action": "发布",
+        "object": "福建省工业和信息化厅关于组织申报2027年省工业重点节能改造及通用设备更新提标项目的通知",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "fujian-gxt"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-f3ts5z",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "福建省工业和信息化厅"
+    ]
+  },
+  {
+    "id": "story-1o9b4tk",
+    "rootId": "src-p53rxq",
+    "title": "国家互联网信息办公室发布《全民数字素养与技能调查报告（2026年）》",
+    "digest": "国家互联网信息办公室发布《全民数字素养与技能调查报告（2026年）》",
+    "latest": "国家互联网信息办公室发布《全民数字素养与技能调查报告（2026年）》",
+    "memberIds": [
+      "src-p53rxq"
+    ],
+    "facts": [
+      {
+        "title": "国家互联网信息办公室发布《全民数字素养与技能调查报告（202",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "国家互联网信息办公室发布《全民数字素养与技能调查报告（2026年）》",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-p53rxq",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-1f56ec8",
+    "rootId": "src-evv8n6",
+    "title": "国家网信办等十一部门联合公布《分布式数字身份互通互认应用规定》",
+    "digest": "国家网信办等十一部门联合公布《分布式数字身份互通互认应用规定》",
+    "latest": "国家网信办等十一部门联合公布《分布式数字身份互通互认应用规定》",
+    "memberIds": [
+      "src-evv8n6"
+    ],
+    "facts": [
+      {
+        "title": "国家网信办等十一部门联合公布《分布式数字身份互通互认应用规定",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "国家网信办等十一部门联合公布《分布式数字身份互通互认应用规定》",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-evv8n6",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-rgmqp8",
+    "rootId": "src-1ch1934",
+    "title": "联播+｜从深圳再出发 共赴亚太新征程",
+    "digest": "联播+｜从深圳再出发 共赴亚太新征程",
+    "latest": "联播+｜从深圳再出发 共赴亚太新征程",
+    "memberIds": [
+      "src-1ch1934"
+    ],
+    "facts": [
+      {
+        "title": "联播+｜从深圳再出发 共赴亚太新征程",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "联播+｜从深圳再出发 共赴亚太新征程",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1ch1934",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-1rz8xj3",
+    "rootId": "src-1ols61t",
+    "title": "创意微视频｜鹏程万里",
+    "digest": "创意微视频｜鹏程万里",
+    "latest": "创意微视频｜鹏程万里",
+    "memberIds": [
+      "src-1ols61t"
+    ],
+    "facts": [
+      {
+        "title": "创意微视频｜鹏程万里",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "创意微视频｜鹏程万里",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1ols61t",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-mbvw8b",
+    "rootId": "src-pnnerg",
+    "title": "中国经济看“新”丨人工智能训练师走俏，具身智能产业“解锁”新图景",
+    "digest": "中国经济看“新”丨人工智能训练师走俏",
+    "latest": "中国经济看“新”丨人工智能训练师走俏",
+    "memberIds": [
+      "src-pnnerg"
+    ],
+    "facts": [
+      {
+        "title": "中国经济看“新”丨人工智能训练师走俏，具身智能产业“解锁”新",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "中国经济看“新”丨人工智能训练师走俏，具身智能产业“解锁”新图景",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-pnnerg",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-tbwjy2",
+    "rootId": "src-1keii4n",
+    "title": "我国加速推进“人工智能+制造”专项行动",
+    "digest": "我国加速推进“人工智能+制造”专项行动",
+    "latest": "我国加速推进“人工智能+制造”专项行动",
+    "memberIds": [
+      "src-1keii4n"
+    ],
+    "facts": [
+      {
+        "title": "我国加速推进“人工智能+制造”专项行动",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "我国加速推进“人工智能+制造”专项行动",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1keii4n",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-1i6doi0",
+    "rootId": "src-1mge2k2",
+    "title": "世界气象组织成员强化全球数据交换规则",
+    "digest": "世界气象组织成员强化全球数据交换规则",
+    "latest": "世界气象组织成员强化全球数据交换规则",
+    "memberIds": [
+      "src-1mge2k2"
+    ],
+    "facts": [
+      {
+        "title": "世界气象组织成员强化全球数据交换规则",
+        "subject": "世界气象组织（WMO）新闻",
+        "action": "发布",
+        "object": "世界气象组织成员强化全球数据交换规则",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "wmo-news"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1mge2k2",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "世界气象组织（WMO）新闻"
+    ]
+  },
+  {
+    "id": "story-5ih0c7",
+    "rootId": "src-11dmcvh",
+    "title": "December 2026 International Accounting Standards Board agenda and meeting papers now available",
+    "digest": "December 2026 International Accounting Standards Board agenda and meeting papers now available",
+    "latest": "December 2026 International Accounting Standards Board agenda and meeting papers now available",
+    "memberIds": [
+      "src-11dmcvh"
+    ],
+    "facts": [
+      {
+        "title": "December 2026 International Ac",
+        "subject": "IFRS / ISSB 新闻",
+        "action": "发布",
+        "object": "December 2026 International Accounting Standards Board agenda and meeting papers",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "ifrs-issb"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-11dmcvh",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "IFRS / ISSB 新闻"
+    ]
+  },
+  {
+    "id": "story-ojfnkn",
+    "rootId": "src-1m23s4n",
+    "title": "中国人民银行发布《中国金融稳定报告（2026）》",
+    "digest": "中国人民银行发布《中国金融稳定报告（2026）》",
+    "latest": "中国人民银行发布《中国金融稳定报告（2026）》",
+    "memberIds": [
+      "src-1m23s4n"
+    ],
+    "facts": [
+      {
+        "title": "中国人民银行发布《中国金融稳定报告（2026）》",
+        "subject": "中国人民银行公告",
+        "action": "发布",
+        "object": "中国人民银行发布《中国金融稳定报告（2026）》",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "pbc-policy"
+    ],
+    "firstPublishedAt": "2026-11-27T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1m23s4n",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中国人民银行公告"
+    ]
+  },
+  {
+    "id": "story-1b67a59",
+    "rootId": "src-gray3x",
+    "title": "四大商业银行已与上市公司签订股票回购增持贷款合同超6000亿元 - 温州新闻网",
+    "digest": "四大商业银行已与上市公司签订股票回购增持贷款合同超6000亿元    温州新闻网",
+    "latest": "四大商业银行已与上市公司签订股票回购增持贷款合同超6000亿元    温州新闻网",
+    "memberIds": [
+      "src-gray3x"
+    ],
+    "facts": [
+      {
+        "title": "四大商业银行已与上市公司签订股票回购增持贷款合同超6000亿",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "四大商业银行已与上市公司签订股票回购增持贷款合同超6000亿元 - 温州新闻网",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "nfra-news"
+    ],
+    "firstPublishedAt": "2026-11-27T04:50:10.000Z",
+    "latestPublishedAt": "2026-11-27T04:50:10.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-gray3x",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "金融监管总局通知公告"
+    ]
+  },
+  {
+    "id": "story-vko0k0",
+    "rootId": "src-1bill2b",
+    "title": "ESG Disclosure Mexico: Budget, Plan and Adviser Guide - Global Advisory Experts",
+    "digest": "ESG Disclosure Mexico: Budget, Plan and Adviser Guide    Global Advisory Experts",
+    "latest": "ESG Disclosure Mexico: Budget, Plan and Adviser Guide    Global Advisory Experts",
+    "memberIds": [
+      "src-1bill2b"
+    ],
+    "facts": [
+      {
+        "title": "ESG Disclosure Mexico: Budget,",
+        "subject": "普华永道（PwC）ESG 洞察",
+        "action": "发布",
+        "object": "ESG Disclosure Mexico: Budget, Plan and Adviser Guide - Global Advisory Experts",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "pwc-esg"
+    ],
+    "firstPublishedAt": "2026-11-27T05:58:52.000Z",
+    "latestPublishedAt": "2026-11-27T05:58:52.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1bill2b",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "普华永道（PwC）ESG 洞察"
+    ]
+  },
+  {
+    "id": "story-r4vsq6",
+    "rootId": "src-71zghl",
+    "title": "花溪科技：股票交易异常波动公告 - 东方财富",
+    "digest": "花溪科技：股票交易异常波动公告    东方财富",
+    "latest": "花溪科技：股票交易异常波动公告    东方财富",
+    "memberIds": [
+      "src-71zghl"
+    ],
+    "facts": [
+      {
+        "title": "花溪科技：股票交易异常波动公告 - 东方财富",
+        "subject": "北交所新闻与公告",
+        "action": "发布",
+        "object": "花溪科技：股票交易异常波动公告 - 东方财富",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "bse-news"
+    ],
+    "firstPublishedAt": "2026-11-27T06:13:15.000Z",
+    "latestPublishedAt": "2026-11-27T06:13:15.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-71zghl",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "北交所新闻与公告"
+    ]
+  },
+  {
+    "id": "story-omooyw",
+    "rootId": "src-1v23t58",
+    "title": "欧盟委员会简化欧盟分类标准以界定可持续活动",
+    "digest": "欧盟委员会宣布通过两项新的授权法案",
+    "latest": "欧盟委员会宣布通过两项新的授权法案",
+    "memberIds": [
+      "src-1v23t58"
+    ],
+    "facts": [
+      {
+        "title": "欧盟委员会简化欧盟分类标准以界定可持续活动",
+        "subject": "ESG Today（全球 ESG 新闻）",
+        "action": "通过",
+        "object": "欧盟委员会简化欧盟分类标准以界定可持续活动",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "esgtoday"
+    ],
+    "firstPublishedAt": "2026-11-27T10:20:34.000Z",
+    "latestPublishedAt": "2026-11-27T10:20:34.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1v23t58",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "ESG Today（全球 ESG 新闻）"
+    ]
+  },
+  {
+    "id": "story-mhdmw2",
+    "rootId": "src-k5sfmi",
+    "title": "Home Truths: where will real estate value come from in 2027? - PwC",
+    "digest": "Home Truths: where will real estate value come from in 2027?",
+    "latest": "Home Truths: where will real estate value come from in 2027?",
+    "memberIds": [
+      "src-k5sfmi"
+    ],
+    "facts": [
+      {
+        "title": "Home Truths: where will real e",
+        "subject": "普华永道（PwC）ESG 洞察",
+        "action": "发布",
+        "object": "Home Truths: where will real estate value come from in 2027? - PwC",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "pwc-esg"
+    ],
+    "firstPublishedAt": "2026-11-27T11:00:24.000Z",
+    "latestPublishedAt": "2026-11-27T11:00:24.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-k5sfmi",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "普华永道（PwC）ESG 洞察"
+    ]
+  },
+  {
+    "id": "story-smcrdu",
+    "rootId": "src-1f3o615",
+    "title": "村镇银行出清步入倒计时，中信银行加入“清零”阵营，股份行仅剩一家待收尾 - 中国基金报",
+    "digest": "村镇银行出清步入倒计时，中信银行加入“清零”阵营",
+    "latest": "村镇银行出清步入倒计时，中信银行加入“清零”阵营",
+    "memberIds": [
+      "src-1f3o615"
+    ],
+    "facts": [
+      {
+        "title": "村镇银行出清步入倒计时，中信银行加入“清零”阵营，股份行仅剩",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "村镇银行出清步入倒计时，中信银行加入“清零”阵营，股份行仅剩一家待收尾 - 中国基金报",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "nfra-news"
+    ],
+    "firstPublishedAt": "2026-11-27T12:54:00.000Z",
+    "latestPublishedAt": "2026-11-27T12:54:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1f3o615",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "金融监管总局通知公告"
+    ]
+  },
+  {
+    "id": "story-1qci7dc",
+    "rootId": "src-6bz1dn",
+    "title": "Play about 12-year-old ecojustice influencer wins Shakespeare’s Globe prize",
+    "digest": "Timothy X Atack wrote Tiny Alarms after workshops with children, who felt theirs would be the last generation of humans Tiny, a 12-year-old schoolgirl, is an ecojustice influencer, whose funny and disconcerting takes on the climate crisis go viral. She is also an alien, sent to warn humankind of its impending doom – but her mission is far more difficult than she anticipated. This is the plot of Tiny Alarms, the first winner of Shakespeare’s Globe’s new climate playwriting prize.",
+    "latest": "Timothy X Atack wrote Tiny Alarms after workshops with children, who felt theirs would be the last generation of humans Tiny, a 12-year-old schoolgirl, is an ecojustice influencer, whose funny and disconcerting takes on the climate crisis go viral. She is also an alien, sent to warn humankind of its impending doom – but her mission is far more difficult than she anticipated. This is the plot of Tiny Alarms, the first winner of Shakespeare’s Globe’s new climate playwriting prize.",
+    "memberIds": [
+      "src-6bz1dn"
+    ],
+    "facts": [
+      {
+        "title": "Play about 12-year-old ecojust",
+        "subject": "卫报气候专题（限定 ESG）",
+        "action": "发布",
+        "object": "Play about 12-year-old ecojustice influencer wins Shakespeare’s Globe prize",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "guardian-climate"
+    ],
+    "firstPublishedAt": "2026-11-27T15:30:14.000Z",
+    "latestPublishedAt": "2026-11-27T15:30:14.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-6bz1dn",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "卫报气候专题（限定 ESG）"
+    ]
+  },
+  {
+    "id": "story-13oqi4w",
+    "rootId": "src-bemap8",
+    "title": "‘Sinking’ African megacities will expose seven million people to flooding by 2050",
+    "digest": "Sinking land and rising seas could expose more than seven million people living in Africa’s coastal “megacities” to flooding by… The post ‘Sinking’ African megacities will expose seven million people to flooding by 2050 appeared first on Carbon Brief .",
+    "latest": "Sinking land and rising seas could expose more than seven million people living in Africa’s coastal “megacities” to flooding by… The post ‘Sinking’ African megacities will expose seven million people to flooding by 2050 appeared first on Carbon Brief .",
+    "memberIds": [
+      "src-bemap8"
+    ],
+    "facts": [
+      {
+        "title": "‘Sinking’ African megacities w",
+        "subject": "Carbon Brief",
+        "action": "发布",
+        "object": "‘Sinking’ African megacities will expose seven million people to flooding by 205",
+        "occurredAt": "2026-11-27"
+      }
+    ],
+    "participants": [
+      "carbon-brief"
+    ],
+    "firstPublishedAt": "2026-11-27T19:00:00.000Z",
+    "latestPublishedAt": "2026-11-27T19:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-bemap8",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "Carbon Brief"
+    ]
+  },
+  {
+    "id": "story-pb7sw0",
+    "rootId": "src-sr1p7o",
+    "title": "源清流清乾坤朗——我国网络生态治理向纵深推进述评",
+    "digest": "源清流清乾坤朗——我国网络生态治理向纵深推进述评",
+    "latest": "源清流清乾坤朗——我国网络生态治理向纵深推进述评",
+    "memberIds": [
+      "src-sr1p7o"
+    ],
+    "facts": [
+      {
+        "title": "源清流清乾坤朗——我国网络生态治理向纵深推进述评",
+        "subject": "中央网信办政策与要闻",
+        "action": "发布",
+        "object": "源清流清乾坤朗——我国网络生态治理向纵深推进述评",
+        "occurredAt": "2026-11-28"
+      }
+    ],
+    "participants": [
+      "cac-policy"
+    ],
+    "firstPublishedAt": "2026-11-28T00:00:00.000Z",
+    "latestPublishedAt": "2026-11-28T00:00:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-sr1p7o",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "中央网信办政策与要闻"
+    ]
+  },
+  {
+    "id": "story-fmkelo",
+    "rootId": "src-1u1ouom",
+    "title": "不再只做“资金通道”！香港财库局陈浩濂：让每一分资金落到产业升级实处-证券之星 - 证券之星",
+    "digest": "不再只做“资金通道”！",
+    "latest": "不再只做“资金通道”！",
+    "memberIds": [
+      "src-1u1ouom"
+    ],
+    "facts": [
+      {
+        "title": "不再只做“资金通道”！香港财库局陈浩濂：让每一分资金落到产业",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "不再只做“资金通道”！香港财库局陈浩濂：让每一分资金落到产业升级实处-证券之星 - 证券之星",
+        "occurredAt": "2026-11-28"
+      }
+    ],
+    "participants": [
+      "nfra-news"
+    ],
+    "firstPublishedAt": "2026-11-28T07:15:00.000Z",
+    "latestPublishedAt": "2026-11-28T07:15:00.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-1u1ouom",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "金融监管总局通知公告"
+    ]
+  },
+  {
+    "id": "story-11ww3c",
+    "rootId": "src-bics6h",
+    "title": "香港财库局陈浩濂：今年首10个月共121只新股在港上市集资总额同比上升超80%_滚动新闻 - 证券之星",
+    "digest": "香港财库局陈浩濂：今年首10个月共121只新股在港上市集资总额同比上升超80%_滚动新闻    证券之星",
+    "latest": "香港财库局陈浩濂：今年首10个月共121只新股在港上市集资总额同比上升超80%_滚动新闻    证券之星",
+    "memberIds": [
+      "src-bics6h"
+    ],
+    "facts": [
+      {
+        "title": "香港财库局陈浩濂：今年首10个月共121只新股在港上市集资总",
+        "subject": "金融监管总局通知公告",
+        "action": "发布",
+        "object": "香港财库局陈浩濂：今年首10个月共121只新股在港上市集资总额同比上升超80%_滚动新闻 - 证券之星",
+        "occurredAt": "2026-11-28"
+      }
+    ],
+    "participants": [
+      "nfra-news"
+    ],
+    "firstPublishedAt": "2026-11-28T07:31:37.000Z",
+    "latestPublishedAt": "2026-11-28T07:31:37.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-bics6h",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "金融监管总局通知公告"
+    ]
+  },
+  {
+    "id": "story-bp85od",
+    "rootId": "src-d6w8bu",
+    "title": "How can we implement ESG without overwhelming Vietnamese businesses? - Vietnam.vn",
+    "digest": "How can we implement ESG without overwhelming Vietnamese businesses?",
+    "latest": "How can we implement ESG without overwhelming Vietnamese businesses?",
+    "memberIds": [
+      "src-d6w8bu"
+    ],
+    "facts": [
+      {
+        "title": "How can we implement ESG witho",
+        "subject": "普华永道（PwC）ESG 洞察",
+        "action": "发布",
+        "object": "How can we implement ESG without overwhelming Vietnamese businesses? - Vietnam.v",
+        "occurredAt": "2026-11-28"
+      }
+    ],
+    "participants": [
+      "pwc-esg"
+    ],
+    "firstPublishedAt": "2026-11-28T09:32:58.000Z",
+    "latestPublishedAt": "2026-11-28T09:32:58.000Z",
+    "heat": 0,
+    "relations": [
+      {
+        "memberId": "src-d6w8bu",
+        "relation": "SAME_OCCURRENCE",
+        "confidence": 1
+      }
+    ],
+    "heat6hAgo": 0,
+    "trend": "unknown",
+    "trendPct": null,
+    "badges": [],
+    "signalCount": 0,
+    "sourceNames": [
+      "普华永道（PwC）ESG 洞察"
     ]
   }
 ]
